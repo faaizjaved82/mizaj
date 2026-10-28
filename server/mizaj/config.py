@@ -37,6 +37,16 @@ def _load_dotenv() -> None:
 _load_dotenv()
 
 
+def _pairs(raw: str) -> dict[str, str]:
+    """Parse "key=value,key=value" (values may contain "=", e.g. URLs with query strings)."""
+    out = {}
+    for part in raw.split(","):
+        if "=" in part:
+            k, v = part.split("=", 1)
+            out[k.strip()] = v.strip()
+    return out
+
+
 @dataclass
 class Settings:
     site_url: str = field(default_factory=lambda: _env("SITE_URL", "https://mizaj.pk").rstrip("/"))
@@ -87,6 +97,13 @@ class Settings:
     lemonsqueezy_webhook_secret: str = field(default_factory=lambda: _env("LEMONSQUEEZY_WEBHOOK_SECRET"))
     lemonsqueezy_links: str = field(default_factory=lambda: _env("LEMONSQUEEZY_LINKS"))  # product=url,product=url
 
+    # International cards via Gumroad (merchant of record, pays out to a Pakistani bank). Preferred over
+    # Lemon Squeezy when set. The Ping URL is /api/webhooks/gumroad/<GUMROAD_PING_SECRET>.
+    gumroad_links: str = field(default_factory=lambda: _env("GUMROAD_LINKS"))  # product=url,product=url
+    gumroad_seller_id: str = field(default_factory=lambda: _env("GUMROAD_SELLER_ID"))
+    gumroad_access_token: str = field(default_factory=lambda: _env("GUMROAD_ACCESS_TOKEN"))
+    gumroad_ping_secret: str = field(default_factory=lambda: _env("GUMROAD_PING_SECRET"))
+
     # Analytics / ads pixels (optional)
     umami_id: str = field(default_factory=lambda: _env("PUBLIC_UMAMI_ID"))
     umami_src: str = field(default_factory=lambda: _env("PUBLIC_UMAMI_SRC"))
@@ -100,12 +117,7 @@ class Settings:
 
     @property
     def socials(self) -> dict[str, str]:
-        out = {}
-        for part in self.socials_raw.split(","):
-            if "=" in part:
-                k, v = part.split("=", 1)
-                out[k.strip()] = v.strip()
-        return out
+        return _pairs(self.socials_raw)
 
     @property
     def db_path(self) -> Path:
@@ -121,12 +133,16 @@ class Settings:
 
     @property
     def ls_links(self) -> dict[str, str]:
-        out = {}
-        for part in self.lemonsqueezy_links.split(","):
-            if "=" in part:
-                k, v = part.split("=", 1)
-                out[k.strip()] = v.strip()
-        return out
+        return _pairs(self.lemonsqueezy_links)
+
+    @property
+    def gr_links(self) -> dict[str, str]:
+        return _pairs(self.gumroad_links)
+
+    @property
+    def has_gumroad_ping(self) -> bool:
+        """The Ping webhook only listens once both its path secret and the seller id are set."""
+        return bool(self.gumroad_ping_secret and self.gumroad_seller_id)
 
     def manual_methods(self) -> list[dict]:
         """Zero-fee methods, cheapest and most instant first (Raast), then wallets."""

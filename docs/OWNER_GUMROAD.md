@@ -27,6 +27,8 @@ Leave the content empty (the report unlocks on mizaj.pk, not on Gumroad); in the
 | Complete Mizaj Bundle | $24 | `mizaj-bundle` |
 
 Turn on "Allow customers to choose a quantity: off" and set refunds to match our 7-day promise.
+Leave purchasing-power-parity pricing and offer codes off for now: a sale below the listed USD price does not
+unlock automatically (you get a Telegram alert with an "Unlock anyway" button instead).
 
 ## 3. Send claude-server three things (never paste them in GitHub or chat logs)
 - the 5 product links,
@@ -34,6 +36,7 @@ Turn on "Allow customers to choose a quantity: off" and set refunds to match our
   "Generate access token"),
 - your Gumroad **seller id** (shown in the Ping settings).
 
-`claude-server` puts them in `/opt/mizaj/.env` once task T33 (the automatic unlock) is merged. Until then the
+`claude-server` puts them in `/opt/mizaj/.env` once task T33 (the automatic unlock) is merged, and sends you back
+the Ping URL to paste in Settings → Advanced → Ping (it contains a secret, so keep it private too). Until then the
 checkout shows overseas visitors a "get a payment link on WhatsApp" button, and you can send them a product link
 by hand and unlock their report with a code from the admin page.

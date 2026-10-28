@@ -12,6 +12,7 @@ from datetime import date
 from typing import Any
 
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
+from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -107,7 +108,7 @@ def _clip(v: Any, n: int) -> str:
 @app.get("/api/health")
 def health():
     db.q1("SELECT 1")
-    return {"ok": True, "ai": settings.has_ai, "safepay": settings.has_safepay}
+    return {"ok": True, "ai": settings.has_ai, "safepay": settings.has_safepay, "gumroad": settings.has_gumroad_ping}
 
 
 @app.get("/api/stats/public")
@@ -403,6 +404,24 @@ async def ls_webhook(request: Request):
     return {"ok": True}
 
 
+@app.post("/api/webhooks/gumroad/{secret}")
+async def gumroad_webhook(secret: str, request: Request):
+    """Gumroad Ping (Settings → Advanced → Ping). Form-encoded: url_params arrive as "url_params[order_id]"."""
+    ping: Any = {}
+    if request.headers.get("content-type", "").startswith("application/json"):
+        try:
+            ping = await request.json()
+        except ValueError:
+            pass
+    else:
+        ping = dict((await request.form()).items())
+    # sync: it may call Gumroad's API, which must not block the event loop
+    status = await run_in_threadpool(payments.gumroad_ping, secret, ping if isinstance(ping, dict) else {})
+    if status == 404:
+        raise HTTPException(404, "Not found.")
+    return JSONResponse({"ok": status == 200}, status_code=status)
+
+
 # ---------- dynamic pages ----------
 
 @app.get("/p/{pid}", response_class=HTMLResponse)
@@ -471,7 +490,7 @@ def order_page(oid: str, request: Request):
     db.log_event("checkout_view", order["profile_id"], props={"product": order["product"]})
     return page(render("order.html", order=order, product=content.product(order["product"]), profile=dict(prof),
                        methods=settings.manual_methods(), card=settings.has_safepay,
-                       usd_link=payments.lemonsqueezy_url(order), title="Checkout", noindex=True,
+                       usd_link=payments.gumroad_url(order) or payments.lemonsqueezy_url(order), title="Checkout", noindex=True,
                        request_card_failed=request.query_params.get("card") == "failed"))
 
 

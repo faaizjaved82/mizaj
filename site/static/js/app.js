@@ -477,6 +477,10 @@
       }, 6000);
     };
     if (status === "proof") poll();
+    // USD checkout (Gumroad / Lemon Squeezy) unlocks by webhook: keep checking so the page opens the
+    // report when the buyer comes back (back button restores this page with the timer running).
+    const usd = $("[data-usd-pay]", root);
+    if (usd) usd.addEventListener("click", () => { track("pay_method", { method: "usd" }); poll(); });
     $$("[data-method-tab]", root).forEach((t) => t.addEventListener("click", () => {
       $$("[data-method-tab]", root).forEach((x) => x.classList.toggle("on", x === t));
       $$("[data-method]", root).forEach((p) => p.classList.toggle("hidden", p.dataset.method !== t.dataset.methodTab));

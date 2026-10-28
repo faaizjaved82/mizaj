@@ -24,7 +24,7 @@ and their handoff in `docs/handoff/`.
 python3 -m venv .venv && . .venv/bin/activate
 pip install -e server -e social pytest
 python build.py                       # builds dist/
-cd server && python -m pytest -q      # 28 tests
+cd server && python -m pytest -q      # 42 tests
 uvicorn mizaj.api:app --port 8300     # serves API + dist/ at http://127.0.0.1:8300
 node tools/e2e.cjs http://127.0.0.1:8300 /tmp/shots <ADMIN_TOKEN>   # browser test (needs Playwright)
 python tools/render_social.py         # render social/plan/launch30.json into slides + queue

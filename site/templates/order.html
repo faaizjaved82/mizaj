@@ -65,7 +65,7 @@
       <b>🌍 Card, Apple Pay, Google Pay or PayPal</b>
       {% if usd_link %}
       <p class="small muted" style="margin:4px 0 10px">Pay in your own currency from the UK, US, Canada, the Gulf or anywhere else. Instant unlock.</p>
-      <a class="btn btn-block" href="{{ usd_link }}">Pay ${{ product.usd }} securely</a>
+      <a class="btn btn-block" href="{{ usd_link }}" data-usd-pay>Pay ${{ product.usd }} securely</a>
       {% else %}
       <p class="small muted" style="margin:4px 0 10px">International card checkout is opening very soon. Outside Pakistan today? Message us and we'll send you a secure payment link.</p>
       {% if support_whatsapp %}<a class="btn btn-ghost btn-block" target="_blank" rel="noopener" href="https://wa.me/{{ support_whatsapp }}?text={{ ('Hi, I would like to pay for order ' ~ order.id ~ ' from outside Pakistan')|urlencode }}">Get a payment link on WhatsApp</a>{% endif %}

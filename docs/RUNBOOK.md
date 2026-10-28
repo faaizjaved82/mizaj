@@ -46,9 +46,24 @@ The integration follows Safepay's documented hosted checkout (init order, redire
 tracker); if their current API differs, ask Claude on the server: "adapt server/mizaj/payments.py to Safepay's
 current docs and test in sandbox". PayFast is the alternative with lower published fees (Raast QR 0.6%).
 
-**Diaspora (USD):** create a Lemon Squeezy store, one product per report at the USD prices in
-`content/products.json`, add a webhook to `https://mizaj.pk/api/webhooks/lemonsqueezy` (event `order_created`),
-and set `LEMONSQUEEZY_LINKS` and `LEMONSQUEEZY_WEBHOOK_SECRET`. Check first that they can pay out to you.
+**Gumroad (international cards in USD, the preferred overseas checkout):** the owner creates the five products in
+`docs/OWNER_GUMROAD.md`. On the server set `GUMROAD_LINKS` (`full=https://….gumroad.com/l/mizaj-full,career=…`),
+`GUMROAD_SELLER_ID`, `GUMROAD_ACCESS_TOKEN` and `GUMROAD_PING_SECRET` (make one with `openssl rand -hex 24`), restart,
+and check `curl localhost:8200/api/health` shows `"gumroad": true`. Then paste this into Gumroad, Settings → Advanced
+→ Ping: `https://mizaj.pk/api/webhooks/gumroad/<GUMROAD_PING_SECRET>`. The checkout button sends the buyer to the
+product with `?order_id=…`; Gumroad pings back after the sale and the report unlocks once the secret, seller id,
+product, price (at least the `usd` price), "not refunded" and, with the token, Gumroad's own API all agree. Anything
+else (a sale with no Mizaj order, an offer code or purchasing-power-parity discount that lowers the price, a second
+payment) is not unlocked: you get a Telegram alert, with an "Unlock anyway" button when there is an order. Keep the
+secret out of chats and GitHub; if it leaks, change it in `.env` and in Gumroad. To test, buy a product while logged in
+to Gumroad as yourself: the ping is marked as a test, the order unlocks, and Telegram offers a button to reject it so
+it doesn't count as revenue. Gumroad's "Send test ping" button only proves the URL works (it has no order, so you
+get a "no matching Mizaj order" alert). Refunds: refund in Gumroad, then reject the order in `/admin`.
+
+**Lemon Squeezy (fallback for any product without a Gumroad link):** create a Lemon Squeezy store, one product per
+report at the USD prices in `content/products.json`, add a webhook to `https://mizaj.pk/api/webhooks/lemonsqueezy`
+(event `order_created`), and set `LEMONSQUEEZY_LINKS` and `LEMONSQUEEZY_WEBHOOK_SECRET`. Lemon Squeezy is moving to
+Stripe Managed Payments, which does not pay out to Pakistan, so check payouts first.
 
 **Refunds:** refund to the account the buyer paid from, then in `/admin` reject the order (locks the report).
 

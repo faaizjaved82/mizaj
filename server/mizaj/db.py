@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS orders (
   id TEXT PRIMARY KEY,
   profile_id TEXT NOT NULL, pair_id TEXT,
   product TEXT NOT NULL, amount INTEGER NOT NULL, currency TEXT NOT NULL DEFAULT 'PKR',
-  method TEXT,                      -- jazzcash | easypaisa | bank | safepay | lemonsqueezy | code
+  method TEXT,                      -- jazzcash | easypaisa | bank | safepay | gumroad | lemonsqueezy | code
   status TEXT NOT NULL,             -- created | proof | paid | rejected | refunded
   tid TEXT, sender TEXT, coupon TEXT, gateway_ref TEXT, note TEXT,
   email TEXT, phone TEXT,
