@@ -1,0 +1,305 @@
+{
+  "task": "T21",
+  "date": "2026-10-28",
+  "method": "ChatGPT built-in image generation",
+  "brief": "docs/handoff/ART_BRIEF.md",
+  "style_reference": "site/static/img/types/intj.webp",
+  "initial_reference_prompt": "Use case: illustration-story. Asset: INTJ personality character for Mizaj, a Pakistani self-discovery website; first image in a coherent set of magazine spot illustrations. Create a square 1024x1024 flat editorial illustration with soft subtle paper grain, rounded gentle shapes and subtle shadows, sophisticated, warm and witty, never childish, no 3D or photorealism. Solid warm cream #FBF6EE backdrop, subject centered with generous 10 percent clear margins, no frame. Subject: a contemporary young Pakistani man aged 25-30 with medium-brown skin, dark hair and friendly simple face, wearing modest deep purple kurta and trousers. He sits calmly at a desk considering a chessboard and an open planning notebook with BLANK unmarked pages; a chai cup nearby, an understated window with city lights. Pose thoughtful and quietly confident. Main accents Danishwar purple #6B4FA0 with ink #1B1530, small saffron #E8A33D and pomegranate #C8443A details; cream negative space. Include a subtle eight-pointed girih star motif on a cushion or window detail, as geometric decor only. The character is the dominant focal point, props simple and uncluttered. Absolutely no text, writing, letters, numbers, logos or watermarks anywhere, including notebook and signs. No flags, religious symbols, famous people, alcohol, weapons or romance. Original editorial character illustration; scene conveys a calm strategist.",
+  "primary_characters": {
+    "men": [
+      "intj",
+      "entj",
+      "infp",
+      "enfp",
+      "istj",
+      "estj",
+      "isfp",
+      "esfp"
+    ],
+    "women": [
+      "intp",
+      "entp",
+      "infj",
+      "enfj",
+      "isfj",
+      "esfj",
+      "istp",
+      "estp"
+    ]
+  },
+  "assets": [
+    {
+      "asset": "site/static/img/types/intj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 95580,
+      "quality": 88,
+      "sha256": "5bf59323b66e957acd4412966b341d8feea2b8520b44105c7d6b3fde08896c6e",
+      "generated_source": "exec-804a6a3f-1e4a-4253-bff3-7ec9a8ea387e.png",
+      "prompt": "Edit the reference illustration. Keep the seated Pakistani man, thoughtful pose, purple kurta, chessboard, blank planning notebook, chai and overall editorial palette and composition. Replace ONLY the distant skyline through the window: remove the domes and minarets and depict ordinary flat-roofed urban apartment buildings with rectangular rooftop water tanks and warm small windows. No religious buildings or symbols. Retain the geometric eight-pointed cushion motif. No text, logos or watermarks.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/intp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 114968,
+      "quality": 85,
+      "sha256": "a5d60d532422884a6a0fb6d4c78c96f79c278c95bc4999ffcc645ed572302f67",
+      "generated_source": "exec-286c0b02-885e-4ef6-9157-53cf3b5bd2d6.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct personality character, square 1024x1024. A young Pakistani woman with warm brown skin, short dark wavy hair and a lavender kurta with trousers, reclining thoughtfully on a charpai with open books and blank abstract diagram sketches, a late-night reading lamp. Thoughtful curious expression; Danishwar purple #6B4FA0. Books and sketches contain no letters, numbers or writing. Keep the character central with 10 percent margin. Subtle eight-pointed geometric star on a small textile only if natural. No domes, minarets, religious architecture or symbols. Do not copy the reference man's face or scene; match only its coherent illustration style.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/entj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 108590,
+      "quality": 82,
+      "sha256": "53a7e683613fec1cbdc71f2a63a7806de33756b23009602ffa11c0d54203442c",
+      "generated_source": "exec-5f448a0c-3985-42b8-9a63-13b9bf804db7.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct personality character, square 1024x1024. A young Pakistani man with deep brown skin and neatly swept dark hair, modest dark purple kurta and waistcoat, confidently coordinating a busy family shaadi planning table. He holds a clipboard with blank checkboxes but NO marks or writing. Two adult relatives listen, decorative strings and flowers on the table; Danishwar purple #6B4FA0. He is the dominant figure, friendly and decisive, no military styling or weapons. Keep the character central with 10 percent margin. Subtle eight-pointed geometric star on a small textile only if natural. No domes, minarets, religious architecture or symbols. Do not copy the reference man's face or scene; match only its coherent illustration style.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/entp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 115898,
+      "quality": 88,
+      "sha256": "fec94b35350b5375d8beaac1113b71578e5edeb11686e38e99c9b5811b66d42d",
+      "generated_source": "exec-63ff192d-9dce-46cf-b680-e1c6d917ed78.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct personality character, square 1024x1024. A young Pakistani woman with medium tan skin and dark hair tied back, a modest purple kurta, dupatta and trousers, grinning during a lively friendly debate at a plain dhaba chai table. Open expressive hand gesture, two adult friends amused and laughing in the background. Danishwar purple #6B4FA0. Blank shop background with no signs or lettering. Emphasize witty good humour. Keep the character central with 10 percent margin. Subtle eight-pointed geometric star on a small textile only if natural. No domes, minarets, religious architecture or symbols. Do not copy the reference man's face or scene; match only its coherent illustration style.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/infj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 108254,
+      "quality": 85,
+      "sha256": "814fc338e297f0b6167224a388a287300fd5df11aecca8ff9f40bea26c57a090",
+      "generated_source": "exec-97f3c565-ed14-4f36-a7d4-f3227ffacb02.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct personality character, square 1024x1024. A young Pakistani woman with medium-brown skin, long dark hair loosely tied back, modest green kurta and soft shawl, seated quietly by a simple rectangular window at dusk with a blank journal. A soft unfocused family gathering behind her; she observes warmly with perceptive calm. Ahl-e-Dil green #2E8A6A. Window shows only plain trees and sky, no skyline or religious architecture. Keep the character central with 10 percent margin. Subtle eight-pointed geometric star on a small textile only if natural. No domes, minarets, religious architecture or symbols. Do not copy the reference man's face or scene; match only its coherent illustration style.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/infp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 119812,
+      "quality": 85,
+      "sha256": "14898645fb27561f804f3194366e4046e5ee074785ad336a8af30bb0cf4fd15d",
+      "generated_source": "exec-3a964c87-a16b-453f-86ca-853e36b95586.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct personality character, square 1024x1024. A young Pakistani man with warm wheat-brown skin, dark slightly curly hair, modest green kurta and trousers, writing thoughtfully in a blank notebook under a leafy tree. Dried flowers and headphones nearby, gentle dreamy smile. Ahl-e-Dil green #2E8A6A. Notebook contains absolutely no visible writing; peaceful editorial spot scene. Keep the character central with 10 percent margin. Subtle eight-pointed geometric star on a small textile only if natural. No domes, minarets, religious architecture or symbols. Do not copy the reference man's face or scene; match only its coherent illustration style.",
+      "refinement_prompt": "Change only the main man's character design: young Pakistani adult aged 24 with light warm brown skin, straight dark hair to the ears with a gentle side part, thin round spectacles and a clean-shaven narrow face. Keep him masculine, thoughtful and friendly. Preserve his green kurta, calm writing pose, hands, tree, blank notebook, dried flowers, headphones, all other objects and the exact editorial illustration style and cream palette. Absolutely no writing on notebook or glasses, no symbols or logos."
+    },
+    {
+      "asset": "site/static/img/types/enfj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 107084,
+      "quality": 88,
+      "sha256": "1f2d97e35fb21a1f97871189d13dc68b1c60bb5fcf455dc293e56155e6dd68a0",
+      "generated_source": "exec-67cf83ae-dcbd-464d-9915-e2c5bce6c942.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct character illustration, square 1024x1024. A young Pakistani woman with deep brown skin, braided dark hair and a modest emerald kurta and dupatta, encouraging younger school-age cousins at a study table before exams, smiling and pointing supportively to a blank notebook. Ahl-e-Dil green #2E8A6A. Children modestly clothed, a caring family study scene, papers and books completely unmarked. She is the dominant adult character. Central dominant subject with 10 percent breathing room. A subtle eight-pointed girih star textile detail where natural. No religious architecture, flags, text or symbols. Match the reference illustration style and warm cream field, not its person or scene.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/enfp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 111396,
+      "quality": 88,
+      "sha256": "5f11d541f91a8c3fd30997c58ee0f44110e0e40a0dbc8aca7f7cdbd319aa9aa1",
+      "generated_source": "exec-1cd4262c-0d9e-497f-8cbd-78c6947c93a8.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct character illustration, square 1024x1024. A young Pakistani man with medium tan skin and longish dark hair, modest green kurta and trousers with casually rolled sleeves, colourful paint on his hands and a delighted imaginative expression. A blank smartphone and simple jars of paint, a cheerful colour-blocked rickshaw in the background with absolutely NO signs, numbers, decoration resembling letters or license plate. Ahl-e-Dil green #2E8A6A with saffron and pomegranate accents. Central dominant subject with 10 percent breathing room. A subtle eight-pointed girih star textile detail where natural. No religious architecture, flags, text or symbols. Match the reference illustration style and warm cream field, not its person or scene.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/istj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 89500,
+      "quality": 88,
+      "sha256": "ea25e640c29e1d1f235436baf05d423da87adbe434c1085ac7361406591abf5f",
+      "generated_source": "exec-63db45fd-0257-43e9-a2d1-c9bace12e2b3.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct character illustration, square 1024x1024. A young Pakistani man with dark brown skin, short neat black hair, modest blue kurta and trousers, calmly organising plain blue document folders and small blank passport-photo sleeves at a tidy home desk. Pasban blue #2F6DB0. Show organisation through orderly colour blocks and empty label tabs only, absolutely no writing, letters, numbers, actual ID details or faces on documents. Central dominant subject with 10 percent breathing room. A subtle eight-pointed girih star textile detail where natural. No religious architecture, flags, text or symbols. Match the reference illustration style and warm cream field, not its person or scene.",
+      "refinement_prompt": "Change only the main man's character design: give him a distinctly deep rich brown skin tone, short neatly cropped straight black hair, a clean-shaven broader oval face and a slightly different friendly nose shape. He is a young adult Pakistani man aged 28. Keep his modest blue kurta, pose, hands, organised blank folders, all props, geometric textile, cream background and the exact editorial illustration style unchanged. Keep every label and card blank. No text or symbols."
+    },
+    {
+      "asset": "site/static/img/types/isfj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 115914,
+      "quality": 88,
+      "sha256": "131398bd03dc61eb5c66e8278929a49cb83782d2e664a52f7f63c3633fdb0dbf",
+      "generated_source": "exec-5a404443-8ed0-4989-8477-6f7106edf8ac.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct character illustration, square 1024x1024. A young Pakistani woman with medium-brown skin, dark hair and a modest blue kurta with cream dupatta, warmly bringing a chai tray and a small unbranded first-aid box to a seated older relative in a cosy home. Pasban blue #2F6DB0. Everyday care, no medical procedure, no cross symbols, no visible writing on any packaging, plenty of cream background. Central dominant subject with 10 percent breathing room. A subtle eight-pointed girih star textile detail where natural. No religious architecture, flags, text or symbols. Match the reference illustration style and warm cream field, not its person or scene.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/estj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 119440,
+      "quality": 88,
+      "sha256": "519570c96e0ce35c9e0a26d00844472fecb6fb16ac32e44f82854da306178e8d",
+      "generated_source": "exec-5ad08e20-421f-43ec-9a55-479834fef1ef.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new distinct character illustration, square 1024x1024. A young Pakistani man with warm wheat-brown skin and neat dark hair, modest blue kurta and waistcoat, efficiently coordinating a family mehndi setup. Blank checklist on a clipboard, plain strings of lights being hung by adult relatives and marigold flowers, friendly purposeful expression. Pasban blue #2F6DB0. No wedding text, signs or numbers; no military elements. Central dominant subject with 10 percent breathing room. A subtle eight-pointed girih star textile detail where natural. No religious architecture, flags, text or symbols. Match the reference illustration style and warm cream field, not its person or scene.",
+      "refinement_prompt": "Change only the central young Pakistani man's face and hair to make a distinct character: light wheat-brown skin, straight neat side-parted dark hair, a clean-shaven angular face and simple rectangular glasses. Age 30. Keep blue kurta and waistcoat, clipboard, pose, hands, marigolds, background relatives, cream field and every other part of the original scene and illustration style unchanged. All paper stays blank; no letters, numbers or logos."
+    },
+    {
+      "asset": "site/static/img/types/esfj.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 89146,
+      "quality": 88,
+      "sha256": "b28c9f710414bfbcce432aaec3ac231950929a3a2151f34122fc0e595cf6726f",
+      "generated_source": "exec-ac864ec0-d814-4caa-82ac-eb3d8aa6415e.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new original personality character scene, square 1024x1024. A young Pakistani woman with warm light-brown skin, dark hair in a low bun, a modest blue kurta and cream dupatta, welcoming adult family guests through a home doorway with a laden tray of chai cups and snacks. Pasban blue #2F6DB0. Hospitable warm smile, cosy living room, no signs or lettering. Dominant central character, warm cream field, subject with breathing room. Match the reference's editorial drawing style, warmth and grain only; use this new scene, character and family palette. No text anywhere.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/istp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 110858,
+      "quality": 85,
+      "sha256": "caafe964d26d70dbbbf9f675362ddd5a68be2e84e99326c8221e4b485ef694e5",
+      "generated_source": "exec-6921572f-3652-4cb1-97f2-e3c6684153c6.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new original personality character scene, square 1024x1024. A young Pakistani woman with deep brown skin and tied-back dark curly hair, practical modest amber kurta with trousers, calmly repairing a motorbike in a clean little courtyard, focused on a screwdriver and a simple tool kit neatly arranged nearby. Fankar amber #D98C2B. No manufacturer logos, brand marks, numbers or license plates. Tools and motorbike anatomically plausible, friendly focused expression. Dominant central character, warm cream field, subject with breathing room. Match the reference's editorial drawing style, warmth and grain only; use this new scene, character and family palette. No text anywhere.",
+      "refinement_prompt": "Change only the main young Pakistani woman's appearance: distinctly deep rich brown skin and a rounder friendly face, dark tightly curly hair secured in a practical high bun. Age 26. Preserve her modest amber kurta, trousers, focused expression, pose, hands and tool placement, motorcycle, courtyard, cream field and exact editorial painting style. No logos, labels, letters, numbers or symbols anywhere."
+    },
+    {
+      "asset": "site/static/img/types/isfp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 118524,
+      "quality": 88,
+      "sha256": "f444ce966711c8174cb8845eac564dc184ced3b5cb52410c3d87db1de5acde04",
+      "generated_source": "exec-6236e319-7f56-46f1-ab54-8302bbc04996.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new original personality character scene, square 1024x1024. A young Pakistani man with medium-brown skin and gently wavy dark hair, modest amber kurta and trousers, carefully arranging marigolds, flowers and fabric swatches at a low table, a plain camera nearby and soft afternoon light. Fankar amber #D98C2B. Quiet artistic attention, no logos or text. Include a subtle girih motif on a textile. Dominant central character, warm cream field, subject with breathing room. Match the reference's editorial drawing style, warmth and grain only; use this new scene, character and family palette. No text anywhere.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/estp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 118104,
+      "quality": 88,
+      "sha256": "4065a719bb54d7ac0b19a8a9c7580e53ef778d1fc1b9e351fbde053bac50603c",
+      "generated_source": "exec-a111f5d6-c1e3-4957-a99b-79b0aaadcb26.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new original personality character scene, square 1024x1024. A young Pakistani woman with warm brown skin and dark hair tied in a braid, modest amber kurta with loose trousers and secure shawl, playing a vigorous cricket batting shot in a friendly street match. Adult friends in the background, dust and movement, a plain cricket bat and unmarked ball, Fankar amber #D98C2B. Ordinary flat-roofed houses, no signs, lettering, license plates or flags. Sports scene, no stereotypes. Dominant central character, warm cream field, subject with breathing room. Match the reference's editorial drawing style, warmth and grain only; use this new scene, character and family palette. No text anywhere.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/types/esfp.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 117584,
+      "quality": 88,
+      "sha256": "43a97ce6509be66922122eae8d2942c6741c88d85879be3410359eed9a46f1e8",
+      "generated_source": "exec-78e0cf3c-51a6-46b0-9dc4-620d88310777.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a new original personality character scene, square 1024x1024. A young Pakistani man with medium tan skin and lively dark curls, modest amber kurta and trousers, leading a joyous family dholki dance with a relaxed confident smile. A plain dhol, strings of lights, adult relatives clapping in the background. Fankar amber #D98C2B. Friendly family celebration, no romantic pose, no bride or groom, no wedding signs, logos, alcohol, flags or religious symbols. Dominant central character, warm cream field, subject with breathing room. Match the reference's editorial drawing style, warmth and grain only; use this new scene, character and family palette. No text anywhere.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/mizaj/damvi.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 99320,
+      "quality": 88,
+      "sha256": "fc2a6c38bdbc274a4dfc47909366aba00dfff15f1ddf3791752839becb09d6bf",
+      "generated_source": "exec-7f92c085-2885-4336-ae99-519289942393.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create an original square 1024x1024 STILL LIFE with NO PEOPLE, hands, faces or silhouettes. Damvi: warm and moist, air, spring. Ripe whole and cut pomegranates, rose petals drifting gently in a spring breeze, a softly billowing light cream curtain, subtle curved lines suggesting air, no writing. Main accent Damvi red #D2544A, muted pink and fresh green supporting colours. Simple balanced tabletop composition with lots of cream negative space. Match the illustration style of the reference without copying its room, person or furniture.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/mizaj/safravi.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 112336,
+      "quality": 88,
+      "sha256": "accedc8c40ea46655e8840f9e7f6828e8f0c1748ec42307abf6874885497a568",
+      "generated_source": "exec-0e005c95-08b9-492a-b4be-5a563c1e2dd1.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create an original square 1024x1024 STILL LIFE with NO PEOPLE, hands, faces or silhouettes. Safravi: warm and dry, fire, summer. A very small plain clay lamp flame with no ritual setting, saffron threads and turmeric on a saucer, red chillies on a plain cloth, a warm abstract summer sun. Main accent Safravi gold #E39B2D. Flat editorial spot composition, no sacred or religious symbols. Simple balanced tabletop with generous cream negative space. Match illustration medium of reference, not its scene.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/mizaj/balghami.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 110448,
+      "quality": 85,
+      "sha256": "6f7d1ea78ccd78a0184243831fc619dd12c153e9f295eae1bb0c6d278aa5895f",
+      "generated_source": "exec-e9fd5ebe-7a24-46bc-97d6-49eafddff3db.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a square 1024x1024 STILL LIFE, absolutely no people, hands or faces. Balghami: cool and moist, water and winter. A clay matka with delicate condensation, a shallow stream or bowl of flowing water, fresh cucumber slices, and rain against a plain window. Main accent muted teal #2E8A8A, ink and cream with natural clay tones. Peaceful cool atmosphere, clearly illustrated rather than photoreal. No writing, labels, numbers or symbols. Simple centered composition with ample cream margin. Match the illustration medium of the reference, not its specific scene. Do not reproduce its solitary man or chessboard.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/mizaj/saudavi.webp",
+      "size": [
+        800,
+        800
+      ],
+      "bytes": 107798,
+      "quality": 85,
+      "sha256": "097c1c013a5d8c0fa6afbceae4a559db2f06e18aa1828dc1ea26a63f430ae521",
+      "generated_source": "exec-bcf4e1a4-8945-4faf-821f-1a7cd729e6c3.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a square 1024x1024 STILL LIFE, absolutely no people, hands or faces. Saudavi: cool and dry, earth and autumn. A plain clay pot, dates and almonds arranged on a simple cloth, gentle distant mountains, falling autumn leaves. Main accent dusty purple #5A4A78 with earth browns and warm cream negative space. Grounded calm editorial illustration, not photoreal. A subtle eight-pointed geometric textile motif is welcome. No lettering, logos, labels, flags, religious or astrological symbols. Centered with generous margins. Match the illustration medium of the reference, not its specific scene. Do not reproduce its solitary man or chessboard.",
+      "refinement_prompt": null
+    },
+    {
+      "asset": "site/static/img/hero.webp",
+      "size": [
+        840,
+        840
+      ],
+      "bytes": 110088,
+      "quality": 85,
+      "sha256": "f61cf7e6c58c1da13b7e718f518e6a1f3e83df1e6b563ba2f70c665342e1e481",
+      "generated_source": "exec-6714fb0c-1fff-43e7-b407-3c599a0da83b.png",
+      "prompt": "Square flat editorial magazine illustration for Mizaj, soft subtle grain, gentle simplified shapes and subtle shadows, warm sophisticated Pakistani visual storytelling, not childish, not 3D, not photorealistic. Warm cream #FBF6EE background with generous margins, centered uncluttered scene, ink #1B1530 and small saffron #E8A33D and pomegranate #C8443A accents. Match the editorial illustration medium and rich warm palette of the reference, but depict ONLY the requested subject. Absolutely no text, letters, numbers, logos, watermark, flags or religious symbols. Create a square 1024x1024 homepage illustration: EXACTLY FOUR contemporary young Pakistani adults (two women and two men, ages 20-32, varied warm brown skin tones and distinct faces) around one chai table at home. One animated storyteller gesturing, one quiet thoughtful observer listening, one organised person carefully pouring chai, one laughing naturally. Modest everyday kurtas, dupattas, shawls and trousers; family-friendly friendship, no touching or romantic framing. Give one character each a purple #6B4FA0, green #2E8A6A, blue #2F6DB0 and amber #D98C2B clothing accent. On the cream wall, one modest eight-pointed-star girih tile pattern, no religious iconography. Exactly four adults total, no children, no additional background people. Plain chai cups, tea pot and snacks; no text, writing, logos, flags, religious buildings or symbols. Clear friendly faces and hands, warm sophisticated editorial drawing matching the reference. Center the group with cream margin around all sides; suitable for 840x840 final export. Match the illustration medium of the reference, not its specific scene. Do not reproduce its solitary man or chessboard.",
+      "refinement_prompt": null
+    }
+  ]
+}

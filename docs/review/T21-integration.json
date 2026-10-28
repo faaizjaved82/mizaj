@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/hero.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/intj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/intj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/intp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/intp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/entj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/entj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/entp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/entp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/infj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/infj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/infp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/infp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/enfj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/enfj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/enfp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/enfp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/istj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/istj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/isfj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/isfj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/estj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/estj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/esfj.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/esfj/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/istp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/istp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/isfp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/isfp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/estp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/estp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/types/esfp.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/types/esfp/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/mizaj/damvi.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/mizaj/damvi/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/mizaj/safravi.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/mizaj/safravi/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/mizaj/balghami.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/mizaj/balghami/",
+      "status": 200
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "art": [
+        {
+          "src": "/img/mizaj/saudavi.webp",
+          "loaded": true
+        }
+      ],
+      "url": "/mizaj/saudavi/",
+      "status": 200
+    }
+  ]
+}
