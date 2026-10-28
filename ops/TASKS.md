@@ -34,7 +34,7 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 
 | ID | Task | Owner | Status | Done when |
 | --- | --- | --- | --- | --- |
-| T21 | 16 type + 4 mizaj illustrations + home hero (`docs/handoff/ART_BRIEF.md`) | codex | todo | 21 WebP files merged, slides re-rendered |
+| T21 | 16 type + 4 mizaj illustrations + home hero (`docs/handoff/ART_BRIEF.md`) | codex | doing | 21 WebP files merged, slides re-rendered |
 | T22 | Independent security and correctness review of `server/mizaj/` | codex | todo | Fix PR with tests, or findings log |
 | T23 | More tests; e2e in CI | codex | todo | CI runs them in under 5 minutes |
 | T24 | Accessibility and speed on cheap Android phones | codex | todo | Lighthouse mobile ≥ 90 perf + a11y |
