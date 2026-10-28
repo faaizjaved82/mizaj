@@ -5,10 +5,19 @@
   "name_en": "The Life of the Party",
   "family": "Fankar",
   "emoji": "🥁",
-  "colors": ["#E84A8A", "#FFC93C"],
+  "colors": [
+    "#E84A8A",
+    "#FFC93C"
+  ],
   "tagline": "You don't just join the party. You're the reason there is one.",
-  "share_line": "I found the shy cousin at the mehndi and made it their best night.",
-  "keywords": ["Warm", "Spontaneous", "Generous", "Expressive", "Present"],
+  "share_line": "I found the shy cousin at the wedding and made it their best night.",
+  "keywords": [
+    "Warm",
+    "Spontaneous",
+    "Generous",
+    "Expressive",
+    "Present"
+  ],
   "rarity": "about 9% of people",
   "free": {
     "summary": "You light up rooms, but never by accident. You notice who arrived alone, who's sitting stiffly at the edge, which aunty needs her plate refilled and which cousin needs pulling into the dance. You live fully in the present and want everyone around you to do the same. Food, music, colour, laughter: you believe life is meant to be enjoyed together, and you're often the reason a gathering turns into a memory people bring up for years.\n\nPeople sometimes mistake your sparkle for lightness. They don't see the empathy underneath: the way you can tell a friend's mood from a single voice note, or the evenings you spend quietly sitting with someone who's grieving. Your phone is full of contacts like 'Bhai Wedding Decor' and 'Aunty Gym', and you remember every one of their stories. You're generous with your time, money and affection, surprisingly practical in a crisis, and fiercely loyal. You need warmth, appreciation and variety to thrive, and you hand out those same gifts without ever keeping score.",
@@ -95,8 +104,15 @@
       ],
       "family": "At home, you're often the family's emotional sunshine, the child who makes your mother laugh after a hard day and drags your father to the wedding he wanted to skip. But they may quietly worry about your seriousness: your grades, career focus or weekend spending. Big extended-family life suits you: the constant company, the cousins, the shared meals, though you can get pulled into everyone's dramas. You care about izzat in its warmest sense, making sure guests are honoured and nobody is left out. Among your siblings, you're the fun-maker, the event planner and the one who remembers everyone's birthday, even the in-laws' cousins.",
       "friendship": "Your circle is large and lively, and you're often the glue holding it together: organising the reunion, starting the group chat, planning the festival-eve run for mehndi and bangles. You make friends easily and keep them through warmth, not obligation. Your true inner circle, though, knows the version of you that gets tired and sad. Make sure you have at least two friends who check on you, not just ones you entertain.",
-      "best_matches": ["ISFJ", "ISTJ", "ESFJ"],
-      "growth_matches": ["INTJ", "INTP"]
+      "best_matches": [
+        "ISFJ",
+        "ISTJ",
+        "ESFJ"
+      ],
+      "growth_matches": [
+        "INTJ",
+        "INTP"
+      ]
     },
     "career": {
       "work_style": "You bring energy, warmth and adaptability to any team. You work best on varied, hands-on tasks that involve people and produce visible results: a delighted client, a smooth event, a patient who smiles again. You'd rather run the client workshop than write the report about it. You learn practical skills quickly and excel at improvising when plans fall apart. Collaborative teams suit you far better than solitary work, and frequent feedback keeps you motivated. Detailed documentation and long-range planning feel tedious, so you may postpone them. Pair up with detail-minded colleagues, use checklists, and remember that keeping a team's morale high is a genuine professional skill.",

@@ -5,10 +5,19 @@
   "name_en": "The Organizer",
   "family": "Pasban",
   "emoji": "📋",
-  "colors": ["#2E3440", "#E4572E"],
+  "colors": [
+    "#2E3440",
+    "#E4572E"
+  ],
   "tagline": "Everyone panics, then looks at you. You already have a list.",
-  "share_line": "I assigned everyone their wedding duties before the mehndi date was even final.",
-  "keywords": ["Decisive", "Organised", "Direct", "Responsible", "Driven"],
+  "share_line": "I assigned everyone their wedding duties before the date was even final.",
+  "keywords": [
+    "Decisive",
+    "Organised",
+    "Direct",
+    "Responsible",
+    "Driven"
+  ],
   "rarity": "about 9% of people",
   "free": {
     "summary": "Somebody has to make the decision, book the hall, chase the caterer and make sure the baraat doesn't leave without the sehra. That somebody is usually you. You see what needs to happen and who should do it, and you can't sit still while things drift. In school you were probably the class monitor; at family functions you are the unofficial event manager. Where others see chaos, you see a to-do list waiting to be written.\n\nYou believe in responsibility, fairness and doing things properly. You say what you think, keep your commitments and expect others to do the same, which makes you deeply trusted and occasionally feared. People call you bossy when they want things done slowly and call you first when they want them done right. Underneath the confident direction is someone who cares enormously about family, community and the people depending on you. You don't just want things to work. You want them to work for everyone, and you will stay up until they do.",
@@ -95,8 +104,15 @@
       ],
       "family": "Within the family you are often the manager, whether or not you are the eldest. You handle the paperwork for your parents' pension, coordinate family events and step in when siblings need direction, even across time zones. Parents lean on your competence and may seek your opinion on big decisions, from property to rishtas. You take izzat and family reputation seriously, sometimes too seriously, worrying how things will look to relatives. In a big extended family, you bring welcome order but may clash with elders whose systems differ from yours. Younger siblings get a dependable protector, though they may also feel bossed around. Try offering guidance as a question rather than a command.",
       "friendship": "Reunions happen because of you: you book the table, create the WhatsApp group and remind everyone of the time, twice. You are loyal and practical, and you show up when it matters: moving house, a family emergency, a job hunt. You value honesty and expect friends to keep their word. Some find you intense, but the good ones know that without you the group would never actually meet, and that your blunt advice has saved them from at least one bad decision.",
-      "best_matches": ["ISTJ", "ISFJ", "ISTP"],
-      "growth_matches": ["INFP", "ENFP"]
+      "best_matches": [
+        "ISTJ",
+        "ISFJ",
+        "ISTP"
+      ],
+      "growth_matches": [
+        "INFP",
+        "ENFP"
+      ]
     },
     "career": {
       "work_style": "You work with energy, structure and a sharp eye on results. You like clear goals, defined roles and measurable progress, and you take charge naturally when those are missing. You are efficient, decisive and excellent at coordination, the person who turns a vague initiative into a delivered project. You prefer proven methods and can grow impatient with endless brainstorming. You thrive where hard work is rewarded and impact is visible. Your growth area is flexibility: not every colleague works the way you do, and different approaches can still reach the same destination. Learn to manage outcomes, not methods, and your team will surprise you.",

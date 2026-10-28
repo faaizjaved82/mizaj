@@ -16,7 +16,8 @@ Slide kinds (fields):
   type {code, key?, text}                      a deck card on its aura, `text` as the caption
   mizaj {key, text}                            an element card on its aura
   grid {title, cells[{code|key, text}]}        up to 4 mini cards ("each type as...")
-  versus {title, a, b, a_text, b_text}         two elements or types side by side (a/b = mizaj key or type code)
+  versus {title, a, b, a_text, b_text, join?}  two elements or types side by side (a/b = mizaj key or type code;
+                                               join defaults to "vs", use "+" for a pairing)
   pick {title, subtitle?}                      four face-down cards: pause and pick
   cta {title, subtitle?}                       aura + fanned element cards + mizaj.pk
 """
@@ -110,7 +111,7 @@ def slide_html(s: dict, n: int, total: int, out: str, post_el: str) -> str:
         return (f'<div class="slide aura grain" style="{aura_style(el)}" data-out="{out}"><div class="note">{e(title)}</div>'
                 f'<div class="minis">{cells}</div>{foot(n, total)}</div>')
     if k == "versus":
-        inner = (f'{note}<div class="h2" style="text-align:center">{e(s["title"])}</div><div class="vs">{half(s["a"])}<div class="vs-x">vs</div>{half(s["b"])}</div>'
+        inner = (f'{note}<div class="h2" style="text-align:center">{e(s["title"])}</div><div class="vs">{half(s["a"])}<div class="vs-x">{e(s.get("join", "vs"))}</div>{half(s["b"])}</div>'
                  f'<div class="vs-text"><p>{e(s.get("a_text", ""))}</p><p>{e(s.get("b_text", ""))}</p></div>')
         return f'<div class="slide paper grain" data-out="{out}">{inner}{foot(n, total)}</div>'
     if k == "pick":
@@ -163,7 +164,7 @@ def render_post(p: dict) -> dict:
     for i, name in enumerate(names):
         target = f"ig-{i + 1:02d}.jpg"
         with Image.open(out_dir / name) as im:
-            im.crop((0, 45, 1080, 1395)).save(out_dir / target, quality=88)
+            im.crop((0, 45, 1080, 1395)).save(out_dir / target, quality=80)
         media.append(target)
     item = {k: p[k] for k in ("id", "day", "time", "pillar", "platforms", "title", "caption", "hashtags") if k in p}
     item.update({"tiktok_caption": p.get("tiktok_caption", ""), "audio_hint": p.get("audio_hint", ""),

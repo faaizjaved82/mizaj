@@ -13,7 +13,7 @@ const { resolve, join } = require("node:path");
   const els = await p.$$("[data-out]");
   for (const el of els) {
     const opts = { path: join(outdir, await el.getAttribute("data-out")), type: fmt };
-    if (fmt === "jpeg") opts.quality = 86;
+    if (fmt === "jpeg") opts.quality = 80;
     await el.screenshot(opts);
   }
   await browser.close();
