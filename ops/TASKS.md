@@ -8,13 +8,13 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 
 | ID | Task | Owner | Status | Done when |
 | --- | --- | --- | --- | --- |
-| T01 | Preflight the VPS (handshake step 1) | claude-server | todo | Results in a log entry |
-| T02 | Create deploy key; owner adds it to GitHub with write access | claude-server + owner | todo | `git clone` works as the `mizaj` user |
-| T03 | Run `deploy/setup.sh`; services and timers running | claude-server | todo | Health check ok, 5 timers listed |
-| T04 | Fill payment details and WhatsApp in `/opt/mizaj/.env` | owner + claude-server | todo | Checkout shows Raast/wallet details |
-| T05 | DNS A records for mizaj.pk and www → VPS | owner | todo | https://mizaj.pk loads with HTTPS |
-| T06 | Prove the money path (handshake step 5) | claude-server | todo | Fake TID rejected via Telegram; code unlock works |
-| T07 | Weekly stats round trip (handshake step 6) | claude-server | todo | `ops/stats/latest.json` on GitHub |
+| T01 | Preflight the VPS (handshake step 1) | claude-server | done | Results in a log entry |
+| T02 | Create deploy key; owner adds it to GitHub with write access | claude-server + owner | done | `git clone` works as the `mizaj` user |
+| T03 | Run `deploy/setup.sh`; services and timers running | claude-server | done | Health check ok, 5 timers listed |
+| T04 | Fill payment details and WhatsApp in `/opt/mizaj/.env` | owner + claude-server | to confirm | Checkout shows Raast/wallet details |
+| T05 | DNS A records for mizaj.pk and www → VPS | owner | to confirm | https://mizaj.pk loads with HTTPS |
+| T06 | Prove the money path (handshake step 5) | claude-server | to confirm | Fake TID rejected via Telegram; code unlock works |
+| T07 | Weekly stats round trip (handshake step 6) | claude-server | done | `ops/stats/latest.json` on GitHub |
 | T08 | Create Instagram, Facebook Page, TikTok, YouTube with prepared bios and logo | owner | todo | Four profiles exist |
 | T09 | Meta token + IG id in `.env`; set `SOCIAL_START_DATE` | claude-server | blocked: T08 | First post goes out by itself |
 
@@ -34,7 +34,7 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 
 | ID | Task | Owner | Status | Done when |
 | --- | --- | --- | --- | --- |
-| T21 | 16 type + 4 mizaj illustrations + home hero (`docs/handoff/ART_BRIEF.md`) | codex | review | 21 WebP files merged, slides re-rendered |
+| T21 | 16 type + 4 mizaj illustrations + home hero (`docs/handoff/ART_BRIEF.md`) | codex | done | 21 WebP files merged, slides re-rendered |
 | T22 | Independent security and correctness review of `server/mizaj/` | codex | todo | Fix PR with tests, or findings log |
 | T23 | More tests; e2e in CI | codex | todo | CI runs them in under 5 minutes |
 | T24 | Accessibility and speed on cheap Android phones | codex | todo | Lighthouse mobile ≥ 90 perf + a11y |
@@ -43,3 +43,4 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 | T27 | Weekly COO review (automatic, Mondays 10:39am PKT) | claude-cloud | doing | A report in `ops/reports/` every Monday |
 | T28 | Review open Codex PRs every Monday | claude-cloud | doing | No PR waits more than a week |
 | T29 | First 10 school outreach drafts and a pilot | claude-cloud + owner | todo | 3 school pilots running by end of December |
+| T30 | Write the server launch log entry; confirm T04–T06 and tick them | claude-server | todo | `ops/log/<date>-claude-server-launch.md` on `main` |

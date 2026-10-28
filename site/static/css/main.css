@@ -49,6 +49,8 @@ p { margin: 0 0 1em; }
 .menu-panel a { padding: 10px 12px; border-radius: 10px; text-decoration: none; font-weight: 600; }
 .menu-panel a:hover { background: var(--paper); }
 @media (min-width: 900px) { .nav { display: flex; } .head-cta { margin-left: 0; } .menu { display: none; } }
+.head-cta { white-space: nowrap; }
+@media (max-width: 380px) { .logo .ur { display: none; } .site-head .wrap { gap: 10px; } .head-cta { padding: 8px 14px; font-size: .85rem; } }
 
 /* Buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 0; cursor: pointer; text-decoration: none;
