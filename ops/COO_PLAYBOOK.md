@@ -3,6 +3,11 @@
 Run every Monday by the scheduled Claude session (or by anyone, by hand). Goal: PKR 15–20 lakh cumulative profit by
 30 June 2027 (base plan: about 34 lakh). One session, about an hour of work, in this order.
 
+## 0. Catch up with the team
+- Read `ops/TASKS.md` and every `ops/log/` entry since last Monday. Review open pull requests from `codex`
+  (and `claude-server`): merge what's good and green, comment on the rest. Unblock tasks waiting on you.
+- Add new tasks you discover for the right owner; end the session with your own `ops/log/` entry.
+
 ## 1. Read the numbers
 - `ops/stats/latest.json` (written by the server every Monday 6:10am): last 8 weeks of tests, completion rate, paid
   orders by product, revenue, buyer rate, Milan invites/completions, palm reads, shares, contacts, leads, top sources,

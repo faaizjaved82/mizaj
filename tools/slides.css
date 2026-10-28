@@ -45,3 +45,4 @@ body { background: #333; font-family: "Manrope", sans-serif; }
 .light .body { font-size: 50px; }
 .mark { position: absolute; right: -90px; bottom: 110px; width: 520px; height: 520px; opacity: .95; }
 .ink .mark { opacity: .9; }
+.art { position: absolute; right: 90px; top: 430px; width: 400px; height: 400px; object-fit: contain; border-radius: 40px; }

@@ -15,7 +15,8 @@ Free results, one-time paid reports, school and team programmes.
 | `docs/` | Runbook, research notes, sales kit. |
 | `tools/` | Slide and link-preview renderers, browser end-to-end test. |
 
-Start with `docs/RUNBOOK.md`.
+Start with `docs/RUNBOOK.md`. Agents (Claude Code, Codex) start with `AGENTS.md`, the task board `ops/TASKS.md`
+and their handoff in `docs/handoff/`.
 
 ## Develop locally
 

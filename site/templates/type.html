@@ -2,6 +2,7 @@
 {% block main %}
 <section class="result-hero fam-{{ t.family }}">
   <div class="wrap">
+    {% if static_exists("img/types/" ~ t.code|lower ~ ".webp") %}<img class="art" src="/img/types/{{ t.code|lower }}.webp" alt="{{ t.name }} illustration" width="400" height="400">{% endif %}
     <a href="/types/" class="small" style="color:#fff;opacity:.8">← All 16 types</a>
     <div class="code" style="margin-top:10px">{{ t.code }}</div>
     <div class="tname">{{ t.name }} · {{ t.name_en }} {{ t.emoji }}</div>

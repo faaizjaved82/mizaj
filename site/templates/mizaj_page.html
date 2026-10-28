@@ -2,6 +2,7 @@
 {% block main %}
 <section class="result-hero mz-{{ m.key }}">
   <div class="wrap">
+    {% if static_exists("img/mizaj/" ~ m.key ~ ".webp") %}<img class="art" src="/img/mizaj/{{ m.key }}.webp" alt="{{ m.name }} illustration" width="400" height="400">{% endif %}
     <a href="/mizaj/" class="small" style="color:inherit;opacity:.8">← All 4 mizaj</a>
     <div class="code" style="margin-top:10px">{{ m.emoji }} {{ m.name }}</div>
     <div class="tname">{{ m.nickname }} · {{ m.quality }}</div>

@@ -25,6 +25,11 @@ def _pkr(n: int | float | None) -> str:
     return f"PKR {int(n or 0):,}"
 
 
+def static_exists(rel: str) -> bool:
+    """True when an optional asset (e.g. an illustration added later) is present in site/static."""
+    return (settings.static_dir / rel.lstrip("/")).is_file()
+
+
 def _tojson(v) -> Markup:
     s = json.dumps(v, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
     return Markup(s)
@@ -43,7 +48,7 @@ def env() -> Environment:
         umami_id=settings.umami_id, umami_src=settings.umami_src,
         meta_pixel_id=settings.meta_pixel_id, tiktok_pixel_id=settings.tiktok_pixel_id,
         support_whatsapp=settings.support_whatsapp, support_email=settings.support_email,
-        socials=settings.socials,
+        socials=settings.socials, static_exists=static_exists,
     )
     return e
 

@@ -1,0 +1,24 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e server -e social pytest
+      - name: Backend tests
+        run: cd server && python -m pytest -q
+      - name: Build the site
+        run: python build.py
+      - name: Brand guard (no MBTI trademarks in user-facing content)
+        run: |
+          # The footer's legal non-affiliation disclaimer (class="disclaimer") is the one allowed mention.
+          ! grep -rniE "mbti|myers-briggs|16personalities" content/ site/templates/ social/plan/ --include=*.json --include=*.html | grep -v 'class="disclaimer"'

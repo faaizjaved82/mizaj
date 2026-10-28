@@ -148,6 +148,7 @@ p { margin: 0 0 1em; }
 .result-hero { padding: 40px 0 32px; color: #fff; position: relative; overflow: hidden; }
 .result-hero::after { content: ""; position: absolute; inset: 0; background: url("/img/girih.svg") center/180px repeat; opacity: .08; pointer-events: none; }
 .result-hero .wrap { position: relative; z-index: 1; }
+.result-hero .art { float: right; width: 38%; max-width: 260px; height: auto; margin: 0 0 8px 12px; border-radius: 24px; }
 .result-hero .code { font: 700 clamp(3rem, 14vw, 5.5rem)/1 var(--serif); letter-spacing: .04em; }
 .result-hero .tname { font: 600 clamp(1.5rem, 6vw, 2.2rem) var(--serif); }
 .result-hero .ur { font-size: 1.4rem; opacity: .9; }

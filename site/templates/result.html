@@ -18,6 +18,7 @@
 {% if pers %}
 <section class="result-hero fam-{{ pers.family }}" id="personality">
   <div class="wrap">
+    {% if static_exists("img/types/" ~ pers.code|lower ~ ".webp") %}<img class="art" src="/img/types/{{ pers.code|lower }}.webp" alt="" width="400" height="400">{% endif %}
     <span class="pill" style="background:rgba(255,255,255,.18);color:#fff">{{ who }} type · {{ pers.family }} ({{ pers.family_info.en }})</span>
     <div class="code" style="margin-top:14px">{{ pers.code }}</div>
     <div class="tname">{{ pers.name }} · {{ pers.name_en }} {{ pers.emoji }}</div>
@@ -34,6 +35,7 @@
 {% elif mz %}
 <section class="result-hero mz-{{ mz.key }}" id="mizaj-top">
   <div class="wrap">
+    {% if static_exists("img/mizaj/" ~ mz.key ~ ".webp") %}<img class="art" src="/img/mizaj/{{ mz.key }}.webp" alt="" width="400" height="400">{% endif %}
     <span class="pill" style="background:rgba(255,255,255,.2);color:inherit">{{ who }} Asli Mizaj</span>
     <div class="code" style="margin-top:14px">{{ mz.name }}</div>
     <div class="tname">{{ mz.nickname }} · {{ mz.quality }}</div>

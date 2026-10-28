@@ -18,6 +18,10 @@ Plain-language guide for the owner, an assistant, or Claude Code running on the 
 
 ## 2. First-time setup (once)
 
+Easiest: open Claude Code on the server and give it `docs/handoff/CLAUDE_CODE.md`; it walks through all of this
+and tells you the few things only you can do. By hand:
+
+
 1. Create an empty private GitHub repo `mizaj` and push this project to it (`main` branch).
 2. On the server, as root: `REPO_URL=git@github.com:<you>/mizaj.git bash deploy/setup.sh`
    (download `deploy/setup.sh` from the repo first). It prints a deploy key: add it in GitHub, repo Settings,

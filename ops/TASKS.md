@@ -1,0 +1,45 @@
+# Task board
+
+Owners: `owner` (Faaiz), `claude-cloud`, `claude-server`, `codex`, `anyone`. Status: `todo` → `doing` → `review` → `done`
+(or `blocked: <on whom>`). Claim a task by setting its status in your first commit; add new tasks at the bottom of the
+right section with a "done when". Details of each agent's tasks are in `docs/handoff/`.
+
+## Go live (this week)
+
+| ID | Task | Owner | Status | Done when |
+| --- | --- | --- | --- | --- |
+| T01 | Preflight the VPS (handshake step 1) | claude-server | todo | Results in a log entry |
+| T02 | Create deploy key; owner adds it to GitHub with write access | claude-server + owner | todo | `git clone` works as the `mizaj` user |
+| T03 | Run `deploy/setup.sh`; services and timers running | claude-server | todo | Health check ok, 5 timers listed |
+| T04 | Fill payment details and WhatsApp in `/opt/mizaj/.env` | owner + claude-server | todo | Checkout shows Raast/wallet details |
+| T05 | DNS A records for mizaj.pk and www → VPS | owner | todo | https://mizaj.pk loads with HTTPS |
+| T06 | Prove the money path (handshake step 5) | claude-server | todo | Fake TID rejected via Telegram; code unlock works |
+| T07 | Weekly stats round trip (handshake step 6) | claude-server | todo | `ops/stats/latest.json` on GitHub |
+| T08 | Create Instagram, Facebook Page, TikTok, YouTube with prepared bios and logo | owner | todo | Four profiles exist |
+| T09 | Meta token + IG id in `.env`; set `SOCIAL_START_DATE` | claude-server | blocked: T08 | First post goes out by itself |
+
+## Switch on growth
+
+| ID | Task | Owner | Status | Done when |
+| --- | --- | --- | --- | --- |
+| T10 | Apply for Safepay merchant account (CNIC, NTN, bank) | owner | todo | Sandbox keys received |
+| T11 | Test and fix Safepay checkout in sandbox, then production | claude-server | blocked: T10 | A real card payment unlocks a report |
+| T12 | Anthropic API key in `.env`; test palm reading | owner + claude-server | todo | A palm reading works on the live site |
+| T13 | Hire a part-time assistant (runbook §6) | owner | todo | Assistant posting TikToks daily |
+| T14 | Resend account + DNS records; `RESEND_API_KEY` | owner + claude-server | todo | Report-link emails arrive |
+| T15 | Lemon Squeezy store for USD, after confirming payouts to Pakistan | owner | todo | `LEMONSQUEEZY_LINKS` set |
+| T16 | File the "Mizaj" trademark (classes 41 and 44) | owner | todo | Application number |
+
+## Make it better
+
+| ID | Task | Owner | Status | Done when |
+| --- | --- | --- | --- | --- |
+| T21 | 16 type + 4 mizaj illustrations + home hero (`docs/handoff/ART_BRIEF.md`) | codex | todo | 21 WebP files merged, slides re-rendered |
+| T22 | Independent security and correctness review of `server/mizaj/` | codex | todo | Fix PR with tests, or findings log |
+| T23 | More tests; e2e in CI | codex | todo | CI runs them in under 5 minutes |
+| T24 | Accessibility and speed on cheap Android phones | codex | todo | Lighthouse mobile ≥ 90 perf + a11y |
+| T25 | Urdu QA of the question banks | codex | todo | PR with Urdu fixes |
+| T26 | `/blog/` + 6 posts for search traffic | codex | todo | 6 posts live |
+| T27 | Weekly COO review (automatic, Mondays 10:39am PKT) | claude-cloud | doing | A report in `ops/reports/` every Monday |
+| T28 | Review open Codex PRs every Monday | claude-cloud | doing | No PR waits more than a week |
+| T29 | First 10 school outreach drafts and a pilot | claude-cloud + owner | todo | 3 school pilots running by end of December |

@@ -43,6 +43,7 @@ class Settings:
     data_dir: Path = field(default_factory=lambda: Path(_env("MIZAJ_DATA_DIR") or REPO_DIR / "data"))
     content_dir: Path = field(default_factory=lambda: Path(_env("MIZAJ_CONTENT_DIR") or REPO_DIR / "content"))
     templates_dir: Path = REPO_DIR / "site" / "templates"
+    static_dir: Path = REPO_DIR / "site" / "static"
     dist_dir: Path = field(default_factory=lambda: Path(_env("MIZAJ_DIST_DIR") or REPO_DIR / "dist"))
     tz: str = field(default_factory=lambda: _env("TZ_NAME", "Asia/Karachi"))
 

@@ -17,6 +17,9 @@
         <span>✦ 8 minutes</span>
       </div>
     </div>
+    {% if static_exists("img/hero.webp") %}
+    <div class="hero-art"><img src="/img/hero.webp" alt="Friends of different types around a chai table" width="840" height="840" style="border-radius:28px"></div>
+    {% else %}
     <div class="hero-art" aria-hidden="true">
       <div class="card" style="background:var(--nf);color:#fff;border:0;transform:rotate(-3deg);margin:0 0 -46px 24px">
         <div class="small" style="opacity:.8">Ahl-e-Dil · The Heart-led</div>
@@ -37,6 +40,7 @@
         <div style="display:flex;justify-content:space-between;align-items:center"><b>INFJ ✦ ESTP</b><span class="pill" style="background:#FFF1D6">82% match</span></div>
       </div>
     </div>
+    {% endif %}
   </div>
 </section>
 

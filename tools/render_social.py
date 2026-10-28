@@ -37,12 +37,18 @@ def slide_html(s: dict, n: int, total: int, out: str) -> str:
         inner = (f'<div class="eyebrow">{e(t["family"])}</div><div class="code">{e(t["code"])}</div>'
                  f'<div class="tname">{e(t["name"])} · {e(t["name_en"])} {t.get("emoji", "")}</div>'
                  f'<div class="ur tur">{e(t["name_ur"])}</div><div class="quote">{e(s["text"])}</div>')
+        art = ROOT / "site" / "static" / "img" / "types" / f'{t["code"].lower()}.webp'
+        if art.exists():
+            inner += f'<img class="art" src="../site/static/img/types/{t["code"].lower()}.webp">'
         cls = f'fam-{t["family"]}'
     elif k == "mizaj":
         m = content.mizaj_summary(s["key"])
         inner = (f'<div class="eyebrow">{e(m["quality"])}</div><div class="code" style="font-size:140px">{e(m["name"])}</div>'
                  f'<div class="tname">{e(m["nickname"])} {m.get("emoji", "")}</div><div class="ur tur">{e(m["name_ur"])}</div>'
                  f'<div class="quote">{e(s["text"])}</div>')
+        art = ROOT / "site" / "static" / "img" / "mizaj" / f'{s["key"]}.webp'
+        if art.exists():
+            inner += f'<img class="art" src="../site/static/img/mizaj/{s["key"]}.webp">'
         cls = f'mz-{s["key"]}'
     elif k == "list":
         items = "".join(f"<li>{e(i)}</li>" for i in s.get("items", []))
