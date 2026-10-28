@@ -107,8 +107,13 @@ def type_summary(code: str) -> dict:
 
 def mizaj_summary(key: str) -> dict:
     m = mizaj_profile(key)
-    return {k: m.get(k) for k in ("key", "name", "name_ur", "quality", "classical", "element", "nickname",
-                                    "season", "colors", "emoji", "tagline", "share_line")}
+    out = {k: m.get(k) for k in ("key", "name", "global_name", "name_ur", "quality", "classical", "element",
+                                   "nickname", "season", "colors", "emoji", "tagline", "share_line")}
+    out["global_name"] = out.get("global_name") or GLOBAL_MIZAJ.get(key, m.get("name"))
+    return out
+
+
+GLOBAL_MIZAJ = {"damvi": "Air", "safravi": "Fire", "balghami": "Water", "saudavi": "Earth"}
 
 
 def mizaj_pair(a: str, b: str) -> dict:

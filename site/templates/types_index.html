@@ -2,13 +2,13 @@
 {% block main %}
 <section class="section"><div class="wrap">
   <span class="eyebrow">The 16 Mizaj types</span><h1>Sixteen ways to be a person</h1>
-  <p class="lead muted" style="max-width:640px">Four letters describe four preferences: where you get energy (Mehfil or Khalwat), how you take in the world (Haqiqat or Khayal), how you decide (Dimagh or Dil), and how you live (Nizam or Azad).</p>
+  <p class="lead muted" style="max-width:640px">Four letters describe four preferences: where you get your energy (out with people, or recharging alone), how you take in the world (facts or possibilities), how you decide (head or heart), and how you live (planned or spontaneous).</p>
   {% for fam, info in families.items() %}
-  <h2 style="margin-top:36px">{{ fam }} · {{ info.en }} <span class="muted small">({{ info.letters }})</span></h2>
+  <h2 style="margin-top:36px">{{ info.en }} <span class="muted small">{{ fam }} · {{ info.letters }}</span></h2>
   <div class="grid grid-4">
     {% for t in types if t.family == fam %}
     <a class="type-tile fam-{{ t.family }}" href="/types/{{ t.code|lower }}/" style="min-height:150px">
-      <span class="em">{{ t.emoji }}</span><span class="code">{{ t.code }}</span><span class="nm">{{ t.name }}</span><span class="en">{{ t.name_en }}</span>
+      <span class="em">{{ t.emoji }}</span><span class="code">{{ t.code }}</span><span class="nm">{{ t.name_en }}</span><span class="en">{{ t.name }}</span>
       <span class="small" style="margin-top:6px;opacity:.9">{{ t.tagline }}</span>
     </a>
     {% endfor %}

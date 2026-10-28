@@ -3,8 +3,8 @@
 {% set pct = d.pct_a if win_a else d.pct_b %}
 <div class="bar-row">
   <div class="lbls">
-    <span {% if not win_a %}class="dim"{% endif %}>{{ d.a }} · {{ d.a_name }} <span class="muted">({{ d.a_ur }})</span></span>
-    <span {% if win_a %}class="dim"{% endif %}>{{ d.b_name }} <span class="muted">({{ d.b_ur }})</span> · {{ d.b }}</span>
+    <span {% if not win_a %}class="dim"{% endif %}>{{ d.a }} · {{ d.a_name }}</span>
+    <span {% if win_a %}class="dim"{% endif %}>{{ d.b_name }} · {{ d.b }}</span>
   </div>
   <div class="bar" role="img" aria-label="{{ pct }}% {{ d.a_name if win_a else d.b_name }}">
     <i style="{% if win_a %}left:0{% else %}right:0{% endif %};width:{{ pct }}%"></i>
@@ -42,7 +42,7 @@
   {{ pr.career.work_style|paras }}
   <div class="card"><h3>Your ideal environment</h3><p>{{ pr.career.ideal_environment }}</p></div>
   <h3>10 careers that fit</h3>
-  {% for c in pr.career.careers %}<div class="card"><h3>{{ loop.index }}. {{ c.title }}</h3><p>{{ c.why }}</p><p class="small"><b>🇵🇰 Route:</b> {{ c.pk_path }}</p></div>{% endfor %}
+  {% for c in pr.career.careers %}<div class="card"><h3>{{ loop.index }}. {{ c.title }}</h3><p>{{ c.why }}</p><p class="small"><b>Route:</b> {{ c.path or c.pk_path }}</p></div>{% endfor %}
   <h3>Think twice about</h3>
   <ul class="list-check list-warn">{% for c in pr.career.think_twice %}<li><b>{{ c.title }}:</b> {{ c.why }}</li>{% endfor %}</ul>
   <div class="grid grid-2">
@@ -71,7 +71,7 @@
 {% set pr = mz.premium %}
 <div class="report" style="margin-top:40px">
   <span class="eyebrow">Your Mizaj guide</span>
-  <h2>{{ mz.emoji }} Living well as a {{ mz.name }}</h2>
+  <h2>{{ mz.emoji }} Living well as {{ mz.global_name }} ({{ mz.name }})</h2>
   {{ pr.deep_dive|paras }}
   {% if mz.with_type %}<div class="notice">{{ mz.with_type }}</div>{% endif %}
   <div class="grid grid-2">
@@ -88,13 +88,13 @@
   <div class="grid grid-2">{% for k, v in pr.seasons.items() %}<div class="card"><b>{{ k|capitalize }}</b><p class="small">{{ v }}</p></div>{% endfor %}</div>
   <div class="card"><h3>🏃 Movement</h3><p>{{ pr.movement }}</p></div>
   <div class="card"><h3>🧠 Emotional balance</h3><p>{{ pr.emotional_balance }}</p></div>
-  <div class="card"><h3>🌙 Ramadan</h3><p>{{ pr.ramadan }}</p></div>
+  <div class="card"><h3>🌙 Fasting days</h3><p>{{ pr.fasting or pr.ramadan }}</p></div>
   <h3>🍽 7-day home menu</h3>
   <div class="scroll-x"><table class="t"><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th><th>Snack</th></tr>
   {% for d in pr.seven_day_menu %}<tr><td>{{ d.day }}</td><td>{{ d.breakfast }}</td><td>{{ d.lunch }}</td><td>{{ d.dinner }}</td><td>{{ d.snack }}</td></tr>{% endfor %}</table></div>
   <div class="card"><h3>Signs you're out of balance</h3><ul class="list-check list-warn">{% for s in pr.when_out_of_balance %}<li>{{ s }}</li>{% endfor %}</ul></div>
   <h3>With other mizaj</h3>
-  {% for k, v in pr.with_other_mizaj.items() %}<p><b>{{ k|capitalize }}:</b> {{ v }}</p>{% endfor %}
+  {% set gn = {'damvi': 'Air', 'safravi': 'Fire', 'balghami': 'Water', 'saudavi': 'Earth'} %}{% for k, v in pr.with_other_mizaj.items() %}<p><b>{{ gn.get(k, k|capitalize) }} ({{ k|capitalize }}):</b> {{ v }}</p>{% endfor %}
   <p class="small muted">{{ mz.disclaimer }}</p>
 </div>
 {% endmacro %}
@@ -107,14 +107,14 @@
   {% if car.careers %}
     <h3>Matched careers</h3>
     {% for c in car.careers %}<div class="card"><h3>{{ c.title }} <span class="pill">{{ c.code }}</span></h3>
-      <p class="small"><b>Degree/route:</b> {{ c.degree }}<br><b>Entry:</b> {{ c.entry }}<br><b>Outlook:</b> {{ c.outlook }}</p></div>{% endfor %}
-    <h3>Streams and subjects that fit</h3>
+      <p class="small"><b>Route:</b> {{ c.route or (c.degree ~ " · " ~ c.entry) }}<br><b>Outlook:</b> {{ c.outlook }}</p></div>{% endfor %}
+    <h3>Subjects and study paths that fit</h3>
     {% for s in car.subjects %}<p><b>{{ s.letter }}:</b> {{ s.text }}</p>{% endfor %}
   {% endif %}
   {% if car.type_career %}
     <h3>What your personality type adds</h3>
     {{ car.type_career.work_style|paras }}
-    <ul class="list-check">{% for c in car.type_career.careers %}<li><b>{{ c.title }}:</b> {{ c.pk_path }}</li>{% endfor %}</ul>
+    <ul class="list-check">{% for c in car.type_career.careers %}<li><b>{{ c.title }}:</b> {{ c.path or c.pk_path }}</li>{% endfor %}</ul>
   {% endif %}
   {% if car.advice %}
     <h3>For you</h3>{{ car.advice.for_students|paras }}

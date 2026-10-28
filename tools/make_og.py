@@ -6,44 +6,42 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "server"))
-sys.path.insert(0, str(ROOT / "tools"))
-from mizaj import content  # noqa: E402
-from render_social import FONTS  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from cards import FONTS, ROOT, aura_style, card, content, deck, fan  # noqa: E402
 
 e = html.escape
 LOGO = "../site/static/img/logo.svg"
 
 
-def og(out: str, cls: str, eyebrow: str, big: str, line2: str, ur: str, tag: str) -> str:
-    return (f'<div class="slide og {cls}" data-out="{out}" style="justify-content:center">'
-            f'<div class="eyebrow">{e(eyebrow)}</div><div class="code">{e(big)}</div>'
-            f'<div class="tname" style="font-size:50px">{e(line2)}</div><div class="ur tur" style="font-size:48px">{e(ur)}</div>'
-            f'<div style="font:600 34px Manrope;margin-top:18px;opacity:.9;max-width:760px">{e(tag)}</div>'
-            f'<img src="{LOGO}" style="position:absolute;right:70px;top:70px;width:150px">'
-            f'<div style="position:absolute;right:80px;bottom:56px;font:800 34px Manrope">mizaj.pk</div></div>')
+def og(out: str, style: str, note: str, title: str, lede: str, visual: str) -> str:
+    return (f'<div class="og aura grain" style="{style}" data-out="{out}"><div class="ogtxt"><div class="note">{e(note)}</div>'
+            f'<div class="h1">{e(title)}</div><div class="lede">{e(lede)}</div><div class="url">mizaj.pk</div></div>'
+            f'<div style="position:relative;z-index:2;flex:0 0 auto">{visual}</div></div>')
 
 
 def main() -> None:
     parts = []
     for c in content.TYPE_CODES:
         t = content.type_summary(c)
-        parts.append(og(f"types/{c.lower()}.png", f"fam-{t['family']}", f"{t['family']} · What's your mizaj?", c,
-                        f"{t['name']} · {t['name_en']} {t.get('emoji', '')}", t["name_ur"], t["tagline"]))
+        parts.append(og(f"types/{c.lower()}.jpg", aura_style(deck.aura_key(c, None)),
+                        f"{content.FAMILIES[t['family']]['en']} · The Mizaj Deck", f"{c} · {t['name_en']}", t["tagline"],
+                        card(c, None, scale=5.4)))
     for k in content.MIZAJ_KEYS:
         m = content.mizaj_summary(k)
-        parts.append(og(f"mizaj/{k}.png", f"mz-{k}", m["quality"], m["name"], f"{m['nickname']} {m.get('emoji', '')}",
-                        m["name_ur"], m["tagline"]))
-    parts.append(og("default.png", "ink", "Free test · English & اردو", "mizaj", "What's your mizaj?", "مزاج",
-                    "Personality, Unani temperament, couple match and career compass, made for Pakistan."))
-    parts.append('<div data-out="../img/apple-touch-icon.png" style="width:180px;height:180px;background:#FBF6EE;display:grid;place-items:center">'
-                 f'<img src="{LOGO}" style="width:150px;height:150px"></div>')
+        parts.append(og(f"mizaj/{k}.jpg", aura_style(k), f"{m['quality'].split(' (')[-1].rstrip(')')} · Unani temperament",
+                        f"{m['global_name']} · {m['nickname']}", m["tagline"], card(None, k, scale=5.4)))
+    parts.append(og("default.jpg", aura_style("balghami", "damvi"), "Free · English & Urdu", "What's your mizaj?",
+                    "Your type, your element, your match. The personality test made for desis everywhere.",
+                    card("INFJ", "balghami", scale=5.4)))
     page = ROOT / "tools" / ".og.html"
     page.write_text(f'<!doctype html><meta charset="utf-8">{FONTS}<link rel="stylesheet" href="slides.css"><body>{"".join(parts)}</body>', encoding="utf-8")
     out = ROOT / "site" / "static" / "og"
     for sub in ("types", "mizaj"):
         (out / sub).mkdir(parents=True, exist_ok=True)
+    subprocess.run(["node", str(ROOT / "tools" / "shoot.cjs"), str(page), str(out), "jpeg"], check=True, cwd=str(ROOT / "tools"))
+    icon = ('<div data-out="../img/apple-touch-icon.png" style="width:180px;height:180px;background:#F4F1EA;display:grid;place-items:center">'
+            f'<img src="{LOGO}" style="width:150px;height:150px"></div>')
+    page.write_text(f'<!doctype html><meta charset="utf-8"><body style="margin:0">{icon}</body>', encoding="utf-8")
     subprocess.run(["node", str(ROOT / "tools" / "shoot.cjs"), str(page), str(out), "png"], check=True, cwd=str(ROOT / "tools"))
     page.unlink()
 

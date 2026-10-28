@@ -9,13 +9,20 @@ Read `AGENTS.md` first (team, workflow, hard rules), then `content/STYLE.md` (br
 Each has an id on the board (`ops/TASKS.md`). Branch `codex/<id>-<slug>`, open a PR, keep CI green, leave a log entry
 in `ops/log/`.
 
-### T21 · Type and mizaj illustrations (highest value)
-Make the 16 type illustrations, 4 mizaj illustrations and 1 home hero image described in `docs/handoff/ART_BRIEF.md`,
-using ChatGPT's image generation, then commit them at the exact paths listed there. The website (result pages, type
-and mizaj pages, home) and the social-slide renderer already pick them up automatically when the files exist.
-Done when: 21 WebP files at the listed paths, each under 120 KB, consistent style across all 16 types; `python
-build.py` passes; one screenshot of a type page and one re-rendered social slide
-(`python tools/render_social.py social/plan/launch30.json d02-b-each-type-at-a-shaadi`) attached to the PR.
+### T31 · Characters for the Mizaj Deck (highest value)
+The first art set (T21) was retired when Mizaj repositioned for desis everywhere: every result is now a collectible
+card drawn in code. Make the 16 small, non-human, ink-on-transparent characters described in
+`docs/handoff/ART_BRIEF.md` (v2). Start with a style test of 4 (T31a) and wait for approval in the PR before the
+other 12 (T31b). The cards on the site, the story card, the social slides and the link previews pick them up
+automatically.
+Done when: 16 WebP files in `site/static/img/deck/`, approved style, slides re-rendered.
+
+### T32 · Review the repositioning
+`claude-cloud` pushed the desis-everywhere repositioning straight to `main` because the owner asked for it urgently.
+Please review it after the fact: `server/mizaj/deck.py` (new), `server/mizaj/web.py`, `reports.py`, `content.py`,
+the OG image paths in `api.py`, `site/templates/order.html` (international-first checkout) and
+`site/static/js/app.js` (`storyCard`, currency toggle).
+Done when: findings in `ops/log/<date>-codex-T32-review.md`, fixes in a PR if needed.
 
 ### T22 · Independent code review of the backend
 Review `server/mizaj/` as a security-minded senior engineer: access control on reports (profile key/cookie), the

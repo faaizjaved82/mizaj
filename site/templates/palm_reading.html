@@ -26,9 +26,9 @@
         <div class="lock-cta"><div class="stack" style="max-width:380px">
           {% if owner %}
           <h3>Unlock your full palm reading</h3>
-          <div><span class="price-old">{{ products.palm.list_price|pkr }}</span><b style="font:700 1.5rem var(--serif)">{{ products.palm.price|pkr }}</b></div>
+          <div><span class="price-old">{{ money(products.palm, "list_price") }}</span><b style="font:700 1.5rem var(--serif)">{{ money(products.palm) }}</b></div>
           <button class="btn btn-pom btn-block" data-buy="palm">Read my full palm</button>
-          <p class="small muted">Included in the Complete Bundle ({{ products.bundle.price|pkr }}).</p>
+          <p class="small muted">Included in the Complete Bundle ({{ money(products.bundle) }}).</p>
           {% else %}
           <h3>Get your own palm read</h3><a class="btn btn-pom" href="/palm/">Try it free</a>
           {% endif %}

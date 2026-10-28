@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% block title %}{{ title or "Mizaj · Discover your personality, temperament and match" }}{% endblock %}{% if title %} · Mizaj{% endif %}</title>
-<meta name="description" content="{{ description or 'Free personality test, Unani mizaj (temperament) test, Mizaj Milan couple match and Career Compass for Pakistan. Made in Pakistan, in English and Urdu.' }}">
+<meta name="description" content="{{ description or 'Free personality and temperament test for desis everywhere: your type, your element, your match. Made by desis, for desis, in English and Urdu.' }}">
 {% if canonical %}<link rel="canonical" href="{{ site_url }}{{ canonical }}">{% endif %}
 {% if noindex %}<meta name="robots" content="noindex">{% endif %}
 <meta name="theme-color" content="#1B1530">
 <meta property="og:site_name" content="Mizaj">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ og_title or title or 'Mizaj · What is your mizaj?' }}">
-<meta property="og:description" content="{{ description or 'Free personality and temperament test made for Pakistan.' }}">
+<meta property="og:description" content="{{ description or 'Free personality and temperament test for desis everywhere.' }}">
 <meta property="og:image" content="{{ og_image }}">
 {% if canonical %}<meta property="og:url" content="{{ site_url }}{{ canonical }}">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
@@ -19,8 +19,10 @@
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Manrope:wght@500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&family=Caveat:wght@700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/main.css?v={{ v }}">
+<link rel="stylesheet" href="/css/deck.css?v={{ v }}">
+<script>(function(){try{var o=localStorage.getItem("mz_cur"),tz=(Intl.DateTimeFormat().resolvedOptions().timeZone||"");if(o==="pkr"||(!o&&tz==="Asia/Karachi"))document.documentElement.classList.add("pk");}catch(e){}})();</script>
 {% block head %}{% endblock %}
 {% if umami_id and umami_src %}<script defer src="{{ umami_src }}" data-website-id="{{ umami_id }}"></script>{% endif %}
 {% if meta_pixel_id %}<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{{ meta_pixel_id }}');fbq('track','PageView');</script>{% endif %}
@@ -34,7 +36,7 @@
     <nav class="nav" aria-label="Main">
       <a href="/tests/">Tests</a>
       <a href="/types/">16 Types</a>
-      <a href="/mizaj/">4 Mizaj</a>
+      <a href="/mizaj/">4 Elements</a>
       <a href="/milan/">Mizaj Milan</a>
       <a href="/pricing/">Pricing</a>
       <a href="/schools/">Schools</a>
@@ -44,8 +46,8 @@
       <summary aria-label="Menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
       <div class="menu-panel">
         <a href="/tests/">All tests</a>
-        <a href="/types/">16 Mizaj types</a>
-        <a href="/mizaj/">4 temperaments</a>
+        <a href="/types/">16 personality types</a>
+        <a href="/mizaj/">4 elements (temperaments)</a>
         <a href="/milan/">Mizaj Milan (couples)</a>
         <a href="/career/">Career Compass</a>
         <a href="/palm/">AI palm reading</a>
@@ -68,7 +70,7 @@
     <div class="foot-grid">
       <div>
         <a class="logo" href="/" style="color:#fff"><img src="/img/logo.svg" alt="" width="28" height="28">mizaj <span class="ur">مزاج</span></a>
-        <p style="margin-top:12px">Pakistan's self-discovery platform. Modern personality psychology meets the oldest temperament wisdom in our culture, from Ibn Sina to today.</p>
+        <p style="margin-top:12px">The self-discovery platform for desis everywhere. Modern personality psychology meets the thousand-year-old temperament wisdom of Ibn Sina.</p>
         {% if socials %}
         <div class="socials">
           {% for k, url in socials.items() %}<a href="{{ url }}" rel="noopener" target="_blank" aria-label="{{ k|capitalize }}">{% include "icons/" ~ k ~ ".svg" ignore missing %}</a>{% endfor %}
@@ -79,7 +81,7 @@
         <h4>Tests</h4>
         <ul>
           <li><a href="/test/personality/">Personality test</a></li>
-          <li><a href="/test/mizaj/">Asli Mizaj test</a></li>
+          <li><a href="/test/mizaj/">Element test</a></li>
           <li><a href="/career/">Career Compass</a></li>
           <li><a href="/milan/">Mizaj Milan</a></li>
           <li><a href="/palm/">AI palm reading</a></li>
@@ -90,7 +92,7 @@
         <h4>Learn</h4>
         <ul>
           <li><a href="/types/">The 16 types</a></li>
-          <li><a href="/mizaj/">The 4 mizaj</a></li>
+          <li><a href="/mizaj/">The 4 elements</a></li>
           <li><a href="/compatibility/">Type compatibility</a></li>
           <li><a href="/about/">Our story</a></li>
           <li><a href="/pricing/">Pricing</a></li>
@@ -104,6 +106,7 @@
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></li>
           <li><a href="/refunds/">Refund policy</a></li>
+          <li>Prices in <button class="linkish" data-cur="usd">USD</button> · <button class="linkish" data-cur="pkr">PKR</button></li>
         </ul>
       </div>
     </div>

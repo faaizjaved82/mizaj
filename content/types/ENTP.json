@@ -24,7 +24,7 @@
       "Starts many ventures; follow-through slips once the excitement fades.",
       "Rules and routines bore you so much that important ones get skipped."
     ],
-    "pakistani_archetype": "You're the one who talked the rickshaw fare down, argued your way out of a library fine, and still had energy to debate the uncles on team selection.",
+    "pakistani_archetype": "You're the one who haggled the wedding photographer down, argued your way out of a library fine, and still had energy to debate the uncles on cricket team selection.",
     "in_relationships": "You need a spouse who can keep up: someone who laughs at your jokes, argues back and isn't threatened by your restless brain. You show love by turning ordinary days into small adventures. Friction comes when playful teasing lands too hard, or when routine responsibilities quietly slide onto your spouse's plate.",
     "at_work": "You're the ideas engine of any team. Brainstorming, pitching, problem-solving and client conversations bring out your best; repetitive tasks and endless documentation drain you fast. You're often brilliant in the first 80% of a project and restless in the last 20%. The right role turns that pattern into an advantage.",
     "fictional_twins": [
@@ -35,7 +35,7 @@
     ]
   },
   "premium": {
-    "deep_dive": "Your mind works like a pinball machine with every light switched on. One idea hits another, sparks a third, and suddenly you're explaining how the cricket league's player auction could fix university admissions. You process the world by bouncing ideas off it, and off people. Conversation isn't just social for you; it's how you think. You often don't know what you believe until you've argued both sides of it out loud, preferably with someone who argues back. Your best ideas arrive mid-sentence, which is why you interrupt yourself almost as often as you interrupt others.\n\nThe core motivation is possibility. You're hooked on the 'what if': what if we did it differently, what if the rule is wrong, what if this side hustle actually works? Every new venture comes with a fresh rush of hope, which is exactly why the fifth one feels as exciting as the first. The core fear is being trapped: in a boring job, a predictable life, a box someone else built for you. Doing the same thing every day for thirty years, however secure, can make you restless just imagining it. That's why you may resist the government job your parents keep mentioning, even when you can see its logic. Stability sounds lovely in theory and suffocating by Thursday.\n\nArguing, for you, is a form of play and even affection. When you challenge someone's idea, you're taking them seriously enough to test them. But most people, especially in a culture that prizes politeness and deference to elders, hear your challenges as attacks. You might leave a dawat thinking it was a fantastic conversation while an elderly relative leaves thinking you were rude. You'd happily lose an argument to someone sharp; what you can't stand is someone who refuses to play. The gap between your intent and their experience is one of your biggest lifelong lessons.\n\nThe other gap: people assume you're confident all the way down. Beneath the jokes, you can feel scattered and secretly worried that you're all promise and no delivery. You've watched steadier friends finish degrees, build careers and complete things while you juggled five half-started ideas. You feel deeply too, but you deflect with humour when things get heavy. The cousin who seems to know everyone at the wedding is sometimes the one who feels least known. Letting one or two people see the uncertain, sincere version of you isn't weakness. It's where your real connections begin.",
+    "deep_dive": "Your mind works like a pinball machine with every light switched on. One idea hits another, sparks a third, and suddenly you're explaining how the cricket league's player auction could fix university admissions. You process the world by bouncing ideas off it, and off people. Conversation isn't just social for you; it's how you think. You often don't know what you believe until you've argued both sides of it out loud, preferably with someone who argues back. Your best ideas arrive mid-sentence, which is why you interrupt yourself almost as often as you interrupt others.\n\nThe core motivation is possibility. You're hooked on the 'what if': what if we did it differently, what if the rule is wrong, what if this side hustle actually works? Every new venture comes with a fresh rush of hope, which is exactly why the fifth one feels as exciting as the first. The core fear is being trapped: in a boring job, a predictable life, a box someone else built for you. Doing the same thing every day for thirty years, however secure, can make you restless just imagining it. That's why you may resist the government job your parents keep mentioning, even when you can see its logic. Stability sounds lovely in theory and suffocating by Thursday.\n\nArguing, for you, is a form of play and even affection. When you challenge someone's idea, you're taking them seriously enough to test them. But most people, especially in a culture that prizes politeness and deference to elders, hear your challenges as attacks. You might leave a family dinner thinking it was a fantastic conversation while an elderly relative leaves thinking you were rude. You'd happily lose an argument to someone sharp; what you can't stand is someone who refuses to play. The gap between your intent and their experience is one of your biggest lifelong lessons.\n\nThe other gap: people assume you're confident all the way down. Beneath the jokes, you can feel scattered and secretly worried that you're all promise and no delivery. You've watched steadier friends finish degrees, build careers and complete things while you juggled five half-started ideas. You feel deeply too, but you deflect with humour when things get heavy. The cousin who seems to know everyone at the wedding is sometimes the one who feels least known. Letting one or two people see the uncertain, sincere version of you isn't weakness. It's where your real connections begin.",
     "superpowers": [
       {
         "title": "Lightning Ideation",
@@ -47,7 +47,7 @@
       },
       {
         "title": "Honest Persuasion",
-        "text": "You understand both sides of an argument so well that you know exactly what will move the other person. That makes you a natural at sales, negotiation, pitching, and convincing parents to allow a gap year. You don't just argue harder; you reframe: 'It's not a gap year, Ammi, it's a structured skill-building plan with a freelancing income target.' Used honestly, that's one of the most valuable skills in any career."
+        "text": "You understand both sides of an argument so well that you know exactly what will move the other person. That makes you a natural at sales, negotiation, pitching, and convincing parents to allow a gap year. You don't just argue harder; you reframe: 'It's not a gap year, Mum, it's a structured skill-building plan with a freelancing income target.' Used honestly, that's one of the most valuable skills in any career."
       },
       {
         "title": "Loophole Radar",
@@ -55,7 +55,7 @@
       },
       {
         "title": "Thriving on Change",
-        "text": "When plans collapse, you don't. Flight cancelled, load-shedding during a deadline, client changes the brief overnight: you shrug, reframe and find another route. Change energises you because it opens new possibilities. In Pakistan's unpredictable economy and job market, that flexibility is gold. You're the one who pivots a failing freelance gig into a new service, or treats an unexpected transfer to another city as an adventure rather than a tragedy."
+        "text": "When plans collapse, you don't. Flight cancelled, laptop crashing before a deadline, client changes the brief overnight: you shrug, reframe and find another route. Change energises you because it opens new possibilities. In today's unpredictable economy and job market, that flexibility is gold. You're the one who pivots a failing freelance gig into a new service, or treats an unexpected transfer to another city as an adventure rather than a tragedy."
       },
       {
         "title": "Energising Others",
@@ -73,7 +73,7 @@
       },
       {
         "title": "Routine Allergy",
-        "text": "Fee deadlines, gym routines, a daily study plan for CSS: anything repetitive feels like a cage. So you cram, improvise and rely on charm to get through, which works until it suddenly doesn't. Your brain rewards novelty, and routine offers none. Experiment: turn routines into games with streaks, timers, a study partner or friendly competition. Keep the boring core fixed and allow variety around it. Talent gets you noticed; consistency gets you results."
+        "text": "Fee deadlines, gym routines, a daily study plan for a professional exam: anything repetitive feels like a cage. So you cram, improvise and rely on charm to get through, which works until it suddenly doesn't. Your brain rewards novelty, and routine offers none. Experiment: turn routines into games with streaks, timers, a study partner or friendly competition. Keep the boring core fixed and allow variety around it. Talent gets you noticed; consistency gets you results."
       },
       {
         "title": "Teasing That Stings",
@@ -88,7 +88,7 @@
       "love_and_marriage": "Your ideal spouse is quick, curious and confident enough to enjoy a lively disagreement over dinner. Someone who needs life to be very predictable will feel worn out by you, and you'll feel caged. Shared laughter is non-negotiable.\n\nYou show love by making life an adventure: surprise plans, a spontaneous midnight drive for chai, new ideas for your shared future. You genuinely want your spouse to grow, and you'll cheer louder than anyone when they do.\n\nFriction tends to come from tone and routine. Your teasing can hurt more than you intend, and when married life settles into a predictable rhythm, you may start inventing projects, purchases or plans just to feel the spark again. Talk about that restlessness, channel it into shared adventures, and learn which topics are never for joking.",
       "rishta_tips": [
         "Ask their opinion on a harmless but debatable topic. How they disagree tells you a lot about compatibility.",
-        "Tone down the contrarian act in early meetings; families may read it as arrogance, not playfulness.",
+        "Tone down the contrarian act early on, whether you're meeting their family or just them; it can read as arrogance.",
         "Be upfront about career unpredictability, like freelancing, startups or switching fields, so expectations are clear early.",
         "Look for someone steady who enjoys your spark. Two restless people can struggle to keep a home running.",
         "Don't mistake great conversation for daily compatibility. Ask about routines, money habits and family duties too."
@@ -105,52 +105,52 @@
         {
           "title": "Consumer Brand Founder",
           "why": "You see opportunities everywhere and love building something new. Founding a brand turns restlessness into momentum, especially with a strong operations partner.",
-          "pk_path": "Test a low-cost product on Instagram or WhatsApp while studying; reinvest early profits; enter pitch competitions for seed funding."
+          "path": "Test a low-cost product on Instagram, TikTok or WhatsApp while studying; reinvest early profits; enter pitch competitions or accelerators for seed funding."
         },
         {
           "title": "Litigation Lawyer",
           "why": "Courtrooms reward exactly your gifts: quick thinking, persuasion and spotting holes in the other side's argument under real, daily pressure.",
-          "pk_path": "Clear the LAT, study law for five years, get your licence from the bar council and apprentice under a senior litigator in district courts."
+          "path": "Law degree or conversion course; pass your jurisdiction's bar exams; complete pupillage, articling or a junior associate role under seasoned litigators; join the moot team early."
         },
         {
           "title": "Advertising Creative Strategist",
           "why": "Agencies need people who can turn a dull product into a big idea in one afternoon. Your wit and range fit perfectly.",
-          "pk_path": "Mass communication, marketing or any degree; build a portfolio of spec campaigns; intern at a Karachi or Lahore agency."
+          "path": "Marketing, communications or any degree; build a portfolio of spec campaigns; join an agency through an internship, a graduate scheme or a creative bootcamp."
         },
         {
           "title": "Product Manager",
           "why": "PMs juggle users, engineers and business goals, constantly finding creative trade-offs. The role rewards curiosity, persuasion and fast thinking over narrow specialisation.",
-          "pk_path": "Start in tech as an analyst, engineer or marketer; learn product basics; move into PM roles locally or remotely."
+          "path": "Start in tech as an analyst, engineer or marketer; learn product basics through courses and side projects; move into PM roles in-house or remotely."
         },
         {
-          "title": "Foreign Service Officer",
+          "title": "Diplomat",
           "why": "Diplomacy is high-level persuasion and quick thinking in unfamiliar settings. Few government careers suit your negotiating instincts and curiosity so well.",
-          "pk_path": "Sit the CSS exam through FPSC once you hold a 16-year degree; put the Foreign Service of Pakistan first in your preferences."
+          "path": "Any degree, ideally with languages or international relations; sit your country's diplomatic service exam or fast-track scheme; then learn the craft through postings abroad."
         },
         {
           "title": "Growth Marketer (remote)",
           "why": "Testing campaigns, tweaking funnels and finding unconventional growth hacks gives you constant experiments, measurable results and variety across different clients.",
-          "pk_path": "Learn performance marketing through free certifications; get results for local brands; then win remote clients via Upwork, LinkedIn or referrals."
+          "path": "Learn performance marketing through free certifications; get measurable results for small brands; publish case studies; then win remote clients via Upwork, LinkedIn or referrals."
         },
         {
           "title": "Journalist or Current Affairs Producer",
           "why": "Asking hard questions, chasing stories and challenging official versions of events is basically your personality with a press card attached.",
-          "pk_path": "Mass communication or any degree; write for digital outlets; join a news channel's research desk or produce your own investigative content."
+          "path": "Journalism, communications or any degree; freelance for digital outlets; join a newsroom's research desk or build your own investigative newsletter or channel."
         },
         {
           "title": "Podcaster or Content Creator",
           "why": "Your opinions, humour and storytelling can build a loyal audience, and creating content lets you experiment constantly and own your platform.",
-          "pk_path": "Pick one niche and publish weekly on YouTube or Spotify for a year; monetise through brand deals, memberships and live events."
+          "path": "Pick one niche and publish weekly on YouTube or Spotify for a full year; monetise through brand deals, memberships, live shows and merchandise."
         },
         {
           "title": "Remote SaaS Sales Lead",
           "why": "Persuasive conversations, new clients every week and income tied to performance suit your energy and love of winning people over.",
-          "pk_path": "Any degree; start in local tech sales or business development; then move into remote closing roles with foreign software companies."
+          "path": "Any degree; start as a sales development rep or in business development; then move into remote closing roles with international software companies."
         },
         {
-          "title": "O/A Level Teacher or Online Tutor",
+          "title": "Teacher or Online Tutor",
           "why": "You make dry subjects come alive with stories, debates and humour. Teaching lets you perform, persuade and spark curiosity in young minds.",
-          "pk_path": "Strong grades in your subject; start at an academy or school; add online tutoring for diaspora students in the UK and Gulf."
+          "path": "A strong degree in your subject plus a teaching qualification where required; start in a school; build an online tutoring practice for students across time zones."
         }
       ],
       "think_twice": [
@@ -169,7 +169,7 @@
       ],
       "as_a_leader": "You lead through vision, energy and intellectual challenge. Your team rarely gets bored, and you encourage people to question, experiment and speak freely. You're excellent at rallying people around a bold new direction. The weakness is inconsistency: changing priorities every week exhausts a team. Appoint a strong number two for operations, commit to one direction for a full quarter, and follow up on what you start.",
       "as_a_team_member": "You're the spark in brainstorming and the person who rescues stuck projects with a fresh angle. You challenge weak ideas and push teams toward bolder ones. You may lose interest in implementation, miss small deadlines or reopen decisions already made. Your sticky notes are everywhere; your status updates, less so. Volunteer for the parts that suit you, and commit fully once the team decides.",
-      "money_style": "Money is fuel for experiments. You might fund a side business, back a friend's idea or spend on travel and gadgets that feed your curiosity. You're comfortable with risk, sometimes too comfortable, and saving feels boring unless it's a game. You'd happily start three BC committees and forget which month is your turn. Automate savings, keep an emergency fund untouched, and run big investments past a cautious friend."
+      "money_style": "Money is fuel for experiments. You might fund a side business, back a friend's idea or spend on travel and gadgets that feed your curiosity. You're comfortable with risk, sometimes too comfortable, and saving feels boring unless it's a game. You'd happily back three friends' startups and forget which one owes you money. Automate savings, keep an emergency fund untouched, and run big investments past a cautious friend."
     },
     "communication": {
       "how_they_talk": "You talk fast, jump between topics and enjoy the back-and-forth more than the conclusion. Humour, exaggeration and provocative questions keep things lively, and you say 'but what if' far more often than 'I agree'. In WhatsApp groups, you post the debate-starter, the meme and the four-minute voice note explaining why everyone is wrong. You're charming and persuasive, but sometimes forget others are taking it seriously.",
@@ -244,10 +244,10 @@
       }
     ],
     "with_each_mizaj": {
-      "damvi": "Damvi plus Hazir-jawab is a double dose of air, in Unani terms: charming, chatty and endlessly entertaining. You'll light up every mehfil and make friends in every queue. The risk is scattering your energy across too many people and plans. Choose a few deep commitments and guard them, so your sparkle builds something that lasts.",
-      "safravi": "If your temperament leans Safravi, traditionally the hot and dry one, your wit gets sharper and your arguments hotter. You're bold, competitive and fast, often first to launch something new. The danger is that debates turn into fights and jokes into jabs. Practise pausing before you reply, and channel the heat into building rather than winning.",
-      "balghami": "Balghami coolness, traditionally calm and steady, gives your quick mind a gentler surface. You're playful but kind, and your humour rarely wounds. You may also have more patience for follow-through than most Hazir-jawabs. Watch for drifting comfortably instead of pushing ideas into action; set the occasional bold goal that genuinely stretches you.",
-      "saudavi": "A Saudavi temperament, which Unani tradition links to earth and reflection, adds depth and seriousness to your wit. You're likely more sceptical and reflective, with humour that is dry and clever. The shadow is cynicism, when arguing turns into dismissing everything. Balance it with optimistic friends, creative play and remembering why ideas excited you in the first place."
+      "damvi": "Air (Damvi) plus Hazir-jawab is, in Unani terms, a double dose of lightness: charming, chatty and endlessly entertaining. You'll light up every gathering and make friends in every queue. The risk is scattering your energy across too many people and plans. Choose a few deep commitments and guard them, so your sparkle builds something that lasts.",
+      "safravi": "If your temperament leans Fire (Safravi), traditionally the hot and dry one, your wit gets sharper and your arguments hotter. You're bold, competitive and fast, often first to launch something new. The danger is that debates turn into fights and jokes into jabs. Practise pausing before you reply, and channel the heat into building rather than winning.",
+      "balghami": "The coolness of Water (Balghami), traditionally calm and steady, gives your quick mind a gentler surface. You're playful but kind, and your humour rarely wounds. You may also have more patience for follow-through than most Hazir-jawabs. Watch for drifting comfortably instead of pushing ideas into action; set the occasional bold goal that genuinely stretches you.",
+      "saudavi": "An Earth (Saudavi) temperament, which Unani tradition describes as cool and dry, adds depth and seriousness to your wit. You're likely more sceptical and reflective, with humour that is dry and clever. The shadow is cynicism, when arguing turns into dismissing everything. Balance it with optimistic friends, creative play and remembering why ideas excited you in the first place."
     },
     "letter": "Dear Hazir-jawab,\n\nLet's be honest: you're probably reading this while doing three other things. That's fine. We'll keep it short and true.\n\nYou've likely been told you talk too much, argue too much and need to 'settle down'. Here's what we see instead. A mind that refuses to accept 'that's just how it is'. A spark that makes rooms brighter and people braver. Someone who finds a way through when everyone else sees a wall. That's not a flaw to fix; it's a gift the world badly needs.\n\nWe also know the quieter side: the abandoned domain names and unfinished plans that nag at you at 2 a.m., the jokes you reach for when things get too real. You don't have to choose between brilliant and reliable. You can grow into both, one finished thing at a time.\n\nSo keep asking 'what if'. Keep making people laugh. And now and then, let someone see the sincere, uncertain, wonderful person behind the wit. They'll love you more for it.\n\n— Mizaj"
   }

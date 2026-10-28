@@ -82,7 +82,7 @@
   if (counter) {
     const wrap = counter.closest("span"); if (wrap) wrap.classList.add("hidden");
     api("/api/stats/public").then((d) => {
-      if (d.tests_taken >= 100) { counter.textContent = d.tests_taken.toLocaleString("en-PK"); wrap && wrap.classList.remove("hidden"); }
+      if (d.tests_taken >= 100) { counter.textContent = d.tests_taken.toLocaleString(); wrap && wrap.classList.remove("hidden"); }
     }).catch(() => {});
   }
 
@@ -315,11 +315,17 @@
     window.open("https://wa.me/?text=" + encodeURIComponent("We got " + sm.dataset.shareMilan + "% on Mizaj Milan 💞 Test your match: " + url), "_blank");
   });
 
+  // ---------- currency ----------
+  $$("[data-cur]").forEach((b) => b.addEventListener("click", () => {
+    try { localStorage.setItem("mz_cur", b.dataset.cur); } catch (e) { /* private mode */ }
+    document.documentElement.classList.toggle("pk", b.dataset.cur === "pkr");
+  }));
+
   // ---------- sharing ----------
   async function share(kind, d, url) {
     track("share_click", { kind });
     const name = d && d.who ? d.who : "";
-    const text = d ? (d.code ? `${name ? name + " is" : "I'm"} ${d.code}: ${d.name} (${d.name_en}) ${d.emoji || ""}\n"${d.share_line}"` : `My mizaj is ${d.mizaj.name}, ${d.mizaj.nickname}`) + "\nWhat's your mizaj? Free test:" : "What's your mizaj?";
+    const text = d ? (d.code ? `${name ? name + " is" : "I'm"} ${d.code}, ${d.name_en} ${d.emoji || ""}\n"${d.share_line}"` : `My element is ${d.mizaj.global_name || d.mizaj.name}: ${d.mizaj.nickname}`) + "\nWhat's yours? Free test:" : "What's your mizaj?";
     const link = url + "?utm_source=" + (kind === "whatsapp" ? "whatsapp" : "share") + "&utm_medium=result";
     if (kind === "whatsapp") { window.open("https://wa.me/?text=" + encodeURIComponent(text + " " + link), "_blank"); return; }
     if (kind === "native" && navigator.share) { try { await navigator.share({ title: "My Mizaj", text, url: link }); } catch (e) { /* cancelled */ } return; }
@@ -327,7 +333,7 @@
     if (kind === "card" && d) {
       try {
         const blob = await storyCard(d);
-        const file = new File([blob], "mizaj-" + (d.code || d.mizaj.key).toLowerCase() + ".png", { type: "image/png" });
+        const file = new File([blob], "mizaj-card-" + (d.code || d.mizaj.global_name).toLowerCase() + ".png", { type: "image/png" });
         if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], text: text + " " + link }); return; } catch (e) { /* fall through */ } }
         const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = file.name; a.click();
         setTimeout(() => URL.revokeObjectURL(a.href), 4000);
@@ -343,43 +349,108 @@
     return lines;
   }
 
-  function star(ctx, x, y, r, color) {
-    ctx.save(); ctx.translate(x, y); ctx.strokeStyle = color; ctx.lineWidth = 3;
-    for (let k = 0; k < 2; k++) { ctx.save(); ctx.rotate((k * Math.PI) / 4); ctx.strokeRect(-r, -r, 2 * r, 2 * r); ctx.restore(); }
-    ctx.restore();
+  async function tintedEmblem(el, color) {
+    const svg = (await (await fetch("/img/el/" + el + ".svg")).text()).replace('color="#17131F"', 'color="' + color + '"');
+    const img = new Image();
+    img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+    await img.decode();
+    return img;
   }
 
+  function spaced(x, px) { if ("letterSpacing" in x) x.letterSpacing = px + "px"; }
+
+  // The Mizaj Deck story card (1080x1920). Mirrors server/mizaj/deck.py + site/static/css/deck.css.
   async function storyCard(d) {
-    try { await Promise.all([document.fonts.load("700 160px Fraunces"), document.fonts.load("600 60px 'Noto Nastaliq Urdu'"), document.fonts.load("700 40px Manrope")]); } catch (e) { /* fonts optional */ }
+    const k = d.deck;
+    try {
+      await Promise.all(["700 86px Fraunces", "italic 600 33px Fraunces", "italic 500 36px Fraunces", "italic 700 64px Fraunces",
+        "700 23px 'JetBrains Mono'", "700 56px Caveat", "600 40px Manrope", "800 40px Manrope"].map((f) => document.fonts.load(f)));
+    } catch (e) { /* fonts optional */ }
     const W = 1080, H = 1920, c = document.createElement("canvas"); c.width = W; c.height = H;
     const x = c.getContext("2d");
-    const famColors = { Danishwar: "#6B4FA0", "Ahl-e-Dil": "#2E8A6A", Pasban: "#2F6DB0", Fankar: "#D98C2B" };
-    const mzColors = { damvi: "#D2544A", safravi: "#E39B2D", balghami: "#2E8A8A", saudavi: "#5A4A78" };
-    const base = d.code ? famColors[d.family] : mzColors[d.mizaj.key];
-    const g = x.createLinearGradient(0, 0, W, H); g.addColorStop(0, base); g.addColorStop(1, "#1B1530");
-    x.fillStyle = g; x.fillRect(0, 0, W, H);
-    for (let i = 0; i < 6; i++) for (let j = 0; j < 10; j++) star(x, 90 + i * 180, 90 + j * 190, 46, "rgba(255,255,255,0.06)");
-    x.fillStyle = "#FBF6EE"; x.textAlign = "center";
-    x.font = "700 46px Manrope"; x.fillText("mizaj.pk", W / 2, 150);
-    x.font = "600 44px Manrope"; x.globalAlpha = 0.85;
-    x.fillText(d.who ? d.who + " is" : "I am", W / 2, 520); x.globalAlpha = 1;
-    if (d.code) {
-      x.font = "700 230px Fraunces"; x.fillText(d.code, W / 2, 760);
-      x.font = "700 74px Fraunces"; x.fillText(d.name, W / 2, 880);
-      x.font = "600 46px Manrope"; x.fillText(d.name_en + " " + (d.emoji || ""), W / 2, 950);
-      x.font = "600 64px 'Noto Nastaliq Urdu'"; x.fillText(d.name_ur || "", W / 2, 1080);
-    } else {
-      x.font = "700 160px Fraunces"; x.fillText(d.mizaj.name, W / 2, 760);
-      x.font = "600 52px Manrope"; x.fillText(d.mizaj.nickname + " · " + d.mizaj.quality.split(" (")[0], W / 2, 860);
-      x.font = "600 64px 'Noto Nastaliq Urdu'"; x.fillText(d.mizaj.name_ur || "", W / 2, 990);
+    const PAPER = "#F4F1EA", INK = "#17131F", MUTED = "#6F6878", LINE = "#D9D2C3";
+    // aura
+    x.fillStyle = INK; x.fillRect(0, 0, W, H);
+    const blob = (cx, cy, r, col, a) => { const g = x.createRadialGradient(cx, cy, 0, cx, cy, r); g.addColorStop(0, col); g.addColorStop(1, "rgba(0,0,0,0)"); x.globalAlpha = a; x.fillStyle = g; x.fillRect(0, 0, W, H); x.globalAlpha = 1; };
+    blob(W * 0.18, H * 0.12, W * 0.75, k.c1, 1); blob(W * 0.9, H * 0.92, W * 0.7, k.c2, 1); blob(W * 0.92, H * 0.3, W * 0.4, k.c1, 0.45);
+    // grain
+    const n = document.createElement("canvas"); n.width = n.height = 200; const nx = n.getContext("2d"), id = nx.createImageData(200, 200);
+    for (let i = 0; i < id.data.length; i += 4) { const v = Math.random() * 255; id.data[i] = id.data[i + 1] = id.data[i + 2] = v; id.data[i + 3] = 22; }
+    nx.putImageData(id, 0, 0);
+    // header
+    x.fillStyle = PAPER; x.textBaseline = "alphabetic";
+    x.font = "italic 700 64px Fraunces"; x.textAlign = "left"; x.fillText("mizaj", 110, 250);
+    x.font = "700 24px 'JetBrains Mono'"; spaced(x, 4.8); x.textAlign = "right"; x.globalAlpha = 0.85; x.fillText("THE MIZAJ DECK", 970, 242); x.globalAlpha = 1; spaced(x, 0);
+    x.save(); x.translate(W / 2, 352); x.rotate(-0.035); x.font = "700 56px Caveat"; x.textAlign = "center"; x.fillText((d.who ? d.who + " pulled" : "I pulled"), 0, 0); x.restore();
+    // card layout
+    const cx0 = 110, cw = 860, pad = 18, ix = cx0 + pad + 30, iw = cw - 2 * (pad + 30);
+    x.font = "italic 500 36px Fraunces"; const qLines = wrapText(x, "“" + (k.line || "") + "”", iw).slice(0, 3);
+    let y = 392; const top = y;
+    const yTop = y + pad + 26 + 23, yArt = yTop + 22, artH = 440, yName = yArt + artH + 26 + 74, ySub = yName + 48, yDesi = ySub + 50;
+    const yBars = yDesi + 26, barsH = k.bars.length ? 26 + k.bars.length * 34 : 0, yRule = yBars + barsH + 30, yQuote = yRule + 22 + 36;
+    const bottom = yQuote + (qLines.length - 1) * 47 + 30 + pad;
+    // card body
+    x.save(); x.shadowColor = "rgba(0,0,0,.35)"; x.shadowBlur = 60; x.shadowOffsetY = 24; x.fillStyle = PAPER; roundRect(x, cx0, top, cw, bottom - top, 44); x.fill(); x.restore();
+    x.strokeStyle = INK; x.lineWidth = 2.5; roundRect(x, cx0 + pad, top + pad, cw - 2 * pad, bottom - top - 2 * pad, 32); x.stroke();
+    // top row
+    x.font = "700 23px 'JetBrains Mono'"; spaced(x, 3.2); x.fillStyle = INK; x.textAlign = "left";
+    x.beginPath(); x.arc(ix + 9, yTop - 8, 9, 0, Math.PI * 2); x.fillStyle = k.pip; x.fill(); x.fillStyle = INK;
+    x.fillText(k.top.toUpperCase(), ix + 30, yTop); x.textAlign = "right"; x.fillText(k.no.toUpperCase(), ix + iw, yTop); spaced(x, 0);
+    // art window
+    x.save(); roundRect(x, ix, yArt, iw, artH, 26); x.clip();
+    const ag = x.createRadialGradient(ix + iw * 0.3, yArt + artH * 0.25, 0, ix + iw * 0.3, yArt + artH * 0.25, iw * 0.85);
+    ag.addColorStop(0, k.c1); ag.addColorStop(1, k.deep); x.fillStyle = ag; x.fillRect(ix, yArt, iw, artH);
+    x.globalAlpha = 0.18; x.fillStyle = x.createPattern(n, "repeat"); x.fillRect(ix, yArt, iw, artH); x.globalAlpha = 1;
+    try {
+      if (k.code) {
+        const wm = await tintedEmblem(k.aura_el, "rgba(255,255,255,.2)");
+        x.save(); x.translate(ix + iw / 2, yArt + artH / 2); x.rotate(0.14); x.drawImage(wm, -270, -270, 540, 540); x.restore();
+      } else {
+        const solo = await tintedEmblem(k.aura_el, PAPER); x.drawImage(solo, ix + iw / 2 - 150, yArt + artH / 2 - 150, 300, 300);
+      }
+    } catch (e) { /* emblem optional */ }
+    let drewArt = false;
+    if (k.art) { try { const im = new Image(); im.src = k.art; await im.decode(); const sc = Math.min(iw / im.width, artH / im.height); x.drawImage(im, ix + (iw - im.width * sc) / 2, yArt + artH - im.height * sc, im.width * sc, im.height * sc); drewArt = true; } catch (e) { /* fall back to the code */ } }
+    if (k.code && !drewArt) { x.fillStyle = PAPER; x.textAlign = "center"; x.font = "700 190px Fraunces"; spaced(x, 4); x.fillText(k.code, ix + iw / 2, yArt + artH / 2 + 68); spaced(x, 0); }
+    if (k.el) {
+      x.font = "700 22px 'JetBrains Mono'"; spaced(x, 2.6); const tw = x.measureText(k.el_name.toUpperCase()).width;
+      x.fillStyle = "rgba(23,19,31,.55)"; roundRect(x, ix + 20, yArt + artH - 20 - 56, tw + 84, 56, 28); x.fill();
+      try { const ch = await tintedEmblem(k.el, PAPER); x.drawImage(ch, ix + 34, yArt + artH - 20 - 46, 36, 36); } catch (e) { /* ok */ }
+      x.fillStyle = PAPER; x.textAlign = "left"; x.fillText(k.el_name.toUpperCase(), ix + 80, yArt + artH - 20 - 20); spaced(x, 0);
     }
-    x.font = "italic 600 50px Fraunces";
-    wrapText(x, "“" + (d.share_line || d.tagline || "") + "”", 880).slice(0, 4).forEach((ln, i) => x.fillText(ln, W / 2, 1230 + i * 70));
-    if (d.code && d.mizaj) {
-      x.fillStyle = "rgba(255,255,255,0.14)"; roundRect(x, 190, 1500, 700, 110, 55); x.fill();
-      x.fillStyle = "#FBF6EE"; x.font = "700 46px Manrope"; x.fillText("Mizaj: " + d.mizaj.name + " · " + d.mizaj.nickname, W / 2, 1572);
-    }
-    x.font = "700 44px Manrope"; x.fillStyle = "#E8A33D"; x.fillText("What's your mizaj? Free test at mizaj.pk", W / 2, 1780);
+    x.restore();
+    // name, sub, desi
+    x.fillStyle = INK; x.textAlign = "left"; x.font = "700 86px Fraunces"; x.fillText(k.name, ix, yName);
+    x.fillStyle = MUTED; x.font = "700 23px 'JetBrains Mono'"; spaced(x, 2.8); x.fillText(k.sub.toUpperCase(), ix, ySub); spaced(x, 0);
+    x.font = "italic 600 33px Fraunces"; x.fillText(k.desi, ix, yDesi);
+    // bars
+    k.bars.forEach((b, i) => {
+      const by = yBars + 26 + i * 34;
+      x.fillStyle = INK; x.font = "700 21px 'JetBrains Mono'"; spaced(x, 1.7); x.textAlign = "left"; x.fillText(String(b[0]).toUpperCase(), ix, by);
+      x.textAlign = "right"; x.fillText(b[1] + "%", ix + iw, by); spaced(x, 0);
+      const bx = ix + 172, bw = iw - 172 - 70;
+      x.fillStyle = LINE; roundRect(x, bx, by - 13, bw, 8, 4); x.fill();
+      x.fillStyle = k.c1; roundRect(x, bx, by - 13, Math.max(8, bw * b[1] / 100), 8, 4); x.fill();
+    });
+    // rule + quote
+    x.strokeStyle = LINE; x.lineWidth = 2; x.setLineDash([10, 8]); x.beginPath(); x.moveTo(ix, yRule); x.lineTo(ix + iw, yRule); x.stroke(); x.setLineDash([]);
+    x.fillStyle = INK; x.textAlign = "left"; x.font = "italic 500 36px Fraunces"; qLines.forEach((ln, i) => x.fillText(ln, ix, yQuote + i * 47));
+    // hooks
+    x.font = "600 32px Manrope"; const pills = k.hooks.map((h) => { x.font = "600 32px Manrope"; const a = x.measureText(h[0]).width; x.font = "800 32px Manrope"; return { h, a, w: a + x.measureText(h[1]).width + 60 }; });
+    const total = pills.reduce((s2, p) => s2 + p.w, 0) + (pills.length - 1) * 18; let px = (W - total) / 2; const py = bottom + 44;
+    pills.forEach((p) => {
+      x.fillStyle = "rgba(244,241,234,.14)"; roundRect(x, px, py, p.w, 70, 35); x.fill(); x.strokeStyle = "rgba(244,241,234,.35)"; x.lineWidth = 2; x.stroke();
+      x.fillStyle = PAPER; x.textAlign = "left"; x.font = "600 32px Manrope"; x.fillText(p.h[0], px + 30, py + 46); x.font = "800 32px Manrope"; x.fillText(p.h[1], px + 30 + p.a, py + 46);
+      px += p.w + 18;
+    });
+    // footer
+    const fy = py + (pills.length ? 70 : 0) + 80;
+    x.font = "600 40px Manrope"; const pre = "What's your card? "; const pw = x.measureText(pre).width; x.font = "800 40px Manrope"; const uw = x.measureText("mizaj.pk").width;
+    const fx = (W - pw - uw) / 2; x.fillStyle = PAPER; x.textAlign = "left"; x.font = "600 40px Manrope"; x.fillText(pre, fx, fy);
+    x.font = "800 40px Manrope"; x.fillText("mizaj.pk", fx + pw, fy); x.fillRect(fx + pw, fy + 10, uw, 4);
+    // grain over everything
+    x.globalAlpha = 0.5; x.globalCompositeOperation = "overlay"; x.fillStyle = x.createPattern(n, "repeat"); x.fillRect(0, 0, W, H);
+    x.globalAlpha = 1; x.globalCompositeOperation = "source-over";
     return await new Promise((res) => c.toBlob(res, "image/png"));
   }
   function roundRect(x, l, t, w, h, r) { x.beginPath(); x.moveTo(l + r, t); x.arcTo(l + w, t, l + w, t + h, r); x.arcTo(l + w, t + h, l, t + h, r); x.arcTo(l, t + h, l, t, r); x.arcTo(l, t, l + w, t, r); x.closePath(); }
@@ -467,7 +538,7 @@
     });
   }
   const sp = $("[data-share-palm]");
-  if (sp) sp.addEventListener("click", () => { track("share_click", { kind: "palm" }); window.open("https://wa.me/?text=" + encodeURIComponent("AI ne meri haath ki lakeerein parh lin ✋😅 Try yours free: " + location.origin + "/palm/?utm_source=whatsapp"), "_blank"); });
+  if (sp) sp.addEventListener("click", () => { track("share_click", { kind: "palm" }); window.open("https://wa.me/?text=" + encodeURIComponent("An AI just read my palm ✋😅 Try yours free: " + location.origin + "/palm/?utm_source=whatsapp"), "_blank"); });
 
   // ---------- burj & adad ----------
   const burj = $("#burj-form");

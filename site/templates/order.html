@@ -8,33 +8,33 @@
     <h1 style="font-size:1.9rem">{{ product.name }}</h1>
     <p class="muted">{{ product.short }}</p>
     <ul class="list-check">{% for b in product.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
-    <div style="margin-top:14px"><span class="price-old">{{ product.list_price|pkr }}</span><b style="font:700 2rem var(--serif)">{{ order.amount|pkr }}</b> <span class="small muted">one-time · no subscription</span></div>
+    <div style="margin-top:14px"><span class="price-old">{{ money(product, "list_price") }}</span><b style="font:700 2rem var(--serif)"><span class="cur-usd">${{ product.usd }}</span><span class="cur-pkr">{{ order.amount|pkr }}</span></b> <span class="small muted">one-time · no subscription</span></div>
   </div>
 
   <div class="card center hidden" data-state="proof">
     <div class="spinner" style="margin:0 auto 12px;color:var(--ink)"></div>
     <h2>Verifying your payment…</h2>
-    <p class="muted">This usually takes a few minutes (9am to midnight). You can keep this page open; it unlocks by itself. We'll also email you if you left an email.</p>
-    {% if support_whatsapp %}<a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="https://wa.me/{{ support_whatsapp }}?text={{ ('Assalam o alaikum, I paid for order ' ~ order.id)|urlencode }}">Message us on WhatsApp</a>{% endif %}
+    <p class="muted">This usually takes a few minutes (9am to midnight, Pakistan time). You can keep this page open; it unlocks by itself. We'll also email you if you left an email.</p>
+    {% if support_whatsapp %}<a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="https://wa.me/{{ support_whatsapp }}?text={{ ('Hi, I paid for order ' ~ order.id)|urlencode }}">Message us on WhatsApp</a>{% endif %}
   </div>
   <div class="card center hidden" data-state="paid">
     <h2>🎉 Unlocked!</h2>
     <p class="muted">Taking you to your report…</p>
   </div>
   <div class="notice hidden" data-state="rejected">We couldn't verify this payment. If you paid, please message us on WhatsApp with a screenshot and we'll fix it straight away.</div>
-  {% if request_card_failed %}<div class="notice">Card payment didn't go through. Try again or use Raast / JazzCash / Easypaisa.</div>{% endif %}
+  {% if request_card_failed %}<div class="notice">Card payment didn't go through. Please try again or pick another way to pay.</div>{% endif %}
 
-  <div data-state="created" class="stack">
+  <div data-state="created" class="stack pay-list">
     {% if card %}
-    <div class="pay-method">
-      <b>💳 Debit/credit card, wallet or bank account</b>
+    <div class="pay-method pay-pk">
+      <b>🇵🇰 Pakistani card, wallet or bank account</b>
       <p class="small muted" style="margin:4px 0 10px">Instant unlock. Secure checkout by Safepay.</p>
       <button class="btn btn-block" data-safepay>Pay {{ order.amount|pkr }} securely</button>
     </div>
     {% endif %}
     {% if methods %}
-    <div class="pay-method on">
-      <b>📲 Send by Raast, JazzCash, Easypaisa or bank</b>
+    <div class="pay-method pay-pk">
+      <b>🇵🇰 In Pakistan: send by Raast, JazzCash, Easypaisa or bank</b>
       <p class="small muted" style="margin:4px 0 10px">Zero fees. Unlocked after a quick check, usually within minutes.</p>
       <div class="tabs" role="tablist">
         {% for mth in methods %}<button class="tag {% if loop.first %}on{% endif %}" style="cursor:pointer" data-method-tab="{{ mth.key }}">{{ mth.label }}</button>{% endfor %}
@@ -61,15 +61,18 @@
       </form>
     </div>
     {% endif %}
-    {% if usd_link %}
-    <div class="pay-method">
-      <b>🌍 Outside Pakistan? Pay in USD</b>
-      <p class="small muted" style="margin:4px 0 10px">International cards and PayPal. Instant unlock.</p>
-      <a class="btn btn-ghost btn-block" href="{{ usd_link }}">Pay ${{ product.usd }}</a>
+    <div class="pay-method pay-intl">
+      <b>🌍 Card, Apple Pay, Google Pay or PayPal</b>
+      {% if usd_link %}
+      <p class="small muted" style="margin:4px 0 10px">Pay in your own currency from the UK, US, Canada, the Gulf or anywhere else. Instant unlock.</p>
+      <a class="btn btn-block" href="{{ usd_link }}">Pay ${{ product.usd }} securely</a>
+      {% else %}
+      <p class="small muted" style="margin:4px 0 10px">International card checkout is opening very soon. Outside Pakistan today? Message us and we'll send you a secure payment link.</p>
+      {% if support_whatsapp %}<a class="btn btn-ghost btn-block" target="_blank" rel="noopener" href="https://wa.me/{{ support_whatsapp }}?text={{ ('Hi, I would like to pay for order ' ~ order.id ~ ' from outside Pakistan')|urlencode }}">Get a payment link on WhatsApp</a>{% endif %}
+      {% endif %}
     </div>
-    {% endif %}
-    {% if not methods and not card and not usd_link %}
-    <div class="notice">Online payment is opening very soon. Message us on WhatsApp and we'll unlock your report by hand today.</div>
+    {% if not methods and not card %}
+    <div class="notice">Pakistani payment methods are opening very soon. Message us on WhatsApp and we'll unlock your report by hand today.</div>
     {% endif %}
     <details class="card card-flat">
       <summary style="cursor:pointer;font-weight:700">Have a code?</summary>

@@ -1,18 +1,19 @@
 {% extends "base.html" %}
 {% block main %}
-<section class="result-hero fam-{{ t.family }}">
-  <div class="wrap">
-    {% if static_exists("img/types/" ~ t.code|lower ~ ".webp") %}<img class="art" src="/img/types/{{ t.code|lower }}.webp" alt="{{ t.name }} illustration" width="400" height="400">{% endif %}
-    <a href="/types/" class="small" style="color:#fff;opacity:.8">← All 16 types</a>
-    <div class="code" style="margin-top:10px">{{ t.code }}</div>
-    <div class="tname">{{ t.name }} · {{ t.name_en }} {{ t.emoji }}</div>
-    <div class="ur">{{ t.name_ur }}</div>
-    <p class="tagline">{{ t.tagline }}</p>
-    <a class="btn btn-saffron" href="/test/personality/" style="margin-top:12px">Am I a {{ t.name }}? Take the test</a>
+<section class="deck-hero aura grain" style="{{ deck_aura(t.code) }}">
+  <div class="wrap dh-grid">
+    <div class="dh-card">{{ deck_card(t.code, None, None, t.share_line) }}</div>
+    <div class="dh-text">
+      <a href="/types/" class="small dh-back">← All 16 types</a>
+      <span class="dh-eyebrow">{{ families[t.family].en }} · The Mizaj Deck</span>
+      <h1>{{ t.code }} · {{ t.name_en }}</h1>
+      <p class="tagline">{{ t.tagline }}</p>
+      <a class="btn btn-paper" href="/test/personality/">Am I {{ t.name_en }}? Take the test</a>
+    </div>
   </div>
 </section>
 <section class="section"><div class="wrap narrow stack">
-  <h2>Who is the {{ t.name }}?</h2>
+  <h2>Who is {{ t.name_en }}?</h2>
   {{ t.free.summary|paras }}
   <blockquote class="card" style="border-left:5px solid var(--saffron);font:italic 1.1rem/1.6 var(--serif)">{{ t.free.pakistani_archetype }}</blockquote>
   <div class="grid grid-2">
@@ -23,7 +24,7 @@
     <div class="card"><h3>💞 In relationships</h3><p>{{ t.free.in_relationships }}</p></div>
     <div class="card"><h3>💼 At work</h3><p>{{ t.free.at_work }}</p></div>
   </div>
-  <div><h3>Fictional {{ t.name }}s</h3><div class="share-row">{% for f in t.free.fictional_twins %}<span class="tag">{{ f }}</span>{% endfor %}</div></div>
+  <div><h3>Fictional {{ t.code }}s</h3><div class="share-row">{% for f in t.free.fictional_twins %}<span class="tag">{{ f }}</span>{% endfor %}</div></div>
   <div class="card"><h3>{{ t.code }} and the four mizaj</h3>
     <p class="muted small">The same type feels different in a warm or cool, moist or dry temperament.</p>
     {% for k in mizaj_keys %}<p><b>{{ t.code }} · {{ k|capitalize }}:</b> {{ t.premium.with_each_mizaj[k][:140] }}… <a href="/test/mizaj/">find yours</a></p>{% endfor %}
@@ -32,7 +33,7 @@
     <div class="share-row">{% for c in type_codes %}<a class="tag" href="/compatibility/{{ pair_slug(t.code, c) }}/">{{ t.code }} + {{ c }}</a>{% endfor %}</div></div>
   <p class="muted small">{{ t.rarity|capitalize }} are {{ t.code }}s.</p>
   <div class="card center stack" style="background:var(--ink);color:var(--paper);border:0">
-    <h2>Are you a {{ t.name }}?</h2><p style="opacity:.8">Take the free 8-minute test, in English or Urdu.</p>
+    <h2>Are you {{ t.name_en }}?</h2><p style="opacity:.8">Take the free 8-minute test, in English or Urdu.</p>
     <a class="btn btn-saffron" href="/test/personality/">Take the test →</a>
   </div>
 </div></section>

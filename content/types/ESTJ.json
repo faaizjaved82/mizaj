@@ -7,7 +7,7 @@
   "emoji": "📋",
   "colors": ["#2E3440", "#E4572E"],
   "tagline": "Everyone panics, then looks at you. You already have a list.",
-  "share_line": "I assigned everyone their shaadi duties before the dholki dates were even final.",
+  "share_line": "I assigned everyone their wedding duties before the mehndi date was even final.",
   "keywords": ["Decisive", "Organised", "Direct", "Responsible", "Driven"],
   "rarity": "about 9% of people",
   "free": {
@@ -24,7 +24,7 @@
       "May confuse your way of doing things with the only right way.",
       "Sometimes offers instructions when people in pain need warmth first."
     ],
-    "pakistani_archetype": "You're the one who made a spreadsheet for the family trip to Naran, with fuel stops, room allocations and who is in charge of the chai thermos, before anyone had agreed to go.",
+    "pakistani_archetype": "You're the one who made a spreadsheet for the cousins' trip, with flight times, room allocations and who is in charge of the chai thermos, before anyone had agreed to go.",
     "in_relationships": "You love by taking responsibility: the house running smoothly, the bills sorted, the future planned. You want a spouse who is honest, reliable and pulls their weight. The trick, covered in your full report, is learning when to stop managing and simply be there.",
     "at_work": "You turn meetings into actions and actions into results. You rise quickly in structured organisations because you pair competence with a willingness to take charge, and people who don't follow through drive you up the wall. Read on in the full report for leadership, career paths and bringing people with you.",
     "fictional_twins": [
@@ -35,7 +35,7 @@
     ]
   },
   "premium": {
-    "deep_dive": "Every family has a moment when the plan collapses. The caterer cancels two days before the mehndi. The car breaks down halfway to Murree. The university portal crashes on the last day of admissions. In that moment most people react. You organise. Your brain switches into a mode that is almost calm: what has happened, what are the options, who can do what, and by when. You are not built to watch problems. You are built to solve them, preferably before anyone else has noticed.\n\nWhat drives you is responsibility in its deepest sense. You feel personally accountable for how things turn out, whether it is the family function, the team's quarterly numbers or a younger sibling's entry test preparation. When a cousin's rishta stalls or a friend's visa is refused, you feel it as your problem to fix, even when nobody asked. Your core fear is being useless, or worse, being the reason things fell apart. Linked to it is a fear of chaos itself: a world where nobody keeps their word and nothing gets done. Order, for you, is not control for its own sake. It is how people are kept safe, fed, paid and on time.\n\nYou process life through facts, results and experience. You trust what you can see and measure. Did the plan work? Did they deliver? You decide quickly because you trust your judgement, and because waiting feels like wasting time someone will later pay for. You respect hierarchy, tradition and proper process because you have seen what happens without them, from the office that lost a client to the wedding that started three hours late. But you are not rigid. Show you a method that genuinely works better, with proof, and you will adopt it by Monday.\n\nHere is what people miss. Because you speak with certainty and act fast, they assume you never doubt yourself. In truth you carry a lot of pressure quietly, lying awake listing what could still go wrong. You want appreciation more than you admit, and a simple “we couldn't have done this without you” can carry you for months. It also stings to be labelled bossy by the very people you were helping, because to you it felt like caring. You are softer in private than your public self lets on; your closest people have seen you cry at a rukhsati. Showing the care behind the instructions, out loud, is your great unlock.",
+    "deep_dive": "Every family has a moment when the plan collapses. The caterer cancels two days before the mehndi. The car breaks down halfway to the airport. The university portal crashes on the last day of applications. In that moment most people react. You organise. Your brain switches into a mode that is almost calm: what has happened, what are the options, who can do what, and by when. You are not built to watch problems. You are built to solve them, preferably before anyone else has noticed.\n\nWhat drives you is responsibility in its deepest sense. You feel personally accountable for how things turn out, whether it is the family function, the team's quarterly numbers or a younger sibling's exam preparation. When a cousin's rishta stalls or a friend's visa is refused, you feel it as your problem to fix, even when nobody asked. Your core fear is being useless, or worse, being the reason things fell apart. Linked to it is a fear of chaos itself: a world where nobody keeps their word and nothing gets done. Order, for you, is not control for its own sake. It is how people are kept safe, fed, paid and on time.\n\nYou process life through facts, results and experience. You trust what you can see and measure. Did the plan work? Did they deliver? You decide quickly because you trust your judgement, and because waiting feels like wasting time someone will later pay for. You respect hierarchy, tradition and proper process because you have seen what happens without them, from the office that lost a client to the wedding that started three hours late. But you are not rigid. Show you a method that genuinely works better, with proof, and you will adopt it by Monday.\n\nHere is what people miss. Because you speak with certainty and act fast, they assume you never doubt yourself. In truth you carry a lot of pressure quietly, lying awake listing what could still go wrong. You want appreciation more than you admit, and a simple “we couldn't have done this without you” can carry you for months. It also stings to be labelled bossy by the very people you were helping, because to you it felt like caring. You are softer in private than your public self lets on; your closest people have seen you cry at the bride's farewell. Showing the care behind the instructions, out loud, is your great unlock.",
     "superpowers": [
       {
         "title": "Instant Structure",
@@ -51,7 +51,7 @@
       },
       {
         "title": "Community Backbone",
-        "text": "You are the one who actually runs the housing society's welfare committee, the masjid's Ramadan iftar arrangements or the alumni fundraiser. Plenty of people complain about how things are run; you volunteer to fix them, and then you actually do. You know how to gather resources, assign duties and keep volunteers accountable without losing their goodwill. Without people like you, institutions from the mohalla committee to the school PTA would quietly fall apart."
+        "text": "You are the one who actually runs the residents' committee, the community centre's festival dinner or the alumni fundraiser. Plenty of people complain about how things are run; you volunteer to fix them, and then you actually do. You know how to gather resources, assign duties and keep volunteers accountable without losing their goodwill. Without people like you, institutions from the local cricket club to the school PTA would quietly fall apart."
       },
       {
         "title": "Follow-Up Power",
@@ -81,7 +81,7 @@
       },
       {
         "title": "Running on Empty",
-        "text": "You take on the committee, the family function, the extra project and a sibling's admission forms, because nobody else will do it properly. Then you collapse, or snap. Rest feels like slacking, so you keep postponing it until your body decides for you. The move: put rest in your calendar the way you schedule meetings, with a time and a duration, and treat cancelling it as seriously as missing a deadline."
+        "text": "You take on the committee, the family function, the extra project and a sibling's university applications, because nobody else will do it properly. Then you collapse, or snap. Rest feels like slacking, so you keep postponing it until your body decides for you. The move: put rest in your calendar the way you schedule meetings, with a time and a duration, and treat cancelling it as seriously as missing a deadline."
       }
     ],
     "relationships": {
@@ -89,11 +89,11 @@
       "rishta_tips": [
         "Ask how they handle responsibility: who manages their money, their schedule, their commitments. Shared standards prevent friction later.",
         "Be upfront that you like structure and planning. The right person will find it reassuring, not controlling.",
-        "Don't run the rishta meeting like a job interview with a checklist. Leave room for warmth, humour and curiosity.",
+        "Whether family set up the first meeting or you did, don't run it like a job interview. Leave room for warmth, humour and curiosity.",
         "Be wary of someone who agrees with everything you say. Silent agreement now can become quiet resentment later.",
         "Discuss decision-making openly, from finances to in-laws, so neither of you assumes the other will simply follow."
       ],
-      "family": "Within the family you are often the manager, whether or not you are the eldest. You handle the paperwork for your parents' pension, coordinate family events and step in when siblings need direction. Parents lean on your competence and may seek your opinion on big decisions, from property to rishtas. You take izzat and family reputation seriously, sometimes too seriously, worrying how things will look to relatives. Under one roof with uncles and cousins, you bring welcome order but may clash with elders whose systems differ from yours. Younger siblings get a dependable protector, though they may also feel bossed around. Try offering guidance as a question rather than a command.",
+      "family": "Within the family you are often the manager, whether or not you are the eldest. You handle the paperwork for your parents' pension, coordinate family events and step in when siblings need direction, even across time zones. Parents lean on your competence and may seek your opinion on big decisions, from property to rishtas. You take izzat and family reputation seriously, sometimes too seriously, worrying how things will look to relatives. In a big extended family, you bring welcome order but may clash with elders whose systems differ from yours. Younger siblings get a dependable protector, though they may also feel bossed around. Try offering guidance as a question rather than a command.",
       "friendship": "Reunions happen because of you: you book the table, create the WhatsApp group and remind everyone of the time, twice. You are loyal and practical, and you show up when it matters: moving house, a family emergency, a job hunt. You value honesty and expect friends to keep their word. Some find you intense, but the good ones know that without you the group would never actually meet, and that your blunt advice has saved them from at least one bad decision.",
       "best_matches": ["ISTJ", "ISFJ", "ISTP"],
       "growth_matches": ["INFP", "ENFP"]
@@ -105,52 +105,52 @@
         {
           "title": "Operations Manager",
           "why": "Operations rewards exactly what you do best: coordinating people, processes and timelines so that everything runs smoothly and within budget.",
-          "pk_path": "BBA or industrial engineering from IBA, LUMS, NUST or UET; management trainee programmes in FMCG, telecom or textiles."
+          "path": "Business or industrial engineering degree, then a graduate or management trainee scheme in consumer goods, logistics, telecoms or manufacturing."
         },
         {
-          "title": "Civil Servant (PAS or Police)",
-          "why": "District administration and policing need officers who take charge, decide under public pressure and enforce rules fairly, even when it's unpopular.",
-          "pk_path": "Graduate, then clear FPSC's CSS exam; the Pakistan Administrative Service and Police Service of Pakistan suit your temperament."
+          "title": "Civil Servant or Police Officer",
+          "why": "Public administration and policing need officers who take charge, decide under public pressure and enforce rules fairly, even when it's unpopular.",
+          "path": "Any degree, then your country's competitive civil service entry or graduate fast-stream, or a police graduate entry programme."
         },
         {
-          "title": "Army Officer",
+          "title": "Military Officer",
           "why": "Command structures, clear standards and responsibility for the people under you suit your decisiveness and your deep sense of duty.",
-          "pk_path": "After FSc or graduation, pass the army's initial tests and ISSB, then train at PMA Kakul."
+          "path": "Meet your country's officer entry requirements, pass the selection board's tests and interviews, then complete training at the national military academy."
         },
         {
           "title": "Project Manager",
           "why": "Big projects need someone who tracks every dependency, chases every delay and keeps stakeholders aligned all the way to delivery.",
-          "pk_path": "Engineering or CS degree via ECAT or NUST NET, then PMP certification; construction firms, telecoms and software houses hire."
+          "path": "Engineering, business or computer science degree, then PMP or PRINCE2 certification; construction firms, telecoms and software companies all hire."
         },
         {
           "title": "Hospital Administrator",
           "why": "Hospitals run on schedules, staffing and supplies. You bring order to a complex system where efficiency directly affects patients' lives.",
-          "pk_path": "BBA or MBBS, then a Master's in Health Administration or Public Health; roles in private and public hospitals."
+          "path": "Business, health sciences or medical degree, then a master's in health administration or public health; start in hospital operations or a graduate scheme."
         },
         {
           "title": "Bank Branch Manager",
           "why": "Branch banking blends targets, compliance, staff management and customer relationships, a natural fit for your organised and results-driven working style.",
-          "pk_path": "BBA or MBA, then a bank's management trainee or officer programme; progress through operations into branch management."
+          "path": "Business or finance degree, then a bank's graduate or management trainee programme; progress through operations into branch management."
         },
         {
           "title": "School Owner or Principal",
-          "why": "Running a school combines your love of standards, discipline and community, and Pakistan's private school sector genuinely rewards strong administrators.",
-          "pk_path": "B.Ed or M.Ed plus teaching experience; open a small campus with family investment or a franchise of an established school system."
+          "why": "Running a school combines your love of standards, discipline and community, and families everywhere will pay for a genuinely well-run school or tuition centre.",
+          "path": "Teaching qualification plus classroom experience; move into school leadership, or open a tuition centre or small school with partners or a franchise."
         },
         {
           "title": "Restaurant or Franchise Owner",
           "why": "Food businesses live or die on tight control of staff, stock, hygiene and costs. You'd run the kitchen like clockwork, then open branches.",
-          "pk_path": "Learn operations inside an established restaurant, then start small or take a franchise; register with FBR and the provincial food authority."
+          "path": "Learn operations inside an established restaurant, then start small or take a franchise; sort out business registration and food-safety licensing early."
         },
         {
           "title": "Remote Project Coordinator",
-          "why": "Foreign startups need someone to keep timelines, vendors and teams on track across time zones. Your follow-up skills travel very well.",
-          "pk_path": "Any business degree plus a project management certificate; apply through LinkedIn, remote job boards and Upwork."
+          "why": "Distributed startups need someone to keep timelines, vendors and teams on track across time zones. Your follow-up skills travel very well.",
+          "path": "Any business degree plus a CAPM or Google project management certificate; apply through LinkedIn, remote job boards and Upwork."
         },
         {
           "title": "E-commerce Store Manager",
           "why": "Running inventory, listings, suppliers and ads for online stores needs system-building and relentless follow-up, both of which you genuinely enjoy.",
-          "pk_path": "Start as an Amazon or Shopify virtual assistant for US sellers via Upwork, then build your own agency or online store."
+          "path": "Start as a virtual assistant for Amazon or Shopify sellers, learn listings, suppliers and ads, then build your own store or agency."
         }
       ],
       "think_twice": [
@@ -169,7 +169,7 @@
       ],
       "as_a_leader": "Leadership comes naturally to you. You set clear expectations, assign responsibility, follow up consistently and take ownership when things go wrong. Teams under you deliver, and they always know where they stand. Your growth area is warmth and flexibility: explaining the why behind decisions, inviting disagreement before you decide, and recognising people individually. The best version of you is firm on standards and generous with credit.",
       "as_a_team_member": "Even without a title, you end up coordinating. You create the shared tracker, set the internal deadline and nudge colleagues who are slipping. Teams become more effective, but peers may feel managed by someone who isn't their manager. When you're not the lead, back the lead's plan, offer suggestions privately, and save your organising energy for the work that is clearly yours.",
-      "money_style": "You are disciplined and goal-driven, and usually the one who runs the BC committee rather than just joining it: tracking payments, deciding the order, chasing the late payers. You budget seriously and plan for big milestones like a house, children's education and Hajj. You prefer tangible investments and may have strong business instincts, especially in property or a family trade. Watch the urge to spend on status, the bigger car or the grander wedding, just to meet expectations."
+      "money_style": "You are disciplined and goal-driven, and usually the one who runs the shared kitty, from the cousins' holiday fund to the office collection, rather than just paying into it: tracking payments, setting deadlines, chasing the late payers. You budget seriously and plan for big milestones like a house, children's education and your parents' later years. You prefer tangible investments and may have strong business instincts, especially in property or a family trade. Watch the urge to spend on status, the bigger car or the grander wedding, just to meet expectations."
     },
     "communication": {
       "how_they_talk": "You speak clearly, confidently and to the point. You lead with the conclusion, then the reasons. In group chats you are the one who writes, “Final decision: we leave at 7 a.m. sharp. No delays.” You can be persuasive and genuinely funny, especially with an audience. But your tone can sound like an order when you meant a suggestion, so people may comply resentfully instead of agreeing honestly.",
@@ -244,10 +244,10 @@
       }
     ],
     "with_each_mizaj": {
-      "damvi": "Damvi turns you into the organiser people actually enjoy taking instructions from. You plan with a smile, motivate through enthusiasm rather than pressure, and make order feel like a celebration. Unani tradition sees the airy Damvi nature as optimistic and warm. The catch: you may say yes to every invitation and committee. Choose fewer, and lead them brilliantly.",
-      "safravi": "Safravi makes you a force of nature: intensely driven, competitive and quick to act. You get extraordinary results, though people may brace for your reactions. Traditionally, fire brings ambition and a short fuse in equal measure. Count to five before replying, protect your sleep on demanding days, and aim the fire at goals rather than people.",
-      "balghami": "Balghami tempers your drive with patience. You are a steadier Muntazim who builds systems slowly and maintains them for years, less likely to snap and more likely to persist. Unani tradition suggests this watery temperament favours calm over speed. Your risk is settling into comfortable routines, so set stretch goals that keep your edge.",
-      "saudavi": "Saudavi makes you analytical and exacting. You plan meticulously, foresee problems early and hold standards most people find intimidating. The old physicians described this cool, dry nature as serious and prone to worry, so you may be harder on yourself than anyone realises. Balance the intensity with real downtime and a habit of noticing what is already working."
+      "damvi": "Air (Damvi) turns you into the organiser people actually enjoy taking instructions from. You plan with a smile, motivate through enthusiasm rather than pressure, and make order feel like a celebration. Unani tradition sees the airy Damvi nature as optimistic and warm. The catch: you may say yes to every invitation and committee. Choose fewer, and lead them brilliantly.",
+      "safravi": "Fire (Safravi) makes you a force of nature: intensely driven, competitive and quick to act. You get extraordinary results, though people may brace for your reactions. Traditionally, fire brings ambition and a short fuse in equal measure. Count to five before replying, protect your sleep on demanding days, and aim the fire at goals rather than people.",
+      "balghami": "Water (Balghami) tempers your drive with patience. You are a steadier Muntazim who builds systems slowly and maintains them for years, less likely to snap and more likely to persist. Unani tradition suggests this watery temperament favours calm over speed. Your risk is settling into comfortable routines, so set stretch goals that keep your edge.",
+      "saudavi": "Earth (Saudavi) makes you analytical and exacting. You plan meticulously, foresee problems early and hold standards most people find intimidating. The old physicians described this cool, dry nature as serious and prone to worry, so you may be harder on yourself than anyone realises. Balance the intensity with real downtime and a habit of noticing what is already working."
     },
     "letter": "Dear Muntazim,\n\nLet's talk about the things you did that nobody thanked you for. The wedding that ran on time because you were up at 5 a.m. calling the caterer. The paperwork you untangled after a death in the family, when everyone else was too broken to look at a form. The team that hit its target because you followed up when following up was awkward.\n\nPeople sometimes call you bossy. We think you're brave. It takes courage to be the one who decides, who says the hard thing first, who accepts the blame if it goes wrong. Most people would rather avoid that weight. You pick it up every day.\n\nBut you don't have to carry the whole world on a schedule. Some things can be left undone. Some people will learn more from doing it their way than from doing it yours. And the people you love don't need you to be perfect. They need you present.\n\nSo lead, yes. But also rest, laugh, and sometimes follow.\n\nWith admiration,\n— Mizaj"
   }

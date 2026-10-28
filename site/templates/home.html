@@ -3,12 +3,12 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">Made in Pakistan · English &amp; <span class="ur" style="font-size:.95rem">اردو</span></span>
+      <span class="eyebrow">Made by desis, for desis everywhere</span>
       <h1>What's your <em>mizaj</em>?</h1>
-      <p class="lead">A free personality test that actually gets Pakistani life, plus the thousand-year-old temperament test from Ibn Sina's <i>Canon</i>. Find your type, your mizaj, your match and your path.</p>
+      <p class="lead">A free personality test that actually gets desi life, plus the thousand-year-old temperament test from Ibn Sina's <i>Canon</i>. Find your type, your element, your match and your path.</p>
       <div class="hero-ctas">
         <a class="btn btn-pom" href="/test/personality/" data-cta="hero-personality">Start the free test →</a>
-        <a class="btn btn-ghost" href="/test/mizaj/" data-cta="hero-mizaj">Garam ya thanda? Mizaj test</a>
+        <a class="btn btn-ghost" href="/test/mizaj/" data-cta="hero-mizaj">Air, Fire, Water or Earth? Element test</a>
       </div>
       <div class="proof">
         <span><b data-tests-taken>Thousands</b> tests taken</span>
@@ -17,30 +17,11 @@
         <span>✦ 8 minutes</span>
       </div>
     </div>
-    {% if static_exists("img/hero.webp") %}
-    <div class="hero-art"><img src="/img/hero.webp" alt="Friends of different types around a chai table" width="840" height="840" style="border-radius:28px"></div>
-    {% else %}
-    <div class="hero-art" aria-hidden="true">
-      <div class="card" style="background:var(--nf);color:#fff;border:0;transform:rotate(-3deg);margin:0 0 -46px 24px">
-        <div class="small" style="opacity:.8">Ahl-e-Dil · The Heart-led</div>
-        <div style="font:700 2.6rem var(--serif);letter-spacing:.04em">INFJ</div>
-        <div style="font:600 1.3rem var(--serif)">Darvesh · The Mystic</div>
-        <div class="ur" style="font-size:1.1rem">درویش</div>
-      </div>
-      <div class="card" style="background:var(--ink);color:#fff;border:0;transform:rotate(2deg);position:relative">
-        <div class="small" style="opacity:.75">Asli Mizaj</div>
-        <div style="display:flex;align-items:center;gap:12px;margin:6px 0">
-          <img src="/img/logo.svg" width="44" height="44" alt="">
-          <div><div style="font:700 1.5rem var(--serif)">Saudavi · The Earth</div><div class="small" style="opacity:.75">Sard-Khushk (cool &amp; dry)</div></div>
-        </div>
-        <div class="small" style="opacity:.85">Deep, careful, loyal. Loves warm, moist foods: <i>daliya, halwa, desi ghee</i>.</div>
-      </div>
-      <div class="card" style="transform:rotate(-1.5deg);margin:-14px 30px 0 -6px;position:relative">
-        <div class="small muted">Mizaj Milan</div>
-        <div style="display:flex;justify-content:space-between;align-items:center"><b>INFJ ✦ ESTP</b><span class="pill" style="background:#FFF1D6">82% match</span></div>
-      </div>
+    <div class="hero-deck" aria-hidden="true">
+      <div class="hd hd-l">{{ deck_card("ENFP", "damvi") }}</div>
+      <div class="hd hd-r">{{ deck_card("ISFJ", "balghami") }}</div>
+      <div class="hd hd-c">{{ deck_card("INTJ", "safravi", None, "I'm not quiet. I'm just three moves ahead of the room.") }}</div>
     </div>
-    {% endif %}
   </div>
 </section>
 
@@ -57,9 +38,9 @@
         <span class="go">Start →</span>
       </a>
       <a class="card test-card" href="/test/mizaj/" data-cta="card-mizaj">
-        <span class="icon">🔥</span><h3>Asli Mizaj test</h3>
+        <span class="icon">🔥</span><h3>Element test</h3>
         <span class="meta">24 questions · 4 min · Free</span>
-        <p class="muted small">Garam ya thanda, tar ya khushk? Your Unani temperament and the food and routine that suit it.</p>
+        <p class="muted small">Warm or cool, moist or dry? Your Unani element and the food and routine that suit it.</p>
         <span class="go">Start →</span>
       </a>
       <a class="card test-card" href="/milan/" data-cta="card-milan">
@@ -71,7 +52,7 @@
       <a class="card test-card" href="/career/" data-cta="card-career">
         <span class="icon">🎓</span><h3>Career Compass</h3>
         <span class="meta">24 questions · 4 min · Free code</span>
-        <p class="muted small">For students and parents: which stream, degree and career actually fit you?</p>
+        <p class="muted small">For students and parents: which subjects, degree and career actually fit you?</p>
         <span class="go">Start →</span>
       </a>
     </div>
@@ -93,8 +74,8 @@
       <a class="type-tile fam-{{ t.family }}" href="/types/{{ t.code|lower }}/">
         <span class="em">{{ t.emoji }}</span>
         <span class="code">{{ t.code }}</span>
-        <span class="nm">{{ t.name }}</span>
-        <span class="en">{{ t.name_en }}</span>
+        <span class="nm">{{ t.name_en }}</span>
+        <span class="en">{{ t.name }}</span>
       </a>
       {% endfor %}
     </div>
@@ -115,7 +96,7 @@
       <div class="mz-grid" style="margin:8px 0">
         {% for m in mizaj %}
         <a class="mz-tile mz-{{ m.key }}" href="/mizaj/{{ m.key }}/">
-          <span class="ur">{{ m.name_ur }}</span><b>{{ m.name }}</b><span class="small">{{ m.nickname }} · {{ m.quality.split(' (')[0] }}</span>
+          <b>{{ m.emoji }} {{ m.global_name }}</b><span class="small">{{ m.name }} · {{ m.nickname }}</span>
         </a>
         {% endfor %}
       </div>
@@ -129,9 +110,9 @@
     <span class="eyebrow" style="color:var(--saffron)">Why Mizaj</span>
     <h2>Built for our lives, not someone else's</h2>
     <div class="grid grid-4" style="margin-top:24px">
-      <div><h3>🇵🇰 Made for Pakistan</h3><p class="muted">Questions about shaadis, cousins and chai, not American college dorms. Every question also in Urdu.</p></div>
+      <div><h3>🌍 Made for desi life</h3><p class="muted">Questions about weddings, cousins and chai, wherever you live. Every question also in Urdu.</p></div>
       <div><h3>☯ Two lenses</h3><p class="muted">Modern type psychology plus Unani temperament: 64 profiles that explain both your mind and your body clock.</p></div>
-      <div><h3>💍 Practical</h3><p class="muted">Rishta tips, family dynamics, careers with the Pakistani route to each: degree, entry test or freelancing.</p></div>
+      <div><h3>💍 Practical</h3><p class="muted">Rishta tips, family dynamics, and careers with the route into each: degree, certification or freelancing.</p></div>
       <div><h3>🔒 Private</h3><p class="muted">No sign-up needed. We never sell your data. Palm photos are read and discarded, never stored.</p></div>
     </div>
   </div>
@@ -144,14 +125,14 @@
     <ol class="steps" style="max-width:640px;margin-top:20px">
       <li><b>Take a free test.</b> No sign-up, 4 to 8 minutes, English or Urdu.</li>
       <li><b>Get your free result.</b> Your type, your strengths and watch-outs, and a card to share on WhatsApp and Instagram.</li>
-      <li><b>Unlock the full report if you want more.</b> Love and rishta, family, career routes, your mizaj diet and a 30-day growth plan. One-time payment by Raast, JazzCash, Easypaisa or card.</li>
+      <li><b>Unlock the full report if you want more.</b> Love and rishta, family, career routes, your mizaj diet and a 30-day growth plan. One-time payment by card, Apple Pay or Google Pay (or Raast, JazzCash and Easypaisa in Pakistan).</li>
     </ol>
     <div class="grid grid-3" style="margin-top:28px">
       {% for key in ["full", "couple", "bundle"] %}{% set p = products[key] %}
       <div class="card price-card {% if key == 'bundle' %}featured{% endif %}">
         {% if p.badge %}<span class="badge">{{ p.badge }}</span>{% endif %}
         <h3>{{ p.name }}</h3>
-        <div><span class="price-old">{{ p.list_price|pkr }}</span><span class="amt">{{ p.price|pkr }}</span></div>
+        <div><span class="price-old">{{ money(p, "list_price") }}</span><span class="amt">{{ money(p) }}</span></div>
         <p class="muted small">{{ p.short }}</p>
       </div>
       {% endfor %}
@@ -162,7 +143,7 @@
 
 <section class="section section-alt">
   <div class="wrap grid grid-2">
-    <a class="card test-card" href="/schools/"><span class="icon">🏫</span><h3>For schools and colleges</h3><p class="muted">Career Compass for your whole class, with a counsellor dashboard and parent reports. From PKR 300 per student.</p><span class="go">Bring Mizaj to your school →</span></a>
+    <a class="card test-card" href="/schools/"><span class="icon">🏫</span><h3>For schools and colleges</h3><p class="muted">Career Compass for your whole class, with a counsellor summary and parent reports. Bulk pricing per student.</p><span class="go">Bring Mizaj to your school →</span></a>
     <a class="card test-card" href="/teams/"><span class="icon">🤝</span><h3>For teams</h3><p class="muted">See your team's types and temperaments on one map. Better meetings, fewer clashes. Workshops available.</p><span class="go">Mizaj for teams →</span></a>
   </div>
 </section>

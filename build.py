@@ -47,17 +47,17 @@ TESTS = {
         "note": "There are no right or wrong answers. Answer as you usually are, not as you'd like to be.",
     },
     "mizaj": {
-        "id": "mizaj", "count": 24, "eyebrow": "Asli Mizaj test · Unani temperament",
-        "title": "Garam ya thanda? Find your Asli Mizaj",
+        "id": "mizaj", "count": 24, "eyebrow": "Element test · Unani temperament",
+        "title": "Warm or cool? Find your element",
         "lead": "24 questions about your body, sleep, appetite and moods, based on the classical Unani signs of temperament described by Ibn Sina.",
-        "bullets": ["4 minutes, free", "Damvi, Safravi, Balghami or Saudavi", "Foods and habits that traditionally suit you"],
+        "bullets": ["4 minutes, free", "Air, Fire, Water or Earth (Damvi, Safravi, Balghami, Saudavi)", "Foods and habits that traditionally suit you"],
         "note": "Traditional wellness wisdom for self-understanding, not a medical diagnosis.",
     },
     "interests": {
         "id": "interests", "count": 24, "eyebrow": "Career Compass · interest code",
         "title": "What kind of work would you actually enjoy?",
-        "lead": "24 activities. Tell us which ones you'd enjoy and get your 3-letter interest code, matched to streams, degrees and careers in Pakistan.",
-        "bullets": ["4 minutes, free", "For students from grade 8 to university", "Works even better with your personality type"],
+        "lead": "24 activities. Tell us which ones you'd enjoy and get your 3-letter interest code, matched to subjects, degrees and careers.",
+        "bullets": ["4 minutes, free", "For students from age 13 to university", "Works even better with your personality type"],
         "note": "Think about whether you'd enjoy the activity, not whether you're good at it yet.",
     },
 }
@@ -66,16 +66,16 @@ FAQS = [
     ("Is the test really free?", "Yes. Every test and your basic result are free forever, with no sign-up. If you want to go deeper, you can unlock a full report with a one-time payment. There are no subscriptions."),
     ("How accurate is it?", "Our tests are carefully written and scored, but no personality test is a diagnosis. Think of your result as a mirror and a conversation starter. Most people find their type describes them well; if yours feels off, retake it on a calm day and answer as you usually are."),
     ("Is this the MBTI?", "No. Mizaj uses its own questions, its own 16 type names and adds Unani temperament. We use the familiar four-letter codes, which describe Jungian preferences, but we are independent and not affiliated with the Myers & Briggs Foundation."),
-    ("What is mizaj in Unani medicine?", "Tibb-e-Unani describes four temperaments based on warmth and moisture: Damvi (warm-moist), Safravi (warm-dry), Balghami (cool-moist) and Saudavi (cool-dry). They shape energy, moods and which foods suit you. It's traditional wellness wisdom, not medical advice."),
-    ("Can I take it in Urdu?", "Yes. Every question is available in Urdu; switch with the اردو button at any time."),
-    ("How do I pay?", "Raast, JazzCash, Easypaisa or bank transfer with zero fees, or debit/credit card. Outside Pakistan, international cards in USD."),
+    ("What is mizaj in Unani medicine?", "Tibb-e-Unani, the Greek-Persian medicine of Ibn Sina, describes four temperaments based on warmth and moisture. We call them by their elements: Air (Damvi, warm-moist), Fire (Safravi, warm-dry), Water (Balghami, cool-moist) and Earth (Saudavi, cool-dry). They shape energy, moods and which foods suit you. It's traditional wellness wisdom, not medical advice."),
+    ("Can I take it in Urdu?", "Yes. Every question is available in English and Urdu; switch with the اردو button at any time. Your parents can take it too."),
+    ("How do I pay?", "By card, Apple Pay, Google Pay or PayPal in your own currency wherever you live. In Pakistan you can also pay in rupees by Raast, JazzCash, Easypaisa or bank transfer with zero fees."),
     ("What about my privacy?", "No sign-up needed. We store your answers to show your result, we never sell your data, and palm photos are read once and deleted. You can ask us to delete everything at any time."),
     ("Can schools or companies use Mizaj?", "Yes. We offer Career Compass for schools and Mizaj for Teams for companies, with bulk codes, summaries and workshops."),
 ]
 
 LEGAL = {
     "privacy": ("Privacy policy", [
-        ("Who we are", "Mizaj (mizaj.pk) is a Pakistani self-discovery service. Contact: " + settings.support_email + "."),
+        ("Who we are", "Mizaj (mizaj.pk) is a self-discovery service for desis everywhere, run from Pakistan. Contact: " + settings.support_email + "."),
         ("What we collect", "Your test answers and results; a name if you give one; an email or WhatsApp number if you choose to save your result or buy a report; payment details you enter (transaction ID and sender name; card payments are handled entirely by our payment provider and we never see card numbers); and basic usage events (pages viewed, tests started and finished) to improve the site."),
         ("Palm photos", "If you use AI palm reading, your photo is resized on your phone, sent securely to our AI provider (Anthropic) to generate the reading, and then discarded. We do not store palm images. We keep only the text of your reading."),
         ("How we use it", "To show your results and reports, deliver what you buy, reply to you, prevent fraud, and understand which parts of Mizaj help people. If you give an email or WhatsApp number, we may send you your result link and occasional Mizaj updates; you can opt out at any time."),
@@ -89,7 +89,7 @@ LEGAL = {
         ("What Mizaj is", "Mizaj offers personality, temperament and interest tests and reports for self-reflection and entertainment. They are not psychological, psychiatric or medical assessments, diagnoses or treatment, and should not be the only basis for important decisions such as marriage, careers, hiring or health."),
         ("Temperament and wellness", "Mizaj temperament guidance reflects traditional Unani wellness wisdom for general interest. It is not medical advice. Consult a qualified doctor or hakeem before changing your diet or routine, especially if you are pregnant, unwell or taking medicine."),
         ("Fun features", "Burj (zodiac), Ilm-e-Adad (numerology) and palm reading are for entertainment only. They do not predict the future."),
-        ("Payments", "Paid reports are one-time digital purchases in Pakistani rupees (or US dollars outside Pakistan). There are no subscriptions. Reports unlock after payment is confirmed. See our refund policy."),
+        ("Payments", "Paid reports are one-time digital purchases, priced in US dollars (or Pakistani rupees in Pakistan); your bank may convert to your local currency. There are no subscriptions. Reports unlock after payment is confirmed. See our refund policy."),
         ("Fair use", "Don't misuse the service, attack it, scrape it, resell reports or upload images of other people's hands without their permission. Reports are for personal use; schools and companies need a Mizaj programme."),
         ("Our content", "All test questions, type names and report text are original Mizaj content, protected by copyright. Mizaj is independent and not affiliated with the Myers & Briggs Foundation; MBTI and Myers-Briggs are its trademarks."),
         ("Liability", "We work hard to make Mizaj accurate and helpful but provide it as is. To the extent the law allows, our total liability is limited to what you paid us in the last 12 months."),
@@ -118,15 +118,15 @@ def build() -> None:
     mizaj = [content.mizaj_summary(k) for k in content.MIZAJ_KEYS]
 
     write("/", render("home.html", types=types, mizaj=mizaj, faqs=FAQS, canonical="/",
-                      title=None, description="Free personality test, Unani mizaj test, couple match and Career Compass, made for Pakistan. In English and Urdu."), 1.0)
+                      title=None, description="The free personality test made for desis everywhere: your type, your element, your match and your career fit. In English and Urdu."), 1.0)
     write("/tests/", render("tests.html", title="All tests", canonical="/tests/"), 0.8)
     for t, cfg in TESTS.items():
         write(f"/test/{t}/", render("test.html", test=cfg, title=cfg["title"], canonical=f"/test/{t}/",
                                      description=cfg["lead"]), 0.9)
-    write("/career/", render("career.html", title="Career Compass for Pakistani students", canonical="/career/",
-                             description="Which stream, degree and career fits you? A free interest test for Pakistani students and parents."), 0.8)
-    write("/milan/", render("milan_landing.html", title="Mizaj Milan: couple and rishta compatibility", canonical="/milan/",
-                            description="Test your match with your spouse, rishta or best friend. Free score, full report for both."), 0.9)
+    write("/career/", render("career.html", title="Career Compass: what should I study?", canonical="/career/",
+                             description="Doctor, engineer, or something that actually fits? A free interest test for desi students and their parents."), 0.8)
+    write("/milan/", render("milan_landing.html", title="Mizaj Milan: couple compatibility test", canonical="/milan/",
+                            description="Test your match with your partner, spouse, rishta or best friend. Free score, full report for both."), 0.9)
     write("/palm/", render("palm.html", title="AI palm reading", canonical="/palm/",
                            description="Snap your palm and get a playful AI palm reading. For fun; photos never stored."), 0.7)
     write("/burj/", render("burj.html", title="Burj: your zodiac sign and personality type", canonical="/burj/",
@@ -138,18 +138,18 @@ def build() -> None:
                            description="Find the Abjad (Ilm-e-Adad) number of your name in Urdu or English. For fun."), 0.6)
 
     write("/types/", render("types_index.html", types=types, title="The 16 Mizaj personality types", canonical="/types/",
-                            description="All 16 Mizaj personality types, from Mansooba-saaz to Mehfil ki Jaan."), 0.8)
+                            description="All 16 Mizaj personality types, from The Strategist to The Life of the Party."), 0.8)
     for c, t in full_types.items():
-        write(f"/types/{c.lower()}/", render("type.html", t=t, title=f"{c} personality: {t['name']}, {t['name_en']}",
+        write(f"/types/{c.lower()}/", render("type.html", t=t, title=f"{c} personality: {t['name_en']} ({t['name']})",
                                              canonical=f"/types/{c.lower()}/", description=t["tagline"],
-                                             og_image=f"{settings.site_url}/og/types/{c.lower()}.png"), 0.8)
-    write("/mizaj/", render("mizaj_index.html", mizaj=mizaj, title="The 4 Unani temperaments (mizaj)", canonical="/mizaj/",
-                            description="Damvi, Safravi, Balghami, Saudavi: the four Unani temperaments explained."), 0.8)
+                                             og_image=f"{settings.site_url}/og/types/{c.lower()}.jpg"), 0.8)
+    write("/mizaj/", render("mizaj_index.html", mizaj=mizaj, title="The 4 elements: Unani temperaments", canonical="/mizaj/",
+                            description="Air, Fire, Water, Earth: the four Unani temperaments of Ibn Sina, explained for modern life."), 0.8)
     for k in content.MIZAJ_KEYS:
         m = content.mizaj_profile(k)
-        write(f"/mizaj/{k}/", render("mizaj_page.html", m=m, title=f"{m['name']} mizaj ({m['quality']})",
+        write(f"/mizaj/{k}/", render("mizaj_page.html", m=m, title=f"{m.get('global_name') or content.GLOBAL_MIZAJ[k]} temperament ({m['name']}): {m['quality'].split(' (')[-1].rstrip(')')}",
                                      canonical=f"/mizaj/{k}/", description=m["tagline"],
-                                     og_image=f"{settings.site_url}/og/mizaj/{k}.png"), 0.8)
+                                     og_image=f"{settings.site_url}/og/mizaj/{k}.jpg"), 0.8)
 
     blocks = content.compat_dimensions()
     scores = {}
@@ -196,13 +196,13 @@ def build() -> None:
     urls = "".join(f"<url><loc>{settings.site_url}{u}</loc><lastmod>{TODAY}</lastmod><priority>{p}</priority></url>" for u, p in pages)
     (DIST / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
     (DIST / "robots.txt").write_text(f"User-agent: *\nDisallow: /admin\nDisallow: /api/\nDisallow: /order/\nDisallow: /p/\nSitemap: {settings.site_url}/sitemap.xml\n")
-    llms = [f"# Mizaj (mizaj.pk)", "", "> Pakistan's self-discovery platform: a free 16-type personality test, the Unani 'Asli Mizaj' temperament test, Mizaj Milan couple/rishta compatibility, and Career Compass for students. English and Urdu.", "",
+    llms = [f"# Mizaj (mizaj.pk)", "", "> The self-discovery platform for desis everywhere (UK, US, Canada, Gulf, Pakistan, India and beyond): a free 16-type personality test, the Unani four-element temperament test (Air, Fire, Water, Earth), Mizaj Milan couple compatibility, and Career Compass for students. English and Urdu.", "",
             "## Tests", f"- [Personality test]({settings.site_url}/test/personality/): 48 questions, 16 Mizaj types",
             f"- [Asli Mizaj test]({settings.site_url}/test/mizaj/): Unani temperament (Damvi, Safravi, Balghami, Saudavi)",
-            f"- [Career Compass]({settings.site_url}/career/): RIASEC interest code matched to Pakistani streams and careers",
+            f"- [Career Compass]({settings.site_url}/career/): RIASEC interest code matched to subjects, degrees and careers",
             f"- [Mizaj Milan]({settings.site_url}/milan/): couple and rishta compatibility", "", "## The 16 types"]
-    llms += [f"- [{t['code']} {t['name']} ({t['name_en']})]({settings.site_url}/types/{t['code'].lower()}/): {t['tagline']}" for t in types]
-    llms += ["", "## The 4 mizaj"] + [f"- [{m['name']} ({m['quality']})]({settings.site_url}/mizaj/{m['key']}/): {m['tagline']}" for m in mizaj]
+    llms += [f"- [{t['code']} {t['name_en']} ({t['name']})]({settings.site_url}/types/{t['code'].lower()}/): {t['tagline']}" for t in types]
+    llms += ["", "## The 4 mizaj"] + [f"- [{m.get('global_name') or content.GLOBAL_MIZAJ[m['key']]}: {m['name']} ({m['quality']})]({settings.site_url}/mizaj/{m['key']}/): {m['tagline']}" for m in mizaj]
     (DIST / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
     print(f"built {len(pages)} pages into {DIST}")
 

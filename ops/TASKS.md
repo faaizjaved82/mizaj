@@ -27,14 +27,14 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 | T12 | Anthropic API key in `.env`; test palm reading | owner + claude-server | todo | A palm reading works on the live site |
 | T13 | Hire a part-time assistant (runbook §6) | owner | todo | Assistant posting TikToks daily |
 | T14 | Resend account + DNS records; `RESEND_API_KEY` | owner + claude-server | todo | Report-link emails arrive |
-| T15 | Lemon Squeezy store for USD, after confirming payouts to Pakistan | owner | todo | `LEMONSQUEEZY_LINKS` set |
+| T15 | Gumroad account for international card sales (pays out to a Pakistani bank; see `docs/research/06-international-gtm.md`) and the 5 products in `docs/OWNER_GUMROAD.md` | owner | todo | Product links sent to claude-cloud |
 | T16 | File the "Mizaj" trademark (classes 41 and 44) | owner | todo | Application number |
 
 ## Make it better
 
 | ID | Task | Owner | Status | Done when |
 | --- | --- | --- | --- | --- |
-| T21 | 16 type + 4 mizaj illustrations + home hero (`docs/handoff/ART_BRIEF.md`) | codex | done | 21 WebP files merged, slides re-rendered |
+| T21 | 16 type + 4 mizaj illustrations + home hero (first art set) | codex | retired | Replaced by T31 after the desis-everywhere repositioning |
 | T22 | Independent security and correctness review of `server/mizaj/` | codex | todo | Fix PR with tests, or findings log |
 | T23 | More tests; e2e in CI | codex | todo | CI runs them in under 5 minutes |
 | T24 | Accessibility and speed on cheap Android phones | codex | todo | Lighthouse mobile ≥ 90 perf + a11y |
@@ -44,3 +44,10 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 | T28 | Review open Codex PRs every Monday | claude-cloud | doing | No PR waits more than a week |
 | T29 | First 10 school outreach drafts and a pilot | claude-cloud + owner | todo | 3 school pilots running by end of December |
 | T30 | Write the server launch log entry; confirm T04–T06 and tick them | claude-server | todo | `ops/log/<date>-claude-server-launch.md` on `main` |
+| T31 | Mizaj Deck character art, art brief v2 (`docs/handoff/ART_BRIEF.md`): style test of 4 first (T31a), then the other 12 (T31b) | codex | todo | 16 transparent WebP files in `site/static/img/deck/`, style approved in the PR |
+| T32 | Review the desis-everywhere repositioning on `main` (new `server/mizaj/deck.py`, `web.py`, `reports.py`, `content.py`, OG paths in `api.py`, checkout layout) | codex | todo | Review notes in `ops/log/`, fixes in a PR if needed |
+| T33 | Gumroad checkout + Ping webhook so international buyers unlock reports automatically (payment logic: tests + codex review) | claude-cloud | doing | Branch `claude-cloud/T33-gumroad` reviewed and merged; `GUMROAD_*` settings documented |
+| T34 | Group "Chemistry" mode: add 2–8 friends or family and get one shareable grid card (research 05, format 2) | claude-cloud | todo | `/group/` live with a 9:16 group card |
+| T35 | Apply to Paddle as the long-term card processor for the main reports (palm reading stays on Gumroad) | owner | todo | Paddle account approved or declined |
+| T36 | Rarity line on the deck card ("1 in N Mizaj test-takers") from aggregate stats, once 1,000+ results exist | claude-cloud | todo | Card shows a labelled rarity from `ops/stats/` |
+| T37 | Re-render and requeue the 30-day plan for desis everywhere (new slide look, 3:4) | claude-cloud | doing | New `social/plan/launch30.json`, `social/media/`, `social/queue/` on `main` |

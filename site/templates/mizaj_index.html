@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block main %}
 <section class="section"><div class="wrap">
-  <span class="eyebrow">The 4 Mizaj</span><h1>Garam, sard, tar, khushk</h1>
+  <span class="eyebrow">The 4 Mizaj</span><h1>Air, Fire, Water, Earth</h1>
   <p class="lead muted" style="max-width:660px">In Tibb-e-Unani, written down by Ibn Sina in the <i>Canon of Medicine</i> a thousand years ago, every person has a mizaj: a balance of warmth and moisture that shapes the body, energy and moods. Four classic temperaments come out of it.</p>
   <div class="grid grid-2" style="margin-top:24px">
     {% for m in mizaj %}
     <a class="mz-tile mz-{{ m.key }}" href="/mizaj/{{ m.key }}/" style="min-height:200px">
-      <span class="ur">{{ m.name_ur }}</span><b>{{ m.emoji }} {{ m.name }} · {{ m.nickname }}</b>
-      <span>{{ m.quality }} · {{ m.classical }} · {{ m.element }}</span><span class="small" style="margin-top:6px">{{ m.tagline }}</span>
+      <b>{{ m.emoji }} {{ m.global_name }} · {{ m.nickname }}</b>
+      <span>{{ m.name }} · {{ m.quality }} · {{ m.classical }}</span><span class="small" style="margin-top:6px">{{ m.tagline }}</span>
     </a>
     {% endfor %}
   </div>

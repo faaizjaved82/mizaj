@@ -101,7 +101,7 @@ def profile_view(profile: dict, viewer_has_key: bool) -> dict:
     if "interests" in results or pers:
         out["results"]["career"] = career_view(results.get("interests"), type_code, "career" in feats)
     if pers and "mizaj" in results:
-        out["combo"] = f"{type_code} · {content.mizaj_profile(results['mizaj']['outcome'])['name']}"
+        out["combo"] = f"{type_code} · {content.mizaj_summary(results['mizaj']['outcome'])['global_name']}"
     return out
 
 
@@ -127,7 +127,8 @@ def couple_view(pair: dict, premium: bool) -> dict:
         item = {"dim": d, "label": content.DIMENSIONS[d]["label"], "key": key, "a": ta[i], "b": tb[i],
                 "score": blk["score"], "headline": blk["headline"]}
         if premium:
-            item.update({k: blk[k] for k in ("connect", "friction", "tips", "talk_before_nikah")})
+            item.update({k: blk[k] for k in ("connect", "friction", "tips")})
+            item["talk_before_marriage"] = blk.get("talk_before_marriage") or blk.get("talk_before_nikah") or []
         dims.append(item)
     score = total
     mizaj = None

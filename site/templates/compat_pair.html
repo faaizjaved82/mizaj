@@ -2,11 +2,11 @@
 {% block main %}
 <section class="result-hero" style="background:var(--ink)"><div class="wrap center">
   <span class="pill" style="background:rgba(255,255,255,.15);color:#fff">Type compatibility</span>
-  <h1 style="color:#fff;margin-top:12px">{{ a.code }} {{ a.name }} + {{ b.code }} {{ b.name }}</h1>
+  <h1 style="color:#fff;margin-top:12px">{{ a.code }} + {{ b.code }}</h1><p style="color:#fff;opacity:.85">{{ a.name_en }} and {{ b.name_en }}</p>
   <div class="score-ring" style="--p: {{ score }};margin-top:14px"><div>{{ score }}%</div></div>
 </div></section>
 <section class="section"><div class="wrap narrow stack">
-  <p>How does a <b>{{ a.name }}</b> ({{ a.name_en }}) get along with a <b>{{ b.name }}</b> ({{ b.name_en }})? Here's what the four preferences say, dimension by dimension.</p>
+  <p>How does <b>{{ a.name_en }}</b> ({{ a.code }}) get along with <b>{{ b.name_en }}</b> ({{ b.code }})? Here's what the four preferences say, dimension by dimension.</p>
   {% for d in dims %}<div class="card"><div style="display:flex;justify-content:space-between"><h3 style="margin:0">{{ d.label }}: {{ d.a }} + {{ d.b }}</h3><span class="pill">{{ d.score }}%</span></div><p style="margin-top:8px"><b>{{ d.headline }}</b></p><p>{{ d.connect }}</p></div>{% endfor %}
   <div class="card center stack" style="background:var(--ink);color:var(--paper);border:0">
     <h2>What about the two of you?</h2><p style="opacity:.8">Mizaj Milan compares your actual results, adds temperament, and shows where you'll clash and how to handle it.</p>

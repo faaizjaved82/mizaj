@@ -367,8 +367,8 @@
     {
       "id": "m14",
       "topic": "heavy_food",
-      "en": "How do you feel after a heavy, oily meal like nihari or halwa puri?",
-      "ur": "نہاری یا حلوہ پوری جیسا بھاری، چکنائی والا کھانا کھانے کے بعد آپ کو کیسا محسوس ہوتا ہے؟",
+      "en": "How do you feel after a heavy, oily meal, like a wedding feast or a paratha breakfast?",
+      "ur": "شادی کی دعوت یا پراٹھے والے ناشتے جیسا بھاری، چکنائی والا کھانا کھانے کے بعد آپ کو کیسا محسوس ہوتا ہے؟",
       "options": [
         {
           "en": "Fine; I digest it easily",
@@ -649,8 +649,8 @@
       "ur": "کس طرح کا موسم آپ کو زیادہ پریشان کرتا ہے؟",
       "options": [
         {
-          "en": "Humid, sticky monsoon days",
-          "ur": "مرطوب، چپچپے ساون کے دن",
+          "en": "Humid, sticky days, like the monsoon or a muggy summer",
+          "ur": "مرطوب اور چپچپے دن، جیسے ساون یا حبس والی گرمیاں",
           "h": 0,
           "m": 2
         },

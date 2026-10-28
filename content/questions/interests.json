@@ -84,8 +84,8 @@
     {
       "id": "c07",
       "code": "S",
-      "en": "Volunteering at a blood donation drive or a flood-relief camp",
-      "ur": "خون کے عطیات کے کیمپ یا سیلاب زدگان کے امدادی کیمپ میں رضاکارانہ کام کرنا"
+      "en": "Volunteering at a blood donation drive or a charity food drive",
+      "ur": "خون کے عطیات کے کیمپ یا کسی فلاحی راشن مہم میں رضاکارانہ کام کرنا"
     },
     {
       "id": "c08",
@@ -102,8 +102,8 @@
     {
       "id": "c10",
       "code": "R",
-      "en": "Wiring a small solar panel or UPS at home",
-      "ur": "گھر میں چھوٹے سولر پینل یا یو پی ایس کی وائرنگ کرنا"
+      "en": "Wiring up lights, a speaker system or a small solar panel at home",
+      "ur": "گھر میں لائٹس، اسپیکر سسٹم یا چھوٹے سولر پینل کی وائرنگ کرنا"
     },
     {
       "id": "c11",
@@ -120,8 +120,8 @@
     {
       "id": "c13",
       "code": "R",
-      "en": "Growing vegetables or plants on the roof or in a garden",
-      "ur": "چھت یا کیاری میں سبزیاں یا پودے اگانا"
+      "en": "Growing vegetables or plants on a balcony or in a garden",
+      "ur": "بالکنی یا باغیچے میں سبزیاں یا پودے اگانا"
     },
     {
       "id": "c14",
@@ -150,8 +150,8 @@
     {
       "id": "c18",
       "code": "C",
-      "en": "Checking an admission form line by line for mistakes before it is sent",
-      "ur": "داخلہ فارم بھیجنے سے پہلے اس کی ایک ایک سطر غلطیوں کے لیے جانچنا"
+      "en": "Checking an application form line by line for mistakes before it is sent",
+      "ur": "کوئی درخواست فارم بھیجنے سے پہلے اس کی ایک ایک سطر غلطیوں کے لیے جانچنا"
     },
     {
       "id": "c19",

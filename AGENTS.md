@@ -1,6 +1,6 @@
 # Mizaj: rules for every agent working in this repo
 
-Mizaj (mizaj.pk) is a Pakistani self-discovery business: free personality and Unani temperament tests, one-time paid
+Mizaj (mizaj.pk) is a self-discovery business for desis everywhere, run from Pakistan: free personality and Unani temperament (element) tests, one-time paid
 reports, Mizaj Milan couple reports, Career Compass for students, and school/team programmes. Goal: PKR 15–20 lakh
 cumulative profit by 30 June 2027. The owner is Faaiz Javed. Read `README.md` for the layout and `docs/RUNBOOK.md` for
 how production works. The full plan is the owner's doc "Mizaj Relaunch: COO Plan".
@@ -72,6 +72,7 @@ python ops/model.py                       # financial model
 | --- | --- |
 | Words users read (tests, reports, prices) | `content/` (JSON) |
 | Page templates, CSS, JS | `site/templates/`, `site/static/` |
-| Illustrations (optional; pages and slides pick them up automatically) | `site/static/img/types/<code>.webp`, `site/static/img/mizaj/<key>.webp`, `site/static/img/hero.webp`; spec in `docs/handoff/ART_BRIEF.md` |
+| Cards (the Mizaj Deck: one builder for site, slides and previews) | `server/mizaj/deck.py`, `site/static/css/deck.css`, emblems in `site/static/img/el/` |
+| Character art (optional; cards pick it up automatically) | `site/static/img/deck/<code>.webp`; spec in `docs/handoff/ART_BRIEF.md` |
 | Social calendar and slides | `social/plan/*.json` → `social/media/`, `social/queue/` |
 | Weekly numbers, reports, task board, log | `ops/stats/`, `ops/reports/`, `ops/TASKS.md`, `ops/log/` |

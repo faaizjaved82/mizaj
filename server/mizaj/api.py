@@ -416,8 +416,8 @@ def result_page(pid: str, request: Request):
         raise HTTPException(404, "This profile has no results yet.")
     pers = view["results"].get("personality")
     mz = view["results"].get("mizaj")
-    og = f"{settings.site_url}/og/types/{pers['code'].lower()}.png" if pers else (
-        f"{settings.site_url}/og/mizaj/{mz['key']}.png" if mz else None)
+    og = f"{settings.site_url}/og/types/{pers['code'].lower()}.jpg" if pers else (
+        f"{settings.site_url}/og/mizaj/{mz['key']}.jpg" if mz else None)
     title = (f"{prof['name'] + ' is' if prof['name'] else 'I am'} {pers['code']}: {pers['name']}" if pers
              else f"My mizaj is {mz['name']}")
     db.log_event("result_view", pid, path=f"/p/{pid}", props={"owner": owner})

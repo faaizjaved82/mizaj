@@ -23,18 +23,18 @@
         <p><b>Why it works:</b> {{ d.connect }}</p>
         <p><b>Where you'll clash:</b> {{ d.friction }}</p>
         <ul class="list-check">{% for t in d.tips %}<li>{{ t }}</li>{% endfor %}</ul>
-        {% if view.relation in ('rishta', 'spouse') %}<p class="small"><b>Talk about before nikah:</b></p><ul class="list-check">{% for q in d.talk_before_nikah %}<li>{{ q }}</li>{% endfor %}</ul>{% endif %}
+        {% if view.relation in ('rishta', 'spouse') %}<p class="small"><b>Talk about before marriage:</b></p><ul class="list-check">{% for q in d.talk_before_marriage %}<li>{{ q }}</li>{% endfor %}</ul>{% endif %}
       {% endif %}
     </div>
     {% endfor %}
     {% if view.mizaj %}
     <div class="card">
-      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px"><h3 style="margin:0">Temperament: {{ view.mizaj.a.name }} + {{ view.mizaj.b.name }}</h3>{% if view.mizaj.score %}<span class="pill">{{ view.mizaj.score }}%</span>{% endif %}</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px"><h3 style="margin:0">Temperament: {{ view.mizaj.a.global_name }} + {{ view.mizaj.b.global_name }}</h3>{% if view.mizaj.score %}<span class="pill">{{ view.mizaj.score }}%</span>{% endif %}</div>
       <p style="margin-top:8px"><b>{{ view.mizaj.headline }}</b></p>
       {% if view.premium %}<p>{{ view.mizaj.dynamic }}</p><p><b>At home:</b> {{ view.mizaj.home_life }}</p><ul class="list-check">{% for t in view.mizaj.tips or [] %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
     </div>
     {% else %}
-    <div class="notice">Add temperament to your match: both take the 4-minute <a href="/test/mizaj/">Asli Mizaj test</a>.</div>
+    <div class="notice">Add temperament to your match: both take the 4-minute <a href="/test/mizaj/">element test</a>.</div>
     {% endif %}
     {% if view.premium %}
       <h2>How to love each other well</h2>
@@ -47,14 +47,14 @@
       <div class="card stack center">
         <h2>Unlock the full Mizaj Milan report</h2>
         <ul class="list-check" style="text-align:left">{% for b in products.couple.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
-        <div><span class="price-old">{{ products.couple.list_price|pkr }}</span><b style="font:700 1.6rem var(--serif)">{{ products.couple.price|pkr }}</b> <span class="small muted">for both of you</span></div>
+        <div><span class="price-old">{{ money(products.couple, "list_price") }}</span><b style="font:700 1.6rem var(--serif)">{{ money(products.couple) }}</b> <span class="small muted">for both of you</span></div>
         <button class="btn btn-pom btn-block" data-buy="couple" data-pair="{{ pair.id }}">Unlock for both of us</button>
         <p class="small muted">Included free in the Complete Bundle.</p>
       </div>
     {% else %}
       <div class="card center stack"><h3>Is this your match?</h3><p class="muted">Open this link on the phone where you took the test to unlock the full report.</p><a class="btn" href="/test/personality/">Take the test</a></div>
     {% endif %}
-    <p class="small muted">Compatibility is a conversation starter, not a verdict. Any two types can build a good marriage with understanding and effort. We never consider caste, sect or family background.</p>
+    <p class="small muted">Compatibility is a conversation starter, not a verdict. Any two types can build a good marriage with understanding and effort. We never consider caste, sect, religion or family background.</p>
   </div>
 </section>
 {% endblock %}

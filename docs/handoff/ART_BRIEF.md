@@ -1,69 +1,72 @@
-# Art brief: Mizaj illustrations
+# Art brief v2: characters for the Mizaj Deck
 
-For whoever generates images (normally `codex` using ChatGPT image generation). The site and the social-slide
-renderer use these files automatically when they exist at the paths below.
+For whoever makes images (normally `codex` with ChatGPT image generation). Version 2, 28 Oct 2026. The first set
+(people in Pakistani scenes, T21) has been retired: the owner found it too local and badly placed, and 2026 audiences
+read AI-made people as cheap. Read `docs/research/05-social-trends-2026.md` sections 2, 5 and 6 for the reasoning.
 
-## Style (same for every image, so the set looks like one family)
+## What changed
 
-- **Look:** flat editorial illustration with soft grain, gentle shapes, subtle shadows; modern Pakistani life;
-  warm and witty, never cartoonish or childish. Think magazine spot illustration, not stock art or 3D.
-- **People:** contemporary young Pakistanis (18–35), varied skin tones and regions, modest everyday clothing
-  (shalwar kameez, kurta, dupatta, sweaters, shawls, jeans with kurta). Mix of men and women across the set
-  (8 and 8 for the types, alternate within each family). Faces simple and friendly; no real or famous people.
-- **Never:** text, letters, numbers or logos inside the image; religious symbols; alcohol; romance or dating poses;
-  stereotypes of any ethnicity, province, sect or class; flags.
-- **Palette:** background cream `#FBF6EE` (or transparent). Accents from the brand: ink `#1B1530`, saffron `#E8A33D`,
-  pomegranate `#C8443A`, plus the family colour of each type: Danishwar (NT) purple `#6B4FA0`, Ahl-e-Dil (NF)
-  green `#2E8A6A`, Pasban (SJ) blue `#2F6DB0`, Fankar (SP) amber `#D98C2B`. Mizaj colours: Damvi `#D2544A`,
-  Safravi `#E39B2D`, Balghami `#2E8A8A`, Saudavi `#5A4A78`.
-- **Motif:** where it fits naturally, an eight-pointed star (girih) pattern in a cushion, tile, rug or window.
-- **Format:** generate square (1024×1024), subject centred with margin, then export **WebP, 800×800, under 120 KB**.
+Mizaj is now for desis everywhere (UK, US, Canada, the Gulf, Pakistan and beyond). Every result is a collectible
+card in **the Mizaj Deck**: 16 types × 4 elements (Air, Fire, Water, Earth) = 64 cards. The cards are drawn in code
+(`server/mizaj/deck.py`, `site/static/css/deck.css`) and already look finished without any art. Art is an upgrade:
+one small character per type that sits inside the card's art window, on top of the element's colour glow.
 
-## Files to make
+See the cards now: run the site (`AGENTS.md` → Commands) and open `/types/intj/`, or render the slides
+(`python tools/render_social.py`) and look in `social/media/`.
 
-### 16 types → `site/static/img/types/<code>.webp` (lowercase code, e.g. `intj.webp`)
+## The characters
 
-Prompt pattern: *"Flat editorial illustration, soft grain, cream background, [person], [scene], [props], accents of
-[family colour], modern Pakistani setting, no text."* Scenes (read the type's `tagline` and `pakistani_archetype` in
-`content/types/<CODE>.json` for more):
+- **16 characters, one per type, non-human.** Small, rounded, gender-neutral "spirits" (think a friendly ink-drawn
+  creature or figurine, not a person). No skin tones, no national dress, no realistic faces: everyone in the
+  audience should see themselves. Simple dot eyes are fine.
+- **One prop each** that says the type at a glance (table below). Props may carry one light, pan-South-Asian touch
+  (a kite, a chai cup, a cricket bat, a dhol) but never more than one per character.
+- **Hand-made look:** ink line with a visible hand (slight wobble), flat fills, a little risograph-style grain.
+  Not 3D, not clay, not glossy, not anime, not Ghibli-like, no gradients.
+- **Two colours only:** ink `#17131F` and paper `#F4F1EA`, on a **transparent background**. The card supplies the
+  colour: the same character sits on Air coral, Fire saffron, Water teal or Earth plum, so it must read on all four.
+- **Consistency matters more than detail.** Same line weight, same body proportions, same eye style, same
+  scale across all 16. Lock a master sheet first, then make the rest from it (reference the master sheet in every
+  prompt; ChatGPT's image editing with the sheet attached works).
+- **Never:** text, letters, numbers or logos; religious symbols; flags; alcohol; romance or dating poses; real or
+  famous people; anything scary.
 
-| Code | Name | Scene idea |
+| Code | Name | Prop and pose |
 | --- | --- | --- |
-| INTJ | Mansooba-saaz, The Strategist | Calm person at a desk with a chessboard and a planning notebook, chai cup, city lights through the window |
-| INTP | Falsafi, The Philosopher | Person on a charpai surrounded by open books and sketches of ideas, late-night lamp |
-| ENTJ | Sipah-salar, The General | Confident person directing a busy shaadi-planning table, clipboard, everyone looking to them |
-| ENTP | Hazir-jawab, The Quick Wit | Grinning person mid-debate at a dhaba table, hands gesturing, friends laughing |
-| INFJ | Darvesh, The Mystic | Quiet person by a window at dusk, journal in hand, reading the room at a family gathering behind |
-| INFP | Shayar, The Poet | Person writing poetry in a notebook under a tree, dried flowers, headphones |
-| ENFJ | Ustaad, The Mentor | Person encouraging younger cousins around a study table before exams |
-| ENFP | Rangeela, The Free Spirit | Person with paint on hands, phone full of ideas, colourful rickshaw behind |
-| ISTJ | Amanatdar, The Trustee | Person with neatly labelled document folders, spare passport photos, everything in order |
-| ISFJ | Muhafiz, The Protector | Person bringing tea and medicine to an elder, warm home interior |
-| ESTJ | Muntazim, The Organizer | Person with a checklist directing a mehndi set-up, lights going up on time |
-| ESFJ | Mezbaan, The Host | Person welcoming guests at the door with a laden tray, warm living room |
-| ISTP | Karigar, The Craftsman | Person fixing a motorbike or a sound system with focused calm, tools neatly around |
-| ISFP | Musawwir, The Artist | Person arranging flowers and fabric, camera nearby, soft light |
-| ESTP | Jaanbaz, The Daredevil | Person mid-cricket shot in a street match, dust and energy |
-| ESFP | Mehfil ki Jaan, The Life of the Party | Person leading the dance at a dholki, dhol, fairy lights, friends clapping |
+| INTJ | The Strategist | Holds a chess knight, calm, one eyebrow up |
+| INTP | The Philosopher | Sits on a stack of books, a tangle of thought-lines above its head |
+| ENTJ | The General | Points forward with a rolled-up plan, chest out |
+| ENTP | The Quick Wit | Mid-argument, two speech bubbles (empty, no text), grinning |
+| INFJ | The Mystic | Holds a small lantern, eyes half closed |
+| INFP | The Poet | Hugs a notebook with a pressed flower sticking out |
+| ENFJ | The Mentor | Hands a small glowing seedling to someone off-card, warm smile |
+| ENFP | The Free Spirit | Flies a kite (patang), mid-skip |
+| ISTJ | The Trustee | Carries a neat stack of labelled-looking boxes (no readable text) and a key ring |
+| ISFJ | The Protector | Offers a steaming cup of chai with both hands |
+| ESTJ | The Organizer | Clipboard in one hand, stopwatch in the other |
+| ESFJ | The Host | Carries a laden tray of sweets, welcoming lean |
+| ISTP | The Craftsman | Spins a wrench, focused |
+| ISFP | The Artist | Paintbrush behind the ear, holding a small camera |
+| ESTP | The Daredevil | Mid-swing with a cricket bat, one foot off the ground |
+| ESFP | The Life of the Party | Plays a small dhol, mid-dance |
 
-### 4 mizaj → `site/static/img/mizaj/<key>.webp`
-Still-life, no people, symbolic of the temperament and its element:
+Optional later (do not start until the 16 are approved): 4 element spirits (Air, Fire, Water, Earth) for
+element-only cards, same rules, saved as `air.webp`, `fire.webp`, `water.webp`, `earth.webp`.
 
-| Key | Mizaj | Still-life idea |
-| --- | --- | --- |
-| damvi | Damvi, warm and moist, Air, spring | Pomegranates, rose petals drifting on a spring breeze, a light breezy curtain |
-| safravi | Safravi, warm and dry, Fire, summer | A small flame or diya, saffron threads, turmeric, red chillies, summer sun |
-| balghami | Balghami, cool and moist, Water, winter | Flowing water, cucumber slices, a clay matka with condensation, rain |
-| saudavi | Saudavi, cool and dry, Earth, autumn | Mountains in the distance, dates, almonds, a clay pot, falling autumn leaves |
+## Files
 
-### 1 home hero → `site/static/img/hero.webp` (export 840×840)
-Four young Pakistanis of clearly different temperaments around a chai table at home (one animated storyteller, one
-quiet observer, one organiser pouring tea, one laughing), an eight-pointed-star tile pattern on the wall, cream
-background, brand accents.
+- Path: `site/static/img/deck/<code>.webp`, lowercase (e.g. `intj.webp`).
+- Size: **1200 × 700 px**, transparent background, character centred horizontally, standing on the bottom edge
+  with about 8% margin, its height about 80% of the image. **WebP with alpha, under 90 KB each.**
+- The site, the downloadable story card, the social slides and the link previews pick the files up automatically
+  (`server/mizaj/deck.py` → `art_path`). No code change is needed.
 
-## After adding images
+## Process
 
-1. `python build.py` must pass; open `/types/intj/` locally and check the image doesn't cover text on a phone width.
-2. Re-render the social posts so slides pick up the art: `python tools/render_social.py` (re-renders all posts;
-   commit the changed `social/media/` files).
-3. Commit with a message like "art: 16 type illustrations" and open the PR.
+1. **Style test first (T31a):** make INTJ, ENFP, ISFJ and ESTP only. Open a PR with the four files plus screenshots
+   of `/types/intj/` and `/types/enfp/` at phone width and one rendered slide
+   (`python tools/render_social.py social/plan/launch30.json <a post id with type slides>`). `claude-cloud` or the
+   owner approves the style in the PR before you continue.
+2. **The other 12 (T31b)** from the approved master sheet. Same checks. Re-render the social slides
+   (`python tools/render_social.py`) and commit the changed `social/media/` files with the art.
+3. Leave a log entry in `ops/log/` with the prompts you used, so anyone can make matching art later.

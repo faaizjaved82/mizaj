@@ -228,3 +228,51 @@ table.t th, table.t td { text-align: left; padding: 8px; border-bottom: 1px soli
   background: conic-gradient(var(--saffron) calc(var(--p) * 1%), rgba(255,255,255,.15) 0); }
 .score-ring > div { width: 112px; height: 112px; border-radius: 50%; background: var(--ink); display: grid; place-items: center; font: 700 2.2rem var(--serif); color: #fff; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+/* Currency: USD for the world, PKR for visitors in Pakistan (html.pk set in base.html) */
+.cur-pkr { display: none; }
+html.pk .cur-pkr { display: inline; }
+html.pk .cur-usd { display: none; }
+
+/* desi-everywhere additions */
+.desi{font:600 1rem var(--sans);opacity:.75;margin-top:2px;letter-spacing:.01em}
+.linkish{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}
+.pay-list{display:flex;flex-direction:column;gap:16px}
+.stack.pay-list > * + *{margin-top:0}
+.pay-list .pay-intl{order:-1}
+html.pk .pay-list .pay-intl{order:5}
+
+/* deck heroes: the card is the hero image */
+.deck-hero { padding: 28px 0 40px; }
+.deck-hero > .wrap { position: relative; z-index: 6; }
+.dh-grid { display: grid; gap: 26px; align-items: center; }
+.dh-card .dcard { font-size: min(4.3px, calc((100vw - 40px) / 86)); margin: 0 auto; }
+.dh-text { color: #F4F1EA; }
+.dh-text h1 { color: #F4F1EA; font-size: clamp(1.9rem, 6.5vw, 3.2rem); margin: 6px 0 8px; }
+.dh-text .tagline { font: italic 500 1.2rem/1.45 var(--serif); opacity: .92; max-width: 520px; }
+.dh-eyebrow { font: 700 .78rem "JetBrains Mono", monospace; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+.dh-back { color: #F4F1EA; opacity: .8; display: block; width: max-content; margin-bottom: 14px; }
+.dh-hooks { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 18px; }
+.dh-hooks span { padding: 6px 12px; border-radius: 99px; border: 1.5px solid rgba(244,241,234,.4); background: rgba(244,241,234,.1); font-weight: 700; font-size: .875rem; }
+.dh-note { opacity: .85; margin-top: 14px; }
+.dh-note a { color: #F4F1EA; }
+.btn-paper { background: #F4F1EA; color: #17131F; }
+.btn-outline-light { background: transparent; color: #F4F1EA; box-shadow: inset 0 0 0 1.5px rgba(244,241,234,.55); }
+@media (min-width: 900px) {
+  .deck-hero { padding: 56px 0 64px; }
+  .dh-grid { grid-template-columns: 1.05fr .95fr; gap: 56px; }
+  .dh-card { order: 2; }
+  .dh-card .dcard { font-size: 5px; }
+}
+
+/* home hero: a small hand of cards */
+.hero-deck { position: relative; height: calc(min(3.6px, (100vw - 40px) / 100) * 150); max-width: 520px; width: 100%; margin: 8px auto 0; }
+.hero-deck .hd { position: absolute; left: 50%; top: 0; font-size: min(3.6px, calc((100vw - 40px) / 100)); }
+.hero-deck .dcard { transform-origin: 50% 100%; }
+.hero-deck .hd-c .dcard { transform: translateX(-50%) translateY(10px); }
+.hero-deck .hd-l .dcard { transform: translateX(-64%) rotate(-8deg) translateY(34px) scale(.9); }
+.hero-deck .hd-r .dcard { transform: translateX(-36%) rotate(8deg) translateY(34px) scale(.9); }
+@media (min-width: 600px) {
+  .hero-deck .hd-l .dcard { transform: translateX(-80%) rotate(-9deg) translateY(30px) scale(.92); }
+  .hero-deck .hd-r .dcard { transform: translateX(-20%) rotate(9deg) translateY(30px) scale(.92); }
+}
