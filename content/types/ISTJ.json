@@ -1,0 +1,254 @@
+{
+  "code": "ISTJ",
+  "name": "Amanatdar",
+  "name_ur": "امانت دار",
+  "name_en": "The Trustee",
+  "family": "Pasban",
+  "emoji": "🗝️",
+  "colors": ["#1F3A5F", "#C9A227"],
+  "tagline": "You remember the promise long after everyone else forgot making it.",
+  "share_line": "I had the photocopies, the originals and a spare passport photo. Obviously.",
+  "keywords": ["Dependable", "Precise", "Loyal", "Principled", "Steady"],
+  "rarity": "about 12% of people",
+  "free": {
+    "summary": "You are the person people hand things to. The spare house key, the BC committee money, the younger cousin on a long journey, the secret nobody else knows. You never asked for the job. Everyone simply noticed, quietly and over years, that whatever goes to you comes back exactly as it went: complete, on time and untouched. To you, amanat is not a word. It is a way of living.\n\nYou trust what has been tested. You learn a thing properly once, then do it the same reliable way for years, and you have little patience for shortcuts that leave a mess for someone else later. People sometimes read your calm as coldness and your caution as stubbornness. Those who know you better see the dry humour, the fierce loyalty and the care hidden inside every checked detail. When something truly matters, a visa file, a wedding budget, a parent's hospital admission, you are the one they want in the room.",
+    "strengths": [
+      "Keeps promises so consistently that people stop double-checking anything you agreed to.",
+      "Spots the missing signature, wrong date or skipped step before it becomes expensive.",
+      "Stays calm and methodical when a crisis sends everyone else into panic.",
+      "Remembers exactly how things were done last time, and why it worked.",
+      "Stays loyal for decades to the people, places and principles you choose."
+    ],
+    "watchouts": [
+      "Can dismiss a new idea before giving it a genuinely fair hearing.",
+      "Tends to carry stress silently until it leaks out as irritation.",
+      "May show love through tasks and forget that people also need words."
+    ],
+    "pakistani_archetype": "You're the one who keeps a labelled plastic folder of every family member's documents, so when someone panics about a passport renewal, the whole house says, “Ask them, they'll have a copy.”",
+    "in_relationships": "You don't do grand speeches. You do the 4 a.m. airport pickup, the reminder about the blood test, the car serviced before the drive to Nani's. In marriage you are faithful and quietly devoted, and the full report shows how to make sure your spouse hears the love inside all that doing.",
+    "at_work": "You are the colleague whose work never needs redoing. Give you clear expectations and real responsibility and you deliver, month after month, without drama. Vague briefs, last-minute chaos and loud credit-takers wear you down. Your full report maps the careers where reliability turns into real authority.",
+    "fictional_twins": [
+      "Mr. Darcy (Pride and Prejudice)",
+      "Ned Stark (A Song of Ice and Fire)",
+      "Marlin (Finding Nemo)",
+      "Captain Raymond Holt (Brooklyn Nine-Nine)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Inside you is a large, carefully kept archive. Every experience you have lived through has been filed somewhere: the electricity bill paid two days late and the fine that followed, the cousin's wedding where the caterer ran out of naan, the board exam where you lost marks for forgetting the units. You don't keep these records to hold grudges. You keep them because the past is your most reliable teacher, and you would rather learn a lesson once than pay for it twice.\n\nWhat drives you is the feeling of being entrusted. Your parents' trust, your employer's, a friend's, even the stranger's who lent you a pen at the bank counter. Somewhere deep down sits the belief that a person is only as good as their word, and that keeping it is a form of respect, perhaps a quiet kind of ibadat. You would rather arrive forty minutes early than five minutes late, because lateness, to you, is a small broken promise. Your core fear is not failure in the ordinary sense. It is carelessness: dropping something someone placed in your hands, letting the family down because you didn't check. That fear makes you thorough. On harder days it makes you rigid, because if you control every detail, nothing can slip.\n\nYou understand the world through the concrete. Tell you a plan is “basically sorted” and you will ask: booked or not booked? Paid or not paid? Vague talk makes you restless; facts settle you. You decide by comparing a new situation with what has worked before, which is why you are superb in a crisis that resembles one you have seen and uneasy in one that doesn't. Change is not your enemy, but it has to earn its place. Show you the evidence and you will adopt the new system, then run it better than the person who suggested it.\n\nThe gap between your inside and your outside is wide. Inside, you feel things strongly: loyalty, hurt, pride, a tender attachment to old routines and old people. Outside, all of that shows up as a raised eyebrow and a short “theek hai.” People assume you are unmoved when you are actually moved and managing it. You are also funnier than most people realise, with a bone-dry humour that only lands for those paying attention. Let a few more people in on the joke, and on the feeling. The ones who matter will not mistake it for weakness.",
+    "superpowers": [
+      {
+        "title": "The Unbreakable Word",
+        "text": "When you say you will do something, it is already half done in your head: reminder set, route planned, buffer time added. If you promised to collect your phupo's prescription on Thursday, it gets collected on Thursday, rain or no rain. Over years this builds something rare. People stop asking whether you will deliver and only ask when. In families and offices alike, that kind of trust is worth more than talent."
+      },
+      {
+        "title": "Detail Radar",
+        "text": "You read the fine print others skip. You notice that the admission form wants attested copies, not photocopies, and that the deadline is 5 p.m., not midnight. At work you catch the misplaced decimal that would have cost the company lakhs. This is not fussiness; it is a form of protection. Your attention to small things saves people from big, avoidable trouble, usually without them ever knowing how close it came."
+      },
+      {
+        "title": "Crisis Calm",
+        "text": "When a parent is admitted to hospital at midnight, others cry or start phoning ten relatives. You find the file, the insurance card and the list of current medicines, then ask the doctor the three questions that actually matter. Pressure sharpens your focus instead of scattering it. You do your feeling later, privately. In the moment you are the fixed point the whole family turns towards, and nobody forgets it."
+      },
+      {
+        "title": "Institutional Memory",
+        "text": "You remember exactly how it was done last time. Which uncle must be invited in person, not on WhatsApp. Which form the bank rejected, and why. Which supplier delivered late twice in one quarter. Families and organisations both forget their own lessons; you don't. That memory makes you the one new managers quietly depend on and elders trust with family matters, carrying continuity across years of changing people and circumstances."
+      },
+      {
+        "title": "The Finisher",
+        "text": "Most projects die in the middle, after the exciting start and before the dull finish. That middle is where you shine. You fill the fortieth row of the spreadsheet with the same care as the first, format the thesis references at 2 a.m., and submit on time. Many a university group project has survived only because someone like you did the bibliography. Starters are common. Finishers are rare, and every team knows it."
+      },
+      {
+        "title": "Clean Hands",
+        "text": "Cutting corners makes you physically uncomfortable, even when everyone around you does it. Offered a quick “arrangement” to skip a queue or adjust a figure, you usually choose the longer, cleaner route. That costs you time now. Over years it builds a reputation money cannot buy: the officer whose files are clean, the accountant whose numbers are trusted, the sibling whose word settles a family dispute about who promised what."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "Change on Trial",
+        "text": "When someone suggests a new way of doing things, your first reaction is often a list of reasons it won't work. Your confidence comes from tested methods, so untested ones feel like risk dressed up as progress. Sometimes you're right. Sometimes you block a better idea, and a younger colleague quietly stops suggesting anything. Fix: ask one genuine question about the proposal and wait a full day before you decide."
+      },
+      {
+        "title": "Silent Overload",
+        "text": "You take on responsibility without announcing it, then carry it alone, because asking for help feels like admitting failure. Nobody knows you are drowning because you look composed. Eventually the pressure escapes sideways, as a sharp remark about a shoe left in the hallway. Fix: once a week, tell one person at home or work exactly what is on your plate, and name one specific thing they could take off it."
+      },
+      {
+        "title": "Love Without Words",
+        "text": "You show care by doing: bills paid, car fixed, fees deposited before the deadline. To you this is obviously love. To a spouse, child or friend who needs to hear it, it can feel like duty performed. The gap grows quietly over years. Fix: attach one sentence to one action daily. “I sorted the gas bill because I don't want you worrying about it” turns a chore into tenderness, at no extra cost."
+      },
+      {
+        "title": "Rules Over People",
+        "text": "You believe rules exist for good reasons, and usually they do. But in a hard moment you may quote the policy when the person in front of you needs flexibility, like refusing a junior's leave because the form came a day late while their mother was in hospital. People remember the refusal, not the principle. Fix: ask what the rule is protecting. If bending it slightly still protects that, bend."
+      },
+      {
+        "title": "The Inner Auditor",
+        "text": "The standard you hold others to is gentle compared with the one you hold yourself to. One small stumble in a presentation can replay in your head for days, while the twenty things that went right barely register. It comes from the same place as your reliability, but turned inward it becomes exhausting. Fix: when reviewing your day, write three things you did well before allowing yourself a single criticism."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "You are not looking for fireworks. You want someone to build a life with, brick by careful brick, and trust completely. What you need most from a spouse is consistency: words that match actions, plans that are kept, money handled honestly, and respect for your routines and quiet time. You show love through reliability. You remember the anniversary because it is in your calendar, and also because you genuinely think it matters. You learn how your spouse takes their chai and make it exactly that way for thirty years. Friction comes when a partner wants spontaneity or a long emotional conversation and you offer a solution or a schedule instead. The answer is not to become someone else. It is to say out loud a little more of what you already feel.",
+      "rishta_tips": [
+        "Ask about daily routines, not just degrees and family. How someone spends an ordinary Tuesday reveals more than a CV.",
+        "Mention early that you need predictability and some quiet time, so it is read as your nature, not coldness.",
+        "Notice anyone who casually breaks small promises about meeting times or calls. That pattern rarely improves after marriage.",
+        "Discuss money before the engagement: savings, committees, debts, who pays for what. Clarity now prevents years of silent resentment.",
+        "Don't rule someone out because the first meeting felt awkward. You warm up slowly; offer others the same patience."
+      ],
+      "family": "In the family you are usually the unofficial record-keeper and the steady one. Parents trust you with property papers and utility accounts, and siblings call you when anything official goes wrong. You take izzat seriously, but your version is less about appearances and more about keeping your word and paying what is owed. Joint-family living suits you as long as hierarchy and routine come with clear boundaries: your room, your time, your way of doing certain things. Tension rises when elders change plans at the last minute. With siblings you are protective and scrupulously fair, sometimes to the point of keeping score. Younger cousins may need your warmth more than your corrections.",
+      "friendship": "You keep a small circle, and you keep it for life. Your closest friends may still be the ones from Class 6, because you value shared history and don't hand out trust easily. You are the friend who shows up: on time at the walima, at the hospital, at the arrivals gate. You may ignore voice notes for weeks, but when it matters, you are there first. Good friends learn your silence is not distance.",
+      "best_matches": ["ESTJ", "ISFJ", "ESFP"],
+      "growth_matches": ["ENFP", "INFP"]
+    },
+    "career": {
+      "work_style": "You work best with a clear target, a sensible process and enough time to do it properly. You read the whole SOP, ask the two questions nobody else thought of, then execute steadily without supervision. Deadlines don't stress you; ambiguity does. You prefer finishing one thing before starting the next, and meetings that end without decisions feel like stolen time. Your output is consistent rather than flashy, so your value can go unnoticed until you take leave and things start slipping. Make your work visible: a short weekly note listing what you completed is not bragging. It is information your manager needs.",
+      "ideal_environment": "A workplace with clear roles, documented procedures and leaders who keep their word. You thrive where quality is measured and rewarded and where you can focus without constant interruption. Stable organisations suit you: established banks, audit firms, courts, government departments, hospitals and engineering firms. Open-plan chaos, shifting priorities and bosses who decide everything at the last minute will drain you faster than long hours ever could.",
+      "careers": [
+        {
+          "title": "Chartered Accountant or Auditor",
+          "why": "Audit rewards what you already do for free: checking every figure, following the standard, refusing to sign anything that doesn't add up.",
+          "pk_path": "ICAP's CA or ACCA; articleship at a Big Four or mid-tier firm in Karachi, Lahore or Islamabad."
+        },
+        {
+          "title": "Civil Servant (CSS)",
+          "why": "Departments need officers who follow due process, keep files clean and resist pressure. In the right post, integrity becomes public service.",
+          "pk_path": "Graduate, then sit FPSC's CSS exam; Audit and Accounts, Inland Revenue or Pakistan Administrative Service suit you."
+        },
+        {
+          "title": "Civil Judge",
+          "why": "Courts need judges who read the entire file, apply the law consistently and cannot be rushed, pressured or flattered into a decision.",
+          "pk_path": "LAT, a five-year LLB, bar enrolment and some years of practice, then the High Court's civil judge exam."
+        },
+        {
+          "title": "Pharmacist",
+          "why": "Dispensing and quality control are fields where a small error matters enormously. You bring precision, consistency and real respect for protocol.",
+          "pk_path": "Five-year Pharm-D, registration with the Pharmacy Council of Pakistan, then hospital, regulatory or quality-assurance roles."
+        },
+        {
+          "title": "Civil or Structural Engineer",
+          "why": "Buildings and bridges depend on codes, calculations and inspections done properly every time. Shortcuts here are dangerous, and you don't take them.",
+          "pk_path": "ECAT for UET or NUST NET, BS Civil Engineering, then Pakistan Engineering Council registration and site experience."
+        },
+        {
+          "title": "Bank Compliance Officer",
+          "why": "Compliance shields a bank from fraud, money laundering and regulatory penalties. It needs someone who reads every circular and applies it consistently.",
+          "pk_path": "BBA, MBA or law degree; a bank's management trainee programme, then compliance or anti-money-laundering teams."
+        },
+        {
+          "title": "Remote Bookkeeper",
+          "why": "Small businesses in the UK, US and Gulf need someone dependable to keep their books clean every month. Steady, structured, independent work.",
+          "pk_path": "B.Com or ACCA papers plus QuickBooks or Xero certification; clients via Upwork, LinkedIn or diaspora business networks."
+        },
+        {
+          "title": "Software QA Engineer",
+          "why": "Testing software is professional fault-finding. Your patience with repetition and eye for edge cases catch the bug before the customer does.",
+          "pk_path": "BS Computer Science or Software Engineering plus ISTQB certification; many Pakistani testers work remotely for foreign companies."
+        },
+        {
+          "title": "Technical Writer",
+          "why": "Turning messy processes into clear manuals is creative work built on order, and foreign software companies hire remote writers steadily.",
+          "pk_path": "Any engineering, CS or English degree plus a portfolio of sample documentation; contracts via LinkedIn and Upwork."
+        },
+        {
+          "title": "Hardware or Wholesale Business Owner",
+          "why": "Stock-based trade rewards careful inventory, honest dealing and patient growth over years, exactly the slow, solid game you play best.",
+          "pk_path": "Start small with family capital or a BC payout, keep clean books from day one and register with FBR early."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Commission-only Sales",
+          "why": "Constant cold-calling and unpredictable income can wear you down. If you try sales, choose a role with a fixed base."
+        },
+        {
+          "title": "Early-stage Startup Generalist",
+          "why": "Changing direction weekly with no processes may frustrate you. Join once the company has some structure to build on."
+        },
+        {
+          "title": "Wedding and Event Planning",
+          "why": "Your planning skills fit, but endless last-minute changes from clients and their relatives can feel like chaos."
+        }
+      ],
+      "as_a_leader": "You lead by example and by standard. Your team always knows what is expected, when it is due and what “done” looks like. You are fair, consistent and almost impossible to manipulate, which juniors come to respect deeply, sometimes only after leaving your team. Your growth area is recognition: you notice errors instantly and good work slowly. Say “well done” out loud, and explain the reason behind a rule, not just the rule.",
+      "as_a_team_member": "You are the teammate who reads the brief twice and actually meets the internal deadline. You prefer a defined role and dislike overlapping responsibilities, because blurry ownership is where mistakes hide. In meetings you may stay quiet, then send the clearest email afterwards. Speak up earlier. Your concerns about risk are usually right, and they are far more useful before the decision is made than after it.",
+      "money_style": "Money, for you, is responsibility. You probably know your monthly expenses to the rupee and kept an emergency fund before anyone advised it. In any BC committee you are the most reliable member, often the one trusted to collect. You prefer savings certificates, gold or property over crypto tips forwarded by cousins. Your risk is being so cautious that you miss reasonable growth. Set aside a small, well-researched portion for calculated risk."
+    },
+    "communication": {
+      "how_they_talk": "You speak precisely and economically. You say what you mean, give facts rather than feelings, and would rather say nothing than say something inaccurate. Your WhatsApp replies may be a single “Ok.” or “Done.”, which you consider complete answers and others find mildly alarming. When you do open up, usually one-on-one and after trust is built, your words carry real weight because people know you never speak casually.",
+      "how_to_talk_to_them": [
+        "Be specific: give dates, numbers and clear next steps instead of “we'll see” or “sometime soon.”",
+        "Give them time to think. A pushed decision gets a no; a considered one gets full commitment.",
+        "If you want to change a plan, explain why the new way is better, with evidence.",
+        "Appreciate their reliability out loud. They rarely ask for praise but quietly notice when it never comes."
+      ],
+      "conflict_style": "You avoid conflict until a line is crossed, then go straight to the record: what was agreed, what happened, who did what, and on which date. You can sound blunt or cold, especially when recalling exact details from years ago. You rarely shout, but your silence can last days. Your growth is to acknowledge the other person's feelings first. It costs you nothing in being right and earns the resolution you actually want."
+    },
+    "stress": {
+      "triggers": [
+        "Last-minute changes to carefully made plans",
+        "Promises broken casually, or lateness without warning",
+        "Messy systems where nobody owns the outcome",
+        "Big decisions demanded without enough information"
+      ],
+      "signs": [
+        "Snapping over small things, like a misplaced key",
+        "Rechecking work, lists and locks again and again",
+        "Withdrawing into silence and refusing all help",
+        "Imagining every possible way a plan could fail"
+      ],
+      "reset": [
+        "A long solo walk on a familiar route, phone in pocket",
+        "Restoring order to one small space, like a drawer or desk",
+        "Fixed sleep and wake times for three nights running",
+        "Talking to one trusted person who listens without fixing"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Say the feeling aloud",
+        "why": "You show love and concern constantly through action, but the people around you may be guessing at what you feel. This week, add a few words to the deeds you already do so well.",
+        "actions": [
+          "Each evening, tell one family member one specific thing you appreciated about them today.",
+          "When you finish a task for someone, add one sentence explaining why you did it.",
+          "Write down three feelings you had today, using words other than “fine” or “tired.”"
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Run small experiments",
+        "why": "Your strength is mastering what works, but life keeps changing around you. Small, safe experiments train your mind to treat new things as information to test rather than threats to resist.",
+        "actions": [
+          "Take a different route to work or university and notice three things you have never seen.",
+          "Try one unfamiliar dish, tool or app and give it three fair uses before judging it.",
+          "Ask a younger colleague or cousin how they would solve a problem you handle routinely."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Share the load",
+        "why": "You carry too much because asking for help feels like failing. Delegating is not losing control. It is building a team, at home or at work, that can stand when you are not there.",
+        "actions": [
+          "Hand one recurring task to someone else and resist the urge to quietly redo it.",
+          "When someone offers help this week, say yes at least once, even if you could manage.",
+          "List everything you are responsible for, then mark two items that are not truly yours."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Audit yourself with kindness",
+        "why": "Your inner auditor never takes a day off. This week, speak to yourself the way you would speak to a junior you respect: honestly, but with patience and credit where it is due.",
+        "actions": [
+          "Each night, write three things you did well before noting anything you would improve.",
+          "Plan one hour of pure leisure with no useful purpose, and protect it like a meeting.",
+          "When you make a mistake, say “that's fixable,” name the first step, then stop replaying it."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "With a Damvi temperament, your reliability wears a sunny face. You are more sociable than most Amanatdars, quicker with a dry joke and happier to have cousins over for chai. Unani tradition links Damvi with warmth and ease, so your challenge is keeping routines when fun beckons. Your gift is dependability that feels friendly, not stern.",
+      "safravi": "Safravi adds fire to your discipline. You are fiercely efficient, quick to spot incompetence and quicker to say so. Unani tradition links this temperament with drive and a short fuse, and many find their patience thins when hungry or overworked. Pause before replying, and pour that intensity into work where standards truly matter.",
+      "balghami": "Balghami makes you the calmest person in any crisis: steady, patient, slow to anger, with routines that feel almost meditative. The tradition describes this cool, moist temperament as steady and sometimes sluggish. Your risk is settling too comfortably into habit, so schedule some movement and novelty to keep steady from becoming stuck.",
+      "saudavi": "Saudavi deepens your seriousness. You think carefully, notice every flaw and may worry far more than you show. The tradition associates this earthy temperament with reflection and a pull towards gloom. Your work is likely meticulous. Guard against pessimism by noting what went right each week, and spend time with people who make you laugh."
+    },
+    "letter": "Dear Amanatdar,\n\nYou probably won't say this to anyone, so let us say it for you: you are tired of being the only one who remembers. The bill, the form, the appointment, the promise someone made three months ago and forgot. You carry these quietly, and often nobody notices, because nothing goes wrong. That is the strange thing about your gift. When you do your job perfectly, it looks as if nothing happened.\n\nBut we noticed. The family that never missed a deadline did so because of you. The office files that survived the audit were yours. The friend who was not alone in the hospital waiting room had you sitting beside them, saying very little, staying until the end.\n\nYour steadiness is not boring. It is the floor other people dance on. Just remember that you are allowed to rest on it too. Let someone else hold the folder for a while. Say the soft thing out loud. Laugh at your own dry jokes. The world needs people who keep their word, and it needs them to stay well.\n\nWith deep respect,\n— Mizaj"
+  }
+}

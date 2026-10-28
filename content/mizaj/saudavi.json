@@ -1,0 +1,237 @@
+{
+  "key": "saudavi",
+  "name": "Saudavi",
+  "name_ur": "سوداوی",
+  "quality": "Sard-Khushk (cool & dry)",
+  "classical": "Melancholic",
+  "humour": "Sauda (black bile)",
+  "element": "Earth (Mitti)",
+  "nickname": "The Earth",
+  "season": "Autumn",
+  "colors": [
+    "#5C4A3A",
+    "#B59B7A"
+  ],
+  "emoji": "🍂",
+  "tagline": "Deep thinker, quiet strength, and loyal to the very end.",
+  "share_line": "I notice everything, plan everything, and remember what you said last year.",
+  "free": {
+    "summary": "In Unani tradition, Saudavi is the mizaj of sauda, black bile, the cool and dry humour linked with earth and autumn. If you are Saudavi, you are the person who reads the fine print, notices the cracked tile nobody else saw, and quietly keeps track of everyone's appointments and passwords. You think before you speak, and when you do speak, it usually matters.\n\nYou are serious, careful and deeply loyal. You take promises to heart, and you would rather do one thing well than ten things badly. The flip side is that worry can creep in, small things can turn into big overthinking sessions, and you sometimes keep your feelings so private that loved ones can't tell what's wrong.\n\nPhysically, Unani texts picture the Saudavi person as lean, with dry skin, lighter sleep and a sensitivity to cold. Many Saudavi people find they feel calmer and more grounded with warm, moist, nourishing food, a regular routine, oil massage and enough rest, especially as autumn turns to winter.",
+    "traits": [
+      "Thoughtful and analytical; you weigh every option before you decide.",
+      "Detail-oriented and reliable; people trust you with the things that really matter.",
+      "Deeply loyal; once you are someone's friend, you're friends for life.",
+      "Private with feelings; you show love through actions far more than words.",
+      "Prone to worry and overthinking, especially late at night.",
+      "High standards for yourself, sometimes to the point of being your own harshest critic."
+    ],
+    "body_signs": [
+      "Unani texts describe a lean, lighter frame that can find it hard to gain weight.",
+      "Skin, hair and lips tend towards dryness, especially in winter.",
+      "Hands and feet often feel cold, and chilly, windy weather is your least favourite.",
+      "Sleep is often light, and a busy mind can keep it waiting.",
+      "Digestion can feel unsettled when meals are skipped, irregular or too dry.",
+      "Joints and muscles may feel stiff on cold mornings until you get moving."
+    ],
+    "quick_tip": "Never skip breakfast, and make it warm and moist: daliya with milk, an egg, or a chapati with a little desi ghee. Unani tradition suggests regular, warm, nourishing meals are the simplest way to soften a cool, dry mizaj."
+  },
+  "premium": {
+    "deep_dive": "In the Canon, Ibn Sina described sauda as the heaviest of the humours: cool, dry and settling, the sediment that gives the body structure and the mind depth. A Saudavi person, in this picture, carries a little more of that earthy quality. It is the temperament of focus, endurance and seriousness, and it asks for warmth and moisture to stay light.\n\nIn the body, Unani tradition associates this mizaj with a lean build, dry skin, cold hands and feet, light sleep and a digestion that dislikes irregular meals. Cold and dryness are your weak points: skipped meals, too much tea, cold dry winds, stale or very sour food, and long nights of worry are all traditionally believed to add to sauda. When the balance tips, many Saudavi people notice dry skin, stiffness, poor sleep and a heaviness of mood. The traditional answer is warmth, moisture and regularity: freshly cooked food, healthy fats like ghee and almonds in moderation, oil massage (dalk), warm baths and a steady daily rhythm.\n\nIn the mind, coolness gives calm and dryness gives precision. You notice details, think in systems and remember what others forget. You are often the person who checks the nikah nama clauses, reads the property papers twice or plans the budget for Eid shopping. The risk is rumination: replaying a comment for days, or waiting for a certainty that never comes.\n\nEmotionally, the tradition describes Saudavi people as sensitive, loyal and inward. The very word melancholy comes from the Greek for black bile, but that is only half the story; since ancient times this temperament has also been linked with scholars, poets and careful craftspeople. Your feelings run deep and slow. The task is to let them out regularly, so they don't harden into silence.\n\nAcross life stages, Unani tradition saw middle age onwards as naturally cooler and drier, so a young Saudavi person may seem older than their years, the serious one at the family gathering. The warm, moist years of youth are often when you feel most balanced. From your forties, staying warm, nourished and active becomes especially important.\n\nAcross the seasons, autumn is your mirror. Tradition linked sauda with the cool, dry months when leaves fall, and many Saudavi people feel a dip in mood and energy as the days shorten. Winter can feel harsh, spring is often restoring, and summer's warmth can actually suit you as long as you stay hydrated. Living well as a Saudavi means adding warmth and softness to a strong, steady core.",
+    "foods_favour": [
+      {
+        "item": "Desi ghee in moderation",
+        "why": "Warm and moist; a teaspoon on roti or daal is a traditional answer to dryness."
+      },
+      {
+        "item": "Soaked almonds",
+        "why": "Warm and moist; tradition values almonds for nourishment and a steady, settled mind."
+      },
+      {
+        "item": "Warm milk with saffron or cardamom",
+        "why": "Nourishing and moistening, and a classic Unani bedtime drink for a busy mind."
+      },
+      {
+        "item": "Chicken yakhni and soups",
+        "why": "Warm, moist and easy to digest, ideal when you feel cold, dry or depleted."
+      },
+      {
+        "item": "Mutton or goat shorba",
+        "why": "Warm and moist by Unani reckoning, nourishing without the heaviness of fried meat."
+      },
+      {
+        "item": "Half-boiled eggs",
+        "why": "Classical Unani texts praise soft-boiled eggs as quick, warm nourishment, perfect for breakfast."
+      },
+      {
+        "item": "Anjeer (figs), soaked overnight",
+        "why": "Warm and moist; tradition values them for softening the body's natural dryness."
+      },
+      {
+        "item": "Munaqqa and kishmish (raisins)",
+        "why": "Warm and moist; a small handful soaked overnight makes a gentle morning habit."
+      },
+      {
+        "item": "Sweet ripe grapes",
+        "why": "Traditionally warm and moist, hydrating, and counted among the cheering fruits."
+      },
+      {
+        "item": "Sweet apples (saib)",
+        "why": "Traditionally counted among mufarreh foods, those believed to gladden the heart."
+      },
+      {
+        "item": "Ripe mango in season, in moderation",
+        "why": "Warm and moist; one after lunch suits you better than it suits most mizaj."
+      },
+      {
+        "item": "Gajar and shalgam (carrot and turnip)",
+        "why": "Warm winter roots that bring moisture and natural sweetness to your meals."
+      },
+      {
+        "item": "Wholewheat roti and daliya",
+        "why": "Wheat is traditionally moderately warm; daliya cooked in milk is warm, moist and grounding."
+      },
+      {
+        "item": "Kaddu or lauki cooked with ghee and ginger",
+        "why": "Their moisture eases dryness, while the ghee and ginger add the warmth you need."
+      }
+    ],
+    "foods_limit": [
+      {
+        "item": "Beef (bara gosht) several times a week",
+        "why": "Classical Unani texts rate beef cool, dry and heavy, a traditional source of sauda."
+      },
+      {
+        "item": "Masoor daal in large amounts",
+        "why": "Classical texts list lentils among sauda-increasing foods; enjoy occasionally, with ghee and garlic."
+      },
+      {
+        "item": "Baingan (brinjal)",
+        "why": "Classically named as a food that increases sauda; keep it an occasional dish."
+      },
+      {
+        "item": "Band gobhi (cabbage)",
+        "why": "Traditionally considered cool, dry and heavy for a Saudavi system."
+      },
+      {
+        "item": "Leftover or reheated food day after day",
+        "why": "Tradition favours fresh cooking; stale food is believed to add heaviness and dryness."
+      },
+      {
+        "item": "Strong tea and coffee, cup after cup",
+        "why": "Drying in effect; too many cups can leave you wired, parched and sleepless."
+      },
+      {
+        "item": "Very sour foods: achar, imli, raw kairi",
+        "why": "Sharp, sour flavours are traditionally believed to increase dryness and sauda."
+      },
+      {
+        "item": "Dry snacks: rusks, papar, crackers, nimko",
+        "why": "Dry on dry; they leave a Saudavi system thirsty and unsatisfied."
+      },
+      {
+        "item": "Ice-cold drinks and frozen desserts",
+        "why": "Cold on cold; they work against the warmth you need, especially in winter."
+      },
+      {
+        "item": "Salted or dried meat and fish",
+        "why": "Classical texts link preserved, salted foods with an increase in sauda."
+      }
+    ],
+    "drinks": [
+      "Warm milk with saffron or cardamom at bedtime: warm, moist and settling",
+      "Badam doodh (almond milk) in winter: nourishing and moistening",
+      "Chicken yakhni in a mug: warming and moistening on cold evenings",
+      "Kehwa with cardamom and a little honey: warm and light, gentler than strong chai",
+      "Warm water through the day: you forget to drink, and dryness follows",
+      "Fresh grape or sweet anar juice at room temperature: moistening and refreshing"
+    ],
+    "spices_herbs": [
+      "Zafran (saffron): traditionally counted as mufarreh, believed to lift the spirits; a few strands in milk",
+      "Elaichi (green cardamom): fragrant and warming, lovely in milk, kehwa and kheer",
+      "Darchini (cinnamon): warms cool hands and slow mornings, in kehwa or daliya",
+      "Fresh adrak (ginger): traditionally warm and gently moist, kinder to you than dried, sharp spices",
+      "Saunf (fennel): many people find it settles digestion after meals",
+      "Go easy on red chilli and heavy khatai: sharp, drying flavours add to your natural dryness"
+    ],
+    "daily_routine": {
+      "morning": "Wake at a regular time every day, neither too early after a late night nor too late. Start with warm water, then a warm, moist breakfast: daliya with milk, a half-boiled egg or a chapati with a little ghee. Before your shower, try a quick oil massage on hands, feet and scalp with almond or olive oil, a classic Unani practice (dalk) for dryness.",
+      "midday": "Eat lunch on time; irregular meals are traditionally believed to unsettle a Saudavi system. Choose warm, freshly cooked food: shorba, sabzi with a little ghee, daal with chapati. Step outside for a few minutes of sunlight. Cap yourself at two cups of tea by mid-afternoon.",
+      "evening": "Evenings are when worry tends to creep in, so plan something warm and social: a walk with a friend, time with family or a hobby that uses your hands. Eat a warm, early dinner. Write tomorrow's worries in a notebook so your mind doesn't carry them to bed.",
+      "sleep": "Sleep is precious for you and often light. Keep a fixed bedtime, put the phone away 45 minutes before, and try warm milk with saffron or cardamom. A warm foot soak, or a little oil rubbed into the soles, is a traditional winding-down habit. Aim for seven to eight unbroken hours."
+    },
+    "seasons": {
+      "summer": "Summer warmth can actually suit you, but heat plus your natural dryness makes dehydration a risk. Drink water steadily, enjoy sweet mangoes, grapes and lassi in moderation, and avoid long hours in direct sun. Keep meals regular even when your appetite dips, and don't survive on chai and nimko through the long afternoons.",
+      "monsoon": "Monsoon humidity often feels pleasant and softening to a dry mizaj. Enjoy it, but eat freshly cooked food and skip stale street snacks. Grey, rainy days can bring a dip in mood, so plan cosy, social things: chai with cousins, a family movie, or cooking something warm together.",
+      "winter": "Your hardest season. Cold, dry winds and short days are traditionally believed to increase sauda, so many Saudavi people feel stiffer, drier and lower now. Lean on warm, moist food: yakhni, eggs, ghee, gajar and dry fruit soaked overnight. Oil your skin, keep your feet warm, and seek sunlight and company as deliberately as you would a winter jacket.",
+      "spring": "Spring is often your recovery season, as warmth and moisture return. Many Saudavi people feel lighter in mood and more sociable. Use the energy: start a new habit, reconnect with friends and enjoy shaadi season, even if you leave the dholki a little early."
+    },
+    "movement": "Your body likes steady, gentle, regular movement more than intense bursts. Walking, light jogging, stretching, swimming in warm water and cycling all suit you. Unani tradition cautions a cool, dry mizaj against exhausting exercise that dries you out further, so stop at pleasant tiredness, not collapse. Warm up properly on cold mornings and stretch afterwards. Exercising outdoors in morning sunlight, or with a friend, does double duty: it warms your body and lifts your mood at the same time.",
+    "emotional_balance": "Unani counts the emotions among the six essential factors of health, and tradition specifically links worry, grief and long brooding with increased sauda. For you, emotional care is not a luxury. Build daily habits of release: write things down, talk to one trusted person, spend time with people who make you laugh. Limit late-night scrolling and news, which feeds rumination. Practise noticing good things, even three small ones before sleep. Prayer, dhikr and time in nature bring calm to many people. If low mood, worry or sleeplessness lasts more than two weeks, please speak to a doctor or qualified counsellor. Asking for help is wise, not weak.",
+    "ramadan": "Long fasts can leave a Saudavi body extra dry, so prepare well. At sehri, choose warm, moist food: daliya with milk, eggs, a chapati with a little ghee, a few soaked dates or figs, and water sipped steadily. Skip very salty or dry sehri food. At iftar, open with dates and water or warm milk, then eat a nourishing meal rather than a plate of fried snacks. Sleep after Taraweeh as early as you can.",
+    "seven_day_menu": [
+      {
+        "day": 1,
+        "breakfast": "Daliya cooked in milk with chopped dates and almonds",
+        "lunch": "Chicken shorba with vegetables and chapati",
+        "dinner": "Gajar matar with a little ghee and chapati",
+        "snack": "Soaked almonds and raisins"
+      },
+      {
+        "day": 2,
+        "breakfast": "Half-boiled eggs, chapati with a little ghee, elaichi chai",
+        "lunch": "Moong daal with lehsan tarka, rice and salad",
+        "dinner": "Mutton yakhni pulao, a modest plate, with raita",
+        "snack": "A sweet apple or a bunch of grapes"
+      },
+      {
+        "day": 3,
+        "breakfast": "Wholewheat toast with butter, an egg and warm milk",
+        "lunch": "Lauki gosht with chapati",
+        "dinner": "Chicken stew with potatoes and carrots",
+        "snack": "Warm milk with a pinch of saffron"
+      },
+      {
+        "day": 4,
+        "breakfast": "Chapati with anda bhurji made in a little ghee",
+        "lunch": "Palak gosht with chapati",
+        "dinner": "Moong khichri with ghee and dahi",
+        "snack": "Two or three soaked anjeer"
+      },
+      {
+        "day": 5,
+        "breakfast": "Daliya with milk and cinnamon",
+        "lunch": "Kabuli chana salan with chapati",
+        "dinner": "Shalgam gosht with chapati",
+        "snack": "A ripe mango or sweet grapes in season"
+      },
+      {
+        "day": 6,
+        "breakfast": "One desi ghee paratha with dahi",
+        "lunch": "Chicken karahi, light on chilli, with chapati",
+        "dinner": "Mixed vegetable soup with bread",
+        "snack": "A small bowl of kheer"
+      },
+      {
+        "day": 7,
+        "breakfast": "Weekend: halwa puri with the family, small portions plus chana",
+        "lunch": "Family chicken biryani with raita",
+        "dinner": "Chicken yakhni and a light chapati",
+        "snack": "Badam doodh in winter, fresh fruit in summer"
+      }
+    ],
+    "when_out_of_balance": [
+      "Lying awake replaying conversations or worrying about things that haven't happened.",
+      "Skin, lips and heels getting unusually dry and rough.",
+      "Pulling away from family and friends, and feeling heavier in mood.",
+      "Feeling stiff and cold even when others are comfortable.",
+      "Becoming extra critical of yourself or others over small mistakes."
+    ],
+    "with_other_mizaj": {
+      "damvi": "Unani tradition sees this as a near-perfect balance of opposites: their warmth and moisture meet your coolness and dryness. Damvi lifts your mood and draws you into family life; you give them depth and stability. Don't dismiss their cheerfulness as shallowness, and let them help you laugh at your worries.",
+      "safravi": "You share dryness: both of you value logic, standards and getting things right. Their warmth can energise your plans, and your caution can save them from hasty decisions. Watch for criticism on both sides. Make a habit of appreciation, and keep tough discussions short, specific and kind.",
+      "balghami": "A quiet, loyal, steady pairing. Their soft, moist calm eases your dryness and worry, and your careful planning gives their easygoing nature direction. The risk is a home that is too still. Plan warm, social things together, such as dawats, family visits and shared hobbies, so neither of you retreats too far.",
+      "saudavi": "Two Saudavi spouses understand each other's silences, standards and need for order, and you can build a deeply trustworthy home. The risk is double the worry and too little lightness. Take turns being the optimist, invite cheerful friends and family over often, and talk about feelings before they harden into distance."
+    }
+  },
+  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered hakeem."
+}

@@ -1,0 +1,254 @@
+{
+  "code": "ISTP",
+  "name": "Karigar",
+  "name_ur": "کاریگر",
+  "name_en": "The Craftsman",
+  "family": "Fankar",
+  "emoji": "🔧",
+  "colors": ["#3A5A6B", "#D9A441"],
+  "tagline": "You don't talk about the problem. You're already holding the screwdriver.",
+  "share_line": "I fixed it while everyone else was still forwarding the YouTube tutorial.",
+  "keywords": ["Resourceful", "Observant", "Unflappable", "Independent", "Precise"],
+  "rarity": "about 5% of people",
+  "free": {
+    "summary": "You understand the world by getting your hands on it. Give you a UPS that keeps beeping, a bike that won't kick-start or a laptop that overheats every afternoon, and the room goes quiet while you listen, poke, test and find the one loose connection everyone else missed. You trust what you can see and check for yourself, not what someone insists is true. Rules make sense to you only once you know why they exist.\n\nPeople often read your silence as distance and your calm as not caring. Neither is true. You're paying close attention; you just don't narrate it. You're the friend people call at 11pm when the car battery dies on Canal Road, because you'll come, sort it out and skip the lecture. You need room to do things your own way, and you give others the same respect. Under the cool exterior is someone fiercely loyal, drily funny and far more perceptive than you let on.",
+    "strengths": [
+      "Diagnoses problems fast by watching, testing and ignoring the noise around them.",
+      "Stays steady in emergencies; your hands get calmer as things get worse.",
+      "Learns any tool, software or machine faster by doing than by reading manuals.",
+      "Gives honest, practical advice without drama, judgement or a long lecture attached.",
+      "Respects other people's space and freedom, and rarely tries to control anyone."
+    ],
+    "watchouts": [
+      "May go quiet for days, leaving loved ones guessing what you actually feel.",
+      "Can lose interest once the puzzle is solved and the paperwork begins.",
+      "Sometimes takes physical or financial risks just to feel that sharp focus again."
+    ],
+    "pakistani_archetype": "You're the one who got the wedding generator running during the baraat while three uncles argued about the wiring, then slipped back to your seat before anyone could thank you.",
+    "in_relationships": "You show love through action: the shelf you mounted, the route you planned, the phone you set up so your mother can finally video-call her sister. Words come slower. The right partner won't read your quiet as coldness, and will let you keep your own corner of the house and the week.",
+    "at_work": "Hand you a broken process and step back: that's when you shine. Meetings about meetings drain you; a real problem with a real deadline wakes you up. Managers who measure results rather than hours at the desk get your sharpest thinking and, quietly, your long-term loyalty.",
+    "fictional_twins": [
+      "Katniss Everdeen (The Hunger Games)",
+      "Toph Beifong (Avatar: The Last Airbender)",
+      "Han Solo (Star Wars)",
+      "Levi Ackerman (Attack on Titan)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Your mind works like a workshop, not a library. You don't store facts for their own sake; you store how things behave. How much pressure a pipe joint takes before it weeps. How your manager's voice changes when a deadline is actually serious. Which cousin exaggerates by thirty percent and which by ninety. At a used-car bazaar you hear the faint knock in an engine the seller swore was 'bilkul fit'. You collect these small, true observations constantly and without effort, so when something breaks, a working model is already waiting. That's why you look like you're improvising when you're really drawing on years of silent data.\n\nWhat drives you is competence on your own terms: the freedom to figure something out yourself and get it exactly right. What you dread is being trapped in a role, routine or relationship with no room to move, where someone else's rules make no sense but must be obeyed anyway. This is why being micromanaged feels almost physical to you, why a desk job with a supervisor reading over your shoulder can feel heavier than a sixteen-hour site day, and why you'll sometimes choose the harder road simply because it's yours.\n\nYou process feelings the way you process engines: offline, alone, and only once you have enough data. When something hurts, you don't talk it out. You go for a long drive, take apart something that didn't need fixing, or play the same game for three hours until the noise settles. Then, days later, you say one sentence that shows you understood the whole situation perfectly. Your sister calls it sulking. It's closer to debugging. People who wanted that sentence on day one find this maddening. People who learn to wait discover you were never absent, just working.\n\nThe distance between your inside and your outside is large. Inside, you're often amused, sharply aware and more sentimental than anyone guesses; you still remember how your father held the spanner the first time he showed you how to change a tyre, and that spanner may still live in your toolbox. Outside, you can seem detached, blunt or bored, especially at family gatherings where the expected currency is small talk about whose son got which job. Your growth isn't about becoming chatty. It's about letting a few trusted people see the workshop: what you noticed, what you felt, and that you care, even when saying so costs you a few awkward words.",
+    "superpowers": [
+      {
+        "title": "Cool Head, Steady Hands",
+        "text": "When the pressure cooker hisses wrong, the main breaker trips in the middle of a dawat, or someone faints at the bus stop, you move instead of panicking. Your pulse seems to drop as everyone else's climbs. Within seconds you've sorted what matters from noise: gas off, check the breathing, call the right person. Afterwards people say you were 'so cool', never realising you simply refused to spend energy on drama."
+      },
+      {
+        "title": "Reverse Engineering",
+        "text": "You can look at something finished and see the steps that built it. A competitor's website, a friend's chicken karahi, a fast bowler's action in slow motion: you break it into parts and rebuild it better. This is how so many of your type taught themselves video editing, car mechanics or coding with no formal course, just tutorials, trial and error, and a stubborn refusal to accept that something can't be done."
+      },
+      {
+        "title": "The Honest Mirror",
+        "text": "When a friend asks whether their business idea makes sense, you don't flatter. You ask three blunt, useful questions: who pays, how much, and what happens if the supplier in Faisalabad doesn't deliver? It can sting at first. But people keep coming back, precisely because your feedback has no agenda. You're not trying to win the conversation; you're trying to see what's actually there, and that neutrality is worth more than polite praise."
+      },
+      {
+        "title": "Shortest Working Path",
+        "text": "While the team drafts a twelve-slide plan, you've noticed that one Excel formula, or one phone call to the right clerk at the excise office, solves most of the problem. This isn't laziness; it's efficiency rooted in respect for everyone's time, including your own. Offices that let you redesign clumsy processes often discover you've saved the whole department hours a week, and you never once asked to be mentioned at the town hall."
+      },
+      {
+        "title": "Reading Physical Tells",
+        "text": "You notice details others miss: the car dealer whose eyes flick sideways when quoting the price, the interviewer who leans back the moment salary comes up, the cousin whose hands shake before the nikah. Because you trust what you see over what people say, even when the words sound perfect, you're surprisingly hard to con. That makes you a sharp negotiator anywhere money changes hands, and a quietly accurate judge of who is actually okay."
+      },
+      {
+        "title": "Mastery Through Play",
+        "text": "What looks like 'just messing around' is how you build serious skill. Hours spent on game strategy, flying a drone over the fields behind your nana's house, or tuning your bike's carburettor are training your reflexes, spatial sense and patience. Many of your type turn a hobby into a profession almost by accident: the teenager who fixed everyone's phones ends up running a repair shop with three employees and a waiting list."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "The Disappearing Act",
+        "text": "When emotions run high, you vanish: phone on silent, long drive, 'I'm fine.' Feelings arrive as a thick fog you can't yet name or explain, and you'd rather say nothing than say it wrong. But to the people waiting, silence reads as punishment. Fix: give a time stamp, not an explanation. 'I need tonight to think; let's talk after Asr tomorrow' takes ten seconds to type and saves everyone days of worry."
+      },
+      {
+        "title": "Bored After the Fix",
+        "text": "You love the puzzle and lose interest in the upkeep. The project is ninety percent done, the last ten percent is documentation, invoices and follow-up emails, and suddenly you have urgent business elsewhere. Your brain is wired for challenge, and admin offers none. Fix: treat the boring tail like a technical problem. Batch it into one fifteen-minute slot a day, or partner with someone who genuinely enjoys closing loops and sending the final invoice."
+      },
+      {
+        "title": "Risk as a Reset",
+        "text": "When life feels flat, you may reach for intensity: one-wheeling on the bypass, a sudden big purchase, quitting a stable job with no plan. The thrill gives your mind the total focus it craves. The bill arrives later, often for people who depend on you. Fix: build safer adrenaline into your week, such as a martial art, a tough Margalla trek, or a hard technical project with a real deadline."
+      },
+      {
+        "title": "Accurate but Unkind",
+        "text": "You say the efficient thing, not the gentle thing. 'The colour's off' when your sister shows you her wedding outfit may well be true, but two weeks before the mehndi it lands like a slap. You assume people want information because you would. Many want reassurance first and data second. Fix: before any critique, name one thing that is genuinely right. That isn't fake; it's simply finishing the picture you already see."
+      },
+      {
+        "title": "Planning Allergy",
+        "text": "You trust yourself to handle whatever comes, so you rarely plan past next week. That works brilliantly on a road trip and badly with savings, career moves or a wedding budget. Plans feel like cages built before you've seen the terrain. Fix: plan only the skeleton, three numbers and two deadlines, and leave the rest open. You keep your freedom and skip the 3am panic when a fee challan suddenly falls due."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "You need a spouse who understands that your love language is service and presence, not speeches. You'll notice the dripping tap, the car that needs a tune-up, the fact that they mentioned craving gol gappay three days ago, and you'll handle it silently. What you need back is space: an evening alone that doesn't become a crisis, hobbies that aren't questioned, and a partner who doesn't need constant check-ins to feel secure. Friction usually comes when your spouse wants to talk a problem through and you jump straight to solving it, or when you go quiet after a disagreement and they read it as anger. The marriages that work best for your type run on one simple agreement: you say 'I'm thinking, not upset,' and they choose to believe you.",
+      "rishta_tips": [
+        "Ask how they handle silence. Someone who needs constant conversation may read your quiet evenings as distance.",
+        "Mention early that you need personal space and a hobby corner; frame it as recharging, not rejection.",
+        "Watch how they treat waiters and drivers. You trust actions over words, so trust that instinct over polished introductions.",
+        "Don't let elders set every timeline. Say how long you need before deciding; being rushed makes you shut down.",
+        "Talk honestly about money and risk before the nikah. Your appetite for bold moves should at least be understood."
+      ],
+      "family": "With parents, you're often the reliable one in practical matters and the mysterious one emotionally. Ammi may complain that you never tell her anything, while relying on you to fix the geyser. In a joint family, you need one room or corner that is truly yours, and you wilt when every decision becomes a committee meeting. Izzat matters to you, but you define it through competence rather than appearances. As a sibling, you're the one who teaches the younger ones to drive, quietly lends money without telling anyone, and is last to join the family WhatsApp argument, usually with one dry line that ends it.",
+      "friendship": "Your friendships are built on doing things together: a street cricket match, a midnight drive for parathas, a group trip to Naran where you end up negotiating with the jeep driver and fixing the radiator hose. You don't need daily contact; you can vanish for months and pick up exactly where you left off. Friends love that you never judge and always show up when it counts. Just remember that some of them need words, not only actions, to feel valued.",
+      "best_matches": ["ESTJ", "ESFJ", "ISTJ"],
+      "growth_matches": ["ENFJ", "INFP"]
+    },
+    "career": {
+      "work_style": "You work in bursts of deep focus rather than a steady eight-hour drip. Give you a broken system, a clear outcome and minimal supervision, and you'll often finish faster than anyone expected, then go quiet until the next interesting problem appears. You learn by doing: shadow someone for a day, then let you try. A three-day theory workshop loses you by lunch, but a ten-minute hands-on demo sticks forever. Colleagues come to you when nothing else has worked, because you troubleshoot without blaming anyone. Your weak point is the long tail of routine reporting, which you'll postpone until someone senior starts asking.",
+      "ideal_environment": "A workshop, lab, site, server room or quiet desk with real tools and real problems. Flexible hours, a manager who sets the outcome and trusts you with the method, and colleagues who speak plainly. Room to experiment, even fail, without a formal inquiry. Few meetings. Bonus points for work that changes daily, involves travel, and lets you see the direct result of what you built or repaired.",
+      "careers": [
+        {
+          "title": "Mechanical or Automotive Engineer",
+          "why": "You understand machines intuitively, enjoy diagnosing failures, and feel real satisfaction when an engine or production line runs better because of you.",
+          "pk_path": "BS Mechanical at UET, GIKI or NUST through ECAT or NET; then auto plants, EV conversion startups or industrial maintenance."
+        },
+        {
+          "title": "Army EME or PAF Engineering Officer",
+          "why": "Hands-on technical work with real stakes, clear structure, travel, and full responsibility for equipment that must work perfectly under pressure.",
+          "pk_path": "After FSc, apply via the PMA Long Course or PAF engineering entry; clear the initial tests, medical and ISSB."
+        },
+        {
+          "title": "Orthopaedic or Trauma Surgeon",
+          "why": "Surgery rewards steady hands, spatial thinking and calm in emergencies; orthopaedics is closer to carpentry and engineering than most people expect.",
+          "pk_path": "MDCAT, MBBS from a public or private medical college, house job, then FCPS training through CPSP."
+        },
+        {
+          "title": "Cybersecurity Specialist (Remote)",
+          "why": "Breaking into systems legally is the ultimate puzzle, and clients worldwide pay well for people who think like attackers and stay calm.",
+          "pk_path": "BS Cyber Security at Air University or NUST, or self-taught; earn certifications, then bug bounties and remote security roles abroad."
+        },
+        {
+          "title": "Solar Installation Business",
+          "why": "Pakistan's rooftop solar boom needs people who truly understand inverters, wiring and load. You get technical work, site visits and no boss.",
+          "pk_path": "TEVTA or NAVTTC electrical course, apprentice with an installer, get AEDB certification, then hire your own crew."
+        },
+        {
+          "title": "Embedded Systems Freelancer",
+          "why": "Designing sensors, small devices and firmware blends hardware with code, and you can work from your own bench for clients anywhere.",
+          "pk_path": "BS Electrical or Mechatronics at UET, FAST or COMSATS; build working prototypes, then freelance on Upwork for hardware startups."
+        },
+        {
+          "title": "Forensic Scientist",
+          "why": "Evidence, physical clues and careful testing suit your observant mind, and your emotional neutrality makes you credible when stakes are high.",
+          "pk_path": "BS Forensic Science or Chemistry, then apply through PPSC to the Punjab Forensic Science Agency or other provincial labs."
+        },
+        {
+          "title": "Commercial Pilot",
+          "why": "Flying combines precise technical skill, real-time judgement and genuine freedom: long calm stretches broken by moments that need instant action.",
+          "pk_path": "FSc with physics and maths, a CAA Class 1 medical, then PPL and CPL at a licensed flying school."
+        },
+        {
+          "title": "Industrial Designer",
+          "why": "You think in objects: how a chair carries weight, why a handle feels wrong. Product design turns that instinct into useful things.",
+          "pk_path": "Admission test for Industrial Design at NCA Lahore or Indus Valley School Karachi; then manufacturers or your own studio."
+        },
+        {
+          "title": "DevOps or Cloud Engineer (Remote)",
+          "why": "Keeping systems alive, automating dull tasks and firefighting outages at 2am suit your troubleshooting brain and love of efficient systems.",
+          "pk_path": "BS Computer Science or self-taught Linux, AWS or Azure certifications, then remote roles with Gulf, European or US companies."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "HR and Employee Relations",
+          "why": "Lots of emotional mediation, policy explaining and meetings; possible, but likely to drain you faster than technical work."
+        },
+        {
+          "title": "Purely Clerical Desk Posts",
+          "why": "Fixed routines, files and repetitive approvals can feel like a cage for a mind that needs fresh problems."
+        },
+        {
+          "title": "Public Relations and Event Hosting",
+          "why": "Constant small talk and on-demand enthusiasm rarely suit your type, though many of you shine backstage at events."
+        }
+      ],
+      "as_a_leader": "You lead by example and by trust. You won't give a motivational speech before the launch; you'll stay late debugging the payment page yourself and leave everyone else free to work their way. Self-driven people love working for you. Those who need regular praise may feel invisible. Your growth area is explaining your reasoning out loud and checking in before small frustrations quietly turn into resignation letters.",
+      "as_a_team_member": "You're the specialist the team calls when something is truly stuck: the server that crashed at 2am, the machine on line three nobody else can calibrate. You prefer a clear lane and freedom to deliver your way. You don't fight for credit or play office politics, which earns quiet respect. Teammates do wish you'd share progress without being chased, and raise concerns in the meeting rather than fixing things silently afterwards.",
+      "money_style": "You spend on tools, gear and experiences, not on showing off. A good drill set, a reliable bike or a trip to Skardu feels worth every rupee; a designer outfit for a walima does not. You're comfortable with calculated risk and may earn on the side refurbishing phones or flipping used cars. Saving feels boring, so automate it, or join a BC committee with people you trust and let the commitment do the discipline."
+    },
+    "communication": {
+      "how_they_talk": "Short, direct and factual. You answer the question asked, not the five behind it, and assume people will ask if they want more. Your humour is dry and arrives without warning, usually a one-liner that cracks up the room while you keep a straight face. But get you onto a topic you truly care about, engines, games, how something works, and you can talk for an hour.",
+      "how_to_talk_to_them": [
+        "Get to the point quickly; lead with the problem, then the context, not the other way round.",
+        "Don't demand an emotional answer on the spot; give them time and they'll come back honest.",
+        "Ask for their help with something practical; it's often the easiest door into a deeper conversation.",
+        "Skip guilt trips and dramatic hints; plain requests get plain, reliable action from them."
+      ],
+      "conflict_style": "You avoid conflict until it's unavoidable, then you're blunt. Your instinct is to withdraw, think it through and return with a solution, skipping the feelings entirely. When the family group erupts over who's hosting Eid lunch, you'll mute it and later send one line that settles the logistics. That works for logistics, not for hurt. Try naming the feeling first, even clumsily, 'I was annoyed,' and then offer the fix."
+    },
+    "stress": {
+      "triggers": [
+        "Being micromanaged or asked to justify every small decision",
+        "Long emotional conversations with no clear outcome",
+        "Rigid rules that exist only because 'this is how it's always done'",
+        "Feeling trapped by commitments, debts or family obligations with no exit"
+      ],
+      "signs": [
+        "Unusual sharpness or sarcasm, even with people you like",
+        "Disappearing for hours into games, drives or tinkering",
+        "Impulsive spending or risky driving to feel something sharp",
+        "Rare emotional outbursts that surprise even you"
+      ],
+      "reset": [
+        "Take something apart and rebuild it: a fan, a bike, a stiff hinge",
+        "A long solo drive or ride, ideally somewhere with open sky",
+        "Hard physical exercise: football, the gym, a steep Margalla trail",
+        "Tell one trusted person, in a single sentence, what's actually bothering you"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Say what you notice",
+        "why": "You observe constantly but share almost nothing. This week builds the habit of putting small observations into words, so the people close to you can see how closely you actually pay attention.",
+        "actions": [
+          "Each day, tell one person one specific thing you noticed about them and liked.",
+          "Before sleeping, write three lines: what happened, what you noticed, how it felt.",
+          "In one family conversation, ask a follow-up question instead of answering with a nod."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Finish the boring ten percent",
+        "why": "Your reputation suffers more from unfinished admin than from any lack of skill. This week trains you to close loops, so the quality of your work is matched by your follow-through.",
+        "actions": [
+          "Pick one task you've been avoiding, an invoice, form or email, and finish it before noon.",
+          "Set a fifteen-minute timer daily for paperwork only; stop when it rings, no guilt.",
+          "At the end of each day, send one unprompted update to someone waiting on you."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Plan the skeleton only",
+        "why": "Freedom matters to you, but zero planning leaves you exposed. This week you'll build light structure, just enough to protect your money and goals, while keeping the flexibility you work best with.",
+        "actions": [
+          "Write down three numbers: monthly savings target, emergency fund goal, one big purchase.",
+          "Set up one automatic transfer on payday, or sign up for a trusted BC committee.",
+          "Choose one career skill to build and block two hours in your calendar for it."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Open the workshop door",
+        "why": "Your inner world is rich but private. This week is about letting one or two trusted people in, not with speeches, but with small honest disclosures that build real closeness over time.",
+        "actions": [
+          "Teach someone a skill you're good at, explaining your thinking out loud as you go.",
+          "Share one worry or hope with a sibling, friend or spouse, even if it's one sentence.",
+          "Before withdrawing to think, send a short 'I'm fine, just processing' message first."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "Damvi warmth gives your cool, practical core an easy sociability. You're the Karigar who fixes the mehndi sound system while cracking jokes, more likely to join the cousins' cricket match than watch from the boundary. The risk is spreading yourself across too many fun projects and finishing none of them.",
+      "safravi": "Safravi heat adds drive and a sharper edge. You move fast, compete hard and have little patience for sloppy work, which can make you a formidable engineer or business owner. Your temper may flare when someone interferes with your method; hard exercise and a deliberate pause before replying help.",
+      "balghami": "Balghami calm makes your steady nature steadier still. You're unshakeable in a crisis and patient with slow, intricate repairs. The flip side is inertia: decisions, social plans and hard conversations can sit untouched for months. Small public deadlines and one friend who checks your progress keep you moving.",
+      "saudavi": "Saudavi depth turns your sharp observation inward. You can become a true master of a craft, the specialist people cross the city to find. Unani tradition holds that this temperament benefits from warmth and company; without them, you may retreat too far into your own head. Schedule people time as seriously as work."
+    },
+    "letter": "Dear Karigar,\n\nThink about the last thing you fixed for someone. Maybe it was a laptop, a leaking tap, a cousin's CV, or a plan that was quietly falling apart. You probably never mentioned it again. That's how you are: you see what's broken, you deal with it, you move on.\n\nHere is what we want you to know. You are not only useful. You are worth knowing. The people around you would love a look inside the workshop of your mind: the dry jokes you kept to yourself, the worries you solved alone at 2am, the pride you felt and never said out loud.\n\nYou don't have to become talkative. Just let a few people a little further in. Say the one honest sentence. Send the 'I'm fine, just thinking' message before you disappear. Teach someone what your hands know.\n\nYour independence is a strength, and so is your calm. But even the best karigar needs someone to pass the right tool now and then. Let them.\n\n— Mizaj"
+  }
+}

@@ -1,0 +1,27 @@
+[project]
+name = "mizaj"
+version = "1.0.0"
+description = "Mizaj (mizaj.pk): personality, temperament and compatibility platform for Pakistan"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.29",
+  "httpx>=0.27",
+  "anthropic>=2.0",
+  "jinja2>=3.1",
+  "python-multipart>=0.0.9",
+  "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mizaj"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

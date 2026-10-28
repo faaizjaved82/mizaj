@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero"><div class="wrap narrow">
+  <span class="eyebrow">Mizaj Milan 💞</span>
+  <h1>How well do you <em>really</em> match?</h1>
+  <p class="lead">Rishta, spouse, sibling or best friend: both of you take the free test and Mizaj Milan shows where you click, where you'll clash, and exactly how to handle it.</p>
+  <div class="card stack" style="margin-top:24px" id="milan-start">
+    <div class="field"><label for="relation">They are my…</label>
+      <select id="relation"><option value="rishta">Rishta / fiancé(e)</option><option value="spouse">Spouse</option><option value="friend">Best friend</option><option value="sibling">Sibling</option><option value="colleague">Colleague</option></select></div>
+    <button class="btn btn-pom btn-block" data-milan-create>Create my invite link</button>
+    <p class="small muted hidden" data-milan-needtest>First, take the free personality test (8 min). We'll bring you right back here.</p>
+    <div class="hidden stack" data-milan-out>
+      <div class="copy"><span data-milan-link></span><button class="btn btn-sm" data-copy-from="[data-milan-link]">Copy</button></div>
+      <a class="btn btn-wa btn-block" data-milan-wa target="_blank" rel="noopener">Send on WhatsApp</a>
+    </div>
+  </div>
+  <div class="grid grid-3" style="margin-top:28px">
+    <div class="card"><h3>1. You take the test</h3><p class="muted small">8 minutes, free.</p></div>
+    <div class="card"><h3>2. Send them your link</h3><p class="muted small">On WhatsApp, in one tap.</p></div>
+    <div class="card"><h3>3. See your match</h3><p class="muted small">Score, strengths and friction points, free. Full report {{ products.couple.price|pkr }} for both.</p></div>
+  </div>
+  <p class="small muted" style="margin-top:20px">Mizaj Milan looks only at personality and temperament. We never consider caste, sect or family background, and no score decides a marriage: it starts a better conversation.</p>
+</div></section>
+{% endblock %}

@@ -1,0 +1,237 @@
+{
+  "key": "safravi",
+  "name": "Safravi",
+  "name_ur": "صفراوی",
+  "quality": "Garam-Khushk (warm & dry)",
+  "classical": "Choleric",
+  "humour": "Safra (yellow bile)",
+  "element": "Fire (Aag)",
+  "nickname": "The Flame",
+  "season": "Summer",
+  "colors": [
+    "#E8730C",
+    "#F9C74F"
+  ],
+  "emoji": "🔥",
+  "tagline": "Sharp mind, quick fire, and a to-do list that actually gets done.",
+  "share_line": "I spark fast, forgive fast, and finish first.",
+  "free": {
+    "summary": "In Unani tradition, Safravi is the mizaj of safra, yellow bile, the warm and dry humour linked with fire and summer. If you are Safravi, you move through life like a lit matchstick: bright, quick and purposeful. You are the one who submits the assignment two days early, books the family's Murree trip while everyone else is still debating, and spots the single typo in a 40-slide presentation.\n\nPeople admire your drive and sometimes fear your tongue. You have little patience for slow decisions, vague answers or rush-hour traffic. Your anger can flare in seconds, but it usually burns out just as fast, and you rarely carry it for long.\n\nPhysically, Unani texts picture the Safravi person as lean, active and warm, with a sharp appetite, quick digestion and a strong dislike of heat. Many Safravi people find they feel calmest and most focused with cool, moist foods, regular meals and enough sleep, especially through the long Pakistani summer.",
+    "traits": [
+      "Driven and decisive; you would rather make a call than sit in uncertainty.",
+      "A sharp, analytical mind that spots flaws, shortcuts and solutions quickly.",
+      "A direct speaker: you say what you think, sometimes before checking the tone.",
+      "A natural leader in a crunch, from exam week to organising a mehndi in three days.",
+      "A temper that flares fast and cools fast; long grudges are rarely your style.",
+      "Competitive and proud of your standards; 'good enough' rarely feels good enough."
+    ],
+    "body_signs": [
+      "Unani texts describe a lean, wiry or athletic build that doesn't gain weight easily.",
+      "Skin tends to feel warm and dry, and you may flush quickly in heat or anger.",
+      "Sharp hunger: skipping a meal can make you irritable fast, the classic 'hangry'.",
+      "Strong thirst, and chilli or oily food can bring on a burning 'garmi' feeling.",
+      "Lighter sleep than most; a busy mind can keep you awake past midnight.",
+      "Summer and direct sun drain you quickly, while cooler weather feels like relief."
+    ],
+    "quick_tip": "Never let yourself get too hungry. Keep a cooling snack close by, such as kheera, a few soaked almonds or a glass of lassi. Unani tradition suggests a Safravi temper rises fastest on an empty, overheated stomach."
+  },
+  "premium": {
+    "deep_dive": "In the Canon, Ibn Sina described safra as the sharpest and lightest of the four humours: hot, dry and quick to move. It was believed to give the body its digestive fire and the mind its edge. A Safravi person, in this picture, is someone in whom that fire burns a little brighter than average. It is a gift for getting things done, and it needs cooling to stay a gift.\n\nIn the body, Unani tradition associates this mizaj with a lean, firm frame, warm and dry skin, quick digestion and strong thirst. Heat is your weak point. Summer afternoons, chilli-heavy karahi, back-to-back chai and late nights are all traditionally believed to add fuel to an already strong fire. When the balance tips, many Safravi people notice irritability, a hot or burning feeling after meals, restless sleep and a very short fuse. The traditional response is cooling and moistening: water, fresh fruit, gourds, sensible amounts of dairy, and rest.\n\nIn the mind, the fire gives clarity and speed. You can see the end of a project before others have read the brief, and you are often the family member who handles the bank, the property papers or the hospital admission, because you will get it done. The risk is impatience. You may finish other people's sentences, skip the feelings part of a conversation, or treat a relaxed spouse as a problem to be solved.\n\nEmotionally, Safravi people are traditionally described as brave, ambitious and proud, with anger close to the surface but not deep beneath it. You rarely sulk; you erupt and move on, sometimes before the other person has recovered. Learning to pause, cool down and repair is your lifelong practice.\n\nAcross life stages, Unani tradition saw the prime years, roughly the twenties and thirties, as naturally warm and dry, so a young Safravi person may feel all fire: competitive, restless, impatient with elders. As the body is traditionally believed to cool with age, many Safravi people mellow in their forties and fifties into the calm, wise problem-solver of the family.\n\nAcross the seasons, summer is both your mirror and your challenge. The tradition linked safra with hot, dry weather, so May and June can feel brutal. Monsoon brings some relief, and winter is usually when you feel most balanced, clear-headed and kind. Living well as a Safravi means respecting your fire: using it for your work, and cooling it before it reaches your words.",
+    "foods_favour": [
+      {
+        "item": "Lauki (bottle gourd)",
+        "why": "Cool and moist by Unani reckoning; the classic gentle vegetable for a warm, dry mizaj."
+      },
+      {
+        "item": "Kheera and kakri",
+        "why": "Cooling and hydrating; a plate beside every summer meal is a simple Safravi habit."
+      },
+      {
+        "item": "Tarbooz (watermelon)",
+        "why": "Cool and moist; traditionally eaten between meals in summer to settle heat and thirst."
+      },
+      {
+        "item": "Dahi and raita",
+        "why": "Cool and moist; a bowl of raita beside spicy food softens its heat."
+      },
+      {
+        "item": "Milk, plain or with soaked almonds",
+        "why": "Traditionally considered cool and moist, calming for an overheated, restless system."
+      },
+      {
+        "item": "Aloo bukhara (plums)",
+        "why": "A classic Unani choice for calming safra; sweet-sour, cooling and refreshing."
+      },
+      {
+        "item": "Imli (tamarind)",
+        "why": "Classical texts name tamarind as a calmer of safra; enjoy it in sharbat or chutney."
+      },
+      {
+        "item": "Sweet anar (pomegranate)",
+        "why": "Cooling and moistening when sweet; traditionally used for heat and thirst."
+      },
+      {
+        "item": "Moong daal and khichri",
+        "why": "Light, cool-leaning and easy on digestion, ideal on hot or stressful days."
+      },
+      {
+        "item": "Tinda, tori and kaddu (pumpkin)",
+        "why": "Gourds are traditionally cool and moist, keeping meals light and soothing."
+      },
+      {
+        "item": "Kahu (lettuce) and kasni (chicory)",
+        "why": "Both traditionally cool; Unani texts value lettuce for calming a busy, heated mind."
+      },
+      {
+        "item": "Soaked, peeled almonds",
+        "why": "Soaking softens their warmth; tradition values them for moisture and a steadier mind."
+      },
+      {
+        "item": "Falsa in season",
+        "why": "Sour-sweet and cooling; falsa sharbat is a traditional answer to Pakistani summer heat."
+      },
+      {
+        "item": "Jau (barley) daliya or roti",
+        "why": "Cool by Unani reckoning and gentle, a good weekday swap for heavy parathas."
+      }
+    ],
+    "foods_limit": [
+      {
+        "item": "Lal mirch and heavy garam masala",
+        "why": "Strongly hot and dry; tradition sees them as fuel for an already blazing fire."
+      },
+      {
+        "item": "Karahi, tikka and spicy BBQ",
+        "why": "Chilli, oil and smoke together; enjoy occasionally with raita and salad, not every week."
+      },
+      {
+        "item": "Fried snacks like pakoras, samosas and chips",
+        "why": "Hot oil adds heat and dryness and can leave you irritable and thirsty."
+      },
+      {
+        "item": "Cup after cup of chai and coffee",
+        "why": "Both are traditionally hot and dry; five cups a day is a classic Safravi trap."
+      },
+      {
+        "item": "Achar and very salty snacks",
+        "why": "Pickles and salt add heat and dryness; a spoonful on the side is plenty."
+      },
+      {
+        "item": "Mangoes in excess",
+        "why": "Warm by tradition; one or two after a meal, not a summer-long mango marathon."
+      },
+      {
+        "item": "Garlic and ginger by the handful",
+        "why": "Strongly hot and dry; keep them as flavouring, not as the main event."
+      },
+      {
+        "item": "Honey in large amounts",
+        "why": "Unani rates honey hot and dry; a teaspoon is fine, spoonfuls are not."
+      },
+      {
+        "item": "Walnuts, pistachios and dry fruit in summer",
+        "why": "Warm and drying; save larger portions for the cooler winter months."
+      },
+      {
+        "item": "Energy drinks and fizzy colas",
+        "why": "Stimulating and dehydrating; they feed restlessness rather than cooling it."
+      }
+    ],
+    "drinks": [
+      "Lassi, sweet or salted: cool and moist, the classic summer calmer for Safravi",
+      "Imli-aloo bukhara sharbat: sour-sweet and traditionally used to settle safra",
+      "Sattu sharbat: cool and filling on long, hot afternoons",
+      "Tukh-e-malanga (basil seeds) in lemon water: traditionally cooling and hydrating",
+      "Sandal or gulab (rose) sharbat with less sugar: cooling and calming on summer evenings",
+      "Thandai with khashkhash and almonds: a traditional cooler that helps you unwind at night"
+    ],
+    "spices_herbs": [
+      "Dhania (coriander seeds and leaves): traditionally cool, a gentle everyday base",
+      "Saunf (fennel): chewed after meals, many people find it freshens and settles",
+      "Elaichi (green cardamom): fragrant and light, a calmer alternative to strong masala chai",
+      "Gulkand (rose petal preserve): a spoonful with milk is a traditional summer cooler",
+      "Fresh pudina in chutney or raita: refreshing beside spicy food, in small amounts",
+      "Khashkhash (poppy seeds) in thandai or korma: traditionally cool, moist and calming at night"
+    ],
+    "daily_routine": {
+      "morning": "Wake early and move before the heat builds: a walk, a swim or some stretching after Fajr. Don't charge into the day on chai alone. Have a cooling, steady breakfast such as a chapati with dahi, an egg, soaked almonds or daliya with milk. Before opening your inbox or the family WhatsApp group, take two minutes to plan the day calmly.",
+      "midday": "Eat lunch on time; a late lunch is when your temper peaks. Choose daal, sabzi, raita and salad over spicy takeaway. Step out of the sun, sip water steadily rather than gulping it all at once, and take a five-minute pause between back-to-back meetings or lectures.",
+      "evening": "Use the evening for something that cools rather than competes: a walk after Maghrib, time with family, or a hobby with no deadline. Keep dinner light and mildly spiced, ideally by 8 pm. Leave politics, office complaints and heated debates away from the dinner table.",
+      "sleep": "Your mind races at night, so build a wind-down. Switch off screens 30 to 45 minutes before bed, keep the room cool and dark, and try a glass of milk or thandai. Aim for seven to eight hours. Writing tomorrow's to-do list before bed stops it looping in your head."
+    },
+    "seasons": {
+      "summer": "Your toughest season. Tradition says safra peaks with the heat, so expect a shorter fuse and stronger thirst. Drink water, lassi and sattu through the day, eat gourds, kheera and tarbooz, and cut down on chilli, fried food and chai. Exercise only early morning or late evening, and keep a damp cloth or cool shower handy on load-shedding afternoons.",
+      "monsoon": "Rain brings relief, but humidity can leave digestion feeling unsettled. Eat freshly cooked, mildly spiced food and avoid street food that has been sitting out. Enjoy the weather with a walk or a chai on the balcony: one cup, not four.",
+      "winter": "Usually your happiest season: cool air balances your inner heat, and many Safravi people feel clearer and kinder now. This is the time to enjoy dry fruit, gajar, eggs and the occasional halwa. Keep drinking water, though, because heaters and dry air can leave your skin and lips extra dry.",
+      "spring": "Spring warms things up and brings shaadi season, which means late nights, rich food and family politics. Pace yourself between functions, choose raita and salad at buffets, and protect your sleep. Hold your opinions on the seating plan until you have eaten."
+    },
+    "movement": "You have natural energy and a competitive streak, so you'll enjoy sports with a score: badminton, squash, cricket, football or running. Balance them with cooling, calming movement such as swimming, gentle stretching or long evening walks. Unani tradition cautions a warm, dry mizaj against exhausting exercise in the heat, so skip midday workouts in summer. Stop before you are drained; for you, 'one more set' is often the one that leaves you irritable for the rest of the day.",
+    "emotional_balance": "Unani counts the emotions (harkat-o-sukoon-e-nafsani) among the six essential factors of health, and anger is the emotion tradition links most closely with safra. Your feelings move fast: you feel slighted, react, and are done in five minutes, while the other person is still hurting. Practise a pause: leave the room, drink a glass of water, make wudu, then come back to the conversation. Learn to say 'let me think about it' instead of delivering an instant verdict. Make time for activities you are not trying to win. If irritability, anxiety or sleeplessness persist for weeks, speak to a doctor or counsellor; that is strength, not weakness.",
+    "ramadan": "Fasting in the heat is hardest on a Safravi body, so plan sehri carefully. Eat slowly and include dahi, an egg, roti or daliya, kheera and two or three glasses of water spread out. Skip salty, spicy sehri food that leaves you thirsty by noon. At iftar, start with dates, water and lassi or sattu, then a light, mildly spiced meal. Expect a shorter temper before iftar, and save hard conversations for afterwards.",
+    "seven_day_menu": [
+      {
+        "day": 1,
+        "breakfast": "Daliya cooked in milk with a few soaked almonds",
+        "lunch": "Lauki chana daal, chapati and kheera raita",
+        "dinner": "Moong daal khichri with dahi",
+        "snack": "Tarbooz or a bowl of sweet anar"
+      },
+      {
+        "day": 2,
+        "breakfast": "Chapati with dahi, a boiled egg and kheera slices",
+        "lunch": "Mild chicken shorba with tinda and a chapati",
+        "dinner": "Mixed vegetable sabzi, chapati and salad",
+        "snack": "Falsa sharbat or a glass of lassi"
+      },
+      {
+        "day": 3,
+        "breakfast": "Mild vegetable omelette, one chapati and elaichi chai",
+        "lunch": "Tori ki sabzi, moong daal, a small portion of rice and raita",
+        "dinner": "Mildly spiced chicken pulao with raita and salad",
+        "snack": "Kheera and kakri with lemon and a pinch of salt"
+      },
+      {
+        "day": 4,
+        "breakfast": "Jau or wheat daliya with milk",
+        "lunch": "Kaddu sabzi with chapati and dahi",
+        "dinner": "Palak paneer, light on chilli, with chapati",
+        "snack": "Seasonal fruit chaat with very little chaat masala"
+      },
+      {
+        "day": 5,
+        "breakfast": "Wholewheat toast, a boiled egg and a glass of milk",
+        "lunch": "Mixed daal with rice and kachumber",
+        "dinner": "Mild chicken stew with vegetables and chapati",
+        "snack": "Sattu sharbat or coconut water"
+      },
+      {
+        "day": 6,
+        "breakfast": "Chapati with dahi and a little shakkar",
+        "lunch": "Lightly spiced lauki gosht with chapati",
+        "dinner": "Moong daal with kahu-kheera salad and chapati",
+        "snack": "Thandai or milk with a spoon of gulkand"
+      },
+      {
+        "day": 7,
+        "breakfast": "Weekend: one aloo paratha with plenty of dahi, no achar",
+        "lunch": "Family biryani: a modest plate with raita and salad",
+        "dinner": "Light chicken yakhni or moong khichri",
+        "snack": "Tarbooz in summer, kinnow in winter"
+      }
+    ],
+    "when_out_of_balance": [
+      "Snapping at family over small things, then feeling guilty an hour later.",
+      "Feeling hot, thirsty and restless even when everyone else is comfortable.",
+      "Lying awake replaying conversations or running tomorrow's to-do list.",
+      "A burning 'garmi' feeling after spicy or oily meals that seems to visit more often.",
+      "Impatience with everyone's pace: traffic, queues, colleagues, even your own family."
+    ],
+    "with_other_mizaj": {
+      "damvi": "A lively, warm match. Damvi's easy cheerfulness softens your intensity, and your focus helps them finish what they start. You share heat, though, so arguments can ignite quickly. Agree on a cooling-off rule, keep serious talks for after meals, and let them run the social calendar while you run the plan.",
+      "safravi": "Two Safravi spouses can build an empire or burn the kitchen down. You understand each other's ambition and pace, but nobody is naturally cooling the room. Take turns stepping back in arguments, divide responsibilities clearly so you are not competing, and schedule rest as seriously as you schedule work.",
+      "balghami": "Unani tradition sees this as a classic balance: their cool, moist calm settles your fire, and your energy lifts their pace. You may find them slow; they may find you exhausting. Respect the difference. Let them take time to decide, and let yourself be cooled by their patience rather than irritated by it.",
+      "saudavi": "You share dryness, so both of you can be precise, critical and serious. Their coolness tempers your heat, and their careful planning pairs well with your drive. The risk is a home that feels like an office. Make room for softness: compliments, shared meals and conversations that aren't about fixing anything."
+    }
+  },
+  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered hakeem."
+}

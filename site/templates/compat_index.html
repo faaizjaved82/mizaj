@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="section"><div class="wrap">
+  <span class="eyebrow">Type compatibility</span><h1>Which types match?</h1>
+  <p class="lead muted" style="max-width:640px">Pick any two types to see how they connect and where they clash. Want the real answer for the two of you? Try <a href="/milan/">Mizaj Milan</a>.</p>
+  <div class="scroll-x" style="margin-top:24px"><table class="t">
+    <tr><th></th>{% for c in type_codes %}<th>{{ c }}</th>{% endfor %}</tr>
+    {% for a in type_codes %}<tr><th>{{ a }}</th>{% for b in type_codes %}<td><a href="/compatibility/{{ pair_slug(a, b) }}/">{{ scores[pair_slug(a, b)] }}</a></td>{% endfor %}</tr>{% endfor %}
+  </table></div>
+</div></section>
+{% endblock %}

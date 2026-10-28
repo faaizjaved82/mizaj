@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="section"><div class="wrap narrow stack">
+  <span class="eyebrow">Contact</span><h1>Say salaam</h1>
+  <p class="lead muted">Questions about a payment, a report, a partnership or press? We reply within one working day.</p>
+  <div class="share-row">
+    {% if support_whatsapp %}<a class="btn btn-wa" href="https://wa.me/{{ support_whatsapp }}" target="_blank" rel="noopener">WhatsApp us</a>{% endif %}
+    <a class="btn btn-ghost" href="mailto:{{ support_email }}">{{ support_email }}</a>
+  </div>
+  {% with kind="contact", form_title="Or leave a message", org_label="Organisation (optional)", size_label="Topic", button="Send" %}{% include "lead_form.html" %}{% endwith %}
+  <div class="card"><h3>Creators and brands</h3><p class="muted">Make content about your type or mizaj? We pay creators for every report their code sells, and we partner with brands that fit our audience. Use the form and pick "Topic: creator" or "brand".</p></div>
+</div></section>
+{% endblock %}

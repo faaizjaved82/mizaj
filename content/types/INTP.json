@@ -1,0 +1,254 @@
+{
+  "code": "INTP",
+  "name": "Falsafi",
+  "name_ur": "فلسفی",
+  "name_en": "The Philosopher",
+  "family": "Danishwar",
+  "emoji": "🔭",
+  "colors": ["#4B3F72", "#7FD1B9"],
+  "tagline": "Your mind has forty tabs open, and every one is fascinating.",
+  "share_line": "I'm not procrastinating. I'm researching the problem from every possible angle.",
+  "keywords": ["Curious", "Analytical", "Inventive", "Open-minded", "Unconventional"],
+  "rarity": "about 3% of people",
+  "free": {
+    "summary": "'But why?' was probably your most-used phrase as a child, and you never really outgrew it. Your mind treats the world as an endless puzzle: why the traffic signals near your house seem timed by a random number generator, how cricket's rain rules actually work, whether free will is real, all before breakfast. You're driven by understanding for its own sake. A good idea genuinely thrills you, even when it has no practical use whatsoever.\n\nFrom outside, you can look absent. You're physically at the dholki but mentally redesigning the sound system, and when an aunty asks what you 'do', compressing it into one sentence feels impossible. People mistake your quietness for shyness and your detachment for not caring. Relatives may call you 'clever but lazy', when really you simply can't fake interest in what bores you. Those who get past it find a sharp, original and surprisingly funny mind, and a friend who will never judge them for asking a strange question at 2 a.m.",
+    "strengths": [
+      "Sees connections between ideas that nobody else thought to put together.",
+      "Explains complicated topics simply, once you've truly understood them yourself.",
+      "Stays objective in heated arguments where everyone else picks a side.",
+      "Learns new tools and subjects astonishingly fast when genuinely curious.",
+      "Accepts people's oddities without judgement, because you have plenty of your own."
+    ],
+    "watchouts": [
+      "Starts brilliant projects, then loses interest once the puzzle is solved.",
+      "Can forget practical basics: bills, replies, deadlines, sometimes even lunch.",
+      "May correct someone's facts when they actually needed comfort, not accuracy."
+    ],
+    "pakistani_archetype": "You're the one who was asked to fix the Wi-Fi at a mehndi, fell into reading router forums on your phone, and completely missed the dance.",
+    "in_relationships": "You fall for minds first. A spouse who can discuss a strange idea at midnight, give you space without sulking and laugh at your tangents is gold. You show love by letting someone into your inner world. The tricky part is remembering the outer world: anniversaries, replies and saying feelings aloud.",
+    "at_work": "You're at your best when handed a hard problem and left alone to crack it. You question rules that don't make sense, which innovative managers love and rigid ones don't. Routine paperwork drains you fast. Roles that pay for thinking, not just attendance, are where you quietly outshine everyone.",
+    "fictional_twins": [
+      "Sherlock Holmes (The Adventures of Sherlock Holmes)",
+      "L (Death Note)",
+      "Dexter (Dexter's Laboratory)",
+      "Bruce Banner (The Avengers)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Your inner world is a workshop that never closes. Everything that enters, a news headline, a relative's offhand comment, an exam question, gets taken apart to see how it works. You care less about what is true than why it's true, and whether it would survive if one assumption changed. You notice the inconsistent numbers in a news report, the loophole in the hostel rules, the plot hole in the drama everyone else is crying over. That's how you can spend an hour in the shower arguing with yourself and emerge with a theory that Pakistani traffic is really a coordination game nobody agreed to play.\n\nThe core motivation is understanding. Not marks, not status, not even being right in front of others, but the private click of finally getting something. The core fear is its mirror image: being wrong without knowing it, or being trapped somewhere that forbids questions. A teacher who said 'just memorise it' or an elder who said 'because I said so' could switch you off for an entire year. Rote learning felt like being made to carry sealed boxes without ever looking inside. Give you a real 'why', though, and you'll happily do the hardest work in the room. That's why the one teacher who let you argue may have changed your life.\n\nYou process slowly, then all at once. You'll hold a decision open for weeks, gathering one more perspective and testing one more angle, because closing it early feels intellectually dishonest. This drives practical people around you slightly mad. Your parents want to know which university you're choosing; you want to understand the entire philosophy of higher education first. It isn't laziness. Every answer simply opens three better questions, and you can't unsee them. Inside, it feels like a crowded courtroom where every argument deserves a hearing. When you finally commit, though, it's with a clarity nobody can shake.\n\nThe gap: inside, you're vivid, playful and often deeply moved, by a beautiful proof, a line of Ghalib, a kindness you'll never mention. Outside, you can seem flat, distracted or cold, especially at gatherings where the script calls for small talk and visible enthusiasm. Feelings reach you late and unlabelled; you might realise three days later that a comment hurt. People assume you don't care. In truth, you care in a language most people around you were never taught to read. Many Falsafis only discover how much they love someone when they try to describe that person to a stranger.",
+    "superpowers": [
+      {
+        "title": "Original Thinking",
+        "text": "You don't accept the standard answer just because it's standard. In a group project, you're the one who asks whether the whole approach is wrong, and sometimes it is. A Falsafi engineering student might notice the hostel's water problem is about pump timing, not tank size, and save the administration a fortune. Your ideas often sound odd at first and obvious a year later. That's the signature of genuinely original thinking."
+      },
+      {
+        "title": "Rapid Self-Learning",
+        "text": "When something hooks your curiosity, you absorb it at frightening speed. One summer you're learning Python; by Eid you've built a bot that posts cricket scores to the family group. You don't need a course or a certificate, just a reason to care and a quiet night. In a job market where yesterday's skills expire fast, that's a huge advantage, provided you find the angle that makes a subject interesting to you."
+      },
+      {
+        "title": "Fair-Minded Judgement",
+        "text": "When the family WhatsApp group erupts over politics or a property dispute, you're the one who can genuinely see both sides. You're more loyal to the truth than to any camp, which makes your voice rare and trusted. Friends bring you their conflicts knowing you'll be fair, even if that means telling them they're partly wrong. Amid strong opinions, your calm 'let's look at what actually happened' is a gift people remember."
+      },
+      {
+        "title": "Precision With Words",
+        "text": "You notice when 'always' should have been 'sometimes', and when a statistic is being stretched. That makes you an excellent editor, analyst and problem-definer. When a friend's startup pitch claimed a market of 'all 240 million Pakistanis', you asked how many could actually pay online, and the pitch became sharper and far more credible. Teachers who found your nitpicking annoying secretly relied on it. Precise language is precise thinking, and that's your home ground."
+      },
+      {
+        "title": "Troubleshooting Instinct",
+        "text": "Broken things call to you. The router, the misbehaving Excel sheet, the logic of a baffling government form: you quietly work out what's wrong while others are still complaining. You approach problems like a detective, eliminating possibilities one by one until only the real cause remains. In any office, the person who can say 'the issue is actually here' saves days of wasted effort, and that person is often you."
+      },
+      {
+        "title": "Quiet Acceptance",
+        "text": "You rarely judge people for being unusual, because you know what it's like to be the odd one at the table. The cousin who wants fine arts instead of medicine, the friend with niche obsessions, the colleague nobody quite understands: they find a safe harbour in you. You're curious about how people think, not whether they think 'correctly', and that quiet acceptance is a kindness people remember for years, often without telling you."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "The Unfinished Pile",
+        "text": "Your laptop holds a graveyard of half-built ideas: the app, the novel's first chapter, the YouTube channel with three videos. The thrill lives in figuring something out; once you can see how it ends, finishing feels like admin. Try this: before starting anything new, write one sentence defining 'done', and team up with someone who loves completion. A modest finished project teaches you more, and earns more trust, than a brilliant abandoned one."
+      },
+      {
+        "title": "Analysis Paralysis",
+        "text": "Choosing between NUST and FAST, or between two job offers, can stretch into months of spreadsheets, forum threads and 'just one more' comparison video. You fear making a choice that turns out logically wrong. Meanwhile deadlines pass and the choice gets made for you. Try this: decide what information would actually change your answer, gather only that, and set a decision date. Most choices are reversible; lost time never is."
+      },
+      {
+        "title": "The Disappearing Act",
+        "text": "When you're absorbed in something, the world vanishes, including messages, meals and people. Friends feel ignored and family assumes you're upset. You're not; you're simply elsewhere. Your attention is a single deep beam, not a floodlight. Try this: set one daily window to answer messages, a phone reminder to check in on people you love, and the habit of saying 'I'm deep in something, I'll call you at eight' instead of silently going dark."
+      },
+      {
+        "title": "The 'Well, Actually' Reflex",
+        "text": "When an uncle forwards a dubious message in the family group, you reply with three sources and a correction. You're right, but now he's embarrassed in front of forty relatives and digs in harder. Accuracy feels like respect to you; to others, public correction feels like humiliation. Try this: correct privately, ask a curious question instead ('Where did this come from?'), and let small inaccuracies go. Win the relationship, not the footnote."
+      },
+      {
+        "title": "Neglecting Life Admin",
+        "text": "Bills, CNIC renewals, university fee challans, replying to that recruiter: these feel so dull that you postpone them until they become emergencies. It isn't irresponsibility; your mind simply doesn't rank them as interesting, so they never reach the top of the queue. Try this: batch all admin into one weekly 'boring hour' with chai and music, and lean hard on reminders. Life admin is the rent you pay for freedom to think."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "The spouse for you is curious, independent and comfortable with long, companionable quiet. Intellectual chemistry matters more to you than grand romance; a three-hour conversation about whether aliens would understand Urdu poetry is your idea of a perfect evening.\n\nYou show love through attention rather than ceremony: remembering the obscure thing they mentioned months ago, untangling their work problem, sending an article you know they'll love. You're loyal, unjealous and refreshingly free of mind games.\n\nFriction comes from the practical and emotional sides. Your spouse may feel they carry all the household logistics, or that they never know what you're feeling. Make a deal: you fully own a few specific chores, and you check in emotionally once a day, even if it's just 'today was good because of you'.",
+      "rishta_tips": [
+        "Ask what they do when they're bored. You need someone with their own interests, not constant entertainment.",
+        "Mention early that you recharge alone; frame it as how you work, not as avoidance.",
+        "Give it three conversations before deciding. First meetings underrate you, and nervous small talk underrates them.",
+        "Notice whether they tease your interests or ask about them. Curiosity about your world is a green flag.",
+        "Discuss who handles bills, paperwork and family functions. Practical mismatches will strain you more than personality ones."
+      ],
+      "family": "Parents often see you as clever but frustrating: the child who could do anything 'if only you applied yourself'. You may have questioned family customs, rules or career expectations, not to rebel, but because you genuinely needed to understand them. Joint-family life tests you less through noise than through questions like 'what are you always doing on that laptop?' You survive with a corner, headphones and a door that half-closes. Elders may read your silence at dinner as sulking; a one-line explanation saves them a lot of worry. Younger siblings know you as the one who explains maths homework, fixes everyone's phones and keeps every secret without being asked twice.",
+      "friendship": "You don't need many friends, but you need the right ones: people who can follow a tangent, enjoy a ridiculous hypothetical and let you vanish for a week without drama. Your friendships often grow from a shared obsession, like a gaming server, a university society or a book series. You're deeply loyal, but you show it through help and conversation rather than birthday plans. Initiate sometimes; not everyone knows your silence is affectionate.",
+      "best_matches": ["ENTJ", "ENFJ", "INFJ"],
+      "growth_matches": ["ESFJ", "ESTJ"]
+    },
+    "career": {
+      "work_style": "You work in bursts. A dull task can take three days; an interesting one swallows an all-nighter you didn't notice happening. You prefer to understand the whole system before touching any part, so you look slow at the start of a project and astonishingly fast at the end. You question instructions that seem illogical, which can sound like resistance; actually, it's how you commit. You need room to experiment and deadlines that are real rather than arbitrary. Micromanagement, rote procedures and meetings with no decisions kill your motivation. Give you autonomy and a genuinely interesting problem, and you'll produce work nobody else could.",
+      "ideal_environment": "Flexible hours, quiet space and a culture where questions are welcomed rather than treated as insubordination. Research labs, tech teams, universities and remote setups suit you. You want colleagues smart enough to argue with and a manager who explains the 'why'. Dress codes and forced cheerfulness matter far less to you than intellectual freedom and the chance to work on something genuinely new.",
+      "careers": [
+        {
+          "title": "Research Scientist or Academic",
+          "why": "Getting paid to ask questions nobody has answered yet is the dream. Research rewards depth, patience and originality over self-promotion.",
+          "pk_path": "BS from QAU, PIEAS or LUMS; MS and PhD through HEC scholarships at home or abroad; then university faculty or research centres."
+        },
+        {
+          "title": "Backend Engineer (remote)",
+          "why": "Debugging complex systems is puzzle-solving with a salary, and remote teams judge you by your code, not your charisma in meetings.",
+          "pk_path": "BS CS from FAST, NUST or ITU, or self-taught; contribute to open-source projects; apply to remote roles with foreign startups."
+        },
+        {
+          "title": "Government Research Scientist",
+          "why": "National research bodies offer stable careers on genuinely hard problems in physics, materials and space, with less office politics than most companies.",
+          "pk_path": "Clear the PIEAS entry test for physics or engineering; then join PAEC, SUPARCO or PCSIR through their recruitment drives."
+        },
+        {
+          "title": "Research Economist",
+          "why": "Economics is a giant puzzle of human behaviour and incentives. Modelling inflation or policy impact lets you test theories against messy reality.",
+          "pk_path": "BSc Economics from LUMS, IBA or PIDE; MPhil at PIDE; research roles at the State Bank, think tanks or development organisations."
+        },
+        {
+          "title": "Data Analyst or Quant Researcher",
+          "why": "Finding the hidden pattern in a mountain of numbers gives you the click you crave, and sharp analysts are scarce everywhere.",
+          "pk_path": "Maths, Statistics or Physics degree; learn Python and SQL; start at a bank, telco or fintech, or take remote analytics contracts."
+        },
+        {
+          "title": "UX Researcher",
+          "why": "You get to investigate why people behave the way they do with apps, then turn that understanding into better design.",
+          "pk_path": "Psychology, CS or design degree; free courses plus a case-study portfolio; join product teams in Lahore or Karachi, or work remotely."
+        },
+        {
+          "title": "Actuary",
+          "why": "Pricing risk with mathematics is quietly fascinating, very well paid and refreshingly free of office theatre. Rare skill, steady demand.",
+          "pk_path": "Maths or actuarial science degree; pass SOA or IFoA exams from Pakistan; join insurers locally or in the Gulf."
+        },
+        {
+          "title": "Security Researcher (freelance)",
+          "why": "Finding the hole in a system before a hacker does is the ultimate puzzle, and bug-bounty work is remote and purely merit-based.",
+          "pk_path": "CS degree or self-taught; practise on legal hacking labs and CTF competitions; earn through bug-bounty platforms and remote security contracts."
+        },
+        {
+          "title": "Science Explainer Creator",
+          "why": "Turning complex ideas into clear Urdu or English videos uses your gift for explanation, and Pakistan's appetite for smart content keeps growing.",
+          "pk_path": "Start a YouTube channel or newsletter on one niche; earn through ads and sponsorships, then grow it into an online course business."
+        },
+        {
+          "title": "Speculative Fiction Writer",
+          "why": "Building strange, internally consistent worlds is pure Falsafi joy, and fiction lets you explore big philosophical questions through plot and character.",
+          "pk_path": "Write daily; publish short stories online and enter literary competitions; fund it through freelance editing or ghostwriting for foreign clients."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Field Sales with Daily Targets",
+          "why": "Constant cold-calling and quota pressure reward persistence over insight. Many Falsafis find it draining unless they move into sales analytics."
+        },
+        {
+          "title": "Retail Store Management",
+          "why": "Juggling staff rotas, customer complaints and stock counts all day leaves little room for the deep thinking you need."
+        },
+        {
+          "title": "Strict Clerical Roles",
+          "why": "Repetitive procedures with no room to question or improve them can leave a curious mind restless and badly under-used."
+        }
+      ],
+      "as_a_leader": "You lead through ideas rather than authority. You give people freedom, welcome disagreement and want the best argument to win, even when it isn't yours. Talented, independent people love working for you; others may want more structure, praise and clear instructions than you naturally give. Your growth edge: set firm deadlines, follow up consistently, and recognise effort in front of the team.",
+      "as_a_team_member": "You're the one who asks the question that saves the project: 'Wait, have we checked whether customers even want this?' You contribute deep analysis, creative fixes and unflappable focus when things break. You struggle with status updates, pointless meetings and tasks nobody can justify. Tell your team how you work best, and agree on check-in points so your quiet focus isn't mistaken for disappearing.",
+      "money_style": "Money interests you as a system more than a status symbol. You might research Shariah-compliant funds, gold and dollar savings for weeks, then forget to actually invest. You spend freely on books, gadgets, courses and hobbies while barely noticing clothes or cars. BC committees make mathematical sense, but the social chasing annoys you. Your risk is idle savings and missed bills, so automate everything you can."
+    },
+    "communication": {
+      "how_they_talk": "You talk in qualifications: 'technically', 'it depends', 'well, actually'. You'd rather be precise than persuasive. In a group, you may stay quiet until a topic grabs you, then talk for twenty minutes straight. You love hypotheticals and dry jokes that half the room misses. Small talk feels like a test you never studied for. On WhatsApp, you might answer Tuesday's message on Friday, with a link to a research paper.",
+      "how_to_talk_to_them": [
+        "Ask for their opinion on an idea; they open up far more over concepts than small talk.",
+        "Don't read silence as anger. Ask directly, and you'll usually get the honest truth.",
+        "For big decisions, give them time and written details rather than demanding an answer on the spot.",
+        "If you need emotional support, say so plainly, or they may start troubleshooting instead."
+      ],
+      "conflict_style": "You avoid conflict until it becomes a logical problem, then you engage fully, sometimes too fully. You'll dissect an argument point by point while the other person is still hurt, which feels cold to them. You rarely hold grudges, but you may withdraw for days to process. Better: name the feeling you noticed ('you seem upset'), then discuss facts, and close the loop instead of letting it fade into silence."
+    },
+    "stress": {
+      "triggers": [
+        "Being forced to memorise or obey without any explanation",
+        "Emotional confrontations that demand an instant response",
+        "Back-to-back social obligations with no time alone",
+        "Being called lazy for the way you think and work"
+      ],
+      "signs": [
+        "Unexpected emotional outbursts that surprise even you",
+        "Feeling unappreciated and reading rejection into small comments",
+        "Lying awake while your mind loops on one problem",
+        "Disappearing into games, reels or forums for hours"
+      ],
+      "reset": [
+        "Spend an afternoon alone with a book, puzzle or curiosity project",
+        "Take a slow walk without your phone and let your mind wander",
+        "Write the problem out as if explaining it to a smart friend",
+        "Tell one person you trust, 'I'm overwhelmed', and let them help"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Finish one small thing",
+        "why": "Completing something, however small, builds confidence that your ideas can survive contact with reality. This week is about the quiet satisfaction of 'done' rather than the thrill of 'started', a feeling worth getting used to.",
+        "actions": [
+          "Pick one half-finished project and define 'done' in a single written sentence.",
+          "Give it twenty-five focused minutes daily, with your phone in another room.",
+          "Each evening, tick off one boring practical task you've postponed for weeks."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Show up for people",
+        "why": "Relationships, like any system, need regular input to keep running. This week you'll practise small, deliberate gestures of attention, so the people who love you can actually see that you care.",
+        "actions": [
+          "Reply to every pending message from family or friends, even with a short voice note.",
+          "Ask one person daily about their life, and remember the answer tomorrow.",
+          "Sit through one family meal fully present, phone face-down, sharing at least one story."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Decide without perfect data",
+        "why": "Waiting for complete information is a hidden decision to let time choose for you. This week trains you to act on good-enough evidence, then adjust as you learn, like any decent experiment.",
+        "actions": [
+          "Make one pending decision this week using a fixed deadline and a three-point checklist.",
+          "When you catch yourself researching endlessly, ask: what would actually change my answer?",
+          "Log each decision and its result, and notice how rarely 'wrong' is catastrophic."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Name your feelings early",
+        "why": "Emotions arrive for you late and blurred, which makes them harder to handle and easier to dismiss. Naming them early, even roughly, gives you more control, not less, and helps others understand you.",
+        "actions": [
+          "Twice a day, label your mood in one word in your notes app.",
+          "Describe to someone you trust how a recent moment made you feel, in plain words.",
+          "Before reacting in a tense moment, take three breaths and ask what you're actually feeling."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "Damvi's airy warmth, as the old physicians described it, makes your curiosity more social. You enjoy chewing over ideas with friends at a chai dhaba and may anchor a niche mehfil: the book club, the coding group. Watch that cheerful scattering doesn't multiply your unfinished projects; choose one idea per season and protect it.",
+      "safravi": "When the Safravi temperament, traditionally linked to fire, meets a Falsafi mind, ideas come with urgency. You're more likely than most of your type to actually build what you imagine, and to defend your theories with heat. The risk is impatience with slower minds. Let the fire fuel focus, not frustration, and cool down before hitting send.",
+      "balghami": "Balghami calm, in the Unani picture of a cool and steady nature, makes you an even gentler Falsafi. You're easy company, rarely flustered and wonderfully patient with hard problems. The challenge is inertia: thinking can quietly replace doing. A study partner, an external deadline or a public commitment turns that gentle depth into finished work.",
+      "saudavi": "Add the Saudavi temperament, traditionally cool, dry and earthy, and your reflective side deepens dramatically. You may be the most philosophical person you know, drawn to big questions of meaning, faith and existence. Guard against gloomy loops. Tradition recommends sunlight, movement and lighter-hearted company, and many people find it helps."
+    },
+    "letter": "Dear Falsafi,\n\nSomewhere along the way, someone probably told you to stop asking so many questions. A teacher, a relative, maybe the exam system itself. We hope you didn't listen too closely.\n\nYour curiosity is not a distraction from real life. It's how you love the world. You take things apart because you want to understand them, and understanding is a form of respect. The way you can sit with a hard problem for days, the way your face lights up when something finally clicks: that is rare, and it is yours.\n\nWe know the half-finished projects weigh on you. We know you sometimes feel you're watching life through glass, unsure what you're supposed to feel. That's okay. Your feelings arrive late; they still arrive, and they're still real.\n\nFinish one small thing this month. Tell one person they matter. Let your mind wander, but come home for dinner.\n\nThe world has enough people who memorised the answers. It needs more who asked why.\n\n— Mizaj"
+  }
+}

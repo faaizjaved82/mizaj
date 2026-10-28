@@ -1,0 +1,369 @@
+{
+  "id": "personality",
+  "version": 1,
+  "scale": [
+    {
+      "value": 1,
+      "en": "Strongly disagree",
+      "ur": "بالکل غیر متفق"
+    },
+    {
+      "value": 2,
+      "en": "Disagree",
+      "ur": "غیر متفق"
+    },
+    {
+      "value": 3,
+      "en": "Not sure",
+      "ur": "یقین نہیں"
+    },
+    {
+      "value": 4,
+      "en": "Agree",
+      "ur": "متفق"
+    },
+    {
+      "value": 5,
+      "en": "Strongly agree",
+      "ur": "بالکل متفق"
+    }
+  ],
+  "items": [
+    {
+      "id": "p01",
+      "dim": "EI",
+      "key": 1,
+      "en": "At a family wedding, I end up talking to people I've never met before.",
+      "ur": "خاندانی شادی میں اکثر میری ایسے لوگوں سے بھی گپ شپ ہو جاتی ہے جن سے پہلے کبھی ملاقات نہیں ہوئی۔"
+    },
+    {
+      "id": "p02",
+      "dim": "SN",
+      "key": -1,
+      "en": "I often find myself lost in \"what if\" ideas.",
+      "ur": "\"اگر ایسا ہو جائے تو؟\" والے خیالوں میں کھو جانا میرے ساتھ اکثر ہوتا ہے۔"
+    },
+    {
+      "id": "p03",
+      "dim": "TF",
+      "key": 1,
+      "en": "When a friend asks for advice, I start by laying out the facts and the options.",
+      "ur": "جب کوئی دوست مشورہ مانگے تو میری شروعات حقائق اور ممکنہ راستے سامنے رکھنے سے ہوتی ہے۔"
+    },
+    {
+      "id": "p04",
+      "dim": "JP",
+      "key": -1,
+      "en": "Some of my best days are the ones with no plan at all.",
+      "ur": "میرے کچھ بہترین دن وہ ہوتے ہیں جن کا کوئی پروگرام طے نہیں ہوتا۔"
+    },
+    {
+      "id": "p05",
+      "dim": "EI",
+      "key": -1,
+      "en": "I'd rather enjoy a quiet cup of chai on my own than join a crowded gathering.",
+      "ur": "بھری محفل میں جانے کے بجائے اکیلے بیٹھ کر سکون سے چائے پینا مجھے زیادہ اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p06",
+      "dim": "SN",
+      "key": 1,
+      "en": "I'd rather follow a recipe exactly than improvise.",
+      "ur": "کھانا پکاتے وقت اپنی طرف سے تجربے کرنے کے بجائے ترکیب پر ٹھیک ٹھیک عمل کرنا مجھے بہتر لگتا ہے۔"
+    },
+    {
+      "id": "p07",
+      "dim": "TF",
+      "key": 1,
+      "en": "I prefer feedback that is straight and to the point, even if it stings a bit.",
+      "ur": "مجھے ایسی رائے پسند ہے جو سیدھی اور دو ٹوک ہو، چاہے تھوڑی چبھے ہی کیوں نہ۔"
+    },
+    {
+      "id": "p08",
+      "dim": "JP",
+      "key": 1,
+      "en": "I like to pack my bag a few days before a trip.",
+      "ur": "سفر سے کچھ دن پہلے ہی سامان باندھ لینا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p09",
+      "dim": "EI",
+      "key": -1,
+      "en": "After a busy day around people, I need some time alone to feel like myself again.",
+      "ur": "لوگوں کے بیچ مصروف دن گزارنے کے بعد، پھر سے اپنے آپ میں آنے کے لیے مجھے کچھ وقت اکیلے چاہیے ہوتا ہے۔"
+    },
+    {
+      "id": "p10",
+      "dim": "SN",
+      "key": 1,
+      "en": "I trust what I have seen and tried myself more than a clever theory.",
+      "ur": "کسی دلچسپ نظریے سے زیادہ مجھے اس بات پر بھروسا ہوتا ہے جو خود دیکھی اور آزمائی ہو۔"
+    },
+    {
+      "id": "p11",
+      "dim": "TF",
+      "key": -1,
+      "en": "When making a decision, I think first about how it will affect the people involved.",
+      "ur": "کوئی فیصلہ کرتے وقت میرا پہلا خیال یہ ہوتا ہے کہ اس کا اثر متعلقہ لوگوں پر کیا پڑے گا۔"
+    },
+    {
+      "id": "p12",
+      "dim": "JP",
+      "key": -1,
+      "en": "I like to keep my options open rather than decide too early.",
+      "ur": "جلدی فیصلہ کرنے کے بجائے سارے راستے کھلے رکھنا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p13",
+      "dim": "EI",
+      "key": 1,
+      "en": "After a long week, meeting up with friends is what recharges me.",
+      "ur": "ایک لمبے ہفتے کے بعد دوستوں سے مل بیٹھنا ہی مجھے دوبارہ تازہ دم کرتا ہے۔"
+    },
+    {
+      "id": "p14",
+      "dim": "SN",
+      "key": -1,
+      "en": "When I watch a drama or read a story, I enjoy finding the hidden meaning more than following what happens.",
+      "ur": "ڈراما دیکھتے یا کہانی پڑھتے ہوئے، مجھے واقعات سے زیادہ اس کا چھپا ہوا مطلب ڈھونڈنے میں مزہ آتا ہے۔"
+    },
+    {
+      "id": "p15",
+      "dim": "TF",
+      "key": -1,
+      "en": "In a family disagreement, I pay more attention to people's feelings than to the facts of the matter.",
+      "ur": "خاندانی اختلاف میں میرا دھیان معاملے کے حقائق سے زیادہ لوگوں کے جذبات پر ہوتا ہے۔"
+    },
+    {
+      "id": "p16",
+      "dim": "JP",
+      "key": 1,
+      "en": "I feel at ease once a decision is made and settled.",
+      "ur": "جب کوئی فیصلہ ہو جائے اور بات طے ہو جائے تو مجھے سکون ملتا ہے۔"
+    },
+    {
+      "id": "p17",
+      "dim": "EI",
+      "key": -1,
+      "en": "I like to think things through quietly before I share my opinion.",
+      "ur": "اپنی رائے دینے سے پہلے خاموشی سے سوچ لینا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p18",
+      "dim": "SN",
+      "key": 1,
+      "en": "When giving directions, I use exact landmarks, like \"the green gate after the petrol pump\".",
+      "ur": "راستہ سمجھاتے ہوئے میرا انداز پکی نشانیوں والا ہوتا ہے، جیسے \"پیٹرول پمپ کے بعد والا ہرا گیٹ\"۔"
+    },
+    {
+      "id": "p19",
+      "dim": "TF",
+      "key": 1,
+      "en": "When choosing a degree or a job, I lean towards the option that makes the most logical sense.",
+      "ur": "ڈگری یا نوکری چنتے وقت میرا جھکاؤ اس راستے کی طرف ہوتا ہے جو منطقی طور پر سب سے زیادہ درست لگے۔"
+    },
+    {
+      "id": "p20",
+      "dim": "JP",
+      "key": 1,
+      "en": "I keep a to-do list, on paper or on my phone, and enjoy ticking things off.",
+      "ur": "کاغذ پر ہو یا فون میں، کاموں کی فہرست بنانا اور ایک ایک کام پر نشان لگانا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p21",
+      "dim": "EI",
+      "key": 1,
+      "en": "I think best when I talk my ideas through out loud with someone.",
+      "ur": "کسی کے ساتھ بول کر بات کرنے سے میرے خیالات سب سے زیادہ صاف ہوتے ہیں۔"
+    },
+    {
+      "id": "p22",
+      "dim": "SN",
+      "key": -1,
+      "en": "I like finding new ways to do routine tasks, even when the old way works fine.",
+      "ur": "روزمرہ کے کام نئے طریقوں سے کرنا مجھے اچھا لگتا ہے، چاہے پرانا طریقہ ٹھیک ہی چل رہا ہو۔"
+    },
+    {
+      "id": "p23",
+      "dim": "TF",
+      "key": -1,
+      "en": "When choosing between options, how I feel about each one carries a lot of weight.",
+      "ur": "مختلف راستوں میں سے چنتے وقت، ہر ایک کے بارے میں میرے دل کی آواز کا بہت وزن ہوتا ہے۔"
+    },
+    {
+      "id": "p24",
+      "dim": "JP",
+      "key": -1,
+      "en": "A last-minute plan for chai at a dhaba with friends sounds great to me.",
+      "ur": "دوستوں کے ساتھ اچانک بننے والا ڈھابے پر چائے کا پروگرام مجھے بہت اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p25",
+      "dim": "EI",
+      "key": 1,
+      "en": "I enjoy being right in the middle of a lively family gathering.",
+      "ur": "خاندان کی رونق بھری محفل کے عین بیچ میں رہنا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p26",
+      "dim": "SN",
+      "key": -1,
+      "en": "Over chai, I enjoy talking about big ideas, like what cities or technology will look like in the future.",
+      "ur": "چائے پر بڑے موضوعات پر بات کرنا مجھے بہت اچھا لگتا ہے، جیسے مستقبل میں شہر یا ٹیکنالوجی کیسی ہو گی۔"
+    },
+    {
+      "id": "p27",
+      "dim": "TF",
+      "key": 1,
+      "en": "I enjoy a good debate, even with people I'm close to.",
+      "ur": "اپنے قریبی لوگوں کے ساتھ بھی کسی اچھی بحث میں مجھے مزہ آتا ہے۔"
+    },
+    {
+      "id": "p28",
+      "dim": "JP",
+      "key": -1,
+      "en": "I often do my best work in a burst of energy close to a deadline.",
+      "ur": "میرا بہترین کام اکثر ڈیڈ لائن کے قریب جوش کی ایک لہر میں ہوتا ہے۔"
+    },
+    {
+      "id": "p29",
+      "dim": "EI",
+      "key": -1,
+      "en": "I prefer a long talk with one or two close friends to meeting a big group.",
+      "ur": "بڑے گروپ میں ملنے کے بجائے ایک دو قریبی دوستوں کے ساتھ لمبی بات چیت مجھے زیادہ پسند ہے۔"
+    },
+    {
+      "id": "p30",
+      "dim": "SN",
+      "key": 1,
+      "en": "In class, I like lessons with real-life examples more than big theories.",
+      "ur": "کلاس میں بڑے بڑے نظریات کے بجائے روزمرہ زندگی کی مثالوں والے سبق مجھے زیادہ اچھے لگتے ہیں۔"
+    },
+    {
+      "id": "p31",
+      "dim": "TF",
+      "key": -1,
+      "en": "When a friend shares a problem, I first want them to feel heard, and then we look for fixes.",
+      "ur": "جب کوئی دوست اپنی پریشانی بتائے تو حل ڈھونڈنے سے پہلے میری کوشش ہوتی ہے کہ اسے محسوس ہو کہ اس کی بات سنی جا رہی ہے۔"
+    },
+    {
+      "id": "p32",
+      "dim": "JP",
+      "key": 1,
+      "en": "For a shaadi or a big event, I like having my outfit ready well before the day.",
+      "ur": "کسی شادی یا بڑی تقریب کے لیے اپنا جوڑا کافی پہلے سے تیار رکھنا مجھے پسند ہے۔"
+    },
+    {
+      "id": "p33",
+      "dim": "EI",
+      "key": 1,
+      "en": "On a long bus or train journey, I like chatting with the person next to me.",
+      "ur": "لمبے بس یا ٹرین کے سفر میں ساتھ بیٹھے مسافر سے باتیں کرنا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p34",
+      "dim": "SN",
+      "key": -1,
+      "en": "I often see links between things that others think have nothing in common.",
+      "ur": "مجھے اکثر ان چیزوں میں بھی تعلق نظر آ جاتا ہے جن میں دوسروں کو کوئی مشترک بات نہیں لگتی۔"
+    },
+    {
+      "id": "p35",
+      "dim": "TF",
+      "key": -1,
+      "en": "I like feedback that comes with warmth and encouragement.",
+      "ur": "مجھے ایسی رائے اچھی لگتی ہے جو نرمی اور حوصلہ افزائی کے ساتھ دی جائے۔"
+    },
+    {
+      "id": "p36",
+      "dim": "JP",
+      "key": -1,
+      "en": "I'm happy to change plans halfway if something more interesting comes up.",
+      "ur": "اگر کوئی زیادہ دلچسپ موقع سامنے آ جائے تو بیچ راستے میں پروگرام بدل لینا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p37",
+      "dim": "EI",
+      "key": -1,
+      "en": "In the family WhatsApp group, I mostly read along rather than post.",
+      "ur": "خاندانی واٹس ایپ گروپ میں میرا زیادہ کام پڑھنا ہوتا ہے، لکھنا کم۔"
+    },
+    {
+      "id": "p38",
+      "dim": "SN",
+      "key": 1,
+      "en": "I tend to notice small changes around me, like a new shop on my street or a moved sofa at home.",
+      "ur": "آس پاس کی چھوٹی تبدیلیاں، جیسے گلی میں کھلی نئی دکان یا گھر میں جگہ بدلا ہوا صوفہ، مجھے فوراً نظر آ جاتی ہیں۔"
+    },
+    {
+      "id": "p39",
+      "dim": "TF",
+      "key": 1,
+      "en": "When solving a problem, I prefer to set feelings aside and look at it logically.",
+      "ur": "کوئی مسئلہ حل کرتے وقت جذبات کو ایک طرف رکھ کر منطق سے دیکھنا مجھے بہتر لگتا ہے۔"
+    },
+    {
+      "id": "p40",
+      "dim": "JP",
+      "key": -1,
+      "en": "On a road trip, I love stopping at places we spot along the way.",
+      "ur": "روڈ ٹرپ پر راستے میں اچانک نظر آنے والی جگہوں پر رک جانا مجھے بہت مزہ دیتا ہے۔"
+    },
+    {
+      "id": "p41",
+      "dim": "EI",
+      "key": -1,
+      "en": "A free weekend at home with a good book, drama or hobby sounds perfect to me.",
+      "ur": "گھر پر کسی اچھی کتاب، ڈرامے یا مشغلے کے ساتھ فارغ ویک اینڈ مجھے بہترین لگتا ہے۔"
+    },
+    {
+      "id": "p42",
+      "dim": "SN",
+      "key": 1,
+      "en": "I'd rather focus on what is happening now than imagine what might happen years from now.",
+      "ur": "برسوں بعد کیا ہو سکتا ہے، یہ سوچنے کے بجائے مجھے ابھی جو ہو رہا ہے اس پر دھیان دینا زیادہ پسند ہے۔"
+    },
+    {
+      "id": "p43",
+      "dim": "TF",
+      "key": -1,
+      "en": "When deciding what is fair, people's personal circumstances weigh heavily with me.",
+      "ur": "کیا انصاف ہے، یہ طے کرتے وقت لوگوں کے ذاتی حالات کا مجھ پر گہرا اثر ہوتا ہے۔"
+    },
+    {
+      "id": "p44",
+      "dim": "JP",
+      "key": 1,
+      "en": "I like to get tasks done early so they are off my mind.",
+      "ur": "کام جلدی نمٹا کر ذہن سے اتار دینا مجھے اچھا لگتا ہے۔"
+    },
+    {
+      "id": "p45",
+      "dim": "EI",
+      "key": 1,
+      "en": "In a new class or office, I'm usually the one who starts conversations.",
+      "ur": "نئی کلاس یا نئے دفتر میں بات چیت کی پہل عموماً میری طرف سے ہوتی ہے۔"
+    },
+    {
+      "id": "p46",
+      "dim": "SN",
+      "key": -1,
+      "en": "I often sense where things are heading before all the facts are in, and I go with that feeling.",
+      "ur": "پوری معلومات آنے سے پہلے ہی مجھے اکثر اندازہ ہو جاتا ہے کہ بات کس طرف جا رہی ہے، اور اسی احساس پر چلنا مجھے ٹھیک لگتا ہے۔"
+    },
+    {
+      "id": "p47",
+      "dim": "TF",
+      "key": 1,
+      "en": "A clear, strong argument convinces me more than a touching story.",
+      "ur": "دل کو چھو لینے والی کہانی سے زیادہ مجھے ایک صاف اور مضبوط دلیل قائل کرتی ہے۔"
+    },
+    {
+      "id": "p48",
+      "dim": "JP",
+      "key": 1,
+      "en": "I like weekends that have a clear plan.",
+      "ur": "مجھے ایسے ویک اینڈ اچھے لگتے ہیں جن کا پروگرام پہلے سے طے ہو۔"
+    }
+  ]
+}

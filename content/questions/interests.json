@@ -1,0 +1,193 @@
+{
+  "id": "interests",
+  "version": 1,
+  "scale": [
+    {
+      "value": 1,
+      "en": "Not for me",
+      "ur": "میرا شوق نہیں"
+    },
+    {
+      "value": 2,
+      "en": "Maybe",
+      "ur": "شاید"
+    },
+    {
+      "value": 3,
+      "en": "I'd enjoy this",
+      "ur": "اس میں مجھے مزہ آئے گا"
+    }
+  ],
+  "codes": {
+    "R": {
+      "en": "Realistic (Doer)",
+      "ur": "عملی (ہنرمند)"
+    },
+    "I": {
+      "en": "Investigative (Thinker)",
+      "ur": "تحقیقی (کھوجی)"
+    },
+    "A": {
+      "en": "Artistic (Creator)",
+      "ur": "فنکارانہ (تخلیق کار)"
+    },
+    "S": {
+      "en": "Social (Helper)",
+      "ur": "سماجی (مددگار)"
+    },
+    "E": {
+      "en": "Enterprising (Persuader)",
+      "ur": "کاروباری (رہنما)"
+    },
+    "C": {
+      "en": "Conventional (Organizer)",
+      "ur": "منظم (ترتیب کار)"
+    }
+  },
+  "items": [
+    {
+      "id": "c01",
+      "code": "R",
+      "en": "Repairing a phone, bike or appliance",
+      "ur": "موبائل، بائیک یا گھر کی کسی مشین کی مرمت کرنا"
+    },
+    {
+      "id": "c02",
+      "code": "I",
+      "en": "Doing a science experiment to test your own idea",
+      "ur": "اپنے کسی خیال کو پرکھنے کے لیے سائنسی تجربہ کرنا"
+    },
+    {
+      "id": "c03",
+      "code": "A",
+      "en": "Designing posters, logos or social media graphics",
+      "ur": "پوسٹر، لوگو یا سوشل میڈیا گرافکس ڈیزائن کرنا"
+    },
+    {
+      "id": "c04",
+      "code": "S",
+      "en": "Helping a younger cousin understand a tough lesson",
+      "ur": "کسی چھوٹے کزن کو مشکل سبق سمجھانا"
+    },
+    {
+      "id": "c05",
+      "code": "E",
+      "en": "Starting a small online business, like selling clothes or snacks",
+      "ur": "چھوٹا آن لائن کاروبار شروع کرنا، جیسے کپڑے یا کھانے پینے کی چیزیں بیچنا"
+    },
+    {
+      "id": "c06",
+      "code": "C",
+      "en": "Keeping the money record for a class trip in a spreadsheet",
+      "ur": "کلاس ٹرپ کے پیسوں کا حساب اسپریڈ شیٹ میں رکھنا"
+    },
+    {
+      "id": "c07",
+      "code": "S",
+      "en": "Volunteering at a blood donation drive or a flood-relief camp",
+      "ur": "خون کے عطیات کے کیمپ یا سیلاب زدگان کے امدادی کیمپ میں رضاکارانہ کام کرنا"
+    },
+    {
+      "id": "c08",
+      "code": "E",
+      "en": "Leading a team in a university competition or group project",
+      "ur": "یونیورسٹی کے کسی مقابلے یا گروپ پروجیکٹ میں ٹیم کی قیادت کرنا"
+    },
+    {
+      "id": "c09",
+      "code": "C",
+      "en": "Sorting files, notes or photos into neat folders",
+      "ur": "فائلوں، نوٹس یا تصویروں کو صاف ستھرے فولڈرز میں ترتیب دینا"
+    },
+    {
+      "id": "c10",
+      "code": "R",
+      "en": "Wiring a small solar panel or UPS at home",
+      "ur": "گھر میں چھوٹے سولر پینل یا یو پی ایس کی وائرنگ کرنا"
+    },
+    {
+      "id": "c11",
+      "code": "I",
+      "en": "Solving tricky maths or logic puzzles",
+      "ur": "مشکل ریاضی یا منطق کی پہیلیاں حل کرنا"
+    },
+    {
+      "id": "c12",
+      "code": "A",
+      "en": "Writing stories, poetry or scripts",
+      "ur": "کہانیاں، شاعری یا اسکرپٹ لکھنا"
+    },
+    {
+      "id": "c13",
+      "code": "R",
+      "en": "Growing vegetables or plants on the roof or in a garden",
+      "ur": "چھت یا کیاری میں سبزیاں یا پودے اگانا"
+    },
+    {
+      "id": "c14",
+      "code": "I",
+      "en": "Reading about how the human body, space or the climate works",
+      "ur": "انسانی جسم، خلا یا موسمی نظام کے کام کرنے کے طریقے کے بارے میں پڑھنا"
+    },
+    {
+      "id": "c15",
+      "code": "A",
+      "en": "Filming and editing short videos",
+      "ur": "مختصر ویڈیوز بنانا اور ایڈٹ کرنا"
+    },
+    {
+      "id": "c16",
+      "code": "S",
+      "en": "Listening to a friend's worries and helping them feel better",
+      "ur": "کسی دوست کی پریشانی سننا اور اس کا دل ہلکا کرنے میں مدد کرنا"
+    },
+    {
+      "id": "c17",
+      "code": "E",
+      "en": "Convincing a local business to sponsor your college event",
+      "ur": "کسی مقامی کاروبار کو اپنی کالج کی تقریب اسپانسر کرنے پر قائل کرنا"
+    },
+    {
+      "id": "c18",
+      "code": "C",
+      "en": "Checking an admission form line by line for mistakes before it is sent",
+      "ur": "داخلہ فارم بھیجنے سے پہلے اس کی ایک ایک سطر غلطیوں کے لیے جانچنا"
+    },
+    {
+      "id": "c19",
+      "code": "S",
+      "en": "Teaching elders in the family how to use a smartphone",
+      "ur": "خاندان کے بزرگوں کو اسمارٹ فون استعمال کرنا سکھانا"
+    },
+    {
+      "id": "c20",
+      "code": "E",
+      "en": "Running for class representative or society president",
+      "ur": "کلاس نمائندے یا کسی سوسائٹی کے صدر کا الیکشن لڑنا"
+    },
+    {
+      "id": "c21",
+      "code": "C",
+      "en": "Making a timetable for exams or a family event",
+      "ur": "امتحانات یا کسی خاندانی تقریب کا ٹائم ٹیبل بنانا"
+    },
+    {
+      "id": "c22",
+      "code": "R",
+      "en": "Building something from wood or metal with real tools",
+      "ur": "اصلی اوزاروں سے لکڑی یا دھات کی کوئی چیز بنانا"
+    },
+    {
+      "id": "c23",
+      "code": "I",
+      "en": "Digging into match stats to work out why a cricket team keeps losing",
+      "ur": "میچوں کے اعداد و شمار کھنگال کر یہ معلوم کرنا کہ کوئی کرکٹ ٹیم بار بار کیوں ہار رہی ہے"
+    },
+    {
+      "id": "c24",
+      "code": "A",
+      "en": "Decorating a stage for a mehndi or a college event",
+      "ur": "مہندی یا کالج کی کسی تقریب کے لیے اسٹیج سجانا"
+    }
+  ]
+}

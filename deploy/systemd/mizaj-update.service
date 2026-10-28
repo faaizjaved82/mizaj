@@ -1,0 +1,11 @@
+[Unit]
+Description=Mizaj auto-deploy from GitHub
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/mizaj/app
+EnvironmentFile=/opt/mizaj/.env
+Environment=PYTHONPATH=/opt/mizaj/app/server
+Environment=MIZAJ_ENV_FILE=/opt/mizaj/.env
+ExecStart=/opt/mizaj/app/deploy/update.sh

@@ -1,0 +1,4041 @@
+{
+  "pinned": [
+    "d01-a-start-here",
+    "d01-b-the-16-types",
+    "d01-c-the-4-mizaj"
+  ],
+  "bios": {
+    "instagram": "16 types. 4 mizaj. One very relatable you. Personality + Unani temperament, made for Pakistani life. Free 8-min test: mizaj.pk",
+    "tiktok": "Your type + your mizaj, desi edition. Free test: mizaj.pk",
+    "facebook": "Mizaj joins the oldest personality system in our culture, the four Unani temperaments described by Ibn Sina, with modern type psychology. Find your type and your mizaj, made for Pakistani life. Free test, 8 minutes, English or Urdu: mizaj.pk",
+    "youtube": "Shorts about the 16 Mizaj types and the 4 Unani temperaments, set in Pakistani life: shaadis, chai, family and careers. New Shorts every week. Free test: mizaj.pk"
+  },
+  "posts": [
+    {
+      "id": "d01-a-start-here",
+      "day": 1,
+      "time": "18:30",
+      "pillar": "brand",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Start here: what Mizaj is and what we post",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Start here: what is Mizaj?",
+          "subtitle": "Two old ideas, one free test, endless 'that's so me'."
+        },
+        {
+          "kind": "text",
+          "title": "Your type: how you think",
+          "text": "The 16 Mizaj types describe how you get energy, take in the world, make decisions and organise life. Mansooba-saaz, Shayar, Mezbaan, Jaanbaz: one of them is you, and you'll know it instantly."
+        },
+        {
+          "kind": "text",
+          "title": "Your mizaj: how you run",
+          "text": "The four Unani temperaments, Damvi, Safravi, Balghami and Saudavi, describe your natural warmth, energy, appetite and mood. Ibn Sina wrote about them a thousand years ago. Your Nani has used them forever."
+        },
+        {
+          "kind": "list",
+          "title": "What we post here",
+          "items": [
+            "Each type at shaadis, dholkis and family dinners",
+            "Garam vs thanda mizaj, food and winter habits",
+            "Which types click as spouses and best friends",
+            "Stream and career help for students and parents"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "A mirror, not a label",
+          "text": "Mizaj is for self-reflection, not diagnosis or destiny. You're more than four letters and a temperament. But they do explain why you plan the trip and your cousin just shows up."
+        },
+        {
+          "kind": "cta",
+          "title": "Take the free test first",
+          "subtitle": "48 questions, 8 minutes, English or Urdu. Start at mizaj.pk"
+        }
+      ],
+      "caption": "You've been called 'garam mizaj' your whole life. Time to find out if it's true.\n\nMizaj brings together two ways of understanding yourself: the 16 Mizaj types (how you think, decide and recharge) and the four Unani temperaments (your natural warmth, energy and mood). Expect shaadi carousels, chai debates, career help for students and a lot of 'yaar, this is literally me'.\n\nFollow along, then tell us: are you here for your type or your mizaj?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Your type + your mizaj, finally in our language. Start here. #mizaj #mizajpk #personalitytest #pakistan #desi #fyp",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#personalitytest",
+        "#personalitytypes",
+        "#selfdiscovery",
+        "#unani",
+        "#pakistan",
+        "#desi",
+        "#karachi",
+        "#lahore"
+      ],
+      "audio_hint": "warm, hopeful acoustic guitar or rubab instrumental, no vocals, building gently",
+      "reel_hook": "16 types. 4 mizaj. One of them is you."
+    },
+    {
+      "id": "d01-b-the-16-types",
+      "day": 1,
+      "time": "20:30",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Meet the 16 Mizaj types (one line each)",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Meet the 16 Mizaj types",
+          "subtitle": "Four families, sixteen types. Swipe till you find yourself."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "The Strategist. Already knows how this ends, and has quietly prepared for all three versions."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "The Philosopher. Asked 'but why?' at age four and genuinely never stopped."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "The Commander. Walks into chaos, hands everyone a job, and somehow it all works."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "The Quick Wit. Will argue the other side just to see if your idea survives."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "The Mystic. Quiet in the room, but already knows how everyone in it is feeling."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "The Poet. Feels everything at full volume, writes it all down, shows nobody."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "The Mentor. Remembers your result day and calls the night before to steady you."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "The Free Spirit. Started nine hobbies this year and loved every single one of them."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "The Trustee. If they said they'd be there at 4, they were there at 3:50."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "The Protector. Remembers your exam timetable, your allergies and your childhood cat's name."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "The Organizer. Turns 'dekhte hain' into a list, a deadline and a person in charge."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "The Host. Nobody leaves their home hungry, unnoticed, or without leftovers packed in foil."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "The Craftsman. Says ten words a day and fixes eleven things."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "The Artist. Notices the light, the colours and the mood, then quietly makes everything prettier."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "The Daredevil. Bargains, drives, decides, and asks what the plan was afterwards."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "The Life of the Party. The mehfil officially starts when they walk in."
+        },
+        {
+          "kind": "cta",
+          "title": "Which one are you, really?",
+          "subtitle": "Find your type in 8 minutes, free, at mizaj.pk"
+        }
+      ],
+      "caption": "Sixteen types. One of them is you, and you'll know it instantly.\n\nMeet the 16 Mizaj types in four families: Danishwar (the thinkers), Ahl-e-Dil (the heart-led), Pasban (the guardians) and Fankar (the makers). Every type has its own name, its own strengths and its own very specific way of surviving a family dinner.\n\nSave this, swipe till you find yourself, then tag the cousin who is obviously the Mezbaan.\n\nWhich slide made you say 'bas, yeh main hoon'?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Swipe till you find yourself. Which one are you? #mizaj #mizajpk #personalitytypes #16types #pakistan #desi #fyp",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#personalitytypes",
+        "#16types",
+        "#personalitytest",
+        "#introvert",
+        "#extrovert",
+        "#pakistan",
+        "#desi",
+        "#pakistani"
+      ],
+      "audio_hint": "upbeat 'this is me' reveal sound with a beat drop on each swipe",
+      "reel_hook": "Sixteen types. You're one of them. Swipe."
+    },
+    {
+      "id": "d01-c-the-4-mizaj",
+      "day": 1,
+      "time": "22:00",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Meet the 4 mizaj (Unani temperaments)",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "The 4 mizaj: which one runs you?",
+          "subtitle": "A thousand-year-old idea from Unani tradition, still painfully accurate."
+        },
+        {
+          "kind": "text",
+          "title": "Mizaj means temperament",
+          "text": "Unani tradition, shaped by Ibn Sina's Canon of Medicine, describes four temperaments: warm or cool, moist or dry. Your mizaj is believed to colour your energy, appetite, sleep and mood."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "The Breeze. Garam-tar, warm and moist. Sociable, generous, quick to laugh and quicker to forgive. Starts every project with fireworks, finishes some of them."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "The Flame. Garam-khushk, warm and dry. Sharp, driven and decisive. Says exactly what they think, and gets dangerously hangry if lunch is late."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "The River. Sard-tar, cool and moist. Calm, patient and loyal, the steady one in every family storm. Hates being rushed, loves a long winter nap."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "The Earth. Sard-khushk, cool and dry. Thoughtful, detailed and deeply loyal. Remembers what you said last year, and overthinks it at 2 am."
+        },
+        {
+          "kind": "cta",
+          "title": "Garam or thanda? Find out free",
+          "subtitle": "24 questions, 4 minutes: take the Asli Mizaj quiz at mizaj.pk"
+        }
+      ],
+      "caption": "Garam mizaj, thanda mizaj... turns out your Ammi was onto something.\n\nA thousand years ago, Ibn Sina described four temperaments in his Canon of Medicine, and Unani tradition still uses them: Damvi (the Breeze), Safravi (the Flame), Balghami (the River) and Saudavi (the Earth). Your mizaj is traditionally believed to shape your energy, appetite, sleep and mood.\n\nTraditional wellness wisdom, not medical advice.\n\nWhich one sounds like you? Comment it, then see if the quiz agrees.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Damvi, Safravi, Balghami or Saudavi? Your Nani already knows. #mizaj #mizajpk #garammizaj #unani #pakistan #desi",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#unani",
+        "#temperament",
+        "#garammizaj",
+        "#selfdiscovery",
+        "#pakistan",
+        "#desi",
+        "#lahore",
+        "#islamabad"
+      ],
+      "audio_hint": "calm instrumental with a soft dhol build, four beats for four mizaj",
+      "reel_hook": "Garam mizaj or thanda mizaj? There are actually four."
+    },
+    {
+      "id": "d02-a-garam-vs-thanda",
+      "day": 2,
+      "time": "13:00",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Garam vs thanda mizaj, explained",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Garam mizaj vs thanda mizaj, explained",
+          "subtitle": "It's not about whether you shout. Okay, it's a bit about that."
+        },
+        {
+          "kind": "text",
+          "title": "Two scales, not one",
+          "text": "Unani tradition reads temperament on two scales: garam or sard (warm or cool) and tar or khushk (moist or dry). Combine them and you get four mizaj. 'Garam mizaj' in the family sense is only half the story."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Garam-tar. Warm energy wrapped in softness. Your gussa is a matchstick in the rain: it flares for a second, then you're offering everyone chai."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Garam-khushk. The original 'garam mizaj'. Quick heat, sharp words, cools fast. Tradition suggests keeping a cooling snack close so hunger never lights the fuse."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Sard-tar. The thandi chhaon of the family. Slow to anger, slow to rush, and the reason every family argument eventually calms down."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Sard-khushk. Cool outside, a thousand thoughts inside. Feels everything, shows little. Many find warm, regular meals help them feel steadier."
+        },
+        {
+          "kind": "list",
+          "title": "Quick self-check, for fun",
+          "items": [
+            "Kick off the razai at night? Leaning garam.",
+            "Need a heater by October? Leaning sard.",
+            "Lips and skin dry all winter? Leaning khushk.",
+            "Heavy and sleepy on damp days? Leaning tar."
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Stop guessing your mizaj",
+          "subtitle": "Take the free 4-minute Asli Mizaj quiz at mizaj.pk"
+        }
+      ],
+      "caption": "'Iska mizaj bohat garam hai.' Okay, but which kind of garam?\n\nIn Unani tradition, temperament runs on two scales: garam or sard (warm or cool) and tar or khushk (moist or dry). Put them together and you get four mizaj, and suddenly a lot of family behaviour makes sense.\n\nTraditional wellness wisdom, not medical advice.\n\nTry the quick self-check on the last slide. Are you garam or thanda?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Garam mizaj is only half the story. Which one are you? #mizaj #mizajpk #garammizaj #unani #desi #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#garammizaj",
+        "#unani",
+        "#temperament",
+        "#desifamily",
+        "#pakistan",
+        "#desi",
+        "#karachi",
+        "#pakistani"
+      ],
+      "audio_hint": "dramatic 'plot twist' sting followed by a light comedic beat",
+      "reel_hook": "Garam mizaj? Thanda mizaj? Your Ammi only knew half."
+    },
+    {
+      "id": "d02-b-each-type-at-a-shaadi",
+      "day": 2,
+      "time": "20:30",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type at a shaadi",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type at a shaadi",
+          "subtitle": "Shaadi season is here. Find yourself, your siblings and that one chacha."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Arrives two hours 'late' because they correctly calculated when the baraat would actually show up."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Finds the one other quiet cousin and spends the entire night discussing time travel."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Was a guest for ten minutes. Now running the stage photo queue in a clipboard voice."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Gives every relative who asks 'aaj kal kya kar rahe ho?' a different, increasingly creative answer."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Can tell from across the hall which cousin needs a quiet moment, and goes to sit with them."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Tears up at the rukhsati of someone they have met exactly twice."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Gives a mehndi speech so heartfelt that both families are wiping their eyes."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Made four new best friends at table 12 and swapped numbers with all of them."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Brought the lifafa, amount decided a week ago, name spelled correctly on the front."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Has safety pins, tissues, a phone charger and mints in their bag. Everyone ends up borrowing."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Reminds the photographer that the full family photo was scheduled for 9:15 sharp."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Greets 300 guests by name and remembers whose kid just passed their board exams."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Ends up holding the sound system together with a hairclip and zero explanation."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Takes the best photo of the whole night on their phone, from a corner, no flash."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Volunteers to drive the decorated car and finds a shortcut nobody knew existed."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Starts the 'one more song' chant at 11:58 pm. Wins."
+        },
+        {
+          "kind": "cta",
+          "title": "Which guest are you this season?",
+          "subtitle": "Find your type free in 8 minutes at mizaj.pk"
+        }
+      ],
+      "caption": "Shaadi season is here, and every type has a role whether they signed up or not.\n\nFrom the cousin who arrives two hours 'late' on purpose to the one holding the sound system together with a hairclip, every khandan has all 16. Swipe through and find yourself, your siblings and that one chacha who runs the photo queue.\n\nTag your shaadi squad and assign everyone a slide.\n\nWhich one are you at the next function?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Every khandan has all 16 at the shaadi. Tag your squad. #mizaj #shaadiseason #desishaadi #pakistaniwedding #personalitytypes",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#shaadiseason",
+        "#desishaadi",
+        "#pakistaniwedding",
+        "#personalitytypes",
+        "#intj",
+        "#esfp",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "trending shaadi dholki beat or upbeat wedding song instrumental",
+      "reel_hook": "Every family has these 16 people at a shaadi."
+    },
+    {
+      "id": "d03-a-comment-your-type-family-role",
+      "day": 3,
+      "time": "21:00",
+      "pillar": "engage",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Comment your type: your family role",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Comment your type. We'll tell your family role.",
+          "subtitle": "Find yourself below, then tell us in the comments."
+        },
+        {
+          "kind": "list",
+          "title": "Danishwar (Thinkers)",
+          "items": [
+            "Mansooba-saaz: the family's long-term planner, unpaid",
+            "Falsafi: answers every 'but why?' the kids ask",
+            "Sipah-salar: runs every family event like a mission",
+            "Hazir-jawab: wins every family argument, even unfair ones"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Ahl-e-Dil (Heart-led)",
+          "items": [
+            "Darvesh: the cousin everyone confides in",
+            "Shayar: writes the poem on every wedding card",
+            "Ustaad: tutors every younger cousin, free of charge",
+            "Rangeela: plans the trip nobody planned to take"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Pasban (Guardians)",
+          "items": [
+            "Amanatdar: keeper of documents and family secrets",
+            "Muhafiz: first-aid box, packed lunches, a shoulder to lean on",
+            "Muntazim: holds the family budget and the car keys",
+            "Mezbaan: the reason the dawats keep happening"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Fankar (Makers)",
+          "items": [
+            "Karigar: fixes the geyser, the car and the TV",
+            "Musawwir: decorates every function, takes no credit",
+            "Jaanbaz: drives everyone everywhere, slightly too fast",
+            "Mehfil ki Jaan: the reason anyone stays past ten"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Comment your type, we'll reply",
+          "subtitle": "Don't know it yet? Take the free 8-minute test at mizaj.pk"
+        }
+      ],
+      "caption": "Every family has the same cast. Which one are you?\n\nWe've matched all 16 Mizaj types to their role in the khandan, from the keeper of documents to the reason anyone stays past ten. Find yourself in the four families on the slides.\n\nComment your type below and we'll reply with your official family title. Don't know your type yet? It takes 8 minutes.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Comment your type and we'll tell you your family role. #mizaj #mizajpk #commentyourtype #desifamily #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#commentyourtype",
+        "#desifamily",
+        "#personalitytypes",
+        "#16types",
+        "#pakistan",
+        "#desi",
+        "#lahore",
+        "#pakistani"
+      ],
+      "audio_hint": "playful 'roll call' sound or classroom-attendance style trend",
+      "reel_hook": "Comment your type. We'll tell you your family role."
+    },
+    {
+      "id": "d04-a-stream-choice-by-type",
+      "day": 4,
+      "time": "13:00",
+      "pillar": "career",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Matric/FSc stream choice by type family",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Matric done. Which stream fits your type?",
+          "subtitle": "Pre-medical, pre-engineering, ICS, commerce or arts: let personality help."
+        },
+        {
+          "kind": "text",
+          "title": "Start with you, not the cousin",
+          "text": "The most common reason students pick a stream: a cousin did it. The second: Ammi said so. Your interests and personality deserve a vote too, because these are two years of your life."
+        },
+        {
+          "kind": "list",
+          "title": "Danishwar (Thinkers) often enjoy",
+          "items": [
+            "ICS or pre-engineering: logic, systems, problem-solving",
+            "Pre-medical, if research and diagnosis excite them",
+            "A-levels with maths and economics for flexibility"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Ahl-e-Dil (Heart-led) often enjoy",
+          "items": [
+            "Humanities: psychology, literature, sociology",
+            "Pre-medical, when it's about caring for people",
+            "Arts and design, if creativity keeps calling"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Pasban (Guardians) often enjoy",
+          "items": [
+            "I.Com: accounting, banking and business",
+            "Pre-medical: a structured path with clear milestones",
+            "Pre-engineering: civil, structural and systems work"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Fankar (Makers) often enjoy",
+          "items": [
+            "Pre-engineering with hands-on labs and projects",
+            "ICS for builders, gamers and tinkerers",
+            "Arts, design or a technical diploma"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Choose with data, not drama",
+          "subtitle": "Free personality test and Career Compass at mizaj.pk"
+        }
+      ],
+      "caption": "Choosing a stream for FSc, ICS, I.Com or A-levels? Read this before the family meeting.\n\nPre-medical because your cousin did it? Pre-engineering because Abbu said so? Your personality deserves a vote too. Here's how each type family tends to feel in each stream: a starting point for a calmer conversation at home, not a final verdict.\n\nParents, this one is for you too. Save it and share it with a student choosing soon.\n\nWhich stream did you pick, and would you pick it again?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Pre-med because your cousin did? Read this first. #mizaj #mizajpk #matric #fsc #careercounselling #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#matric",
+        "#fsc",
+        "#careercounselling",
+        "#studentsofpakistan",
+        "#personalitytypes",
+        "#pakistan",
+        "#karachi",
+        "#lahore"
+      ],
+      "audio_hint": "calm motivational piano, study-vlog style",
+      "reel_hook": "Picked your stream because your cousin did? Watch this."
+    },
+    {
+      "id": "d04-b-each-type-chai-order",
+      "day": 4,
+      "time": "20:30",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type's chai order",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type's chai order",
+          "subtitle": "Tell us your chai and we'll tell you your type."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Doodh patti, same mug, same time. Changing their chai is like changing their password."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Makes chai, starts reading, finds it cold an hour later, drinks it anyway."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Orders 'chai for everyone' before anyone is asked. It's a decision, not a question."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Orders kashmiri chai with adrak 'as an experiment' and defends it for an hour."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Brings you exactly the chai you were craving before you said a word."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Picks the mug first, the chai second. The mug must have a story."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Makes chai for the whole house at 11 pm because someone 'seemed low'."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Has a new 'best chai in the city' every week. Previous winners are forgotten."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "One and a half sugar. Not one. Not two. One and a half."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Remembers your chai order from three years ago and still makes it exactly right."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Has a chai schedule: 7 am, 11 am, 4 pm. Extra cups require approval."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Never drinks their own chai because they're busy refilling everyone else's."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Makes chai on a camping stove they rebuilt themselves. Tastes better, somehow."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Chai must come in a clay kulhar. The cup is half the experience."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Drinks scalding dhaba chai standing up, in one go, then asks for another."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Turns one cup of chai into a three-hour mehfil with cousins and stories."
+        },
+        {
+          "kind": "cta",
+          "title": "Your chai order says a lot",
+          "subtitle": "Your type says the rest. Free test at mizaj.pk"
+        }
+      ],
+      "caption": "Tell us your chai order and we'll tell you your type. Honestly, it's that obvious.\n\nOne and a half sugar, measured. Kashmiri chai with adrak, 'as an experiment'. A cup that went cold an hour ago and is being drunk anyway. Sixteen types, sixteen very different cups.\n\nSend this to whoever makes the chai at your house, and say shukriya while you're at it.\n\nWhat's your exact chai order? Be specific.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Your chai order is your personality. Which one are you? #mizaj #chai #chailover #personalitytypes #pakistan #desi",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#chai",
+        "#chailover",
+        "#doodhpatti",
+        "#personalitytypes",
+        "#infp",
+        "#istj",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "cosy lo-fi beat with a kettle-whistle sound effect at the start",
+      "reel_hook": "Your chai order is basically your personality test."
+    },
+    {
+      "id": "d05-a-which-types-match",
+      "day": 5,
+      "time": "21:00",
+      "pillar": "milan",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Which types match: the Mizaj milan chart",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Which types match? The Mizaj milan chart",
+          "subtitle": "For rishtas, spouses and best friends. Save it for later."
+        },
+        {
+          "kind": "list",
+          "title": "Danishwar (Thinkers) click with",
+          "items": [
+            "Mansooba-saaz + Rangeela: the plan finally gets some fun",
+            "Falsafi + Sipah-salar: ideas meet someone who ships them",
+            "Hazir-jawab + Darvesh: endless chai-table conversations, zero boredom"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Ahl-e-Dil (Heart-led) click with",
+          "items": [
+            "Darvesh + Mansooba-saaz: depth meets direction",
+            "Shayar + Ustaad: one feels it, one says it",
+            "Ustaad + Musawwir: the mentor and the quiet artist"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Pasban (Guardians) click with",
+          "items": [
+            "Amanatdar + Muntazim: the house runs like a clock",
+            "Muhafiz + Mehfil ki Jaan: care meets celebration",
+            "Mezbaan + Musawwir: hosting with taste and heart"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Fankar (Makers) click with",
+          "items": [
+            "Karigar + Muntazim: one plans it, one builds it",
+            "Jaanbaz + Muhafiz: the daredevil finally packs a jacket",
+            "Mehfil ki Jaan + Amanatdar: the fun and the folder"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "Any two types can work",
+          "text": "These pairs click easily because their strengths fill each other's gaps. Every other pair can work beautifully too, with understanding. No chart decides a marriage; it just starts a better conversation."
+        },
+        {
+          "kind": "cta",
+          "title": "Check your match with someone",
+          "subtitle": "Both take the free test. Mizaj Milan shows where you click: mizaj.pk"
+        }
+      ],
+      "caption": "Rishta, spouse or best friend: some types just click.\n\nHere's the Mizaj milan chart, family by family. These pairs fill each other's gaps naturally. That doesn't mean other pairs can't work; it means these ones need fewer explanations at the dinner table.\n\nNo chart decides a marriage. It just starts a better conversation.\n\nFind your pair, then send this to your spouse, your rishta or your best friend. Did you make the list?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Which types click? Save this before the next family meeting. #mizaj #mizajmilan #rishta #compatibility #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#mizajmilan",
+        "#rishta",
+        "#compatibility",
+        "#personalitytypes",
+        "#shaadiseason",
+        "#pakistan",
+        "#desi",
+        "#islamabad"
+      ],
+      "audio_hint": "soft romantic-free instrumental: warm strings, gentle and wholesome",
+      "reel_hook": "Some types just click. Is your pair here?"
+    },
+    {
+      "id": "d06-a-winter-foods-per-mizaj",
+      "day": 6,
+      "time": "13:00",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Winter foods per mizaj",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Winter foods for your mizaj",
+          "subtitle": "Gajar halwa for everyone? Unani tradition has thoughts."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Winter is often your best season. Enjoy gajar, shalgam and saag, but go easy on nihari breakfasts and halwa by the plateful. Keep walking on foggy mornings."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Your happiest season. Tradition says the cold balances your fire, so enjoy dry fruit, eggs, gajar and the occasional halwa. Keep sipping water; heaters dry you out."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Your toughest season. Lean into warming food: saag with bajra or makki roti, yakhni, adrak chai, gur with til and a little dry fruit. Skip the chilled drinks."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Cold, dry winds hit you hardest. Choose warm and moist: yakhni, eggs, a little desi ghee, and anjeer and munaqqa soaked overnight."
+        },
+        {
+          "kind": "text",
+          "title": "A small note",
+          "text": "This is traditional Unani wellness wisdom, not medical advice. It's about what many people find helps them feel balanced. For any health concern, please see a qualified doctor or hakeem."
+        },
+        {
+          "kind": "cta",
+          "title": "Know your mizaj before the halwa",
+          "subtitle": "Free 4-minute quiz at mizaj.pk, then plan your winter plate"
+        }
+      ],
+      "caption": "Gajar halwa season is here. Your mizaj has notes.\n\nUnani tradition suggests eating with the season and with your temperament. Winter is often the happiest season for warm mizaj and the trickiest for cool ones. Here's what tradition suggests for each, from saag and yakhni to soaked anjeer.\n\nTraditional wellness wisdom, not medical advice. For any health concern, see a qualified doctor or hakeem.\n\nWhat's the one winter food you'd never give up?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Saag, yakhni or gajar halwa? What your mizaj says about winter food. #mizaj #winterfood #desikhana #unani #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#winterfood",
+        "#desikhana",
+        "#gajarkahalwa",
+        "#unani",
+        "#garammizaj",
+        "#sardi",
+        "#pakistan",
+        "#lahore",
+        "#karachi"
+      ],
+      "audio_hint": "cosy winter cooking sound: sizzling tarka ASMR into a soft beat",
+      "reel_hook": "Gajar halwa isn't for every mizaj. Sorry."
+    },
+    {
+      "id": "d06-b-each-type-at-a-dholki",
+      "day": 6,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type at a dholki",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type at a dholki",
+          "subtitle": "Same songs, same cousins, sixteen completely different energies."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Sits near the door with an exit plan. Gets handed the spoon to beat the dholak."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Tries to work out the dholak rhythm mathematically. Misses three entire songs."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Fixes the song order, assigns verses and calls a rehearsal for tomorrow at 7."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Rewrites the classic tappe to tease the other side. Respectfully. Mostly."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Sits with the elders and hears the best old family stories while everyone else sings."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Quietly writes a tappa for the couple that makes the whole circle go 'waah'."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Runs a quick lyrics class for the younger cousins. By midnight they're the loudest section."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Requests a song, starts a dance, forgets both halfway and starts a third."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Brings the printed lyrics sheet. Every year. Same sheet. Laminated."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Keeps chai flowing to the dholak players until midnight without being asked once."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Announces 'last song' at 11 pm. It is not the last song. They are not pleased."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Hands out mithai, welcomes every guest, and knows exactly whose turn it is to sing."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Retunes the dholak's loose ropes mid-song without anyone noticing."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Did the mehndi designs for six cousins and won't accept a single compliment."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Accepts every dance-off and takes the bhangra back-step a little too far."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Owns the dholki: choreography, outfit change, encore and a solo nobody planned."
+        },
+        {
+          "kind": "cta",
+          "title": "Tag your dholki crew",
+          "subtitle": "Then find your real type, free, at mizaj.pk"
+        }
+      ],
+      "caption": "Dholki night: same songs, same cousins, sixteen completely different energies.\n\nOne is sitting near the door with an exit plan. One has laminated the lyrics. One is doing a solo nobody planned. And one is quietly retuning the dholak while everyone sings.\n\nTag your dholki crew and assign everyone their slide. Bonus points for tagging the one with the spoon.\n\nWhich one are you on dholki night?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Dholki night, 16 types. Tag the one with the spoon. #mizaj #dholki #mehndi #shaadiseason #desishaadi #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#dholki",
+        "#mehndi",
+        "#shaadiseason",
+        "#desishaadi",
+        "#personalitytypes",
+        "#enfp",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "trending dholak tappe beat or classic mehndi song instrumental",
+      "reel_hook": "Dholki night: which one are you?"
+    },
+    {
+      "id": "d07-a-burj-x-type",
+      "day": 7,
+      "time": "21:30",
+      "pillar": "fun",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Burj x type mash-up",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Your burj + your type = this",
+          "subtitle": "A zodiac and personality mash-up. For fun, obviously."
+        },
+        {
+          "kind": "list",
+          "title": "Aag (fire) burjs",
+          "items": [
+            "Hamal + Jaanbaz: overtakes the baraat, arrives first",
+            "Asad + Mehfil ki Jaan: brings their own spotlight",
+            "Qaus + Rangeela: booked the trip before asking for leave"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Mitti (earth) burjs",
+          "items": [
+            "Saur + Muhafiz: cosiest home, best food, zero rushing",
+            "Sumbula + Amanatdar: labelled drawers inside labelled drawers",
+            "Jadi + Sipah-salar: running the company by 30, apparently"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Hawa (air) burjs",
+          "items": [
+            "Jauza + Hazir-jawab: two opinions, both theirs, both loud",
+            "Meezan + Mezbaan: ten guests, eleven chairs, zero conflict",
+            "Dalv + Falsafi: invented a new theory during the dholki"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Paani (water) burjs",
+          "items": [
+            "Sartan + Ustaad: everyone's emotional support, also feeds you",
+            "Aqrab + Darvesh: knows your secret before you tell it",
+            "Hoot + Shayar: writes poetry about the poetry they wrote"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "For fun, not fate",
+          "text": "Burj readings are entertainment: a mirror, not a prophecy. Your stars don't decide your future; your choices do. Your type, though? That's how you actually think."
+        },
+        {
+          "kind": "cta",
+          "title": "Get your own burj × type combo",
+          "subtitle": "Free on mizaj.pk: pick your burj, take the test, laugh."
+        }
+      ],
+      "caption": "Your burj says one thing. Your type says another. Together? Chaos.\n\nWe mashed up the burj with the 16 Mizaj types, grouped by element. Aag, mitti, hawa, paani: find your combo and see if it's a little too accurate.\n\nFor fun only: a mirror, not a prophecy. Your choices write your story, not the stars.\n\nComment your burj and your type, and we'll tell you your combo.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Your burj + your type = chaos. For fun only. Comment yours. #mizaj #burj #zodiac #personalitytypes #pakistan #fyp",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#burj",
+        "#zodiac",
+        "#zodiacsigns",
+        "#personalitytypes",
+        "#forfun",
+        "#pakistan",
+        "#desi",
+        "#pakistani"
+      ],
+      "audio_hint": "mystical sparkle sound into a comedic beat drop",
+      "reel_hook": "Your burj plus your type explains everything. For fun."
+    },
+    {
+      "id": "d08-a-each-type-in-the-family-group",
+      "day": 8,
+      "time": "20:30",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type in the family group chat",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type in the family group chat",
+          "subtitle": "You know exactly who's who. So does everyone else."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Reads everything, replies to nothing, then sends one message that ends the argument."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Fact-checks the forwarded 'news' with three sources. Nobody reads the reply."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Creates a poll for the family dinner venue and closes it after one hour."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Replies to the good-morning roses with a meme so precise the cousins screenshot it."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Notices Phuppo hasn't replied in two days and quietly calls her."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Types a long heartfelt message for Nana's birthday, deletes it, sends a single heart."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "The admin who renamed the group 'Khandan Forever' and pinned the birthday list."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Sends 47 voice notes before 9 am. All of them important."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Uses full stops. Every message. Even 'Ok.'"
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Wishes every relative on every birthday, including the second cousin abroad."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Posts group rules: no forwards before 8 am, no voice notes over two minutes."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Reacts to every single photo with a heart, including the blurry ones."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Muted the group in 2021. Still somehow knows everything important."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Shares one beautiful sunset photo a month. Gets more hearts than anyone."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Leaves the group after a debate, gets re-added in four minutes, acts like nothing happened."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Sends the dholki video at 2 am. The group wakes up to 300 messages."
+        },
+        {
+          "kind": "cta",
+          "title": "Send this to the family group",
+          "subtitle": "See who recognises themselves first. Free test: mizaj.pk"
+        }
+      ],
+      "caption": "Every family group chat has the same 16 members. You know exactly who's who.\n\nThe one who uses full stops. The one who sends 47 voice notes before 9 am. The one who muted the group in 2021 and still knows everything. And the admin who renamed it 'Khandan Forever'.\n\nSend this to the family group and see who recognises themselves first.\n\nWhich one are you, honestly?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Every family group chat has these 16 people. Send it to yours. #mizaj #desifamily #familygroup #personalitytypes #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#desifamily",
+        "#familygroup",
+        "#desimemes",
+        "#personalitytypes",
+        "#istj",
+        "#enfp",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "message-notification pings over a funny dramatic Pakistani drama OST style sting",
+      "reel_hook": "POV: the family group chat at 2 am."
+    },
+    {
+      "id": "d09-a-chai-and-your-mizaj",
+      "day": 9,
+      "time": "13:00",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Chai and your mizaj",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Your mizaj, in a cup of chai",
+          "subtitle": "Doodh patti, kehwa or something lighter? Tradition picks for you."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Loves chai mostly for the company. Tradition points you to lighter cups, like kehwa after heavy meals, rather than five sugary doodh pattis a day."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Runs on chai, which is the problem. Unani tradition sees strong cup after strong cup as fuel on the fire. Swap one for warm milk with soaked almonds."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Adrak chai with less milk is traditionally your best friend, especially on foggy mornings. Add a little honey and skip the extra malai."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Strong tea all day isn't your friend, says tradition. Try kehwa with cardamom and a little honey, or a mug of badam doodh in the evening."
+        },
+        {
+          "kind": "list",
+          "title": "Who makes the chai at home?",
+          "items": [
+            "Damvi: makes it for twelve, invites six more",
+            "Safravi: fast, very strong, no discussion",
+            "Balghami: slowly, perfectly, eventually",
+            "Saudavi: measures the patti. Every single time."
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Which cup are you?",
+          "subtitle": "Find your mizaj free in 4 minutes at mizaj.pk"
+        }
+      ],
+      "caption": "Same chai, four very different mizaj.\n\nUnani tradition has opinions about your fourth cup of the day. Warm mizaj may do better with lighter cups, while cool mizaj are traditionally pointed towards adrak chai or kehwa. And yes, we know who makes the chai at your house.\n\nTraditional wellness wisdom, not medical advice.\n\nWhich cup is yours? Tag your chai partner.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Adrak chai, kehwa or doodh patti? Your mizaj decides. #mizaj #chai #kehwa #unani #garammizaj #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#chai",
+        "#kehwa",
+        "#unani",
+        "#garammizaj",
+        "#chailover",
+        "#pakistan",
+        "#desi",
+        "#islamabad"
+      ],
+      "audio_hint": "slow cosy pour sound with soft sitar lo-fi",
+      "reel_hook": "Your mizaj decides your chai. Not you."
+    },
+    {
+      "id": "d09-b-each-type-in-a-rishta-meeting",
+      "day": 9,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type in a rishta meeting (respectful)",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type in a rishta meeting",
+          "subtitle": "Chai, samosas and sixteen very different first impressions."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Came with three thoughtful questions about life goals. Asked them politely after the samosas."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Asked one question about the other person's hobby and listened, fascinated, for forty minutes."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Discusses future city, career and timelines before the chai is poured. Efficiently, but kindly."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Drops one perfectly timed joke that relaxes both families at once."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Knew within ten minutes whether their values matched. Will think about it for a week anyway."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Rehearsed what to say for days. Forgot all of it. Was sincere instead, which worked."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Makes sure both families feel heard, and every elder gets the first cup."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Finds three shared interests in five minutes and has to be reminded the elders are present."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Arrives on time, dressed neatly, with a sensible answer about savings and family plans."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Remembers the other family's grandparent takes no sugar and serves their chai first."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Has a mental checklist: education, values, family, plans. Ticks boxes with a warm smile."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "The host everyone remembers: perfect seating, warm welcomes, zero awkward silences all evening."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Says eleven words all evening. The elders call them 'sanjeeda' and approve."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Compliments the hand embroidery on someone's shawl and starts the warmest conversation of the evening."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Breaks the ice by asking the elders about their own rishta stories. The room lights up."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Has both families laughing by the second cup of chai, and somehow also helped serve."
+        },
+        {
+          "kind": "cta",
+          "title": "Every type brings something good",
+          "subtitle": "Know yours before the next family visit: mizaj.pk"
+        }
+      ],
+      "caption": "The rishta meeting, as told by the 16 types. Respectfully.\n\nSome arrive with three thoughtful questions. Some rehearse for days and forget everything. Some quietly make sure the elders get their chai first. Every type brings something good to the table, along with the samosas.\n\nSend this to someone with a family meeting coming up this season. Best of luck to them.\n\nWhich one would you be?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "The rishta meeting, by type. Respectfully. Which one are you? #mizaj #rishta #shaadiseason #personalitytypes #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#rishta",
+        "#shaadiseason",
+        "#desifamily",
+        "#personalitytypes",
+        "#infj",
+        "#entj",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "gentle, sweet instrumental with a light comedic pluck on each swipe",
+      "reel_hook": "Rishta meeting energy, by personality type."
+    },
+    {
+      "id": "d10-a-behind-mizaj-ibn-sina",
+      "day": 10,
+      "time": "20:00",
+      "pillar": "brand",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Behind Mizaj: from Ibn Sina to modern psychology",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Behind Mizaj: a 1,000-year-old idea",
+          "subtitle": "From ancient physicians to Ibn Sina to your Nani's advice."
+        },
+        {
+          "kind": "text",
+          "title": "It started with four humours",
+          "text": "Ancient physicians Hippocrates and Galen described four humours: blood, yellow bile, phlegm and black bile. The balance between them, they believed, shaped your health, energy and temperament."
+        },
+        {
+          "kind": "text",
+          "title": "Then came Ibn Sina",
+          "text": "Around 1025, Ibn Sina, the physician-philosopher born near Bukhara, completed Al-Qanun fi'l-Tibb, the Canon of Medicine. It organised this knowledge so clearly that it was studied for centuries, from Central Asia to Europe."
+        },
+        {
+          "kind": "text",
+          "title": "It came home as Unani",
+          "text": "Unani means 'Greek', a nod to its roots. Carried through Persia to South Asia, it became the hakeem's art. Damvi, Safravi, Balghami and Saudavi are words our grandparents used without blinking."
+        },
+        {
+          "kind": "text",
+          "title": "Then psychology joined in",
+          "text": "Modern type psychology maps four preferences: where your energy comes from, what you notice, how you decide and how you organise life. The 16 Mizaj types are our own, written for Pakistani life: shaadis, entry tests, joint families and all."
+        },
+        {
+          "kind": "text",
+          "title": "Why we built Mizaj",
+          "text": "We wanted one place where the oldest personality system in our culture meets modern type psychology. Not a diagnosis, not destiny. A mirror that finally speaks our language."
+        },
+        {
+          "kind": "cta",
+          "title": "See both sides of yourself",
+          "subtitle": "Free personality test and Asli Mizaj quiz at mizaj.pk"
+        }
+      ],
+      "caption": "The idea behind Mizaj is over a thousand years old.\n\nHippocrates and Galen described four humours. Ibn Sina organised them in his Canon of Medicine around 1025, and the book was studied for centuries. Through Unani tradition, those four temperaments reached South Asia, our hakeems and our grandparents' advice. We joined that heritage with modern type psychology, in our own language.\n\nDid anyone in your family ever visit a hakeem? Tell us the story.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "A 1,000-year-old idea, finally in our language. The story behind Mizaj. #mizaj #ibnsina #unani #history #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#ibnsina",
+        "#unani",
+        "#history",
+        "#muslimheritage",
+        "#temperament",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "cinematic documentary strings, slow and grand, no vocals",
+      "reel_hook": "A thousand years ago, Ibn Sina described your temperament."
+    },
+    {
+      "id": "d11-a-careers-per-type-family",
+      "day": 11,
+      "time": "13:00",
+      "pillar": "career",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Careers per type family",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Careers that fit each type family",
+          "subtitle": "Four families, many paths. Which list sounds like you?"
+        },
+        {
+          "kind": "list",
+          "title": "Danishwar: the thinkers",
+          "items": [
+            "Software systems engineer or data scientist",
+            "Strategy or equity research analyst",
+            "CSS officer or research economist",
+            "Founder of a tech startup"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Ahl-e-Dil: the heart-led",
+          "items": [
+            "Counselling psychologist or teacher",
+            "Writer, copywriter or translator",
+            "HR, training and coaching roles",
+            "Development sector programme lead"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Pasban: the guardians",
+          "items": [
+            "Chartered accountant or auditor",
+            "Doctor, nurse or pharmacist",
+            "Operations or bank branch manager",
+            "Civil servant, judge or army officer"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Fankar: the makers",
+          "items": [
+            "Mechanical engineer or cybersecurity specialist",
+            "Interior, fashion or textile designer",
+            "Sales, business development or tour operator",
+            "Event manager, wedding photographer or TV host"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Find careers matched to you",
+          "subtitle": "Take the free test, then the Career Compass, at mizaj.pk"
+        }
+      ],
+      "caption": "Not every career fits every type, and that's good news.\n\nThe four Mizaj type families tend to thrive in very different work: thinkers in systems and strategy, the heart-led in people and words, guardians in structure and service, makers in building, designing and doing. These are starting points, not limits.\n\nSave this for the next time a relative asks 'aage kya karna hai?'\n\nWhich family are you, and does your job match?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Which careers fit your type family? Save for the next 'aage kya karna hai'. #mizaj #careers #pakistan #students",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#careercounselling",
+        "#careers",
+        "#studentsofpakistan",
+        "#freelancing",
+        "#personalitytypes",
+        "#pakistan",
+        "#karachi",
+        "#islamabad"
+      ],
+      "audio_hint": "confident corporate-motivational beat, light and modern",
+      "reel_hook": "Your type family already knows your career."
+    },
+    {
+      "id": "d11-b-each-type-during-load-shedding",
+      "day": 11,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type during load-shedding",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type during load-shedding",
+          "subtitle": "Lights out. Sixteen types, sixteen survival strategies."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Knows the exact schedule, charged everything at 5, and is completely unbothered at 6."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Phone at 3%, laptop dead, finally has the deep thought they've been avoiding for weeks."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Already calculating the solar panel payback period, out loud, for the whole family."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Turns the dark into a ghost story contest and wins by being far too convincing."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Secretly loves it. Candlelight, silence, and everyone actually talking for once."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Writes three verses by candlelight and calls it the best hour of the week."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Gathers everyone on the roof with a lantern and starts a family question round."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Starts antakshari the second the lights go. Refuses to end it when power returns."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Has the torch in the same drawer, batteries tested last Sunday."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Has candles, matches and a flask of hot chai ready before anyone panics."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Rations the UPS like a budget: router yes, lights yes, heater absolutely not."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Invites the neighbours over because 'our UPS is stronger', then fries pakoras by torchlight."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Already rewired the UPS to run one more light. Did not ask anyone."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Lights candles in glass jars and suddenly the lounge looks like a cafe photo."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Takes everyone for a drive just to sit in the car heater. Calls it an outing."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Turns the dark lounge into a phone-torch concert with the cousins."
+        },
+        {
+          "kind": "cta",
+          "title": "Who do you want in the dark?",
+          "subtitle": "Tag them, then find your type free at mizaj.pk"
+        }
+      ],
+      "caption": "Lights out. Sixteen types, sixteen survival strategies.\n\nOne charged everything at 5 and is completely unbothered. One is writing verses by candlelight. One rewired the UPS without telling anyone. One started antakshari and refuses to stop now that the power is back.\n\nTag the person you want next to you during the next outage.\n\nWhich one are you when the lights go?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Load-shedding, but make it 16 personality types. #mizaj #loadshedding #pakistan #desimemes #personalitytypes #fyp",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#loadshedding",
+        "#desimemes",
+        "#pakistanimemes",
+        "#personalitytypes",
+        "#intj",
+        "#enfp",
+        "#pakistan",
+        "#karachi",
+        "#desi"
+      ],
+      "audio_hint": "lights-off click sound, then spooky-funny piano that turns into a party beat",
+      "reel_hook": "POV: the lights just went. Which one are you?"
+    },
+    {
+      "id": "d12-a-married-couples-by-type",
+      "day": 12,
+      "time": "20:30",
+      "pillar": "milan",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Married couples by type",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Married couples, by type",
+          "subtitle": "Joint family edition. You'll recognise at least one."
+        },
+        {
+          "kind": "text",
+          "title": "Mansooba-saaz + Rangeela",
+          "text": "One has the 10-year plan. The other has 10 new ideas this week. Together they renovate the house, start a side business and actually finish both."
+        },
+        {
+          "kind": "text",
+          "title": "Muntazim + Muhafiz",
+          "text": "The most organised home in the khandan. Labelled spice jars, every birthday in the calendar, and guest bedding washed before the guests have even called."
+        },
+        {
+          "kind": "text",
+          "title": "Ustaad + Shayar",
+          "text": "One gives the speech at the family wedding; the other wrote it at 2 am. Both cry when it's delivered."
+        },
+        {
+          "kind": "text",
+          "title": "Jaanbaz + Amanatdar",
+          "text": "One books a surprise trip north tonight. The other has already checked the weather, the road and the car's oil. Somehow both are delighted."
+        },
+        {
+          "kind": "text",
+          "title": "Mezbaan + Musawwir",
+          "text": "Their dawats are legendary: one handles the guest list and the food, the other the lights, the table and the playlist."
+        },
+        {
+          "kind": "text",
+          "title": "Falsafi + Sipah-salar",
+          "text": "One explains for an hour why the plan could fail. The other listens, nods, and executes it anyway. Weirdly, it works."
+        },
+        {
+          "kind": "cta",
+          "title": "See how you two really fit",
+          "subtitle": "Married or engaged? Try Mizaj Milan free together at mizaj.pk"
+        }
+      ],
+      "caption": "Married couples, by type. You'll recognise at least one from your own khandan.\n\nThe planner and the free spirit who somehow finish every renovation. The hosts whose dawats are legendary. The two who've had the same lovely argument for twelve years. Different types don't just clash; with patience, they complete the picture.\n\nTag a married couple who needs to see this, with love.\n\nWhich pair is your home?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Married couples by type. Tag the couple this is about (with love). #mizaj #mizajmilan #desifamily #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#mizajmilan",
+        "#marriedlife",
+        "#desifamily",
+        "#jointfamily",
+        "#personalitytypes",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "wholesome nostalgic instrumental, old-film style strings",
+      "reel_hook": "Every khandan has at least one of these couples."
+    },
+    {
+      "id": "d13-a-abjad-name-number",
+      "day": 13,
+      "time": "13:00",
+      "pillar": "fun",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Abjad: what your name adds up to",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "What does your name add up to?",
+          "subtitle": "Ilm-e-Adad: the old Abjad way of turning names into numbers."
+        },
+        {
+          "kind": "text",
+          "title": "What is Abjad?",
+          "text": "Every Arabic letter carries a value, from alif as 1 to ghain as 1,000, in the old 'abjad, hawwaz, hutti' order. Urdu and Persian poets used it to hide years inside verses, an art called tarikh-goi."
+        },
+        {
+          "kind": "list",
+          "title": "How to find your number",
+          "items": [
+            "Write your name in Urdu letters",
+            "Add up each letter's Abjad value",
+            "Add the digits until one digit remains",
+            "Land on 11 or 22? Keep it: a 'master number'"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "Try it: Hina",
+          "text": "Hina, حنا: ha 8 + noon 50 + alif 1 = 59. Then 5 + 9 = 14, and 1 + 4 = 5. Hina is a 5. Now do yours, then your cousin's, then argue about it."
+        },
+        {
+          "kind": "text",
+          "title": "For fun, not fate",
+          "text": "Ilm-e-Adad on Mizaj is cultural heritage and a playful mirror, not a prophecy. No number decides your future, your marriage or your luck. Only your bragging rights."
+        },
+        {
+          "kind": "cta",
+          "title": "Comment your number below",
+          "subtitle": "Or let mizaj.pk add it up for you, free, in seconds"
+        }
+      ],
+      "caption": "Your name has a number. Your Nani probably knew it.\n\nIlm-e-Adad uses the old Abjad system, where every letter carries a value. Urdu and Persian poets used it to hide years inside their verses. Add up the letters in your name, reduce it to one digit, and there's your number.\n\nFor fun and cultural curiosity: a mirror, not a prophecy.\n\nComment your name's number below. Who else got a 5?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Your name has a number. The old Abjad way, for fun. Comment yours. #mizaj #abjad #ilmeadad #urdu #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#abjad",
+        "#ilmeadad",
+        "#urdu",
+        "#numerology",
+        "#forfun",
+        "#pakistan",
+        "#desi",
+        "#pakistani"
+      ],
+      "audio_hint": "mysterious soft santoor instrumental with a 'ding' on each number",
+      "reel_hook": "Your name has a number. Want to know yours?"
+    },
+    {
+      "id": "d13-b-each-type-on-a-road-trip-north",
+      "day": 13,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type on a road trip to the north",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type on a trip up north",
+          "subtitle": "One car, snowy mountains, sixteen very different passengers."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Planned the route, fuel stops and weather backups. Shared it as a PDF nobody opened."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Spends the drive explaining how glaciers move. Misses the actual glacier."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Announces departure at 4 am. Leaves at 4 am. With or without you."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Convinces everyone to take the 'interesting' route. It becomes the story told for years."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Watches the mountains in total silence and has a full life epiphany by the river."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Front seat, window down, sad songs, snow outside. This is their whole personality."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Keeps morale up through a six-hour jam with snacks and a road-trip quiz."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Wants to stop at every viewpoint. Has 400 photos before the first toll plaza."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Checks tyre pressure, the spare and the snow chains twice. Saves the trip, as usual."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Packed parathay, extra socks and gloves for everyone, plus a backup set for the forgetful one."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Assigns seats, snack duty and a strict 20-minute limit at every single stop."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Befriends the hotel staff and gets everyone extra blankets and hot chai at midnight."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Changes a flat tyre in the snow in four minutes. Says nothing. Gets back in."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Asks to stop just to touch the snow and photograph one perfect pine tree."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "First out of the car, first into the snow, first to slip. Gets up laughing."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Turns the car into a karaoke stage and gets the driver to join the chorus."
+        },
+        {
+          "kind": "cta",
+          "title": "Who's driving your next trip?",
+          "subtitle": "Not the Jaanbaz. Find your type free at mizaj.pk"
+        }
+      ],
+      "caption": "Snow trip to the north: one car, sixteen personalities.\n\nOne made a PDF nobody opened. One checked the snow chains twice. One wants to stop at every viewpoint. And one is first out of the car, first into the snow and first to slip, laughing.\n\nTag your road trip group and decide who's driving. (Not the Jaanbaz.)\n\nWhich one are you on the way to the mountains?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Snow trip up north, 16 types in one car. Tag your group. #mizaj #northernpakistan #roadtrip #snow #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#northernpakistan",
+        "#roadtrip",
+        "#snowfall",
+        "#travelpakistan",
+        "#personalitytypes",
+        "#estp",
+        "#pakistan",
+        "#islamabad",
+        "#desi"
+      ],
+      "audio_hint": "uplifting travel-montage instrumental, drums kicking in at the mountains",
+      "reel_hook": "Every family road trip has these 16 people."
+    },
+    {
+      "id": "d14-a-each-mizaj-at-a-dawat",
+      "day": 14,
+      "time": "20:30",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Each mizaj at a dinner party (dawat)",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each mizaj at a dawat",
+          "subtitle": "You know exactly who's who at your khala's dinner table."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Arrives with mithai, hugs everyone, tells the best story at the table, and is still chatting at the gate an hour after saying goodbye."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Arrives on time, gets hungry and slightly irritable by 9:30, and becomes delightful the second the biryani lands."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Finds the comfiest sofa, says little, eats slowly, and leaves last, because getting up from that sofa takes planning."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Talks deeply to one person all evening, notices the host is stressed, and sends a careful thank-you message at midnight."
+        },
+        {
+          "kind": "list",
+          "title": "Hosting? Seat them like this",
+          "items": [
+            "Damvi next to the shy guests",
+            "Safravi near the kitchen, served first",
+            "Balghami on the comfy sofa, away from drafts",
+            "Saudavi beside one good conversationalist"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Which guest are you, honestly?",
+          "subtitle": "Take the free mizaj quiz at mizaj.pk and tag your dawat crew"
+        }
+      ],
+      "caption": "There's a Damvi, a Safravi, a Balghami and a Saudavi at every dawat.\n\nOne hugs everyone and is still chatting at the gate an hour later. One gets a little irritable by 9:30 and turns delightful the moment the biryani arrives. One has found the comfiest sofa. One is having a deep conversation with exactly one person.\n\nHosting this weekend? Use the seating tips on the last slide.\n\nWhich guest are you?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Every dawat has these 4 guests. Which mizaj are you? #mizaj #dawat #desifamily #garammizaj #pakistan #desi",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#dawat",
+        "#desifamily",
+        "#garammizaj",
+        "#unani",
+        "#desikhana",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "funny dramatic Pakistani drama OST style sting on each guest reveal",
+      "reel_hook": "Every dawat has these four guests."
+    },
+    {
+      "id": "d15-a-this-or-that-winter-shaadi",
+      "day": 15,
+      "time": "13:00",
+      "pillar": "engage",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "This or that: winter shaadi edition",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "This or that: winter shaadi edition",
+          "subtitle": "Screenshot, pick one from each pair, comment with your type."
+        },
+        {
+          "kind": "list",
+          "title": "Round 1: food",
+          "items": [
+            "Gajar halwa or gulab jamun",
+            "Nihari breakfast or halwa puri",
+            "Mungphali or chilgoza",
+            "Kashmiri chai or doodh patti"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Round 2: shaadi",
+          "items": [
+            "Mehndi or baraat",
+            "Dance floor or food line",
+            "Stage photo or candid corner",
+            "Arrive at 8 or arrive when the food opens"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Round 3: winter life",
+          "items": [
+            "Razai or heater",
+            "Fog drive or stay home",
+            "Morning walk or one more hour asleep",
+            "Yakhni or corn soup"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "How to play",
+          "text": "Pick one from each pair, then comment your answers with your type. We'll try to guess your mizaj from your choices. Sard mizaj people, we already know you chose the heater."
+        },
+        {
+          "kind": "cta",
+          "title": "Play, then take the real test",
+          "subtitle": "Your answers are fun. Your actual type is at mizaj.pk, free."
+        }
+      ],
+      "caption": "Winter shaadi edition of this or that. No skipping allowed.\n\nGajar halwa or gulab jamun. Mehndi or baraat. Razai or heater. Screenshot the slides, pick one from each pair, then comment your answers with your type. We'll try to guess your mizaj from your choices.\n\nWhich pair was the hardest?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "This or that, winter shaadi edition. Comment your picks + your type. #mizaj #thisorthat #shaadiseason #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#thisorthat",
+        "#shaadiseason",
+        "#winter",
+        "#desikhana",
+        "#commentyourtype",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "quick 'this or that' trending tick-tock sound with a pop on each choice",
+      "reel_hook": "This or that, shaadi edition. No skipping."
+    },
+    {
+      "id": "d15-b-each-type-as-a-drama-archetype",
+      "day": 15,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type as a Pakistani drama archetype",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type as a drama character",
+          "subtitle": "If your life were a Pakistani drama, who would you be?"
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "The quiet elder sibling who saw the betrayal coming in episode 2, and waited."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "The scholarly cousin with one line per episode, always the smartest line."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "The family business heir who has restructured the entire company by episode 5."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "The witty friend whose one-liners become the drama's most shared clips."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "The wise one who says a single sentence on the rooftop and changes the whole plot."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "The lead who stares out at the rain while the sad OST plays. Every episode."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "The teacher who believes in the struggling student and changes their entire life."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "The bubbly cousin who arrives from abroad and turns the haveli upside down."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "The honest clerk who refuses the bribe and becomes the drama's moral spine."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "The sibling who sacrifices everything quietly and finally gets thanked in the last episode."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "The strict head of the joint family whose one raised eyebrow ends every argument."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "The beloved khala whose home is where every family crisis gets solved over food."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "The mysterious mechanic with a past, three lines of dialogue and the best scenes."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "The artist who paints by the lake and is misunderstood until the final exhibition."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "The action-hero cousin who arrives by motorbike right as the music swells."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "The comic relief who steals every scene and secretly carries the whole show."
+        },
+        {
+          "kind": "cta",
+          "title": "Which character are you?",
+          "subtitle": "Your type decides your role. Find it free at mizaj.pk"
+        }
+      ],
+      "caption": "If your life were a Pakistani drama, which character would you be?\n\nThe quiet elder sibling who saw it coming in episode 2. The lead staring at the rain while the OST plays. The comic relief who secretly carries the whole show. Every type has its role, and you already know yours.\n\nTag the friend who would definitely get the rooftop monologue.\n\nWhich character are you?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "If your life were a Pakistani drama, which character are you? #mizaj #pakistanidrama #drama #personalitytypes",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#pakistanidrama",
+        "#dramaserial",
+        "#desimemes",
+        "#personalitytypes",
+        "#infp",
+        "#esfp",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "funny dramatic Pakistani drama OST style sad violin, with a slow push-in on each slide",
+      "reel_hook": "Your personality type as a Pakistani drama character."
+    },
+    {
+      "id": "d16-a-each-type-in-winter-with-a-razai",
+      "day": 16,
+      "time": "22:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type in winter with a razai",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type versus the razai",
+          "subtitle": "It's razai season. Every type has a very different relationship with theirs."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Has optimised the route from razai to geyser to breakfast: 40 seconds, no cold floor."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Built a razai fort with a laptop, snacks and no plans to ever emerge."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Runs the entire household's morning from under the razai, via voice notes."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Argues the razai is technically clothing and attends breakfast wearing it."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Razai, kehwa, a long novel and absolutely no visitors. Peak happiness."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Under the razai, planning a whole new life in a tiny hill-station cottage."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Makes sure everyone else has a warm razai first. Ends up with the thin one."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Climbs into everyone's razai to chat for 'just five minutes'. Stays two hours."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Brings out the winter razais on the same day every year, already aired and folded."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Warms your side of the bed with a hot water bottle before you come in."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Calls the razai 'a trap' and is up at 6 for a walk in the fog."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Brings chai to every razai in the house, like room service with love."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Has rigged one extension cord to the heater, phone charger and lamp. Never leaves."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Owns the softest razai, a fairy-light corner and a playlist called 'dhund'."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Kicks off the razai, eats oranges on the roof, wears half sleeves in December."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Turns one razai into a family sleepover with mungphali, a movie and stories till 2 am."
+        },
+        {
+          "kind": "cta",
+          "title": "Tag the person who steals your razai",
+          "subtitle": "Then find out your type, free, at mizaj.pk"
+        }
+      ],
+      "caption": "It's razai season, and every type has a very different relationship with theirs.\n\nSome calculate exactly how long they can stay in it. Some build a fort with snacks and no exit plan. Some kick it off and eat oranges on the roof in half sleeves. And some make sure everyone else has a warm one first.\n\nTag the person who steals your razai.\n\nWhich razai personality are you?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Razai season, 16 types. Tag the one who steals yours. #mizaj #razai #sardi #winter #personalitytypes #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#razai",
+        "#sardi",
+        "#winter",
+        "#desimemes",
+        "#personalitytypes",
+        "#infj",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "soft cosy lo-fi with rain or wind sound, slow and sleepy",
+      "reel_hook": "POV: it's 7 am and the razai has won."
+    },
+    {
+      "id": "d17-a-parents-vs-passion",
+      "day": 17,
+      "time": "13:00",
+      "pillar": "career",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Parents vs passion: how to have the talk",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Parents vs passion: how to have the talk",
+          "subtitle": "For every student who wants design but heard 'doctor banna hai'."
+        },
+        {
+          "kind": "text",
+          "title": "First, understand their fear",
+          "text": "Most parents aren't against your dream. They're scared of unemployment, of what relatives will say, of watching you struggle. Answer the fear, not the sentence."
+        },
+        {
+          "kind": "list",
+          "title": "Bring a plan, not a protest",
+          "items": [
+            "The degree, the university and the entry requirements",
+            "Three real careers it leads to in Pakistan",
+            "What people starting out honestly earn",
+            "A backup option you'd genuinely accept"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "Pick the right moment",
+          "text": "Not on result day, not in front of relatives, not at 1 am. Ask for twenty minutes on a calm weekend afternoon, with chai. Yes, the chai matters."
+        },
+        {
+          "kind": "text",
+          "title": "Meet halfway if you must",
+          "text": "Some families need a middle path: computer science with design projects on the side, or commerce while freelancing as a writer. A compromise isn't defeat; it can be the bridge to the next conversation."
+        },
+        {
+          "kind": "list",
+          "title": "Your type changes your pitch",
+          "items": [
+            "Danishwar: lead with data and logic",
+            "Ahl-e-Dil: share why it matters to you",
+            "Pasban: show the steady, step-by-step path",
+            "Fankar: show what you've already made"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Bring a report to the table",
+          "subtitle": "Career Compass includes a page written for your parents. mizaj.pk"
+        }
+      ],
+      "caption": "'Doctor banna hai.' 'But I want to do design.' Sound familiar?\n\nMost parents aren't against your dream; they're scared for your future. The trick is answering the fear, not the sentence. Here's how to plan the conversation: the right moment, the right facts and a middle path if you need one. Your type changes your pitch too.\n\nParents, read it from your side as well.\n\nHave you had this talk yet? How did it go?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "'Doctor banna hai.' How to talk to your parents about your passion. #mizaj #careers #students #parents #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#careercounselling",
+        "#studentsofpakistan",
+        "#parents",
+        "#desiparents",
+        "#fsc",
+        "#pakistan",
+        "#karachi",
+        "#lahore"
+      ],
+      "audio_hint": "emotional but hopeful piano, building to a confident ending",
+      "reel_hook": "'Doctor banna hai.' 'But I want to do design.'"
+    },
+    {
+      "id": "d17-b-send-this-to-your-rishta",
+      "day": 17,
+      "time": "21:00",
+      "pillar": "milan",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Send this to your rishta",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Send this to your rishta",
+          "subtitle": "Before the next family meeting. Trust us."
+        },
+        {
+          "kind": "list",
+          "title": "If they're Danishwar (Thinkers)",
+          "items": [
+            "Give reasons, not hints. They don't do hints",
+            "Ask about their five-year plan; watch them light up",
+            "Disagree with logic, not volume",
+            "Their care shows in solutions, not speeches"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "If they're Ahl-e-Dil (Heart-led)",
+          "items": [
+            "Say the kind thing out loud, often",
+            "Ask how they feel, then actually listen",
+            "Never mock their dreams, even as a joke",
+            "Small notes and remembered details mean everything"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "If they're Pasban (Guardians)",
+          "items": [
+            "Be on time. It's how they read respect",
+            "Respect their family's traditions and routines",
+            "Keep your promises, especially the small ones",
+            "Plans calm them; big surprises can unsettle them"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "If they're Fankar (Makers)",
+          "items": [
+            "Do things together instead of long talks",
+            "Give them freedom; don't schedule every minute",
+            "Notice their work: the meal, the fix, the design",
+            "Keep it light; they connect through laughter"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Not sure of their type?",
+          "subtitle": "Send them the free test, then compare on Mizaj Milan at mizaj.pk"
+        }
+      ],
+      "caption": "Send this to your rishta. Thank us later.\n\nEvery type family feels respected in a different way. Some need reasons, not hints. Some need the kind thing said out loud. Some read punctuality as respect. Some connect best while doing something together.\n\nKnowing this early makes the next family visit, and the years after it, a lot easier.\n\nWhich slide describes the person you're sending it to?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Send this to your rishta before the next family meeting. #mizaj #rishta #mizajmilan #shaadiseason #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#rishta",
+        "#mizajmilan",
+        "#shaadiseason",
+        "#marriage",
+        "#personalitytypes",
+        "#pakistan",
+        "#desi",
+        "#islamabad"
+      ],
+      "audio_hint": "sweet, light instrumental with a playful 'send' whoosh at the end",
+      "reel_hook": "Send this to your rishta. Thank us later."
+    },
+    {
+      "id": "d18-a-each-type-during-entry-test-prep",
+      "day": 18,
+      "time": "19:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type during entry-test prep",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type during entry-test prep",
+          "subtitle": "Past papers, academy notes and sixteen very different study styles."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Built a 90-day study plan with weekly mock tests. Is on day 87, on schedule."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Understands every concept deeply. Has done exactly zero timed practice papers."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Formed a study group, appointed themselves head, and set weekly targets for everyone."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Found a shortcut for every MCQ type and insists the answer key is wrong."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Studies alone at 2 am, and quietly talks three panicking friends down by text."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Highlighted the entire biology book in five colours because it looked prettier."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Runs a free evening session for juniors while somehow finishing their own syllabus."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Makes a fresh 'final' timetable every Monday. Now has twelve final timetables."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Solved every past paper of the last ten years, in order, marked and filed."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Brings extra pencils and an eraser on test day for whoever forgot theirs."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Has a countdown whiteboard in their room that even the parents check daily."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Shares notes with the whole class group and asks everyone how they're holding up."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Skips the theory, solves numericals by instinct, and somehow tops physics."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Draws diagrams so beautifully that the whole batch photocopies their notebook."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Started studying three weeks before the test. Passed. Nobody can explain it."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Turned organic chemistry into songs and taught the whole academy batch to sing them."
+        },
+        {
+          "kind": "cta",
+          "title": "You've got this, whatever your type",
+          "subtitle": "Study smarter with your type's strengths. Free test: mizaj.pk"
+        }
+      ],
+      "caption": "Entry test prep, as experienced by all 16 types.\n\nSome have a 90-day plan and are on schedule. Some have twelve 'final' timetables. Some started three weeks before the test and still passed, which is deeply unfair to everyone else.\n\nTo everyone preparing right now: you've got this. Tag your study partner for moral support.\n\nWhich type is your study style?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Entry test prep, 16 types. Tag your study partner. #mizaj #entrytest #mdcat #ecat #studentsofpakistan #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#entrytest",
+        "#mdcat",
+        "#ecat",
+        "#studentsofpakistan",
+        "#studytok",
+        "#personalitytypes",
+        "#pakistan",
+        "#lahore",
+        "#karachi"
+      ],
+      "audio_hint": "intense exam-countdown ticking beat into a comedic drop",
+      "reel_hook": "Entry test prep: which type are you?"
+    },
+    {
+      "id": "d19-a-each-type-at-sunday-breakfast",
+      "day": 19,
+      "time": "13:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type at Sunday breakfast",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type at Sunday breakfast",
+          "subtitle": "Halwa puri, nihari, parathay. Sunday reveals everyone's true personality."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Placed the halwa puri order on Saturday night to beat the Sunday queue."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Wakes at 1 pm and asks whether 'breakfast' is a time or a type of food."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Divides the work: you fetch puri, you make chai, you set the table. Go."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Starts a full debate on whether nihari counts as breakfast. Wins it. Eats nihari."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Wakes early just to enjoy the quiet house before the Sunday chaos begins."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Eats slowly in the winter sun, watching the steam rise off the chai, perfectly content."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Invites the neighbour who lives alone to join, because 'there's plenty'."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Wants to try a new nashta spot across town. Leaves at 11. Arrives at lunch."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Same shop, same order, same table for fifteen years. Why risk perfection?"
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Makes sure every plate has an extra puri and the chanay are still hot."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Breakfast is at 10 sharp. Latecomers get cold puri and a short lecture."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Has turned breakfast into a family gathering for 22 people. Again."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Eats four parathay in complete silence, then naps. A perfect Sunday, in their view."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Plates the halwa puri so beautifully that nobody wants to eat first."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "First in the nihari queue at 7 am. Comes back with extra nalli and a story."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Turns breakfast into a two-hour gup-shup with everyone still in their sleep clothes."
+        },
+        {
+          "kind": "cta",
+          "title": "What's your Sunday order?",
+          "subtitle": "Comment it, then find your type free at mizaj.pk"
+        }
+      ],
+      "caption": "Sunday breakfast reveals everyone's true personality.\n\nOne placed the halwa puri order last night. One started a debate on whether nihari counts as breakfast. One turned it into a gathering for 22 people. And one woke up at 1 pm asking what breakfast is.\n\nTag the person who always goes to fetch the nashta.\n\nWhat's your Sunday breakfast order?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Sunday breakfast, 16 types. Halwa puri or nihari? #mizaj #halwapuri #nihari #desikhana #personalitytypes #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#halwapuri",
+        "#nihari",
+        "#sundaybreakfast",
+        "#desikhana",
+        "#personalitytypes",
+        "#intp",
+        "#pakistan",
+        "#lahore",
+        "#desi"
+      ],
+      "audio_hint": "sizzling puri-frying sound into a cheerful Sunday-morning beat",
+      "reel_hook": "Sunday breakfast reveals your real personality."
+    },
+    {
+      "id": "d19-b-sleep-and-your-mizaj",
+      "day": 19,
+      "time": "22:30",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Sleep and your mizaj",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Sleep and your mizaj",
+          "subtitle": "Why you sleep like a rock and your sibling scrolls till 3."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Usually sleeps well, maybe too well. Tradition warns against long afternoon naps and heavy late dinners. Waking up groggy? Check what you ate at 11 pm."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Mind races at bedtime, replaying every argument you won. Tradition suggests a cool, dark room, screens off early and writing tomorrow's list before bed."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Sleeps deeply and could happily do ten hours. Aim for seven or eight, go to bed on purpose, and avoid eating two hours before sleep."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Light sleeper, heavy thinker. A fixed bedtime, the phone away 45 minutes early and warm milk with saffron are traditional ways to wind down."
+        },
+        {
+          "kind": "text",
+          "title": "A gentle reminder",
+          "text": "Ongoing trouble sleeping deserves a real conversation with a doctor or hakeem. These are traditional wellness habits, not medical advice. Now put the phone down. Yes, right after this post."
+        },
+        {
+          "kind": "cta",
+          "title": "Your mizaj, before your bedtime",
+          "subtitle": "Free 4-minute quiz at mizaj.pk. Then sleep, please."
+        }
+      ],
+      "caption": "Still awake? This one's for you.\n\nUnani tradition links sleep with temperament. Some mizaj sleep like a rock and wake up groggy; some replay every argument at midnight; some sleep lightly and think heavily. Here's what tradition suggests for each.\n\nTraditional wellness habits, not medical advice. Ongoing sleep trouble deserves a visit to a doctor or hakeem.\n\nWhat time did you actually sleep last night? Be honest.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Still awake? Your mizaj might explain why. #mizaj #sleep #nightowl #unani #garammizaj #pakistan #desi",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#sleep",
+        "#nightowl",
+        "#unani",
+        "#garammizaj",
+        "#selfcare",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "slow ambient night sounds with soft piano, whisper-quiet",
+      "reel_hook": "Still awake at 2 am? Your mizaj explains why."
+    },
+    {
+      "id": "d20-a-ai-palm-reading-reveal",
+      "day": 20,
+      "time": "21:00",
+      "pillar": "fun",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "AI palm reading reveal",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "We let our AI read a palm",
+          "subtitle": "Here's what it said. For fun, obviously, but a little too accurate."
+        },
+        {
+          "kind": "text",
+          "title": "How it works",
+          "text": "Snap a clear photo of your dominant palm. Our AI reads the heart, head, life and fate lines the traditional way and turns them into a playful personality reading. The photo is read once, then deleted."
+        },
+        {
+          "kind": "list",
+          "title": "What the AI looked at",
+          "items": [
+            "Heart line: long and gently curved",
+            "Head line: dips towards the wrist",
+            "Fate line: faint at first, then suddenly strong",
+            "Hand shape: long fingers, square palm"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "The reveal",
+          "text": "'A heart that feels deeply but speaks carefully. A mind that dreams first and plans second. Someone who found their direction late, then never let go.' Our tester's verdict: 'Okay, who told it?'"
+        },
+        {
+          "kind": "text",
+          "title": "What it will never say",
+          "text": "No predictions about health, lifespan, marriage or money. Palm reading on Mizaj is entertainment: a mirror, not a prophecy. Your future is written by your choices, not your lines."
+        },
+        {
+          "kind": "cta",
+          "title": "Let the AI read your palm",
+          "subtitle": "Upload a photo at mizaj.pk. About 15 seconds. For fun."
+        }
+      ],
+      "caption": "We let our AI read a palm. Our tester's reaction: 'Okay, who told it?'\n\nUpload a clear photo of your palm and our AI reads your heart, head, life and fate lines the traditional way, then turns them into a playful personality reading. Your photo is read once and then deleted.\n\nFor fun only: a mirror, not a prophecy. No predictions about health, marriage or money, ever.\n\nWould you try it? Comment 'haath' if yes.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "We let our AI read a palm. For fun only, but... who told it? #mizaj #palmreading #ai #forfun #pakistan #fyp",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#palmreading",
+        "#ai",
+        "#forfun",
+        "#haathkilakeerein",
+        "#selfdiscovery",
+        "#pakistan",
+        "#desi",
+        "#pakistani"
+      ],
+      "audio_hint": "suspenseful reveal sound, low hum building to a sparkle on the reading",
+      "reel_hook": "We let AI read a palm. It got scary accurate."
+    },
+    {
+      "id": "d21-a-shaadi-season-survival-by-mizaj",
+      "day": 21,
+      "time": "13:00",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Shaadi season survival guide by mizaj",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Shaadi season survival guide, by mizaj",
+          "subtitle": "Four functions a week? Your mizaj needs a strategy."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "You'll attend everything and love it. Tradition says your warmth adds up fast, so go easy on mithai and the buffet's second round. Then dance it off."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Late dinners are your enemy. Eat something light before leaving home, so you're not hangry by the third hour of waiting for the baraat."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Cold halls and late nights slow you down. Choose yakhni over chilled drinks, keep a shawl handy and take a rest day between functions."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Crowds and noise drain you, even when you love the family. Protect quiet mornings, eat warm breakfasts, and stay for the moments that matter most."
+        },
+        {
+          "kind": "list",
+          "title": "Buffet rules for every mizaj",
+          "items": [
+            "Raita and salad first, then the rest",
+            "One full plate, not a tower",
+            "Water between functions, not just fizzy drinks",
+            "Walk one lap of the hall after eating"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Survive the season, know your mizaj",
+          "subtitle": "Free 4-minute temperament quiz at mizaj.pk. Share with the shaadi group."
+        }
+      ],
+      "caption": "Four functions this week? Your mizaj needs a strategy.\n\nShaadi season means late dinners, cold halls, rich food and very little sleep. Unani tradition suggests each mizaj handles it differently, from the Safravi who must eat before leaving home to the Balghami who needs a shawl and a rest day.\n\nTraditional wellness wisdom, not medical advice.\n\nHow many functions do you have this month?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "4 functions a week? A shaadi survival guide for your mizaj. #mizaj #shaadiseason #desishaadi #unani #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#shaadiseason",
+        "#desishaadi",
+        "#pakistaniwedding",
+        "#garammizaj",
+        "#unani",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "high-energy baraat dhol beat that slows to a sleepy yawn sound effect",
+      "reel_hook": "Fourth shaadi this week? Read this first."
+    },
+    {
+      "id": "d21-b-each-type-when-guests-arrive-unannounced",
+      "day": 21,
+      "time": "20:30",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type when guests arrive unannounced",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type when guests arrive unannounced",
+          "subtitle": "Doorbell rings. Nobody called ahead. Sixteen reactions."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Hears the doorbell, assesses the threat level, and vanishes into the study."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Opens the door in a faded T-shirt, mid-thought, and forgets to say salaam."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Gives the guests a full tour of the renovation, plus a five-phase roadmap for the kitchen."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Keeps the guests laughing at the door while the family hides the laundry."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Sensed they were coming. Already put the kettle on."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Hides in their room, feels guilty, comes out and becomes the sweetest host there."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Turns a surprise visit into the best evening of the month for everyone."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Genuinely thrilled. Invites the guests to stay for dinner, and the weekend."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Greets them formally, serves chai in the good cups, and returns the visit within a week."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Has samosas in the freezer for this very moment. Has always had them."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Mildly annoyed nobody called first, but the tea service is flawless."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Somehow produces biryani, kebabs and kheer in forty minutes. Nobody knows how."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Gets sent to the market for 'just a few things'. Returns with exactly those things."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Lights a candle and puts flowers on the table. The lounge now looks staged."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Already on the bike to the bakery before the guests have taken off their shoes."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Becomes the guests' favourite person instantly and gets invited to their nephew's wedding."
+        },
+        {
+          "kind": "cta",
+          "title": "What's your first move?",
+          "subtitle": "Comment your move, then take the free test at mizaj.pk"
+        }
+      ],
+      "caption": "Doorbell rings. Nobody called ahead. Sixteen types, sixteen reactions.\n\nOne has samosas in the freezer for exactly this moment. One vanished into the study. One produced biryani, kebabs and kheer in forty minutes. And one sensed it and already put the kettle on.\n\nTag the person who gets sent to the market every time.\n\nWhat's your first move when guests show up?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Guests arrived without calling. Which one are you? #mizaj #desimehman #desifamily #personalitytypes #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#mehmaan",
+        "#desifamily",
+        "#desimemes",
+        "#personalitytypes",
+        "#esfj",
+        "#infj",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "doorbell sound, then a frantic comedic chase-scene track",
+      "reel_hook": "POV: doorbell rings and nobody called ahead."
+    },
+    {
+      "id": "d22-a-how-the-test-works",
+      "day": 22,
+      "time": "20:00",
+      "pillar": "brand",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "How the test works + free test reminder",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "How the Mizaj test actually works",
+          "subtitle": "No trick questions and no right answers. Just honest ones."
+        },
+        {
+          "kind": "list",
+          "title": "Three free tests",
+          "items": [
+            "Personality: 48 questions, 8 minutes, your type",
+            "Asli Mizaj: 24 questions, 4 minutes, your temperament",
+            "Career Compass: 24 activities, 4 minutes, your interests"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "How scoring works",
+          "text": "Each answer nudges you along four scales: Mehfil or Khalwat, Haqiqat or Khayal, Dimagh or Dil, Nizam or Azad. You see percentages, not just letters, because nobody is 100% anything."
+        },
+        {
+          "kind": "text",
+          "title": "Answer like the real you",
+          "text": "Not the you your Ammi wants, not the you on your CV. Answer how you act on an ordinary Tuesday. That's where the accurate result lives."
+        },
+        {
+          "kind": "list",
+          "title": "What you get free",
+          "items": [
+            "Your type name, summary and strengths",
+            "Your mizaj and a quick wellness tip",
+            "Fictional characters who share your type",
+            "A Milan link to compare with family"
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Reminder: it's free and takes 8 minutes",
+          "subtitle": "English or Urdu. Start your test now at mizaj.pk"
+        }
+      ],
+      "caption": "How does a test know you're a Mezbaan? Here's the honest answer.\n\nThe personality test has 48 questions and takes about 8 minutes, in English or Urdu. Each answer nudges you along four scales, and you see percentages, not just letters. The Asli Mizaj quiz adds your temperament in 4 more minutes. All three tests are free.\n\nOne tip: answer like your ordinary Tuesday self, not your CV self.\n\nTaken it yet? Comment your result.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "48 questions, 8 minutes, free. Here's how the Mizaj test works. #mizaj #mizajpk #personalitytest #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#personalitytest",
+        "#freetest",
+        "#selfdiscovery",
+        "#personalitytypes",
+        "#pakistan",
+        "#desi",
+        "#islamabad",
+        "#karachi"
+      ],
+      "audio_hint": "clean, upbeat explainer beat with soft clicks on each step",
+      "reel_hook": "How does a test know you're a Mezbaan?"
+    },
+    {
+      "id": "d23-a-mizaj-milan-pairs",
+      "day": 23,
+      "time": "13:00",
+      "pillar": "milan",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Mizaj milan: which temperaments balance at home",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Garam + thanda: mizaj pairs at home",
+          "subtitle": "Which temperaments balance each other, according to Unani tradition."
+        },
+        {
+          "kind": "text",
+          "title": "Safravi + Balghami: fire meets river",
+          "text": "Tradition sees this as a classic balance. Their calm cools your fire; your energy gets them off the sofa. Expect one to say 'jaldi karo' daily and the other 'aaram se'."
+        },
+        {
+          "kind": "text",
+          "title": "Damvi + Saudavi: breeze meets earth",
+          "text": "One fills the house with guests, the other with plans. Damvi brings lightness, Saudavi brings depth. Just agree on how many dawats a month is too many."
+        },
+        {
+          "kind": "text",
+          "title": "Damvi + Safravi: two warm hearts",
+          "text": "Lively, fun and fast. Arguments ignite quickly but cool just as quickly. Try a cooling-off rule: nobody replies until their chai is finished."
+        },
+        {
+          "kind": "text",
+          "title": "Balghami + Saudavi: the calm, cool home",
+          "text": "Peaceful, steady and deeply loyal. The risk is too much quiet and plans that never start. Someone has to book the family trip. Take turns."
+        },
+        {
+          "kind": "text",
+          "title": "Safravi + Saudavi: the efficient home",
+          "text": "Precise, serious and organised. The house runs perfectly but can start to feel like an office. Schedule fun like it's a meeting, then actually attend."
+        },
+        {
+          "kind": "text",
+          "title": "Damvi + Balghami: the cosy home",
+          "text": "Warm meets calm. Guests feel welcome, nobody shouts, and dinner is always generous. Just make sure someone keeps an eye on the budget."
+        },
+        {
+          "kind": "text",
+          "title": "Same mizaj, same home",
+          "text": "Two of the same understand each other instantly, but nobody balances the other out. Borrow the missing quality on purpose: planning, warmth, calm or rest."
+        },
+        {
+          "kind": "cta",
+          "title": "Check your mizaj match together",
+          "subtitle": "Both take the free 4-minute quiz, then compare on Mizaj Milan at mizaj.pk"
+        }
+      ],
+      "caption": "Garam + thanda: why opposite mizaj often make the calmest homes.\n\nUnani tradition sees some pairings as natural balance: the Safravi's fire cooled by the Balghami's calm, the Damvi's lightness grounded by the Saudavi's depth. Same-mizaj pairs understand each other instantly but need to borrow what's missing.\n\nTraditional wisdom for reflection, not a verdict on any marriage.\n\nWhat's the mizaj combo in your home?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Garam + thanda: which mizaj balance each other at home? #mizaj #mizajmilan #garammizaj #unani #marriage #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#mizajmilan",
+        "#garammizaj",
+        "#unani",
+        "#marriage",
+        "#desifamily",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "warm wholesome strings with a gentle tabla groove",
+      "reel_hook": "Garam plus thanda: the perfect household?"
+    },
+    {
+      "id": "d23-b-each-type-as-a-rickshaw-passenger",
+      "day": 23,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type as a bus/rickshaw passenger",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type in a rickshaw or bus",
+          "subtitle": "Same commute, sixteen very different passengers."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Knows the exact fare, the shortest route and the stop. Zero small talk needed."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Missed their stop thinking about why buses always arrive in pairs. Rides to the end again."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Takes three work calls in the rickshaw and closes a deal before the signal turns green."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Discusses world economics with the rickshaw driver. Both get out smarter, and friends."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Window seat, earphones in, writing a stranger's entire life story in their head."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Gets emotionally attached to the hand-painted poetry on the back of the rickshaw."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Gives up their seat, helps an elder with their bags, and learns their grandkids' names."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Gets in for a 10-minute ride, gets out with a business idea co-founded with the driver."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Has exact change ready. Has had it ready since leaving home."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Shares live location with three family members and updates them at every stop."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Politely corrects the conductor about the fare, with the official chart on their phone."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Knows the regular bus driver's name, their kids' names and their favourite chai."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Hears the rickshaw engine misfire and names the faulty part before the next signal."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Photographs every hand-painted rickshaw and truck in the city like it's a gallery."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Bargains the fare down for fun, then tips back the difference because 'that was fun'."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Has the whole bus clapping along to the driver's old songs by the second stop."
+        },
+        {
+          "kind": "cta",
+          "title": "Which passenger are you?",
+          "subtitle": "Tag your commute buddy. Free type test at mizaj.pk"
+        }
+      ],
+      "caption": "Every rickshaw and bus ride, as experienced by the 16 types.\n\nOne has had exact change ready since leaving home. One is reading the poetry painted on the back of the rickshaw. One co-founded a business with the driver in ten minutes. One found the engine fault before the next signal.\n\nTag your daily commute buddy.\n\nWhich passenger are you?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Rickshaw and bus rides, 16 types. Tag your commute buddy. #mizaj #rickshaw #truckart #personalitytypes #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#rickshaw",
+        "#truckart",
+        "#commute",
+        "#desimemes",
+        "#personalitytypes",
+        "#isfj",
+        "#pakistan",
+        "#karachi",
+        "#lahore"
+      ],
+      "audio_hint": "rickshaw engine putt-putt sound into a quirky upbeat street-music track",
+      "reel_hook": "Every rickshaw ride has one of these 16 passengers."
+    },
+    {
+      "id": "d24-a-sarkari-private-or-freelance",
+      "day": 24,
+      "time": "20:30",
+      "pillar": "career",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Government job, private job or freelance by type",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Sarkari naukri, private job or freelance?",
+          "subtitle": "Your type has a preference. So does every relative."
+        },
+        {
+          "kind": "list",
+          "title": "Often thrive in government service",
+          "items": [
+            "Amanatdar and Muntazim: clear rules, clear ladder",
+            "Ustaad and Darvesh: public service with purpose",
+            "Mansooba-saaz: long-term policy and strategy roles"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Often thrive in private companies",
+          "items": [
+            "Sipah-salar: fast promotions and big targets",
+            "Jaanbaz: sales, deals and daily wins",
+            "Mezbaan: people-facing roles in hospitality and HR",
+            "Hazir-jawab: new products, pitches and problem-solving"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Often thrive freelancing or remote",
+          "items": [
+            "Falsafi: deep work, no meetings, own hours",
+            "Shayar: writing, illustration and translation",
+            "Karigar: coding, embedded systems and repairs",
+            "Musawwir: design and photography"
+          ]
+        },
+        {
+          "kind": "text",
+          "title": "Or mix them",
+          "text": "Many Pakistanis now pair a stable job with freelance work on the side. Knowing your type tells you which part should be the main dish and which is the raita."
+        },
+        {
+          "kind": "cta",
+          "title": "Find your work style in 8 minutes",
+          "subtitle": "Free personality test, then Career Compass, at mizaj.pk"
+        }
+      ],
+      "caption": "Sarkari naukri, private job or freelancing: the great Pakistani family debate.\n\nThe truth? Your type has a lot to say about where you'll thrive. Some love clear rules and a steady ladder. Some need targets and speed. Some do their best work alone, at odd hours, for clients across the world. And many mix two.\n\nWhich one are you in right now, and which one do you want?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Sarkari naukri, private job or freelance? Ask your type. #mizaj #freelancing #careers #jobs #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#freelancing",
+        "#sarkarinaukri",
+        "#careers",
+        "#jobsinpakistan",
+        "#personalitytypes",
+        "#pakistan",
+        "#karachi",
+        "#islamabad"
+      ],
+      "audio_hint": "office-comedy beat with a keyboard-typing intro",
+      "reel_hook": "Sarkari naukri or freelancing? Your type already decided."
+    },
+    {
+      "id": "d25-a-burj-element-meets-mizaj",
+      "day": 25,
+      "time": "13:00",
+      "pillar": "fun",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "Burj element meets mizaj",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Your burj's element, meet your mizaj",
+          "subtitle": "Fire, earth, air, water: the old elements behind both."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Hawa (air), like Jauza, Meezan and Dalv. Light, social, always moving. A Damvi Meezan will host the dawat and still not decide the menu."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Aag (fire), like Hamal, Asad and Qaus. Quick, bright and bold. A Safravi Asad doesn't enter a room; they make an entrance."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Paani (water), like Sartan, Aqrab and Hoot. Calm, deep and loyal. A Balghami Sartan has cooked your favourite food before you even said you were coming."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Mitti (earth), like Saur, Sumbula and Jadi. Grounded, careful, built to last. A Saudavi Sumbula has already alphabetised this carousel."
+        },
+        {
+          "kind": "text",
+          "title": "Same elements, different systems",
+          "text": "Unani tradition and old astrology both borrowed the four classical elements. Your mizaj describes temperament; your burj is just for fun. Matching elements? Double the flavour. Opposites? Very interesting company."
+        },
+        {
+          "kind": "cta",
+          "title": "Do your burj and mizaj match?",
+          "subtitle": "Find your mizaj free at mizaj.pk, then comment your combo."
+        }
+      ],
+      "caption": "Fire, earth, air, water. Your burj and your mizaj speak the same old language.\n\nUnani tradition links each mizaj to a classical element, and so does old astrology. So a Safravi Asad is double fire, while a Balghami Hamal is a very interesting mix. Find your element combo on the slides.\n\nBurj content is for fun only: a mirror, not a prophecy.\n\nComment your burj and your mizaj. Matching or opposites?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Your burj's element vs your mizaj. Matching or opposites? For fun. #mizaj #burj #zodiac #unani #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#burj",
+        "#zodiac",
+        "#elements",
+        "#unani",
+        "#forfun",
+        "#pakistan",
+        "#desi",
+        "#pakistani"
+      ],
+      "audio_hint": "four-part elemental sound design: wind, crackle, water, earth thud, then a beat",
+      "reel_hook": "Your burj and your mizaj: matching or opposites?"
+    },
+    {
+      "id": "d25-b-each-type-at-gully-cricket",
+      "day": 25,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type at a gully cricket match with cousins",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type at gully cricket",
+          "subtitle": "Tape-ball, a wall for stumps, and sixteen cousins with opinions."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Studies every cousin's batting weakness and bowls accordingly. It's a tape-ball match in a street."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Spends the innings working out whether the wall legally counts as a fielder."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Self-appointed captain, umpire and selector. Has never lost a toss argument."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Invents new rules mid-match: 'one-tip-one-hand', plus three emergency amendments."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Bowls gently to the youngest cousin so they can hit their very first four."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Fielding at long-on, staring at the sky. The ball rolls past. Again."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Picks the weakest players first so nobody feels left out."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Does live commentary for every ball and gives every cousin a dramatic nickname."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Keeps the official score in a notebook. The notebook is the law."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Brings water for everyone and makes sure the little ones are wearing jackets."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Enforces 'over the wall is out' and keeps the batting order painfully fair."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Goes door to door apologising whenever the ball hits someone's window."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Retrieves the ball from the roof, the drain and the neighbour's tree. Every time."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Painted the stumps on the wall so neatly the whole street still uses them."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Bowls the fastest tape-ball the street has ever seen, then claims the next over too."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Celebrates every single run like they've just won a final. With a dance."
+        },
+        {
+          "kind": "cta",
+          "title": "Tag your gully team captain",
+          "subtitle": "Then find your type, free, at mizaj.pk"
+        }
+      ],
+      "caption": "Gully cricket with cousins: the purest form of the game, and the most arguments.\n\nOne studies every cousin's batting weakness. One invented three new rules mid-match. One keeps the official score in a notebook, and the notebook is the law. One bowls the fastest tape-ball the street has ever seen.\n\nTag your gully team captain.\n\nWhich one were you in your street?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Gully cricket with cousins, 16 types. Tag your captain. #mizaj #gullycricket #tapeball #cricket #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#gullycricket",
+        "#tapeball",
+        "#cricket",
+        "#desimemes",
+        "#personalitytypes",
+        "#estj",
+        "#pakistan",
+        "#lahore",
+        "#karachi"
+      ],
+      "audio_hint": "crowd-cheer sound and a classic cricket-commentary style beat",
+      "reel_hook": "Every gully cricket match has these 16 cousins."
+    },
+    {
+      "id": "d26-a-how-each-mizaj-gets-angry",
+      "day": 26,
+      "time": "20:30",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Gussa: how each mizaj gets angry",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "How each mizaj gets angry",
+          "subtitle": "And exactly how long each one takes to cool down."
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Flares loudly, forgives completely, and has forgotten the whole thing by the next cup of chai. You're still upset; they've moved on."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Fast, hot and very articulate. Says the sharpest sentence in the room, cools down in ten minutes, then feels guilty for an hour."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Takes months to get angry. When they finally do, the whole family goes silent, because nobody has seen this before."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Doesn't shout. Goes quiet, remembers everything, and brings it up calmly three months later, with the exact day and time."
+        },
+        {
+          "kind": "text",
+          "title": "Cooling down, the traditional way",
+          "text": "Unani counts emotions among the essentials of wellbeing. Many people find a short walk, a glass of water and a pause before replying help every mizaj. The family group chat can wait."
+        },
+        {
+          "kind": "cta",
+          "title": "Which gussa is yours?",
+          "subtitle": "Comment below, then take the free mizaj quiz at mizaj.pk"
+        }
+      ],
+      "caption": "Every mizaj gets angry. They just do it very differently.\n\nOne flares up and forgives by the next cup of chai. One says the sharpest sentence in the room, then feels guilty. One takes months to get angry and silences the whole family when they do. One goes quiet and remembers everything, with the exact day and time.\n\nTraditional wisdom for reflection, not medical advice.\n\nWhich gussa is yours? Be honest, your family is reading.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "How each mizaj gets angry, and how fast they cool down. #mizaj #gussa #garammizaj #unani #desifamily #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#gussa",
+        "#garammizaj",
+        "#unani",
+        "#desifamily",
+        "#desimemes",
+        "#pakistan",
+        "#desi",
+        "#karachi"
+      ],
+      "audio_hint": "funny dramatic Pakistani drama OST style thunder-and-violin sting",
+      "reel_hook": "Garam mizaj? Watch how each one loses it."
+    },
+    {
+      "id": "d27-a-tell-me-about-yourself-by-family",
+      "day": 27,
+      "time": "13:00",
+      "pillar": "career",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "title": "'Tell me about yourself' by type family",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "'Tell me about yourself': each family's answer",
+          "subtitle": "The interview question everyone dreads, and how your type can nail it."
+        },
+        {
+          "kind": "text",
+          "title": "Danishwar (Thinkers)",
+          "text": "The trap: a six-minute lecture on your final-year project. The fix: one problem you solved, how you solved it, and the result, in under a minute."
+        },
+        {
+          "kind": "text",
+          "title": "Ahl-e-Dil (Heart-led)",
+          "text": "The trap: your life story, starting from school. The fix: why this work matters to you, plus one example of the difference you made for real people."
+        },
+        {
+          "kind": "text",
+          "title": "Pasban (Guardians)",
+          "text": "The trap: reciting your CV in order. The fix: two strengths with proof, like the deadline you saved or the process you improved."
+        },
+        {
+          "kind": "text",
+          "title": "Fankar (Makers)",
+          "text": "The trap: 'Umm, I'm a hands-on person.' The fix: show it. Describe something you built, designed, sold or fixed, and bring photos if you can."
+        },
+        {
+          "kind": "cta",
+          "title": "Know your strengths before the interview",
+          "subtitle": "Your free type result lists them clearly. Test at mizaj.pk"
+        }
+      ],
+      "caption": "'So, tell me about yourself.' Cue panic.\n\nThe most common interview question trips up every type differently. Thinkers lecture, the heart-led tell their life story, guardians recite their CV and makers say 'umm, I'm a hands-on person'. Here's the trap and the fix for each family.\n\nSave this before your next interview, and share it with someone job hunting.\n\nHow do you usually answer this question?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "'Tell me about yourself.' How each type family should answer. #mizaj #interviewtips #jobs #careers #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#interviewtips",
+        "#jobsinpakistan",
+        "#careers",
+        "#freshgraduates",
+        "#personalitytypes",
+        "#pakistan",
+        "#lahore",
+        "#islamabad"
+      ],
+      "audio_hint": "awkward-silence cricket chirp, then a confident upbeat corporate beat",
+      "reel_hook": "'Tell me about yourself.' Don't say this."
+    },
+    {
+      "id": "d27-b-each-type-in-a-group-project",
+      "day": 27,
+      "time": "21:00",
+      "pillar": "types",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each type in a university group project",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each type in a group project",
+          "subtitle": "Four members, one deadline, and the same person doing everything."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Rewrote the whole report at 3 am because the structure 'had no logic'."
+        },
+        {
+          "kind": "type",
+          "code": "INTP",
+          "text": "Researched one sub-topic for forty hours. The deadline is tomorrow. It's brilliant."
+        },
+        {
+          "kind": "type",
+          "code": "ENTJ",
+          "text": "Made the plan, assigned the work, and booked the presentation slot. On day one."
+        },
+        {
+          "kind": "type",
+          "code": "ENTP",
+          "text": "Pitches a completely new topic two days before submission. It's better. Chaos."
+        },
+        {
+          "kind": "type",
+          "code": "INFJ",
+          "text": "Quietly patches up a fight between two members without either one noticing."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Wrote the most moving conclusion paragraph the professor has ever read."
+        },
+        {
+          "kind": "type",
+          "code": "ENFJ",
+          "text": "Checks in on the quiet member and helps them own the presentation."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Designed a gorgeous title slide, a logo and a team name. Content: pending."
+        },
+        {
+          "kind": "type",
+          "code": "ISTJ",
+          "text": "Did their part, cited properly, submitted three days early. Formatting immaculate."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Quietly does the absent member's part so nobody in the group loses marks."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Keeps meeting minutes for a four-person group. Signs them. Distributes them."
+        },
+        {
+          "kind": "type",
+          "code": "ESFJ",
+          "text": "Organises the group's chai break and keeps the peace with homemade brownies."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Built the working model in one evening while everyone was still 'brainstorming'."
+        },
+        {
+          "kind": "type",
+          "code": "ISFP",
+          "text": "Made the slides look like an art exhibition. The professor took a photo."
+        },
+        {
+          "kind": "type",
+          "code": "ESTP",
+          "text": "Did zero prep, presented live, and charmed the panel into full marks."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Handles the Q&A with jokes so good the panel forgets the tough questions."
+        },
+        {
+          "kind": "cta",
+          "title": "Tag your group project partner",
+          "subtitle": "You know what you did. Free type test at mizaj.pk"
+        }
+      ],
+      "caption": "Every university group project has all 16 types, and one person doing everything.\n\nOne rewrote the report at 3 am. One designed a gorgeous title slide and nothing else. One keeps signed meeting minutes for a group of four. One presented with zero prep and somehow got full marks.\n\nTag your group project partner. You know what you did.\n\nWhich one are you in the group?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Group project, 16 types, one person doing everything. Tag them. #mizaj #universitylife #groupproject #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#universitylife",
+        "#groupproject",
+        "#studentsofpakistan",
+        "#desimemes",
+        "#personalitytypes",
+        "#entp",
+        "#pakistan",
+        "#lahore",
+        "#karachi"
+      ],
+      "audio_hint": "chaotic deadline-panic beat with a 'submitted' ding at the end",
+      "reel_hook": "Every group project has these 16 people."
+    },
+    {
+      "id": "d28-a-type-x-mizaj-combos",
+      "day": 28,
+      "time": "21:00",
+      "pillar": "fun",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Type x mizaj combos",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Type × mizaj combos that explain everything",
+          "subtitle": "Your type is how you think. Your mizaj is your fuel."
+        },
+        {
+          "kind": "type",
+          "code": "INTJ",
+          "text": "Safravi Mansooba-saaz: a five-year plan and a five-second fuse. Do not interrupt the plan."
+        },
+        {
+          "kind": "type",
+          "code": "INFP",
+          "text": "Saudavi Shayar: writes a ghazal about something you said years ago. You forgot. They didn't."
+        },
+        {
+          "kind": "type",
+          "code": "ENFP",
+          "text": "Damvi Rangeela: 14 hobbies, 200 friends, and an open invitation to every one of them."
+        },
+        {
+          "kind": "type",
+          "code": "ISFJ",
+          "text": "Balghami Muhafiz: the calmest person in any crisis, already holding a warm shawl for you."
+        },
+        {
+          "kind": "type",
+          "code": "ESTJ",
+          "text": "Safravi Muntazim: the meeting started at 9:00. It is 9:01. Explanations are due."
+        },
+        {
+          "kind": "type",
+          "code": "ISTP",
+          "text": "Balghami Karigar: fixes your car slowly, perfectly and in complete silence. Don't rush them."
+        },
+        {
+          "kind": "type",
+          "code": "ESFP",
+          "text": "Damvi Mehfil ki Jaan: the dholki ended at 1 am. They're still dancing in the car park."
+        },
+        {
+          "kind": "cta",
+          "title": "Find your exact combo",
+          "subtitle": "Both tests are free: 8 minutes plus 4 minutes at mizaj.pk"
+        }
+      ],
+      "caption": "Your type is how you think. Your mizaj is your fuel. Together, they explain everything.\n\nA Safravi Mansooba-saaz has a five-year plan and a five-second fuse. A Balghami Muhafiz is already holding a warm shawl for you. A Damvi Mehfil ki Jaan is still dancing in the car park after the dholki. Find your combo on the slides.\n\nComment your type and your mizaj. Let's find the rarest combo in the comments.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Your type + your mizaj = the full picture. Comment your combo. #mizaj #mizajpk #personalitytypes #unani #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#personalitytypes",
+        "#garammizaj",
+        "#unani",
+        "#intj",
+        "#esfp",
+        "#commentyourtype",
+        "#pakistan",
+        "#desi",
+        "#pakistani"
+      ],
+      "audio_hint": "two-part 'combo' sound: a click, a whoosh, then a beat drop",
+      "reel_hook": "Your type plus your mizaj explains everything."
+    },
+    {
+      "id": "d29-a-each-mizaj-on-a-foggy-morning",
+      "day": 29,
+      "time": "19:30",
+      "pillar": "mizaj",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Each mizaj on a foggy winter morning",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Each mizaj on a foggy winter morning",
+          "subtitle": "Alarm at 7. Fog outside. Who actually gets up?"
+        },
+        {
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Up at 7, chirpy, opening everyone's curtains. Tradition says keep moving on foggy days, so the morning walk is non-negotiable."
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Already up, already annoyed the geyser isn't on yet. Tradition says winter suits your fire, so enjoy feeling clear-headed and kinder than usual."
+        },
+        {
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "The razai has won. Tradition says cold, damp mornings feel heaviest for you; warm water with honey and lemon, then sunlight, helps you get going."
+        },
+        {
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Awake since 5, thinking. Cold, dry mornings can feel low. Tradition suggests a warm breakfast, oiled skin and seeking sunlight on purpose."
+        },
+        {
+          "kind": "text",
+          "title": "The Unani winter rule",
+          "text": "Tradition suggests matching the season: warmer, moister food and more movement in winter. Many people swear by ten minutes of morning sun before the day begins."
+        },
+        {
+          "kind": "cta",
+          "title": "Know your mizaj, own your winter",
+          "subtitle": "Free quiz, 24 questions, 4 minutes at mizaj.pk"
+        }
+      ],
+      "caption": "7 am, thick fog outside, razai on top. Who actually gets up?\n\nUnani tradition says winter feels different for every mizaj: easier for the warm ones, heavier for the cool ones. From the Damvi who opens everyone's curtains to the Balghami negotiating with the razai, here's your foggy morning, explained.\n\nTraditional wellness wisdom, not medical advice.\n\nWhat time did you get out of bed today?\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "7 am, fog outside, razai on top. Which mizaj gets up? #mizaj #fog #sardi #winter #garammizaj #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#fog",
+        "#sardi",
+        "#winter",
+        "#garammizaj",
+        "#unani",
+        "#pakistan",
+        "#desi",
+        "#lahore"
+      ],
+      "audio_hint": "alarm-clock snooze sound into a slow, foggy lo-fi beat",
+      "reel_hook": "7 am. Fog outside. Which mizaj actually gets up?"
+    },
+    {
+      "id": "d30-a-best-friend-pairs-by-type",
+      "day": 30,
+      "time": "21:00",
+      "pillar": "milan",
+      "platforms": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ],
+      "title": "Best friend pairs by type",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "Best friend pairs, by type",
+          "subtitle": "Find your duo, then tag your best friend."
+        },
+        {
+          "kind": "text",
+          "title": "Hazir-jawab + Darvesh",
+          "text": "One starts a debate at 1 am; the other turns it into a deep talk. Friends since college, still not finished with that conversation."
+        },
+        {
+          "kind": "text",
+          "title": "Muhafiz + Mehfil ki Jaan",
+          "text": "One packs snacks, jackets and a backup plan. The other makes the trip so legendary that everyone needs all three."
+        },
+        {
+          "kind": "text",
+          "title": "Karigar + Jaanbaz",
+          "text": "The bike breaks, the trip continues. One fixes things; the other breaks them in new and creative ways."
+        },
+        {
+          "kind": "text",
+          "title": "Shayar + Rangeela",
+          "text": "Eleven-minute voice notes. Shared playlists. Big dreams at the chai dhaba. Equal parts laughter and life crises."
+        },
+        {
+          "kind": "text",
+          "title": "Amanatdar + Muntazim",
+          "text": "Same place, same time, every Thursday, for nine years. Neither has ever been late. Neither has ever needed to ask."
+        },
+        {
+          "kind": "text",
+          "title": "Falsafi + Musawwir",
+          "text": "Can sit together for two hours without saying a word and call it the best day of the month."
+        },
+        {
+          "kind": "cta",
+          "title": "Tag the friend who completes your pair",
+          "subtitle": "Then both take the free test at mizaj.pk and compare results"
+        }
+      ],
+      "caption": "Every best friend duo is two types who just make sense together.\n\nThe one who starts a debate at 1 am and the one who turns it into a deep talk. The one who packs the snacks and the one who makes the trip legendary. The one who fixes the bike and the one who breaks it, creatively.\n\nTag your best friend and tell us which pair you are.\n\nFree test: link in bio (mizaj.pk)",
+      "tiktok_caption": "Best friend pairs by type. Tag your other half of the duo. #mizaj #bestfriends #yaari #personalitytypes #pakistan",
+      "hashtags": [
+        "#mizaj",
+        "#mizajpk",
+        "#bestfriends",
+        "#yaari",
+        "#dosti",
+        "#tagyourfriend",
+        "#personalitytypes",
+        "#pakistan",
+        "#desi",
+        "#karachi",
+        "#lahore"
+      ],
+      "audio_hint": "nostalgic 'friendship montage' instrumental, warm and upbeat",
+      "reel_hook": "Tag the friend who completes your pair."
+    }
+  ]
+}

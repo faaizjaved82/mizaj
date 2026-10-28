@@ -1,0 +1,13 @@
+[project]
+name = "mizaj-social"
+version = "1.0.0"
+description = "Posts Mizaj's content queue to Instagram and Facebook; nudges the owner on Telegram for TikTok"
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mizaj_social"]

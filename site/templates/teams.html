@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <span class="eyebrow">Mizaj for Teams 🤝</span>
+      <h1>Your team, on one map</h1>
+      <p class="lead">Why does one manager want every detail and another wants the big picture? Mizaj for Teams shows everyone's type and temperament, how they work best, and where friction comes from, so meetings get shorter and clashes get fewer.</p>
+      <div class="hero-ctas"><a class="btn btn-pom" href="#talk">Talk to us</a></div>
+    </div>
+    <div class="card stack">
+      <h3>Includes</h3>
+      <ul class="list-check"><li>Full Mizaj Report for every team member</li><li>Team map: types, temperaments and blind spots</li><li>Communication guide for the team</li><li>Optional half-day workshop (on-site or online)</li></ul>
+      <p class="small muted">For development and team building, not for hiring decisions.</p>
+    </div>
+  </div>
+</div></section>
+<section class="section section-alt"><div class="wrap">
+  <div class="grid grid-3">
+    <div class="card"><h3>Team pack</h3><div style="font:700 1.8rem var(--serif)">PKR 1,500 <span class="small muted">/ person</span></div><p class="muted small">Minimum 10. Reports plus team map.</p></div>
+    <div class="card"><h3>Team workshop</h3><div style="font:700 1.8rem var(--serif)">From PKR 150,000</div><p class="muted small">Half-day facilitated session for up to 25 people, plus team packs.</p></div>
+    <div class="card"><h3>Leadership offsite</h3><div style="font:700 1.8rem var(--serif)">Custom</div><p class="muted small">Leadership styles, conflict and decision-making.</p></div>
+  </div>
+</div></section>
+<section class="section" id="talk"><div class="wrap narrow">
+  {% with kind="team", form_title="Tell us about your team", org_label="Company", size_label="Team size", button="Send" %}{% include "lead_form.html" %}{% endwith %}
+</div></section>
+{% endblock %}

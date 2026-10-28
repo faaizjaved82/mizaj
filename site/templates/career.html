@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero"><div class="wrap narrow">
+  <span class="eyebrow">Career Compass 🎓</span>
+  <h1>Pre-Medical, Pre-Engineering, ICS or something else?</h1>
+  <p class="lead">Every year lakhs of Pakistani students pick a stream because a cousin did, or because of pressure. Career Compass helps you choose with evidence: your interests plus your personality, matched to real Pakistani routes.</p>
+  <div class="hero-ctas"><a class="btn btn-pom" href="/test/interests/">Start Career Compass (4 min) →</a><a class="btn btn-ghost" href="/test/personality/">Take the personality test first</a></div>
+  <div class="grid grid-2" style="margin-top:28px">
+    <div class="card"><h3>Free</h3><ul class="list-check"><li>Your 3-letter interest code (RIASEC)</li><li>What each letter means for you</li><li>How it connects to your personality type</li></ul></div>
+    <div class="card"><h3>Career Compass report · {{ products.career.price|pkr }}</h3><ul class="list-check">{% for b in products.career.bullets %}<li>{{ b }}</li>{% endfor %}</ul></div>
+  </div>
+  <div class="notice" style="margin-top:20px">🏫 Teacher or principal? <a href="/schools/">Run Career Compass for your whole class</a>, with a counsellor dashboard and parent reports.</div>
+</div></section>
+{% endblock %}

@@ -1,0 +1,270 @@
+{
+  "code": "ENFJ",
+  "name": "Ustaad",
+  "name_ur": "استاد",
+  "name_en": "The Mentor",
+  "family": "Ahl-e-Dil",
+  "emoji": "🪔",
+  "colors": [
+    "#1F6F5C",
+    "#F2A541"
+  ],
+  "tagline": "You believe in people until they start believing in themselves.",
+  "share_line": "Half my friends got through entry tests because I wouldn't let them quit.",
+  "keywords": [
+    "Inspiring",
+    "Warm",
+    "Organised",
+    "Persuasive",
+    "Devoted"
+  ],
+  "rarity": "about 2-3% of people",
+  "free": {
+    "summary": "You walk into a room and, within minutes, know who feels left out, who needs a push and what the group should do next. Then you quietly start making it happen. You organise the study group before the entry test, the surprise for your parents' anniversary, the office farewell for the retiring guard that nobody else remembered. People follow you not because you demand it, but because you make them feel capable.\n\nWhat drives you is growth: yours, but even more, everyone else's. Nothing beats watching a younger cousin clear an exam you helped them prepare for, or a junior colleague present confidently after weeks of your coaching. Others see you as warm, articulate and dependable, the natural ustaad of every circle. What they rarely see is how much you carry. Under the confident pep talks is someone who badly wants to be needed and quietly fears being a disappointment. You give a lot. Learning to receive is your unfinished lesson.",
+    "strengths": [
+      "Spots potential in people and patiently coaches them until they reach it.",
+      "Organises people and events with warmth, so nobody feels like an afterthought.",
+      "Speaks persuasively, turning a nervous, doubtful team into a motivated one.",
+      "Remembers what matters to each person, and acts on it without being asked.",
+      "Reconciles feuding relatives or colleagues while letting everyone keep their dignity."
+    ],
+    "watchouts": [
+      "Says yes to everyone, then runs out of time and energy for themselves.",
+      "Offers help and advice before people have actually asked for it.",
+      "Feels personally responsible whenever someone they love is unhappy or struggling."
+    ],
+    "pakistani_archetype": "You're the one who made the family WhatsApp group, runs the Eid lunch rota, and always knows which cousin needs a pep talk before their result.",
+    "in_relationships": "You love actively. You plan the anniversary dinner, remember your in-laws' medicine timings and cheer loudest at every achievement. The right spouse notices the effort and sometimes takes care of you without being asked. Your challenge is letting love be mutual, rather than a project you manage.",
+    "at_work": "You are a natural lead, trainer and team-builder. You thrive where you can develop people, shape culture and see the human impact of your work. Isolated roles, cold politics or managers who treat staff as numbers frustrate you. Expect to become the person everyone comes to, officially or not.",
+    "fictional_twins": [
+      "John Keating (Dead Poets Society)",
+      "Mufasa (The Lion King)",
+      "Morpheus (The Matrix)",
+      "Peeta Mellark (The Hunger Games)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Your mind is tuned to people the way a radio is tuned to a station. You constantly pick up the emotional frequency of a room and, almost without deciding to, start adjusting it: a joke to break the tension, a question to draw in the quiet one, a firm suggestion when the group is drifting. None of this is performance. You feel other people's moods almost as if they were your own, and you cannot fully relax while someone near you is struggling. Beneath that warmth runs a sharp intuition about where people could go, which is why your encouragement is so specific. You never just say 'you can do it'. You say 'you can do this, and here is the first step'.\n\nAsk what gets you out of bed and the honest answer is other people's growth. You want to leave every classroom, department, joint family and friendship better than you found it. You keep a mental list of everyone you have taken under your wing, and you check on them the way some people check cricket scores. The fear shadowing all this is being unneeded, or worse, being the reason someone failed. That is why rejected help stings so sharply. For you, help is how love is spoken, and a refused offer can feel like a refused heart.\n\nBeing the ustaad has a hidden cost. You are so used to being the strong one that you rarely let anyone see you tired, unsure or wrong. In a single week you might be handling a sibling's university admissions, a friend's rishta worries and your manager's panic about a deadline, while telling your own family, 'I'm fine, just busy.' Your phone holds a dozen messages from people who need something, and rarely one asking how you are. Others see an energetic, capable person who has it all together. Inside, you are often running on duty, plus a quiet fear that if you stop, everything will fall apart.\n\nYour growth comes from two shifts. The first is trusting people to grow at their own pace, even when it is slower than you would like or heads somewhere you would never choose. The second is learning to receive help, advice and care without rushing to repay it. The best teachers stay students all their lives. When you let others pour into you, your own cup finally stops running dry, and your mentoring becomes lighter, wiser and far more sustainable.",
+    "superpowers": [
+      {
+        "title": "Spotting talent early",
+        "text": "You notice talent before its owner does: the quiet intern who writes a razor-sharp email, the cousin who explains maths better than the tuition teacher, the neighbour's teenager who fixes every phone on the street. And you act on it. You recommend the intern for a bigger project, push your cousin to start an O-Level maths channel, and connect the teenager with someone running a repair course. Years later, people trace their careers back to your nudge."
+      },
+      {
+        "title": "Reading the room live",
+        "text": "At any gathering you are tracking a dozen emotional signals at once. At a family dinner, you notice your aunt is hurt that nobody consulted her on the wedding menu, and before the evening sours you ask her advice on the dessert, loudly, in front of everyone. Crisis averted, and nobody even knew there was one. At work, the same radar lets you calm a tense meeting with one well-timed sentence."
+      },
+      {
+        "title": "Words that move people",
+        "text": "You speak in a way that makes people want to act. Your farewell speech for a retiring teacher left the whole staffroom in tears; a short Monday message to a demoralised team turned the week around. You use stories and specific praise, never empty slogans. In a culture that expects 'a few words' at every function, from prize day to walima, you are the one everybody quietly hopes will hold the mic."
+      },
+      {
+        "title": "Chaos into a plan",
+        "text": "Hand you a scattered group and a vague goal, and by evening there is a schedule, clear roles and a shared group chat. When a batchmate needed money for surgery, you organised the fundraiser, assigned tasks by each person's strengths, and kept spirits up when donations slowed. Unlike pure organisers, you never lose the human side: who needs credit, who needs reassurance, and who simply needs to hear they are doing well."
+      },
+      {
+        "title": "Bridge between relatives",
+        "text": "Joint families and offices are full of quiet feuds, and you are the one who brings people back to the same table. When two uncles stopped speaking over a shop partnership, you invited both to your graduation dinner, seated them together and planned a topic for every awkward pause. You understand that most conflicts are wounded pride in disguise, and you know how to offer people a dignified way back."
+      },
+      {
+        "title": "Warmth in the details",
+        "text": "Your care is remarkably specific. You remember that a colleague's mother had surgery last month and ask how her recovery is going, that a friend's CSS interview is on Thursday, that your new sister-in-law takes her chai with less sugar. People feel genuinely held by you. That builds deep loyalty, which is why, on the rare day you need a favour, a whole network of people you once helped is glad to return it."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "Rescuing the unrescued",
+        "text": "You see what someone could become and jump in, whether or not they asked. You rewrite a sibling's university essay, shortlist rishtas for a friend who wanted to wait, or redo a colleague's slides 'just to help'. The root is love mixed with impatience, but it can feel like control and robs people of their own growth. What helps: ask, 'Do you want my help or just my ear?' Then honour the answer."
+      },
+      {
+        "title": "Running on fumes",
+        "text": "In one week you agree to choreograph a cousin's mehndi, join the office events committee, fill in a neighbour's passport form and run your mother's errands. You keep going because stopping feels like letting people down, until you crash into exhaustion or snap at the people closest to you. The root is a belief that your value equals your usefulness. What helps: before accepting anything new, decide what you will drop to make room."
+      },
+      {
+        "title": "Approval as fuel",
+        "text": "Praise energises you, and its absence quietly hurts. A cold reply from your boss or a relative's offhand remark about your cooking can bother you all night, even after a hundred compliments that week. The root: your sense of worth is tied to being liked and useful. What helps: keep a private record of your values and real wins, and measure yourself against that, not against the mood of whichever room you are in."
+      },
+      {
+        "title": "Harmony over honesty",
+        "text": "To keep the peace, you sometimes smooth over real problems. You tell your team the project is 'on track' while privately worrying, or nod along with a family decision you think is wrong so nobody gets upset at dinner. The root: open conflict feels like failing at your role as the glue. What helps: remember that lasting harmony is built on truth. Name the problem kindly and early, then trust people to handle it."
+      },
+      {
+        "title": "Borrowed feelings",
+        "text": "You lose track of where you end and others begin. If your best friend is unhappy, you lose sleep; if a student you coached fails, you feel you failed too. The root is empathy without edges, which leaves you drained and taking everything personally. What helps: before reacting, ask yourself, 'Whose feeling is this?' Care fully, offer what you can, and let each person own their own life and choices."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "In marriage you are devoted, attentive and deeply invested in your spouse's growth. You plan the surprises, remember birthdays on both sides of the family and want your home to be where everyone gathers for Eid lunch. In return you need appreciation said out loud, a spouse who notices your effort, and someone who occasionally takes charge so you can rest. Friction appears when your love starts to look like management: suggesting career moves, health routines and how to handle their relatives. Your spouse may feel loved but gently supervised. You may also hide your own needs so well that your spouse learns you were unhappy only when it spills over. Learn to say 'I need' as easily as you say 'Let me help'.",
+      "rishta_tips": [
+        "Ask what they want to build in the next ten years. You need a shared mission, not just shared comfort.",
+        "Notice whether they ask about you too. Someone who only receives your attention will exhaust you within a year.",
+        "Resist the urge to 'fix' them in your head. Choose the person they are now, not their potential.",
+        "Tell them early that you are the family's go-to person, and ask honestly how they feel about sharing you.",
+        "Be wary of charming people who need constant reassurance; your caretaking instinct can mistake neediness for depth."
+      ],
+      "family": "In your family you are coordinator, counsellor and unofficial spokesperson. Your parents rely on you to talk the stubborn sibling round, plan the Umrah trip and handle delicate calls with relatives about wedding dates. You care deeply about izzat and family unity, and you will sacrifice your own preferences to protect them. Joint family life suits you as the connector, though you get pulled into every dispute, from the kitchen rota to the property file. As an older sibling you are almost a second parent; as a younger one, the diplomat. You are allowed a life of your own, and you do not have to be everyone's emergency number.",
+      "friendship": "You keep a wide circle and a strong inner circle alive through sheer effort. You organise the reunions, the surprise birthdays and the batch trip to Murree that actually happens. Friends bring you their career dilemmas and family tangles, and you will drive across the city in rush hour when someone needs you. The risk is becoming everyone's mentor and nobody's friend. Keep a few people who simply enjoy you, rather than need you.",
+      "best_matches": [
+        "INFP",
+        "ISFP",
+        "INTJ"
+      ],
+      "growth_matches": [
+        "ISTP",
+        "ESTP"
+      ]
+    },
+    "career": {
+      "work_style": "You work through people. You plan collaboratively, set shared goals and check in often, not to micromanage but to keep everyone connected. You like knowing the plan, yet you will change it instantly if it is hurting the team. You bring energy to Monday stand-ups and calm to Friday deadlines, and you shine in presentations, training, client relationships and anything that requires persuasion. Your weak zone is solitary, detail-heavy work; a week alone with spreadsheets and nobody to talk to can make you feel invisible. You also absorb struggling colleagues' tasks, which helps the team today but can hide real performance problems.",
+      "ideal_environment": "A people-centred workplace with a clear mission: a school where the principal knows every child's name, a hospital, an NGO, a consultancy or a growing company. You thrive with visible impact, regular collaboration and leaders who value culture as much as numbers. Recognition matters, not as trophies, but as hearing that your work made a difference. Toxic politics and ethically grey targets drain you fast.",
+      "careers": [
+        {
+          "title": "School teacher or principal",
+          "why": "Shaping young minds is your natural calling. You can turn a dull classroom into a place where children feel capable and seen.",
+          "pk_path": "B.Ed or a subject degree, then PPSC, SPSC or KPPSC educator posts, moving towards school leadership with experience."
+        },
+        {
+          "title": "Civil servant (CSS)",
+          "why": "As an assistant commissioner or district officer, you can lead teams, solve public problems and improve lives across whole communities.",
+          "pk_path": "Any bachelor's degree, then the FPSC CSS exam; take the essay paper seriously and aim for Pakistan Administrative Service."
+        },
+        {
+          "title": "HR business partner",
+          "why": "You understand what makes people stay, grow and perform. Companies value someone who can shape culture and handle sensitive people issues.",
+          "pk_path": "BBA or MBA with an HR focus from IBA, LUMS or NUST, then a management trainee programme at a bank or FMCG."
+        },
+        {
+          "title": "Corporate trainer and coach",
+          "why": "Workshops on leadership, communication and confidence turn your natural mentoring into a real, paid, scalable profession with clients across industries.",
+          "pk_path": "Pick a niche, earn a recognised coaching certification, start with university and SME workshops, then approach larger firms."
+        },
+        {
+          "title": "Family medicine doctor",
+          "why": "Families need a doctor who explains, reassures and actually follows up. You naturally build long-term trust with patients across three generations.",
+          "pk_path": "MDCAT, five-year MBBS and house job, then FCPS Family Medicine through CPSP or a recognised postgraduate diploma."
+        },
+        {
+          "title": "Entry-test academy founder",
+          "why": "Pakistan's MDCAT, ECAT and NET prep market is huge. You can build an academy known for mentoring students, not just drilling past papers.",
+          "pk_path": "Start with small batches in a rented room, publish results honestly, build a brand on social media, then expand online."
+        },
+        {
+          "title": "Online educator (remote)",
+          "why": "YouTube and course platforms let you teach thousands. Your clarity and warmth translate well to camera, and the audience compounds over time.",
+          "pk_path": "Pick a subject, upload consistently on YouTube, then launch paid courses for local and diaspora students on your own site."
+        },
+        {
+          "title": "Customer success manager (remote)",
+          "why": "Global software companies need people who build relationships and help clients succeed. You naturally turn frustrated customers into loyal fans.",
+          "pk_path": "Any degree, a year in a local customer-facing role and basic CRM skills, then remote applications through LinkedIn."
+        },
+        {
+          "title": "Family or human rights lawyer",
+          "why": "You can stand beside people in their most vulnerable moments, combining persuasion, empathy and principle in courtrooms and settlement talks.",
+          "pk_path": "Pass the HEC Law Admission Test, complete the five-year LLB, then train and get licensed through your provincial bar council."
+        },
+        {
+          "title": "Public health programme manager",
+          "why": "Vaccination drives and maternal health campaigns need someone who can mobilise communities and keep field teams motivated through tough months.",
+          "pk_path": "MBBS, nursing or social science degree, then a Master of Public Health; join government health programmes or donor-funded projects."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Isolated data-entry roles",
+          "why": "Long hours alone with nobody to support or develop can leave you feeling invisible and unmotivated."
+        },
+        {
+          "title": "Layoff and restructuring consulting",
+          "why": "Repeatedly cutting jobs and delivering bad news to families can weigh heavily on your conscience over time."
+        },
+        {
+          "title": "Solo night-shift remote work",
+          "why": "Working through the night alone cuts you off from family and team energy, which you need to thrive."
+        }
+      ],
+      "as_a_leader": "You are the kind of leader people still mention years later: 'Remember when they made us believe we could win that pitch?' You set an inspiring vision, mentor individuals and celebrate wins publicly, so your teams often outperform. Your pitfalls are avoiding tough performance talks, carrying weak performers too long and taking criticism of your team personally. Pair warmth with clear expectations, and you become formidable.",
+      "as_a_team_member": "You are the glue. You notice when morale dips after a bad review, remember everyone's birthdays and volunteer to coordinate the client visit. You are reliable, articulate and often the one presenting. But when leadership seems weak, you may step in unasked, which creates friction with the official lead. Ask before taking over, and remember that not every gap in the team is yours to fill.",
+      "money_style": "You spend generously on others: gifts, family functions, treating the team to biryani after a deadline. You often cover more than your share of household costs and become the unofficial bank for relatives. People trust you to run the family BC committee, and you run it well. Your risk is lending without limits and saving last. Move a fixed amount into savings on payday, then give from what remains."
+    },
+    "communication": {
+      "how_they_talk": "You speak with warmth, clarity and conviction, using names, stories and specific praise. In groups you steer naturally, ask quiet people for their view and wrap up with a clear next step. You are persuasive and a skilled listener, but you may finish people's sentences, or turn a friend's venting session into a five-step action plan before they have finished.",
+      "how_to_talk_to_them": [
+        "Appreciate their effort specifically and out loud; a generic thanks lands far less than you think.",
+        "If you only want to vent, say so first, or they will start solving.",
+        "Give critical feedback privately, and pair it with your trust in their intentions.",
+        "Ask how they are really doing, and do not accept 'busy' as the full answer."
+      ],
+      "conflict_style": "You want conflict resolved quickly and everyone kept together. After a fight with a sibling, you are usually the one who messages first, often within the hour, apologising for your part and proposing a compromise. But attack your character or your people and you become surprisingly fierce. Your blind spot is rushing to reconcile before the real issue is understood. Slow down and let the other person feel heard first."
+    },
+    "stress": {
+      "triggers": [
+        "Feeling unappreciated after giving a lot",
+        "Open conflict among people you love",
+        "Being criticised in front of others",
+        "Someone you mentored failing or turning away"
+      ],
+      "signs": [
+        "You get controlling about small details at home or work",
+        "You turn unusually critical and short-tempered",
+        "You overwork to avoid your own feelings",
+        "You feel, suddenly, that nobody truly cares about you"
+      ],
+      "reset": [
+        "Spend an evening doing something purely for yourself, helping no one",
+        "Tell one trusted person exactly how tired you are",
+        "List what you can let go of this week, then actually drop one item",
+        "Move your body: a long walk, badminton or stretching after Isha"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Ask before helping",
+        "why": "Unasked help can feel like pressure, even when it comes from love. Practise asking what people want from you before stepping in, so your support builds them up instead of taking over.",
+        "actions": [
+          "Before offering advice, ask: 'Do you want solutions, or should I just listen?'",
+          "Let one person struggle a little with a task without stepping in to fix it.",
+          "Each night, note one moment you wanted to rescue someone and what you did instead."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Protect your own time",
+        "why": "You cannot pour from an empty cup, however generous you are. Carve out small, protected spaces for rest and personal goals, and notice the world keeps turning when you are unavailable for an evening.",
+        "actions": [
+          "Block one evening this week as personal time, and do not cancel it for anyone.",
+          "Say no to one new request kindly, without over-explaining or offering a substitute.",
+          "Spend fifteen minutes daily on a personal goal unrelated to anyone else's needs."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Honest over harmonious",
+        "why": "Smoothing over problems buys peace today and costs trust tomorrow. Practise naming issues early and kindly, trusting that the people you love are strong enough to hear the truth from you.",
+        "actions": [
+          "Raise one honest concern at work or home that you have been avoiding.",
+          "When someone asks your opinion, give your real view before softening it.",
+          "Replace one 'it's fine' with a clear statement of what you actually need."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Receive, don't just give",
+        "why": "Letting others care for you is a form of trust, not weakness. Allow people to give back, ask openly for support, and accept compliments without deflecting them or rushing to return the favour.",
+        "actions": [
+          "Ask someone for help with a task you would usually handle alone.",
+          "When complimented, simply say 'thank you', without downplaying it or complimenting them back.",
+          "Tell a close friend about something you are struggling with, instead of only listening to theirs."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "A Damvi Ustaad is the motivator of every group and the warmest voice at every gathering. You run events with infectious cheer and can lift a hospital waiting room with one well-placed joke. The risk is that your enthusiasm makes promises your calendar cannot keep, so check your week before you volunteer.",
+      "safravi": "With Safravi fire, your mentoring takes on real force. You push teams hard and speak with an intensity people feel instantly, like the coach whose half-time talk wins the match. But your temper can flare when people waste your effort. Pause before reacting; pressure without warmth loses the very people you want to grow.",
+      "balghami": "A Balghami Ustaad is the gentle mentor, teaching through quiet example rather than big speeches, like the teacher who stays after class for the student who is struggling. Juniors feel completely safe with you. Your challenge is holding your ground in competitive offices and setting boundaries before everyone's needs flood your week.",
+      "saudavi": "Saudavi depth makes you a thoughtful, serious guide, the one who maps out a cousin's five-year career plan on a napkin. You mentor with high standards and can be the most far-sighted of your type, but you turn harshly self-critical when someone you helped stumbles. Remember: you are a guide, not a guarantee."
+    },
+    "letter": "Dear Ustaad,\n\nThink about how many people are where they are today because of you. The cousin who cleared MDCAT after you sat with them every evening. The colleague who finally spoke up in meetings. The friend who did not give up on a hard year because you kept calling.\n\nYou did that. Quietly, consistently, often without being thanked.\n\nBut here is something you may not hear enough: you are allowed to rest. You are allowed to be unsure, to say no, to ask for help, to not be the strongest person in every room. Your worth is not measured by how useful you were today.\n\nThe people who truly love you do not love you for what you fix. They love the person who shows up, laughs loudly over chai and believes in them. Let them believe in you too.\n\nKeep teaching. Keep lighting lamps. Just save some oil for your own.\n\n— Mizaj"
+  }
+}

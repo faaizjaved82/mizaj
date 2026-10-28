@@ -1,0 +1,16 @@
+<form class="card stack" data-lead="{{ kind }}">
+  <h3>{{ form_title }}</h3>
+  <div class="grid grid-2">
+    <div class="field"><label>Your name</label><input name="name" required maxlength="80"></div>
+    <div class="field"><label>{{ org_label or "Organisation" }}</label><input name="org" maxlength="80"></div>
+    <div class="field"><label>Your role</label><input name="role" maxlength="80"></div>
+    <div class="field"><label>City</label><input name="city" maxlength="80"></div>
+    <div class="field"><label>WhatsApp / phone</label><input name="phone" type="tel" required maxlength="30"></div>
+    <div class="field"><label>Email</label><input name="email" type="email" maxlength="80"></div>
+    <div class="field"><label>{{ size_label or "Size" }}</label><input name="size" maxlength="40"></div>
+  </div>
+  <div class="field"><label>Anything else?</label><textarea name="message" rows="3" maxlength="300"></textarea></div>
+  <div class="err" data-err></div>
+  <button class="btn btn-pom" type="submit">{{ button or "Send" }}</button>
+  <p class="ok hidden" data-ok>Shukriya! We'll WhatsApp you within one working day.</p>
+</form>

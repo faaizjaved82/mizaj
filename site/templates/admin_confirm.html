@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="section"><div class="wrap narrow">
+  <form class="card stack" method="post" action="/admin/order/{{ order.id }}">
+    <h1 style="font-size:1.8rem">{{ "Approve" if action == "approve" else "Reject" }} this payment?</h1>
+    <p><b>{{ product.name }}</b> · {{ order.currency }} {{ "{:,}".format(order.amount) }}<br>
+      Method: {{ order.method }} · TID: <code>{{ order.tid }}</code><br>Sender: {{ order.sender }} · Status now: <b>{{ order.status }}</b></p>
+    <p class="muted small">Check your {{ order.method }} app or SMS for this TID and amount before approving.</p>
+    <input type="hidden" name="a" value="{{ action }}"><input type="hidden" name="s" value="{{ sig }}">
+    {% if action == "reject" %}<div class="field"><label for="reason">Reason (optional)</label><input id="reason" name="reason"></div>{% endif %}
+    <button class="btn {{ 'btn-pom' if action == 'reject' else '' }}" type="submit">{{ "Yes, approve and unlock" if action == "approve" else "Yes, reject" }}</button>
+  </form>
+</div></section>
+{% endblock %}

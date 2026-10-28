@@ -1,0 +1,237 @@
+{
+  "key": "damvi",
+  "name": "Damvi",
+  "name_ur": "دموی",
+  "quality": "Garam-Tar (warm & moist)",
+  "classical": "Sanguine",
+  "humour": "Dam (blood)",
+  "element": "Air (Hawa)",
+  "nickname": "The Breeze",
+  "season": "Spring",
+  "colors": [
+    "#D64B5A",
+    "#F7C5B8"
+  ],
+  "emoji": "🌸",
+  "tagline": "Warm heart, open door, and a laugh that fills the room.",
+  "share_line": "I walk in and the mood lifts. Spring energy, all year round.",
+  "free": {
+    "summary": "In Unani tradition, Damvi is the mizaj ruled by dam, blood, the warm and moist humour that Ibn Sina linked with spring, growth and the element of air. If you are Damvi, people probably feel it before you say a word. You are the cousin who turns a dull family dinner into a mehfil, who remembers everyone's favourite mithai, and who somehow makes a new friend in the bank queue.\n\nYour warmth is real, not a performance. You bounce back quickly from setbacks, forgive easily and prefer to see the best in people. The flip side is that your enthusiasm can outrun your follow-through, and a packed social calendar can quietly push out rest and routine.\n\nPhysically, the tradition pictures Damvi people as well-built, warm to the touch, with a good appetite and plenty of energy. Because warmth and moisture already run high, many Damvi people find they feel best on lighter, cooler, simpler food, steady sleep and regular movement, especially when spring and shaadi season arrive together.",
+    "traits": [
+      "Sociable and warm: strangers feel like old family friends within minutes of meeting you.",
+      "Optimistic by default; you expect things to work out and often help them do so.",
+      "Generous with time, compliments and food, sometimes more than your schedule can afford.",
+      "Quick to laugh, quick to forgive, and rarely holding a grudge past the next chai.",
+      "Starts projects with huge energy, but interest can fade once the novelty wears off.",
+      "Loves variety, people and celebrations; routine feels like a cage unless it comes with company."
+    ],
+    "body_signs": [
+      "Unani texts describe a well-built, fleshy and muscular frame with good stamina.",
+      "Skin tends to feel warm and soft, often with a healthy flush on the cheeks.",
+      "A strong appetite and quick digestion, traditionally read as plentiful inner heat.",
+      "Sleep usually comes easily and runs deep, though heavy dinners can leave you groggy.",
+      "Heat and humidity, especially in spring, can leave you feeling heavy, flushed or sluggish.",
+      "Hair tends to be thick and grows well, which the tradition links with warmth and moisture."
+    ],
+    "quick_tip": "Start spring with a lighter plate: swap one heavy meal a day for moong daal, lauki and a squeeze of lemon. Unani tradition suggests cool, slightly sour foods help settle the extra warmth and moisture Damvi people carry."
+  },
+  "premium": {
+    "deep_dive": "Ibn Sina described good health as balance (i'tidal), not perfection. Every person is born with a personal blend of the four qualities, and your blend leans warm and moist. In the Canon, dam was considered the most nourishing of the humours, carrying warmth and growth through the body. That is why the Damvi person is traditionally pictured as vigorous, well-fed, rosy and ready for the day.\n\nIn the body, the tradition says this warmth shows up as a strong appetite, quick digestion, a full pulse and good stamina. The moisture shows up as soft skin, a fuller build and a tendency to hold on to heaviness when food is too rich. When the balance tips, many Damvi people notice it as feeling hot, thick-headed, sleepy after meals or puffy after a week of shaadi dinners. The Unani answer is rarely dramatic: lighter food, more movement, less excess.\n\nIn the mind, warmth gives speed and moisture gives flexibility. You think on your feet, adapt easily and read a room instantly. You are often the one who calms a tense family discussion with a well-timed joke. Your challenge is depth and stamina: boredom arrives fast, and you may say yes to five plans and finish two.\n\nEmotionally, Damvi people are traditionally described as cheerful, hopeful and affectionate. You feel things strongly but briefly. Anger flares and fades, sadness passes, and you rarely brood. The risk is not dark moods but scattered ones: overstimulation, people-pleasing, and avoiding hard conversations because they spoil the vibe.\n\nAcross life stages, Unani tradition saw childhood and early youth as naturally warm and moist, so a young Damvi person may feel almost endlessly energetic. Through the twenties and thirties, work and family responsibilities add heat and dryness, which can actually suit you. From the forties onwards, the body is traditionally believed to cool and dry, and many Damvi people grow steadier and more patient, as long as they keep moving and don't let rich eating habits follow them into middle age.\n\nAcross the seasons, spring is your mirror. The tradition held that dam rises with spring, so this is when you may feel most alive and also most overheated. Summer can drain you, monsoon humidity can make you feel heavy, and winter is often your most comfortable season. Living well as a Damvi is mostly about rhythm: enjoying the feast without living at one.",
+    "foods_favour": [
+      {
+        "item": "Jau (barley) daliya or jau-atta roti",
+        "why": "Unani rates barley cool and dry; it is traditionally used to settle excess heat and heaviness."
+      },
+      {
+        "item": "Moong daal",
+        "why": "Light and easy to digest; tradition favours it whenever the body feels warm and heavy."
+      },
+      {
+        "item": "Masoor daal with a squeeze of lemon",
+        "why": "Cool and dry by Unani reckoning, and the lemon adds sourness that balances a warm, moist mizaj."
+      },
+      {
+        "item": "Lauki (bottle gourd)",
+        "why": "Cool and moist, light on the stomach, and a classic choice for warm spring and summer days."
+      },
+      {
+        "item": "Tinda and tori",
+        "why": "Gentle, cooling summer vegetables that keep meals light without feeling like diet food."
+      },
+      {
+        "item": "Kheera and kakri salad",
+        "why": "Traditionally cooling; a plate beside a rich meal helps balance its heat."
+      },
+      {
+        "item": "Anar (pomegranate)",
+        "why": "Sweet-sour and cooling; Unani texts value it for calming excess heat and thirst."
+      },
+      {
+        "item": "Aloo bukhara (plums)",
+        "why": "Their gentle sourness is traditionally believed to temper the warmth of dam."
+      },
+      {
+        "item": "Jamun and falsa in season",
+        "why": "Sour-sweet summer fruits that Unani tradition counts as cool and drying."
+      },
+      {
+        "item": "Lemon and sirka (vinegar)",
+        "why": "Sour and cool-dry; classical texts recommend sour flavours for a warm, moist temperament."
+      },
+      {
+        "item": "Dahi in modest portions",
+        "why": "Cooling for your heat at lunch; keep servings modest because it also adds moisture."
+      },
+      {
+        "item": "Grilled or lightly cooked chicken",
+        "why": "Lighter than red meat, so you get protein without the heaviness tradition warns Damvi people about."
+      },
+      {
+        "item": "Palak and seasonal greens, lightly cooked",
+        "why": "Cool, fresh and filling; cooked with little oil, they keep the plate light."
+      },
+      {
+        "item": "Kasni (chicory) leaves or tea",
+        "why": "Mildly bitter and traditionally prized in Unani for cooling the body's inner heat."
+      }
+    ],
+    "foods_limit": [
+      {
+        "item": "Nihari, paye and heavy mutton curries",
+        "why": "Rich, warm and moist, these double down on your natural tendencies; keep them occasional."
+      },
+      {
+        "item": "Mithai, halwa and gulab jamun",
+        "why": "Sweet, heavy and moist; tradition sees excess sweetness as fuel for extra dam."
+      },
+      {
+        "item": "Fried pakoras, samosas and puris",
+        "why": "Heavy oil leaves a Damvi body feeling hot and sluggish, especially in spring and monsoon."
+      },
+      {
+        "item": "Mangoes in large quantities",
+        "why": "Ripe mango is traditionally warm and moist; enjoy one or two, not a whole peti."
+      },
+      {
+        "item": "Dates in excess outside Ramadan",
+        "why": "Warm and moist by Unani reckoning; a few are fine, a bowlful adds heat."
+      },
+      {
+        "item": "Desi ghee by the spoonful",
+        "why": "Lovely in moderation, but its warmth and moisture can tip you towards heaviness."
+      },
+      {
+        "item": "Malai, khoya and full-cream buffalo milk",
+        "why": "Thick, heavy dairy adds moisture and weight that a Damvi system rarely needs."
+      },
+      {
+        "item": "Red meat late at night",
+        "why": "A heavy, warm meal before bed is traditionally linked with groggy, overheated mornings."
+      },
+      {
+        "item": "Fizzy drinks and packaged juices",
+        "why": "Sweet and heavy without real nourishment; many Damvi people feel more sluggish, not refreshed."
+      },
+      {
+        "item": "Shaadi buffet overeating",
+        "why": "Many rich dishes in one sitting overload digestion; pick two favourites and stop at satisfied."
+      }
+    ],
+    "drinks": [
+      "Jau ka pani (barley water): a classic Unani cooler, light and calming on hot days",
+      "Sattu sharbat in summer: cooling, filling and traditionally used to settle heat",
+      "Shikanjvi with little sugar: sour and cooling, ideal after a heavy meal",
+      "Namkeen lassi at lunch: cooling, but one glass is enough",
+      "Aloo bukhara or imli sharbat, lightly sweetened: sour-sweet relief in hot months",
+      "Kasni tea or light green tea: gently bitter and traditionally cooling"
+    ],
+    "spices_herbs": [
+      "Dhania (coriander seeds and leaves): traditionally cooling, a gentle everyday base",
+      "Saunf (fennel): chewed after a rich meal, many people find it lightens the heaviness",
+      "Zeera (cumin): traditionally used to make heavier daals and curries sit lighter",
+      "Anardana (dried pomegranate seeds): a sour note that tradition uses to cool rich dishes",
+      "Fresh pudina in chutney: refreshing beside heavy food, used as a side, not a meal",
+      "Go easy on garam masala and red chilli: they add heat you already have"
+    ],
+    "daily_routine": {
+      "morning": "Wake early, ideally around Fajr, when tradition says the air is at its lightest and freshest. A brisk walk or 20 minutes of movement before breakfast suits your warm, active nature far better than lingering in bed. Keep breakfast moderate: try daliya, an egg, or a roti with dahi and kheera, plus chai with less sugar. A paratha-free weekday is a very good Damvi habit.",
+      "midday": "Make lunch your main meal, when digestion is traditionally believed to be strongest. Fill half the plate with sabzi or salad, add daal or chicken, and keep the roti count honest. If the office orders biryani, take a modest portion with plenty of raita. A short walk after eating beats a long nap.",
+      "evening": "Evenings are your social hours, so enjoy them, but watch the snack trail of pakoras, samosas and endless chai. Eat a lighter dinner by around 8 pm: soup, moong daal, grilled chicken or sabzi. Leave at least two hours between dinner and bed so you don't sleep on a heavy stomach.",
+      "sleep": "Damvi people usually sleep well, so the risk is too much, not too little. Aim for seven to eight hours and avoid long afternoon naps, which tradition links with heaviness. Keep the room airy rather than overheated. If you wake up groggy, look first at how late and how heavily you ate."
+    },
+    "seasons": {
+      "summer": "Summer heat can leave you flushed, irritable and drained. Lean on cooling foods: lauki, tinda, kheera, dahi, jau ka pani and sattu. Cut back on fried snacks, mangoes by the dozen and late, heavy dinners. Exercise early in the morning or after Maghrib rather than under the midday sun, and keep water and shikanjvi close during load-shedding hours.",
+      "monsoon": "Monsoon humidity adds moisture on top of your own, so many Damvi people feel heavy and slow. Tradition advises lighter, freshly cooked food in this season. Enjoy one plate of pakoras for the rain, not three, and favour daal, sabzi and freshly made roti.",
+      "winter": "Winter is often your best season: the cold balances your warmth and your energy feels steady. Enjoy gajar, shalgam and saag, but remember that winter feasting adds up fast, from nihari breakfasts to halwa and dry fruit by the handful. Keep moving even on foggy mornings, and don't let a quilt-and-chai routine replace your daily walk.",
+      "spring": "Spring is when Unani tradition says dam is at its strongest, so you may feel extra energetic, warm and sometimes overheated. It is also shaadi season. Eat lighter between functions, add sour fruits and barley, sleep on time, and give your body a gentle reset after big celebrations."
+    },
+    "movement": "Your sturdy build and natural stamina suit moderate to vigorous exercise. Team sports like cricket, football or badminton feed your social side, while brisk walking, cycling or swimming help burn off the extra warmth and heaviness tradition associates with dam. Aim for at least 30 minutes most days, ideally in the morning or evening when the air is cooler. Avoid long workouts in peak summer heat. Bring friends along, because a Damvi person keeps a habit far more easily when it comes with company and conversation.",
+    "emotional_balance": "Unani counts the emotions (harkat-o-sukoon-e-nafsani) among the six essential factors of health, alongside air, food, movement, sleep and the body's natural rhythms of retention and release. For a Damvi person, the emotional risk is less about sadness and more about overflow: too much excitement, too many commitments, too strong a need to keep everyone happy. Practise finishing before starting: one project, one promise, one conversation at a time. Learn to sit with a disagreement instead of joking it away. Build in quiet time after busy days, even ten minutes of stillness after Isha. If low or anxious feelings last more than a couple of weeks, speak to a doctor or qualified counsellor.",
+    "ramadan": "Fasting often suits Damvi people, because tradition sees periods of lightness as balancing for a warm, moist body. At sehri, choose simple, slow food: roti or daliya, an egg, dahi and plenty of water, not parathas swimming in ghee. At iftar, open with a date or two and water, then pause for Maghrib before eating. Go easy on pakoras and samosas, fill up on fruit chaat and chana, and skip sugary sharbat by the jug. With any health condition, check with your doctor first.",
+    "seven_day_menu": [
+      {
+        "day": 1,
+        "breakfast": "Jau daliya with a little milk and a sliced apple",
+        "lunch": "Moong daal, lauki sabzi, one chapati and kheera salad",
+        "dinner": "Home-style chicken tikka (less oil) with salad and pudina raita",
+        "snack": "Anar seeds or fruit chaat with lemon"
+      },
+      {
+        "day": 2,
+        "breakfast": "Boiled egg, one chapati, tomato and kheera slices",
+        "lunch": "Masoor daal with lemon, a small portion of rice and kachumber",
+        "dinner": "Tinda ka salan with chapati",
+        "snack": "Roasted chana and a cup of green tea"
+      },
+      {
+        "day": 3,
+        "breakfast": "Chapati with dahi and kheera, chai with less sugar",
+        "lunch": "Chicken shorba with vegetables and a chapati",
+        "dinner": "Palak with moong daal and chapati",
+        "snack": "Jamun or falsa in season, otherwise guava"
+      },
+      {
+        "day": 4,
+        "breakfast": "Vegetable omelette made with little oil, one chapati",
+        "lunch": "Lauki chana daal with chapati and salad",
+        "dinner": "Daal chawal with lemon and kachumber",
+        "snack": "Sattu sharbat or shikanjvi with a handful of popcorn"
+      },
+      {
+        "day": 5,
+        "breakfast": "Namkeen jau or wheat daliya with vegetables",
+        "lunch": "Chicken karahi with less oil and chilli, one chapati, salad",
+        "dinner": "Tori ki sabzi, moong daal and chapati",
+        "snack": "Aloo bukhara or a seasonal fruit"
+      },
+      {
+        "day": 6,
+        "breakfast": "Moong daal chilla with mint chutney",
+        "lunch": "Kabuli chana chaat with lemon, onion, tomato and kheera",
+        "dinner": "Mixed vegetable sabzi, chapati and raita",
+        "snack": "Fruit chaat with lemon and a pinch of chaat masala"
+      },
+      {
+        "day": 7,
+        "breakfast": "Weekend treat: one paratha with dahi instead of two, plus chai",
+        "lunch": "Family pulao or biryani: modest plate with raita and a big salad",
+        "dinner": "Light moong khichri with dahi",
+        "snack": "Anar or kinnow"
+      }
+    ],
+    "when_out_of_balance": [
+      "You feel hot, flushed and irritable more often than usual, even indoors.",
+      "You feel heavy, sleepy and foggy after meals and crave a nap every afternoon.",
+      "Restless energy: you start five things and finish none of them.",
+      "A heavy, overfull feeling after shaadi season that lingers for weeks.",
+      "You over-socialise and over-commit until you snap at the people closest to you."
+    ],
+    "with_other_mizaj": {
+      "damvi": "Two Damvi spouses make a lively home: full dastarkhwan, full house, full WhatsApp group. The risk is that nobody slows down. Plan meals and money together, take turns being the sensible one, and make room for quiet evenings, or the marriage can become all celebration and no rest.",
+      "safravi": "Safravi brings drive and focus; you bring warmth and ease. You soften their sharp edges, and they help you finish what you start. But you share heat, so arguments can flare fast. Cool down before discussing anything serious, and keep spicy food and spicy topics away from late nights.",
+      "balghami": "A comfortable, kind match. Your warmth wakes up their calm, slow-moving energy, and their steadiness grounds your busy social life. Watch the pace gap: you want to go out, they want to stay in. Agree on a weekly rhythm that includes both a family visit and a quiet night at home.",
+      "saudavi": "Opposites in every quality, and Unani tradition sees that as balance. You bring lightness and hope; they bring depth, planning and loyalty. Don't take their silences personally, and don't rush their decisions. In return, they need to let you celebrate without analysing every rupee spent on the dawat."
+    }
+  },
+  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered hakeem."
+}

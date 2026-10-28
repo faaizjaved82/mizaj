@@ -1,0 +1,11 @@
+[Unit]
+Description=Mizaj daily Telegram digest
+
+[Service]
+Type=oneshot
+User=mizaj
+WorkingDirectory=/opt/mizaj/app
+EnvironmentFile=/opt/mizaj/.env
+Environment=PYTHONPATH=/opt/mizaj/app/server
+Environment=MIZAJ_ENV_FILE=/opt/mizaj/.env
+ExecStart=/opt/mizaj/venv/bin/python -m mizaj digest

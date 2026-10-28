@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="result-hero" style="background:linear-gradient(135deg,var(--plum),var(--ink))">
+  <div class="wrap">
+    <span class="pill" style="background:rgba(255,255,255,.15);color:#fff">AI palm reading · for fun</span>
+    <h1 style="color:#fff;margin-top:14px">{{ view.headline }}</h1>
+    {% if view.hand_shape %}<p style="opacity:.9">{{ view.hand_shape.element }} hand</p>{% endif %}
+  </div>
+</section>
+<section class="section" style="padding-top:28px">
+  <div class="wrap narrow stack" id="palm-view" data-palm="{{ palm_id }}" data-profile="{{ profile.id if profile else '' }}" data-key="{{ profile.key if profile else '' }}">
+    <div class="card"><p style="font:italic 1.1rem/1.7 var(--serif);margin:0">{{ view.teaser }}</p></div>
+    {% if view.hand_shape %}<div class="card"><h3>✋ Your hand shape: {{ view.hand_shape.element }}</h3><p>{{ view.hand_shape.text }}</p></div>{% endif %}
+    {% if premium %}
+      {% for key, label in [("heart","❤️ Heart line"),("head","🧠 Head line"),("life","🌱 Life line"),("fate","🧭 Fate line")] %}
+      {% set ln = view[key] %}
+      <div class="card"><h3>{{ label }}</h3><p class="small muted">{{ ln.seen }}</p><p><b>{{ ln.summary }}</b></p><p>{{ ln.detail }}</p></div>
+      {% endfor %}
+      <h3>Mounts</h3>
+      {% for mt in view.mounts %}<div class="card"><b>{{ mt.name }}</b><p>{{ mt.text }}</p></div>{% endfor %}
+      <div class="notice">{{ view.type_note }}</div>
+    {% else %}
+      <div class="card"><h3>❤️ Heart line</h3><p><b>{{ view.heart.summary }}</b></p></div>
+      <div class="lock-box">
+        <div class="blur card" aria-hidden="true"><h3>🧠 Head line</h3><p>How you think, decide and solve problems…</p><h3>🌱 Life line</h3><p>Your energy style and how you recharge…</p><h3>🧭 Fate line</h3><p>Purpose, ambition and how you build your path…</p><h3>Mounts</h3><p>Three mounts read in detail…</p></div>
+        <div class="lock-cta"><div class="stack" style="max-width:380px">
+          {% if owner %}
+          <h3>Unlock your full palm reading</h3>
+          <div><span class="price-old">{{ products.palm.list_price|pkr }}</span><b style="font:700 1.5rem var(--serif)">{{ products.palm.price|pkr }}</b></div>
+          <button class="btn btn-pom btn-block" data-buy="palm">Read my full palm</button>
+          <p class="small muted">Included in the Complete Bundle ({{ products.bundle.price|pkr }}).</p>
+          {% else %}
+          <h3>Get your own palm read</h3><a class="btn btn-pom" href="/palm/">Try it free</a>
+          {% endif %}
+        </div></div>
+      </div>
+    {% endif %}
+    <div class="share-row"><button class="btn btn-wa btn-sm" data-share-palm>Share</button><a class="btn btn-ghost btn-sm" href="/test/personality/">Take the personality test</a></div>
+    <p class="small muted">Palm reading on Mizaj is entertainment: a playful mirror, not a prediction. Your photo was read once and deleted; we never store palm images.</p>
+  </div>
+</section>
+{% endblock %}

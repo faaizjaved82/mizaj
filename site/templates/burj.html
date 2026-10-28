@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero"><div class="wrap narrow">
+  <span class="eyebrow">Burj × your type · for fun</span>
+  <h1>Your zodiac sign, meet your personality type</h1>
+  <p class="lead">An Asad who's also a Darvesh? A Jadi Mezbaan? Enter your birth date for your burj, your birth number, and a mash-up with your type.</p>
+  <form class="card stack" id="burj-form" style="margin-top:20px">
+    <div class="field"><label for="dob">Date of birth</label><input id="dob" type="date" required min="1930-01-01" max="2025-12-31"></div>
+    <div class="field"><label for="btype">Your type (optional)</label><select id="btype"><option value="">I don't know yet</option>{% for c in type_codes %}<option>{{ c }}</option>{% endfor %}</select></div>
+    <button class="btn btn-pom" type="submit">Show my burj</button>
+    <div class="err" data-err></div>
+  </form>
+  <div id="burj-out" class="stack hidden" style="margin-top:20px"></div>
+  <p class="small muted" style="margin-top:16px">{{ disclaimer }}</p>
+</div></section>
+{% endblock %}

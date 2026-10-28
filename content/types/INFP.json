@@ -1,0 +1,270 @@
+{
+  "code": "INFP",
+  "name": "Shayar",
+  "name_ur": "شاعر",
+  "name_en": "The Poet",
+  "family": "Ahl-e-Dil",
+  "emoji": "🪶",
+  "colors": [
+    "#6B4C7A",
+    "#E8A6A1"
+  ],
+  "tagline": "Your Notes app holds more poetry than anyone will ever know.",
+  "share_line": "I stayed true to myself, even when everyone said 'be practical, beta.'",
+  "keywords": [
+    "Idealistic",
+    "Gentle",
+    "Imaginative",
+    "Loyal",
+    "Authentic"
+  ],
+  "rarity": "about 4-5% of people",
+  "free": {
+    "summary": "You live with an inner world so rich that the outer one sometimes feels like a waiting room. A line of Faiz painted on the back of a truck can stay with you all day. A stranger's small kindness at a bus stop can make your eyes sting. You feel things fully and privately, and you carry a quiet, unshakable sense of what is right for you, even when you cannot yet explain it to anyone.\n\nWhat drives you is authenticity: a life that feels true from the inside, work that expresses who you are, and love that sees people for themselves rather than their degrees or family name. Others see you as soft-spoken, kind and a bit dreamy, the friend who answers a long rant with one perfect song instead of an explanation. What they miss is the steel underneath. Push a Shayar to betray their values, and the gentle one in the corner becomes the most stubborn person in the room.",
+    "strengths": [
+      "Sees the hidden good in people others have already written off.",
+      "Expresses complex emotions beautifully through words, art, music or a perfect playlist.",
+      "Stays loyal to their values even under heavy family or social pressure.",
+      "Listens without judgement, so people confess things they have never told anyone.",
+      "Imagines original ideas that more practical minds would never think of."
+    ],
+    "watchouts": [
+      "Postpones hard, practical tasks until the deadline becomes an emergency.",
+      "Hears ordinary criticism as a verdict on their entire worth.",
+      "Idealises people and plans, then feels crushed when reality arrives."
+    ],
+    "pakistani_archetype": "You're the one who was told to take pre-medical, did it to keep Ammi happy, and filled the back pages of every register with poetry and sketches.",
+    "in_relationships": "You love like a ghazal, full of longing and meaning in small gestures. You still treasure the song that was playing the first time you really talked. Your spouse must respect your inner world instead of mocking it as 'too emotional'. Your challenge is saying hard things before they become quiet sadness.",
+    "at_work": "You work best when the work means something to you personally. A cause, a craft or a team you believe in can make you tireless. Rigid bosses, meaningless targets and cultures that reward self-promotion over sincerity leave you drained, quietly updating your CV at midnight.",
+    "fictional_twins": [
+      "Frodo Baggins (The Lord of the Rings)",
+      "Luna Lovegood (Harry Potter)",
+      "Amélie Poulain (Amélie)",
+      "Hamlet (Hamlet)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Your inner compass is the most important thing about you. Every decision, from which subjects to pick in FSc to which friend to forgive, passes through one silent question: does this feel true to who I am? You do not consult the rulebook first, or what the neighbours will say. You consult a private set of values you have been building since childhood, from books, songs, faith, and careful notes on what once hurt you and what healed you. When something matches that compass, you commit with your whole heart. When it does not, no argument, however logical, will move you an inch, as more than one parent and teacher has discovered.\n\nWhat you are really protecting is your authenticity, and you want everyone around you to have theirs too. You would rather earn less doing something honest than earn well while pretending. The fear underneath is quiet and sharp: becoming hollow. Ending up in a job you never chose, playing a role for the relatives, living a life that photographs well but feels like a borrowed kurta. Many Shayars know the specific panic of picturing themselves at forty in a career picked only because someone said it had 'scope'.\n\nInside you: a storm of feeling, a library of imagined conversations, a hundred possible futures and an idealism that refuses to die. Outside: a polite smile, a soft 'jee, theek hai', and silence at the dinner table. People assume you are going along with things when, privately, you have already decided you will not. Because you rarely announce your feelings, the force of your eventual 'no' surprises everyone, sometimes even you. It is also why your loyalty runs so deep: anyone you choose has passed a test far stricter than the world could set.\n\nYour mind wanders, beautifully and inconveniently. A childhood memory, a half-remembered couplet and the orange of the evening sky connect in your head, and two hours disappear. Practical life (forms, bills, deadlines) feels like interference from a louder, colder station. Yet you are not fragile. You have survived a great deal by turning it into meaning: the diary you kept at thirteen, the playlist that got you through board exams, the long letter you never sent. Each was you quietly saving yourself. Your growth is not to shut the inner world but to build a small bridge from it to the outer one, so your gifts reach the people waiting for them.",
+    "superpowers": [
+      {
+        "title": "Seeing the hidden person",
+        "text": "You see the good in people the rest of the room has already written off. The classmate everyone calls lazy, you discover, is quietly nursing a sick mother through the nights; the new hire who seems arrogant is simply terrified. Because you look past labels, people relax around you and slowly become better versions of themselves. Many Shayars carry a story of someone who said, years later, 'You were the only one who believed in me.'"
+      },
+      {
+        "title": "Turning pain into art",
+        "text": "Where others vent, you create. A disappointment becomes a poem, a family argument becomes a short story, a hard year becomes a playlist so precise that friends ask how you knew. This is not a hobby; it is how you digest life. In a culture that still reaches for Ghalib to explain heartbreak and Faiz to explain hope, your instinct to give pain a beautiful shape is a deeply rooted gift that helps others feel less alone."
+      },
+      {
+        "title": "A spine of values",
+        "text": "You may say yes to a hundred small requests, but when something crosses a core value, you will not move. If your team decides to mislead a client, you politely refuse to sign the report. If the family stops speaking to a relative over an old property dispute, you quietly keep sending them Eid messages. People eventually learn that your gentleness has a spine, and they trust you more for it."
+      },
+      {
+        "title": "A safe landing",
+        "text": "People tell you things they have never said aloud. You do not interrupt, judge or rush to fix; you stay with them in it. A friend who missed the MDCAT merit list twice can admit how ashamed they feel without hearing 'just try again' first. In a culture that often answers sadness with advice, or a comparison to some cousin, that kind of space is rare. People remember it, and you, for years."
+      },
+      {
+        "title": "Imagination off the map",
+        "text": "Your mind draws connections others never would. Asked to plan a university fundraiser, you skip the usual bake sale and suggest a stall of grandparents' recipes, each with a handwritten story beside it, and it raises three times the target. You see a soul in projects others treat as routine. Give you creative freedom and you will make something nobody else in the room could, because it comes from a place nobody else has visited."
+      },
+      {
+        "title": "Naming the feeling",
+        "text": "You find words for emotions others only feel as a knot in the stomach. When your younger sibling cannot explain why they feel low after results day, you help them name it: not failure, but disappointment tangled with fear of how your parents will react. Naming it makes it smaller. This gift makes you a natural writer, teacher or counsellor, and simply the best person to sit beside after a loss."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "The 4 a.m. deadline",
+        "text": "Boring, practical tasks wait until they become emergencies: the assignment finished at 4 a.m., the scholarship form sent an hour before the portal closes, the electricity bill paid after the red stamp. Underneath, tasks with no emotional meaning feel heavy, so your mind slips somewhere more interesting. Try this: attach meaning or company. Do admin with a friend on a video call, or link each dull task to the dream it protects."
+      },
+      {
+        "title": "Criticism as verdict",
+        "text": "A simple 'this report needs work' can land as 'you are not good enough'. You smile in the meeting, then replay the line for three days. Underneath, your work feels like an extension of your soul, so critique of one sounds like rejection of the other. Try this: ask for feedback in a set format, one thing to keep and one thing to change, so the comment stays about the work, not about you."
+      },
+      {
+        "title": "Falling for potential",
+        "text": "You can fall for the potential in a person, a project or a city abroad, and quietly ignore the evidence in front of you. The rishta who quoted poetry in the first meeting becomes, in your imagination, a soulmate by the second. Underneath, your imagination fills the gaps beautifully and convincingly. Try this: before any big commitment, write three facts and three hopes side by side, and make sure the decision rests mainly on the facts."
+      },
+      {
+        "title": "Resentment in the dark",
+        "text": "You avoid confrontation so skilfully that problems grow quietly out of sight. You agree to the family trip plan, the group-project split or the extra weekend work, then resent it silently for weeks, until a tiny thing triggers an outburst that confuses everyone. Underneath is a fear that disagreement will damage the bond. Try this: practise the small no. 'I can't this week', said early and kindly, prevents the big explosion later."
+      },
+      {
+        "title": "Underpricing your gift",
+        "text": "Talking about money or achievements feels vulgar to you, so you undercharge and under-promote. Plenty of freelancing Shayars have charged five dollars for a logo that took twelve hours. Underneath is a fear of seeming greedy or arrogant. Try this: research the market rate, write your price down before the client call, and hold it. Fair pay is not a betrayal of your art; it is what lets you keep making it."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "You want a marriage that feels like a long conversation with your best friend. Look for someone kind before impressive, who takes your feelings seriously and never mocks your dreams in front of relatives. You show love through attention and creativity: a note tucked into their lunchbox, a playlist for their long drive, learning the one dish their late nani used to make. Friction comes from expectations you never voiced. You may build a beautiful picture of married life in your head, then feel let down when your spouse is tired, practical or simply different. You also absorb problems quietly until you snap. Tell your spouse what you need in plain words; they cannot read the poem you never wrote down.",
+      "rishta_tips": [
+        "Ask what they do when they are sad or angry. You need someone who handles emotion gently, not mockingly.",
+        "Share your creative side early and watch closely: do they lean in with questions, or politely change the subject?",
+        "One beautiful conversation is not compatibility. Ask the practical questions too: money, where you will live, and work expectations.",
+        "If you feel rushed, say 'I need more time' clearly. A quiet 'jee' you do not mean can lock you in.",
+        "A red flag you may miss: someone who praises your softness now but expects you to drop your values later."
+      ],
+      "family": "To your parents, you are the gentle child who causes no visible trouble while living a whole separate life inside. Clashes arrive around career and marriage, when 'log kya kahenge' collides with your inner compass. In a joint family, the constant noise and lack of privacy exhaust you, and you may vanish to the rooftop or into your headphones for hours. You care about izzat but define it as honesty, not appearances. Younger siblings and cousins bring you their secrets, and you are the one who quietly takes the blame to protect them. Explain your choices to your parents in their own language: security, respect and faith.",
+      "friendship": "You have a few friends, and you love them with almost absurd loyalty. You remember their roll numbers, send a voice note before every paper and defend them in rooms they will never know about. Long walks and late-night conversations beat big group plans every time. But when a friend betrays your trust, you do not shout; you simply fade from their life. Tell them it hurt before you disappear.",
+      "best_matches": [
+        "ENFJ",
+        "INFJ",
+        "ENTJ"
+      ],
+      "growth_matches": [
+        "ESTJ",
+        "ISTJ"
+      ]
+    },
+    "career": {
+      "work_style": "You work in waves of inspiration rather than steady eight-hour lines. When you believe in a project, you can vanish into it for a weekend and return with something remarkable, like the pitch deck that made a tired client sit up and ask who wrote it. When you don't, every task feels like wading through wet cement. You need to understand the purpose before starting, and you quietly resist micromanagement and rules that make no sense. Small, kind teams bring out your very best. Your output is often the most original in the room, even if it arrives just before the deadline, slightly breathless.",
+      "ideal_environment": "A creative or mission-driven workplace where people are treated as humans, not resources: a publishing house, a design studio, a school with a soul or a remote team spread across time zones. You need flexible hours, a manager whose feedback is honest but kind, freedom to approach work your own way, and a culture that rewards quality and empathy over volume and noise.",
+      "careers": [
+        {
+          "title": "Writer, poet or lyricist",
+          "why": "Your inner life is your raw material. Writing turns feelings others cannot name into books, songs and scripts people carry with them.",
+          "pk_path": "Write daily, read at mushairas and open mics, enter literature festival competitions, and publish on Substack while pitching independent publishers."
+        },
+        {
+          "title": "Advertising copywriter",
+          "why": "Brands run on emotion. You can write the Eid campaign line that makes the whole country tear up, a valuable and well-paid skill.",
+          "pk_path": "Any degree; build a portfolio of ten spec ads, then apply for internships at creative agencies in Karachi or Lahore."
+        },
+        {
+          "title": "Freelance content writer (remote)",
+          "why": "Remote writing lets you work in your own rhythm, choose meaningful clients and earn in dollars while staying close to family.",
+          "pk_path": "Take DigiSkills.pk's freelancing and writing courses, register with PSEB, build niche samples, then start on Upwork or Fiverr."
+        },
+        {
+          "title": "Illustrator or 2D animator (remote)",
+          "why": "Visual storytelling gives your imagination a home. Global studios, children's publishers and game companies regularly hire remote artists from Pakistan.",
+          "pk_path": "NCA, BNU or Indus Valley helps but is optional; build a Behance or ArtStation portfolio and pitch international clients directly."
+        },
+        {
+          "title": "Special education teacher",
+          "why": "Children who learn differently need someone who sees their potential, not their labels. Your patience and empathy make a measurable difference.",
+          "pk_path": "BS or MA Special Education, then provincial public service commission posts, specialised schools or therapy centres."
+        },
+        {
+          "title": "Translator and subtitler (remote)",
+          "why": "Carrying meaning between Urdu, Punjabi and English is careful, creative work, and streaming platforms and publishers need sensitive human translators.",
+          "pk_path": "A languages or literature degree and a portfolio of translated samples, then contracts with localisation agencies and online platforms."
+        },
+        {
+          "title": "Literature lecturer",
+          "why": "Teaching Urdu or English literature lets you share the writers who shaped you, and spot the quiet student who needs encouragement.",
+          "pk_path": "MPhil in Urdu or English Literature, then lecturer posts through PPSC, SPSC, KPPSC or FPSC, or private universities."
+        },
+        {
+          "title": "UX writer",
+          "why": "Tech products need someone who understands how users feel. You write the small words that make apps feel kind, clear and human.",
+          "pk_path": "Any degree; learn UX writing basics and Figma online, rewrite the copy of three local apps as case studies, then apply."
+        },
+        {
+          "title": "Small creative brand founder",
+          "why": "Hand-printed tote bags, a poetry stationery line or a tiny bookshop gives you creative control and a business that reflects your values.",
+          "pk_path": "Start on Instagram with a small batch funded by a BC committee, sell at weekend bazaars, then expand online."
+        },
+        {
+          "title": "Development communications officer",
+          "why": "NGOs need storytellers who share real people's stories with dignity. Your empathy keeps the human being at the centre of every report.",
+          "pk_path": "BS Mass Communication or Social Sciences, then a communications internship with an NGO, building a portfolio of field stories."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Commission-only sales",
+          "why": "Constant pressure to persuade people regardless of fit clashes with your honesty and drains your energy fast."
+        },
+        {
+          "title": "Big-firm audit in peak season",
+          "why": "Long, rigid hours checking compliance can feel meaningless, though values-led finance roles may suit you later."
+        },
+        {
+          "title": "Debt recovery",
+          "why": "Pressuring struggling families for payments goes against your instinct to protect people, and the emotional toll is heavy."
+        }
+      ],
+      "as_a_leader": "You lead by belief, not command. Your team follows you because you see them as people, remember whose child has been ill, and shield them from pointless pressure from above. You give creative freedom and praise quiet contributors in public. Your challenge is hard decisions: you may delay confronting poor performance for months because you hate causing pain. A direct deputy helps enormously.",
+      "as_a_team_member": "You give a project its soul: the tagline, the user story, the reminder that real people will feel this decision. You work beautifully with kind colleagues and silently resent loud ones who take credit for shared work. Because you rarely ask for recognition, your effort can go unseen at appraisal time. Share progress updates, even if it feels like bragging. It is simply information.",
+      "money_style": "Money feels slightly unromantic, so you avoid looking at it closely. You spend on books, art supplies, experiences and gifts, and you are quietly generous with anyone in need. Saving works when a dream is attached, like a trip to Skardu or a writing course. A BC committee is your perfect forced saver, because someone else keeps the schedule. Watch for comfort shopping after hard days."
+    },
+    "communication": {
+      "how_they_talk": "You speak softly and often in metaphors, pausing mid-sentence to find the exact word that holds the feeling. With strangers you are polite and brief; with your people you become funny, quirky and endlessly curious. You express yourself far better in writing, voice notes or art than in fast, tense conversations. And you say 'it's fine' in a very particular tone when it isn't.",
+      "how_to_talk_to_them": [
+        "Ask about their passions and really listen; they open up when they feel genuinely seen.",
+        "Give feedback warmly: one appreciation, one concrete suggestion, and an open door to discuss.",
+        "Never mock their feelings or call them 'too sensitive'. It ends trust almost instantly.",
+        "If they say 'it's fine' in a flat voice, gently ask again later, in private."
+      ],
+      "conflict_style": "You avoid open conflict for as long as humanly possible, absorbing, rationalising and trying to understand the other side, sometimes better than they do. But when a core value is attacked, your calm can break suddenly into tears or a fierce, eloquent stand that stuns the room. Afterwards you may feel guilty and over-apologise. Better: voice small disagreements early, while they are still small."
+    },
+    "stress": {
+      "triggers": [
+        "Being forced into a role that feels fake",
+        "Harsh criticism, especially in front of others",
+        "Long stretches of boring, meaningless tasks",
+        "Tension at home with no private space to recover"
+      ],
+      "signs": [
+        "You disappear into music, dramas or daydreams for hours",
+        "You turn cynical about people and the future",
+        "You replay one small mistake on a loop",
+        "You suddenly snap or cry over something minor"
+      ],
+      "reset": [
+        "Write freely for twenty minutes without editing, then close the notebook",
+        "Take a slow walk at sunset with a playlist that matches your mood",
+        "Make something with your hands: sketch, cook or repot a plant",
+        "Tell one person who loves you unconditionally the real story"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Small, kind structure",
+        "why": "Dreams need scaffolding. Over these seven days, build a gentle routine that is light enough to keep and strong enough to stop your best hours drifting into scrolling and last-minute panic.",
+        "actions": [
+          "Write tomorrow's three most important tasks before sleeping, and nothing more.",
+          "Do the most boring task first, before opening any social media app.",
+          "Use a twenty-five-minute timer for practical work, then reward yourself with something creative."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "The small, early no",
+        "why": "Unspoken disagreements quietly become resentment. Practise voicing small preferences and boundaries while they are still small, so your relationships stay honest and your energy stops leaking into other people's plans.",
+        "actions": [
+          "Each day, state one preference out loud instead of saying 'whatever you want'.",
+          "Decline one request this week that you would normally accept out of guilt.",
+          "Write down one thing that bothered you today and how you could say it calmly."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Share what you make",
+        "why": "A poem locked in your Notes app helps nobody. Let a few trusted people see what you create, imperfect as it is, and notice that sharing your work does not make it smaller.",
+        "actions": [
+          "Show one piece of writing, art or music to a trusted friend and ask for feedback.",
+          "Post one small creative piece publicly, and resist the urge to delete it.",
+          "List three things you are genuinely good at, and say one aloud to someone."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Bridge dreams to reality",
+        "why": "Ideals deserve a plan. Turn one dream, whether a book, a small business or a career switch, into concrete steps you can begin within a month, so it stops living only in your head.",
+        "actions": [
+          "Choose one dream and break it into five tiny steps with rough dates.",
+          "Spend thirty minutes researching the practical side: costs, courses and people already doing it.",
+          "Message one person living that dream and ask them a single, specific question."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "A Damvi Shayar is the most playful version of your type. You make friends easily and bounce back from sadness faster than most Shayars; your poetry leans more spring than autumn. Watch for spreading yourself across too many people and side projects while your deepest work waits for 'next month'.",
+      "safravi": "With Safravi fire, your idealism turns into activism. You speak up fast against injustice, whether a teacher humiliating a student or a colleague being underpaid, and you are likelier to start a campaign than simply feel deeply. Channel the heat carefully; sharp words can wound the very people you hope to persuade.",
+      "balghami": "A Balghami Shayar is gentle and deeply peaceful, the friend whose presence calms a whole room. You may also drift the most, letting weeks slide by in daydreams and postponement. Your art is often beautiful and slow. Gentle structure, such as a fixed writing hour after Fajr, helps your gifts move outward.",
+      "saudavi": "Saudavi depth gives your type its most reflective, poetic form. You feel loss intensely and write with real gravity, in the spirit of the old ghazal masters. But heavy moods can linger. Protect yourself with sunlight, movement, warm company and a simple rule: one cheerful conversation for every hour of brooding."
+    },
+    "letter": "Dear Shayar,\n\nSomewhere along the way, someone told you to be more practical. Maybe a teacher, a relative at a wedding, or your own tired voice after a bad day. You listened, a little. You folded parts of yourself away to keep the peace.\n\nThis is your reminder that those parts were never the problem.\n\nYour softness has carried people through their worst nights. Your stubborn honesty has kept you clean in rooms full of compromise. Your imagination has found beauty in the painted trucks on the GT Road, in your nani's hands, in the pause between two lines of a poem. That is not a waste of time. It is a way of seeing that most people have forgotten.\n\nYou do not have to choose between your heart and a stable life. You only need small bridges: a routine, a plan, a few brave conversations. Build them slowly.\n\nAnd please, let someone read what you wrote. The world has waited long enough.\n\n— Mizaj"
+  }
+}

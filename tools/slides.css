@@ -1,0 +1,47 @@
+* { box-sizing: border-box; margin: 0; }
+body { background: #333; font-family: "Manrope", sans-serif; }
+.slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; color: #FBF6EE; display: flex; flex-direction: column; padding: 96px 90px 150px; }
+.slide::before { content: ""; position: absolute; inset: 0; background: url("../site/static/img/girih.svg") center/240px repeat; opacity: .08; filter: invert(1); }
+.slide.light::before { filter: none; opacity: .06; }
+.slide > * { position: relative; }
+.ink { background: linear-gradient(160deg, #2A2145, #1B1530); }
+.light { background: #FBF6EE; color: #231C2E; }
+.pom { background: linear-gradient(160deg, #D4574C, #A8352D); }
+.fam-Danishwar { background: linear-gradient(160deg, #7B5DB2, #4E3780); }
+.fam-Ahl-e-Dil { background: linear-gradient(160deg, #35A07A, #1F6A51); }
+.fam-Pasban { background: linear-gradient(160deg, #3A7FC6, #23508A); }
+.fam-Fankar { background: linear-gradient(160deg, #E39B3A, #B66E17); }
+.mz-damvi { background: linear-gradient(160deg, #DB6056, #A93C34); }
+.mz-safravi { background: linear-gradient(160deg, #F0AE45, #D58718); color: #1B1530; }
+.mz-balghami { background: linear-gradient(160deg, #379C9C, #1F6B6B); }
+.mz-saudavi { background: linear-gradient(160deg, #6B5A8C, #41345A); }
+.eyebrow { font: 800 30px "Manrope"; letter-spacing: .16em; text-transform: uppercase; opacity: .85; margin-bottom: 28px; }
+.serif { font-family: "Fraunces", serif; }
+.ur { font-family: "Noto Nastaliq Urdu", serif; direction: rtl; }
+.big { font: 700 104px/1.05 "Fraunces", serif; letter-spacing: -.01em; }
+.mid { font: 600 64px/1.15 "Fraunces", serif; }
+.sub { font: 600 42px/1.4 "Manrope"; opacity: .9; margin-top: 32px; }
+.code { font: 700 170px/1 "Fraunces", serif; letter-spacing: .04em; }
+.tname { font: 700 54px/1.2 "Fraunces", serif; margin-top: 14px; }
+.tur { font-size: 60px; line-height: 1.9; opacity: .92; text-align: left; margin-top: 6px; }
+.quote { font: 600 58px/1.3 "Fraunces", serif; margin-top: auto; }
+.body { font: 500 44px/1.5 "Manrope"; margin-top: 30px; }
+.items { list-style: none; padding: 0; margin-top: 40px; display: grid; gap: 30px; }
+.items li { font: 600 52px/1.35 "Manrope"; padding-left: 60px; position: relative; }
+.items li::before { content: "✦"; position: absolute; left: 0; color: #E8A33D; }
+.foot { position: absolute; left: 90px; right: 90px; bottom: 60px; display: flex; justify-content: space-between; align-items: center; font: 800 32px "Manrope"; opacity: .92; }
+.foot img { width: 46px; height: 46px; margin-right: 14px; vertical-align: middle; }
+.swipe { margin-top: auto; font: 800 36px "Manrope"; opacity: .85; }
+.cta-url { margin-top: 56px; display: inline-block; background: #FBF6EE; color: #1B1530; font: 800 60px "Manrope"; padding: 26px 50px; border-radius: 999px; align-self: flex-start; }
+.grid4 { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 26px; flex: 1; }
+.cell { background: rgba(255,255,255,.12); border-radius: 30px; padding: 30px; display: flex; flex-direction: column; }
+.cell .c { font: 700 64px/1 "Fraunces", serif; letter-spacing: .04em; }
+.cell .n { font: 700 32px "Fraunces", serif; margin: 8px 0 14px; }
+.cell .t { font: 600 29px/1.38 "Manrope"; }
+.og { width: 1200px; height: 630px; padding: 70px 80px; }
+.og .code { font-size: 150px; }
+.light { justify-content: center; }
+.light .mid { font-size: 76px; }
+.light .body { font-size: 50px; }
+.mark { position: absolute; right: -90px; bottom: 110px; width: 520px; height: 520px; opacity: .95; }
+.ink .mark { opacity: .9; }

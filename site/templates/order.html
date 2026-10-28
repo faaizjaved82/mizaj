@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="section" style="padding-top:28px">
+<div class="wrap narrow stack" id="order" data-order="{{ order.id }}" data-status="{{ order.status }}" data-profile="{{ profile.id }}" data-pair="{{ order.pair_id or '' }}">
+  <a href="/p/{{ profile.id }}" class="small muted">← Back to my result</a>
+  <div class="card">
+    <span class="eyebrow">Checkout</span>
+    <h1 style="font-size:1.9rem">{{ product.name }}</h1>
+    <p class="muted">{{ product.short }}</p>
+    <ul class="list-check">{% for b in product.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+    <div style="margin-top:14px"><span class="price-old">{{ product.list_price|pkr }}</span><b style="font:700 2rem var(--serif)">{{ order.amount|pkr }}</b> <span class="small muted">one-time · no subscription</span></div>
+  </div>
+
+  <div class="card center hidden" data-state="proof">
+    <div class="spinner" style="margin:0 auto 12px;color:var(--ink)"></div>
+    <h2>Verifying your payment…</h2>
+    <p class="muted">This usually takes a few minutes (9am to midnight). You can keep this page open; it unlocks by itself. We'll also email you if you left an email.</p>
+    {% if support_whatsapp %}<a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="https://wa.me/{{ support_whatsapp }}?text={{ ('Assalam o alaikum, I paid for order ' ~ order.id)|urlencode }}">Message us on WhatsApp</a>{% endif %}
+  </div>
+  <div class="card center hidden" data-state="paid">
+    <h2>🎉 Unlocked!</h2>
+    <p class="muted">Taking you to your report…</p>
+  </div>
+  <div class="notice hidden" data-state="rejected">We couldn't verify this payment. If you paid, please message us on WhatsApp with a screenshot and we'll fix it straight away.</div>
+  {% if request_card_failed %}<div class="notice">Card payment didn't go through. Try again or use Raast / JazzCash / Easypaisa.</div>{% endif %}
+
+  <div data-state="created" class="stack">
+    {% if card %}
+    <div class="pay-method">
+      <b>💳 Debit/credit card, wallet or bank account</b>
+      <p class="small muted" style="margin:4px 0 10px">Instant unlock. Secure checkout by Safepay.</p>
+      <button class="btn btn-block" data-safepay>Pay {{ order.amount|pkr }} securely</button>
+    </div>
+    {% endif %}
+    {% if methods %}
+    <div class="pay-method on">
+      <b>📲 Send by Raast, JazzCash, Easypaisa or bank</b>
+      <p class="small muted" style="margin:4px 0 10px">Zero fees. Unlocked after a quick check, usually within minutes.</p>
+      <div class="tabs" role="tablist">
+        {% for mth in methods %}<button class="tag {% if loop.first %}on{% endif %}" style="cursor:pointer" data-method-tab="{{ mth.key }}">{{ mth.label }}</button>{% endfor %}
+      </div>
+      {% for mth in methods %}
+      <div class="{% if not loop.first %}hidden{% endif %}" data-method="{{ mth.key }}" style="margin-top:12px">
+        <ol class="steps">
+          <li>Send <b>{{ order.amount|pkr }}</b> to:
+            {% if mth.raast %}<div class="small muted" style="margin-top:6px">Raast ID</div><div class="copy"><span>{{ mth.raast }}</span><button class="btn btn-sm" data-copy="{{ mth.raast }}">Copy</button></div>{% endif %}
+            {% if mth.account %}<div class="small muted" style="margin-top:6px">{{ "IBAN" if mth.key == 'bank' else mth.label ~ " number" }}</div><div class="copy"><span>{{ mth.account }}</span><button class="btn btn-sm" data-copy="{{ mth.account }}">Copy</button></div>{% endif %}
+            <div class="small">Account title: <b>{{ mth.title }}</b>{% if mth.bank %} · {{ mth.bank }}{% endif %}</div>
+          </li>
+          <li>Copy the <b>transaction ID (TID)</b> from your app or SMS.</li>
+          <li>Enter it below and tap <b>I've paid</b>.</li>
+        </ol>
+      </div>
+      {% endfor %}
+      <form data-proof style="margin-top:16px">
+        <div class="field"><label for="tid">Transaction ID (TID)</label><input id="tid" name="tid" required inputmode="text" autocomplete="off" placeholder="e.g. 12345678901"></div>
+        <div class="field"><label for="sender">Name or number you paid from</label><input id="sender" name="sender" required placeholder="e.g. Ali Khan / 0300…"></div>
+        <div class="field"><label for="oemail">Email for your report link (recommended)</label><input id="oemail" name="email" type="email" autocomplete="email" value="{{ profile.email or '' }}"></div>
+        <div class="err" data-err></div>
+        <button class="btn btn-pom btn-block" type="submit">I've paid · unlock my report</button>
+      </form>
+    </div>
+    {% endif %}
+    {% if usd_link %}
+    <div class="pay-method">
+      <b>🌍 Outside Pakistan? Pay in USD</b>
+      <p class="small muted" style="margin:4px 0 10px">International cards and PayPal. Instant unlock.</p>
+      <a class="btn btn-ghost btn-block" href="{{ usd_link }}">Pay ${{ product.usd }}</a>
+    </div>
+    {% endif %}
+    {% if not methods and not card and not usd_link %}
+    <div class="notice">Online payment is opening very soon. Message us on WhatsApp and we'll unlock your report by hand today.</div>
+    {% endif %}
+    <details class="card card-flat">
+      <summary style="cursor:pointer;font-weight:700">Have a code?</summary>
+      <div style="display:flex;gap:10px;margin-top:12px"><input style="flex:1;padding:12px;border-radius:12px;border:1.5px solid var(--line)" id="code" placeholder="MZ-XXXXXX"><button class="btn btn-sm" data-redeem>Apply</button></div>
+      <div class="err" data-redeem-err></div>
+    </details>
+    <p class="small muted center">7-day refund promise: if your report doesn't feel worth it, message us and we'll refund you. See our <a href="/refunds/">refund policy</a>.</p>
+  </div>
+</div>
+</section>
+{% endblock %}

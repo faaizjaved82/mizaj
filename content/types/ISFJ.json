@@ -1,0 +1,254 @@
+{
+  "code": "ISFJ",
+  "name": "Muhafiz",
+  "name_ur": "محافظ",
+  "name_en": "The Protector",
+  "family": "Pasban",
+  "emoji": "🛡️",
+  "colors": ["#2F6F6A", "#E8A598"],
+  "tagline": "Your love is quiet, constant, and almost always the first to arrive.",
+  "share_line": "I knew Nani's medicine was running low before Nani did.",
+  "keywords": ["Caring", "Observant", "Devoted", "Patient", "Protective"],
+  "rarity": "about 13% of people",
+  "free": {
+    "summary": "Whose voice sounded tired on the phone. Which cousin went quiet in the family group. Who skipped lunch because exams are close. You notice all of it, usually before anyone says a word. You remember birthdays without reminders, allergies after hearing them once, and exactly how your father likes his paratha. For you, paying attention is how love works, and you do it constantly, mostly without being asked.\n\nYou protect what you love: people, traditions, memories, the peace of a home. You prefer to help in practical, quiet ways, like a refilled prescription, a packed lunch or a lift to the exam centre at dawn, and you are much stronger than your soft manner suggests. When someone you love is threatened, the gentle Muhafiz becomes immovable. Because you give so naturally, people sometimes forget to give back, and you rarely ask. Others see you as kind, calm and dependable. Fewer see how much you feel, how much you remember, and how much you carry for everyone else.",
+    "strengths": [
+      "Remembers the small personal details that make people feel genuinely cared for.",
+      "Offers practical help before anyone has to ask for it.",
+      "Patient and gentle with children, elders and anyone going through difficulty.",
+      "Keeps family recipes, rituals and stories alive across generations.",
+      "Becomes surprisingly firm and brave when someone you love needs defending."
+    ],
+    "watchouts": [
+      "Says “koi baat nahi” when it is very much a baat.",
+      "Absorbs other people's stress until there is no room left for yours.",
+      "May store old hurts quietly instead of talking them through."
+    ],
+    "pakistani_archetype": "You're the one who slips ORS sachets, extra socks and homemade shami kebabs into your cousin's bag before their first hostel term, then texts “pohanch gaye?” the minute the bus should arrive.",
+    "in_relationships": "You love through attention: chai made exactly right, a medicine reminder, the favourite dish cooked after a bad day. You want a home that feels safe and a spouse who notices your effort without being told. Inside the full report: how to ask for what you need before quiet resentment builds.",
+    "at_work": "You are the colleague who remembers the client's daughter's name and the deadline nobody wrote down. Your work is careful and thorough, and your support for the team often goes uncredited. Harsh criticism and cut-throat cultures hurt you. The paid report shows where your care becomes a career advantage, not unpaid overtime.",
+    "fictional_twins": [
+      "Samwise Gamgee (The Lord of the Rings)",
+      "Dr. John Watson (Sherlock Holmes stories)",
+      "Alfred Pennyworth (Batman)",
+      "Marge Simpson (The Simpsons)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Ask you about a family wedding from ten years ago and you won't just remember who got married. You'll remember what your aunt wore, which song was playing when the baraat arrived, that your little cousin fell asleep on the sofa long before dinner was served, and that you covered them with your shawl. Your memory isn't built for facts and figures. It is built for people. Every detail you store is a quiet way of saying: you mattered to me.\n\nYour deepest motivation is to keep the people you love safe, comfortable and looked after. Not in a dramatic, rescue-the-world way, but through daily acts that add up to a life of devotion: the hot water bottle for Dadi's knees, the school uniform ironed and laid out the night before, the extra roti saved for whoever comes home late. Your core fear is that someone you love will be hurt or feel alone, and you won't have noticed in time. Close behind it sits a quieter fear: being a burden. You will cross the city to help a friend move house, yet hesitate to ask anyone to collect you from the airport.\n\nYou take in the world through your senses and your history. Familiar things steady you: the same cup, the same corner of the sofa, the smell of your mother's kitchen, the rhythm of Ramadan as you knew it in childhood. New situations make you cautious until you can connect them to something you already know. Your decisions are rarely cold calculations; you ask how each option will land on the people involved. You are also finely tuned to tone. A colleague's slightly clipped “ok” can occupy your whole evening as you replay the conversation, wondering what you did wrong. Usually, you did nothing.\n\nHere is the gap. People see your calm, helpful surface and assume you are endlessly easygoing. Inside, you are often tired, sometimes hurt, and quietly keeping a list of the times you were not considered. The friend who never asked how your exams went. The relative who praised every dish at the dawat except the one you stayed up making. You don't say it, because saying it feels selfish, and because you hope someone will notice you the way you notice them. Mostly they don't, not from lack of love, but because nobody else is wired to watch as closely as you. Learning to say your needs plainly is not a betrayal of your gentle nature. It is how the protector gets protected.",
+    "superpowers": [
+      {
+        "title": "Memory as Care",
+        "text": "You turn small details into deep care. You remember that a friend's mother had surgery last spring and ask how she is doing now. You know which colleague is allergic to nuts, which cousin hates loud music, which uncle needs the chair with arms. People feel seen around you in a way they can't quite explain. In a world of distracted people scrolling their phones, being remembered is a rare gift."
+      },
+      {
+        "title": "Quiet Anticipation",
+        "text": "You see needs before they become problems. Before the long drive to Nani's, the water bottles, the phone charger and a plastic bag for the carsick child are already in the car. Before the exam, you have photocopied your notes for the friend who was ill. You rarely wait to be asked because you have watched closely enough to know. Things around you run smoothly, and often nobody realises why."
+      },
+      {
+        "title": "Patient Strength",
+        "text": "Caring for an ailing grandparent through months of hospital visits, calming a younger sibling's tantrums, explaining fractions to a struggling cousin for the third time: your patience outlasts almost anyone's. You don't need applause to keep going. This stamina, steady rather than showy, is why families lean on you through long difficulties, not just short emergencies. Your care doesn't run out after the first week, when everyone else's quietly does."
+      },
+      {
+        "title": "Fierce When It Counts",
+        "text": "People mistake your gentleness for weakness exactly once. When a relative humiliates your younger sibling at a family dinner, or a manager treats a junior unfairly, you surprise the whole room by speaking up, calmly and firmly. You don't fight easily for yourself, but for someone you love you are immovable. This protective courage is the steel inside your softness, and it earns a deep, quiet respect that lasts for years."
+      },
+      {
+        "title": "Keeper of Roots",
+        "text": "You hold the threads that tie a family together: Nani's haleem recipe, the proper order of an Eid morning, the old photo albums, the story of who migrated from where in 1947. Without people like you, these would simply disappear within a generation. You make younger cousins feel rooted, and you turn ordinary gatherings into a living link with the past that many people only value once it is gone."
+      },
+      {
+        "title": "Careful Hands",
+        "text": "At work you are meticulous in a gentle way. You double-check the patient's chart, proofread the report once more, and leave handover notes so complete that the next shift never feels lost. You would rather stay late than leave something half-done that might trouble someone else. Quality, for you, is simply another form of kindness. Teams with a Muhafiz in them make fewer mistakes and, just as importantly, feel looked after."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "The Swallowed No",
+        "text": "You agree to things you don't want to do because refusing feels unkind. Another rishta visit to host, another favour for a colleague, another weekend given away to someone else's plans. You equate saying no with letting someone down, but every forced yes chips at your energy and builds silent resentment. Try this: when asked, say “let me check and tell you,” then decide honestly once the pressure of the moment has passed."
+      },
+      {
+        "title": "The Hidden Ledger",
+        "text": "When you feel hurt or taken for granted, you rarely say so. The hurt gets stored in a quiet ledger until one day a small thing triggers a big reaction and everyone, including you, is confused. You avoid conflict to keep the peace, but that peace becomes fragile. Try this: raise small hurts within two days, in one calm sentence about the moment, such as “It hurt me when you laughed at my idea.”"
+      },
+      {
+        "title": "Change Grief",
+        "text": "Moving cities, a new manager, a shift in household arrangements after a sibling's wedding: big changes unsettle you deeply, even good ones. You may quietly grieve the old way long after others have adjusted, because the familiar is where you feel safe. Try this: when change arrives, choose one routine to keep intact, such as morning chai or a weekly call with a friend, as an anchor while the rest settles."
+      },
+      {
+        "title": "Last on the List",
+        "text": "Your own health, rest and goals sit at the bottom of your list. You skip your own check-up to take your mother to hers, and postpone your master's degree to support a sibling's. Over years this can leave you deeply depleted, wondering where your own life went. Try this: put one non-negotiable item for yourself in the weekly calendar and protect it as fiercely as you would an elder's hospital appointment."
+      },
+      {
+        "title": "It Must Be Me",
+        "text": "Feedback at work, a sarcastic remark from a relative, a slow reply from a friend: you often read these as proof that you did something wrong. Your sensitivity is what makes you caring, but it also makes you absorb blame that was never yours. Try this: before assuming the worst, think of two other explanations. Most short replies are about someone's busy day, not about you, and checking gently is always allowed."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "In marriage you are devoted in practical, lasting ways. You learn your spouse's preferences quickly and keep honouring them for decades: the comfort food on a stressful day, the side of the bed they prefer, the quiet they like in the morning. What you need in return is appreciation and gentleness. Harsh words stay with you far longer than your spouse realises. You also need a partner who takes your side, especially in front of family; feeling unprotected is one of your deepest hurts. Friction typically starts when you give and give, waiting for your spouse to notice, and they don't. Instead of waiting, tell them clearly what makes you feel cared for. A good spouse will be relieved to know.",
+      "rishta_tips": [
+        "Notice how they treat waiters, drivers and younger siblings. Kindness towards people who can't benefit them is the real test.",
+        "Ask gently how they handle disagreements with their parents. You need someone who will stand beside you, not stay silent.",
+        "Be honest early about your own plans, including work or caring for your parents. Hidden needs become future conflicts.",
+        "Don't say yes just to avoid disappointing either family. A marriage built on politeness alone can become very lonely.",
+        "Watch for anyone who assumes you'll handle everything at home. Shared care is a fair expectation, not a luxury."
+      ],
+      "family": "You are often the family's emotional glue, working quietly. You remember elders' medicines, stay in touch with distant relatives and soothe tensions between siblings without anyone formally asking. Parents may lean on you more than they realise, and you feel responsible for their happiness. In a joint family you adapt well and are widely liked, but you can become the default helper, the one making chai for every visitor and running every errand. Izzat matters to you, and you will guard the family's name fiercely. Your siblings find you endlessly forgiving and quietly protective. Remember that being needed and being valued are different things. You deserve both.",
+      "friendship": "You are a loyal, low-maintenance and deeply attentive friend. You remember the job interview date and text “best of luck” that morning. You turn up with food when someone is unwell and still remember, years later, how they like their tea. You prefer a few close friendships over a big crowd, and you keep them for decades. Choose friends who also show up, and let them look after you sometimes.",
+      "best_matches": ["ESFP", "ISTJ", "ESTJ"],
+      "growth_matches": ["ENTP", "INTP"]
+    },
+    "career": {
+      "work_style": "You work carefully, consistently and with genuine concern for the people your work affects. You like clear instructions and want to understand exactly what is expected before you begin. You excel at tasks that need patience and precision, especially when they help someone directly: a patient, a student, a client. You do your best work when you can picture the person it will help. You rarely promote yourself, so credit can drift to louder colleagues. You also struggle to refuse extra tasks, and your workload creeps upward. Keep a simple record of what you contribute and bring it to your appraisal. A manager cannot reward work they never hear about.",
+      "ideal_environment": "A stable, kind workplace with clear expectations and a manager who gives feedback privately and respectfully. You thrive where your work helps people directly: hospitals, schools, NGOs, HR teams and family businesses. Smaller teams where everyone knows each other suit you well. You need a predictable routine, a calm corner and colleagues who say thank you. Aggressive cultures built on public criticism will drain you, however good the salary.",
+      "careers": [
+        {
+          "title": "Nurse",
+          "why": "Nursing combines your attentiveness, patience and practical care. You notice the small change in a patient that others might miss.",
+          "pk_path": "Four-year BSN at a recognised nursing college, then national nursing council registration; Gulf hospitals actively recruit Pakistani nurses."
+        },
+        {
+          "title": "Family Physician or Paediatrician",
+          "why": "Long-term patient relationships suit you well. You remember histories, earn whole families' trust and offer the patience that good medicine needs.",
+          "pk_path": "MDCAT, MBBS and house job, then FCPS through CPSP or a postgraduate diploma in family medicine."
+        },
+        {
+          "title": "Special Education Teacher",
+          "why": "Special education needs patient observation, gentle consistency and the joy of celebrating tiny progress, all qualities you have in abundance.",
+          "pk_path": "BS or MA Special Education from University of the Punjab, University of Karachi or AIOU; then inclusive schools or public centres."
+        },
+        {
+          "title": "HR Officer",
+          "why": "HR needs someone who genuinely sees employees as people, and handles their records, leave and grievances confidentially, fairly and kindly.",
+          "pk_path": "BBA or MBA with an HR focus from an HEC-recognised university; start as an HR trainee in a corporate."
+        },
+        {
+          "title": "Clinical Psychologist",
+          "why": "You listen without judging and remember what people tell you. Therapy rewards warmth, patience and careful attention across many sessions.",
+          "pk_path": "BS Psychology, then MS Clinical Psychology with a supervised internship; hospitals, schools or online sessions for diaspora clients."
+        },
+        {
+          "title": "Online Quran or Subject Tutor",
+          "why": "Patient one-to-one teaching suits you, and diaspora families from Manchester to Dubai actively look for trustworthy Pakistani tutors for their children.",
+          "pk_path": "Strong subject knowledge or tajweed certification; find students through tutoring platforms, community Facebook groups and word of mouth."
+        },
+        {
+          "title": "Remote Medical Scribe",
+          "why": "Behind-the-scenes documentation for US clinics rewards accuracy, reliability and deep respect for confidential patient information, all things you already offer naturally.",
+          "pk_path": "Any graduation with strong English and typing; HIPAA training, then roles with scribing firms in Lahore, Karachi or Islamabad."
+        },
+        {
+          "title": "Home Bakery or Tiffin Service",
+          "why": "Care, consistency and memory for what people like turn into loyal customers who reorder every single week without being asked.",
+          "pk_path": "Start from your kitchen with WhatsApp and Instagram orders; get a provincial food authority licence as orders grow."
+        },
+        {
+          "title": "Social Welfare Officer",
+          "why": "Welfare work lets you protect vulnerable families directly, through support programmes for widows, orphans and people with disabilities in your district.",
+          "pk_path": "Master's in Social Work or Sociology, then social welfare officer posts advertised by the provincial public service commission."
+        },
+        {
+          "title": "Interior Designer",
+          "why": "You understand how a home should feel, not just look, and you remember every little thing a client said they wanted.",
+          "pk_path": "Interior design degree from PIFD, Indus Valley School or a similar recognised design school; build a portfolio starting with relatives' homes."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "High-pressure Target Sales",
+          "why": "Pushing products on hesitant customers, with monthly targets ruling your mood, may clash with your honest, caring nature."
+        },
+        {
+          "title": "Corporate Litigation",
+          "why": "Aggressive courtroom battles can feel draining day after day. Family law or legal aid work may suit you far better."
+        },
+        {
+          "title": "Investigative Journalism",
+          "why": "Constant confrontation and exposure to conflict could wear down your peace. Feature writing or editing may be a gentler fit."
+        }
+      ],
+      "as_a_leader": "You lead by serving. Your team knows you will cover for them in an emergency, remember their family situations and fight for their leave when a parent is unwell. People are fiercely loyal to managers like you. Your challenge is tough feedback and holding underperformers accountable, since avoiding it is unfair to everyone else. Practise kind but clear words: “This needs to change by Friday.”",
+      "as_a_team_member": "You are the glue in the background. You notice who is struggling, update the shared folder and remember what the client asked for in the very first meeting. You rarely compete for the spotlight. Your risk is absorbing others' work because you can't bear to watch things go wrong. Help generously, but stay visible: let your manager know what you've handled.",
+      "money_style": "You save carefully but spend generously on others. You'll buy yourself the cheaper shoes and your niece the expensive Eid outfit. You are a faithful BC member, usually saving towards a family goal: a sibling's wedding, your parents' Umrah, children's school fees. You avoid risky investments, sometimes entirely. Learn the basics of one safe, halal investment so your money grows instead of just sitting still."
+    },
+    "communication": {
+      "how_they_talk": "You speak gently, politely and often indirectly. You ask about the other person before talking about yourself, and you soften difficult news so much that the message sometimes gets lost. You are a wonderful listener who remembers what you hear. In groups you may stay quiet and let louder voices lead, then share your real view later, one-on-one, with someone you trust.",
+      "how_to_talk_to_them": [
+        "Thank them specifically. “You remembered my exam date” means far more than “you're so nice.”",
+        "Give criticism privately and gently; public correction stays with them far longer than you'd expect.",
+        "Ask what they need, then wait. They often deflect the first time out of politeness.",
+        "Don't assume silence means agreement. Check in directly, because they may be holding back their real view."
+      ],
+      "conflict_style": "You avoid conflict whenever you can, smoothing things over and swallowing your own discomfort. When you are finally pushed too far, the reaction can be surprisingly strong or icily silent, and people wonder where it came from. In truth, it came from months of small, unspoken hurts. Your growth is to raise issues early and gently, while they are still small and easy to repair."
+    },
+    "stress": {
+      "triggers": [
+        "Unresolved tension or coldness at home",
+        "Feeling unappreciated after giving a great deal",
+        "Sudden changes to routines or living arrangements",
+        "Harsh criticism, especially in front of others"
+      ],
+      "signs": [
+        "Over-helping everyone to avoid your own feelings",
+        "Becoming withdrawn, tearful or unusually quiet",
+        "Worrying about worst-case scenarios for loved ones",
+        "Irritability that surprises people who know you as gentle"
+      ],
+      "reset": [
+        "An evening of comfort routine: favourite drama, warm shawl, chai",
+        "Writing the hurt in a private notebook before deciding whether to raise it",
+        "Asking one trusted person to take over one duty for a day",
+        "Cooking or gardening, something calming and hands-on"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Notice your own needs",
+        "why": "You track everyone's needs with remarkable precision but rarely your own. This week, turn that same attention inward. You cannot protect anyone well while you are running on an empty tank.",
+        "actions": [
+          "Each morning, write one thing you need today, however small, before checking messages.",
+          "Eat at least one meal daily sitting down, without serving anyone else first.",
+          "Note one moment each day when you said yes but actually meant no."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Practise small, kind refusals",
+        "why": "Every reluctant yes costs energy and adds to hidden resentment. Small refusals said warmly protect your relationships rather than harming them. This week, practise the skill on requests where very little is at stake.",
+        "actions": [
+          "Decline one small request with a warm, simple sentence and no long explanation.",
+          "Say “let me check and tell you” instead of agreeing instantly at least once.",
+          "Notice that the relationship survives your no, and write down what actually happened."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Speak small hurts early",
+        "why": "Your quiet ledger of hurts eventually overflows. Sharing small disappointments while they are still small keeps relationships honest and spares you the outburst that confuses everyone, including you. This week, you practise saying them.",
+        "actions": [
+          "Share one mild disappointment with someone close, using “I felt” instead of “you always.”",
+          "If a comment stings, mention it within two days, calmly and briefly.",
+          "Each evening, ask yourself whether you are carrying anything you haven't said aloud."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Welcome one new thing",
+        "why": "Comfort is your home base, but growth lives a little outside it. One gentle experiment each day shows you that unfamiliar does not mean unsafe, and builds confidence for bigger changes ahead.",
+        "actions": [
+          "Try one new recipe, route or book that sits outside your usual habits.",
+          "Join one gathering or conversation where you know fewer than half the people.",
+          "Share one opinion in a group before anyone else does, even a small one."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "A Damvi Muhafiz is the one humming in the kitchen while cooking for the whole family. You are chattier and more playful than most of your type, and Unani tradition associates this warm, airy temperament with cheerfulness. That brightness can hide exhaustion, even from you. Make room for real rest, not just pleasant busyness.",
+      "safravi": "Give a Muhafiz the Safravi fire and protectiveness grows teeth. You defend loved ones faster, push harder at work and let less slide. Classical Unani writers described Safravi as hot and quick to flare, so bottled-up hurts may surface as sudden sharp words. Voice concerns earlier and cooler, before the heat has a chance to build.",
+      "balghami": "Balghami makes you the gentlest of the gentle: a soothing presence in any crisis, slow to anger, deeply steady. Many people with this cool, watery temperament find their calm comes paired with lower energy. Your risk is passivity, letting others decide everything for you. Practise small acts of initiative, and keep some gentle, regular movement in your day.",
+      "saudavi": "Saudavi gives your care unusual depth. You feel intensely, remember everything and may worry quietly about every loved one's future. In Unani thinking, the earth temperament leans towards reflection and, at times, melancholy. Your kindness is thoughtful and lasting. Balance it with lightness: sunlight, laughter and friends who gently pull you out of your own head."
+    },
+    "letter": "Dear Muhafiz,\n\nSomewhere today, someone is warm because of a shawl you packed, fed because of food you sent, or calmer because you remembered to ask how their appointment went. You did not post about it. You probably did not even mention it. That is how you love: quietly, constantly, without asking for a receipt.\n\nWe want you to know that it mattered. The recipes you kept alive, the elders you sat with through long nights, the younger cousins who felt safe because you were in the house: none of it was small.\n\nBut here is something you may need to hear. You are allowed to be cared for too. You are allowed to say “I'm tired,” “that hurt me,” or simply “no.” The people worth keeping will not love you less for it. They might finally understand how much you have been carrying.\n\nGuard your own heart the way you guard everyone else's. You, too, are someone worth protecting.\n\nWith love and gratitude,\n— Mizaj"
+  }
+}

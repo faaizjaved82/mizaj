@@ -1,0 +1,533 @@
+{
+  "codes": {
+    "R": {
+      "name": "Realistic",
+      "nickname": "The Doer",
+      "ur": "عملی",
+      "summary": "Realistic people think with their hands. You like seeing a result you can touch: a circuit that works, a building that stands, a crop that grows, a car that starts on the first try. You would rather fix the UPS than write an essay about it. At school you probably enjoyed practicals more than theory, and you are often the one relatives call when the inverter stops working. You value skill, competence and getting things done, and you are happiest with clear problems, tools, machines, outdoor work or physical activity.",
+      "strengths": [
+        "Hands-on problem solving",
+        "Mechanical and technical aptitude",
+        "A practical, no-nonsense approach",
+        "Physical stamina and coordination",
+        "Reliability under real-world pressure"
+      ],
+      "careers": [
+        {
+          "title": "Civil Engineer",
+          "degree": "BE/BSc Civil Engineering (UET, NUST, NED, GIKI or provincial universities)",
+          "entry": "ECAT, NUST NET or university entry test; PEC registration after graduating",
+          "outlook": "Steady demand from housing, roads, dams and flood-resilient rebuilding, plus strong Gulf demand."
+        },
+        {
+          "title": "Mechanical Engineer",
+          "degree": "BE Mechanical Engineering",
+          "entry": "ECAT, NUST NET, GIKI or university entry test; PEC registration",
+          "outlook": "Steady in manufacturing, energy and HVAC; Gulf and overseas project roles remain popular."
+        },
+        {
+          "title": "Electrical / Power Engineer",
+          "degree": "BE Electrical Engineering (power or electronics)",
+          "entry": "ECAT, NUST NET, FAST or COMSATS admission test; PEC registration",
+          "outlook": "Growing as Pakistan expands solar, grid upgrades and battery storage."
+        },
+        {
+          "title": "Mechatronics & Robotics Engineer",
+          "degree": "BE Mechatronics (NUST, UET, Air University and others)",
+          "entry": "NUST NET, ECAT or university entry test",
+          "outlook": "Emerging field as automation spreads in textiles, food processing and warehousing."
+        },
+        {
+          "title": "Solar PV Technician / Installer",
+          "degree": "NAVTTC or TEVTA solar installation certificate (three to six months)",
+          "entry": "No degree needed: matric or intermediate, then a short course and field practice",
+          "outlook": "Booming: rooftop solar is one of Pakistan's fastest-growing trades in 2026."
+        },
+        {
+          "title": "Electrician / HVAC Technician",
+          "degree": "DAE Electrical, or TEVTA/NAVTTC certificate in electrical or refrigeration and AC",
+          "entry": "After matric; Gulf jobs usually need a skills verification test and a licensed overseas employment promoter",
+          "outlook": "Constant local demand and large, steady demand across the Gulf."
+        },
+        {
+          "title": "Auto & EV Technician",
+          "degree": "DAE Auto & Diesel or TEVTA automotive diploma",
+          "entry": "After matric; apprenticeship at a workshop or dealership",
+          "outlook": "Steady; hybrid and EV repair skills are a fast-growing niche."
+        },
+        {
+          "title": "Armed Forces Officer",
+          "degree": "PMA Long Course, PN Academy or PAF Academy (with degree programmes)",
+          "entry": "Online registration, written tests, medical and ISSB",
+          "outlook": "Stable, respected career with regular annual intakes."
+        },
+        {
+          "title": "Agriculture Scientist / Agritech Specialist",
+          "degree": "BSc (Hons) Agriculture (UAF Faisalabad, PMAS-AAUR, Sindh Agriculture University)",
+          "entry": "University entry test after FSc Pre-Medical or Pre-Engineering",
+          "outlook": "Growing interest in agritech, water efficiency and climate-smart farming."
+        },
+        {
+          "title": "CAD Drafter / 3D Modeller (remote)",
+          "degree": "DAE or short courses in AutoCAD, Revit or SolidWorks",
+          "entry": "No university degree needed; a strong portfolio and freelance platforms",
+          "outlook": "Remote drafting and BIM work for foreign firms is a growing freelance niche."
+        },
+        {
+          "title": "Chef / Culinary Professional",
+          "degree": "Culinary diploma from TEVTA or a private hospitality institute",
+          "entry": "After matric or intermediate; kitchen apprenticeship",
+          "outlook": "Restaurants, cloud kitchens, hotels and Gulf hospitality keep demand steady."
+        },
+        {
+          "title": "Mobile & Electronics Repair Technician",
+          "degree": "NAVTTC or TEVTA mobile and electronics repair course",
+          "entry": "No degree needed; short course plus a shop apprenticeship",
+          "outlook": "Every market needs one, and skilled technicians often grow into their own shop."
+        }
+      ],
+      "subjects": "FSc Pre-Engineering (Physics, Chemistry, Maths) for engineering; FSc Pre-Medical for agriculture; matric with science followed by DAE or a TEVTA/NAVTTC course for technical trades; A-levels Physics, Maths and Chemistry (or Further Maths)."
+    },
+    "I": {
+      "name": "Investigative",
+      "nickname": "The Investigator",
+      "ur": "تحقیقی",
+      "summary": "Investigative people need to know why. You enjoy puzzles, patterns and questions without easy answers, and you would rather understand a problem fully than rush a quick fix. You may be the student who argues with the textbook, the cousin who fact-checks every forward in the family WhatsApp group, or the one who reads the leaflet before taking any medicine. You value logic, evidence and independence, and you are happiest when you can analyse, research, experiment and think deeply without constant interruption.",
+      "strengths": [
+        "Analytical and logical thinking",
+        "Curiosity and a love of learning",
+        "Research and evidence-checking",
+        "Deep, independent concentration",
+        "Comfort with complex, abstract problems"
+      ],
+      "careers": [
+        {
+          "title": "Doctor (MBBS)",
+          "degree": "MBBS (five years) at a public or private medical college",
+          "entry": "MDCAT; then house job, with FCPS or USMLE/PLAB for specialisation",
+          "outlook": "Always needed; competition for seats and specialist training is intense."
+        },
+        {
+          "title": "Pharmacist",
+          "degree": "Pharm-D (five years)",
+          "entry": "University entry test after FSc Pre-Medical (some universities use MDCAT scores)",
+          "outlook": "Steady roles in pharma companies, hospitals, quality control and regulatory affairs."
+        },
+        {
+          "title": "Software Engineer",
+          "degree": "BS Computer Science or Software Engineering (FAST, NUST, COMSATS, ITU, LUMS and others)",
+          "entry": "FAST admission test, NUST NET, LUMS admission test or SAT",
+          "outlook": "Strong local and remote demand; AI tools are reshaping entry-level work, so projects matter."
+        },
+        {
+          "title": "Data Scientist / AI Engineer",
+          "degree": "BS CS, Data Science, Statistics or Mathematics, plus online specialisations",
+          "entry": "NUST NET, FAST or LUMS for the degree; a GitHub or Kaggle portfolio for jobs",
+          "outlook": "One of the fastest-growing fields locally and remotely; employers want proof of real projects."
+        },
+        {
+          "title": "Data Analyst (remote)",
+          "degree": "Any bachelor's helps, but certificates in Excel, SQL, Power BI or Python can be enough",
+          "entry": "Online courses (DigiSkills and global platforms) plus a portfolio; freelancing platforms",
+          "outlook": "High remote demand, and a practical entry point without an expensive degree."
+        },
+        {
+          "title": "Cybersecurity Analyst",
+          "degree": "BS Cyber Security or CS (Air University, NUST, FAST and others), or industry certifications",
+          "entry": "University entry test, or self-study certifications such as CompTIA Security+",
+          "outlook": "Growing as banks, telecoms and government services digitise; strong remote options."
+        },
+        {
+          "title": "Medical Lab Technologist",
+          "degree": "BS Medical Lab Technology, or a two-year allied health diploma",
+          "entry": "University test after FSc Pre-Medical; provincial medical faculty diplomas after matric",
+          "outlook": "Steady demand in hospitals, private labs and diagnostic chains."
+        },
+        {
+          "title": "Clinical Psychologist",
+          "degree": "BS Psychology, then MS Clinical Psychology or ADCP",
+          "entry": "University entry tests; supervised clinical training and internships",
+          "outlook": "Rising mental-health awareness is increasing demand in cities and online."
+        },
+        {
+          "title": "Economist / Policy Researcher",
+          "degree": "BS Economics (PIDE, LUMS, QAU, GCU and others)",
+          "entry": "University entry tests; CSS (FPSC) for government economic roles",
+          "outlook": "Needed in think tanks, banks, the State Bank and development organisations."
+        },
+        {
+          "title": "Biotechnologist / Research Scientist",
+          "degree": "BS Biotechnology or Biochemistry, then MPhil/PhD (HEC and foreign scholarships)",
+          "entry": "University entry test after FSc Pre-Medical",
+          "outlook": "A niche locally and stronger abroad; research careers often involve study overseas."
+        },
+        {
+          "title": "Environmental / Climate Scientist",
+          "degree": "BS Environmental Sciences, with GIS and data skills",
+          "entry": "University entry test after FSc",
+          "outlook": "Growing after recent floods: climate adaptation, NGOs and international projects."
+        },
+        {
+          "title": "Forensic Scientist",
+          "degree": "BS Forensic Science (offered by several universities)",
+          "entry": "University entry test; recruitment by provincial forensic science agencies",
+          "outlook": "A small, specialised field linked to policing and the courts."
+        }
+      ],
+      "subjects": "FSc Pre-Medical (Biology, Chemistry, Physics) for medicine, pharmacy and life sciences; FSc Pre-Engineering or ICS (Computer Science, Maths, Physics or Statistics) for computing and data; FA with Economics, Statistics and Psychology for social sciences; A-levels Biology, Chemistry, Physics, Maths or Computer Science."
+    },
+    "A": {
+      "name": "Artistic",
+      "nickname": "The Creator",
+      "ur": "تخلیقی",
+      "summary": "Artistic people see the world as raw material for something new. You notice colour, sound, words and design, and you would rather invent your own way than follow a template. You might be the one who designs the shaadi card, edits the family trip video, writes poetry in your notes app, or rearranges the drawing room furniture just to see how it looks. You value originality, self-expression and freedom, and you are happiest when your work lets you imagine, design, write, perform or create something people can feel.",
+      "strengths": [
+        "Original, imaginative thinking",
+        "Strong visual or verbal expression",
+        "An eye for beauty, design and detail",
+        "Comfort with ambiguity and experiment",
+        "The ability to move and connect with people"
+      ],
+      "careers": [
+        {
+          "title": "Architecture & Building Design",
+          "degree": "B.Arch (five years) at NCA, UET, NED, IVS, COMSATS and others",
+          "entry": "NCA or university aptitude test and portfolio; PCATP registration after graduating",
+          "outlook": "Steady in housing and urban projects; 3D visualisation adds remote options."
+        },
+        {
+          "title": "Graphic Designer (freelance)",
+          "degree": "BFA/BDes (NCA, IVS, PIFD), or short courses such as DigiSkills graphic design",
+          "entry": "Portfolio first; Fiverr, Upwork, Behance and agency work",
+          "outlook": "One of Pakistan's biggest freelance categories; AI tools raise the bar for quality and ideas."
+        },
+        {
+          "title": "UI/UX Designer",
+          "degree": "BS/BDes, or certificates in Figma and UX research",
+          "entry": "A portfolio of app and website case studies; remote job boards and software houses",
+          "outlook": "Strong remote demand as more businesses build apps and digital services."
+        },
+        {
+          "title": "Fashion / Textile Designer",
+          "degree": "BS Fashion or Textile Design (PIFD, NCA, NTU Faisalabad and others)",
+          "entry": "Admission test and portfolio",
+          "outlook": "Pakistan's textile exports and online boutiques keep design talent in demand."
+        },
+        {
+          "title": "Drama & Screenwriter",
+          "degree": "Any degree; often BS Media Studies or English/Urdu Literature",
+          "entry": "Writing samples, workshops and pitching to production houses",
+          "outlook": "Pakistani dramas have huge audiences at home and abroad, and streaming adds new outlets."
+        },
+        {
+          "title": "Content Writer / Copywriter (remote)",
+          "degree": "Any bachelor's or none; strong English or Urdu writing",
+          "entry": "Writing portfolio, freelance platforms and agency internships",
+          "outlook": "Steady, but AI means clients now pay for voice, strategy and editing skill."
+        },
+        {
+          "title": "Video Editor / Content Creator",
+          "degree": "Short courses in Premiere Pro or DaVinci Resolve; no degree required",
+          "entry": "Self-taught portfolio; YouTube, Instagram, agencies and freelance clients",
+          "outlook": "High local and remote demand for short-form video editors."
+        },
+        {
+          "title": "Animator / Game Artist",
+          "degree": "BS Animation, Multimedia Arts or Game Design, or online courses",
+          "entry": "Portfolio and studio art tests",
+          "outlook": "Pakistan has an active mobile game industry, and remote art roles are growing."
+        },
+        {
+          "title": "Wedding & Brand Photographer / Videographer",
+          "degree": "No degree needed; short courses and apprenticeship",
+          "entry": "Assist an established studio and build your own portfolio",
+          "outlook": "Shaadi season keeps skilled photographers booked year after year."
+        },
+        {
+          "title": "Interior Designer",
+          "degree": "BS Interior Design, or a diploma from TEVTA or a private institute",
+          "entry": "Portfolio; university entry test for the degree route",
+          "outlook": "Growing with new housing societies and a strong renovation culture."
+        },
+        {
+          "title": "Journalist / Digital Media Producer",
+          "degree": "BS Mass Communication or Media Studies",
+          "entry": "University entry test; internships in newsrooms or digital outlets",
+          "outlook": "Traditional newsrooms are shrinking, while digital, video and fact-checking roles grow."
+        },
+        {
+          "title": "Calligrapher / Artisan Entrepreneur",
+          "degree": "Ustad-shagird training, NCA short courses or self-taught",
+          "entry": "Sell through Instagram, exhibitions and online marketplaces",
+          "outlook": "A niche but meaningful path; calligraphy, truck art and crafts sell well to the diaspora."
+        }
+      ],
+      "subjects": "FA with Fine Arts, English Literature, Urdu or Psychology; ICS for digital design, animation and UI/UX; FSc Pre-Engineering (with Maths) for architecture; A-levels Art & Design, English Literature, Media Studies or Design & Technology."
+    },
+    "S": {
+      "name": "Social",
+      "nickname": "The Helper",
+      "ur": "سماجی",
+      "summary": "Social people are energised by helping others learn, grow and feel understood. You are the friend people call at 2 am, the sibling who explains maths to younger cousins, the one who quietly checks that everyone at the dawat has been served. You notice how people feel, and you care about fairness and kindness. You value relationships, service and meaningful work, and you are happiest teaching, guiding, caring, counselling or supporting people, especially when you can see the difference you make.",
+      "strengths": [
+        "Empathy and active listening",
+        "Clear, patient explaining",
+        "Teamwork and cooperation",
+        "Building trust quickly",
+        "Motivating and encouraging others"
+      ],
+      "careers": [
+        {
+          "title": "Teacher / Lecturer",
+          "degree": "B.Ed or ADE for school teaching; BS/MPhil in your subject for lecturing",
+          "entry": "FPSC, PPSC or provincial teacher recruitment tests; private school interviews",
+          "outlook": "Steady demand everywhere, especially for strong STEM and English teachers."
+        },
+        {
+          "title": "Online Quran or Subject Tutor (remote)",
+          "degree": "No degree needed; Quran with tajweed certification, or subject expertise",
+          "entry": "Teach through online academies or independently for diaspora families",
+          "outlook": "Large, steady demand from families in the UK, US, Canada and the Gulf."
+        },
+        {
+          "title": "Nurse",
+          "degree": "BS Nursing (four years) at a public or private nursing college",
+          "entry": "Nursing entry test after FSc Pre-Medical; registration with the national nursing council",
+          "outlook": "Strong local need and growing demand in the Gulf, UK and beyond."
+        },
+        {
+          "title": "Physiotherapist",
+          "degree": "Doctor of Physical Therapy (DPT, five years)",
+          "entry": "University entry test after FSc Pre-Medical (some use MDCAT scores)",
+          "outlook": "Growing in hospitals, sports clubs and home-visit services."
+        },
+        {
+          "title": "Counsellor / School Psychologist",
+          "degree": "BS Psychology, then MS Counselling or ADCP",
+          "entry": "University entry tests; supervised practice",
+          "outlook": "Schools, universities and online platforms are increasingly hiring counsellors."
+        },
+        {
+          "title": "Nutritionist / Dietitian",
+          "degree": "BS Human Nutrition & Dietetics",
+          "entry": "University entry test after FSc Pre-Medical",
+          "outlook": "Growing interest in healthy eating, hospital roles and online consulting."
+        },
+        {
+          "title": "HR Professional",
+          "degree": "BBA (HR) or any bachelor's, with HR certifications later",
+          "entry": "University entry tests (IBA, LUMS and others); management trainee programmes",
+          "outlook": "Every growing company needs HR, and remote recruiting roles exist too."
+        },
+        {
+          "title": "Social Worker / Development Professional",
+          "degree": "BS Social Work, Sociology or Development Studies",
+          "entry": "University entry test; internships with NGOs and UN agencies",
+          "outlook": "Steady in NGOs, especially in health, education and flood-recovery projects."
+        },
+        {
+          "title": "Speech or Occupational Therapist",
+          "degree": "BS Speech & Language Pathology or BS Occupational Therapy",
+          "entry": "University entry test after FSc Pre-Medical",
+          "outlook": "A small field with unmet demand, particularly in children's services."
+        },
+        {
+          "title": "Emergency Medical Technician (Rescue 1122)",
+          "degree": "Provincial emergency services academy training after intermediate",
+          "entry": "Rescue 1122 recruitment: written, physical and interview stages",
+          "outlook": "A respected public-service role with regular recruitment rounds."
+        },
+        {
+          "title": "Customer Success Specialist (remote)",
+          "degree": "Any bachelor's or none; strong English and communication",
+          "entry": "Apply to remote-first companies and BPOs; build experience and references",
+          "outlook": "A large remote market; Pakistani time zones suit UK and US clients."
+        },
+        {
+          "title": "Montessori / Early Childhood Educator",
+          "degree": "Montessori diploma (around one year) or ADE",
+          "entry": "After intermediate; private school interviews",
+          "outlook": "Steady demand in private schools, and a route to running a home-based daycare."
+        }
+      ],
+      "subjects": "FSc Pre-Medical for nursing, physiotherapy, nutrition and therapy careers; FA with Psychology, Sociology, Education, Islamiyat or English; I.Com for HR and business routes; A-levels Psychology, Sociology, Biology or English."
+    },
+    "E": {
+      "name": "Enterprising",
+      "nickname": "The Persuader",
+      "ur": "کاروباری",
+      "summary": "Enterprising people want to make things happen and bring others along. You enjoy persuading, leading, negotiating and taking calculated risks. You might be the one who started selling something at school, who bargains with every shopkeeper in the bazaar, or who ends up organising the cousins' trip because nobody else will decide. You value influence, achievement and results, and you are happiest when you can lead a team, build a business, close a deal or turn an idea into something that earns.",
+      "strengths": [
+        "Persuasion and negotiation",
+        "Confident decision-making",
+        "Leadership and initiative",
+        "Comfort with risk and competition",
+        "Networking and relationship-building"
+      ],
+      "careers": [
+        {
+          "title": "Entrepreneur / Startup Founder",
+          "degree": "Any degree or none; BBA, CS or engineering helps",
+          "entry": "Build a small product, join a National Incubation Centre or university incubator, pitch investors",
+          "outlook": "Funding is selective, but lean, profitable startups are finding their footing."
+        },
+        {
+          "title": "E-commerce Seller",
+          "degree": "No degree needed; DigiSkills e-commerce course or online learning",
+          "entry": "Start on Daraz, Instagram or your own store; scale with ads",
+          "outlook": "A large, growing local market, with cross-border selling slowly opening up."
+        },
+        {
+          "title": "Sales / Business Development Executive",
+          "degree": "BBA or any bachelor's",
+          "entry": "Management trainee programmes and interviews; communication matters most",
+          "outlook": "Every company needs revenue; remote B2B sales roles for foreign firms are growing."
+        },
+        {
+          "title": "Digital Marketing Specialist",
+          "degree": "BBA Marketing, or Google and Meta certificates and DigiSkills digital marketing",
+          "entry": "A portfolio of campaigns; agency internships; freelance platforms",
+          "outlook": "Very high local and remote demand as businesses move online."
+        },
+        {
+          "title": "Lawyer",
+          "degree": "LLB (five years)",
+          "entry": "HEC Law Admission Test (LAT); after graduating, Law GAT and a Bar Council licence",
+          "outlook": "Competitive but steady; corporate, tax and technology law are growing niches."
+        },
+        {
+          "title": "Civil Servant (PAS, PSP, Foreign Service and other groups)",
+          "degree": "Any bachelor's degree",
+          "entry": "CSS exam by FPSC",
+          "outlook": "Highly competitive, prestigious and stable; serious preparation is essential."
+        },
+        {
+          "title": "Banker / Relationship Manager",
+          "degree": "BBA, BS Accounting & Finance or MBA",
+          "entry": "Bank management trainee (MTO) tests and interviews",
+          "outlook": "Steady; digital banking is shifting roles towards technology and advisory work."
+        },
+        {
+          "title": "Real Estate Consultant",
+          "degree": "No degree needed; strong local market and documentation knowledge",
+          "entry": "Join an established agency and learn the trade; register where required",
+          "outlook": "Cyclical but always active; honesty and transparency set the best agents apart."
+        },
+        {
+          "title": "Event Planner (weddings and corporate)",
+          "degree": "No degree required; hospitality or management courses help",
+          "entry": "Assist an established planner and build a vendor network",
+          "outlook": "Shaadi season makes this a big, year-round business in major cities."
+        },
+        {
+          "title": "Product Manager (tech)",
+          "degree": "BS CS, BBA or engineering, plus product management courses",
+          "entry": "Usually through associate product manager or business analyst roles",
+          "outlook": "A well-paid role in local tech companies and remote startups."
+        },
+        {
+          "title": "Restaurant / Food Business Owner",
+          "degree": "Culinary or hospitality diploma optional",
+          "entry": "Start with a home or cloud kitchen; provincial food authority licence",
+          "outlook": "Pakistanis love eating out, and delivery apps keep the sector growing."
+        },
+        {
+          "title": "Import / Export Trader",
+          "degree": "BBA, I.Com or hands-on experience; TDAP training programmes",
+          "entry": "Learn customs procedures; register with FBR and a chamber of commerce",
+          "outlook": "Openings in textiles, rice, surgical goods, sports goods and IT services exports."
+        }
+      ],
+      "subjects": "I.Com (Accounting, Business, Economics) for business and finance; FA with Economics, Political Science, Civics or English for law and civil service; ICS for tech product roles; A-levels Business, Economics, Law or Sociology."
+    },
+    "C": {
+      "name": "Conventional",
+      "nickname": "The Planner",
+      "ur": "ضابطہ پسند",
+      "summary": "Conventional people bring order to chaos. You like clear systems, accurate records and knowing exactly what is expected. You might be the one who keeps the family committee (BC) accounts, files every receipt, or notices when the electricity bill doesn't add up. You would rather do something right than do it fast and sloppy. You value accuracy, stability and responsibility, and you are happiest organising data, managing money, following procedures and building systems that other people can rely on without a second thought.",
+      "strengths": [
+        "Accuracy and attention to detail",
+        "Organisation and record-keeping",
+        "Reliability and consistency",
+        "Numerical and data skills",
+        "Following and improving procedures"
+      ],
+      "careers": [
+        {
+          "title": "Chartered Accountant (CA)",
+          "degree": "ICAP qualification (CAF, CFAP and articles); can begin after intermediate",
+          "entry": "ICAP registration and exams",
+          "outlook": "Consistently in demand; CAs lead finance, audit and tax across Pakistan and the Gulf."
+        },
+        {
+          "title": "ACCA Professional",
+          "degree": "ACCA qualification, often alongside a degree",
+          "entry": "Register after A-levels or intermediate",
+          "outlook": "Globally recognised and well suited to remote finance roles or working abroad."
+        },
+        {
+          "title": "Cost & Management Accountant",
+          "degree": "ICMA Pakistan qualification",
+          "entry": "ICMA registration after intermediate or a degree",
+          "outlook": "Steady demand in manufacturing, costing and corporate finance."
+        },
+        {
+          "title": "Auditor / Tax Consultant",
+          "degree": "B.Com, BBA or BS Accounting & Finance, plus tax law courses",
+          "entry": "Train under senior consultants; FBR and professional body registration",
+          "outlook": "Growing as the tax net widens and more people file returns."
+        },
+        {
+          "title": "Bookkeeper (remote)",
+          "degree": "No degree required; QuickBooks or Xero certification",
+          "entry": "Freelance platforms and remote accounting firms",
+          "outlook": "Strong remote demand from small businesses in the US, UK and Australia."
+        },
+        {
+          "title": "Medical Billing & Coding Specialist (remote)",
+          "degree": "Short certification courses; any bachelor's helps",
+          "entry": "Join one of the many US medical billing companies operating in Pakistan",
+          "outlook": "An established, growing industry in Lahore, Karachi and Islamabad."
+        },
+        {
+          "title": "Banking Operations Officer",
+          "degree": "B.Com, BBA or BS Accounting & Finance",
+          "entry": "Bank recruitment tests, often through testing agencies",
+          "outlook": "Steady; digital and branchless banking still need careful operations staff."
+        },
+        {
+          "title": "Government Officer (Assistant / Section Officer track)",
+          "degree": "Any bachelor's degree",
+          "entry": "FPSC, PPSC or SPSC tests; CSS for senior roles",
+          "outlook": "Stable, respected roles; competition is high but recruitment is regular."
+        },
+        {
+          "title": "Supply Chain / Logistics Coordinator",
+          "degree": "BBA Supply Chain or any bachelor's; professional certifications later",
+          "entry": "Management trainee programmes and logistics companies",
+          "outlook": "Growing with e-commerce, ports and regional trade routes."
+        },
+        {
+          "title": "Executive Virtual Assistant (remote)",
+          "degree": "No degree required; strong English, Excel and Google Workspace",
+          "entry": "Freelance platforms and virtual assistant agencies",
+          "outlook": "High demand from foreign entrepreneurs; reliability is your selling point."
+        },
+        {
+          "title": "Software QA Tester",
+          "degree": "BS CS/SE, or ISTQB certification",
+          "entry": "Software house internships; FAST or NUST NET for the degree route",
+          "outlook": "Steady demand across Pakistan's software export industry."
+        },
+        {
+          "title": "Actuary / Statistician",
+          "degree": "BS Statistics, Actuarial Science or Mathematics",
+          "entry": "University entry test; actuarial exams or Pakistan Bureau of Statistics recruitment",
+          "outlook": "A small, well-paid niche in insurance, pensions and research."
+        }
+      ],
+      "subjects": "I.Com (Accounting, Commerce, Economics) for CA, ACCA and banking; ICS (Computer Science, Maths, Statistics) for data and QA roles; FSc Pre-Engineering with Maths for actuarial science and statistics; A-levels Accounting, Maths, Economics or Business."
+    }
+  },
+  "pairs_note": "Your Career Compass gives you a three-letter code, like SAE or IRC, made from your three strongest interest areas in order. The first letter is your strongest pull; the second and third shape how you like to use it. An IR person loves investigating hands-on problems, like an engineer or lab scientist, while an IS person enjoys investigating people, like a psychologist or doctor. Read the careers for all three letters and look for overlaps. Letters that sit next to each other on the Holland hexagon (R-I-A-S-E-C) blend naturally; opposite letters, like A and C, suggest unusually broad interests."
+}

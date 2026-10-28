@@ -1,0 +1,237 @@
+{
+  "key": "balghami",
+  "name": "Balghami",
+  "name_ur": "بلغمی",
+  "quality": "Sard-Tar (cool & moist)",
+  "classical": "Phlegmatic",
+  "humour": "Balgham (phlegm)",
+  "element": "Water (Paani)",
+  "nickname": "The River",
+  "season": "Winter",
+  "colors": [
+    "#2A7F8F",
+    "#A9D6E5"
+  ],
+  "emoji": "🌊",
+  "tagline": "Calm as still water, loyal as family, and slow to anger.",
+  "share_line": "I don't rush, I don't panic, and I don't hold grudges.",
+  "free": {
+    "summary": "In Unani tradition, Balghami is the mizaj of balgham, phlegm, the cool and moist humour linked with water and winter. If you are Balghami, you bring a steadiness most people can only envy. You are the friend who stays calm when the car breaks down on the motorway, the sibling who listens without judging, and the person everyone wants beside them in a hospital waiting room.\n\nYou are patient, gentle and loyal. You prefer peace to drama and would rather adjust than argue. The flip side is that you can be slow to start, reluctant to change, and too willing to go along with others just to keep the peace.\n\nPhysically, Unani texts picture the Balghami person as soft-bodied and cool to the touch, a deep sleeper with an unhurried digestion and a real dislike of cold weather. Many Balghami people find they feel lighter, sharper and more energetic with warm, freshly cooked, gently spiced food, regular movement and early, lighter dinners.",
+    "traits": [
+      "Calm under pressure; your steady presence lowers the temperature in any room.",
+      "Patient and accepting; you give people time, space and second chances.",
+      "Deeply loyal to family and friends, often the quiet glue holding everyone together.",
+      "Prefers routine and the familiar; change feels uncomfortable until you've had time to adjust.",
+      "Avoids conflict, sometimes swallowing your own needs to keep everyone happy.",
+      "Slow to start but steady once going; you finish what others abandon halfway."
+    ],
+    "body_signs": [
+      "Unani texts describe a softer, fuller frame that gains weight more easily than it loses it.",
+      "Skin tends to be soft, smooth and cool to the touch.",
+      "Digestion runs on the slower side; cold or heavy meals can sit for a long time.",
+      "Sleep comes easily and runs deep, and mornings can feel slow to get going.",
+      "You feel the cold more than most and come alive in warm, dry weather.",
+      "Thirst is usually low, so you may forget to drink water even on busy days."
+    ],
+    "quick_tip": "Start the day with a cup of warm water or adrak chai with a little honey instead of anything chilled. Unani tradition suggests warmth and gentle spice help a cool, moist mizaj shake off morning heaviness."
+  },
+  "premium": {
+    "deep_dive": "In the Canon, Ibn Sina described balgham as the cool, moist humour that keeps the body lubricated and nourished, a kind of reserve the body can draw on. In a Balghami person, that reserve is generous. Tradition saw this temperament as the most stable of the four: slow to heat up, slow to dry out, slow to change. That stability is your gift, and stagnation is its shadow.\n\nIn the body, Unani tradition associates this mizaj with a softer build, smooth cool skin, deep sleep, low thirst and an unhurried digestion. Cold and damp are your weak points: chilled drinks, heavy creamy food, late dinners and long hours of sitting are traditionally believed to add more cold and moisture than you need. When the balance tips, many Balghami people notice heaviness, sluggish mornings, a puffy feeling and low motivation. The traditional answer is warmth and lightness: freshly cooked food, gentle spices like ginger and black pepper, a little honey, regular movement and fewer naps.\n\nIn the mind, the cool, moist quality gives patience and a good memory. You learn steadily, think things through and rarely make rash decisions. You are often the family member who remembers everyone's birthdays and keeps old friendships alive for decades. The challenge is momentum. You may delay decisions until they make themselves, or stay in a job, a routine or a role long after it stopped serving you.\n\nEmotionally, Balghami people are traditionally described as gentle, contented and peaceful. Anger comes slowly and rarely. Your quiet risk is suppression: going along with the joint family's plan, the rishta aunty's suggestion or a friend's request, then feeling unheard. Speaking up early, and kindly, is your growth edge.\n\nAcross life stages, Unani tradition saw later life as gathering cool moisture, so a young Balghami person may seem mature beyond their years: calm, homely, steady. The warmth of the busy twenties and thirties can suit you well, lifting your energy and drive. Later in life, keeping active and warm becomes especially important, because tradition holds that coolness and heaviness naturally increase with age.\n\nAcross the seasons, winter is your mirror. The tradition linked balgham with cold, wet weather, so December fog and January chill can feel heavy. Spring and early summer are often when you feel lightest and most energetic, as long as you don't cool yourself down with endless cold drinks. Living well as a Balghami means adding warmth and movement to a naturally peaceful life.",
+    "foods_favour": [
+      {
+        "item": "Adrak (fresh ginger) in cooking and chai",
+        "why": "Warm and lightening; Unani tradition uses it to lift a cool, moist system."
+      },
+      {
+        "item": "Shehd (honey)",
+        "why": "Classically rated warm and dry; a teaspoon in warm water is a traditional Balghami morning habit."
+      },
+      {
+        "item": "Chicken yakhni with black pepper",
+        "why": "A warm, light broth that tradition favours on cold, heavy days."
+      },
+      {
+        "item": "Sarson ka saag with makki roti",
+        "why": "Mustard greens and maize are traditionally warm and dry, ideal winter food for you; go light on makhan."
+      },
+      {
+        "item": "Bajra roti",
+        "why": "Millet is warm and drying by Unani reckoning, a good winter swap for white bread."
+      },
+      {
+        "item": "Roasted chana",
+        "why": "Dry-roasted, they give warmth and crunch without the heaviness of fried snacks."
+      },
+      {
+        "item": "Lean mutton or goat meat, well spiced",
+        "why": "Warm and nourishing; best as a shorba or light salan rather than heavy nihari."
+      },
+      {
+        "item": "Boiled or half-boiled eggs",
+        "why": "Warm and easy to digest; classical Unani texts praise soft-boiled eggs as quick nourishment."
+      },
+      {
+        "item": "Methi (fenugreek leaves)",
+        "why": "Warm and dry; aloo methi or methi in saag is a traditional answer to heaviness."
+      },
+      {
+        "item": "Shalgam and gajar (turnip and carrot)",
+        "why": "Warm winter roots that tradition values for gentle heat and nourishment."
+      },
+      {
+        "item": "Mooli (radish) at lunch",
+        "why": "Traditionally warm and dry and thought to lighten heaviness; enjoy it in daytime, not at night."
+      },
+      {
+        "item": "A few dates, walnuts and almonds in winter",
+        "why": "Warm and nourishing; a small handful adds warmth without a heavy meal."
+      },
+      {
+        "item": "Gur (jaggery) with til in small amounts",
+        "why": "A warmer alternative to white sugar, traditionally enjoyed through the winter months."
+      },
+      {
+        "item": "Moong or masoor daal with lehsan tarka",
+        "why": "Light daals, warmed with garlic and zeera, balance cool moisture without adding heaviness."
+      }
+    ],
+    "foods_limit": [
+      {
+        "item": "Chilled drinks and ice water",
+        "why": "Cold on cold; tradition says they slow an already unhurried digestion."
+      },
+      {
+        "item": "Ice cream, kulfi and falooda",
+        "why": "Cold, sweet and creamy: triple trouble for a cool, moist mizaj, especially in winter."
+      },
+      {
+        "item": "Dahi and lassi at night",
+        "why": "Cool and moist; keep yogurt to daytime meals and in smaller portions."
+      },
+      {
+        "item": "Korma, kheer and cream-based dishes",
+        "why": "Rich and moist; they sit heavily and add to sluggishness."
+      },
+      {
+        "item": "Fried, oily snacks",
+        "why": "Oil adds moisture and heaviness, especially on rainy or foggy days."
+      },
+      {
+        "item": "Large portions of rice at dinner",
+        "why": "Heavy and filling late in the day; tradition prefers a lighter, earlier dinner for you."
+      },
+      {
+        "item": "Bakery items and white-flour bread",
+        "why": "Soft, heavy and often sweet; they tend to leave a Balghami system slow and full."
+      },
+      {
+        "item": "Kheera, tarbooz and cooling fruit in winter",
+        "why": "Cool and moist; fine in summer heat, but go easy when it's cold."
+      },
+      {
+        "item": "Buffalo milk and malai",
+        "why": "Thick, cool and heavy; lighter milk, warmed with a slice of ginger, sits better."
+      },
+      {
+        "item": "Late, heavy dinners",
+        "why": "Eating close to bedtime is traditionally believed to add heaviness and slow your mornings."
+      }
+    ],
+    "drinks": [
+      "Adrak chai with less milk: warming and helps you shake off morning heaviness",
+      "Warm water with honey and lemon on waking: a traditional Balghami wake-up",
+      "Kashmiri kehwa with cinnamon and cardamom: light, warm and fragrant after meals",
+      "Chicken yakhni in a mug: a warming winter drink and snack in one",
+      "Saunf-ajwain water after heavy meals: many people find it settles and lightens",
+      "Room-temperature water through the day: you forget to drink, so keep a bottle in sight"
+    ],
+    "spices_herbs": [
+      "Kali mirch (black pepper): warm and drying; add it to eggs, yakhni and raita",
+      "Adrak and lehsan (ginger and garlic): the foundation of warm, light Balghami cooking",
+      "Darchini (cinnamon): warming in kehwa or chai on foggy mornings",
+      "Ajwain (carom seeds): traditionally used to lighten heavy or fried dishes",
+      "Kalonji (nigella seeds): warm and dry, lovely sprinkled on roti or daal",
+      "Zeera and haldi (cumin and turmeric): everyday warmth for daal and sabzi"
+    ],
+    "daily_routine": {
+      "morning": "Don't snooze. Unani tradition sees oversleeping as adding heaviness to a cool, moist body, so try to wake at Fajr and stay up. Open the curtains, drink warm water, and move for 20 to 30 minutes: a brisk walk, skipping or a few rounds of the stairs. Keep breakfast warm and light: an egg, a chapati, or daliya with a pinch of cinnamon.",
+      "midday": "Make lunch your main warm meal, freshly cooked and eaten on time. Add salad, but in winter choose radish, onion and carrot over a heap of kheera. Resist the long post-lunch nap; a ten-minute walk or a stretch keeps you from sliding into the afternoon slump.",
+      "evening": "Evening is a good time for your second dose of movement, even a family walk after Maghrib. Eat a light, early dinner: yakhni, daal with chapati or a lean salan. Skip dessert most nights, or keep it to a small piece of gur with a cup of kehwa.",
+      "sleep": "You sleep deeply, so aim for seven to eight hours, not ten. Go to bed on purpose rather than drifting off in front of the TV. Keep your room warm in winter without overheating it, and avoid eating in the two hours before bed so you wake up lighter."
+    },
+    "seasons": {
+      "summer": "Summer often suits you better than most, because the heat warms a cool system. Enjoy seasonal fruit, lassi and kheera in sensible amounts, but don't overdo ice-cold drinks and kulfi. Stay active in the cooler morning and evening hours, and keep meals light so the heat and heavy food don't leave you lazy through the long afternoons.",
+      "monsoon": "Monsoon adds dampness on top of your natural moisture, so many Balghami people feel heaviest now. Choose warm, freshly cooked food with ginger and black pepper, avoid stale or fried street food, and keep moving indoors on rainy days, even if it's just pacing during a phone call.",
+      "winter": "Your most challenging season. Tradition says balgham rises with cold, damp weather, so you may feel sleepy, heavy and slow. Lean into warming food: saag, bajra, eggs, yakhni, ginger chai, gur and dry fruit. Dress warmly, keep your feet covered, soak up sunlight when you can, and don't skip exercise just because the fog is thick.",
+      "spring": "Spring is your fresh start. Many Balghami people feel lighter and more energetic as the cold lifts. It's a good time to begin a new fitness routine, eat more seasonal greens, and clear out winter's heavy eating habits before shaadi season fills your plate again."
+    },
+    "movement": "Movement is the single most important habit for a Balghami person, because tradition sees a cool, moist body as prone to sluggishness. Choose activity that warms you up and gets you gently sweating: brisk walking, cycling, skipping, badminton or a dance-style workout at home. Morning exercise is especially helpful for shaking off heaviness. Start small and steady, which suits your nature, then build up. A walking partner, a gym buddy or a family badminton game makes it far more likely you'll keep going.",
+    "emotional_balance": "Unani counts the emotions among the six essential factors of health, and for a Balghami person the risk is not too much feeling but too much holding in. You keep the peace, absorb other people's moods and quietly carry family tension. Over time this can turn into low motivation or a heavy dil. Practise saying what you want early and simply: 'I'd prefer this', 'I need a day to think'. Try one new thing each month, even a new route home or a short course. If sadness or low energy lasts more than a couple of weeks, talk to a doctor or counsellor. You deserve the same care you give everyone else.",
+    "ramadan": "Many Balghami people find fasting manageable, because hunger and thirst arrive slowly. Keep sehri warm and simple: an egg, a chapati or daliya, a few dates and warm water, rather than a heavy paratha with lassi. At iftar, open with dates and water, then eat warm, lightly spiced food. Go easy on fried pakoras and chilled sharbat. Taraweeh is a gift here: it adds gentle movement after iftar, exactly when you'd otherwise feel heavy.",
+    "seven_day_menu": [
+      {
+        "day": 1,
+        "breakfast": "Boiled egg, chapati and adrak chai",
+        "lunch": "Chicken yakhni with vegetables and a chapati",
+        "dinner": "Moong daal with lehsan tarka and chapati",
+        "snack": "A handful of roasted chana"
+      },
+      {
+        "day": 2,
+        "breakfast": "Daliya with cinnamon and a few chopped dates",
+        "lunch": "Aloo methi with chapati and mooli salad",
+        "dinner": "Chicken karahi, light on oil, with chapati",
+        "snack": "Kehwa with a small piece of gur"
+      },
+      {
+        "day": 3,
+        "breakfast": "Vegetable omelette with black pepper and a chapati",
+        "lunch": "Masoor daal, a small portion of rice and onion kachumber",
+        "dinner": "Lean shalgam gosht with chapati",
+        "snack": "Roasted peanuts or a few walnuts"
+      },
+      {
+        "day": 4,
+        "breakfast": "Half-boiled eggs with wholewheat toast and kehwa",
+        "lunch": "Sarson ka saag with makki roti, light on makhan",
+        "dinner": "Mixed vegetable sabzi with chapati",
+        "snack": "Gajar sticks or an apple"
+      },
+      {
+        "day": 5,
+        "breakfast": "Besan chilla with onion and green chilli",
+        "lunch": "Kabuli chana salan with chapati",
+        "dinner": "Chicken shorba with black pepper and a chapati",
+        "snack": "A few almonds and raisins"
+      },
+      {
+        "day": 6,
+        "breakfast": "Chapati with anda bhurji and adrak chai",
+        "lunch": "Mixed daal with chapati and mooli",
+        "dinner": "Lean palak gosht with bajra roti",
+        "snack": "One til-gur laddu in winter, fresh fruit in summer"
+      },
+      {
+        "day": 7,
+        "breakfast": "Weekend: one anda paratha with adrak chai, then a family walk",
+        "lunch": "Family pulao with plenty of salad and a little raita",
+        "dinner": "Light yakhni or moong khichri with black pepper",
+        "snack": "Roasted bhutta or seasonal fruit"
+      }
+    ],
+    "when_out_of_balance": [
+      "Hitting snooze again and again, and still feeling heavy after a full night's sleep.",
+      "Afternoon slumps that send you looking for a nap or something sweet.",
+      "Postponing decisions and tasks until they turn into emergencies.",
+      "Feeling puffy, heavy or slow after cold, creamy or late meals.",
+      "Saying 'it's fine' to family when it isn't, then feeling quietly resentful."
+    ],
+    "with_other_mizaj": {
+      "damvi": "A warm, easygoing match. Damvi's sociable energy pulls you out of the house, and your calm steadies their busy schedule. You both enjoy food and family, so keep an eye on the shared dastarkhwan. Let them plan the outings, let yourself plan the quiet Sundays, and keep dinners lighter than your love.",
+      "safravi": "Classic Unani balance: their warmth and dryness meet your coolness and moisture. They bring urgency, you bring patience. Don't let their quick temper push you into silence; say your piece calmly. In turn, encourage them to rest, and let their energy get you moving on the things you'd otherwise postpone.",
+      "balghami": "Two Balghami spouses make a peaceful, loving home with almost no shouting. The risk is that nothing moves: decisions wait, plans stall, and both of you avoid hard conversations. Schedule a monthly planning chat, take turns being the one who pushes, and build movement into shared routines like evening walks.",
+      "saudavi": "You share coolness, which makes for a quiet, serious, loyal home. Your moisture softens their dryness, and their careful planning gives your calm some direction. Watch for both of you withdrawing at once. Make warmth deliberate: shared meals, outings with friends, and asking each other how you really are."
+    }
+  },
+  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered hakeem."
+}

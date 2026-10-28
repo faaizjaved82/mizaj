@@ -1,0 +1,270 @@
+{
+  "code": "ENTJ",
+  "name": "Sipah-salar",
+  "name_ur": "سپہ سالار",
+  "name_en": "The General",
+  "family": "Danishwar",
+  "emoji": "🦅",
+  "colors": [
+    "#7A1F2B",
+    "#D4A537"
+  ],
+  "tagline": "You walk into chaos and walk out with a team.",
+  "share_line": "Five minutes into the group project, I'd already assigned everyone's roles.",
+  "keywords": [
+    "Decisive",
+    "Ambitious",
+    "Organised",
+    "Bold",
+    "Direct"
+  ],
+  "rarity": "about 2% of people",
+  "free": {
+    "summary": "You were probably running things before anyone gave you permission: the class cricket team, the Eid trip, the university society that was dying until you took it over. You see a goal, you see the gap between here and there, and you start organising people to close it. Your drive is real and restless. Wasted time, wasted talent and wasted money genuinely bother you, because you can see how much more is possible.\n\nOthers notice the confidence first, and sometimes feel intimidated by it. You say what you think, decide fast and expect things to happen. Relatives either call you 'bohat tez' or ask you to sort out their problems, often in the same breath. Younger cousins come to you before exams and job interviews, because you somehow make the impossible sound like a checklist. What fewer people see is how much responsibility you quietly carry: for your family's future, your team's results and your own impossibly high standards. When you commit to something, you never do it halfway.",
+    "strengths": [
+      "Turns a vague idea into a clear plan with owners and deadlines.",
+      "Makes tough calls quickly while everyone else is still debating options.",
+      "Spots talent in people and pushes them to reach it.",
+      "Stays focused on results when others get lost in drama.",
+      "Speaks up confidently in rooms where others stay silent."
+    ],
+    "watchouts": [
+      "Can steamroll quieter voices without noticing they had something important to say.",
+      "May treat rest, feelings or slow progress as signs of weakness.",
+      "Manages family and friends like a team when they just need you."
+    ],
+    "pakistani_archetype": "You're the one who took over a cousin's shaadi planning, made a separate WhatsApp group for each function, and somehow got the dhol walas to arrive on time.",
+    "in_relationships": "You bring the same commitment to marriage that you bring to your career: you're in it to build something. You need a spouse who is confident, has ambitions of their own and won't crumble when you're blunt. You show love by providing, protecting and planning. The challenge is slowing down to listen without fixing.",
+    "at_work": "You're happiest with responsibility, a clear target and the authority to hit it. Hand you a struggling team or a failing project and you'll turn it around. Slow bureaucracy, unclear ownership and leaders who avoid decisions drive you up the wall, and you're rarely shy about saying so.",
+    "fictional_twins": [
+      "Miranda Priestly (The Devil Wears Prada)",
+      "Harvey Specter (Suits)",
+      "Princess Leia (Star Wars)",
+      "Erwin Smith (Attack on Titan)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Momentum is your native language. You look at any situation, a family business, a group assignment, a CSS preparation plan, and ask two questions: where are we trying to get, and what's the fastest reliable route? Then you act. Unlike people who need certainty before they move, you're comfortable deciding with 70% of the information and correcting course on the way. Standing still feels far more dangerous to you than being wrong. Group projects at university were either your best experience or your worst, depending entirely on who else was in the group. At some point you've probably drafted a five-year plan for a friend who only asked for help with a CV.\n\nThe core motivation is impact. You want your life to add up to something visible: a business that employs people, a department that runs well, a family that is secure because of you. The core fear sits right beneath it: being powerless, ineffective or ordinary. Watching someone mismanage what you could have fixed is genuinely painful, which is why a family business stuck in the 1990s can feel personal. So is the thought of looking back at sixty and seeing a life that played safe while you knew you were capable of more.\n\nYou process the world through structure. Information gets sorted instantly into what matters, what doesn't and who should handle it. That's why you finish people's sentences or jump to the action point while they're still explaining the background. In your head you're being helpful; you've understood, so why waste their time? Others can feel rushed, unheard or bulldozed, especially elders and quieter colleagues who need to tell the full story before they feel respected. In a culture where an uncle's story about 1987 is part of the decision, your speed can look like arrogance. The same pace that wins boardrooms can lose dinner tables.\n\nThe gap: people assume you're tough all the way through. Actually, you feel things deeply, often more than you'd admit, but somewhere you learned that feelings come after duty. You may be the one who handled the hospital paperwork when a grandparent was ill, made every call and kept everyone calm, then sat alone in the car park and cried. Criticism you shrug off in public can echo privately for weeks. Being needed feels safer than needing someone. Your strength is real. So is the person underneath it, who occasionally needs someone else to take charge for a change.",
+    "superpowers": [
+      {
+        "title": "Instant Organisation",
+        "text": "Chaos is raw material to you, and structure is what you make from it. When your university society's annual event was three weeks away with no sponsors, no venue and a demoralised team, you made a list, assigned owners, set daily check-ins and called five companies yourself. The event happened, and happened well. You don't wait for clarity to appear; you create it, and everyone relaxes because someone is finally in charge."
+      },
+      {
+        "title": "Decisive Action",
+        "text": "While others are stuck on 'let's think about it' or 'what will people say', you make the call. A good decision today usually beats a perfect one next month. When your family's wholesale business was bleeding money on credit sales, you set a firm udhaar limit, put it in writing and enforced it politely but completely. Within months, cash flow recovered. Decisiveness is a rare form of courage, and you have plenty."
+      },
+      {
+        "title": "Developing People",
+        "text": "You see what someone could become, and you push them there. The junior colleague you mentored, the younger sibling you drilled for the entry test, the cousin whose CV you rewrote at midnight: many of them are where they are partly because you refused to let them settle. Your belief can feel demanding, but it's genuine. People often realise years later that your pressure was a quiet investment in their future."
+      },
+      {
+        "title": "Negotiation Nerve",
+        "text": "Haggling over a car price, negotiating a salary, settling a property matter between relatives: you don't flinch. You walk in knowing your number, your walk-away point and the other side's pressure points. You're not aggressive for its own sake; you simply refuse to accept a bad deal out of politeness. Starting offers rarely survive a conversation with you, and that one skill alone can be worth lakhs over a lifetime."
+      },
+      {
+        "title": "Vision With Follow-Through",
+        "text": "Plenty of people dream big, and plenty can handle details. You do both. You can set a five-year goal, like moving from a junior role to running a department, then break it into quarterly milestones, skills to build and people to meet, and then you actually follow the plan. Even your exam prep timetable had milestones, buffers and a backup plan. That combination separates people who talk about success from those who build it."
+      },
+      {
+        "title": "Crisis Command",
+        "text": "When the generator fails at the walima, a client threatens to cancel, or a family emergency hits at 2 a.m., you step forward. Within ten minutes, one cousin is calling the electrician, another is calming the guests and a third is sourcing a backup generator. You don't just stay calm; you mobilise everyone around you. In a crisis, the directness that is sometimes 'too much' becomes exactly what the moment needs."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "The Steamroller Effect",
+        "text": "In meetings and family discussions, you race to the conclusion and push others past their concerns. Quieter people stop speaking up, and you lose valuable information without knowing it. At home, it's the younger sibling who stops sharing plans with you. It happens because you read silence as agreement. The fix: before finalising any decision, ask the quietest person directly, 'What would you change?' and wait through the pause. The best insight in the room often hasn't been said yet."
+      },
+      {
+        "title": "Managing Instead of Loving",
+        "text": "You bring KPIs to the dinner table without meaning to. Your sibling's grades, your spouse's spending, your parents' health routine: all become projects to manage. The cause is simple: you show care by improving things. Ammi doesn't need a step target; she needs company on her evening walk. The fix: ask before helping ('Do you want my input on this?'), and protect time together where nothing is being planned, fixed or optimised."
+      },
+      {
+        "title": "Bottled-Up Pressure",
+        "text": "You park your own feelings to keep things moving, then they surface at the worst moment: a sharp remark to a junior, an explosion over a late dinner, a sudden sense that nobody appreciates you. The pressure was building for weeks; you just didn't check the gauge. The fix: a two-minute evening check-in with yourself. What frustrated me today? What do I need? Name it early, before it names itself loudly."
+      },
+      {
+        "title": "The Always-On Trap",
+        "text": "Rest feels like falling behind. You answer emails during Eid lunch, plan next quarter on holiday and feel restless on a free Saturday. Over time, your health and relationships quietly pay the bill. It happens because your worth feels tied to output. The fix: schedule rest like a meeting you can't miss, whether a weekly family outing, a sport or Friday evenings offline. Recovery is part of performance, not its opposite."
+      },
+      {
+        "title": "Feedback That Wounds",
+        "text": "You say 'this report is weak' in front of the whole team and mean 'let's make it great'. The junior who wrote it hears public humiliation, and in a workplace where face matters enormously, that memory can last years. People comply outwardly while resenting you quietly. It happens because you assume everyone wants feedback as badly as you do. The fix: praise in public, correct in private, and end with confidence in them."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "You approach marriage as a partnership with a shared vision: where you'll live, how you'll grow financially, what kind of home you'll build. You need a spouse who is capable, confident and secure enough to push back. Someone who only agrees with you will eventually bore you; someone fragile will feel crushed.\n\nYou show love through action and provision: the house hunt you lead, the career move you back, the way you stand up for your spouse in front of relatives.\n\nThe usual friction is control. Your spouse may feel managed rather than partnered, especially around money, in-laws and children. They may also want more softness: unhurried time, compliments, conversations that go nowhere in particular. Hand them the lead in some areas, and remember that 'How are you feeling?' is also a strategic question.",
+      "rishta_tips": [
+        "Ask how they handle disagreement with elders. You need someone who can stand their ground respectfully.",
+        "Discuss career ambitions openly, including theirs; don't assume your goals automatically come first in the marriage.",
+        "Resist interviewing them. Ask open questions and let silences sit; you'll learn more by listening than leading.",
+        "Be honest that you're intense and driven, and describe what that looks like on a normal weekday.",
+        "Beware choosing someone mainly because they'd be easy to manage. Without mutual respect, admiration fades fast."
+      ],
+      "family": "Parents often treat you as the unofficial head of operations, sometimes even ahead of an older sibling. You handle the bank, the builder, the property file and the relative who owes money. They lean on you heavily and also clash with you, because you rarely accept 'because that's how it's done'. In a joint family, you may end up deciding things that technically belong to the elders, which creates friction with those who expect deference. Protect their izzat by disagreeing in private and supporting in public. As a sibling, you're protective and demanding: you'll fight for them fiercely and also tell them exactly what they're doing wrong.",
+      "friendship": "Your friendships often form around shared goals: study groups, startup partners, teammates. You're the friend who organises the reunion, books the venue and chases everyone for their share. In a crisis you show up with solutions and contacts. Friends value your loyalty but may find you competitive or always busy. Make time for friends with no agenda: no networking, no plans, just company and chai. Friends who challenge you, rather than only admire you, keep you grounded.",
+      "best_matches": [
+        "INTP",
+        "INFP",
+        "ENTP"
+      ],
+      "growth_matches": [
+        "ISFP",
+        "ISFJ"
+      ]
+    },
+    "career": {
+      "work_style": "You work in sprints toward clear targets. Before anything else, you want to know the goal, the deadline and who's accountable. Then you build the plan, divide the work and track progress relentlessly. Pressure and competition energise you; a stretch target excites rather than scares you. You make decisions on incomplete information and adjust quickly when facts change. Slow approvals, endless sign-offs and colleagues who won't take ownership test your patience, and you may take over tasks just to get them done. You want visible results, and you expect your contribution to be rewarded with growth and responsibility, not just a pat on the back.",
+      "ideal_environment": "A results-driven organisation with clear goals, real authority, a visible ladder and a fast pace. Merit-based promotion matters to you more than comfort or perks. You do best around ambitious, competent people who can keep up and push back. Fast-growing companies and turnaround situations suit you; cultures where you wait years to be heard, regardless of results, will frustrate you badly.",
+      "careers": [
+        {
+          "title": "Management Trainee to General Manager",
+          "why": "Corporate leadership tracks reward exactly what you do best: taking ownership, driving results and leading teams through genuinely tough targets.",
+          "pk_path": "BBA or MBA from IBA, LUMS or NUST; apply to management trainee programmes at FMCGs, telcos, banks and large conglomerates."
+        },
+        {
+          "title": "CSS Officer (PAS or Police Service)",
+          "why": "Running a district means real authority, complex problems and decisions that affect thousands. Few careers hand you this much responsibility so early.",
+          "pk_path": "Clear the FPSC's CSS written exam after any 16-year degree; prepare hard for the interview; list PAS or Police Service first."
+        },
+        {
+          "title": "Startup Founder",
+          "why": "Building a company from zero lets you set the vision, hire the team and own every result, which suits your appetite for growth.",
+          "pk_path": "Validate an idea while studying; pitch at university business-plan competitions; raise angel funding once paying customers prove demand."
+        },
+        {
+          "title": "Corporate Lawyer",
+          "why": "Negotiating deals, structuring companies and arguing positions rewards your directness, logic and appetite for winning when the stakes are high.",
+          "pk_path": "Pass the HEC Law Admission Test, complete a five-year LLB, enrol with the bar, then join a corporate firm."
+        },
+        {
+          "title": "Chartered Accountant to CFO",
+          "why": "CA is famously demanding, but it leads straight to boardroom roles controlling strategy, budgets and the numbers everyone relies on.",
+          "pk_path": "ICAP's CA or ACCA; articleship at a Big Four firm; move into industry finance roles and work toward CFO."
+        },
+        {
+          "title": "Armed Forces Officer",
+          "why": "Clear hierarchy, real command, high stakes and a strong sense of mission: few careers match your leadership instincts so directly.",
+          "pk_path": "Apply after intermediate or graduation; clear initial tests and ISSB; train at PMA Kakul, the Naval Academy or PAF Academy."
+        },
+        {
+          "title": "Remote Project Manager",
+          "why": "Foreign companies need people who can coordinate teams across time zones and deliver on schedule, without anyone chasing them. That's you.",
+          "pk_path": "Any degree plus PMP or a similar certification; start as a project coordinator, then manage remote teams for overseas clients via LinkedIn."
+        },
+        {
+          "title": "Investment Banker",
+          "why": "High-pressure deals, sharp analysis and big decisions suit you, and performance here is measured clearly and rewarded quickly and generously.",
+          "pk_path": "Finance degree from IBA or LUMS plus CFA; join a local investment bank's advisory team; later move to Dubai or Riyadh."
+        },
+        {
+          "title": "Digital Agency Owner",
+          "why": "Turning freelance skills into an agency lets you lead a team, win international clients and build a business bigger than yourself.",
+          "pk_path": "Freelance on Upwork or Fiverr in marketing, design or development; hire your first two teammates; register with PSEB for export benefits."
+        },
+        {
+          "title": "Drama or Film Producer",
+          "why": "Producers turn creative chaos into a finished show: budgets, crews, schedules and egos. It's leadership with a creative payoff on screen.",
+          "pk_path": "Media studies at Beaconhouse National, SZABIST or similar; start as an assistant director or line producer on Karachi drama sets."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Solitary Archival Research",
+          "why": "Months of slow, independent work with little team contact or visible progress can feel like being benched from the match."
+        },
+        {
+          "title": "Back-Office Data Processing",
+          "why": "Repetitive tasks with no decision-making authority leave your leadership unused and your patience badly tested."
+        },
+        {
+          "title": "Rigid Seniority Ladders",
+          "why": "Waiting ten years to be heard, regardless of results, wears down your motivation. Merit-based ladders suit you far better."
+        }
+      ],
+      "as_a_leader": "You're a natural leader who sets direction, assigns ownership and holds everyone accountable, yourself included. Teams under you achieve more than they thought possible. Your challenge is tone: you can drive people so hard they perform out of fear rather than loyalty. The best Sipah-salars praise specifically, shield their people from blame and ask 'What do you need from me?' as often as they give instructions.",
+      "as_a_team_member": "Even without the title, you end up leading. You clarify goals, push for deadlines and call out freeloaders, which makes you invaluable on weak teams and occasionally exhausting on strong ones. Practise following well: back someone else's plan wholeheartedly, offer suggestions without taking over, and let others own the credit they've earned. Your influence actually grows when you don't need to be in charge.",
+      "money_style": "Money is a tool for building, and you think about it strategically: income streams, assets, growth. You're comfortable with calculated risk, whether property, a business or an investment in yourself. You probably run the family BC committee, keep the records and chase late payers firmly. Your blind spot is overconfidence; you may back a venture because you trust yourself to make it work. Get a sceptical second opinion before big bets."
+    },
+    "communication": {
+      "how_they_talk": "You talk in action items. Even casual chats drift toward 'so what's the plan?' You're clear, direct and persuasive, and your voice naturally carries authority. You interrupt more than you realise, mostly out of enthusiasm. In WhatsApp groups you're the one posting 'Final decision: Saturday, 7 p.m., everyone confirm by tonight.' Your voice notes are short; your follow-ups are not. People rarely misunderstand you, though they sometimes feel steered.",
+      "how_to_talk_to_them": [
+        "Lead with your main point and a clear request; they respect people who know what they want.",
+        "Push back with evidence. They respect disagreement far more than silent compliance followed by complaints.",
+        "If they're overwhelming you, say so directly. They'd rather adjust than lose your trust.",
+        "Notice their effort out loud; beneath the confidence, they want their hard work seen."
+      ],
+      "conflict_style": "You face conflict head-on and want it settled now. You argue with logic, energy and a strong sense of being right, and you can win arguments while losing relationships. Elders may find you disrespectful; colleagues may feel ambushed. You do respect people who stand up to you. Better: lower your voice, ask questions before stating positions, and pick the battles that truly matter. Not every disagreement needs a winner."
+    },
+    "stress": {
+      "triggers": [
+        "Incompetence you're not allowed to fix",
+        "Losing control over an outcome you're responsible for",
+        "Being sidelined or overruled without explanation",
+        "Long stretches with no visible progress"
+      ],
+      "signs": [
+        "Barking orders and turning harsh with everyone around you",
+        "Working longer hours while getting less done",
+        "Sudden emotional flare-ups that feel out of character",
+        "Privately brooding over whether anyone truly values you"
+      ],
+      "reset": [
+        "Hand off one responsibility completely and don't check on it",
+        "Do a hard workout, a long walk or a game of cricket",
+        "Spend an evening with someone who needs nothing from you",
+        "Journal honestly about what you feel, not what you're planning"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Listen before you lead",
+        "why": "You often reach the answer first, but people commit far harder to decisions they had a hand in. This week builds the habit of drawing out others' views before sharing yours, so your plans gain genuine buy-in.",
+        "actions": [
+          "In every discussion, ask two questions before offering your own opinion.",
+          "Let one conversation each day end without you giving advice or a next step.",
+          "Ask the quietest person in the room for their view, and genuinely consider it."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Soften the delivery",
+        "why": "Your message is usually right; the delivery sometimes costs more than the message is worth. This week you'll practise criticism that protects people's dignity and still gets results, at home and at work.",
+        "actions": [
+          "Before any correction, name one specific thing the person did well, and mean it.",
+          "Give all criticism privately, never in front of others or in the family group.",
+          "Swap 'you should' for 'what if we tried' at least three times a day."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Protect your recovery time",
+        "why": "You run hard and treat rest as optional, but your judgement and your temper both depend on recovery. This week, rest becomes a scheduled task, tracked as seriously as any target.",
+        "actions": [
+          "Stop work messages at a fixed time every night, and put the phone away.",
+          "Do one thing daily purely for enjoyment, with no goal or measurement attached.",
+          "Get at least seven hours of sleep on five nights this week."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Let others take the lead",
+        "why": "Your influence grows when you develop other leaders instead of carrying everything yourself. Stepping back isn't weakness; it's how strong teams and families learn to stand without you holding them up.",
+        "actions": [
+          "Delegate one task you'd normally do yourself, and accept the result without redoing it.",
+          "Let someone else plan one outing or project entirely their way.",
+          "Each night, write down one way someone else's approach worked better than expected."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "Paired with a Damvi temperament, which tradition describes as cheerful and sociable, your leadership gains real charm. You rally people with warmth and humour, not just authority, and teams genuinely enjoy following you. Watch for overpromising when the mood is high; let your plans catch up with your enthusiasm before you commit others.",
+      "safravi": "Safravi, the warm-dry fire temperament in Unani tradition, doubles your drive. You're ferociously ambitious, fearless and quick to build. The cost is heat: impatience, sharp words and a short fuse at the end of long days. Many people with this combination find cooling routines, like breaks and a pause before reacting, help enormously.",
+      "balghami": "Balghami steadiness, as the Unani tradition describes it, cools your fire without putting it out. You lead with a quieter, more patient authority, and people trust your steadiness. You may be less flashy than other Sipah-salars but far more sustainable. Your challenge is pushing past comfort; set ambitious targets so steadiness doesn't settle for less than you deserve.",
+      "saudavi": "With Saudavi, the earthy, reflective temperament of Unani tradition, you become a more serious, analytical and long-range leader. You plan meticulously and lead by competence more than charisma. The risk is rigidity and a heavy, critical mood under pressure. Balance it with lighter company, regular movement and deliberate moments of appreciation for what's already going well."
+    },
+    "letter": "Dear Sipah-salar,\n\nBefore anything else: thank you. For the decisions nobody else wanted to make, the team that would have fallen apart without you, the family plans you held together through sheer will. People call you strong, and you are. But this letter is for the person underneath the strength.\n\nYou don't have to win everything to be worth something. Your value isn't measured only in results, promotions or how smoothly things run. Your family and friends are not your team. They don't need managing; they need you, present, relaxed, sometimes uncertain, sometimes soft.\n\nYour drive is a gift. Use it to build things that outlast you, and lift people as you climb. But let someone else carry the weight sometimes. Let your parents fuss over you. Let a quiet afternoon be enough.\n\nThe world needs people brave enough to lead. It also needs leaders who know how to rest, listen and say, 'I'm proud of you.' Start by saying it to yourself.\n\n— Mizaj"
+  }
+}

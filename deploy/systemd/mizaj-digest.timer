@@ -1,0 +1,10 @@
+[Unit]
+Description=Mizaj daily Telegram digest (timer)
+
+[Timer]
+OnCalendar=*-*-* 09:05:00 Asia/Karachi
+Persistent=true
+RandomizedDelaySec=60
+
+[Install]
+WantedBy=timers.target

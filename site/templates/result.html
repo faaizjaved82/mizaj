@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% set pers = view.results.personality %}
+{% set mz = view.results.mizaj %}
+{% set car = view.results.career %}
+{% set owned = view.owned %}
+{% set who = (profile.name ~ "'s") if profile.name else ("Your" if owner else "Their") %}
+{% block main %}
+<div id="result" data-profile="{{ profile.id }}" data-owner="{{ 1 if owner else 0 }}" data-key="{{ profile.key if owner else '' }}"
+     data-name="{{ profile.name or '' }}" data-type="{{ pers.code if pers else '' }}" data-mizaj="{{ mz.key if mz else '' }}">
+<script type="application/json" id="share-data">{{ {
+  "who": profile.name or "", "code": pers.code if pers else "", "name": pers.name if pers else "", "name_en": pers.name_en if pers else "",
+  "name_ur": pers.name_ur if pers else "", "emoji": pers.emoji if pers else "", "family": pers.family if pers else "",
+  "share_line": (pers.share_line if pers else mz.share_line), "tagline": (pers.tagline if pers else mz.tagline),
+  "mizaj": ({"key": mz.key, "name": mz.name, "nickname": mz.nickname, "quality": mz.quality, "name_ur": mz.name_ur} if mz else None)
+}|tojson_safe }}</script>
+
+{% if pers %}
+<section class="result-hero fam-{{ pers.family }}" id="personality">
+  <div class="wrap">
+    <span class="pill" style="background:rgba(255,255,255,.18);color:#fff">{{ who }} type · {{ pers.family }} ({{ pers.family_info.en }})</span>
+    <div class="code" style="margin-top:14px">{{ pers.code }}</div>
+    <div class="tname">{{ pers.name }} · {{ pers.name_en }} {{ pers.emoji }}</div>
+    <div class="ur">{{ pers.name_ur }}</div>
+    <p class="tagline" style="margin-top:10px">{{ pers.tagline }}</p>
+    {% if view.combo %}<span class="pill" style="background:#fff;color:var(--ink)">Mizaj profile: {{ view.combo }}</span>{% endif %}
+    <div class="share-row" style="margin-top:20px">
+      <button class="btn btn-wa btn-sm" data-share="whatsapp">Share on WhatsApp</button>
+      <button class="btn btn-saffron btn-sm" data-share="card">Download story card</button>
+      <button class="btn btn-ghost btn-sm" style="color:#fff;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.5)" data-share="native">More…</button>
+    </div>
+  </div>
+</section>
+{% elif mz %}
+<section class="result-hero mz-{{ mz.key }}" id="mizaj-top">
+  <div class="wrap">
+    <span class="pill" style="background:rgba(255,255,255,.2);color:inherit">{{ who }} Asli Mizaj</span>
+    <div class="code" style="margin-top:14px">{{ mz.name }}</div>
+    <div class="tname">{{ mz.nickname }} · {{ mz.quality }}</div>
+    <div class="ur">{{ mz.name_ur }}</div>
+    <p class="tagline">{{ mz.tagline }}</p>
+    <div class="share-row" style="margin-top:20px">
+      <button class="btn btn-wa btn-sm" data-share="whatsapp">Share on WhatsApp</button>
+      <button class="btn btn-saffron btn-sm" data-share="card">Download story card</button>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if owner %}
+<nav class="wrap tabs" style="margin-top:16px" aria-label="Sections">
+  {% if pers %}<a class="tag" href="#personality-detail">Personality</a>{% endif %}
+  <a class="tag" href="#mizaj">Mizaj</a>
+  <a class="tag" href="#career">Career</a>
+  <a class="tag" href="#milan">Milan</a>
+  <a class="tag" href="#report">Full report</a>
+</nav>
+{% endif %}
+
+{% if pers %}
+<section class="section" id="personality-detail" style="padding-top:28px">
+  <div class="wrap narrow stack">
+    <div class="card">
+      <h3>{{ who }} four preferences</h3>
+      <div class="bars">{% for d in pers.dims %}{{ m.dimbar(d) }}{% endfor %}</div>
+    </div>
+    <div>
+      <h2>The {{ pers.name }} in a nutshell</h2>
+      {{ pers.free.summary|paras }}
+      <blockquote class="card" style="border-left:5px solid var(--saffron);font:italic 1.1rem/1.6 var(--serif)">{{ pers.free.pakistani_archetype }}</blockquote>
+    </div>
+    <div class="grid grid-2">
+      <div class="card"><h3>Strengths</h3><ul class="list-check">{% for s in pers.free.strengths %}<li>{{ s }}</li>{% endfor %}</ul></div>
+      <div class="card"><h3>Watch-outs</h3><ul class="list-check list-warn">{% for s in pers.free.watchouts %}<li>{{ s }}</li>{% endfor %}</ul></div>
+    </div>
+    <div class="grid grid-2">
+      <div class="card"><h3>💞 In relationships</h3><p>{{ pers.free.in_relationships }}</p></div>
+      <div class="card"><h3>💼 At work</h3><p>{{ pers.free.at_work }}</p></div>
+    </div>
+    <div><h3>Fictional twins</h3><div class="share-row">{% for f in pers.free.fictional_twins %}<span class="tag">{{ f }}</span>{% endfor %}</div></div>
+    <p class="small muted">{{ pers.rarity|capitalize }} share this type.</p>
+  </div>
+</section>
+{% endif %}
+
+{% if not owner %}
+<section class="section section-alt">
+  <div class="wrap narrow center stack">
+    <h2>What's <em>your</em> mizaj?</h2>
+    <p class="muted">Take the free 8-minute test, then see how you match with {{ profile.name or "them" }}.</p>
+    <div class="share-row" style="justify-content:center">
+      <button class="btn btn-pom" data-compare="{{ profile.id }}">Compare with {{ profile.name or "them" }} 💞</button>
+      <a class="btn btn-ghost" href="/test/personality/" data-cta="shared-result">Take the test</a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section {% if pers %}section-alt{% endif %}" id="mizaj">
+  <div class="wrap narrow stack">
+    {% if mz %}
+      <span class="eyebrow">Asli Mizaj</span>
+      <h2>{{ mz.emoji }} {{ mz.name }} <span class="ur" style="font-size:1.4rem">{{ mz.name_ur }}</span></h2>
+      <p class="muted"><b>{{ mz.quality }}</b> · {{ mz.classical }} · {{ mz.element }} · {{ mz.season }}{% if mz.scores.balanced %} · close to <b>Mu'tadil</b> (balanced){% endif %}</p>
+      <div class="card bars">
+        {{ m.axisbar("Sard (cool)", "Garam (warm)", mz.scores.heat) }}
+        {{ m.axisbar("Khushk (dry)", "Tar (moist)", mz.scores.moisture) }}
+        {% if mz.secondary %}<p class="small muted" style="margin:0">Secondary tendency: <b>{{ mz.secondary.name }}</b> ({{ mz.secondary.nickname }})</p>{% endif %}
+      </div>
+      {{ mz.free.summary|paras }}
+      <div class="grid grid-2">
+        <div class="card"><h3>Traits</h3><ul class="list-check">{% for s in mz.free.traits %}<li>{{ s }}</li>{% endfor %}</ul></div>
+        <div class="card"><h3>Body signs</h3><ul class="list-check">{% for s in mz.free.body_signs %}<li>{{ s }}</li>{% endfor %}</ul></div>
+      </div>
+      <div class="notice">🍵 <b>Quick tip:</b> {{ mz.free.quick_tip }}</div>
+      <p class="small muted">{{ mz.disclaimer }}</p>
+    {% elif owner %}
+      <div class="card center stack">
+        <span class="eyebrow">Next: 4 minutes</span>
+        <h2>Garam ya thanda? Find your Asli Mizaj</h2>
+        <p class="muted">Your personality type explains your mind. Your Unani mizaj explains your energy, moods and which foods suit you. Together they make your Mizaj profile.</p>
+        <a class="btn btn-pom" href="/test/mizaj/" data-cta="result-mizaj">Take the Mizaj test →</a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section" id="career">
+  <div class="wrap narrow stack">
+    {% if car and car.available %}
+      <span class="eyebrow">Career Compass</span>
+      <h2>Interest code: {{ car.code }}</h2>
+      <div class="grid grid-3">{% for c in car.codes[:3] %}<div class="card"><b>{{ c.letter }} · {{ c.name }}</b><div class="small muted">{{ c.nickname }} · {{ c.pct }}%</div><p class="small" style="margin-top:8px">{{ c.summary }}</p></div>{% endfor %}</div>
+    {% elif owner %}
+      <div class="card center stack">
+        <span class="eyebrow">For students &amp; parents</span>
+        <h2>Which career fits {{ "you" }}?</h2>
+        <p class="muted">Take the 4-minute Career Compass interest test. Combined with your type it points to streams, degrees and careers that fit, with the Pakistani route to each.</p>
+        <a class="btn" href="/test/interests/" data-cta="result-career">Take Career Compass →</a>
+      </div>
+    {% endif %}
+    {% if car and car.type_teaser and not car.available %}<p class="muted">{{ car.type_teaser }}</p>{% endif %}
+  </div>
+</section>
+
+{% if owner %}
+<section class="section section-alt" id="milan">
+  <div class="wrap narrow stack">
+    <span class="eyebrow">Mizaj Milan 💞</span>
+    <h2>Test your match</h2>
+    {% if pers %}
+    <p class="muted">Send a link to your spouse, rishta, sibling or best friend. When they finish the free test you'll both see your match score.</p>
+    <div class="card">
+      <div class="field"><label for="relation">They are my…</label>
+        <select id="relation"><option value="rishta">Rishta / fiancé(e)</option><option value="spouse">Spouse</option><option value="friend">Best friend</option><option value="sibling">Sibling</option><option value="colleague">Colleague</option></select></div>
+      <button class="btn btn-pom btn-block" data-milan-create>Create my invite link</button>
+      <div class="hidden stack" data-milan-out style="margin-top:14px">
+        <div class="copy"><span data-milan-link></span><button class="btn btn-sm" data-copy-from="[data-milan-link]">Copy</button></div>
+        <a class="btn btn-wa btn-block" data-milan-wa target="_blank" rel="noopener">Send on WhatsApp</a>
+      </div>
+    </div>
+    {% if pairs %}
+      <h3>Your matches</h3>
+      {% for p in pairs %}<a class="card card-flat" style="display:flex;justify-content:space-between;text-decoration:none;margin-bottom:8px" href="/milan/{{ p.id }}"><span>{{ p.relation|capitalize }} · {{ "Ready" if p.b_profile else "Waiting for them" }}</span><span>Open →</span></a>{% endfor %}
+    {% endif %}
+    {% else %}
+    <p class="muted">Take the personality test first, then invite someone.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section" id="report">
+  <div class="wrap narrow">
+    {% if "full" in owned and pers %}
+      {{ m.premium_personality(pers, profile) }}
+    {% endif %}
+    {% if "mizaj_full" in owned and mz %}
+      {{ m.premium_mizaj(mz) }}
+    {% endif %}
+    {% if "career" in owned and car %}
+      {{ m.premium_career(car) }}
+    {% endif %}
+    {% if "full" not in owned %}
+      <span class="eyebrow">Full Mizaj Report</span>
+      <h2>There's a lot more to {{ "you" }}</h2>
+      <div class="lock-box">
+        <div class="blur card" aria-hidden="true">
+          <h3>Your inner world</h3><p>What drives you underneath, the fear you rarely say out loud, and why people sometimes misread you…</p>
+          <h3>6 superpowers · 5 blind spots</h3><p>With real examples from family, work and friendships…</p>
+          <h3>Love, marriage and rishta</h3><p>What you need from a spouse, how you show love, five rishta-stage tips…</p>
+          <h3>10 careers that fit</h3><p>With the Pakistani route to each: degree, entry test or freelancing…</p>
+          <h3>Your mizaj diet and 7-day menu</h3><p>Foods to favour and limit, daily routine, seasons and Ramadan…</p>
+        </div>
+        <div class="lock-cta">
+          <div class="stack" style="max-width:420px">
+            <h3>Unlock your Full Mizaj Report</h3>
+            <ul class="list-check" style="text-align:left">{% for b in products.full.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+            <div><span class="price-old">{{ products.full.list_price|pkr }}</span><b style="font:700 1.6rem var(--serif)">{{ products.full.price|pkr }}</b> <span class="small muted">one-time</span></div>
+            <button class="btn btn-pom btn-block" data-buy="full">Unlock my full report</button>
+            <button class="btn btn-ghost btn-block" data-buy="bundle">Get everything: {{ products.bundle.price|pkr }} (save 70%)</button>
+            <p class="small muted">Raast · JazzCash · Easypaisa · Bank · Card. 7-day refund promise.</p>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% if "career" not in owned %}
+      <div class="card stack" style="margin-top:20px">
+        <h3>🎓 Career Compass report · {{ products.career.price|pkr }}</h3>
+        <p class="muted small">{{ products.career.short }}</p>
+        <button class="btn btn-ghost" data-buy="career">Unlock Career Compass</button>
+      </div>
+    {% endif %}
+
+    <div class="card stack" style="margin-top:20px" data-contact-box>
+      <h3>📩 Save your result</h3>
+      <p class="muted small">Get your result link (and your report, if you unlock it) by email or WhatsApp, so you never lose it.</p>
+      <div class="grid grid-2">
+        <div class="field"><label for="c-email">Email</label><input id="c-email" type="email" autocomplete="email" placeholder="you@example.com"></div>
+        <div class="field"><label for="c-wa">WhatsApp</label><input id="c-wa" type="tel" autocomplete="tel" placeholder="03xx xxxxxxx"></div>
+      </div>
+      <div class="err" data-contact-err></div>
+      <button class="btn btn-sm" data-contact-save>Save</button>
+    </div>
+
+    <details class="card card-flat" style="margin-top:20px">
+      <summary style="cursor:pointer;font-weight:700">Have a code from your school, office or a gift?</summary>
+      <div style="display:flex;gap:10px;margin-top:12px"><input class="field" style="flex:1;padding:12px;border-radius:12px;border:1.5px solid var(--line)" id="code" placeholder="MZ-XXXXXX"><button class="btn btn-sm" data-redeem>Apply</button></div>
+      <div class="err" data-redeem-err></div>
+    </details>
+    {% if palms %}<p style="margin-top:16px">✋ <a href="/palm/{{ palms[0].id }}">Your palm reading</a></p>{% endif %}
+  </div>
+</section>
+
+{% if "full" not in owned %}
+<div class="sticky-buy" data-sticky>
+  <div class="wrap">
+    <div><b>Full Mizaj Report</b><div class="small" style="opacity:.8"><span class="price-old">{{ products.full.list_price|pkr }}</span>{{ products.full.price|pkr }}</div></div>
+    <button class="btn btn-saffron btn-sm" data-buy="full">Unlock</button>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+</div>
+{% endblock %}

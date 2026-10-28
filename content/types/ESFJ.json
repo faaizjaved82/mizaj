@@ -1,0 +1,254 @@
+{
+  "code": "ESFJ",
+  "name": "Mezbaan",
+  "name_ur": "میزبان",
+  "name_en": "The Host",
+  "family": "Pasban",
+  "emoji": "🫖",
+  "colors": ["#B5473A", "#F4B942"],
+  "tagline": "You make every guest feel like they were expected all along.",
+  "share_line": "Nobody leaves my house without eating, and nobody leaves feeling left out.",
+  "keywords": ["Welcoming", "Warm", "Generous", "Social", "Considerate"],
+  "rarity": "about 12% of people",
+  "free": {
+    "summary": "Walk into any gathering you are part of and you'll find the fingerprints of your care everywhere. The shy guest has been introduced to someone with shared interests. The elder has the comfortable chair. The tea arrived before anyone had to ask. You read a room the way others read a menu, instantly noticing who is happy, who feels left out and what the mood needs.\n\nYou are energised by people and by the feeling that everyone belongs. You keep relationships alive across cities and continents: the birthday wishes, the Eid calls, the condolence visit nobody else remembered to make. You love traditions because they bring people together, and you will happily spend days making an occasion special. Others see you as warm, sociable and generous, the person whose house becomes the family's meeting point. What they may not see is how deeply you feel criticism, how much you need appreciation in return, and how tired you get from holding everyone together.",
+    "strengths": [
+      "Makes newcomers feel welcome and included within the first five minutes.",
+      "Remembers relationships, occasions and family connections across an entire extended network.",
+      "Senses tension in a room and smooths it before it becomes a scene.",
+      "Turns ordinary gatherings into warm occasions people talk about for years.",
+      "Celebrates other people's wins as loudly and sincerely as if they were yours."
+    ],
+    "watchouts": [
+      "Worries a great deal about what relatives, neighbours and colleagues will think.",
+      "Takes criticism personally, even when it was only meant to help.",
+      "Can overextend to please everyone, then feel resentful and exhausted."
+    ],
+    "pakistani_archetype": "You're the one who spots the new bhabhi sitting alone at the dholki, pulls her into the singing circle, and by the end of the night knows her entire family tree.",
+    "in_relationships": "You love out loud: the surprise birthday, the favourite dish on the table, the warm welcome for your spouse's family. You want a marriage full of togetherness, appreciation and shared rituals, and criticism cuts you deeply. Your full report explores how to keep pleasing people without losing yourself.",
+    "at_work": "At work you organise the farewell, welcome the new joiner and keep morale alive through difficult quarters. You thrive in people-centred roles with clear expectations and real appreciation, while cold, isolated or cut-throat workplaces drain you. In the full report: careers where social intelligence is the actual job.",
+    "fictional_twins": [
+      "Molly Weasley (Harry Potter)",
+      "Woody (Toy Story)",
+      "Mrs. Potts (Beauty and the Beast)",
+      "Leslie Knope (Parks and Recreation)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "On a normal evening your phone works like a switchboard. A cousin wants advice about a job offer, an aunt needs the number of a good tailor, a friend in Toronto sends a homesick voice note, and you somehow answer all of them while the dal simmers. You also know, without checking, that your mamu's son-in-law's sister just started medical college and that two cousins stopped speaking after a property disagreement. This isn't gossip to you. It is care, organised at scale. Knowing who belongs to whom, and who is going through what, is how you make sure nobody falls through the cracks.\n\nYour core motivation is harmony and belonging. You want the people around you to feel connected, appreciated and part of something bigger than themselves. A successful evening, for you, is not one where the food was perfect, although you made sure it was. It is one where everyone left feeling closer than when they arrived. Your core fear is rejection and discord: being disliked, being blamed for an awkward moment, or watching a family split apart while you stand by, unable to fix it. That is why one cold shoulder at a wedding can ruin your week, even if a hundred other guests hugged you.\n\nYou process the world through people, values and lived experience. You make decisions by asking how they will affect relationships. Will Ammi feel hurt? Will this upset the team? Tradition and shared norms matter to you because they offer a reliable script for treating people well, from who gets served first to when it is right to visit a new mother. Your warmth is practical, too. It shows up as arranged transport for an elderly relative, spare bedding ready for unexpected guests, a message to the whole group that someone's father is in hospital.\n\nThe gap is this: people see your easy social energy and assume you are never anxious. In truth, you replay conversations, worry whether someone was offended, and feel every greeting that goes unreturned. You need appreciation the way a plant needs water, not from vanity but as confirmation that your care landed. When it isn't returned, you may push harder to please, or withdraw, quietly hurt. You are also stronger than people assume: when a family truly breaks down, you are often the one still standing, still cooking, still calling. Learning that your worth doesn't depend on everyone's approval will free you to give from joy rather than fear.",
+    "superpowers": [
+      {
+        "title": "Room Reading",
+        "text": "You walk into a room and within seconds know its emotional weather. Your phupo is upset about something; the groom's family feels slightly ignored; the new intern is nervous. Then you act: a warm word here, a seat rearranged there, a well-timed joke. This radar prevents countless small conflicts before they start, and it makes every gathering you touch feel smoother, kinder and better balanced than it had any right to be."
+      },
+      {
+        "title": "The Art of Welcome",
+        "text": "Guests in your home feel like royalty and family at the same time. You remember who takes less sugar, which child only eats nuggets, and who is shy about eating with their hands at formal dinners. Every detail says: you were expected. In a culture where mehman-nawazi is a point of pride, you raise hospitality to an art form people remember years later, often more vividly than the occasion itself."
+      },
+      {
+        "title": "Network Weaver",
+        "text": "You connect people who ought to know each other: the cousin hunting for a job and the uncle whose company is hiring, the family new to the street and the reliable tutor two lanes over. Years later, you still send Eid wishes to the neighbours who moved to Islamabad and the classmate who settled in Jeddah. Where so much depends on knowing the right person, your network becomes a quiet safety net for everyone around you."
+      },
+      {
+        "title": "Practical Kindness",
+        "text": "Your care is never just words. When a family friend loses a parent, you make sure their stove doesn't need to be lit for three days, arrange chairs for the condolence visitors and keep the tea flowing. When a colleague is in hospital, you organise a visiting rota and collect contributions. You turn sympathy into logistics, and people never forget who showed up with real help when it mattered most."
+      },
+      {
+        "title": "Occasion Maker",
+        "text": "You make moments matter. Birthdays, Eid, a sibling's job offer, even a younger cousin's matric result: you notice, and you celebrate. The box of mithai arrives, the family gathers, the photos are taken and the moment is marked. Plenty of people let life's small milestones slip by unnoticed. You make sure everyone's achievements, however modest, feel seen, and those little celebrations become the memories a family keeps in old albums for decades."
+      },
+      {
+        "title": "Morale Builder",
+        "text": "At work you notice morale dipping before the managers do. You organise the team iftar, remember everyone's birthday, walk the new hire round every desk and make a punishing quarter feel bearable. You also quietly smooth over the friction between departments that nobody else wants to touch. This isn't fluff: people who feel connected to their team work better and stay longer. Wise organisations eventually realise you are a big reason their best people haven't left."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "Log Kya Kahenge",
+        "text": "You care deeply about how things look to the wider family, the neighbourhood and the office. This can quietly lead to decisions made for other people's approval: the bigger wedding, the more prestigious degree, the silence about a real problem at home. It happens because acceptance feels absolutely essential to your sense of safety. Gentle fix: before deciding, ask, “What would I choose if nobody ever found out?” Let that answer carry real weight."
+      },
+      {
+        "title": "The Criticism Sting",
+        "text": "A small comment about your cooking, your parenting or your report can stay with you for days. You may become defensive or quietly wounded, replaying the moment again and again. It hurts so much because you invest so much of yourself in what you do for others. Gentle fix: separate feedback on the task from judgement of your worth. Ask, “What's one useful thing in this?” and let the rest go."
+      },
+      {
+        "title": "Yes to Everything",
+        "text": "In one week you say yes to hosting a dawat, organising the mayun, covering for a colleague and helping a cousin with wedding shopping. You can't bear disappointing anyone. The result is exhaustion and, eventually, resentment toward the very people you were trying to please. Gentle fix: before agreeing, check both your calendar and your energy, then decline one request gracefully every week. Nobody's love for you depends on your availability."
+      },
+      {
+        "title": "Fixing Feelings Fast",
+        "text": "When someone is upset, you rush to make it better: changing the subject, offering food, insisting everything will be fine. Unresolved discomfort is genuinely hard for you to sit with. But sometimes people need to feel sad or angry before they can heal, and your rush can feel dismissive. Gentle fix: next time someone shares something painful, stay with it for a full minute and simply say, “That sounds really hard.”"
+      },
+      {
+        "title": "Peace Over Truth",
+        "text": "To avoid an uncomfortable scene, you may stay quiet about a real problem: a rishta with obvious red flags, a business partner cutting corners, a sibling being treated unfairly. Keeping the peace feels kind, but buried issues usually return larger and harder to fix. Gentle fix: when something troubles your conscience, raise it privately and gently with the right person, rather than hoping harmony will solve it on its own."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "You approach marriage with enormous warmth and commitment. You want a home full of togetherness: shared meals, family visits, celebrated anniversaries and a spouse who joins in social life rather than hiding from it. You show love generously and visibly, through favourite meals, thoughtful gifts, open arms for your in-laws and attention to every detail of your spouse's world. In return you need appreciation, loyalty and kindness, especially in public; criticism from a spouse in front of others wounds you deeply. Friction often comes when your spouse wants a quiet evening and you have invited six guests, or when you read their silence as rejection. Ask openly about their social needs, and remember that a quieter partner may show love differently, not less.",
+      "rishta_tips": [
+        "Observe how members of the other family treat each other at home, not just how they present themselves to guests.",
+        "Ask about their expectations for social life: how often they host, visit relatives or prefer quiet evenings at home.",
+        "Don't hide your needs to seem easygoing. Say clearly that appreciation and family togetherness matter a great deal to you.",
+        "Notice if you are agreeing mainly to make both families happy. Your own peace and compatibility matter just as much.",
+        "Be careful with someone who casually mocks or belittles others. Criticism inside a marriage will hurt you more than most."
+      ],
+      "family": "You are often the social centre of the family: the one who organises Eid lunches, keeps the WhatsApp group alive and knows every relative's latest news. Parents may rely on you to represent the family at weddings and funerals. You take izzat seriously and want the family seen as united and gracious. Joint-family closeness feeds you, though you may become the default peacemaker in every dispute, carrying everyone's side of the story. As a sibling you are affectionate and involved, sometimes too involved in each other's choices. You can love your family fully without carrying every relationship in it on your own shoulders.",
+      "friendship": "You are a generous, attentive friend who remembers birthdays, sends congratulations within minutes and turns up at every important event. You often have friends across several circles and love bringing them together. You also give the best gifts, because you were actually listening when they mentioned what they wanted. You can be hurt when the effort isn't returned, so notice who reaches out without prompting, and invest more in those people.",
+      "best_matches": ["ISFP", "ISFJ", "ESTJ"],
+      "growth_matches": ["INTP", "INTJ"]
+    },
+    "career": {
+      "work_style": "You work best in teams with clear goals, regular feedback and a friendly atmosphere. You are organised, conscientious and especially skilled at anything involving people: coordinating, supporting, onboarding and serving clients. You like established processes and appreciate managers who remember to say thank you. You are the one keeping the office running socially, from birthday cakes to farewell cards to the Friday chai. Your challenge is objectivity: giving negative feedback or making unpopular decisions can feel almost impossible. Remember that clear, honest communication is also a form of care, and the kindest manager is often the one who tells people exactly where they stand.",
+      "ideal_environment": "A warm, collaborative workplace with stable structure, plenty of interaction and a manager who recognises effort. You thrive in hospitals, schools, HR departments, hotels, client-facing teams and community organisations. You want colleagues who feel like a team, not rivals. Isolated roles with no human contact, cut-throat sales floors and cultures of public humiliation will drain your energy quickly, however impressive the title.",
+      "careers": [
+        {
+          "title": "Dentist",
+          "why": "Dentistry combines skilled, precise handwork with constant patient contact, and you have a real gift for calming nervous patients of every age.",
+          "pk_path": "MDCAT, then a four-year BDS and house job, PM&DC registration, and eventually a clinic of your own."
+        },
+        {
+          "title": "Employee Engagement or Talent Manager",
+          "why": "People-focused HR roles let you build cultures where staff feel welcomed, valued and heard, which is exactly what you do naturally.",
+          "pk_path": "Business or psychology degree, then a talent acquisition or engagement trainee role at a large corporate or multinational."
+        },
+        {
+          "title": "Hotel and Hospitality Manager",
+          "why": "Professional hospitality turns your natural mehman-nawazi into a career, from five-star hotels to boutique guest houses in the northern areas.",
+          "pk_path": "BS Hospitality and Tourism Management, then management trainee roles with major hotel chains in Islamabad, Lahore or Karachi."
+        },
+        {
+          "title": "Wedding and Event Planner",
+          "why": "You understand what makes an occasion emotionally meaningful, not just well organised, and families trust you with their most important days.",
+          "pk_path": "Start with family weddings, build an Instagram portfolio, then partner with decorators, caterers and photographers to launch your company."
+        },
+        {
+          "title": "Primary School Teacher or Coordinator",
+          "why": "Young children need warmth, routine and encouragement in equal measure, and parents need someone they trust. You naturally offer all three.",
+          "pk_path": "B.Ed or BS Education; join an established school network, then move into coordination or head of section roles."
+        },
+        {
+          "title": "Corporate Communications Officer",
+          "why": "Communications runs on relationships, tact and sensing exactly how a message will land with different audiences, something you do instinctively.",
+          "pk_path": "BS Mass Communication or Media Studies; start at a PR agency or corporate communications team and build press contacts."
+        },
+        {
+          "title": "Remote Customer Success Manager",
+          "why": "International software companies need people who keep clients happy, solve problems warmly and build long relationships, even across time zones.",
+          "pk_path": "Any degree plus strong English; start in support at a remote-first company or Pakistani BPO, then move into success roles."
+        },
+        {
+          "title": "Freelance Community Manager",
+          "why": "Building engaged online communities for brands, schools or diaspora organisations uses your gift for making total strangers feel they belong.",
+          "pk_path": "Learn scheduling and analytics through free certifications; freelance via Fiverr and Upwork or manage local brands' pages."
+        },
+        {
+          "title": "Foreign Service Officer",
+          "why": "Diplomacy needs warmth, protocol, cultural sensitivity and the ability to make people feel respected. Hosting well is honestly half the job.",
+          "pk_path": "Any bachelor's degree, then FPSC's CSS exam with Foreign Service as first preference; strong English and current affairs matter."
+        },
+        {
+          "title": "Bank Relationship Manager",
+          "why": "Priority banking runs on trust and long relationships. You remember clients' families, occasions and needs, which keeps them loyal for years.",
+          "pk_path": "BBA, MBA or any business degree; join a bank as a personal banking officer and grow into relationship management."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Isolated Data Roles",
+          "why": "Long hours alone with spreadsheets and little human contact may leave you drained, unless the team culture is very social."
+        },
+        {
+          "title": "Forensic Auditing",
+          "why": "Constantly hunting for wrongdoing and confronting people can strain your need for harmony, although your fairness would be valuable."
+        },
+        {
+          "title": "High-stakes Trading",
+          "why": "Cut-throat, zero-sum competition may clash with your cooperative nature and leave you feeling constantly on edge."
+        }
+      ],
+      "as_a_leader": "You lead through relationships. Your team feels known, supported and appreciated, and you build a culture people actually want to come back to on Monday. You remember personal milestones and celebrate wins publicly. Your growth area is tough decisions: negative feedback, enforced deadlines and choices that will disappoint some people. Firm kindness is still kindness, and your team will respect you more for it.",
+      "as_a_team_member": "You are the heart of the team, the one who keeps communication flowing, notices tension early and makes sure everyone feels included. You are dependable, eager to help and happy to take on the coordination work others avoid. Your risk is taking disagreements personally or agreeing too quickly to avoid friction. Share your honest opinion; the team needs your perspective, not only your warmth.",
+      "money_style": "You spend generously on people: gifts, dawats, Eidi for every niece and nephew, and help for relatives in need. In a BC committee you are a cheerful member and sometimes the trusted organiser, simply because everyone likes and trusts you. You may overspend to keep up appearances during wedding season. Set a separate gifts-and-hospitality budget at the start of each month, and when it is finished, it is finished."
+    },
+    "communication": {
+      "how_they_talk": "You speak warmly, expressively and often. You ask questions, share news and fill silences easily, and your WhatsApp messages arrive with stickers, heart emojis and voice notes. You always know the right thing to say at a wedding, a funeral and everything in between. You may soften hard truths too much, or pass on someone's news when you were simply trying to be useful. Guard sensitive information carefully.",
+      "how_to_talk_to_them": [
+        "Show appreciation for their effort openly; a simple thank-you message means more than you think.",
+        "Give criticism gently and privately, starting with what they did well before what needs changing.",
+        "Engage socially before diving into business; a few warm words build their trust very quickly.",
+        "Tell them clearly when you need quiet time, so they don't mistake your space for rejection."
+      ],
+      "conflict_style": "You dislike conflict intensely and work hard to restore peace, sometimes before the real problem is solved. You may smooth things over, apologise first or bring in a third person to help. When hurt, you can become emotional or retreat into wounded silence. Your growth is to stay in a difficult conversation long enough to reach real resolution, even when every part of you wants to make it pleasant again."
+    },
+    "stress": {
+      "triggers": [
+        "Conflict or coldness between family members or friends",
+        "Feeling unappreciated, ignored or criticised",
+        "Being left out of plans or gatherings",
+        "Not knowing where you stand with someone important"
+      ],
+      "signs": [
+        "Saying yes to everything and overworking to please",
+        "Anxiously seeking reassurance from others",
+        "Replaying small comments for days",
+        "Becoming unusually critical or controlling of others"
+      ],
+      "reset": [
+        "Time with one or two people who make you feel fully accepted",
+        "Doing something kind for yourself, the way you would for a guest",
+        "Writing down what you did well today, then reading it aloud",
+        "A quiet morning with no visitors, calls or plans"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Host yourself first",
+        "why": "You give the best care to everyone who walks through your door except yourself. This week, treat your own needs with the generosity you offer guests, and notice how much more energy you have.",
+        "actions": [
+          "Each morning, make your tea exactly how you like it and drink it sitting down.",
+          "Decline one invitation or request this week, politely and without a long apology.",
+          "Spend twenty minutes daily on something just for you: reading, walking or a hobby."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Separate worth from approval",
+        "why": "Your mood often rises and falls with other people's reactions. Building an inner sense of worth lets you keep giving warmly, even when someone is cold or critical towards you.",
+        "actions": [
+          "When a comment hurts, write down what it might say about the other person's day.",
+          "List three things you value about yourself that have nothing to do with helping others.",
+          "Make one small decision today based only on your own preference, not anyone's opinion."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Practise honest kindness",
+        "why": "Real harmony comes from honesty, not from avoiding difficult truths. This week, practise saying what you really think, kindly and gently, so your relationships rest on truth as well as warmth.",
+        "actions": [
+          "Share one honest opinion in a family or work discussion, even if others may disagree.",
+          "If something bothers you, raise it calmly within a day instead of hinting or hoping.",
+          "When asked for feedback, offer one genuine improvement alongside your encouragement."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Welcome different views",
+        "why": "You value tradition and shared norms, which can make unusual ideas or people feel uncomfortable. Curiosity about difference will make you an even better host, friend and leader across generations.",
+        "actions": [
+          "Ask someone with very different views how they came to think that, then just listen.",
+          "Read or watch something outside your usual interests and discuss it with someone.",
+          "Notice one quick judgement you make about someone and look for another explanation."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "If you are Damvi, you may be the most radiant host in the khandaan: cheerful, talkative and endlessly social. Unani tradition calls Damvi the most sociable of the four, and many Damvi people find gatherings energise rather than tire them. Your risk is spreading yourself too thin. Choose depth over breadth sometimes, and protect a few quiet evenings.",
+      "safravi": "If Safravi runs in you, your warmth comes with drive. You plan spectacular events and get things done fast. Traditionally, Safravi is described as hot and dry, energetic but quick to flare, so you may react sharply when plans go wrong or effort goes unnoticed. Pause before responding, and delegate the details so you can actually enjoy your own occasion.",
+      "balghami": "If you are Balghami, your hospitality has a gentle, unhurried quality. Your home feels peaceful rather than busy, and people linger. Unani tradition pairs this cool, watery nature with calm, and many Balghami people find large gatherings tiring. Host smaller, intimate dinners more often, and keep active enough that your energy matches your generosity.",
+      "saudavi": "If you are Saudavi, your social nature has unusual depth. You care intensely about relationships and may worry whether you offended someone or were appreciated. Unani tradition describes Saudavi as the most reflective of the temperaments. Your gift is meaningful, thoughtful hospitality. Balance worry with gratitude, and remember that most people recall your kindness, not your mistakes."
+    },
+    "letter": "Dear Mezbaan,\n\nThink of all the people who walked into a room and felt better because you were in it. The shy cousin you pulled into the photo. The new colleague you invited to lunch on their first day. The grieving family who never had to ask for anything, because you had already thought of it.\n\nYou have spent your life making others feel they belong. It is one of the most beautiful things a person can do. It is not small, and it is not just “being social.” It is love, organised and offered without conditions.\n\nBut we want to ask you something gently. Who makes you feel you belong? Who notices when you are tired behind your smile? You deserve that kind of care too. Not as payment for everything you give, but simply because you are worth it.\n\nSo keep your door open. Keep the chai coming. Just save a seat at the table for yourself, and sit in it.\n\nWith warmth,\n— Mizaj"
+  }
+}

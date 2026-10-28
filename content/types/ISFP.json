@@ -1,0 +1,254 @@
+{
+  "code": "ISFP",
+  "name": "Musawwir",
+  "name_ur": "مصور",
+  "name_en": "The Artist",
+  "family": "Fankar",
+  "emoji": "🎨",
+  "colors": ["#B5838D", "#6D9773"],
+  "tagline": "You say little, notice everything, and leave things more beautiful.",
+  "share_line": "I don't explain my taste. I just quietly make the room better.",
+  "keywords": ["Aesthetic", "Gentle", "Sincere", "Attentive", "Loyal"],
+  "rarity": "about 8% of people",
+  "free": {
+    "summary": "You experience life in high resolution. The smell of first rain on hot dust, the exact shade of a dupatta at dusk, the half-second pause before a friend says 'I'm fine': none of it slips past you. A song from your childhood can rearrange your whole afternoon. You don't announce your values, but they run deep and they don't bend. Beneath the soft-spoken manner is someone who would rather lose an argument than betray what feels right.\n\nOthers often see you as gentle, artistic and easygoing, the one who decorates the stage for a cousin's mehndi or quietly gets a limping stray to the vet. What they miss is your quiet strength. You choose your own path, even if it takes years to explain it to your family. You express love through what you make and do rather than grand speeches, and once someone is inside your circle, your loyalty is total, private and lifelong. People who mistake your softness for weakness are usually surprised, eventually.",
+    "strengths": [
+      "Notices beauty, mood and small details that most people walk straight past.",
+      "Reads emotions accurately and responds with real, unshowy kindness.",
+      "Holds firm values quietly, even under heavy family or peer pressure.",
+      "Turns ordinary rooms, outfits and moments into something personal and memorable.",
+      "Lives in the present, so people feel genuinely seen in your company."
+    ],
+    "watchouts": [
+      "May avoid necessary confrontation until resentment has quietly built up inside.",
+      "Can hear criticism of your work as criticism of your whole self.",
+      "Long-term planning feels heavy, so important deadlines sometimes sneak up on you."
+    ],
+    "pakistani_archetype": "You're the one who turned a plain rented marquee into something magical for your cousin's mehndi with fairy lights, genda phool and a handmade playlist, then refused to take any credit.",
+    "in_relationships": "You love quietly but completely: a sketch tucked into their notebook, their chai made exactly right, remembering what upset them last month without being told. In return you need gentleness with your feelings, respect for your independence, and zero mockery of the things you care about. Harshness closes you up instantly.",
+    "at_work": "Meaning is your fuel at work. Give you creative freedom, kind colleagues and a purpose you believe in, and you'll produce work people remember for years. Cold, hyper-competitive offices with constant public criticism slowly wear you down, however good the salary or title looks to the relatives.",
+    "fictional_twins": [
+      "Harry Potter (Harry Potter series)",
+      "Mulan (Mulan)",
+      "Remy (Ratatouille)",
+      "Hiccup (How to Train Your Dragon)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "You live by an inner compass nobody else can see. It doesn't come from a rulebook or from what the elders say is proper; it comes from a private, steady sense of what feels true. Every choice gets quietly tested against it: this degree, this job, this friendship, this rishta. When something aligns, you commit with an intensity that surprises people who thought you were easygoing. When it doesn't, no amount of logic or pressure will move you, though you may smile, nod and pour the tea while privately refusing. Your family may only discover the refusal months later, when the form was never submitted.\n\nUnderneath everything is one longing: to live as yourself and to leave things more beautiful than you found them. That might mean a painting, a perfectly plated biryani, a garden coaxed back to life on a Karachi rooftop, or simply being the calm presence beside a grandparent in hospital. The nightmare is being forced to wear a personality that doesn't fit, chasing a career chosen only because it sounds respectable at weddings, and slowly losing the colours that make you you. You'd honestly choose a smaller salary in work you love over a grand title in a life that feels borrowed.\n\nYou take in the world through your senses and your feelings at the same time. A harsh comment from a teacher in Class 7 may still echo years later, because you felt it so completely. This sensitivity isn't weakness; it's information. It lets you sense a mood shifting before anyone speaks and notice who is being left out of the conversation. It also means you need real recovery time after anything crowded, loud or emotionally charged, like a three-day shaadi with two hundred guests and a dholki that runs past 2am. Give you a quiet room, a cup of chai and an afternoon with no demands, and you come back whole.\n\nBetween your inner world and your outer one, there's a wide gap. Inside: strong opinions, deep feeling, fierce loyalty. Outside: someone agreeable, quiet, even indecisive, because you'd rather keep the peace than impose. People underestimate you, then get the shock of their lives when you finally act: you switch from pre-medical to fine arts, move cities, or close the door on a toxic friendship with calm finality. Growth, for you, means letting that inner voice out a little earlier, before the pressure builds, so people can meet the real you sooner.",
+    "superpowers": [
+      {
+        "title": "Aesthetic Instinct",
+        "text": "You know, almost physically, when something looks right. Walk you into a dull drawing room and you can see that moving one lamp, adding a money plant and changing the cushion covers will transform it. Friends ask you to choose wedding outfits, Instagram grids and gift wrapping because your taste feels effortless. It isn't. It's a lifetime of noticing proportion, colour and texture that most people never consciously register, let alone name."
+      },
+      {
+        "title": "Emotional Radar",
+        "text": "You can tell someone is struggling long before they say so: the friend who laughs a beat too late, the younger sibling who stopped coming down for dinner. You don't interrogate. You simply appear with chai, sit beside them and let them talk when they're ready. That gentle, pressure-free presence opens people up in a way direct questions rarely do. It's why the quiet ones in every family trust you first."
+      },
+      {
+        "title": "Quiet Courage",
+        "text": "When it truly matters, you'll stand alone. You might be the only student who reports a teacher's unfairness, the employee who refuses to fudge a report, or the child who gently tells their parents you're choosing design over medicine. You don't shout. You simply don't move, and that calm refusal often carries more weight than any loud protest. People who mistook your softness for weakness tend to remember that day."
+      },
+      {
+        "title": "Hands That Make",
+        "text": "You learn best by making. Mehndi designs, embroidery, baking, photography, woodwork, a balcony full of thriving plants: your hands seem to understand things before your mind can explain them. Many of your type build real income from these skills through home bakeries, Instagram stores or freelance design, turning what began as a way to survive board-exam stress into a respected craft with loyal repeat customers. It was never 'just a hobby'; it was always you."
+      },
+      {
+        "title": "Being Fully There",
+        "text": "Most people are half somewhere else, checking phones, planning the next thing. You actually show up for the moment you're in. On a family trip to Hunza, you're the one who asks to stop the car to watch the evening light hit Rakaposhi, and suddenly everyone, even the cousin glued to their phone, remembers why they came. People feel more alive around you, and more seen, because your attention is real rather than performed."
+      },
+      {
+        "title": "Gentle Diplomacy",
+        "text": "You can say hard things softly. In a tense joint-family moment, you're the one who finds words that don't wound, acknowledging an aunt's hurt feelings while still protecting your mother's dignity. Because you genuinely care about everyone's izzat, people accept truths from you that they'd reject from anyone else. Your calm, non-judgemental presence often cools a heated room before anyone notices how it happened. In families where every word is remembered for decades, that is a rare gift."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "Silent Resentment",
+        "text": "You'd rather absorb an annoyance than create tension, so 'koi baat nahi' comes out even when it very much is a baat. Small hurts pile up until one day you withdraw completely and the other person has no idea why. To you, conflict feels like damage to the relationship itself. What helps: the 24-hour rule. Mention a minor irritation within a day, calmly and kindly, before it hardens into something bigger."
+      },
+      {
+        "title": "Criticism Feels Personal",
+        "text": "When someone critiques your design, essay or cooking, you hear 'you are not good enough.' Your work is so tied to your identity that feedback lands on the heart, not the project. You may sulk, over-defend, or quietly stop sharing altogether. What helps: before reacting, ask one clarifying question: 'Which part exactly?' It separates the craft from the self, and usually reveals the critique is far smaller than it felt."
+      },
+      {
+        "title": "The Future Can Wait",
+        "text": "You live so fully in the present that next year feels abstract. University deadlines, savings goals and career moves sneak up because they didn't feel real until they were urgent. It isn't irresponsibility; the future simply doesn't light up your senses. What helps: make it concrete. A vision board, a visual timeline on your wall, or a jar you physically fill with saved notes turns 'someday' into something you can see."
+      },
+      {
+        "title": "Undervaluing Your Work",
+        "text": "You undercharge, accept poor terms, or give your art away to relatives because asking for money feels awkward, almost greedy. Plenty of gifted people of your type stay underpaid for years, confusing modesty with fairness, while louder and less skilled people win the commissions. What helps: research what others charge, write your price down before the conversation, then say it once, clearly, without apologising. Practise it aloud the night before."
+      },
+      {
+        "title": "Escaping Into Moods",
+        "text": "When reality feels heavy, you may retreat into music, sketching, endless scrolling or sleep, while messages, forms and decisions wait. A gentle low mood slides into a week-long fog. Escape feels like comfort, and your sensitivity genuinely needs comfort, but avoidance quietly multiplies the problem. What helps: pair every retreat with one small action. Reply to one message, fill in one line of the form, then go back to the song."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "Kindness matters more to you than any line on a biodata. Salary, status and family background count for less than whether a future spouse is gentle with waiters, patient with your parents and soft with your feelings. You show love through small sensory details: their favourite meal waiting after a long day, a carefully chosen gift, a hand on their shoulder during a hard phone call. You need those gestures noticed and appreciated, not taken for granted. Friction comes when a partner is blunt or dismissive, or tries to plan your entire future without asking. You may also hide hurts until they spill over. A healthy marriage for you includes regular, safe check-ins, freedom to pursue your creative interests, and a spouse who notices the effort behind everything you make.",
+      "rishta_tips": [
+        "Notice how they speak about people who serve them. Kindness to the driver tells you more than any degree.",
+        "Share your creative passion early and watch their face; a dismissive smile now becomes a bigger problem later.",
+        "Ask how their family handles disagreements. Loud, public conflicts will exhaust you even if the person is gentle.",
+        "Don't agree just to keep the peace. If something feels wrong in your gut, say so before the engagement.",
+        "Clarify living arrangements and personal space early; you'll need a quiet corner of your own in any home."
+      ],
+      "family": "To your parents, you may be the tender-hearted child who remembers their medicines and notices when they look tired. Yet you may clash quietly over careers: they picture engineering or medicine, you picture design, psychology or something they can't explain to relatives. You'll often comply outwardly while dreaming inwardly, until one day you calmly take your own path. In a joint family, you're the early-warning system for tension, but shouting matches and lack of privacy drain you. You honour izzat through kindness and dignity, not performance. Among siblings and cousins, you're the secret-keeper and comforter, the one the younger ones come to before they face Abbu.",
+      "friendship": "You keep a small circle and invest in it deeply. You remember birthdays with handmade cards, send songs that reminded you of someone, and show up during hard times, sitting beside a friend in a hospital corridor with no need for words. You need friends who accept your disappearing weekends without taking it personally. Loud, competitive or gossipy groups wear you out, and rather than confront them, you'll simply drift away, gently and for good.",
+      "best_matches": ["ESFJ", "ENFJ", "ISFJ"],
+      "growth_matches": ["ENTJ", "ESTJ"]
+    },
+    "career": {
+      "work_style": "You work best with creative control and room for your personal touch. You'd rather design the presentation than read the numbers aloud, and you'll quietly redo a slide three times until the spacing feels right. You prefer your own pace, often in bursts of inspiration, inside a loose structure. Harsh criticism or competitive one-upmanship shuts you down; encouraging, collaborative teams bring out your best. You're deeply reliable when you believe in the work, but in roles that feel meaningless or purely transactional, motivation leaks away no matter how good the salary. Knowing why a task matters is often all you need to commit fully.",
+      "ideal_environment": "Calm, visually pleasant spaces with natural light, a few plants and freedom to personalise your desk. Kind managers who give feedback privately. Flexible hours or remote options. Work with a clear human or aesthetic purpose: healing patients, making something beautiful, teaching children, caring for animals. Low politics, few loud meetings, and colleagues who understand that quiet focus is not disengagement.",
+      "careers": [
+        {
+          "title": "Fashion or Textile Designer",
+          "why": "Pakistan's lawn and textile industry runs on colour, pattern and fabric sense, exactly where your eye for beauty and detail shines.",
+          "pk_path": "Admission test for PIFD, NCA or Textile Institute of Pakistan; intern with a bridal or lawn label, then launch your own."
+        },
+        {
+          "title": "Interior Designer",
+          "why": "You can feel how a space should look and feel, and you love turning ordinary homes and cafes into calm, personal places.",
+          "pk_path": "Interior Design at NCA, Indus Valley or Beaconhouse National University; build an Instagram portfolio, then take on home projects."
+        },
+        {
+          "title": "Illustrator (Freelance)",
+          "why": "Children's books, brand illustrations and game art let you work from home on your own creative terms, for clients worldwide.",
+          "pk_path": "Self-taught or BFA; build a Behance and Instagram portfolio, then win clients through Upwork, Fiverr and international publishers."
+        },
+        {
+          "title": "Wedding Photographer",
+          "why": "Shaadi season rewards people who capture real emotion, not stiff poses; your sensitivity to light and mood makes your photos feel alive.",
+          "pk_path": "Start with a second-hand camera, assist an established studio for one wedding season, then build your own brand through referrals."
+        },
+        {
+          "title": "Physiotherapist",
+          "why": "Hands-on healing, one patient at a time, combining physical skill with patient, empathetic care that genuinely changes people's daily lives.",
+          "pk_path": "Five-year DPT through a university entrance test; then government hospitals, rehab centres, sports clubs or your own clinic."
+        },
+        {
+          "title": "Veterinary Doctor",
+          "why": "Animals respond instinctively to your calm, gentle presence, and veterinary work offers hands-on care, practical problem-solving and quiet daily meaning.",
+          "pk_path": "DVM at UVAS Lahore or an agricultural university via entry test; then the Livestock Department, private clinics or a pet-care business."
+        },
+        {
+          "title": "Art or Early-Years Teacher",
+          "why": "Young children and creative subjects respond to your patience, warmth and gift for making learning feel playful and visual, not rote.",
+          "pk_path": "B.Ed or BFA, then provincial teacher recruitment tests for government schools, or private schools and Montessori programmes."
+        },
+        {
+          "title": "UX/UI Designer (Remote)",
+          "why": "Designing apps people enjoy using blends visual taste with empathy for real users, and remote roles often pay in dollars.",
+          "pk_path": "Learn Figma, earn a recognised UX certificate, build three case studies, then apply to remote startups abroad."
+        },
+        {
+          "title": "Pastry Chef or Home Baker",
+          "why": "Baking is chemistry plus art; your eye for presentation and love of sensory detail can build a loyal following surprisingly quickly.",
+          "pk_path": "Culinary diploma at COTHM or similar, or self-taught; launch a home bakery on Instagram, then scale to events and cafe orders."
+        },
+        {
+          "title": "Heritage Conservation Officer",
+          "why": "Restoring old havelis, mosques and frescoes combines craft, patience and deep respect for beauty that has already outlived many generations.",
+          "pk_path": "BS Archaeology or Fine Arts plus conservation training, then the Walled City of Lahore Authority or provincial archaeology departments."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Litigation Lawyer",
+          "why": "Daily adversarial battles may drain you, though advisory, family-law or human-rights work can suit your empathy beautifully."
+        },
+        {
+          "title": "Target-Driven Sales Manager",
+          "why": "Constant pressure to push numbers and close aggressively can clash with your values and need for genuine connection."
+        },
+        {
+          "title": "Statutory Audit",
+          "why": "Long, rigid compliance cycles with little creative input may feel lifeless, even when you have the technical skill."
+        }
+      ],
+      "as_a_leader": "You lead quietly, by example and personal care. You notice that one designer thrives on deadlines while another needs a calm morning, and you assign work to match. Your team feels safe to experiment. The hard part is enforcing deadlines and giving critical feedback; you may redo someone's weak work yourself rather than tell them. Name problems early, kindly but clearly. People respect a gentle leader who is also honest.",
+      "as_a_team_member": "You make the work look good and the team feel good. You'll notice the intern who hasn't spoken in three meetings and quietly loop them in. You prefer low-ego, harmonious teams and dislike shouting matches. Your best ideas often arrive by private message after the meeting, when the loud voices have already decided. Say one idea aloud per meeting; your perspective is often the missing one.",
+      "money_style": "You spend on beauty and experiences: art supplies, a good meal, thoughtful gifts, a spontaneous trip to Swat. Rigid budgets feel like a cage, so savings can be patchy. You often undercharge for your creative work. Saving works best when it's tied to something you can picture, like a camera, a studio or your own little kitchen. Before launching a business, ask a practical friend to review your pricing."
+    },
+    "communication": {
+      "how_they_talk": "Soft, thoughtful and often understated. You choose words carefully and avoid harshness, and you prefer showing to telling: a photo, a song link or a sketch can say what you can't. In big groups you may stay quiet, but one-on-one you open up with surprising warmth and mischief. When upset, you go quiet or give short replies. Your 'theek hai' can mean a dozen different things, and only your closest people can tell which.",
+      "how_to_talk_to_them": [
+        "Be gentle in tone; harshness shuts them down even when your point is valid.",
+        "Ask about their creative work or passions; it's the fastest route to their trust.",
+        "Give feedback privately, starting with what genuinely works, then what could be better.",
+        "Respect their silence; offer space and a later check-in instead of pushing for answers."
+      ],
+      "conflict_style": "You avoid conflict as long as possible, absorbing hurt to keep the peace. Then, when pushed too far, you set a boundary so calm and final that people are stunned, like the day you simply stopped attending the friend circle that kept mocking you. You need a conversation to feel safe and respectful before you can engage. Practise saying it earlier and softly: 'That hurt, and I want to talk about it.'"
+    },
+    "stress": {
+      "triggers": [
+        "Harsh criticism, mockery or being embarrassed in front of others",
+        "Being pressured into choices that clash with your values",
+        "Crowded, noisy environments with no quiet place to escape",
+        "Rigid schedules with no room for creativity or a personal touch"
+      ],
+      "signs": [
+        "Withdrawing into music, your phone or sleep for long stretches",
+        "Sudden harsh self-criticism about your talent or worth",
+        "Cold, clipped replies to people you normally treat gently",
+        "Abandoning the creative hobbies that usually bring you joy"
+      ],
+      "reset": [
+        "Spend an hour making something with your hands, with no goal attached",
+        "Walk somewhere green: a park, a garden, or along the canal at sunset",
+        "Listen to a favourite album start to finish with your phone in another room",
+        "Share what you're feeling with one trusted friend over chai"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "Speak small truths early",
+        "why": "Swallowing small hurts protects the peace in the short term but quietly damages relationships over time. This week you'll practise gentle honesty about minor things, so big resentments never get the chance to grow.",
+        "actions": [
+          "Each day, share one small preference you'd normally hide: food, plans, music, anything.",
+          "When something bothers you, mention it calmly within 24 hours instead of letting it sit.",
+          "Practise saying 'I see it differently' at least once in a real conversation."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Separate work from worth",
+        "why": "Criticism of your work feels like criticism of you, which can make you avoid feedback entirely. This week helps you hear feedback as information about the craft, not a verdict on your value.",
+        "actions": [
+          "Ask one person for specific feedback on something you made, then simply listen.",
+          "Write the feedback down, then underline one useful point, even if it stung.",
+          "Show one piece of unfinished work to someone and notice that the world doesn't end."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Make the future visible",
+        "why": "Long-term goals feel abstract and easy to postpone. Turning them into something visible and tangible makes them real, so they engage your senses and your heart, not just a reluctant mind.",
+        "actions": [
+          "Create a vision board or a hand-drawn timeline for the year ahead.",
+          "Choose one savings target and track it on a jar or app you see daily.",
+          "Break one big goal into three small steps and mark each on a calendar."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Claim your value",
+        "why": "You underestimate and undercharge for your talents, which keeps you underpaid and invisible. This final week is about owning your skills in public and asking for fair recognition with quiet confidence.",
+        "actions": [
+          "Research what others charge for similar work and write your own price list.",
+          "Share one piece of your work publicly with a short note about your process.",
+          "Ask for one thing you deserve this week: a fair rate, proper credit, or time."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "If your temperament is Damvi, your gentle heart turns more openly sociable. You're the Musawwir who decorates the mehndi stage and then dances on it, sharing your art freely with friends and family. The risk is saying yes to everyone's design requests, so guard a few evenings each week for your own projects.",
+      "safravi": "Safravi heat gives your quiet values a sharper, braver edge. You feel deeply and react quickly, standing up for others with real intensity, and your creative work tends to be bold and striking. Watch for flashes of irritation when your work is dismissed; step away, let the heat pass, then reply.",
+      "balghami": "Paired with a Balghami temperament, you become even gentler and more patient, the soothing presence with children, elders and animals. The challenge is drift: dreams can stay dreams without structure. Small routines, gentle deadlines and one encouraging accountability friend help your talent turn into finished work.",
+      "saudavi": "Saudavi depth intensifies your inner world. Your art may become profound and moving, but you may also slip into perfectionism or heavy moods. Unani tradition suggests sunlight, gentle movement and warm company help balance this temperament. Share your work before it feels perfect, and keep a few cheerful people close."
+    },
+    "letter": "Dear Musawwir,\n\nYou notice what others miss. The light through the window at Asr. The friend who went quiet in the group chat. The single flower pushing through a crack in the pavement. You carry all of it inside you, and sometimes it's heavy.\n\nWe know the world can feel too loud and too harsh. People may have told you to toughen up, to choose a 'proper' career, to stop being so sensitive. But your sensitivity is not a flaw to fix. It's the very thing that makes your work, and your love, so real.\n\nYou don't need to shout to matter. The moments you stood firm for what was right, the kindness you gave without expecting thanks, the beauty you added to ordinary days: these leave marks on people for years.\n\nSo please, don't hide your gifts. Show your work before it's perfect. Name your price. Say the small truths out loud. Let people see the colours inside you.\n\nThe world is more beautiful because you're in it. Keep making things.\n\n— Mizaj"
+  }
+}

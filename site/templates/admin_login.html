@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="section"><div class="wrap narrow">
+  <form class="card stack" method="post" action="/admin/login">
+    <h1 style="font-size:1.8rem">Mizaj admin</h1>
+    <div class="field"><label for="token">Admin token</label><input id="token" name="token" type="password" autocomplete="current-password" required></div>
+    <button class="btn" type="submit">Log in</button>
+  </form>
+</div></section>
+{% endblock %}

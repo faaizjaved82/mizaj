@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="result-hero mz-{{ m.key }}">
+  <div class="wrap">
+    <a href="/mizaj/" class="small" style="color:inherit;opacity:.8">← All 4 mizaj</a>
+    <div class="code" style="margin-top:10px">{{ m.emoji }} {{ m.name }}</div>
+    <div class="tname">{{ m.nickname }} · {{ m.quality }}</div>
+    <div class="ur">{{ m.name_ur }}</div>
+    <p class="tagline">{{ m.tagline }}</p>
+    <a class="btn" href="/test/mizaj/" style="margin-top:12px">Am I {{ m.name }}? Take the test</a>
+  </div>
+</section>
+<section class="section"><div class="wrap narrow stack">
+  <p class="muted"><b>{{ m.classical }}</b> · humour: {{ m.humour }} · element: {{ m.element }} · season: {{ m.season }}</p>
+  {{ m.free.summary|paras }}
+  <div class="grid grid-2">
+    <div class="card"><h3>Traits</h3><ul class="list-check">{% for s in m.free.traits %}<li>{{ s }}</li>{% endfor %}</ul></div>
+    <div class="card"><h3>Body signs</h3><ul class="list-check">{% for s in m.free.body_signs %}<li>{{ s }}</li>{% endfor %}</ul></div>
+  </div>
+  <div class="notice">🍵 <b>Quick tip:</b> {{ m.free.quick_tip }}</div>
+  <div class="card"><h3>A few foods that traditionally suit {{ m.name }}</h3><ul class="list-check">{% for f in m.premium.foods_favour[:4] %}<li><b>{{ f.item }}</b>: {{ f.why }}</li>{% endfor %}</ul>
+    <p class="small muted">The full guide (14 foods, foods to limit, daily routine, seasons, Ramadan and a 7-day menu) is in the Full Mizaj Report.</p></div>
+  <p class="small muted">{{ m.disclaimer }}</p>
+  <div class="card center stack" style="background:var(--ink);color:var(--paper);border:0">
+    <h2>Garam ya thanda?</h2><p style="opacity:.8">24 quick questions about your body and habits. 4 minutes, free.</p>
+    <a class="btn btn-saffron" href="/test/mizaj/">Find my mizaj →</a>
+  </div>
+</div></section>
+{% endblock %}

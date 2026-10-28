@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero"><div class="wrap narrow">
+  <span class="eyebrow">Ilm-e-Adad · for fun</span>
+  <h1>What's the number in your name?</h1>
+  <p class="lead">For centuries Urdu and Persian poets hid dates and meanings in words using the Abjad system, where every letter has a number. Type your name in Urdu (or English) to find yours.</p>
+  <form class="card stack" id="adad-form" style="margin-top:20px">
+    <div class="field"><label for="aname">Your name</label><input id="aname" required maxlength="60" placeholder="e.g. عائشہ or Ayesha" dir="auto"></div>
+    <div class="field"><label for="adob">Date of birth (optional)</label><input id="adob" type="date" min="1930-01-01" max="2025-12-31"></div>
+    <button class="btn btn-pom" type="submit">Find my number</button>
+    <div class="err" data-err></div>
+  </form>
+  <div id="adad-out" class="stack hidden" style="margin-top:20px"></div>
+  <div class="card card-flat" style="margin-top:24px">{{ intro|paras }}</div>
+  <p class="small muted" style="margin-top:16px">{{ disclaimer }}</p>
+</div></section>
+{% endblock %}

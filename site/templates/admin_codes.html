@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="section"><div class="wrap narrow stack">
+  <h1 style="font-size:1.8rem">{{ codes|length }} codes for {{ product }}{% if org %} · {{ org }}{% endif %}</h1>
+  <textarea style="width:100%;min-height:300px;font:600 1rem ui-monospace,monospace;padding:12px;border-radius:12px">{{ codes|join("\n") }}</textarea>
+  <a class="btn" href="/admin">Back to admin</a>
+</div></section>
+{% endblock %}

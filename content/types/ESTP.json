@@ -1,0 +1,254 @@
+{
+  "code": "ESTP",
+  "name": "Jaanbaz",
+  "name_ur": "جانباز",
+  "name_en": "The Daredevil",
+  "family": "Fankar",
+  "emoji": "🏍️",
+  "colors": ["#C0392B", "#F5B041"],
+  "tagline": "When everyone freezes, you're already moving, and somehow it works.",
+  "share_line": "I read the room in three seconds and closed the deal in five.",
+  "keywords": ["Bold", "Quick", "Persuasive", "Practical", "Unflappable"],
+  "rarity": "about 4% of people",
+  "free": {
+    "summary": "You think best on your feet. While others are still reading the situation, you've already read the people in it: who's bluffing, who's nervous, who actually has the authority to say yes. You learn by trying, failing fast and trying again, and you'd rather bargain your way through a packed Saddar bazaar than read a hundred online reviews. Street cricket taught you more about strategy than any classroom did. Life, for you, is something to be played, not watched from the stands.\n\nPeople call you fearless, sometimes reckless. What they miss is how much calculation sits behind the speed: you weighed the odds, you just did it in two seconds instead of two weeks. Friends pull you in when they need a deal closed, a crisis handled or a dead evening rescued. When your people are in trouble, you're already in the car. Under the confident grin is someone deeply loyal, quietly observant and far more thoughtful about people than your jokes ever let on.",
+    "strengths": [
+      "Reads people's intentions and body language within seconds of meeting them.",
+      "Acts decisively in emergencies while others are still forming a committee.",
+      "Negotiates brilliantly, from car bazaars to salary offers and supplier deals.",
+      "Turns setbacks into fresh openings with remarkable speed and good humour.",
+      "Brings energy that gets stalled projects and sleepy groups moving again."
+    ],
+    "watchouts": [
+      "May act first and think later, leaving others to handle the consequences.",
+      "Can get bored quickly with routine, long projects or slow-paced people.",
+      "Sometimes uses humour to dodge serious emotional conversations that really matter."
+    ],
+    "pakistani_archetype": "You're the one who dug the group's jeep out of the mud on the Babusar road, talked the hotel owner down forty percent, and still had everyone at the lake before sunset.",
+    "in_relationships": "You bring adventure, laughter and plans nobody saw coming: a sudden drive to Murree for chai in the fog, a surprise that took one phone call and total confidence. The right match keeps up without trying to tame you, and gently pulls you into the deeper conversations you tend to skip.",
+    "at_work": "You thrive where things move fast and results are visible: sales floors, field operations, emergency rooms, start-ups. Endless theory bores you instantly. Give you a target, freedom to improvise and a scoreboard, and you'll outperform almost anyone. Slow approval chains and pointless hierarchy, however, will test your patience daily.",
+    "fictional_twins": [
+      "Aladdin (Aladdin)",
+      "Dominic Toretto (Fast & Furious)",
+      "Merida (Brave)",
+      "Thor (Marvel films)"
+    ]
+  },
+  "premium": {
+    "deep_dive": "Most people experience time as a long road of plans and milestones. You experience it as a series of openings: a gap in Mall Road traffic, a pause in a negotiation, the split second when the bowler's shoulder drops and you know the ball is coming short. You catch these openings because you're tuned completely to what is happening right now, in the physical world, with real people. That isn't shallowness. It's a kind of intelligence most schools never measure and most offices badly need: the ability to act well on incomplete information while everyone else is still asking for more data.\n\nYou want to be in the game, to have impact, to feel the direct effect of your actions on the world. Winning matters, but being where the action is matters more. You'd pick a hard job with a scoreboard over a comfortable one without any. The thing that frightens you, though you'd never phrase it this way, is being benched: stuck behind a desk processing forms, controlled by people who've never taken a risk, watching life happen to others while you wait for permission. Boredom, for you, isn't mildly unpleasant. It's suffocating, and you'll create chaos sooner than sit inside it.\n\nYou process the world tactically. You read faces, tones, postures and rooms faster than people can finish their sentences. In a new office, you've worked out who really runs the department within a week, and it's rarely the person with the biggest cabin. At a rishta gathering, you know which elder is the actual decision-maker before the chai and samosas are served. You solve problems by acting, adjusting and acting again. Reflection comes later, usually at night, alone in the car with the radio off, when the adrenaline fades and you replay the day far more honestly than anyone imagines.\n\nThat's the hidden gap. On the outside you're quick, joking, unbothered. On the inside you feel more than you show: loyalty that runs deep, a private sense of responsibility for your people, and real regret when a fast decision hurt someone. You rarely share that layer, partly because vulnerability feels like giving ground in a match. You'll drive across the city at 2am for a friend and never mention it again. But the few who see it trust you completely. Your growth isn't about slowing down. It's about letting your depth catch up with your speed, and letting a few people see both.",
+    "superpowers": [
+      {
+        "title": "Reading the Room",
+        "text": "You walk into any space and within seconds know the mood, the pecking order and who's uncomfortable. At an office lunch you clock the new hire eating alone and the manager who's tense about quarter-end numbers. You adjust instantly: lighten the mood, pitch the idea differently, or step back. Sales trainers spend years teaching what you do by instinct. It's also why people at any gathering drift toward you without quite knowing why."
+      },
+      {
+        "title": "First to Move",
+        "text": "When the car skids on a rain-slick GT Road or a cousin collapses at a wedding, you move. You call Rescue 1122, give clear instructions, clear space and handle the immediate problem while others are still gasping. Your brain sharpens under pressure instead of freezing. People who've seen you in a real crisis rarely forget it, and without ever discussing it, they start calling you first whenever something goes wrong."
+      },
+      {
+        "title": "The Closer",
+        "text": "You understand that most deals are won in the moment, not on the spreadsheet. You sense hesitation, find the real objection behind the stated one, and know exactly when to stop talking. Whether you're buying a second-hand Corolla, landing a freelance client in Dubai or convincing your parents to let you start a business instead of taking the bank job, you persuade without faking, because you're responding to the actual person in front of you."
+      },
+      {
+        "title": "Learning by Doing",
+        "text": "Hand you a manual and you'll put it down. Put you in the situation and you'll master it faster than anyone who read the manual twice. You learned to drive, trade, cook or edit videos by jumping in and adjusting in real time. That makes you a remarkably fast learner of practical skills, and a natural in jobs that change daily, like field operations, sports coaching, emergency work or running your own shop."
+      },
+      {
+        "title": "Bounce-Back Speed",
+        "text": "When a deal collapses or a plan falls apart, you don't spiral; you pivot. Lost a client? You're already calling three more. Missed the merit list? By next morning you've found two other routes in. This resilience isn't denial; it's a practical belief that there's always another move on the board. Teams and families borrow courage from your energy at exactly the moments everyone else is ready to give up."
+      },
+      {
+        "title": "Making It Happen",
+        "text": "Plenty of people talk about ideas. You do them. The street cricket tournament your friends discussed for two years? You booked the ground, collected the entry fees and printed the shirts in a single week. Your gift is turning vague intentions into real events, products and businesses, cutting through hesitation with one simple question: 'Why not this Friday?' Every group of friends needs at least one person like you, and usually it's you."
+      }
+    ],
+    "blind_spots": [
+      {
+        "title": "Leap Before Looking",
+        "text": "You make big calls fast: investing in a friend's business, quitting a job, buying a car on the spot. Speed has served you well, so you trust it. But some decisions have long tails your instinct can't see, like contracts, loans and family consequences that land years later. The play: for any decision above a set amount of money or commitment, enforce a 48-hour rule and get one cautious friend's honest opinion."
+      },
+      {
+        "title": "Joking Past the Pain",
+        "text": "When a conversation turns emotional, you crack a joke, change the subject or suddenly need to take a call. It's not that you don't care; vulnerability feels like dropping your guard mid-fight. But the person who opened up may feel brushed off, and they rarely open up twice. The play: when someone shares something heavy, hold the joke for two full minutes and ask, 'What do you need from me right now?'"
+      },
+      {
+        "title": "Allergic to Follow-Through",
+        "text": "You love the launch and hate the maintenance. You start the business, close the first big order, and then the stock records, tax filings and customer follow-ups pile up untouched. Routine simply doesn't give your brain enough stimulation, so it slides to 'tomorrow' indefinitely. The play: partner with a detail-loving co-founder or assistant, and turn admin into a game with timers, streaks and a real reward when the backlog finally hits zero."
+      },
+      {
+        "title": "Rules Are Suggestions",
+        "text": "You see rules as obstacles to negotiate around, which can be brilliant inside a stuck bureaucracy and disastrous with traffic laws, exam regulations or office compliance. You trust your judgement over the system's, and sometimes the system knows something you don't. The play: before bending a rule, ask what it's protecting and who pays if your gamble fails. If the answer is someone other than you, follow it, however slow it feels."
+      },
+      {
+        "title": "Impatience With Slow Thinkers",
+        "text": "You process situations fast and may visibly lose patience with people who need time: a hesitant colleague, an elder who tells the story from the very beginning, a spouse who wants to sleep on a decision. Eye-rolls and interruptions make others feel stupid around you, even when you didn't mean it. The play: remember that slow thinkers often catch the risks you miss. Wait three full seconds after someone stops speaking before you reply."
+      }
+    ],
+    "relationships": {
+      "love_and_marriage": "Marriage works best for you as a partnership in adventure: a teammate, not a warden. Your love shows up as action and experiences: planning the surprise trip, handling the crisis, making them laugh after a terrible day, fixing problems before they even ask. You're generous and protective, especially with the people you call yours. Friction often comes from pace: you want to decide quickly, they want to discuss; you want spontaneity, they need predictability. You may also dodge serious talks about feelings, finances or the five-year plan. The strongest marriages for your type pair your boldness with a partner who's steady, honest and secure enough not to feel threatened by your independence, and who can call you out kindly when you're rushing.",
+      "rishta_tips": [
+        "Resist deciding after one meeting; ask for a second and third conversation before you let the families commit.",
+        "Ask how they handle surprises and last-minute plans; someone who panics at spontaneity may struggle with your pace.",
+        "Be upfront about your career risks and business plans, so nobody's family is shocked by your choices later.",
+        "Look past charisma and confidence; you're drawn to energy, but steadiness and kindness matter more over decades.",
+        "Find out how both families handle arguments; two quick tempers under one roof can make a volatile home."
+      ],
+      "family": "Your parents probably worried about you most, and now rely on you most. You were the one climbing boundary walls, getting into scrapes and arguing your way out of trouble; now you're the one who handles the property dispute, the hospital emergency and the contractor who vanished with the advance. Under a joint-family roof, you bring energy and practical help, though you may clash with elders who insist on the slow, traditional way. Family izzat matters to you and you'll defend it fiercely, sometimes too fiercely. With siblings, you're the fun one, the protector, and occasionally the one who gets everyone into trouble together.",
+      "friendship": "You're the friend who makes plans actually happen: the late-night cricket, the sudden road trip to Kalam, the birthday surprise organised in a day. Your circle is wide, but your trusted inner group is small and fiercely loyal. You'll show up within minutes when a friend's bike breaks down at midnight. Just watch that the fun doesn't replace depth; sometimes friends need you to sit still and listen rather than fix things or lighten the mood.",
+      "best_matches": ["ISFJ", "ISTJ", "ISTP"],
+      "growth_matches": ["INFJ", "INFP"]
+    },
+    "career": {
+      "work_style": "You work in high-energy sprints and live for tangible results. You'd rather be on the phone with ten clients than writing a strategy document about them. You troubleshoot live problems fast, persuade people easily and make decisions comfortably without complete information. Variety, freedom to improvise and clear performance targets keep you sharp; rigid processes, approval chains and long theoretical meetings drain you. You learn on the job and improve through real-time feedback, not formal training modules. Your challenge is consistency: detailed reports and long-term planning need systems, reminders or a teammate who loves them. With that support in place, your output can be astonishing.",
+      "ideal_environment": "Fast-paced and hands-on: sales floors, field sites, trading desks, hospitals, start-ups or the open road. Visible goals, quick feedback and rewards tied to performance. Authority to make decisions on the spot without five signatures. A team with good humour and competitive spirit. Something different every day, minimal paperwork, and a boss who hands you the target, then gets out of your way.",
+      "careers": [
+        {
+          "title": "Sales and Business Development",
+          "why": "Reading people, handling objections and closing deals use your natural skills, and performance-based pay rewards exactly the energy you bring.",
+          "pk_path": "BBA from IBA, LUMS or a strong private university, then FMCG management trainee programmes, pharma sales or telecom B2B teams."
+        },
+        {
+          "title": "Army Officer",
+          "why": "Physical challenge, leadership under pressure, teamwork and constant variety make military life a natural fit for your quick decisions and courage.",
+          "pk_path": "After FSc, apply for the PMA Long Course; clear the initial test, medical, physical and the four-day ISSB assessment."
+        },
+        {
+          "title": "Police Service Officer",
+          "why": "Field leadership, crisis management and the chance to make visible change on the ground suit your instincts and your need for real action.",
+          "pk_path": "Graduate, clear CSS through FPSC for the Police Service of Pakistan, or sit provincial ASI and inspector tests via PPSC."
+        },
+        {
+          "title": "Emergency Medicine Doctor",
+          "why": "Fast decisions, constant variety and life-or-death stakes keep you sharp, and your calm under pressure genuinely saves lives every shift.",
+          "pk_path": "MDCAT, MBBS and house job, then FCPS in Emergency Medicine; or join Rescue 1122 as an emergency officer through provincial tests."
+        },
+        {
+          "title": "Tour Operator for the North",
+          "why": "Leading groups through Hunza, Skardu and Swat combines adventure, people skills and problem-solving when landslides, jeeps or weather refuse to cooperate.",
+          "pk_path": "Start by organising university trips, register with the provincial tourism department, partner with local guides and hotels, then market online."
+        },
+        {
+          "title": "Real Estate Agent",
+          "why": "Property deals reward relationship-building, sharp negotiation and quick reading of buyer and seller motives, with high earning potential for skilled closers.",
+          "pk_path": "Learn the market as an associate at an established agency, register with your housing authority, then build your own client network."
+        },
+        {
+          "title": "Remote Sales Closer",
+          "why": "Agencies abroad pay generously for anyone who can turn a sales call into a signed deal, and that is exactly your gift.",
+          "pk_path": "Polish spoken English, start in appointment-setting roles, build a track record, then land commission-based closing jobs abroad."
+        },
+        {
+          "title": "Online Fitness Coach",
+          "why": "Physical energy, motivating others and visible results suit you, and online coaching lets you train clients across Pakistan and the Gulf.",
+          "pk_path": "Earn a recognised personal trainer certification, coach at a local gym, then build an Instagram following and sell online programmes."
+        },
+        {
+          "title": "Field Reporter",
+          "why": "Breaking stories on the ground, talking to anyone and thinking quickly on live camera suit your fearless, people-reading style perfectly.",
+          "pk_path": "BS Mass Communication at a public or private university; intern at a news channel, then build your own digital news presence."
+        },
+        {
+          "title": "Equity Dealer",
+          "why": "Markets move fast and reward quick, disciplined decisions; your comfort with risk becomes an asset once it's paired with strict personal rules.",
+          "pk_path": "BBA or BS Finance, pass the required capital-market certification, then join a PSX brokerage as a dealer and learn discipline before clients."
+        }
+      ],
+      "think_twice": [
+        {
+          "title": "Back-Office Accounts",
+          "why": "Repetitive reconciliations with little human contact or variety may drain you quickly, despite your sharp head for numbers."
+        },
+        {
+          "title": "Academic Research",
+          "why": "Years spent on one narrow question, with slow feedback and peer review, rarely match your appetite for immediate results."
+        },
+        {
+          "title": "Long-Range Policy Drafting",
+          "why": "Writing ten-year frameworks in committee feels far from action; you'll likely be more useful implementing them on the ground."
+        }
+      ],
+      "as_a_leader": "You lead from the front. When a client threatens to walk or a shipment is stuck at Karachi port, you're on the phone, not in a meeting about the phone call. Teams feel safe with you in a crisis. Your challenge is patience with planning and with quieter team members whose ideas take longer to surface. Hand long-range strategy to someone careful, and invite the quiet voices before you decide.",
+      "as_a_team_member": "You're the energiser and troubleshooter. When the team is stuck, you find the workaround or make the call nobody wanted to make, like ringing the client directly instead of drafting a fourth email. You build quick rapport with clients, which makes you invaluable in external-facing roles. You may get restless in long discussions and occasionally go rogue. Loop teammates in before you act, and your speed will feel like a gift, not a threat.",
+      "money_style": "You're comfortable with risk and have an eye for opportunity: flipping phones in college, a side business by nineteen. You spend generously on experiences, gadgets and friends, and you'll grab the bill at dinner before anyone else can reach for it. You might even run the BC committee yourself, collecting from twelve people and using your payout to seed a venture. Keep an untouchable emergency fund, and set strict stop-loss rules for every investment."
+    },
+    "communication": {
+      "how_they_talk": "Fast, direct, energetic and often funny. You speak in stories and examples, not theories, and you switch registers instantly: playful with friends, firm with a contractor, charming with an aunty. You read reactions as you talk and adjust mid-sentence. You'd rather call than text, and your voice notes sound like live cricket commentary. Abstract debates lose you quickly, and you'll steer them back to 'so what do we actually do?'",
+      "how_to_talk_to_them": [
+        "Be direct and get to the point; a long build-up loses their attention fast.",
+        "Bring a concrete proposal, not just a problem; they respond best to action plans.",
+        "Use humour and energy; they connect with people who don't take everything too seriously.",
+        "For serious topics, pick a calm moment and say upfront that it matters deeply to you."
+      ],
+      "conflict_style": "You face conflict head-on and want it settled quickly: say it, solve it, move on. You'll often forget the argument by dinner while your sibling is still hurting from something you said at lunch. You can win the argument and lose the relationship. Slow down, ask how the other person feels, and check that it's actually resolved before moving on. Winning the point matters far less than keeping the person."
+    },
+    "stress": {
+      "triggers": [
+        "Long, slow routines with no variety or visible progress",
+        "Feeling controlled, micromanaged or boxed in by petty rules",
+        "Emotional conversations that circle with no clear solution",
+        "Forced inactivity: illness, exam season or long desk-bound days"
+      ],
+      "signs": [
+        "Reckless choices: speeding, risky bets, impulsive purchases",
+        "A short fuse and dismissive, cutting comments",
+        "Restlessness, constant scrolling, inability to sit still",
+        "Uncharacteristic brooding and private doubts about the future"
+      ],
+      "reset": [
+        "Intense physical activity: football, boxing, a hard run or a long swim",
+        "A spontaneous day trip with friends somewhere you've never been",
+        "Fix a practical, hands-on problem from start to finish",
+        "Talk honestly with one trusted person who won't judge or lecture"
+      ]
+    },
+    "growth_plan": [
+      {
+        "week": 1,
+        "focus": "The 48-hour pause",
+        "why": "Your speed is a gift, but big decisions deserve more than instinct. This week trains a brief pause before major commitments, so your boldness is backed by just enough thought to avoid painful regrets.",
+        "actions": [
+          "Before any purchase over a set amount, wait 48 hours and then reconsider.",
+          "For one decision each day, write down two risks before you act on it.",
+          "Ask one cautious friend for their honest view on a plan you're excited about."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Stay in hard conversations",
+        "why": "You tend to joke your way out of emotional moments. This week is about staying present when things get heavy, so the people you love feel heard rather than handled or brushed aside.",
+        "actions": [
+          "When someone shares something serious, hold back any joke for at least two minutes.",
+          "Ask one person daily, 'How are you, really?' and listen to the full answer.",
+          "Share one honest feeling of your own with someone you trust this week."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Build the boring systems",
+        "why": "Your follow-through suffers when tasks get repetitive. Simple systems set up this week will protect your projects, money and reputation, so your brilliant starts don't fade into unfinished chaos or broken promises.",
+        "actions": [
+          "Set three automatic reminders for recurring tasks: bills, invoices and client follow-ups.",
+          "Spend twenty minutes daily clearing admin, then reward yourself with something fun.",
+          "Track one money number all week: spending, savings or business cash flow."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Lead with patience",
+        "why": "Your influence grows when people feel valued, not rushed. This week focuses on slowing down for the quieter, slower thinkers around you, who often hold the insights and warnings you're missing.",
+        "actions": [
+          "In every meeting or family discussion, wait three seconds before responding to anyone.",
+          "Ask the quietest person in the room for their opinion, then build on it.",
+          "Thank someone specifically for spotting a risk or detail that you missed."
+        ]
+      }
+    ],
+    "with_each_mizaj": {
+      "damvi": "Add a Damvi temperament and your boldness comes wrapped in charm. You're the Jaanbaz everyone wants on the trip: persuasive, funny and socially fearless, with sales instincts that are often exceptional. The risk is scattering your energy across too many exciting plans, so pick one big goal per season and finish it.",
+      "safravi": "Safravi fire doubles your intensity. You're competitive, quick and forceful, at home in high-stakes fields like the military, trauma care or your own business. But your temper can flare fast and your risks run higher. Enough sleep, intense exercise and counting to ten before reacting make an enormous difference for this combination.",
+      "balghami": "Where the temperament is Balghami, your edges soften. You're still action-first, but steadier and more patient, which makes you an excellent crisis manager and negotiator. People find you exciting and reassuring at once. Watch for complacency: you may coast on natural talent when a little more planning would carry you much further.",
+      "saudavi": "A Saudavi temperament adds reflection to your action. You're more strategic than most of your type, weighing risks quietly before moving decisively, and more private, revealing your inner world to very few. Unani tradition suggests this temperament is steadied by warmth and regular routine, so after a setback, resist the urge to vanish."
+    },
+    "letter": "Dear Jaanbaz,\n\nYou've probably skipped straight to this part, so let's be quick.\n\nYou are not reckless. You are fast. There's a difference, and most people never see it. When you stopped to help that stranger on the motorway, closed the deal everyone said was impossible, or got the family through a crisis while others froze, you weren't gambling. You were reading the situation faster than anyone else could.\n\nBut we know there's another side. The nights, alone in the car, when you replay a decision that hurt someone. The feelings you joke past because they feel like weakness. The quiet worry about whether you're doing enough with your life.\n\nHere's the truth: your courage isn't only for emergencies. It takes real nerve to sit still in a hard conversation, to wait 48 hours, to let someone see what you actually feel. That's the next level of jaanbazi.\n\nKeep moving. Keep laughing. Keep showing up for your people. Just let your depth travel with you.\n\nWe're rooting for you.\n\n— Mizaj"
+  }
+}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% macro kpis(w, label) %}
+<div class="card"><h3>{{ label }}</h3>
+  <div class="grid grid-2">
+    <div class="kpi"><span class="small muted">Tests completed</span><b>{{ w.test_completes }}</b></div>
+    <div class="kpi"><span class="small muted">Paid orders</span><b>{{ w.orders_paid }}</b></div>
+    <div class="kpi"><span class="small muted">Revenue</span><b>PKR {{ "{:,}".format(w.revenue_pkr) }}</b>{% if w.revenue_usd %}<span class="small">+ USD {{ w.revenue_usd }}</span>{% endif %}</div>
+    <div class="kpi"><span class="small muted">Buyer rate</span><b>{{ w.buyer_rate or 0 }}%</b></div>
+  </div>
+  <p class="small muted" style="margin-top:10px">Visits {{ w.visits }} · test starts {{ w.test_starts }} · completion {{ w.completion_rate or 0 }}% · checkouts {{ w.checkout_views }} · Milan {{ w.milan_invites }}/{{ w.milan_completed }} · palm {{ w.palm_reads }} · contacts {{ w.contacts }} · leads {{ w.leads }}</p>
+</div>
+{% endmacro %}
+{% block main %}
+<section class="section" style="padding-top:28px"><div class="wrap stack">
+  <h1 style="font-size:2rem">Mizaj admin</h1>
+  <div class="grid grid-3">{{ kpis(s.today, "Today") }}{{ kpis(s.d7, "Last 7 days") }}{{ kpis(s.d30, "Last 30 days") }}</div>
+  <div class="card"><h3>Payments to verify ({{ pending|length }})</h3>
+    {% if not pending %}<p class="muted">Nothing waiting. 🎉</p>{% endif %}
+    <div class="scroll-x"><table class="t">
+    {% for o in pending %}<tr><td>{{ o.product }}</td><td>PKR {{ o.amount }}</td><td>{{ o.method }}</td><td><code>{{ o.tid }}</code></td><td>{{ o.sender }}</td>
+      <td><form method="post" action="/admin/order/{{ o.id }}" style="display:inline"><input type="hidden" name="a" value="approve"><input type="hidden" name="s" value="{{ sign(o.id, 'approve') }}"><button class="btn btn-sm">Approve</button></form>
+      <form method="post" action="/admin/order/{{ o.id }}" style="display:inline"><input type="hidden" name="a" value="reject"><input type="hidden" name="s" value="{{ sign(o.id, 'reject') }}"><button class="btn btn-sm btn-ghost">Reject</button></form></td></tr>{% endfor %}
+    </table></div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card"><h3>Create codes</h3>
+      <form method="post" action="/admin/codes" class="grid grid-2">
+        <div class="field"><label>Product</label><select name="product">{% for k in products %}<option>{{ k }}</option>{% endfor %}<option>*</option></select></div>
+        <div class="field"><label>How many</label><input name="count" type="number" value="10" min="1" max="500"></div>
+        <div class="field"><label>Kind</label><select name="kind"><option value="unlock">Unlock (free)</option><option value="discount">Discount</option></select></div>
+        <div class="field"><label>Discount %</label><input name="discount_pct" type="number" value="0" min="0" max="100"></div>
+        <div class="field"><label>Uses per code</label><input name="uses" type="number" value="1" min="1"></div>
+        <div class="field"><label>Organisation / creator</label><input name="org"></div>
+        <div class="field"><label>Prefix</label><input name="prefix" value="MZ" maxlength="8"></div>
+        <div class="field" style="align-self:end"><button class="btn" type="submit">Create</button></div>
+      </form>
+    </div>
+    <div class="card"><h3>Top sources (30 days)</h3><table class="t">{% for r in s.sources %}<tr><td>{{ r.source }}</td><td>{{ r.profiles }}</td></tr>{% endfor %}</table>
+      <h3 style="margin-top:16px">Type mix (30 days)</h3><p class="small">{% for k, v in (s.mix.personality or {}).items() %}{{ k }} {{ v }} · {% endfor %}</p>
+      <p class="small">{% for k, v in (s.mix.mizaj or {}).items() %}{{ k }} {{ v }} · {% endfor %}</p></div>
+  </div>
+  <div class="card"><h3>Recent orders</h3><div class="scroll-x"><table class="t">{% for o in recent %}<tr><td>{{ o.status }}</td><td>{{ o.product }}</td><td>{{ o.currency }} {{ o.amount }}</td><td>{{ o.method }}</td><td><code>{{ o.tid or o.gateway_ref or o.coupon or '' }}</code></td></tr>{% endfor %}</table></div></div>
+  <div class="card"><h3>B2B leads <a class="small" href="/admin/leads.csv">(CSV)</a></h3><div class="scroll-x"><table class="t">{% for l in leads %}<tr><td>{{ l.kind }}</td><td>{{ l.name }}</td><td>{{ l.org }}</td><td>{{ l.phone }}</td><td>{{ l.email }}</td><td>{{ l.city }}</td><td>{{ l.size }}</td><td>{{ l.message }}</td></tr>{% endfor %}</table></div></div>
+  <p class="small muted">All-time: {{ s.all.test_completes }} tests · {{ s.all.orders_paid }} paid orders · PKR {{ "{:,}".format(s.all.revenue_pkr) }}</p>
+</div></section>
+{% endblock %}

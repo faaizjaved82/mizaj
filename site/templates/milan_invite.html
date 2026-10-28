@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+  <div class="wrap narrow center stack">
+    <span class="eyebrow">Mizaj Milan 💞</span>
+    {% if is_inviter %}
+      <h1>Waiting for your match</h1>
+      <p class="lead muted" style="margin:0 auto">Send this link to them. As soon as they finish the free test, your match appears here.</p>
+      <div class="copy" style="max-width:520px;margin:0 auto"><span data-milan-link>{{ site_url }}/milan/{{ pair.id }}</span><button class="btn btn-sm" data-copy="{{ site_url }}/milan/{{ pair.id }}">Copy</button></div>
+      <a class="btn btn-wa" target="_blank" rel="noopener" href="https://wa.me/?text={{ ('Let\'s see how well we match 💞 Take this free test: ' ~ site_url ~ '/milan/' ~ pair.id)|urlencode }}">Send on WhatsApp</a>
+    {% else %}
+      <h1>{{ inviter_name or "Someone" }} wants to see how well you match</h1>
+      <p class="lead muted" style="margin:0 auto">Take the free 8-minute personality test. Then you'll both see your Mizaj Milan score: where you click, where you clash, and how to handle it.</p>
+      <div class="share-row" style="justify-content:center">
+        <a class="btn btn-pom" data-milan-start="{{ pair.id }}" data-from="{{ inviter_name }}" href="/test/personality/?milan={{ pair.id }}&from={{ inviter_name|urlencode }}">Take the test →</a>
+        <button class="btn btn-ghost hidden" data-milan-join="{{ pair.id }}">Use my existing result</button>
+      </div>
+      <p class="small muted">Free · No sign-up · English or Urdu</p>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

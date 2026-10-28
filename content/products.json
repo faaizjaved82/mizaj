@@ -1,0 +1,95 @@
+{
+  "currency": "PKR",
+  "products": {
+    "full": {
+      "name": "Full Mizaj Report",
+      "short": "Your complete personality and temperament report",
+      "price": 599,
+      "list_price": 1200,
+      "usd": 9,
+      "includes": [
+        "full",
+        "mizaj_full"
+      ],
+      "bullets": [
+        "Your type in depth: inner world, 6 superpowers, 5 blind spots",
+        "Love, marriage and rishta tips for your type",
+        "Family, friendship and how to handle expectations",
+        "10 careers that fit, with the Pakistani route to each",
+        "Your Unani mizaj guide: foods, routine, seasons, 7-day menu",
+        "A 30-day growth plan and a personal letter"
+      ]
+    },
+    "career": {
+      "name": "Career Compass",
+      "short": "For students and parents: streams, degrees and careers that fit",
+      "price": 999,
+      "list_price": 2000,
+      "usd": 14,
+      "includes": [
+        "career"
+      ],
+      "bullets": [
+        "Your 3-letter interest code and personality type, combined",
+        "Matched careers with degree, entry test and outlook in Pakistan",
+        "Which FSc / ICS / I.Com / A-level stream suits you",
+        "Remote and freelance options that need no expensive degree",
+        "A page written for your parents"
+      ]
+    },
+    "couple": {
+      "name": "Mizaj Milan: Couple & Rishta Report",
+      "short": "How two people fit, clash and grow together",
+      "price": 1299,
+      "list_price": 2500,
+      "usd": 15,
+      "includes": [
+        "couple"
+      ],
+      "bullets": [
+        "Compatibility on all four personality dimensions",
+        "Temperament match: food, sleep and home-life harmony",
+        "Where you will clash and exactly how to handle it",
+        "Questions to discuss before nikah",
+        "Unlocks the report for both of you"
+      ]
+    },
+    "palm": {
+      "name": "Full AI Palm Reading",
+      "short": "Every line of your palm, read in detail (for fun)",
+      "price": 299,
+      "list_price": 600,
+      "usd": 5,
+      "includes": [
+        "palm"
+      ],
+      "bullets": [
+        "Heart, head, life and fate lines read in detail",
+        "Mounts and hand shape",
+        "Your palm and your personality type, side by side"
+      ]
+    },
+    "bundle": {
+      "name": "Complete Mizaj Bundle",
+      "short": "Everything: full report, Career Compass, palm reading and one couple report",
+      "price": 1999,
+      "list_price": 6600,
+      "usd": 24,
+      "includes": [
+        "full",
+        "mizaj_full",
+        "career",
+        "palm",
+        "couple"
+      ],
+      "bullets": [
+        "Full Mizaj Report",
+        "Career Compass",
+        "Full AI Palm Reading",
+        "One Mizaj Milan couple report",
+        "Best value: save 70%"
+      ],
+      "badge": "Best value"
+    }
+  }
+}

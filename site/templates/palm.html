@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero"><div class="wrap narrow">
+  <span class="eyebrow">AI palm reading ✋ · for fun</span>
+  <h1>What do your hands say about you?</h1>
+  <p class="lead">Snap a clear photo of your palm. Our AI reads your heart, head, life and fate lines the traditional way and turns them into a playful personality reading.</p>
+  <div class="card stack" style="margin-top:20px" id="palm-form">
+    <ol class="steps"><li>Use your <b>dominant hand</b>, palm open, fingers together.</li><li>Good light, plain background, whole palm in frame.</li><li>Upload. Your photo is read once and deleted, never stored.</li></ol>
+    <div class="field"><label>Which hand?</label><select id="hand"><option value="right">Right hand</option><option value="left">Left hand</option></select></div>
+    <input type="file" id="palm-file" accept="image/*" capture="environment" class="hidden">
+    <button class="btn btn-pom btn-block" data-palm-pick>📷 Take or upload a palm photo</button>
+    <div class="err" data-palm-err></div>
+    <div class="hidden center" data-palm-busy><div class="spinner" style="margin:0 auto 10px;color:var(--ink)"></div><p class="muted">Reading your lines… (about 15 seconds)</p></div>
+  </div>
+  <p class="small muted" style="margin-top:16px">Palm reading is entertainment: a playful mirror, not a prediction. We don't predict health, lifespan, marriage or money. By uploading you confirm it's your own hand.</p>
+</div></section>
+{% endblock %}

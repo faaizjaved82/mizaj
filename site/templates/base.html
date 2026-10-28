@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% block title %}{{ title or "Mizaj · Discover your personality, temperament and match" }}{% endblock %}{% if title %} · Mizaj{% endif %}</title>
+<meta name="description" content="{{ description or 'Free personality test, Unani mizaj (temperament) test, Mizaj Milan couple match and Career Compass for Pakistan. Made in Pakistan, in English and Urdu.' }}">
+{% if canonical %}<link rel="canonical" href="{{ site_url }}{{ canonical }}">{% endif %}
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+<meta name="theme-color" content="#1B1530">
+<meta property="og:site_name" content="Mizaj">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ og_title or title or 'Mizaj · What is your mizaj?' }}">
+<meta property="og:description" content="{{ description or 'Free personality and temperament test made for Pakistan.' }}">
+<meta property="og:image" content="{{ og_image }}">
+{% if canonical %}<meta property="og:url" content="{{ site_url }}{{ canonical }}">{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Manrope:wght@500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css?v={{ v }}">
+{% block head %}{% endblock %}
+{% if umami_id and umami_src %}<script defer src="{{ umami_src }}" data-website-id="{{ umami_id }}"></script>{% endif %}
+{% if meta_pixel_id %}<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{{ meta_pixel_id }}');fbq('track','PageView');</script>{% endif %}
+{% if tiktok_pixel_id %}<script>!function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{};ttq._i[e]=[];ttq._i[e]._u=i;ttq._t=ttq._t||{};ttq._t[e]=+new Date;ttq._o=ttq._o||{};ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript";o.async=!0;o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};ttq.load('{{ tiktok_pixel_id }}');ttq.page();}(window,document,'ttq');</script>{% endif %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+{% block header %}
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Mizaj home"><img src="/img/logo.svg" alt="" width="28" height="28">mizaj <span class="ur">مزاج</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/tests/">Tests</a>
+      <a href="/types/">16 Types</a>
+      <a href="/mizaj/">4 Mizaj</a>
+      <a href="/milan/">Mizaj Milan</a>
+      <a href="/pricing/">Pricing</a>
+      <a href="/schools/">Schools</a>
+    </nav>
+    <a class="btn btn-sm head-cta" href="/test/personality/" data-cta="header">Take the test</a>
+    <details class="menu">
+      <summary aria-label="Menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+      <div class="menu-panel">
+        <a href="/tests/">All tests</a>
+        <a href="/types/">16 Mizaj types</a>
+        <a href="/mizaj/">4 temperaments</a>
+        <a href="/milan/">Mizaj Milan (couples)</a>
+        <a href="/career/">Career Compass</a>
+        <a href="/palm/">AI palm reading</a>
+        <a href="/burj/">Burj (zodiac)</a>
+        <a href="/adad/">Ilm-e-Adad (name number)</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/schools/">For schools</a>
+        <a href="/teams/">For teams</a>
+      </div>
+    </details>
+  </div>
+</header>
+{% endblock %}
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+{% block footer %}
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="/" style="color:#fff"><img src="/img/logo.svg" alt="" width="28" height="28">mizaj <span class="ur">مزاج</span></a>
+        <p style="margin-top:12px">Pakistan's self-discovery platform. Modern personality psychology meets the oldest temperament wisdom in our culture, from Ibn Sina to today.</p>
+        {% if socials %}
+        <div class="socials">
+          {% for k, url in socials.items() %}<a href="{{ url }}" rel="noopener" target="_blank" aria-label="{{ k|capitalize }}">{% include "icons/" ~ k ~ ".svg" ignore missing %}</a>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <div>
+        <h4>Tests</h4>
+        <ul>
+          <li><a href="/test/personality/">Personality test</a></li>
+          <li><a href="/test/mizaj/">Asli Mizaj test</a></li>
+          <li><a href="/career/">Career Compass</a></li>
+          <li><a href="/milan/">Mizaj Milan</a></li>
+          <li><a href="/palm/">AI palm reading</a></li>
+          <li><a href="/burj/">Burj</a> · <a href="/adad/">Ilm-e-Adad</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="/types/">The 16 types</a></li>
+          <li><a href="/mizaj/">The 4 mizaj</a></li>
+          <li><a href="/compatibility/">Type compatibility</a></li>
+          <li><a href="/about/">Our story</a></li>
+          <li><a href="/pricing/">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Mizaj</h4>
+        <ul>
+          <li><a href="/schools/">For schools</a></li>
+          <li><a href="/teams/">For teams</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></li>
+          <li><a href="/refunds/">Refund policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">Mizaj tests are for self-reflection and are not a clinical or medical assessment. Temperament guidance is traditional Unani wellness wisdom, not medical advice. Burj, Ilm-e-Adad and palm reading are for entertainment. Mizaj is independent and not affiliated with the Myers &amp; Briggs Foundation; MBTI® and Myers-Briggs® are its trademarks. © {{ year or 2026 }} Mizaj, Pakistan.</p>
+  </div>
+</footer>
+{% endblock %}
+<script src="/js/app.js?v={{ v }}" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

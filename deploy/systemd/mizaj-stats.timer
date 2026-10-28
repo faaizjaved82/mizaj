@@ -1,0 +1,10 @@
+[Unit]
+Description=Mizaj weekly stats export for the COO (timer)
+
+[Timer]
+OnCalendar=Mon *-*-* 06:10:00 Asia/Karachi
+Persistent=true
+RandomizedDelaySec=60
+
+[Install]
+WantedBy=timers.target

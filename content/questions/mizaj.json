@@ -1,0 +1,672 @@
+{
+  "id": "mizaj",
+  "version": 1,
+  "items": [
+    {
+      "id": "m01",
+      "topic": "body_warmth",
+      "en": "How do your hands and feet usually feel to the touch?",
+      "ur": "چھونے پر آپ کے ہاتھ پاؤں عموماً کیسے محسوس ہوتے ہیں؟",
+      "options": [
+        {
+          "en": "Warm, even in winter",
+          "ur": "گرم، سردیوں میں بھی",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "Normal, neither warm nor cold",
+          "ur": "عام سے، نہ گرم نہ ٹھنڈے",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Cool, and often cold in winter",
+          "ur": "ٹھنڈے، اور سردیوں میں اکثر یخ",
+          "h": -2,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "topic": "season_tolerance",
+      "en": "Which season is harder for you?",
+      "ur": "آپ کے لیے کون سا موسم زیادہ مشکل ہوتا ہے؟",
+      "options": [
+        {
+          "en": "Summer: the heat really drains me",
+          "ur": "گرمیاں: گرمی مجھے بالکل نڈھال کر دیتی ہے",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "Both are fine for me",
+          "ur": "دونوں ٹھیک ہیں، کوئی خاص فرق نہیں پڑتا",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Winter: I feel the cold a lot",
+          "ur": "سردیاں: مجھے ٹھنڈ بہت لگتی ہے",
+          "h": -2,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "topic": "temper",
+      "en": "When something annoys you, how quickly does your anger rise?",
+      "ur": "جب کوئی بات بری لگے تو آپ کو غصہ کتنی جلدی آتا ہے؟",
+      "options": [
+        {
+          "en": "Quickly; I can flare up fast",
+          "ur": "جلدی، غصہ فوراً چڑھ جاتا ہے",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "Sometimes; it depends on the day",
+          "ur": "کبھی کبھی، دن پر منحصر ہے",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Slowly; it takes a lot to make me angry",
+          "ur": "دیر سے، مجھے غصہ دلانا آسان نہیں",
+          "h": -2,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "topic": "body_build",
+      "en": "Which best describes your natural build (not during a diet or gym phase)?",
+      "ur": "آپ کی قدرتی جسامت کیسی ہے؟ (ڈائٹ یا جم کے دنوں کو چھوڑ کر)",
+      "options": [
+        {
+          "en": "Broad and sturdy, with good muscle",
+          "ur": "چوڑی اور مضبوط، اچھے پٹھوں والی",
+          "h": 1,
+          "m": 2
+        },
+        {
+          "en": "Lean and athletic",
+          "ur": "دبلی مگر پھرتیلی اور کسی ہوئی",
+          "h": 1,
+          "m": -2
+        },
+        {
+          "en": "Soft and full",
+          "ur": "نرم اور بھری بھری",
+          "h": -1,
+          "m": 2
+        },
+        {
+          "en": "Slim and light-framed",
+          "ur": "پتلی اور ہلکی ہڈیوں والی",
+          "h": -1,
+          "m": -2
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "topic": "sleep",
+      "en": "How do you usually sleep?",
+      "ur": "آپ کی نیند عموماً کیسی ہوتی ہے؟",
+      "options": [
+        {
+          "en": "Deep and long; I'm hard to wake",
+          "ur": "گہری اور لمبی، مجھے جگانا مشکل ہوتا ہے",
+          "h": -1,
+          "m": 2
+        },
+        {
+          "en": "Good and normal; I wake up fresh",
+          "ur": "اچھی اور معمول کی، صبح تازہ دم آنکھ کھلتی ہے",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Short but enough; I'm up and ready quickly",
+          "ur": "کم مگر کافی، آنکھ کھلتے ہی چستی",
+          "h": 1,
+          "m": -1
+        },
+        {
+          "en": "Light and broken; small sounds wake me",
+          "ur": "ہلکی اور ٹوٹی ٹوٹی، ذرا سی آواز سے آنکھ کھل جاتی ہے",
+          "h": -1,
+          "m": -2
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "topic": "food_temperature",
+      "en": "Given a choice, what do you usually reach for?",
+      "ur": "اختیار ہو تو آپ کا ہاتھ عموماً کس طرف جاتا ہے؟",
+      "options": [
+        {
+          "en": "Cold things: lassi, sherbet, chilled fruit",
+          "ur": "ٹھنڈی چیزیں: لسی، شربت، ٹھنڈے پھل",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "No strong preference",
+          "ur": "کوئی خاص پسند نہیں",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Hot things: chai, soup, warm food, even in summer",
+          "ur": "گرم چیزیں: چائے، سوپ، گرم کھانا، گرمیوں میں بھی",
+          "h": -2,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "topic": "skin_texture",
+      "en": "How does your skin usually feel?",
+      "ur": "آپ کی جلد عموماً کیسی رہتی ہے؟",
+      "options": [
+        {
+          "en": "Soft and smooth, sometimes oily",
+          "ur": "نرم اور ملائم، کبھی کبھی چکنی",
+          "h": 0,
+          "m": 2
+        },
+        {
+          "en": "Normal, not oily or dry",
+          "ur": "عام سی، نہ چکنی نہ خشک",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Dry or rough, especially in winter",
+          "ur": "خشک یا کھردری، خاص طور پر سردیوں میں",
+          "h": 0,
+          "m": -2
+        }
+      ]
+    },
+    {
+      "id": "m08",
+      "topic": "mood",
+      "en": "Which best describes your usual mood?",
+      "ur": "عام طور پر آپ کی طبیعت کیسی رہتی ہے؟",
+      "options": [
+        {
+          "en": "Cheerful and easy-going",
+          "ur": "خوش باش اور ہنس مکھ",
+          "h": 1,
+          "m": 1
+        },
+        {
+          "en": "Driven and full of fire",
+          "ur": "پرجوش اور دھن کی پکی",
+          "h": 1,
+          "m": -1
+        },
+        {
+          "en": "Calm and patient",
+          "ur": "پرسکون اور صبر والی",
+          "h": -1,
+          "m": 1
+        },
+        {
+          "en": "Thoughtful and serious",
+          "ur": "گہری سوچ والی اور سنجیدہ",
+          "h": -1,
+          "m": -1
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "topic": "appetite",
+      "en": "How do you feel when a meal is late?",
+      "ur": "کھانے میں دیر ہو جائے تو آپ کی کیا حالت ہوتی ہے؟",
+      "options": [
+        {
+          "en": "Very hungry and short-tempered until I eat",
+          "ur": "شدید بھوک لگتی ہے اور کھانا ملنے تک چڑچڑاپن رہتا ہے",
+          "h": 2,
+          "m": -1
+        },
+        {
+          "en": "Hungry, but it's no big deal",
+          "ur": "بھوک تو لگتی ہے، مگر کوئی بڑی بات نہیں",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "I barely notice; my appetite is small",
+          "ur": "پتا ہی نہیں چلتا، میری بھوک ویسے ہی کم ہے",
+          "h": -2,
+          "m": 1
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "topic": "pace",
+      "en": "How fast do you usually walk and talk?",
+      "ur": "آپ کے چلنے اور بولنے کی رفتار عموماً کیسی ہوتی ہے؟",
+      "options": [
+        {
+          "en": "Fast; I walk and talk quickly",
+          "ur": "تیز، چلنا بھی تیز اور بولنا بھی",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "Medium",
+          "ur": "درمیانی",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Relaxed and unhurried",
+          "ur": "دھیمی اور آرام سے",
+          "h": -2,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m11",
+      "topic": "hair",
+      "en": "Which best describes your natural hair?",
+      "ur": "آپ کے قدرتی بال کیسے ہیں؟",
+      "options": [
+        {
+          "en": "Thick and fast-growing, with some wave or curl",
+          "ur": "گھنے، جلدی بڑھنے والے، کچھ لہریے یا گھنگریالے",
+          "h": 2,
+          "m": -1
+        },
+        {
+          "en": "Thick, soft and fairly straight",
+          "ur": "گھنے، نرم اور تقریباً سیدھے",
+          "h": 1,
+          "m": 1
+        },
+        {
+          "en": "Fine and soft, slow-growing",
+          "ur": "باریک اور نرم، آہستہ بڑھنے والے",
+          "h": -1,
+          "m": 1
+        },
+        {
+          "en": "Thin and dry, break easily",
+          "ur": "پتلے اور خشک، جلدی ٹوٹنے والے",
+          "h": -2,
+          "m": -1
+        }
+      ]
+    },
+    {
+      "id": "m12",
+      "topic": "learning_memory",
+      "en": "How do you learn and remember new things, like a lesson or a new route?",
+      "ur": "نئی چیز سیکھنے اور یاد رکھنے کا آپ کا انداز کیسا ہے، جیسے کوئی سبق یا نیا راستہ؟",
+      "options": [
+        {
+          "en": "I learn fast, but I forget fast too",
+          "ur": "سیکھنا بھی جلدی، بھولنا بھی جلدی",
+          "h": 0,
+          "m": 2
+        },
+        {
+          "en": "Somewhere in between",
+          "ur": "درمیانہ سا",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "I learn slowly, but then I remember for a long time",
+          "ur": "سیکھنے میں وقت لگتا ہے، مگر پھر بہت دیر تک یاد رہتا ہے",
+          "h": 0,
+          "m": -2
+        }
+      ]
+    },
+    {
+      "id": "m13",
+      "topic": "thirst",
+      "en": "How thirsty do you usually feel?",
+      "ur": "آپ کو پیاس کتنی لگتی ہے؟",
+      "options": [
+        {
+          "en": "Very; I drink a lot of water, even in winter",
+          "ur": "بہت زیادہ، سردیوں میں بھی خوب پانی پینا پڑتا ہے",
+          "h": 1,
+          "m": -2
+        },
+        {
+          "en": "Normal",
+          "ur": "عام سی",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Rarely; I often forget to drink water",
+          "ur": "کم ہی، اکثر پانی پینا یاد ہی نہیں رہتا",
+          "h": -1,
+          "m": 2
+        }
+      ]
+    },
+    {
+      "id": "m14",
+      "topic": "heavy_food",
+      "en": "How do you feel after a heavy, oily meal like nihari or halwa puri?",
+      "ur": "نہاری یا حلوہ پوری جیسا بھاری، چکنائی والا کھانا کھانے کے بعد آپ کو کیسا محسوس ہوتا ہے؟",
+      "options": [
+        {
+          "en": "Fine; I digest it easily",
+          "ur": "ٹھیک ٹھاک، آسانی سے ہضم ہو جاتا ہے",
+          "h": 1,
+          "m": -2
+        },
+        {
+          "en": "A bit heavy, but OK",
+          "ur": "تھوڑا بوجھل پن، مگر خیر ہے",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Heavy and sleepy for hours",
+          "ur": "گھنٹوں بوجھل پن اور سستی چھائی رہتی ہے",
+          "h": -1,
+          "m": 2
+        }
+      ]
+    },
+    {
+      "id": "m15",
+      "topic": "grudges",
+      "en": "After an argument, how long do the bad feelings stay with you?",
+      "ur": "کسی بحث یا جھگڑے کے بعد دل کی ناراضی کتنی دیر رہتی ہے؟",
+      "options": [
+        {
+          "en": "Not long; by the next day it's gone",
+          "ur": "زیادہ دیر نہیں، اگلے دن تک ختم",
+          "h": 0,
+          "m": 2
+        },
+        {
+          "en": "A few days",
+          "ur": "کچھ دن",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "A long time; I remember it clearly",
+          "ur": "کافی عرصہ، بات اچھی طرح یاد رہتی ہے",
+          "h": 0,
+          "m": -2
+        }
+      ]
+    },
+    {
+      "id": "m16",
+      "topic": "sweating",
+      "en": "How much do you sweat compared to people around you?",
+      "ur": "آس پاس کے لوگوں کے مقابلے میں آپ کو پسینہ کتنا آتا ہے؟",
+      "options": [
+        {
+          "en": "A lot, even with light activity",
+          "ur": "بہت، ذرا سی بھاگ دوڑ سے بھی",
+          "h": 2,
+          "m": 1
+        },
+        {
+          "en": "About the same",
+          "ur": "تقریباً اتنا ہی",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Very little, even in summer",
+          "ur": "بہت کم، گرمیوں میں بھی",
+          "h": -2,
+          "m": -1
+        }
+      ]
+    },
+    {
+      "id": "m17",
+      "topic": "dreams",
+      "en": "What kind of dreams do you remember most often?",
+      "ur": "آپ کو اکثر کس طرح کے خواب یاد رہتے ہیں؟",
+      "options": [
+        {
+          "en": "Bright colours, sunshine or fire",
+          "ur": "چمکیلے رنگ، دھوپ یا آگ",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "Water: rain, rivers, snow or swimming",
+          "ur": "پانی: بارش، دریا، برف یا تیراکی",
+          "h": -2,
+          "m": 1
+        },
+        {
+          "en": "Falling, running late or worrying about something",
+          "ur": "گرنا، دیر ہو جانا یا کسی بات کی فکر",
+          "h": 0,
+          "m": -1
+        },
+        {
+          "en": "I rarely remember my dreams",
+          "ur": "خواب مجھے کم ہی یاد رہتے ہیں",
+          "h": 0,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m18",
+      "topic": "digestion",
+      "en": "After a normal meal, how soon do you feel hungry again?",
+      "ur": "عام کھانے کے بعد دوبارہ بھوک کتنی جلدی لگتی ہے؟",
+      "options": [
+        {
+          "en": "Soon; food seems to digest quickly",
+          "ur": "جلدی، کھانا جیسے فوراً ہضم ہو جاتا ہے",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "At the usual time",
+          "ur": "معمول کے وقت پر",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Late; food feels heavy for a long time",
+          "ur": "دیر سے، کھانا کافی دیر تک بھاری لگتا رہتا ہے",
+          "h": -2,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m19",
+      "topic": "energy",
+      "en": "How does your energy usually run through the day?",
+      "ur": "دن بھر آپ کی توانائی عموماً کیسی رہتی ہے؟",
+      "options": [
+        {
+          "en": "High and lively most of the day",
+          "ur": "زیادہ تر دن بھرپور اور زندہ دل",
+          "h": 2,
+          "m": 1
+        },
+        {
+          "en": "Comes in strong bursts, then dips",
+          "ur": "زور دار لہروں میں آتی ہے، پھر ایک دم کم ہو جاتی ہے",
+          "h": 1,
+          "m": -1
+        },
+        {
+          "en": "Slow and steady; I rarely rush",
+          "ur": "آہستہ مگر مستقل، جلد بازی کم ہی ہوتی ہے",
+          "h": -1,
+          "m": 1
+        },
+        {
+          "en": "Low; I tire quickly and need breaks",
+          "ur": "کم، جلدی تھکن ہو جاتی ہے اور وقفے چاہییں",
+          "h": -2,
+          "m": -1
+        }
+      ]
+    },
+    {
+      "id": "m20",
+      "topic": "spicy_food",
+      "en": "How does very spicy food affect you?",
+      "ur": "بہت مرچوں والا کھانا آپ پر کیا اثر کرتا ہے؟",
+      "options": [
+        {
+          "en": "It overheats me; I feel too hot or uneasy afterwards",
+          "ur": "طبیعت میں گرمی چڑھ جاتی ہے، بعد میں بے چینی سی ہوتی ہے",
+          "h": 2,
+          "m": 0
+        },
+        {
+          "en": "Fine in normal amounts",
+          "ur": "مناسب مقدار میں کوئی مسئلہ نہیں",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "I love it; spice warms me up and lifts my mood",
+          "ur": "بہت پسند ہے، مرچیں جسم کو گرماہٹ اور طبیعت کو تازگی دیتی ہیں",
+          "h": -2,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "m21",
+      "topic": "stress",
+      "en": "When you are under a lot of stress, what do you tend to do?",
+      "ur": "جب بہت دباؤ ہو تو آپ کا ردِعمل عموماً کیا ہوتا ہے؟",
+      "options": [
+        {
+          "en": "Talk it out with people and stay hopeful",
+          "ur": "لوگوں سے بات کر کے دل ہلکا کرنا اور امید رکھنا",
+          "h": 1,
+          "m": 1
+        },
+        {
+          "en": "Take charge and push even harder",
+          "ur": "معاملہ اپنے ہاتھ میں لینا اور مزید زور لگانا",
+          "h": 1,
+          "m": -1
+        },
+        {
+          "en": "Slow down, rest and let it pass",
+          "ur": "رفتار دھیمی کرنا، آرام کرنا اور وقت گزرنے دینا",
+          "h": -1,
+          "m": 1
+        },
+        {
+          "en": "Go quiet and think it over again and again",
+          "ur": "خاموش ہو جانا اور بار بار سوچتے رہنا",
+          "h": -1,
+          "m": -1
+        }
+      ]
+    },
+    {
+      "id": "m22",
+      "topic": "weight",
+      "en": "How easily do you gain weight?",
+      "ur": "آپ کا وزن کتنی آسانی سے بڑھتا ہے؟",
+      "options": [
+        {
+          "en": "Very easily, even when I eat normally",
+          "ur": "بہت آسانی سے، عام کھانے سے بھی",
+          "h": -1,
+          "m": 2
+        },
+        {
+          "en": "Somewhere in the middle",
+          "ur": "درمیانہ",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "With difficulty; I stay slim whatever I eat",
+          "ur": "مشکل سے، جو بھی کھاؤں وزن کم ہی رہتا ہے",
+          "h": 1,
+          "m": -2
+        }
+      ]
+    },
+    {
+      "id": "m23",
+      "topic": "time_of_day",
+      "en": "When do you usually feel most energetic?",
+      "ur": "دن کے کس حصے میں آپ کی چستی سب سے زیادہ ہوتی ہے؟",
+      "options": [
+        {
+          "en": "Early morning; I'm up and running quickly",
+          "ur": "صبح سویرے، اٹھتے ہی کام شروع",
+          "h": 1,
+          "m": -1
+        },
+        {
+          "en": "About the same all day",
+          "ur": "سارا دن تقریباً ایک جیسی",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Evening and night; mornings are slow for me",
+          "ur": "شام اور رات، صبح کا آغاز دھیما ہوتا ہے",
+          "h": -1,
+          "m": 1
+        }
+      ]
+    },
+    {
+      "id": "m24",
+      "topic": "weather_humidity",
+      "en": "Which kind of weather bothers you more?",
+      "ur": "کس طرح کا موسم آپ کو زیادہ پریشان کرتا ہے؟",
+      "options": [
+        {
+          "en": "Humid, sticky monsoon days",
+          "ur": "مرطوب، چپچپے ساون کے دن",
+          "h": 0,
+          "m": 2
+        },
+        {
+          "en": "Neither bothers me much",
+          "ur": "کوئی خاص نہیں",
+          "h": 0,
+          "m": 0
+        },
+        {
+          "en": "Dry, dusty days that dry out my skin and lips",
+          "ur": "خشک، گرد آلود دن جن میں جلد اور ہونٹ خشک ہو جائیں",
+          "h": 0,
+          "m": -2
+        }
+      ]
+    }
+  ]
+}

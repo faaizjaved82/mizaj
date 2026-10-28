@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mizaj">
+  <path d="M32 32V2A30 30 0 0 0 2 32Z" fill="#D2544A"/>
+  <path d="M32 32V2a30 30 0 0 1 30 30Z" fill="#E39B2D"/>
+  <path d="M32 32H2a30 30 0 0 0 30 30Z" fill="#2E8A8A"/>
+  <path d="M32 32h30a30 30 0 0 1-30 30Z" fill="#5A4A78"/>
+  <g fill="#FBF6EE">
+    <rect x="21" y="21" width="22" height="22" rx="1.5"/>
+    <rect x="21" y="21" width="22" height="22" rx="1.5" transform="rotate(45 32 32)"/>
+  </g>
+  <circle cx="32" cy="32" r="4.2" fill="#1B1530"/>
+</svg>

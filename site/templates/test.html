@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block body_class %}quiz-page{% endblock %}
+{% block main %}
+<div class="wrap narrow quiz" id="quiz" data-test="{{ test.id }}" data-src="/data/q/{{ test.id }}.json">
+  <section class="quiz-intro q-card" data-step="intro">
+    <div class="notice hidden" data-milan-banner>💞 <b data-milan-from>Someone</b> invited you to <b>Mizaj Milan</b>. Take this test and you'll both see how well you match.</div>
+    <span class="eyebrow" style="margin-top:20px">{{ test.eyebrow }}</span>
+    <h1 style="font-size:clamp(1.9rem,6vw,2.8rem)">{{ test.title }}</h1>
+    <p class="lead muted">{{ test.lead }}</p>
+    <ul class="list-check" style="margin:8px 0 24px">
+      {% for b in test.bullets %}<li>{{ b }}</li>{% endfor %}
+    </ul>
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+      <button class="btn btn-pom" data-begin>Begin →</button>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button class="on" data-lang="en">English</button><button data-lang="ur" class="ur" style="line-height:1.4">اردو</button>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:16px">{{ test.note }}</p>
+  </section>
+
+  <section class="hidden" data-step="questions">
+    <div class="quiz-top">
+      <div class="progress"><i data-bar></i></div>
+      <div class="quiz-meta"><span data-count>1 / {{ test.count }}</span>
+        <div class="lang-toggle" role="group" aria-label="Language"><button class="on" data-lang="en">EN</button><button data-lang="ur">اردو</button></div>
+      </div>
+    </div>
+    <div class="q-card">
+      <div class="q-text" data-qtext aria-live="polite"></div>
+      <div data-answers></div>
+    </div>
+    <div class="quiz-nav">
+      <button class="btn btn-ghost btn-sm" data-back>← Back</button>
+      <span class="small muted" style="align-self:center" data-hint>Go with your first instinct.</span>
+    </div>
+  </section>
+
+  <section class="hidden quiz-end q-card" data-step="end">
+    <span class="eyebrow">Done! 🎉</span>
+    <h2>One last thing</h2>
+    <p class="muted">What should we call you on your result card? (Optional, first name is fine.)</p>
+    <div class="field"><label for="qname">Your name</label><input id="qname" maxlength="40" autocomplete="given-name" placeholder="e.g. Ayesha"></div>
+    <div class="err" data-err></div>
+    <button class="btn btn-pom btn-block" data-submit>See my result →</button>
+    <p class="small muted center" style="margin-top:12px">By continuing you agree to our <a href="/terms/">terms</a> and <a href="/privacy/">privacy policy</a>.</p>
+  </section>
+</div>
+{% endblock %}
+{% block footer %}{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="section"><div class="wrap narrow report">
+  <span class="eyebrow">Legal</span><h1>{{ heading }}</h1>
+  <p class="muted small">Last updated {{ updated }}</p>
+  {% for h, body in sections %}<h3>{{ h }}</h3>{{ body|paras }}{% endfor %}
+</div></section>
+{% endblock %}

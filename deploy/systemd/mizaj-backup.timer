@@ -1,0 +1,10 @@
+[Unit]
+Description=Mizaj database backup (timer)
+
+[Timer]
+OnCalendar=*-*-* 03:30:00 Asia/Karachi
+Persistent=true
+RandomizedDelaySec=60
+
+[Install]
+WantedBy=timers.target
