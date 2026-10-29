@@ -21,6 +21,15 @@ def _bool(name: str, default: bool = False) -> bool:
     return default if not v else v.lower() in ("1", "true", "yes", "on")
 
 
+def _float(name: str, default: float) -> float:
+    """A positive number from the environment; empty or invalid falls back to the default."""
+    try:
+        v = float(_env(name) or default)
+    except ValueError:
+        return default
+    return v if v > 0 else default
+
+
 def _load_dotenv() -> None:
     """Minimal .env loader (no dependency). Real env vars win."""
     path = Path(_env("MIZAJ_ENV_FILE") or REPO_DIR / ".env")
@@ -82,6 +91,10 @@ class Settings:
     safepay_api_key: str = field(default_factory=lambda: _env("SAFEPAY_API_KEY"))
     safepay_secret_key: str = field(default_factory=lambda: _env("SAFEPAY_SECRET_KEY"))
     safepay_webhook_secret: str = field(default_factory=lambda: _env("SAFEPAY_WEBHOOK_SECRET"))
+
+    # Regional pricing: buyers outside Pakistan pay the product's USD price, which Safepay charges
+    # in PKR at this rate (rounded up to the nearest 10 rupees). Buyers in Pakistan pay the PKR price.
+    usd_pkr_rate: float = field(default_factory=lambda: _float("USD_PKR_RATE", 280.0))
 
     # International cards (diaspora) via Lemon Squeezy hosted checkout links. Missing = hidden.
     lemonsqueezy_webhook_secret: str = field(default_factory=lambda: _env("LEMONSQUEEZY_WEBHOOK_SECRET"))

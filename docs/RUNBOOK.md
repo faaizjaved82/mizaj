@@ -51,6 +51,12 @@ merchant account). Visitors outside Pakistan see USD prices; with regional prici
 USD price × `USD_PKR_RATE` (default 280), charged in PKR, and only the card option is shown. Lemon Squeezy code is
 still in the app but dormant (it can't pay out to Pakistan); Gumroad was dropped.
 
+**Regional prices:** buyers in Pakistan (Pakistan time zone, or "PKR" picked in the footer) pay the PKR price and
+see every payment method. Everyone else pays the USD price from `content/products.json`, charged by Safepay in PKR
+at `USD_PKR_RATE` (default 280, rounded up to the nearest 10 rupees; $9 = PKR 2,520), and sees the card option only.
+Orders always store the PKR amount charged plus `region` (`pk` / `intl`). Update `USD_PKR_RATE` in `.env` when the
+rupee moves a lot, then `systemctl restart mizaj-api`; open orders keep the amount they were created with.
+
 **Phase 2 subscriptions:** not built. Design in `docs/PLAN.md` §3 (task T43); needs a recurring-payments provider.
 
 **Refunds:** refund to the account the buyer paid from, then in `/admin` reject the order (locks the report).

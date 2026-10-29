@@ -42,6 +42,7 @@ CREATE TABLE IF NOT EXISTS orders (
   status TEXT NOT NULL,             -- created | proof | paid | rejected | refunded
   tid TEXT, sender TEXT, coupon TEXT, gateway_ref TEXT, note TEXT,
   email TEXT, phone TEXT,
+  region TEXT,                      -- pk | intl (NULL = pk: orders from before regional pricing)
   created_at REAL NOT NULL, updated_at REAL NOT NULL, paid_at REAL
 );
 CREATE INDEX IF NOT EXISTS orders_status ON orders(status);
@@ -74,6 +75,26 @@ CREATE INDEX IF NOT EXISTS events_ts ON events(ts, name);
 CREATE TABLE IF NOT EXISTS kv (k TEXT PRIMARY KEY, v TEXT NOT NULL);
 """
 
+# Columns added after launch: (table, column, type). SCHEMA above already has them for new databases;
+# an existing database gets each missing one on startup. Nullable with no default, so SQLite adds it
+# instantly and existing rows read NULL. Append here; never rename or drop.
+ADDED_COLUMNS = [
+    ("orders", "region", "TEXT"),
+]
+
+
+def _add_missing_columns(conn: sqlite3.Connection) -> None:
+    for table, column, decl in ADDED_COLUMNS:
+        have = {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
+        if column in have:
+            continue
+        try:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {decl}")
+        except sqlite3.OperationalError as e:  # another worker added it first
+            if "duplicate column" not in str(e).lower():
+                raise
+
+
 _local = threading.local()
 _init_lock = threading.Lock()
 _initialised = False
@@ -94,6 +115,7 @@ def connect() -> sqlite3.Connection:
         with _init_lock:
             if not _initialised:
                 conn.executescript(SCHEMA)
+                _add_missing_columns(conn)
                 _initialised = True
     return conn
 

@@ -7,6 +7,9 @@ gets a Telegram message with an Approve button; one tap unlocks the report.
 Gateway flow (once a merchant account is approved): Safepay hosted checkout for
 cards and wallets, and Lemon Squeezy hosted checkout for diaspora cards in USD.
 Both mark the order paid automatically.
+
+Prices are regional: buyers in Pakistan pay the PKR price, everyone else the USD price
+converted to PKR (see "regional prices" below). Amounts are always stored in PKR.
 """
 from __future__ import annotations
 
@@ -30,31 +33,69 @@ class PaymentError(ValueError):
     pass
 
 
-def price_for(product: str, coupon: str | None) -> tuple[int, str | None]:
+# ---------- regional prices ----------
+# Buyers in Pakistan ("pk") pay the PKR price; everyone else ("intl") pays the USD price, which is
+# charged in PKR (Safepay settles in rupees) at settings.usd_pkr_rate, rounded up to the nearest 10.
+# The browser says which region it is in; old clients send nothing and get "pk".
+
+def region_of(value: object) -> str:
+    return "intl" if str(value or "").strip().lower() == "intl" else "pk"
+
+
+def usd_to_pkr(usd: float, rate: float | None = None) -> int:
+    pkr = round(usd * (rate or settings.usd_pkr_rate))
+    return -(-pkr // 10) * 10
+
+
+def base_price(product: str, region: str = "pk") -> int:
     p = content.product(product)
-    amount, used = p["price"], None
-    if coupon:
-        row = db.q1("SELECT * FROM codes WHERE code = ? AND kind = 'discount' AND uses_left > 0", coupon.upper())
-        if row and (row["product"] in (product, "*")) and not _expired(row):
-            amount = max(0, round(amount * (100 - row["discount_pct"]) / 100))
-            used = row["code"]
+    return usd_to_pkr(p["usd"]) if region_of(region) == "intl" else p["price"]
+
+
+def _discount(product: str, coupon: str | None):
+    """The usable discount-code row for this product, or None."""
+    if not coupon:
+        return None
+    row = db.q1("SELECT * FROM codes WHERE code = ? AND kind = 'discount' AND uses_left > 0", coupon.upper())
+    return row if row and row["product"] in (product, "*") and not _expired(row) else None
+
+
+def price_for(product: str, coupon: str | None, region: str = "pk") -> tuple[int, str | None]:
+    amount, used = base_price(product, region), None
+    row = _discount(product, coupon)
+    if row:
+        amount = max(0, round(amount * (100 - row["discount_pct"]) / 100))
+        used = row["code"]
     return amount, used
+
+
+def usd_price(order: dict) -> float:
+    """The USD price shown on an international order: the product's USD price less the order's discount code."""
+    usd = content.product(order["product"])["usd"]
+    if order.get("coupon"):
+        row = db.q1("SELECT discount_pct FROM codes WHERE code = ? AND kind = 'discount'", order["coupon"])
+        if row:
+            usd = usd * (100 - row["discount_pct"]) / 100
+    return usd
 
 
 def _expired(row) -> bool:
     return bool(row["expires_at"] and row["expires_at"] < db.now())
 
 
-def create_order(profile_id: str, product: str, pair_id: str | None = None, coupon: str | None = None) -> dict:
+def create_order(profile_id: str, product: str, pair_id: str | None = None, coupon: str | None = None,
+                 region: str | None = "pk") -> dict:
     content.product(product)  # validates
     if product == "couple" and not pair_id:
         raise PaymentError("A couple report needs a completed Mizaj Milan pair.")
-    amount, used = price_for(product, coupon)
+    region = region_of(region)
+    amount, used = price_for(product, coupon, region)
     oid = db.new_id(12)
     t = db.now()
-    db.run("""INSERT INTO orders (id, profile_id, pair_id, product, amount, currency, status, coupon, created_at, updated_at)
-              VALUES (?,?,?,?,?,?,?,?,?,?)""", oid, profile_id, pair_id, product, amount, "PKR", "created", used, t, t)
-    db.log_event("order_created", profile_id, props={"product": product, "amount": amount})
+    db.run("""INSERT INTO orders (id, profile_id, pair_id, product, amount, currency, status, coupon, region,
+              created_at, updated_at) VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+           oid, profile_id, pair_id, product, amount, "PKR", "created", used, region, t, t)
+    db.log_event("order_created", profile_id, props={"product": product, "amount": amount, "region": region})
     return dict(db.q1("SELECT * FROM orders WHERE id = ?", oid))
 
 

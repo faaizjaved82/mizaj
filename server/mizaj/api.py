@@ -236,10 +236,11 @@ async def new_order(request: Request):
         if not pair or prof["id"] not in (pair["a_profile"], pair["b_profile"]) or not pair["b_profile"]:
             raise HTTPException(400, "That Mizaj Milan pair isn't complete yet.")
     try:
-        order = payments.create_order(prof["id"], product, pair_id, _clip(body.get("coupon"), 30) or None)
+        order = payments.create_order(prof["id"], product, pair_id, _clip(body.get("coupon"), 30) or None,
+                                      region=_clip(body.get("region"), 8))
     except (KeyError, payments.PaymentError) as e:
         raise HTTPException(400, str(e) if isinstance(e, payments.PaymentError) else "Unknown product.") from e
-    return {"order_id": order["id"], "url": f"/order/{order['id']}", "amount": order["amount"]}
+    return {"order_id": order["id"], "url": f"/order/{order['id']}", "amount": order["amount"], "region": order["region"]}
 
 
 @app.post("/api/orders/{oid}/proof")
@@ -273,7 +274,9 @@ def order_safepay(oid: str):
         raise HTTPException(400, str(e)) from e
     except Exception as e:  # gateway errors must not leak details
         log.exception("safepay init failed")
-        raise HTTPException(502, "Card checkout is not responding. Please use Raast, JazzCash or Easypaisa.") from e
+        other = ("try again in a few minutes or message us on WhatsApp" if order.get("region") == "intl"
+                 else "use Raast, JazzCash or Easypaisa")
+        raise HTTPException(502, f"Card checkout is not responding. Please {other}.") from e
 
 
 @app.post("/api/redeem")
@@ -468,9 +471,12 @@ def order_page(oid: str, request: Request):
     if not is_owner(request, order["profile_id"]):
         raise HTTPException(403, "Please open this page on the phone where you took the test.")
     prof = db.get_profile(order["profile_id"])
-    db.log_event("checkout_view", order["profile_id"], props={"product": order["product"]})
+    intl = order.get("region") == "intl"
+    db.log_event("checkout_view", order["profile_id"], props={"product": order["product"], "region": order.get("region") or "pk"})
+    # Raast / wallets / bank transfer only work from Pakistan: international orders get the card option only.
     return page(render("order.html", order=order, product=content.product(order["product"]), profile=dict(prof),
-                       methods=settings.manual_methods(), card=settings.has_safepay,
+                       intl=intl, usd=payments.usd_price(order) if intl else None,
+                       methods=[] if intl else settings.manual_methods(), card=settings.has_safepay,
                        usd_link=payments.lemonsqueezy_url(order), title="Checkout", noindex=True,
                        request_card_failed=request.query_params.get("card") == "failed"))
 

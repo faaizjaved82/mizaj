@@ -214,9 +214,11 @@
   }
   $$("[data-buy]").forEach((b) => b.addEventListener("click", async () => {
     const ctx = ownerCtx(b);
+    // Same rule as the prices on screen (html.pk, set in base.html): PKR price in Pakistan, USD price elsewhere.
+    const region = document.documentElement.classList.contains("pk") ? "pk" : "intl";
     busy(b, true);
     try {
-      const res = await api("/api/orders", { profile_id: ctx.pid, key: ctx.key, product: b.dataset.buy, pair_id: b.dataset.pair || null });
+      const res = await api("/api/orders", { profile_id: ctx.pid, key: ctx.key, product: b.dataset.buy, pair_id: b.dataset.pair || null, region });
       track("checkout_view", { product: b.dataset.buy });
       location.href = res.url;
     } catch (e) { toast(e.message); busy(b, false); }

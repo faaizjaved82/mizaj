@@ -10,7 +10,7 @@ from markupsafe import Markup
 from . import content, deck
 from .config import settings
 
-ASSET_VERSION = "2"
+ASSET_VERSION = "3"
 
 
 def _paras(text: str | None) -> Markup:
@@ -25,13 +25,21 @@ def _pkr(n: int | float | None) -> str:
     return f"PKR {int(n or 0):,}"
 
 
-def money(p: dict, field: str = "price") -> Markup:
-    """A price in both currencies; CSS shows PKR to visitors in Pakistan and USD to everyone else."""
+def _usd(n: int | float | None) -> str:
+    n = float(n or 0)
+    return f"${int(n):,}" if n.is_integer() else f"${n:,.2f}"
+
+
+def money(p: dict, field: str = "price", only: str | None = None) -> Markup:
+    """A price in both currencies; CSS shows PKR to visitors in Pakistan and USD to everyone else.
+    only="usd" prints just the dollar price (an international order, whatever the currency toggle says)."""
     pkr = p.get(field) or 0
     if field == "list_price":
         usd = round(p.get("usd", 0) * (p.get("list_price", 0) / max(p.get("price", 1), 1)))
     else:
         usd = p.get("usd", 0)
+    if only == "usd":
+        return Markup(_usd(usd))
     return Markup(f'<span class="cur-usd">${usd:,}</span><span class="cur-pkr">PKR {int(pkr):,}</span>')
 
 
@@ -68,6 +76,7 @@ def env() -> Environment:
                     autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
     e.filters["paras"] = _paras
     e.filters["pkr"] = _pkr
+    e.filters["usd"] = _usd
     e.filters["tojson_safe"] = _tojson
     e.globals.update(
         site_url=settings.site_url, v=ASSET_VERSION, families=content.FAMILIES, dimensions=content.DIMENSIONS,

@@ -24,7 +24,8 @@ async function takeTest(page, test, pick) {
 (async () => {
   const browser = await chromium.launch();
   const phone = devices["iPhone 13"];
-  const ctx = await browser.newContext({ ...phone });
+  // Pakistan time zone: the buyer gets PKR prices and the manual Raast/JazzCash flow tested below.
+  const ctx = await browser.newContext({ ...phone, timezoneId: "Asia/Karachi" });
   const page = await ctx.newPage();
   page.on("console", (m) => { if (m.type() === "error" && !/fonts\.g|favicon|apple-touch|Failed to load resource/.test(m.text())) errors.push(m.text()); });
   page.on("pageerror", (e) => errors.push(String(e)));
