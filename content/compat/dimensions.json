@@ -1,11 +1,11 @@
 {
-  "intro": "This report reads your relationship through the four letter pairs behind the 16 Mizaj types: Energy (Mehfil or Khalwat), Perception (Haqiqat or Khayal), Decisions (Dimagh or Dil) and Lifestyle (Nizam or Azad). For each, you'll see whether you share a preference or bring different ones. Shared letters usually mean easy understanding; different letters usually mean growth, and sometimes friction. Neither is good or bad. Each section gives a score, what connects you, where you might clash, practical tips and questions worth talking through before marriage, whether your families introduced you or you found each other another way. Read it together, ideally over chai rather than mid-argument. Treat it as a mirror, not a verdict: your values, faith, families and effort will shape your marriage far more than four letters.",
+  "intro": "This report reads your relationship through the four letter pairs behind the 16 Mizaj types: Energy (Extravert or Introvert), Perception (Sensing or Intuition), Decisions (Thinking or Feeling) and Lifestyle (Judging or Perceiving). For each, you'll see whether you share a preference or bring different ones. Shared letters usually mean easy understanding; different letters usually mean growth, and sometimes friction. Neither is good or bad. Each section gives a score, what connects you, where you might clash and practical tips, whether you are a couple, close friends, siblings, colleagues or a parent and child. Couples also get questions worth talking through before marriage. Read it together, ideally over a cup of tea or coffee rather than mid-argument. Treat it as a mirror, not a verdict: your values, history and effort will shape your relationship far more than four letters.",
   "EI": {
     "EE": {
       "score": 80,
       "headline": "Two social batteries, one very busy calendar.",
-      "connect": "Two Mehfil types draw energy from people, so neither of you will feel your spouse is holding you back. Weekend dinner parties, cousins dropping by unannounced and long family group-chat threads feel like fun, not pressure. You talk things out quickly and openly, which stops problems from festering. Friends and relatives will likely see you as the lively couple who makes every gathering better, and you'll enjoy building a wide shared circle together over the years, in whichever city or country you end up.",
-      "friction": "With no natural brakes, life gets overbooked. Picture it: a mehndi on Thursday, a cousin's reception on Saturday, a family lunch on Sunday, and neither of you said no to anything. By Monday you are both exhausted and snapping over who forgot to pick up the outfits from the tailor. Because you both process out loud, arguments can also turn into two speeches delivered at the same time, with neither of you actually listening to the other.",
+      "connect": "Two Extraverts draw energy from people, so neither of you will feel the other is holding you back. Weekend dinner parties, friends dropping by unannounced and long group-chat threads feel like fun, not pressure. You talk things out quickly and openly, which stops problems from festering. Family, friends and colleagues will likely see you as the lively pair who makes every gathering better, whether you're a couple, siblings or desk neighbours, and you'll enjoy building a wide shared circle over the years, wherever life takes you.",
+      "friction": "With no natural brakes, life gets overbooked. Picture it: a colleague's leaving drinks on Thursday, a cousin's wedding on Saturday, a family lunch on Sunday, and neither of you said no to anything. By Monday you are both exhausted and snapping over who forgot to buy the gift. Because you both process out loud, arguments can also turn into two speeches delivered at the same time, with neither of you actually listening to the other.",
       "tips": [
         "Keep at least one evening a week completely free of plans.",
         "In disagreements, take turns: one speaks fully, then the other.",
@@ -20,12 +20,12 @@
     "II": {
       "score": 78,
       "headline": "A quiet home where silence feels comfortable.",
-      "connect": "Two Khalwat types understand the need to recharge alone, so you won't take each other's quiet evenings personally. You'll likely prefer a few close friends to big gatherings, and deep conversation to small talk. Home becomes a genuine refuge, a place where you can both switch off after a long day of work, classes or the commute. Many Khalwat couples build a calm, thoughtful bond grounded in mutual respect for each other's space and inner world.",
-      "friction": "The risk is withdrawal. When something bothers you, both of you may go quiet and wait for the other to raise it, so issues sit unspoken for weeks. Family life adds pressure too: when relatives expect you at every dance practice, birthday and festival lunch, you both feel drained, yet neither wants to be the one who declines. Over time your social circle can shrink, and even a loving marriage can start to feel a little lonely.",
+      "connect": "Two Introverts understand the need to recharge alone, so you won't take each other's quiet evenings personally. You'll likely prefer a few close friends to big gatherings, and deep conversation to small talk. Time together becomes a genuine refuge, where you can both switch off after a long day of work, classes or the commute. Many Introvert pairs, from married couples to lifelong friends, build a calm, thoughtful bond grounded in respect for each other's space and inner world.",
+      "friction": "The risk is withdrawal. When something bothers you, both of you may go quiet and wait for the other to raise it, so issues sit unspoken for weeks. Social life adds pressure too: when relatives or colleagues expect you at every party, birthday and holiday lunch, you both feel drained, yet neither wants to be the one who declines. Over time your social circle can shrink, and even a loving relationship can start to feel a little lonely.",
       "tips": [
         "Schedule a weekly check-in so feelings don't stay unspoken.",
-        "Agree together which family events are essential and which are optional.",
-        "Protect a few close friendships as a couple, even when it takes effort."
+        "Agree together which family or work events are essential and which are optional.",
+        "Protect a few close friendships beyond the two of you, even when it takes effort."
       ],
       "talk_before_marriage": [
         "How much alone time do we each need after a busy day?",
@@ -35,13 +35,13 @@
     },
     "EI": {
       "score": 72,
-      "headline": "One recharges in the mehfil, one in khalwat.",
-      "connect": "This classic pairing balances itself. The Mehfil partner brings social energy, opens doors and keeps the couple connected to family and friends. The Khalwat partner brings depth, reflection and a calm home base. Each can gently stretch the other: the outgoing one helps the quieter one enjoy people, and the quieter one teaches the outgoing one the value of rest. Many happy, long-lasting marriages are built on exactly this mix of noise and stillness.",
-      "friction": "Energy needs clash after busy days. The Mehfil partner comes home from work wanting to talk through everything, while the Khalwat partner needs an hour of silence first. At a family wedding, one wants to stay until the last plate of kheer is served, while the other is quietly counting the minutes until they can leave. If this stays unspoken, it hardens into 'you're always so cold' versus 'you never let me breathe'.",
+      "headline": "One recharges in a crowd, one in quiet.",
+      "connect": "This classic pairing balances itself. The Extravert brings social energy, opens doors and keeps the two of you connected to family and friends. The Introvert brings depth, reflection and a calm home base. Each can gently stretch the other: the outgoing one helps the quieter one enjoy people, and the quieter one teaches the outgoing one the value of rest. Many happy, long-lasting marriages, friendships and parent-child bonds are built on exactly this mix of noise and stillness.",
+      "friction": "Energy needs clash after busy days. The Extravert comes home from work or school wanting to talk through everything, while the Introvert needs an hour of silence first. At a family wedding, one wants to stay until the last song, while the other is quietly counting the minutes until they can leave. If this stays unspoken, it hardens into 'you're always so cold' versus 'you never let me breathe'.",
       "tips": [
         "Agree on recharge time after work before any deep conversation.",
         "At gatherings, settle arrival and leaving times in advance.",
-        "Mehfil partner: share some of your news with friends, not only your spouse."
+        "Extravert: share your news with your wider circle too, so one quiet person isn't your only audience."
       ],
       "talk_before_marriage": [
         "What does a perfect weekend look like for each of us?",
@@ -54,8 +54,8 @@
     "SS": {
       "score": 82,
       "headline": "Practical, grounded and focused on real life.",
-      "connect": "Two Haqiqat types live in the real world. You both pay attention to facts, details and what actually works, so household decisions about budgets, groceries, school applications and home repairs feel straightforward. You understand each other's practical way of showing love: fixing the leaking tap, remembering the doctor's appointment, packing the lunch. Communication tends to be clear and concrete, and you may share a fondness for routines and family traditions that give life a reassuring rhythm.",
-      "friction": "The risk is getting stuck in routine. With both partners focused on today's tasks, nobody may be dreaming about where the family is heading in five or ten years. Life can become a loop of bills, school runs and Sunday lunch at the in-laws, with no fresh plans at all. You may also dismiss new ideas, like moving cities, changing countries or starting a side business, before really exploring them, simply because the old way feels safer.",
+      "connect": "Two Sensing types live in the real world. You both pay attention to facts, details and what actually works, so shared decisions about budgets, groceries, school applications, home repairs or a project at work feel straightforward. You understand each other's practical way of showing care: fixing the leaking tap, remembering the doctor's appointment, packing the lunch. Communication tends to be clear and concrete, and you may share a fondness for routines and traditions that give life a reassuring rhythm.",
+      "friction": "The risk is getting stuck in routine. With both of you focused on today's tasks, nobody may be dreaming about where you're heading in five or ten years. Life can become a loop of bills, school runs and the same Sunday lunch, with no fresh plans at all. You may also dismiss new ideas, like moving cities, changing countries or starting a side business, before really exploring them, simply because the old way feels safer.",
       "tips": [
         "Set aside time each year to talk about long-term dreams and goals.",
         "Try one genuinely new experience together every month.",
@@ -63,15 +63,15 @@
       ],
       "talk_before_marriage": [
         "Where does each of us see our life in ten years?",
-        "How do we feel about big changes, like moving cities, countries or back home?",
+        "How do we feel about big changes, like moving to another city or country?",
         "Which family traditions matter most to each of us?"
       ]
     },
     "NN": {
       "score": 80,
       "headline": "Two dreamers building castles, ideally with foundations.",
-      "connect": "Two Khayal types connect through ideas, possibilities and meaning. Your conversations can travel from career plans to philosophy to where the world is heading over a single cup of chai. You understand each other's imagination and won't dismiss each other's big dreams as unrealistic. Together you are likely to try new things, explore unusual paths and keep growing intellectually side by side, which keeps a marriage interesting long after the wedding photos have faded.",
-      "friction": "Day-to-day practicalities slip through the cracks. The electricity bill is paid late, the car service is overdue, and nobody remembers the cousin's birthday dinner until the family group chat sends a pointed reminder. If you live with or near family, elders may start to see you both as forgetful or impractical. You may also launch many projects together, from a side hustle to a renovation, without finishing them, which slowly breeds frustration and blame.",
+      "connect": "Two Intuitive types connect through ideas, possibilities and meaning. Your conversations can travel from career plans to philosophy to where the world is heading over a single cup of coffee. You understand each other's imagination and won't dismiss each other's big dreams as unrealistic. Together you are likely to try new things, explore unusual paths and keep growing side by side, which keeps a marriage or a friendship interesting long after the photos have faded.",
+      "friction": "Day-to-day practicalities slip through the cracks. The electricity bill is paid late, the car service is overdue, and nobody remembers a cousin's birthday dinner until the family group chat sends a pointed reminder. If you live with family or share a team at work, others may start to see you both as forgetful or impractical. You may also launch many projects together, from a side business to a renovation, without finishing them, which slowly breeds frustration and blame.",
       "tips": [
         "Use a shared calendar with reminders for bills and family events.",
         "Pick one big idea at a time and finish it before starting the next.",
@@ -86,11 +86,11 @@
     "SN": {
       "score": 66,
       "headline": "One sees what is, one sees what could be.",
-      "connect": "This pairing combines practical sense with vision. The Haqiqat partner notices details, handles logistics and keeps the family grounded. The Khayal partner sees possibilities, imagines the future and brings fresh ideas. Together you can both dream and deliver: the Khayal partner sketches the plan for a home bakery, and the Haqiqat partner works out costs, permits and timelines. When each respects the other's strength, you become a remarkably complete team.",
-      "friction": "You can talk past each other. The Khayal partner wants to discuss where your life is going, while the Haqiqat partner wants to settle which school the children will join next year. When the Khayal partner floats moving to Dubai, Toronto or back home, the Haqiqat partner asks for numbers and a plan, which can feel like rejection. In turn, the Haqiqat partner may feel their real concerns are brushed aside as boring.",
+      "connect": "This pairing combines practical sense with vision. The Sensing person notices details, handles logistics and keeps everyone grounded. The Intuitive person sees possibilities, imagines the future and brings fresh ideas. Together you can both dream and deliver: the Intuitive one sketches the plan for a home bakery, and the Sensing one works out costs, permits and timelines. When each respects the other's strength, you become a remarkably complete team, at home or at work.",
+      "friction": "You can talk past each other. The Intuitive one wants to discuss where life is going, while the Sensing one wants to settle which school the children will join next year. When the Intuitive one floats moving to Lisbon, Toronto or Singapore, the Sensing one asks for numbers and a plan, which can feel like rejection. In turn, the Sensing one may feel their real concerns are brushed aside as boring.",
       "tips": [
-        "Haqiqat partner: hear the whole idea before questioning the details.",
-        "Khayal partner: bring facts and steps when proposing big changes.",
+        "Sensing person: hear the whole idea before questioning the details.",
+        "Intuitive person: bring facts and steps when proposing big changes.",
         "Treat vision and practicality as equally valuable contributions."
       ],
       "talk_before_marriage": [
@@ -104,8 +104,8 @@
     "TT": {
       "score": 74,
       "headline": "Logic first, and fair decisions all round.",
-      "connect": "Two Dimagh types value fairness, logic and clear reasoning. You can discuss problems objectively, without taking things personally, and make decisions based on what makes sense rather than emotional pressure. Money, careers and family disputes can be handled calmly and rationally. You respect each other's competence and honesty, and you don't need to tiptoe around each other's feelings in everyday conversation. That directness can make for an efficient, refreshingly drama-free household.",
-      "friction": "Feelings can get left out. When one of you is upset about a comment from a relative, the other may jump straight to solutions or analyse who was right, instead of simply listening. Over time the marriage can feel more like a business agreement than a warm bond. Both of you may also be stubborn in arguments, determined to win rather than understand, even over something as small as the best route home through traffic.",
+      "connect": "Two Thinking types value fairness, logic and clear reasoning. You can discuss problems objectively, without taking things personally, and make decisions based on what makes sense rather than emotional pressure. Money, careers and family disputes can be handled calmly and rationally. You respect each other's competence and honesty, and you don't need to tiptoe around each other's feelings in everyday conversation. That directness can make for an efficient, refreshingly drama-free home or team.",
+      "friction": "Feelings can get left out. When one of you is upset about a comment from a relative or a manager, the other may jump straight to solutions or analyse who was right, instead of simply listening. Over time the relationship can feel more like a business agreement than a warm bond. Both of you may also be stubborn in arguments, determined to win rather than understand, even over something as small as the best route home through traffic.",
       "tips": [
         "Before solving a problem, ask: 'Do you want advice or just a listener?'",
         "Say appreciation out loud, not only criticism.",
@@ -120,11 +120,11 @@
     "FF": {
       "score": 80,
       "headline": "Two big hearts and plenty of warmth.",
-      "connect": "Two Dil types lead with empathy, warmth and care. You naturally notice each other's moods, offer comfort and prioritise harmony at home. Kindness flows easily, and both of you value close ties with family and friends. You are likely to remember the small things: favourite foods, anniversaries, how the other felt after a tough day. Emotional closeness tends to come quickly and stay strong, and your home may become the place relatives visit for a listening ear.",
-      "friction": "Avoiding conflict can backfire. Both of you may stay quiet to keep the peace, so hurt feelings pile up. Picture in-laws, whether down the hall or on a video call from another continent, who keep making decisions for the couple; neither of you wants to upset anyone, so nothing changes and frustration grows in silence. Decisions can also drag on because each of you worries about how others will feel, and practical matters like money may be ignored until they become urgent.",
+      "connect": "Two Feeling types lead with empathy, warmth and care. You naturally notice each other's moods, offer comfort and put harmony first. Kindness flows easily, and both of you value close ties with family and friends. You are likely to remember the small things: favourite foods, anniversaries, how the other felt after a tough day. Emotional closeness tends to come quickly and stay strong, and your home, or your corner of the office, may become the place people visit for a listening ear.",
+      "friction": "Avoiding conflict can backfire. Both of you may stay quiet to keep the peace, so hurt feelings pile up. Picture a parent, an in-law or a demanding boss, whether down the hall or on a video call from another continent, who keeps making decisions for you both; neither of you wants to upset anyone, so nothing changes and frustration grows in silence. Decisions can also drag on because each of you worries about how others will feel, and practical matters like money may be ignored until they become urgent.",
       "tips": [
         "Practise kind but direct conversations about problems.",
-        "Set boundaries with family together, as a united team.",
+        "Set boundaries with family or work together, as a united team.",
         "Don't wait for a perfect, painless moment to make tough decisions."
       ],
       "talk_before_marriage": [
@@ -136,11 +136,11 @@
     "TF": {
       "score": 72,
       "headline": "Head and heart learning each other's language.",
-      "connect": "This pairing combines logic with empathy. The Dimagh partner brings clarity, fairness and practical solutions; the Dil partner brings warmth, sensitivity and a deep understanding of people. Together you can make decisions that are both sensible and kind. When the family faces a tough choice, like a property dispute or a move abroad, the Dimagh partner weighs the facts while the Dil partner considers how everyone will feel, and the final answer is better for both.",
-      "friction": "Different ways of handling problems can cause real hurt. The Dil partner shares a sad story about a cousin's struggles and the Dimagh partner immediately offers solutions, which feels cold. Or the Dimagh partner gives honest feedback about the Dil partner's cooking or career plans, and it lands as criticism. Meanwhile, the Dimagh partner may privately feel the Dil partner is being far too emotional about what are simply practical matters.",
+      "connect": "This pairing combines logic with empathy. The Thinker brings clarity, fairness and practical solutions; the Feeler brings warmth, sensitivity and a deep understanding of people. Together you can make decisions that are both sensible and kind. When the family or the team faces a tough choice, like caring for an ageing parent or a move abroad, the Thinker weighs the facts while the Feeler considers how everyone will feel, and the final answer is better for both.",
+      "friction": "Different ways of handling problems can cause real hurt. The Feeler shares a sad story about a friend's struggles and the Thinker immediately offers solutions, which feels cold. Or the Thinker gives honest feedback about the Feeler's cooking or career plans, and it lands as criticism. Meanwhile, the Thinker may privately feel the Feeler is being far too emotional about what are simply practical matters.",
       "tips": [
-        "Dimagh partner: acknowledge feelings before offering solutions.",
-        "Dil partner: say what you need rather than expecting it to be guessed.",
+        "Thinker: acknowledge feelings before offering solutions.",
+        "Feeler: say what you need rather than expecting it to be guessed.",
         "Make decisions using facts and feelings side by side."
       ],
       "talk_before_marriage": [
@@ -154,8 +154,8 @@
     "JJ": {
       "score": 78,
       "headline": "Plans, lists and a household that runs on time.",
-      "connect": "Two Nizam types love structure, planning and clear schedules. You'll appreciate each other's reliability and never need to chase each other about deadlines. Budgets, family events, travel and children's routines are likely to be well organised. Festival shopping is done a week early, the bills are paid on time and the guest list for the baby's first birthday is ready well in advance. You'll feel secure knowing your spouse keeps their word, every time.",
-      "friction": "Two planners can clash over whose plan wins. One has already promised the in-laws a Saturday visit, while the other has planned a trip to the shops for the same afternoon. Rigid schedules leave little room for spontaneity, and surprises, like a relative arriving from another country with three suitcases and a week's notice, can cause real stress. You may both hold strong opinions about exactly how household tasks should be done, and neither of you enjoys compromising.",
+      "connect": "Two Judging types (J) love structure, planning and clear schedules. You'll appreciate each other's reliability and never need to chase each other about deadlines. Budgets, family events, travel, children's routines and shared projects at work are likely to be well organised. Holiday shopping is done a week early, the bills are paid on time and the guest list for the baby's first birthday is ready well in advance. You'll feel secure knowing the other keeps their word, every time.",
+      "friction": "Two planners can clash over whose plan wins. One has already promised the grandparents a Saturday visit, while the other has planned a trip to the shops for the same afternoon. Rigid schedules leave little room for spontaneity, and surprises, like a relative arriving from another country with three suitcases and a week's notice, can cause real stress. You may both hold strong opinions about exactly how tasks should be done, and neither of you enjoys compromising.",
       "tips": [
         "Plan together rather than separately, and keep one shared calendar.",
         "Leave some unplanned time each week for spontaneity.",
@@ -170,8 +170,8 @@
     "PP": {
       "score": 68,
       "headline": "Flexible, fun and occasionally fashionably late.",
-      "connect": "Two Azad types bring flexibility, spontaneity and openness to marriage. You'll enjoy last-minute plans, weekend road trips and trying new things without needing everything mapped out. Neither of you will nag about rigid schedules, and you'll adapt easily when life throws a surprise, whether that's a job change or an unexpected family visit. Life together can feel fresh, relaxed and full of small adventures, and you'll rarely argue about how strictly things must be done.",
-      "friction": "Without structure, important tasks slip. Picture the night before a family wedding: the outfits haven't come back from the tailor, nobody has bought the gift, and the car is running on empty. Bills pile up, the savings plan never quite starts, and chores become a constant negotiation. Parents and in-laws may start to see the couple as disorganised, which brings pressure and, sooner or later, well-meaning elders stepping in to take over decisions.",
+      "connect": "Two Perceiving types (P) bring flexibility, spontaneity and openness to everything you do together. You'll enjoy last-minute plans, weekend road trips and trying new things without needing everything mapped out. Neither of you will nag about rigid schedules, and you'll adapt easily when life throws a surprise, whether that's a job change or an unexpected family visit. Life together can feel fresh, relaxed and full of small adventures, and you'll rarely argue about how strictly things must be done.",
+      "friction": "Without structure, important tasks slip. Picture the night before a family wedding: the outfits aren't ironed, nobody has bought the gift, and the car is running on empty. Bills pile up, the savings plan never quite starts, and chores, or a shared project at work, become a constant negotiation. Family, friends or colleagues may start to see the pair of you as disorganised, which brings pressure and, sooner or later, someone well-meaning stepping in to take over decisions.",
       "tips": [
         "Automate bill payments and savings wherever possible.",
         "Set a few non-negotiable deadlines for family events.",
@@ -186,11 +186,11 @@
     "JP": {
       "score": 70,
       "headline": "One brings the plan, one brings the flexibility.",
-      "connect": "This pairing balances structure with spontaneity. The Nizam partner keeps life organised, makes sure bills are paid and plans ahead for big events. The Azad partner brings flexibility, creativity and the ability to adapt when plans change. Together you can handle both everyday routine and life's surprises. The Nizam partner makes sure the family reaches the wedding on time, and the Azad partner makes sure everyone actually enjoys it once you're there.",
-      "friction": "Planning styles collide. The Nizam partner wants to book the holiday trip home months in advance; the Azad partner wants to decide closer to the date. The Nizam partner may feel they carry the whole household's organisation alone, while the Azad partner feels nagged and controlled. Small things, like leaving the dishes for later or changing dinner plans at the last minute, can quietly turn into much bigger arguments about respect and fairness.",
+      "connect": "This pairing balances structure with spontaneity. The Judging one (J) keeps life organised, makes sure bills are paid and plans ahead for big events. The Perceiving one (P) brings flexibility, creativity and the ability to adapt when plans change. Together you can handle both everyday routine and life's surprises. The J makes sure everyone reaches the wedding on time, and the P makes sure everyone actually enjoys it once you're there.",
+      "friction": "Planning styles collide. The J wants to book the next holiday months in advance; the P wants to decide closer to the date. The J may feel they carry all the organising alone, while the P feels nagged and controlled. Small things, like leaving the dishes for later or changing dinner plans at the last minute, can quietly turn into much bigger arguments about respect and fairness.",
       "tips": [
-        "Nizam partner: build some flexibility into your plans.",
-        "Azad partner: commit to key deadlines without needing reminders.",
+        "J: build some flexibility into your plans.",
+        "P: commit to key deadlines without needing reminders.",
         "Share planning duties so one person doesn't carry the whole load."
       ],
       "talk_before_marriage": [
@@ -200,5 +200,5 @@
       ]
     }
   },
-  "closing": "If one thing stays with you from this report, let it be this: any two types can build a good marriage. Compatibility is not something you find; it is something you make, day by day, through patience, respect and honest conversation. Some pairings start with more in common, others with more to learn, and many of the strongest homes are built by people who once found each other puzzling. Use these insights to understand, not to judge. Pray for each other if that is your way, listen generously, and offer the same sabr you hope to receive. That, more than any letter, is what makes a home."
+  "closing": "If one thing stays with you from this report, let it be this: any two types can build a good relationship, whether it's a marriage, a friendship, a family or a team. Compatibility is not something you find; it is something you make, day by day, through patience, respect and honest conversation. Some pairings start with more in common, others with more to learn, and many of the strongest bonds are built by people who once found each other puzzling. Use these insights to understand, not to judge. Pray for each other if that is your way, listen generously, and offer the same patience you hope to receive. That, more than any letter, is what makes a relationship last."
 }

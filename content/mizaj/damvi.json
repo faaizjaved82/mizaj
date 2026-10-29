@@ -3,10 +3,10 @@
   "name": "Damvi",
   "global_name": "Air",
   "name_ur": "دموی",
-  "quality": "Garam-Tar (warm & moist)",
+  "quality": "warm & moist",
   "classical": "Sanguine",
-  "humour": "Dam (blood)",
-  "element": "Air (Hawa)",
+  "humour": "blood",
+  "element": "Air",
   "nickname": "The Breeze",
   "season": "Spring",
   "colors": [
@@ -17,12 +17,12 @@
   "tagline": "Warm heart, open door, and a laugh that fills the room.",
   "share_line": "I walk in and the mood lifts. Spring energy, all year round.",
   "free": {
-    "summary": "In Unani tradition, Air (Damvi) is the mizaj ruled by dam, blood, the warm and moist humour that Ibn Sina linked with spring, growth and the element of air. If you are Air, people probably feel it before you say a word. You are the cousin who turns a quiet family dinner into a full-blown party, who remembers everyone's favourite mithai, and who somehow makes a new friend in the airport security queue.\n\nYour warmth is real, not a performance. You bounce back quickly from setbacks, forgive easily and prefer to see the best in people. The flip side is that your enthusiasm can outrun your follow-through, and a packed social calendar can quietly push out rest and routine.\n\nPhysically, the tradition pictures Air people as well-built, warm to the touch, with a good appetite and plenty of energy. Because warmth and moisture already run high, many Air people find they feel best on lighter, cooler, simpler food, steady sleep and regular movement, especially in spring and through a busy wedding season.",
+    "summary": "In Unani tradition, Air (Damvi) is the mizaj ruled by dam, blood, the warm and moist humour that Ibn Sina linked with spring, growth and the element of air. If you are Air, people probably feel it before you say a word. You are the colleague who turns a quiet team lunch into a celebration, the grandparent who remembers everyone's favourite cake, and the person who somehow makes a new friend in the airport security queue.\n\nYour warmth is real, not a performance. You bounce back quickly from setbacks, forgive easily and prefer to see the best in people. The flip side is that your enthusiasm can outrun your follow-through, and a packed social calendar can quietly push out rest and routine.\n\nPhysically, the tradition pictures Air people as well-built, warm to the touch, with a good appetite and plenty of energy. Because warmth and moisture already run high, many Air people find they feel best on lighter, cooler, simpler food, steady sleep and regular movement, especially in spring and through a busy season of parties and celebrations.",
     "traits": [
       "Sociable and warm: strangers feel like old family friends within minutes of meeting you.",
       "Optimistic by default; you expect things to work out and often help them do so.",
       "Generous with time, compliments and food, sometimes more than your schedule can afford.",
-      "Quick to laugh, quick to forgive, and rarely holding a grudge past the next chai.",
+      "Quick to laugh, quick to forgive, and rarely holding a grudge past the next cup of coffee.",
       "Starts projects with huge energy, but interest can fade once the novelty wears off.",
       "Loves variety, people and celebrations; routine feels like a cage unless it comes with company."
     ],
@@ -34,37 +34,37 @@
       "Heat and humidity, whether a sticky spring or a crowded, overheated room, can leave you heavy and flushed.",
       "Hair tends to be thick and grows well, which the tradition links with warmth and moisture."
     ],
-    "quick_tip": "Start spring with a lighter plate: swap one heavy meal a day for moong dal, sabzi or a cucumber salad with lemon. Unani tradition suggests cool, slightly sour foods help settle the extra warmth and moisture Air people carry."
+    "quick_tip": "Start spring with a lighter plate: swap one heavy meal a day for a lentil soup with lemon, grilled fish with greens, or a cucumber salad with a squeeze of lime. Unani tradition suggests cool, slightly sour foods help settle the extra warmth and moisture Air people carry."
   },
   "premium": {
-    "deep_dive": "Ibn Sina described good health as balance (i'tidal), not perfection. Every person is born with a personal blend of the four qualities, and your blend leans warm and moist. In the Canon, dam was considered the most nourishing of the humours, carrying warmth and growth through the body. That is why the Air (Damvi) person is traditionally pictured as vigorous, well-fed, rosy and ready for the day.\n\nIn the body, the tradition says this warmth shows up as a strong appetite, quick digestion, a full pulse and good stamina. The moisture shows up as soft skin, a fuller build and a tendency to hold on to heaviness when food is too rich. When the balance tips, many Air people notice it as feeling hot, thick-headed, sleepy after meals or puffy after a week of wedding dinners and festival sweets. The Unani answer is rarely dramatic: lighter food, more movement, less excess.\n\nIn the mind, warmth gives speed and moisture gives flexibility. You think on your feet, adapt easily and read a room instantly. You are often the one who calms a tense family discussion, or a heated thread in the family group chat, with a well-timed joke. Your challenge is depth and stamina: boredom arrives fast, and you may say yes to five plans and finish two.\n\nEmotionally, Air people are traditionally described as cheerful, hopeful and affectionate. You feel things strongly but briefly. Anger flares and fades, sadness passes, and you rarely brood. The risk is not dark moods but scattered ones: overstimulation, people-pleasing, and avoiding hard conversations because they spoil the vibe.\n\nAcross life stages, Unani tradition saw childhood and early youth as naturally warm and moist, so a young Air person may feel almost endlessly energetic. Through the twenties and thirties, careers, studies and family responsibilities add heat and dryness, which can actually suit you. From the forties onwards, the body is traditionally believed to cool and dry, and many Air people grow steadier and more patient, as long as they keep moving and don't let rich eating habits follow them into middle age.\n\nAcross the seasons, spring is your mirror. The tradition held that dam rises with spring, so this is when you may feel most alive and also most overheated. A hot summer can drain you, muggy rainy spells can make you feel heavy, and a cool winter is often your most comfortable season, wherever in the world you spend it. Living well as an Air person is mostly about rhythm: enjoying the feast without living at one.",
+    "deep_dive": "Ibn Sina described good health as balance (i'tidal), not perfection. Every person is born with a personal blend of the four qualities, and your blend leans warm and moist. In the Canon, dam was considered the most nourishing of the humours, carrying warmth and growth through the body. That is why the Air (Damvi) person is traditionally pictured as vigorous, well-fed, rosy and ready for the day.\n\nIn the body, the tradition says this warmth shows up as a strong appetite, quick digestion, a full pulse and good stamina. The moisture shows up as soft skin, a fuller build and a tendency to hold on to heaviness when food is too rich. When the balance tips, many Air people notice it as feeling hot, thick-headed, sleepy after meals or puffy after a week of wedding dinners and holiday sweets. The Unani answer is rarely dramatic: lighter food, more movement, less excess.\n\nIn the mind, warmth gives speed and moisture gives flexibility. You think on your feet, adapt easily and read a room instantly. You are often the one who calms a tense family discussion, or a heated thread in the family group chat, with a well-timed joke. Your challenge is depth and stamina: boredom arrives fast, and you may say yes to five plans and finish two.\n\nEmotionally, Air people are traditionally described as cheerful, hopeful and affectionate. You feel things strongly but briefly. Anger flares and fades, sadness passes, and you rarely brood. The risk is not dark moods but scattered ones: overstimulation, people-pleasing, and avoiding hard conversations because they spoil the vibe.\n\nAcross life stages, Unani tradition saw childhood and early youth as naturally warm and moist, so a young Air person may feel almost endlessly energetic. Through the twenties and thirties, careers, studies and family responsibilities add heat and dryness, which can actually suit you. From the forties onwards, the body is traditionally believed to cool and dry, and many Air people grow steadier and more patient, as long as they keep moving and don't let rich eating habits follow them into middle age.\n\nAcross the seasons, spring is your mirror. The tradition held that dam rises with spring, so this is when you may feel most alive and also most overheated. A hot summer can drain you, muggy rainy spells can make you feel heavy, and a cool winter is often your most comfortable season, wherever in the world you spend it. Living well as an Air person is mostly about rhythm: enjoying the feast without living at one.",
     "foods_favour": [
       {
-        "item": "Barley: pearl barley in soup, or barley flour mixed into your roti atta",
-        "why": "Unani rates barley (jau) cool and dry; it is traditionally used to settle excess heat and heaviness."
+        "item": "Barley: pearl barley in soups, stews or a grain salad",
+        "why": "Unani rates barley cool and dry; it is traditionally used to settle excess heat and heaviness."
       },
       {
-        "item": "Moong dal",
-        "why": "Light and easy to digest; tradition favours it whenever the body feels warm and heavy."
+        "item": "Mung beans and bean sprouts",
+        "why": "Light and easy to digest; tradition favours mung whenever the body feels warm and heavy."
       },
       {
-        "item": "Masoor dal with a squeeze of lemon",
-        "why": "Cool and dry by Unani reckoning, and the lemon adds sourness that balances a warm, moist mizaj."
+        "item": "Red lentil soup with a squeeze of lemon",
+        "why": "Cool and dry by Unani reckoning, and the lemon adds sourness that balances a warm, moist temperament."
       },
       {
-        "item": "Lauki (bottle gourd)",
-        "why": "Cool and moist, light on the stomach, and a classic choice for warm spring and summer days."
+        "item": "Mild gourds: bottle gourd, chayote or winter melon",
+        "why": "Cool, moist and very light; a classic choice for warm days, from Chinese soups to Mexican stews."
       },
       {
-        "item": "Courgette, tori and other summer squash",
-        "why": "Gentle, cooling vegetables that keep meals light; courgette is the easy supermarket stand-in."
+        "item": "Courgette (zucchini) and other summer squash",
+        "why": "Gentle, cooling vegetables that keep meals light, and easy to find almost anywhere."
       },
       {
-        "item": "Cucumber and kachumber salad",
+        "item": "Cucumber salads, from Greek to Persian to Thai",
         "why": "Traditionally cooling; a plate beside a rich meal helps balance its heat."
       },
       {
-        "item": "Pomegranate (anar)",
+        "item": "Pomegranate",
         "why": "Sweet-sour and cooling; Unani texts value it for calming excess heat and thirst."
       },
       {
@@ -73,10 +73,10 @@
       },
       {
         "item": "Berries: strawberries, raspberries or blueberries",
-        "why": "By the Unani logic of sour, cooling fruit, these everyday supermarket picks suit a warm, moist mizaj."
+        "why": "By the Unani logic of sour, cooling fruit, these everyday picks suit a warm, moist temperament."
       },
       {
-        "item": "Lemon and vinegar (sirka)",
+        "item": "Lemon, lime and vinegar",
         "why": "Sour and cool-dry; classical texts recommend sour flavours for a warm, moist temperament."
       },
       {
@@ -92,21 +92,21 @@
         "why": "Cool, fresh and filling; cooked with little oil, they keep the plate light."
       },
       {
-        "item": "Chicory (kasni) or endive leaves",
+        "item": "Chicory, endive or radicchio",
         "why": "Mildly bitter and traditionally prized in Unani for cooling the body's inner heat."
       }
     ],
     "foods_limit": [
       {
-        "item": "Rich, slow-cooked mutton and lamb curries",
+        "item": "Rich, slow-cooked lamb: stews, curries and roasts",
         "why": "Rich, warm and moist, these double down on your natural tendencies; keep them occasional."
       },
       {
-        "item": "Mithai, halwa and gulab jamun",
+        "item": "Syrupy sweets like baklava, gulab jamun or sticky toffee pudding",
         "why": "Sweet, heavy and moist; tradition sees excess sweetness as fuel for extra dam."
       },
       {
-        "item": "Fried pakoras, samosas and puris",
+        "item": "Deep-fried food: fries, fritters, tempura or samosas",
         "why": "Heavy oil leaves an Air body feeling hot and sluggish, especially in spring and on humid days."
       },
       {
@@ -118,11 +118,11 @@
         "why": "Warm and moist by Unani reckoning; a few are fine, a bowlful adds heat."
       },
       {
-        "item": "Ghee by the spoonful",
-        "why": "Lovely in moderation, but its warmth and moisture can tip you towards heaviness."
+        "item": "Butter and ghee by the spoonful",
+        "why": "Lovely in moderation, but their warmth and moisture can tip you towards heaviness."
       },
       {
-        "item": "Malai, khoya and double cream",
+        "item": "Double cream, cream sauces and creamy desserts",
         "why": "Thick, heavy dairy adds moisture and weight that an Air system rarely needs."
       },
       {
@@ -134,89 +134,89 @@
         "why": "Sweet and heavy without real nourishment; many Air people feel more sluggish, not refreshed."
       },
       {
-        "item": "Wedding buffet overeating",
+        "item": "Overeating at buffets and big celebrations",
         "why": "Many rich dishes in one sitting overload digestion; pick two favourites and stop at satisfied."
       }
     ],
     "drinks": [
-      "Barley water (simmered pearl barley, strained): a classic Unani cooler, light and calming on hot days",
-      "Nimbu pani with little sugar: sour and cooling, ideal after a heavy meal",
-      "Salted lassi or chaas at lunch: cooling, but one glass is enough",
-      "Imli (tamarind) sharbat, lightly sweetened: sour-sweet relief in hot months",
+      "Barley water (simmered pearl barley, strained, with a squeeze of lemon): a classic cooler, light and calming on hot days",
+      "Fresh lemonade or limeade with little sugar: sour and cooling, ideal after a heavy meal",
+      "A salted yogurt drink at lunch, such as ayran, doogh or chaas: cooling, but one glass is enough",
+      "Hibiscus tea, chilled or at room temperature (agua de jamaica, bissap or karkadé): tart relief in hot months",
       "Water with cucumber and mint slices: an easy everyday cooler at your desk",
       "Light green tea: gently bitter and traditionally cooling"
     ],
     "spices_herbs": [
-      "Dhania (coriander seeds and leaves): traditionally cooling, a gentle everyday base",
-      "Saunf (fennel): chewed after a rich meal, many people find it lightens the heaviness",
-      "Zeera (cumin): traditionally used to make heavier dals and curries sit lighter",
-      "Anardana (dried pomegranate seeds): a sour note that tradition uses to cool rich dishes",
-      "Fresh pudina in chutney: refreshing beside heavy food, used as a side, not a meal",
-      "Go easy on garam masala and red chilli: they add heat you already have"
+      "Coriander, seeds and fresh leaves: traditionally cooling, a gentle everyday base",
+      "Fennel seeds: chewed after a rich meal, many people find they lighten the heaviness",
+      "Cumin: traditionally used to make heavier beans and stews sit lighter",
+      "Sumac or dried pomegranate seeds: sour notes that tradition uses to cool rich dishes",
+      "Fresh mint in a yogurt dip or salsa verde: refreshing beside heavy food, used as a side, not a meal",
+      "Go easy on hot chilli and strong, warming spice blends: they add heat you already have"
     ],
     "daily_routine": {
-      "morning": "Wake early, ideally around sunrise, when tradition says the air is at its lightest and freshest. A brisk walk or 20 minutes of movement before breakfast suits your warm, active nature far better than lingering in bed. Keep breakfast moderate: porridge oats, an egg, or a roti with yogurt and cucumber, plus chai with less sugar. A paratha-free weekday is a very good Air habit.",
-      "midday": "Make lunch your main meal, when digestion is traditionally believed to be strongest. Fill half the plate with sabzi or salad, add dal or chicken, and keep the roti count honest. If the office orders pizza or biryani, take a modest portion with a side salad. A short walk after eating beats a long slump at your desk.",
-      "evening": "Evenings are your social hours, so enjoy them, but watch the snack trail of crisps, samosas and endless chai. Eat a lighter dinner by around 8 pm: soup, moong dal, grilled chicken or sabzi. Leave at least two hours between dinner and bed so you don't sleep on a heavy stomach.",
+      "morning": "Wake early, ideally around sunrise, when tradition says the air is at its lightest and freshest. A brisk walk or 20 minutes of movement before breakfast suits your warm, active nature far better than lingering in bed. Keep breakfast moderate: porridge oats, an egg, or yogurt with fruit, plus tea or coffee with less sugar. Saving pastries and fry-ups for the weekend is a very good Air habit.",
+      "midday": "Make lunch your main meal, when digestion is traditionally believed to be strongest. Fill half the plate with vegetables or salad, add lentils, fish or chicken, and keep the bread and rice honest. If the office orders pizza or a big rice dish, take a modest portion with a side salad. A short walk after eating beats a long slump at your desk.",
+      "evening": "Evenings are your social hours, so enjoy them, but watch the snack trail of crisps, fried nibbles and endless sweet drinks. Eat a lighter dinner by around 8 pm: soup, a lentil dish, grilled chicken or a vegetable stir-fry. Leave at least two hours between dinner and bed so you don't sleep on a heavy stomach.",
       "sleep": "Air people usually sleep well, so the risk is too much, not too little. Aim for seven to eight hours and avoid long afternoon naps, which tradition links with heaviness. Keep the room airy rather than overheated, even when the heating is on. If you wake up groggy, look first at how late and how heavily you ate."
     },
     "seasons": {
-      "summer": "Hot weather can leave you flushed, irritable and drained, whether that means 45°C in Dubai or a sticky heatwave in a London flat with no air conditioning. Lean on cooling foods: lauki, courgette, cucumber, yogurt, barley water and fresh fruit. Cut back on fried snacks, mangoes by the boxful and late, heavy dinners. Exercise early in the morning or after sunset, never in the midday sun.",
-      "rains": "Rainy, humid weeks add moisture to your own, so many Air people feel heavy and slow, whether it's monsoon back home or a grey, drizzly autumn abroad. Tradition favours lighter, freshly cooked food. Enjoy one plate of pakoras for the rain, not three, and lean on dal and sabzi.",
-      "winter": "Winter is often your best season: cool air balances your warmth and your energy feels steady. If you live somewhere with long, dark winters, watch the comfort-eating creep of heavy curries, halwa and biscuits by the sofa. Enjoy carrots, turnips and greens, keep moving on cold mornings, and don't let a blanket-and-chai routine replace your daily walk.",
-      "spring": "Spring is when Unani tradition says dam is at its strongest, so you may feel extra energetic, warm and sometimes overheated. If weddings or festivals land now too, eat lighter between functions, add sour fruit and barley, sleep on time, and give your body a gentle reset after big celebrations."
+      "summer": "Hot weather can leave you flushed, irritable and drained, whether that means a desert summer, a humid tropical one or a heatwave in a city flat with no air conditioning. Lean on cooling foods: courgette, cucumber, yogurt, barley water and fresh fruit. Cut back on fried snacks, mangoes by the boxful and late, heavy dinners. Exercise early in the morning or after sunset, never in the midday sun.",
+      "rains": "Rainy, humid weeks add moisture to your own, so many Air people feel heavy and slow, whether it's a tropical wet season, a monsoon or a grey, drizzly autumn. Tradition favours lighter, freshly cooked food. Enjoy one plate of rainy-day comfort food, not three, and lean on soups, lentils and vegetables.",
+      "winter": "Winter is often your best season: cool air balances your warmth and your energy feels steady. If you live somewhere with long, dark winters, watch the comfort-eating creep of heavy stews, puddings and biscuits by the sofa. Enjoy carrots, turnips and greens, keep moving on cold mornings, and don't let a blanket-and-hot-chocolate routine replace your daily walk.",
+      "spring": "Spring is when Unani tradition says dam is at its strongest, so you may feel extra energetic, warm and sometimes overheated. If weddings, festivals or holidays land now too, eat lighter between celebrations, add sour fruit and barley, sleep on time, and give your body a gentle reset after big events."
     },
-    "movement": "Your sturdy build and natural stamina suit moderate to vigorous exercise. Team sports like cricket, football or badminton feed your social side, while brisk walking, cycling or swimming help burn off the extra warmth and heaviness tradition associates with dam. Aim for at least 30 minutes most days, ideally in the morning or evening when the air is cooler. Avoid long workouts in peak summer heat. Bring friends along, because an Air person keeps a habit far more easily when it comes with company and conversation.",
+    "movement": "Your sturdy build and natural stamina suit moderate to vigorous exercise. Team sports like football, volleyball, netball or badminton feed your social side, while brisk walking, cycling or swimming help burn off the extra warmth and heaviness tradition associates with dam. Aim for at least 30 minutes most days, ideally in the morning or evening when the air is cooler. Avoid long workouts in peak summer heat. Bring friends along, because an Air person keeps a habit far more easily when it comes with company and conversation.",
     "emotional_balance": "Unani counts the emotions (harkat-o-sukoon-e-nafsani) among the six essential factors of health, alongside air, food, movement, sleep and the body's natural rhythms of retention and release. For an Air person, the emotional risk is less about sadness and more about overflow: too much excitement, too many commitments, too strong a need to keep everyone happy. Practise finishing before starting: one project, one promise, one conversation at a time. Learn to sit with a disagreement instead of joking it away. Build in quiet time after busy days, even ten minutes of stillness before bed. If low or anxious feelings last more than a couple of weeks, speak to a doctor or qualified counsellor.",
-    "fasting": "Fasting often suits Air people, because tradition sees periods of lightness as balancing for a warm, moist body, whether you keep Ramadan, a vrat, a weekly fast or an intermittent-fasting window. Before the fast, choose simple, slow food: roti or oats, an egg, yogurt and plenty of water, not parathas swimming in ghee. Break it gently with water and a date or some fruit, then pause before the main meal. Go easy on fried snacks and sugary drinks. With any health condition, check with your doctor first.",
+    "fasting": "Fasting often suits Air people, because tradition sees periods of lightness as balancing for a warm, moist body, whether you fast for faith or tradition, keep a weekly fast day or follow an intermittent-fasting window. Before the fast, choose simple, slow food: oats or wholegrain bread, an egg, yogurt and plenty of water, not pastries or anything swimming in butter. Break it gently with water and a little fruit, then pause before the main meal. Go easy on fried food and sugary drinks. With any health condition, check with your doctor first.",
     "seven_day_menu": [
       {
         "day": 1,
         "breakfast": "Porridge oats with a sliced apple and a few berries",
-        "lunch": "Moong dal, lauki or courgette sabzi, one roti and cucumber salad",
-        "dinner": "Oven-baked chicken tikka (light on oil) with salad and mint raita",
-        "snack": "Pomegranate seeds or fruit chaat with lemon"
+        "lunch": "Red lentil soup with lemon, wholegrain bread and a cucumber salad",
+        "dinner": "Oven-baked chicken skewers (light on oil) with salad and a mint-yogurt dip",
+        "snack": "Pomegranate seeds or a fruit salad with lime"
       },
       {
         "day": 2,
-        "breakfast": "Boiled egg, one roti, tomato and cucumber slices",
-        "lunch": "Masoor dal with lemon, a small portion of rice and kachumber",
-        "dinner": "Tori or courgette sabzi with roti",
-        "snack": "Roasted chana and a cup of green tea"
+        "breakfast": "Boiled egg, one slice of toast, tomato and cucumber slices",
+        "lunch": "Vietnamese-style fresh rolls with prawns or tofu and a lime dipping sauce",
+        "dinner": "Stir-fried courgette and bean sprouts with a small portion of rice",
+        "snack": "Roasted chickpeas and a cup of green tea"
       },
       {
         "day": 3,
-        "breakfast": "Roti with yogurt and cucumber, chai with less sugar",
-        "lunch": "Chicken and vegetable soup with a roti",
-        "dinner": "Palak with moong dal and roti",
+        "breakfast": "Plain yogurt with berries and a spoonful of oats, tea with less sugar",
+        "lunch": "Chicken and vegetable soup with a slice of bread",
+        "dinner": "Spinach and mung bean stew with a small flatbread",
         "snack": "A bowl of berries or a seasonal fruit"
       },
       {
         "day": 4,
-        "breakfast": "Vegetable omelette made with a little olive oil, one roti",
-        "lunch": "Lauki chana dal with roti and salad",
-        "dinner": "Dal chawal with lemon and kachumber",
-        "snack": "Nimbu pani with a handful of plain popcorn"
+        "breakfast": "Vegetable omelette made with a little olive oil, one slice of toast",
+        "lunch": "Barley salad with cucumber, herbs and lemon",
+        "dinner": "Cold soba noodles with cucumber and a light soy dressing",
+        "snack": "Lemonade with little sugar and a handful of plain popcorn"
       },
       {
         "day": 5,
-        "breakfast": "Savoury oats or dalia cooked with vegetables",
-        "lunch": "Chicken curry with less oil and chilli, one roti, salad",
+        "breakfast": "Savoury oats cooked with vegetables",
+        "lunch": "Chicken fajitas with plenty of peppers and lettuce, light on cheese and sour cream",
         "dinner": "Grilled fish with lemon, a big salad and a small portion of rice",
         "snack": "Plums or a seasonal fruit"
       },
       {
         "day": 6,
-        "breakfast": "Moong dal chilla with mint chutney",
-        "lunch": "Chana chaat with lemon, onion, tomato and cucumber",
-        "dinner": "Mixed vegetable sabzi, roti and raita",
-        "snack": "Fruit chaat with lemon and a pinch of chaat masala"
+        "breakfast": "Mung bean pancakes with a mint-yogurt dip",
+        "lunch": "Fattoush or a chickpea salad with lemon, tomato and cucumber",
+        "dinner": "Mixed vegetable stir-fry with a little rice",
+        "snack": "Fruit salad with lime and fresh mint"
       },
       {
         "day": 7,
-        "breakfast": "Weekend treat: one paratha with yogurt instead of two, plus chai",
-        "lunch": "Family pulao or biryani: a modest plate with raita and a big salad",
-        "dinner": "Light moong khichdi with yogurt",
+        "breakfast": "Weekend treat: one pancake or pastry instead of two, plus fruit and coffee or tea",
+        "lunch": "Family feast (paella, jollof rice or a Sunday roast): a modest plate with a big salad",
+        "dinner": "Light vegetable broth or miso soup with tofu",
         "snack": "Pomegranate or an orange"
       }
     ],
@@ -224,15 +224,15 @@
       "You feel hot, flushed and irritable more often than usual, even indoors.",
       "You feel heavy, sleepy and foggy after meals and crave a nap every afternoon.",
       "Restless energy: you start five things and finish none of them.",
-      "A heavy, overfull feeling after wedding or festival season that lingers for weeks.",
+      "A heavy, overfull feeling after a run of holidays or celebrations that lingers for weeks.",
       "You over-socialise and over-commit until you snap at the people closest to you."
     ],
     "with_other_mizaj": {
-      "damvi": "Two Air spouses make a lively home: full table, full house, full family group chat. The risk is that nobody slows down. Plan meals and money together, take turns being the sensible one, and make room for quiet evenings, or the marriage can become all celebration and no rest.",
+      "damvi": "Two Air people, whether partners, siblings or best friends, make a lively pair: full table, full house, full group chat. The risk is that nobody slows down. Plan meals and money together, take turns being the sensible one, and make room for quiet evenings, or life together can become all celebration and no rest.",
       "safravi": "Fire (Safravi) brings drive and focus; you bring warmth and ease. You soften their sharp edges, and they help you finish what you start. But you share heat, so arguments can flare fast. Cool down before discussing anything serious, and keep spicy food and spicy topics away from late nights.",
       "balghami": "With Water (Balghami), a comfortable, kind match. Your warmth wakes up their calm, slow-moving energy, and their steadiness grounds your busy social life. Watch the pace gap: you want to go out, they want to stay in. Agree on a weekly rhythm that includes both a family visit and a quiet night at home.",
       "saudavi": "Earth (Saudavi) is your opposite in every quality, and Unani tradition sees that as balance. You bring lightness and hope; they bring depth, planning and loyalty. Don't take their silences personally, and don't rush their decisions. In return, they need to let you celebrate without analysing every penny spent on the party."
     }
   },
-  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered hakeem."
+  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered practitioner of traditional medicine."
 }

@@ -3,10 +3,10 @@
   "name": "Safravi",
   "global_name": "Fire",
   "name_ur": "صفراوی",
-  "quality": "Garam-Khushk (warm & dry)",
+  "quality": "warm & dry",
   "classical": "Choleric",
-  "humour": "Safra (yellow bile)",
-  "element": "Fire (Aag)",
+  "humour": "yellow bile",
+  "element": "Fire",
   "nickname": "The Flame",
   "season": "Summer",
   "colors": [
@@ -22,7 +22,7 @@
       "Driven and decisive; you would rather make a call than sit in uncertainty.",
       "A sharp, analytical mind that spots flaws, shortcuts and solutions quickly.",
       "A direct speaker: you say what you think, sometimes before checking the tone.",
-      "A natural leader in a crunch, from exam week to organising a mehndi in three days.",
+      "A natural leader in a crunch, from exam week to throwing a retirement party in three days.",
       "A temper that flares fast and cools fast; long grudges are rarely your style.",
       "Competitive and proud of your standards; 'good enough' rarely feels good enough."
     ],
@@ -30,18 +30,18 @@
       "Unani texts describe a lean, wiry or athletic build that doesn't gain weight easily.",
       "Skin tends to feel warm and dry, and you may flush quickly in heat or anger.",
       "Sharp hunger: skipping a meal can make you irritable fast, the classic 'hangry'.",
-      "Strong thirst, and chilli or oily food can bring on a burning 'garmi' feeling.",
+      "Strong thirst, and chilli or oily food can bring on a burning, overheated feeling.",
       "Lighter sleep than most; a busy mind can keep you awake past midnight.",
       "Hot weather and stuffy, overheated rooms drain you quickly, while cool air feels like relief."
     ],
-    "quick_tip": "Never let yourself get too hungry. Keep a cooling snack close by, such as cucumber, a few soaked almonds or a glass of lassi. Unani tradition suggests a Fire temper rises fastest on an empty, overheated stomach."
+    "quick_tip": "Never let yourself get too hungry. Keep a cooling snack close by, such as cucumber, a few soaked almonds or a glass of cold milk. Unani tradition suggests a Fire temper rises fastest on an empty, overheated stomach."
   },
   "premium": {
-    "deep_dive": "In the Canon, Ibn Sina described safra as the sharpest and lightest of the four humours: hot, dry and quick to move. It was believed to give the body its digestive fire and the mind its edge. A Fire (Safravi) person, in this picture, is someone in whom that fire burns a little brighter than average. It is a gift for getting things done, and it needs cooling to stay a gift.\n\nIn the body, Unani tradition associates this mizaj with a lean, firm frame, warm and dry skin, quick digestion and strong thirst. Heat is your weak point. Hot afternoons, chilli-heavy curries, back-to-back chai or coffee and late nights are all traditionally believed to add fuel to an already strong fire. When the balance tips, many Fire people notice irritability, a hot or burning feeling after meals, restless sleep and a very short fuse. The traditional response is cooling and moistening: water, fresh fruit, gourds, sensible amounts of dairy, and rest.\n\nIn the mind, the fire gives clarity and speed. You can see the end of a project before others have read the brief, and you are often the family member who handles the bank, the visa forms, the property papers or the hospital admission, because you will get it done. The risk is impatience. You may finish other people's sentences, skip the feelings part of a conversation, or treat a relaxed spouse as a problem to be solved.\n\nEmotionally, Fire people are traditionally described as brave, ambitious and proud, with anger close to the surface but not deep beneath it. You rarely sulk; you erupt and move on, sometimes before the other person has recovered. Learning to pause, cool down and repair is your lifelong practice.\n\nAcross life stages, Unani tradition saw the prime years, roughly the twenties and thirties, as naturally warm and dry, so a young Fire person may feel all fire: competitive, restless, impatient with elders. As the body is traditionally believed to cool with age, many Fire people mellow in their forties and fifties into the calm, wise problem-solver of the family.\n\nAcross the seasons, summer is both your mirror and your challenge. The tradition linked safra with hot, dry weather, so the hottest months can feel brutal, whether you spend them in the Gulf or in a city flat built to trap heat. Rain brings some relief, and winter is usually when you feel most balanced, clear-headed and kind. Living well as a Fire person means respecting your fire: using it for your work, and cooling it before it reaches your words.",
+    "deep_dive": "In the Canon, Ibn Sina described safra as the sharpest and lightest of the four humours: hot, dry and quick to move. It was believed to give the body its digestive fire and the mind its edge. A Fire (Safravi) person, in this picture, is someone in whom that fire burns a little brighter than average. It is a gift for getting things done, and it needs cooling to stay a gift.\n\nIn the body, Unani tradition associates this mizaj with a lean, firm frame, warm and dry skin, quick digestion and strong thirst. Heat is your weak point. Hot afternoons, chilli-heavy dishes, back-to-back coffee or strong tea and late nights are all traditionally believed to add fuel to an already strong fire. When the balance tips, many Fire people notice irritability, a hot or burning feeling after meals, restless sleep and a very short fuse. The traditional response is cooling and moistening: water, fresh fruit, gourds, sensible amounts of dairy, and rest.\n\nIn the mind, the fire gives clarity and speed. You can see the end of a project before others have read the brief, and you are often the family member who handles the bank, the visa forms, the property papers or the hospital admission, because you will get it done. The risk is impatience. You may finish other people's sentences, skip the feelings part of a conversation, or treat a relaxed partner or colleague as a problem to be solved.\n\nEmotionally, Fire people are traditionally described as brave, ambitious and proud, with anger close to the surface but not deep beneath it. You rarely sulk; you erupt and move on, sometimes before the other person has recovered. Learning to pause, cool down and repair is your lifelong practice.\n\nAcross life stages, Unani tradition saw the prime years, roughly the twenties and thirties, as naturally warm and dry, so a young Fire person may feel all fire: competitive, restless, impatient with older colleagues and relatives. As the body is traditionally believed to cool with age, many Fire people mellow in their forties and fifties into the calm, wise problem-solver of the family.\n\nAcross the seasons, summer is both your mirror and your challenge. The tradition linked safra with hot, dry weather, so the hottest months can feel brutal, whether you spend them in a desert city or in a flat built to trap heat. Rain brings some relief, and winter is usually when you feel most balanced, clear-headed and kind. Living well as a Fire person means respecting your fire: using it for your work, and cooling it before it reaches your words.",
     "foods_favour": [
       {
-        "item": "Lauki (bottle gourd)",
-        "why": "Cool and moist by Unani reckoning; the classic gentle vegetable for a warm, dry mizaj."
+        "item": "Mild gourds such as bottle gourd, winter melon or chayote",
+        "why": "Cool and moist by Unani reckoning; the classic gentle vegetable for a warm, dry temperament."
       },
       {
         "item": "Cucumber",
@@ -52,8 +52,8 @@
         "why": "Cool and moist; traditionally eaten between meals in summer to settle heat and thirst."
       },
       {
-        "item": "Yogurt and raita",
-        "why": "Cool and moist; a bowl of raita beside spicy food softens its heat."
+        "item": "Yogurt and yogurt dips like tzatziki or raita",
+        "why": "Cool and moist; a spoonful beside spicy food softens its heat."
       },
       {
         "item": "Milk, plain or with soaked almonds",
@@ -64,23 +64,23 @@
         "why": "A classic Unani choice for calming safra; sweet-sour, cooling and refreshing."
       },
       {
-        "item": "Imli (tamarind)",
-        "why": "Classical texts name tamarind as a calmer of safra; enjoy it in sharbat or chutney."
+        "item": "Tamarind",
+        "why": "Classical texts name tamarind as a calmer of safra; enjoy it in a cool drink, a dressing or a sauce."
       },
       {
-        "item": "Sweet pomegranate (anar)",
+        "item": "Sweet pomegranate",
         "why": "Cooling and moistening when sweet; traditionally used for heat and thirst."
       },
       {
-        "item": "Moong dal and khichdi",
+        "item": "Mung beans and soft rice porridge such as congee",
         "why": "Light, cool-leaning and easy on digestion, ideal on hot or stressful days."
       },
       {
-        "item": "Courgette, tori and pumpkin",
+        "item": "Courgette, pumpkin and other squash",
         "why": "Gourds and squash are traditionally cool and moist, keeping meals light and soothing."
       },
       {
-        "item": "Lettuce and chicory (kasni)",
+        "item": "Lettuce and chicory",
         "why": "Both traditionally cool; Unani texts value lettuce for calming a busy, heated mind."
       },
       {
@@ -89,33 +89,33 @@
       },
       {
         "item": "Berries and kiwi",
-        "why": "Sour-sweet and cooling by Unani reasoning; easy supermarket answers to summer heat."
+        "why": "Sour-sweet and cooling by Unani reasoning; easy everyday answers to summer heat."
       },
       {
-        "item": "Barley in soup, or barley flour in roti",
-        "why": "Cool by Unani reckoning and gentle, a good weekday swap for heavy parathas."
+        "item": "Barley in soup or a grain salad",
+        "why": "Cool by Unani reckoning and gentle, a good weekday swap for heavy pastries and fried bread."
       }
     ],
     "foods_limit": [
       {
-        "item": "Red chilli and heavy garam masala",
+        "item": "Red chilli, hot sauce and fiery spice blends",
         "why": "Strongly hot and dry; tradition sees them as fuel for an already blazing fire."
       },
       {
-        "item": "Spicy curries, tikka and barbecue",
-        "why": "Chilli, oil and smoke together; enjoy occasionally with raita and salad, not every week."
+        "item": "Spicy curries, chilli-heavy stir-fries and barbecue",
+        "why": "Chilli, oil and smoke together; enjoy occasionally with yogurt and salad, not every week."
       },
       {
-        "item": "Fried snacks like pakoras, samosas and crisps",
+        "item": "Fried snacks like crisps, fries, fritters and samosas",
         "why": "Hot oil adds heat and dryness and can leave you irritable and thirsty."
       },
       {
-        "item": "Cup after cup of chai and coffee",
+        "item": "Cup after cup of coffee and strong tea",
         "why": "Both are traditionally hot and dry; five cups a day is a classic Fire trap."
       },
       {
-        "item": "Achar and very salty snacks",
-        "why": "Pickles and salt add heat and dryness; a spoonful on the side is plenty."
+        "item": "Spicy pickles and very salty snacks",
+        "why": "Hot pickles and salt add heat and dryness; a spoonful on the side is plenty."
       },
       {
         "item": "Mangoes in excess",
@@ -130,7 +130,7 @@
         "why": "Unani rates honey hot and dry; a teaspoon is fine, spoonfuls are not."
       },
       {
-        "item": "Walnuts, pistachios and dry fruit in summer",
+        "item": "Walnuts, pistachios and dried fruit in summer",
         "why": "Warm and drying; save larger portions for the cooler winter months."
       },
       {
@@ -139,84 +139,84 @@
       }
     ],
     "drinks": [
-      "Lassi, sweet or salted: cool and moist, the classic summer calmer for Fire",
-      "Imli sharbat with little sugar: sour-sweet and traditionally used to settle safra",
+      "A yogurt drink, sweet or salted (lassi, ayran or doogh): cool and moist, the classic summer calmer for Fire",
+      "Tamarind cooler with little sugar, enjoyed from Mexico to Thailand: sour-sweet and traditionally used to settle safra",
       "Coconut water: cooling and hydrating on long, hot afternoons",
-      "Basil seeds (sabja) soaked in lemon water: traditionally cooling and hydrating",
-      "Rose sharbat with less sugar: cooling and calming on summer evenings",
+      "Watermelon juice or a fruit agua fresca with no added sugar: cool, moist and hydrating",
+      "Rose water in chilled water or milk, lightly sweetened: cooling and calming on summer evenings",
       "Cold milk blended with soaked almonds and cardamom: a simple cooler that helps you unwind at night"
     ],
     "spices_herbs": [
-      "Dhania (coriander seeds and leaves): traditionally cool, a gentle everyday base",
-      "Saunf (fennel): chewed after meals, many people find it freshens and settles",
-      "Elaichi (green cardamom): fragrant and light, a calmer alternative to strong masala chai",
-      "Rose water: a few drops in milk, lassi or kheer, traditionally cooling and calming",
-      "Fresh pudina in chutney or raita: refreshing beside spicy food, in small amounts",
+      "Coriander, seeds and fresh leaves: traditionally cool, a gentle everyday base",
+      "Fennel seeds: chewed after meals, many people find they freshen and settle",
+      "Green cardamom: fragrant and light, a calmer flavour than fiery spice blends",
+      "Rose water: a few drops in milk, yogurt or rice pudding, traditionally cooling and calming",
+      "Fresh mint in a yogurt dip or salad: refreshing beside spicy food, in small amounts",
       "Go easy on red chilli, black pepper and dried ginger: keep heat as seasoning, never the main event"
     ],
     "daily_routine": {
-      "morning": "Wake early and move before the day heats up: a walk, a swim or some stretching around sunrise. Don't charge into the day on chai or coffee alone. Have a cooling, steady breakfast such as a roti with yogurt, an egg, soaked almonds or porridge oats with milk. Before opening your inbox or the family group chat, take two minutes to plan the day calmly.",
-      "midday": "Eat lunch on time; a late lunch is when your temper peaks. Choose dal, sabzi, raita and salad over spicy takeaway. Step out of the sun or the stuffy office, sip water steadily rather than gulping it all at once, and take a five-minute pause between back-to-back meetings or lectures.",
+      "morning": "Wake early and move before the day heats up: a walk, a swim or some stretching around sunrise. Don't charge into the day on coffee alone. Have a cooling, steady breakfast such as yogurt with fruit, an egg, soaked almonds or porridge oats with milk. Before opening your inbox or the family group chat, take two minutes to plan the day calmly.",
+      "midday": "Eat lunch on time; a late lunch is when your temper peaks. Choose soup, vegetables, a yogurt dip and salad over spicy takeaway. Step out of the sun or the stuffy office, sip water steadily rather than gulping it all at once, and take a five-minute pause between back-to-back meetings or lectures.",
       "evening": "Use the evening for something that cools rather than competes: a walk after sunset, time with family, or a hobby with no deadline. Keep dinner light and mildly spiced, ideally by 8 pm. Leave politics, office complaints and heated debates away from the dinner table.",
       "sleep": "Your mind races at night, so build a wind-down. Switch off screens 30 to 45 minutes before bed, keep the room cool and dark, and try a glass of cool milk with cardamom. Aim for seven to eight hours. Writing tomorrow's to-do list before bed stops it looping in your head."
     },
     "seasons": {
-      "summer": "Your toughest season. Tradition says safra peaks with the heat, so expect a shorter fuse and stronger thirst, whether it's a Gulf summer or a city heatwave in a home without air conditioning. Drink water, lassi and coconut water through the day, eat gourds, cucumber and watermelon, and cut down on chilli, fried food and chai. Exercise only early morning or late evening.",
-      "rains": "Rain brings relief, but humid weeks can unsettle digestion. Eat freshly cooked, mildly spiced food and skip anything left sitting out. If you live somewhere grey and drizzly much of the year, cool, damp air often suits Fire: enjoy a walk in the rain, then one chai, not four.",
-      "winter": "Usually your happiest season: cool air balances your inner heat, and many Fire people feel clearer and kinder now. Enjoy nuts, carrots, eggs and the occasional halwa. In a long, cold winter, central heating and dry indoor air can parch your skin and lips, so keep drinking water and open a window now and then.",
-      "spring": "Spring warms things up and, for many families, brings weddings and festivals: late nights, rich food and family politics. Pace yourself between functions, choose raita and salad at buffets, and protect your sleep. Hold your opinions on the seating plan until you have eaten."
+      "summer": "Your toughest season. Tradition says safra peaks with the heat, so expect a shorter fuse and stronger thirst, whether it's a desert summer, a steamy tropical one or a city heatwave in a home without air conditioning. Drink water, yogurt drinks and coconut water through the day, eat squash, cucumber and watermelon, and cut down on chilli, fried food and coffee. Exercise only early morning or late evening.",
+      "rains": "Rain brings relief, but humid weeks can unsettle digestion. Eat freshly cooked, mildly spiced food and skip anything left sitting out. If you live somewhere grey and drizzly much of the year, cool, damp air often suits Fire: enjoy a walk in the rain, then one hot drink, not four.",
+      "winter": "Usually your happiest season: cool air balances your inner heat, and many Fire people feel clearer and kinder now. Enjoy nuts, carrots, eggs and the occasional rich pudding. In a long, cold winter, central heating and dry indoor air can parch your skin and lips, so keep drinking water and open a window now and then.",
+      "spring": "Spring warms things up and, for many people, brings weddings, graduations and festivals: late nights, rich food and family politics. Pace yourself between events, choose salad and yogurt dishes at buffets, and protect your sleep. Hold your opinions on the seating plan until you have eaten."
     },
-    "movement": "You have natural energy and a competitive streak, so you'll enjoy sports with a score: badminton, squash, cricket, football or running. Balance them with cooling, calming movement such as swimming, gentle stretching or long evening walks. Unani tradition cautions a warm, dry mizaj against exhausting exercise in the heat, so skip midday workouts in summer and overheated gyms. Stop before you are drained; for you, 'one more set' is often the one that leaves you irritable for the rest of the day.",
+    "movement": "You have natural energy and a competitive streak, so you'll enjoy sports with a score: tennis, squash, football, basketball or running. Balance them with cooling, calming movement such as swimming, gentle stretching or long evening walks. Unani tradition cautions a warm, dry mizaj against exhausting exercise in the heat, so skip midday workouts in summer and overheated gyms. Stop before you are drained; for you, 'one more set' is often the one that leaves you irritable for the rest of the day.",
     "emotional_balance": "Unani counts the emotions (harkat-o-sukoon-e-nafsani) among the six essential factors of health, and anger is the emotion tradition links most closely with safra. Your feelings move fast: you feel slighted, react, and are done in five minutes, while the other person is still hurting. Practise a pause: leave the room, drink a glass of water, splash cool water on your face, then come back to the conversation. Learn to say 'let me think about it' instead of delivering an instant verdict. Make time for activities you are not trying to win. If irritability, anxiety or sleeplessness persist for weeks, speak to a doctor or counsellor; that is strength, not weakness.",
-    "fasting": "Long fasts in hot weather are hardest on a Fire body, whether you keep Ramadan, a vrat, a weekly fast or an intermittent-fasting window. Before the fast, eat slowly and include yogurt, an egg, roti or oats, cucumber and two or three glasses of water spread out. Skip salty, spicy food that leaves you thirsty by noon. Break the fast with water and lassi or fruit, then a light, mildly spiced meal. Expect a shorter temper near the end, and save hard conversations for afterwards.",
+    "fasting": "Long fasts in hot weather are hardest on a Fire body, whether you fast for faith or tradition, keep a weekly fast day or follow an intermittent-fasting window. Before the fast, eat slowly and include yogurt, an egg, bread or oats, cucumber and two or three glasses of water spread out. Skip salty, spicy food that leaves you thirsty by noon. Break the fast with water and a yogurt drink or fruit, then a light, mildly spiced meal. Expect a shorter temper near the end, and save hard conversations for afterwards.",
     "seven_day_menu": [
       {
         "day": 1,
         "breakfast": "Porridge oats cooked in milk with a few soaked almonds",
-        "lunch": "Lauki chana dal, roti and cucumber raita",
-        "dinner": "Moong dal khichdi with yogurt",
+        "lunch": "Gazpacho or a chilled cucumber-yogurt soup, with crusty bread",
+        "dinner": "Moong dal khichdi (soft rice and mung beans) with yogurt",
         "snack": "Watermelon or a bowl of sweet pomegranate"
       },
       {
         "day": 2,
-        "breakfast": "Roti with yogurt, a boiled egg and cucumber slices",
-        "lunch": "Mild chicken soup with courgette and a roti",
-        "dinner": "Mixed vegetable sabzi, roti and salad",
-        "snack": "A glass of lassi or coconut water"
+        "breakfast": "Yogurt with sliced fruit, a boiled egg and cucumber slices",
+        "lunch": "Mild chicken soup with courgette and a slice of bread",
+        "dinner": "Steamed white fish with rice and soft greens",
+        "snack": "A yogurt drink or coconut water"
       },
       {
         "day": 3,
-        "breakfast": "Mild vegetable omelette, one roti and cardamom chai",
-        "lunch": "Tori or courgette sabzi, moong dal, a small portion of rice and raita",
-        "dinner": "Mildly spiced chicken pulao with raita and salad",
+        "breakfast": "Mild vegetable omelette, toast and cardamom tea",
+        "lunch": "Cold rice noodles with cucumber, tofu and a light soy-lime dressing",
+        "dinner": "Mildly spiced chicken and rice with tzatziki and salad",
         "snack": "Cucumber sticks with lemon and a pinch of salt"
       },
       {
         "day": 4,
         "breakfast": "Barley or oat porridge with milk",
-        "lunch": "Pumpkin sabzi with roti and yogurt",
-        "dinner": "Palak paneer, light on chilli, with roti",
-        "snack": "Seasonal fruit chaat with very little chaat masala"
+        "lunch": "Pumpkin soup with bread and a spoonful of yogurt",
+        "dinner": "Spinach with fresh cheese, such as palak paneer or a ricotta bake, light on chilli",
+        "snack": "Seasonal fruit salad with fresh mint"
       },
       {
         "day": 5,
         "breakfast": "Wholewheat toast, a boiled egg and a glass of milk",
-        "lunch": "Mixed dal with rice and kachumber",
+        "lunch": "Mung bean or lentil salad with cucumber, herbs and lemon",
         "dinner": "Mildly spiced baked salmon or white fish with rice and salad",
         "snack": "Coconut water or a bowl of berries"
       },
       {
         "day": 6,
-        "breakfast": "Roti with yogurt and a little gur (jaggery)",
-        "lunch": "Lightly spiced lauki with chicken or chana, and roti",
-        "dinner": "Moong dal with lettuce-cucumber salad and roti",
+        "breakfast": "Overnight oats soaked in milk with grated apple, Swiss Bircher-style",
+        "lunch": "Fresh rice-paper rolls with chicken or tofu, lettuce and herbs",
+        "dinner": "Mild mung bean and courgette stew with a lettuce-cucumber salad",
         "snack": "Cold milk with cardamom and soaked almonds"
       },
       {
         "day": 7,
-        "breakfast": "Weekend: one aloo paratha with plenty of yogurt, no achar",
-        "lunch": "Family biryani: a modest plate with raita and salad",
-        "dinner": "Light chicken soup or moong khichdi",
+        "breakfast": "Weekend: pancakes or a stuffed flatbread with plenty of yogurt and fruit, no hot sauce",
+        "lunch": "Family feast, from paella to jollof rice to a barbecue: a modest plate with salad",
+        "dinner": "Light chicken soup or plain rice congee",
         "snack": "Watermelon in summer, oranges in winter"
       }
     ],
@@ -224,15 +224,15 @@
       "Snapping at family over small things, then feeling guilty an hour later.",
       "Feeling hot, thirsty and restless even when everyone else is comfortable.",
       "Lying awake replaying conversations or running tomorrow's to-do list.",
-      "A burning 'garmi' feeling after spicy or oily meals that seems to visit more often.",
+      "A burning, overheated feeling after spicy or oily meals that seems to visit more often.",
       "Impatience with everyone's pace: traffic, queues, colleagues, even your own family."
     ],
     "with_other_mizaj": {
       "damvi": "A lively, warm match. Air (Damvi) brings an easy cheerfulness that softens your intensity, and your focus helps them finish what they start. You share heat, though, so arguments can ignite quickly. Agree on a cooling-off rule, keep serious talks for after meals, and let them run the social calendar while you run the plan.",
-      "safravi": "Two Fire spouses can build an empire or burn the kitchen down. You understand each other's ambition and pace, but nobody is naturally cooling the room. Take turns stepping back in arguments, divide responsibilities clearly so you are not competing, and schedule rest as seriously as you schedule work.",
+      "safravi": "Two Fire people, whether spouses, business partners or a parent and teenager, can build an empire or burn the kitchen down. You understand each other's ambition and pace, but nobody is naturally cooling the room. Take turns stepping back in arguments, divide responsibilities clearly so you are not competing, and schedule rest as seriously as you schedule work.",
       "balghami": "Unani tradition sees this as a classic balance: the cool, moist calm of Water (Balghami) settles your fire, and your energy lifts their pace. You may find them slow; they may find you exhausting. Respect the difference. Let them take time to decide, and let yourself be cooled by their patience rather than irritated by it.",
-      "saudavi": "With Earth (Saudavi) you share dryness, so both of you can be precise, critical and serious. Their coolness tempers your heat, and their careful planning pairs well with your drive. The risk is a home that feels like an office. Make room for softness: compliments, shared meals and conversations that aren't about fixing anything."
+      "saudavi": "With Earth (Saudavi) you share dryness, so both of you can be precise, critical and serious. Their coolness tempers your heat, and their careful planning pairs well with your drive. The risk is a relationship that feels like a performance review. Make room for softness: compliments, shared meals and conversations that aren't about fixing anything."
     }
   },
-  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered hakeem."
+  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered practitioner of traditional medicine."
 }
