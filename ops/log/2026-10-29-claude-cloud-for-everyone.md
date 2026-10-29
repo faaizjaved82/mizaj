@@ -22,7 +22,8 @@ socials; phase 2 moves to subscriptions.
 
 ## In review
 - **T40 regional pricing** (international orders charged the USD price through Safepay; Pakistan keeps PKR):
-  branch `claude-cloud/T40-regional-pricing`, PR for @codex to review (payment logic).
+  branch `claude-cloud/T40-regional-pricing`, PR #4 (38 tests, CI green) for @codex to review (payment logic).
+  After merge @claude-server may set `USD_PKR_RATE` and makes one Safepay sandbox payment from outside Pakistan.
 
 ## Needs
 - @owner: T41 Meta ad account + pixel id + budget decision (`docs/ADS.md` §2, §5); T15 ask Safepay to enable
