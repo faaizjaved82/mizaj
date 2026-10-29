@@ -61,8 +61,8 @@
       "id": "p05",
       "dim": "EI",
       "key": -1,
-      "en": "I'd rather enjoy a quiet cup of chai on my own than join a crowded gathering.",
-      "ur": "بھری محفل میں جانے کے بجائے اکیلے بیٹھ کر سکون سے چائے پینا مجھے زیادہ اچھا لگتا ہے۔"
+      "en": "I'd rather enjoy a quiet cup of tea or coffee on my own than join a crowded gathering.",
+      "ur": "بھری محفل میں جانے کے بجائے اکیلے بیٹھ کر سکون سے چائے یا کافی پینا مجھے زیادہ اچھا لگتا ہے۔"
     },
     {
       "id": "p06",
@@ -124,8 +124,8 @@
       "id": "p14",
       "dim": "SN",
       "key": -1,
-      "en": "When I watch a drama or read a story, I enjoy finding the hidden meaning more than following what happens.",
-      "ur": "ڈراما دیکھتے یا کہانی پڑھتے ہوئے، مجھے واقعات سے زیادہ اس کا چھپا ہوا مطلب ڈھونڈنے میں مزہ آتا ہے۔"
+      "en": "When I watch a film or series, or read a story, I enjoy finding the hidden meaning more than following what happens.",
+      "ur": "فلم یا سیریز دیکھتے یا کہانی پڑھتے ہوئے، مجھے واقعات سے زیادہ اس کا چھپا ہوا مطلب ڈھونڈنے میں مزہ آتا ہے۔"
     },
     {
       "id": "p15",
@@ -194,8 +194,8 @@
       "id": "p24",
       "dim": "JP",
       "key": -1,
-      "en": "A last-minute late-night chai run with friends sounds great to me.",
-      "ur": "دوستوں کے ساتھ اچانک بن جانے والا رات گئے چائے کا پروگرام مجھے بہت اچھا لگتا ہے۔"
+      "en": "A last-minute late-night snack run with friends sounds great to me.",
+      "ur": "دوستوں کے ساتھ اچانک بن جانے والا رات گئے کچھ کھانے پینے کا پروگرام مجھے بہت اچھا لگتا ہے۔"
     },
     {
       "id": "p25",
@@ -208,8 +208,8 @@
       "id": "p26",
       "dim": "SN",
       "key": -1,
-      "en": "Over chai, I enjoy talking about big ideas, like what cities or technology will look like in the future.",
-      "ur": "چائے پر بڑے موضوعات پر بات کرنا مجھے بہت اچھا لگتا ہے، جیسے مستقبل میں شہر یا ٹیکنالوجی کیسی ہو گی۔"
+      "en": "Over coffee or dinner, I enjoy talking about big ideas, like what cities or technology will look like in the future.",
+      "ur": "کافی یا کھانے پر بڑے موضوعات پر بات کرنا مجھے بہت اچھا لگتا ہے، جیسے مستقبل میں شہر یا ٹیکنالوجی کیسی ہو گی۔"
     },
     {
       "id": "p27",
@@ -250,7 +250,7 @@
       "id": "p32",
       "dim": "JP",
       "key": 1,
-      "en": "For a shaadi or a big event, I like having my outfit ready well before the day.",
+      "en": "For a wedding or a big event, I like having my outfit ready well before the day.",
       "ur": "کسی شادی یا بڑی تقریب کے لیے اپنا جوڑا کافی پہلے سے تیار رکھنا مجھے پسند ہے۔"
     },
     {
@@ -285,8 +285,8 @@
       "id": "p37",
       "dim": "EI",
       "key": -1,
-      "en": "In the family WhatsApp group, I mostly read along rather than post.",
-      "ur": "خاندانی واٹس ایپ گروپ میں میرا زیادہ کام پڑھنا ہوتا ہے، لکھنا کم۔"
+      "en": "In the family group chat, I mostly read along rather than post.",
+      "ur": "خاندانی گروپ چیٹ میں میرا زیادہ کام پڑھنا ہوتا ہے، لکھنا کم۔"
     },
     {
       "id": "p38",
@@ -313,8 +313,8 @@
       "id": "p41",
       "dim": "EI",
       "key": -1,
-      "en": "A free weekend at home with a good book, drama or hobby sounds perfect to me.",
-      "ur": "گھر پر کسی اچھی کتاب، ڈرامے یا مشغلے کے ساتھ فارغ ویک اینڈ مجھے بہترین لگتا ہے۔"
+      "en": "A free weekend at home with a good book, series or hobby sounds perfect to me.",
+      "ur": "گھر پر کسی اچھی کتاب، سیریز یا مشغلے کے ساتھ فارغ ویک اینڈ مجھے بہترین لگتا ہے۔"
     },
     {
       "id": "p42",

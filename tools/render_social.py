@@ -1,5 +1,7 @@
 """Render the social plan into JPEG slides + queue files.  Usage: python tools/render_social.py [plan.json] [id,id]
 
+An ads plan (`"kind": "ads"`, e.g. social/plan/ads.json) renders feed and story images into social/ads/ instead.
+
 Look: the Mizaj Deck (collectible cards on an aura) for type and element posts, Field Notes (paper, ink,
 marginalia) for editorial posts. Slides are 1080x1440 (3:4, the Instagram grid); key content sits inside the
 central 4:5 area so the 1080x1350 crops for the Instagram API lose nothing.
@@ -176,13 +178,42 @@ def render_post(p: dict) -> dict:
     return item
 
 
+def render_ad(p: dict) -> None:
+    """An ad: every slide as a 4:5 feed image (feed-NN.jpg) and a 9:16 story/reel image (story-NN.jpg), plus copy.txt.
+    Ads never go into the posting queue; the owner uploads them in Ads Manager (docs/ADS.md)."""
+    out_dir = ROOT / "social" / "ads" / p["id"]
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for old in out_dir.glob("*.jpg"):
+        old.unlink()
+    pel = _post_el(p)
+    n = len(p["slides"])
+    parts = [slide_html(s, i + 1, n, f"feed-{i + 1:02d}.jpg", pel) for i, s in enumerate(p["slides"])]
+    parts += [slide_html(s, i + 1, n, f"story-{i + 1:02d}.jpg", pel).replace('<div class="slide ', '<div class="slide tall ', 1)
+              for i, s in enumerate(p["slides"])]
+    page = ROOT / "tools" / f".render-{p['id']}.html"
+    page.write_text(f'<!doctype html><meta charset="utf-8">{FONTS}<link rel="stylesheet" href="slides.css"><body>{"".join(parts)}</body>',
+                    encoding="utf-8")
+    subprocess.run(["node", str(ROOT / "tools" / "shoot.cjs"), str(page), str(out_dir)], check=True,
+                   cwd=str(ROOT / "tools"), stdout=subprocess.DEVNULL)
+    page.unlink()
+    for i in range(n):
+        f = out_dir / f"feed-{i + 1:02d}.jpg"
+        with Image.open(f) as im:
+            im.crop((0, 45, 1080, 1395)).save(f, quality=82)
+    url = f"https://mizaj.pk{p['landing']}?utm_source={{{{site_source_name}}}}&utm_medium=paid&utm_campaign={p['segment']}&utm_content={p['id']}"
+    (out_dir / "copy.txt").write_text(
+        f"Ad: {p['id']}  ·  audience: {p['segment']}\n\nPrimary text:\n{p['primary_text']}\n\nHeadline: {p['headline']}\n"
+        f"Description: {p.get('description', '')}\nButton: {p.get('button', 'Learn more')}\nWebsite URL: {url}\n", encoding="utf-8")
+
+
 def main() -> None:
     plan = json.loads(Path(sys.argv[1] if len(sys.argv) > 1 else ROOT / "social" / "plan" / "launch30.json").read_text())
     only = set(sys.argv[2].split(",")) if len(sys.argv) > 2 else None
-    for p in plan["posts"]:
+    ads = plan.get("kind") == "ads"
+    for p in plan.get("ads" if ads else "posts", []):
         if only and p["id"] not in only:
             continue
-        render_post(p)
+        render_ad(p) if ads else render_post(p)
         print("rendered", p["id"])
 
 

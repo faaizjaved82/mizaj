@@ -560,9 +560,9 @@
       try {
         const d = await api("/api/fun/zodiac?dob=" + encodeURIComponent($("#dob").value) + "&type=" + encodeURIComponent($("#btype").value));
         const s = d.sign, bn = d.birth_number;
-        out.innerHTML = `<div class="card"><span class="eyebrow">Your burj</span><h2>${esc(s.symbol)} ${esc(s.en)} · ${esc(s.roman)} <span class="ur">${esc(s.ur)}</span></h2>
+        out.innerHTML = `<div class="card"><span class="eyebrow">Your sign · for fun</span><h2>${esc(s.symbol)} ${esc(s.en)}</h2>
           <p class="muted">${esc(s.element)} · ${esc(s.vibe)}</p><p>${esc(s.personality)}</p>
-          <p><b>In the family:</b> ${esc(s.in_a_family)}</p><p class="notice">😂 ${esc(s.meme)}</p></div>` +
+          <p><b>With family and friends:</b> ${esc(s.in_a_family)}</p><p class="notice">😂 ${esc(s.meme)}</p></div>` +
           (d.mashup ? `<div class="card"><span class="eyebrow">${esc(s.en)} × ${esc(d.type.code)} ${esc(d.type.name)}</span><h3>${esc(d.mashup)}</h3></div>` :
             `<div class="card"><p>Know your personality type? <a href="/test/personality/">Take the free test</a> and come back for your mash-up.</p></div>`) +
           (bn && bn.meaning ? `<div class="card"><span class="eyebrow">Birth number</span><h3>${esc(bn.number)} · ${esc(bn.meaning.title)}</h3><p>${esc(bn.meaning.personality)}</p></div>` : "") +
@@ -582,12 +582,12 @@
         const d = await api("/api/fun/numerology?" + q);
         const n = d.name_number, mm = n.meaning || {};
         out.innerHTML = `<div class="card"><span class="eyebrow">${n.system === "abjad" ? "Abjad value" : "Name number"}: ${esc(n.total)}</span>
-          <h2>${esc(n.number)} · ${esc(mm.title || "")} <span class="ur">${esc(mm.ur_title || "")}</span></h2><p>${esc(mm.personality || "")}</p>
+          <h2>${esc(n.number)} · ${esc(mm.title || "")}</h2><p>${esc(mm.personality || "")}</p>
           <p><b>Strengths:</b> ${esc(mm.strengths || "")}</p><p><b>Watch:</b> ${esc(mm.watch || "")}</p><p class="small muted">Colour: ${esc(mm.colour || "")} · Day: ${esc(mm.day || "")}</p></div>` +
           (d.birth_number && d.birth_number.meaning ? `<div class="card"><span class="eyebrow">Birth number</span><h3>${esc(d.birth_number.number)} · ${esc(d.birth_number.meaning.title)}</h3><p>${esc(d.birth_number.meaning.personality)}</p></div>` : "") +
           `<button class="btn btn-wa" id="adad-share">Share</button>`;
         out.classList.remove("hidden");
-        $("#adad-share").addEventListener("click", () => { track("share_click", { kind: "adad" }); window.open("https://wa.me/?text=" + encodeURIComponent(`My name's Abjad number is ${n.number}: ${mm.title || ""} ✨ Find yours: ${location.origin}/adad/?utm_source=whatsapp`), "_blank"); });
+        $("#adad-share").addEventListener("click", () => { track("share_click", { kind: "adad" }); window.open("https://wa.me/?text=" + encodeURIComponent(`My name number is ${n.number}: ${mm.title || ""} ✨ Find yours: ${location.origin}/adad/?utm_source=whatsapp`), "_blank"); });
       } catch (ex) { err.textContent = ex.message; }
     });
   }

@@ -13,7 +13,7 @@
       ],
       "bullets": [
         "Your type in depth: inner world, 6 superpowers, 5 blind spots",
-        "Love, marriage and rishta tips for your type",
+        "Love, marriage and relationship tips for your type",
         "Family, friendship and how to handle expectations",
         "10 careers that fit, with the route into each",
         "Your temperament guide: foods, routine, seasons, 7-day menu",
@@ -22,7 +22,7 @@
     },
     "career": {
       "name": "Career Compass",
-      "short": "For students and parents: subjects, degrees and careers that fit",
+      "short": "For students, parents and career changers: study paths and careers that fit",
       "price": 999,
       "list_price": 2000,
       "usd": 14,
@@ -34,11 +34,11 @@
         "Matched careers with the route into each and the global outlook",
         "Which subjects and study paths suit you",
         "Remote and freelance options that need no expensive degree",
-        "A page written for your parents"
+        "A page written for your parents or family"
       ]
     },
     "couple": {
-      "name": "Mizaj Milan: Couple & Rishta Report",
+      "name": "Mizaj Milan: Couple Report",
       "short": "How two people fit, clash and grow together",
       "price": 1299,
       "list_price": 2500,

@@ -1,0 +1,11 @@
+Ad: a05-marketers-64-audiences  ·  audience: marketers
+
+Primary text:
+Your audience isn't one persona. It's 16 types and 4 temperaments, each with its own reasons to click.
+
+Learn the language of personality: free type guides, and a free test to start with yourself.
+
+Headline: Your audience has 64 personalities
+Description: Free type guides and test
+Button: Learn more
+Website URL: https://mizaj.pk/types/?utm_source={{site_source_name}}&utm_medium=paid&utm_campaign=marketers&utm_content=a05-marketers-64-audiences

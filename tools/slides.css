@@ -85,3 +85,9 @@ body { background: #333; font-family: "Manrope", sans-serif; }
 .fan.backs .fc .num { font: 700 120px "Fraunces", serif; letter-spacing: 0; position: relative; }
 .og .dcard { box-shadow: 0 20px 50px rgba(0,0,0,.4); }
 .og .fan { height: 420px; margin-top: 0; }
+
+/* 9:16 ad and story variant: same slide, taller, with Instagram/TikTok UI safe zones */
+.slide.tall { height: 1920px; padding: 290px 96px 440px; }
+.slide.tall .foot { bottom: 330px; }
+.slide.tall.cardslide { padding-top: 260px; }
+.slide.tall .minis { flex: 0 0 auto; height: 1060px; }

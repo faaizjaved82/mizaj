@@ -1,0 +1,240 @@
+{
+  "kind": "ads",
+  "note": "Phase 1 ad creatives, one per audience. Render with: python tools/render_social.py social/plan/ads.json  -> social/ads/<id>/ (feed-NN.jpg 4:5, story-NN.jpg 9:16, copy.txt). Playbook: docs/ADS.md",
+  "ads": [
+    {
+      "id": "a01-everyone-pull-your-card",
+      "segment": "everyone",
+      "landing": "/test/personality/",
+      "primary_text": "16 personality types. 4 elements. 64 cards. Which one are you?\n\nA free 8-minute test that explains how you think, decide, recharge and get along with people, plus the four temperaments described by Hippocrates and Ibn Sina. No sign-up.",
+      "headline": "Pull your card. It's free.",
+      "description": "8 minutes · no sign-up",
+      "button": "Take the test",
+      "slides": [
+        {
+          "kind": "cta",
+          "title": "Pull your card.",
+          "subtitle": "16 types × 4 elements = 64 cards. Free, 8 minutes."
+        }
+      ]
+    },
+    {
+      "id": "a02-students-what-fits",
+      "segment": "students",
+      "landing": "/career/",
+      "primary_text": "Choosing subjects, a degree or a first job? Don't pick because a friend did.\n\nCareer Compass matches what you enjoy and how you think to real careers and the route into each. Free, 4 minutes.",
+      "headline": "What should you actually study?",
+      "description": "Free interest test · 4 minutes",
+      "button": "Take the test",
+      "slides": [
+        {
+          "kind": "quote",
+          "text": "Pick the path that fits you, not the one everyone expects.",
+          "note": "Career Compass · free"
+        },
+        {
+          "kind": "cta",
+          "title": "Find what fits.",
+          "subtitle": "Your interest code + your type, matched to real careers."
+        }
+      ]
+    },
+    {
+      "id": "a03-professionals-planner-vs-improviser",
+      "segment": "professionals",
+      "landing": "/test/personality/",
+      "primary_text": "One colleague has the plan in a spreadsheet by Monday. Another improvises and somehow it works.\n\nFind your type in 8 minutes: how you work, lead, decide and handle pressure, and how to work with everyone else.",
+      "headline": "Planner or improviser?",
+      "description": "Free personality test",
+      "button": "Take the test",
+      "slides": [
+        {
+          "kind": "versus",
+          "title": "Monday, 9am",
+          "a": "ESTJ",
+          "b": "ENFP",
+          "a_text": "Agenda sent, roles assigned, deadline in the calendar.",
+          "b_text": "Three new ideas before the coffee. One of them is brilliant."
+        },
+        {
+          "kind": "cta",
+          "title": "Which one are you?",
+          "subtitle": "Free, 8 minutes. Then see how to work with every other type."
+        }
+      ]
+    },
+    {
+      "id": "a04-educators-every-class",
+      "segment": "educators",
+      "landing": "/schools/",
+      "primary_text": "Every class has a Strategist, a Poet, a Host and a Daredevil. They learn differently.\n\nCareer Compass for schools gives each student their interest code and personality type, a page for parents and a class summary for you.",
+      "headline": "Understand every learner",
+      "description": "For teachers and schools",
+      "button": "Learn more",
+      "slides": [
+        {
+          "kind": "grid",
+          "title": "Four students, one lesson",
+          "cells": [
+            {
+              "code": "INTJ",
+              "text": "Asks why before what. Give them the big picture first."
+            },
+            {
+              "code": "INFP",
+              "text": "Learns through stories and meaning. Grades follow when it matters to them."
+            },
+            {
+              "code": "ESFJ",
+              "text": "Thrives in groups and helps everyone else catch up."
+            },
+            {
+              "code": "ESTP",
+              "text": "Learns by doing. Hand them the experiment, not the worksheet."
+            }
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Every learner, understood.",
+          "subtitle": "Career Compass for schools: student reports, parent pages, class summaries."
+        }
+      ]
+    },
+    {
+      "id": "a05-marketers-64-audiences",
+      "segment": "marketers",
+      "landing": "/types/",
+      "primary_text": "Your audience isn't one persona. It's 16 types and 4 temperaments, each with its own reasons to click.\n\nLearn the language of personality: free type guides, and a free test to start with yourself.",
+      "headline": "Your audience has 64 personalities",
+      "description": "Free type guides and test",
+      "button": "Learn more",
+      "slides": [
+        {
+          "kind": "grid",
+          "title": "Same product, four reasons to buy",
+          "cells": [
+            {
+              "code": "ISTJ",
+              "text": "Wants proof: reviews, guarantees, the fine print."
+            },
+            {
+              "code": "ENFP",
+              "text": "Wants the story and the feeling. Sold at the first emoji."
+            },
+            {
+              "code": "ENTJ",
+              "text": "Wants results and time saved. Skip the small talk."
+            },
+            {
+              "code": "ISFP",
+              "text": "Wants it beautiful and true to their taste."
+            }
+          ]
+        },
+        {
+          "kind": "cta",
+          "title": "Know who you're talking to.",
+          "subtitle": "Start with your own card: free, 8 minutes."
+        }
+      ]
+    },
+    {
+      "id": "a06-families-fire-plus-water",
+      "segment": "couples-families",
+      "landing": "/milan/",
+      "primary_text": "Why does one of you plan the holiday and the other just packs?\n\nMizaj Milan: both of you take the free test and see where you click, where you clash and how to handle it. For partners, parents and children, siblings and friends.",
+      "headline": "See how you two fit",
+      "description": "Free match score for two",
+      "button": "Learn more",
+      "slides": [
+        {
+          "kind": "versus",
+          "title": "Fire + Water at home",
+          "a": "safravi",
+          "b": "balghami",
+          "join": "+",
+          "a_text": "Decides in seconds, books it, moves on.",
+          "b_text": "Keeps the peace and remembers what everyone needs."
+        },
+        {
+          "kind": "cta",
+          "title": "Test your match.",
+          "subtitle": "Partner, parent, sibling or best friend. Free for two."
+        }
+      ]
+    },
+    {
+      "id": "a07-every-age-never-too-late",
+      "segment": "every-age",
+      "landing": "/test/personality/",
+      "primary_text": "It's never too early or too late to understand yourself: your first job, your fifth, or the years after work.\n\nA free, thoughtful personality test with large, clear pages. 8 minutes, no sign-up.",
+      "headline": "Meet yourself again",
+      "description": "Free · 8 minutes",
+      "button": "Take the test",
+      "slides": [
+        {
+          "kind": "quote",
+          "text": "You've known yourself for years. Ever met yourself on paper?",
+          "note": "Mizaj · free personality test"
+        },
+        {
+          "kind": "cta",
+          "title": "Pull your card.",
+          "subtitle": "Free, 8 minutes, no sign-up."
+        }
+      ]
+    },
+    {
+      "id": "a08-element-oldest-test",
+      "segment": "everyone-element",
+      "landing": "/test/mizaj/",
+      "primary_text": "Before the four letters, there were four elements. Hippocrates described them, Galen refined them, and Ibn Sina taught them for 600 years.\n\nWarm or cool? Find your element in 4 minutes, free.",
+      "headline": "The world's oldest personality test",
+      "description": "Free · 4 minutes",
+      "button": "Take the test",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "The world's oldest personality test.",
+          "subtitle": "Air, Fire, Water or Earth? Hippocrates, Galen and Ibn Sina had a theory about you.",
+          "note": "Field notes · free test",
+          "hand": "4 minutes →"
+        },
+        {
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Fire: decides fast, finishes first, forgives fast."
+        }
+      ]
+    },
+    {
+      "id": "a09-retarget-full-report",
+      "segment": "retargeting",
+      "landing": "/pricing/",
+      "primary_text": "You've pulled your card. The full report is where it gets personal: relationships, work and career routes, stress and reset, your element's daily rhythm and a 30-day growth plan.\n\nOne-time payment. 7-day refund promise.",
+      "headline": "Your card is only the start",
+      "description": "Full report · one-time payment",
+      "button": "Learn more",
+      "slides": [
+        {
+          "kind": "list",
+          "title": "What's in your full report",
+          "items": [
+            "Your 6 superpowers and 5 blind spots",
+            "Love, family and friendship",
+            "10 careers with the route into each",
+            "Your element's food and daily rhythm",
+            "A 30-day growth plan and a letter to you"
+          ],
+          "note": "The Mizaj Deck · full report"
+        },
+        {
+          "kind": "cta",
+          "title": "Read the rest of you.",
+          "subtitle": "One-time payment · 7-day refund promise."
+        }
+      ]
+    }
+  ]
+}

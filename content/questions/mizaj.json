@@ -151,8 +151,8 @@
       "ur": "اختیار ہو تو آپ کا ہاتھ عموماً کس طرف جاتا ہے؟",
       "options": [
         {
-          "en": "Cold things: lassi, sherbet, chilled fruit",
-          "ur": "ٹھنڈی چیزیں: لسی، شربت، ٹھنڈے پھل",
+          "en": "Cold things: iced drinks, smoothies, chilled fruit",
+          "ur": "ٹھنڈی چیزیں: یخ مشروبات، اسموتھی، ٹھنڈے پھل",
           "h": 2,
           "m": 0
         },
@@ -163,8 +163,8 @@
           "m": 0
         },
         {
-          "en": "Hot things: chai, soup, warm food, even in summer",
-          "ur": "گرم چیزیں: چائے، سوپ، گرم کھانا، گرمیوں میں بھی",
+          "en": "Hot things: tea, coffee, soup, warm food, even in summer",
+          "ur": "گرم چیزیں: چائے، کافی، سوپ، گرم کھانا، گرمیوں میں بھی",
           "h": -2,
           "m": 0
         }
@@ -367,8 +367,8 @@
     {
       "id": "m14",
       "topic": "heavy_food",
-      "en": "How do you feel after a heavy, oily meal, like a wedding feast or a paratha breakfast?",
-      "ur": "شادی کی دعوت یا پراٹھے والے ناشتے جیسا بھاری، چکنائی والا کھانا کھانے کے بعد آپ کو کیسا محسوس ہوتا ہے؟",
+      "en": "How do you feel after a heavy, oily meal, like a holiday feast or a big fried breakfast?",
+      "ur": "تہوار کی دعوت یا تلے ہوئے بڑے ناشتے جیسا بھاری، چکنائی والا کھانا کھانے کے بعد آپ کو کیسا محسوس ہوتا ہے؟",
       "options": [
         {
           "en": "Fine; I digest it easily",
@@ -649,8 +649,8 @@
       "ur": "کس طرح کا موسم آپ کو زیادہ پریشان کرتا ہے؟",
       "options": [
         {
-          "en": "Humid, sticky days, like the monsoon or a muggy summer",
-          "ur": "مرطوب اور چپچپے دن، جیسے ساون یا حبس والی گرمیاں",
+          "en": "Humid, sticky days, like a tropical rainy season or a muggy summer",
+          "ur": "مرطوب اور چپچپے دن، جیسے برسات کا موسم یا حبس والی گرمیاں",
           "h": 0,
           "m": 2
         },

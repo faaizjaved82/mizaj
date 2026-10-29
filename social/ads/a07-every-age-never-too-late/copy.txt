@@ -1,0 +1,11 @@
+Ad: a07-every-age-never-too-late  ·  audience: every-age
+
+Primary text:
+It's never too early or too late to understand yourself: your first job, your fifth, or the years after work.
+
+A free, thoughtful personality test with large, clear pages. 8 minutes, no sign-up.
+
+Headline: Meet yourself again
+Description: Free · 8 minutes
+Button: Take the test
+Website URL: https://mizaj.pk/test/personality/?utm_source={{site_source_name}}&utm_medium=paid&utm_campaign=every-age&utm_content=a07-every-age-never-too-late

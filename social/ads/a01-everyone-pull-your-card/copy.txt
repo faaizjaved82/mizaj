@@ -1,0 +1,11 @@
+Ad: a01-everyone-pull-your-card  ·  audience: everyone
+
+Primary text:
+16 personality types. 4 elements. 64 cards. Which one are you?
+
+A free 8-minute test that explains how you think, decide, recharge and get along with people, plus the four temperaments described by Hippocrates and Ibn Sina. No sign-up.
+
+Headline: Pull your card. It's free.
+Description: 8 minutes · no sign-up
+Button: Take the test
+Website URL: https://mizaj.pk/test/personality/?utm_source={{site_source_name}}&utm_medium=paid&utm_campaign=everyone&utm_content=a01-everyone-pull-your-card

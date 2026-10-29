@@ -4,7 +4,7 @@
       "name": "Realistic",
       "nickname": "The Doer",
       "ur": "عملی",
-      "summary": "Realistic people think with their hands. You like seeing a result you can touch: a circuit that works, a building that stands, a garden that grows, a car that starts on the first try. You would rather fix the bike than write an essay about it. At school you probably enjoyed practicals more than theory, and you are often the one relatives call when the Wi-Fi, the TV or the car stops working. You value skill, competence and getting things done, and you are happiest with clear problems, tools, machines, outdoor work or physical activity.",
+      "summary": "Realistic people think with their hands. You like seeing a result you can touch: a circuit that works, a building that stands, a garden that grows, a car that starts on the first try. You would rather fix the bike than write an essay about it. At school you probably enjoyed practicals more than theory, and you are often the one friends, neighbours or relatives call when the Wi-Fi, the TV or the car stops working. You value skill, competence and getting things done, and you are happiest with clear problems, tools, machines, outdoor work or physical activity.",
       "strengths": [
         "Hands-on problem solving",
         "Mechanical and technical aptitude",
@@ -16,12 +16,12 @@
         {
           "title": "Civil Engineer",
           "route": "Accredited civil engineering degree (BEng, BSc or BE), then supervised work experience towards a professional licence (PE, CEng or P.Eng), which differs by country.",
-          "outlook": "Steady worldwide: housing, transport, water and climate-resilient infrastructure all need engineers, and Gulf megaprojects keep hiring. AI speeds up design, not site judgement."
+          "outlook": "Steady worldwide: housing, transport, water and climate-resilient infrastructure all need engineers, and big projects on every continent keep hiring. AI speeds up design, not site judgement."
         },
         {
           "title": "Mechanical Engineer",
-          "route": "Accredited mechanical engineering degree; degree apprenticeships (UK) and co-op programmes (Canada, US) let you earn while you study. Chartered or licensed status comes after experience.",
-          "outlook": "Steady in manufacturing, energy, HVAC and automotive; electric vehicles, clean energy and Gulf project roles are the growth areas."
+          "route": "Accredited mechanical engineering degree, or a degree apprenticeship or co-op programme that lets you earn while you study. Chartered or licensed status comes after experience.",
+          "outlook": "Steady in manufacturing, energy, HVAC and automotive; electric vehicles, clean energy and large infrastructure projects are the growth areas."
         },
         {
           "title": "Electrical / Power Engineer",
@@ -36,12 +36,12 @@
         {
           "title": "Solar PV Technician / Installer",
           "route": "No degree needed: a short solar installation course (weeks to months), on-the-job training and whatever electrical or safety certification your country requires.",
-          "outlook": "Booming: rooftop and commercial solar is one of the world's fastest-growing trades in 2026, from Texas to the Gulf to South Asia."
+          "outlook": "Booming: rooftop and commercial solar is one of the world's fastest-growing trades in 2026, wherever the sun shines and power bills bite."
         },
         {
           "title": "Electrician / HVAC Technician",
-          "route": "Paid apprenticeship or vocational college course after school, then a trade licence; the number of training years and licensing rules differ by country and state.",
-          "outlook": "Constant demand everywhere; heat pumps, EV chargers and Gulf construction keep skilled trades short of people, and AI can't rewire a house."
+          "route": "Paid apprenticeship or vocational college course, after school or later in life, then a trade licence; the number of training years and licensing rules differ by country and state.",
+          "outlook": "Constant demand everywhere; heat pumps, EV chargers and new construction keep skilled trades short of people, and AI can't rewire a house."
         },
         {
           "title": "Auto & EV Technician",
@@ -65,8 +65,8 @@
         },
         {
           "title": "Chef / Culinary Professional",
-          "route": "Culinary school diploma or a kitchen apprenticeship straight after school; many top chefs learn entirely on the job, working up from prep cook.",
-          "outlook": "Restaurants, cloud kitchens, hotels and Gulf hospitality keep demand steady, and desi food keeps winning new fans worldwide."
+          "route": "Culinary school diploma or a kitchen apprenticeship; many top chefs learn entirely on the job, working up from prep cook, and plenty switch in from other careers.",
+          "outlook": "Restaurants, delivery kitchens, hotels and tourism keep demand steady, and cuisines from every corner of the world keep winning new fans."
         },
         {
           "title": "Mobile & Electronics Repair Technician",
@@ -74,13 +74,13 @@
           "outlook": "Every city needs one; right-to-repair laws and pricier phones mean skilled technicians often grow into their own shop."
         }
       ],
-      "subjects": "Maths and Physics (plus Chemistry or Further Maths) at A-level, IB or advanced high-school level for engineering; Biology, Chemistry or Geography for agriculture; Design & Technology or a vocational or technical course for trades and apprenticeships."
+      "subjects": "Maths and Physics (plus Chemistry) at A-level, IB or advanced high-school level for engineering; Biology, Chemistry or Geography for agriculture; Design & Technology or a vocational or technical course for trades and apprenticeships. Changing careers? Foundation and bridging courses fill the gaps."
     },
     "I": {
       "name": "Investigative",
       "nickname": "The Investigator",
       "ur": "تحقیقی",
-      "summary": "Investigative people need to know why. You enjoy puzzles, patterns and questions without easy answers, and you would rather understand a problem fully than rush a quick fix. You may be the student who argues with the textbook, the cousin who fact-checks every forward in the family WhatsApp group, or the one who reads the leaflet before taking any medicine. You value logic, evidence and independence, and you are happiest when you can analyse, research, experiment and think deeply without constant interruption.",
+      "summary": "Investigative people need to know why. You enjoy puzzles, patterns and questions without easy answers, and you would rather understand a problem fully than rush a quick fix. You may be the student who argues with the textbook, the colleague who asks for the data behind every decision, or the relative who fact-checks every forward in the family group chat. You value logic, evidence and independence, and you are happiest when you can analyse, research, experiment and think deeply without constant interruption.",
       "strengths": [
         "Analytical and logical thinking",
         "Curiosity and a love of learning",
@@ -91,7 +91,7 @@
       "careers": [
         {
           "title": "Doctor",
-          "route": "Medical degree straight after school (MBBS or MBChB) or after a first degree (MD in the US and Canada), then residency and licensing exams that differ by country.",
+          "route": "A medical degree, either straight after school or after a first degree (graduate-entry medicine), then supervised training and licensing exams that differ by country.",
           "outlook": "Always needed; competition for seats and specialist training is intense everywhere, and AI is taking on paperwork and imaging support, not patient care."
         },
         {
@@ -127,7 +127,7 @@
         {
           "title": "Clinical Psychologist",
           "route": "Psychology degree, then a master's or doctorate in clinical psychology with supervised practice; titles and requirements are regulated differently in each country.",
-          "outlook": "Rising mental-health awareness, including in desi families, keeps demand growing in clinics, schools and online therapy."
+          "outlook": "Rising mental-health awareness, across cultures and generations, keeps demand growing in clinics, schools and online therapy."
         },
         {
           "title": "Economist / Policy Researcher",
@@ -150,13 +150,13 @@
           "outlook": "A small, specialised field linked to policing and the courts; digital forensics is the fastest-growing branch."
         }
       ],
-      "subjects": "Biology and Chemistry (with Physics or Maths) at A-level, IB or advanced high-school level for medicine, pharmacy and the life sciences; Maths and Computer Science for computing and data; Economics, Psychology and Statistics for the social sciences."
+      "subjects": "Biology and Chemistry (with Physics or Maths) at A-level, IB or advanced high-school level for medicine, pharmacy and the life sciences; Maths and Computer Science for computing and data; Economics, Psychology and Statistics for the social sciences. Graduate-entry and conversion courses help career changers."
     },
     "A": {
       "name": "Artistic",
       "nickname": "The Creator",
       "ur": "تخلیقی",
-      "summary": "Artistic people see the world as raw material for something new. You notice colour, sound, words and design, and you would rather invent your own way than follow a template. You might be the one who designs the shaadi card, edits the family holiday video, writes poetry in your notes app, or rearranges the living-room furniture just to see how it looks. You value originality, self-expression and freedom, and you are happiest when your work lets you imagine, design, write, perform or create something people can feel.",
+      "summary": "Artistic people see the world as raw material for something new. You notice colour, sound, words and design, and you would rather invent your own way than follow a template. You might be the one who designs the wedding invitations, edits the family holiday video, writes poetry in your notes app, or rearranges the living-room furniture just to see how it looks. You value originality, self-expression and freedom, and you are happiest when your work lets you imagine, design, write, perform or create something people can feel.",
       "strengths": [
         "Original, imaginative thinking",
         "Strong visual or verbal expression",
@@ -183,12 +183,12 @@
         {
           "title": "Fashion / Textile Designer",
           "route": "Fashion or textile design degree with portfolio-based admission, then internships with brands or boutiques; many designers go on to start their own label.",
-          "outlook": "Desi fashion is global: wedding wear, modest fashion and online boutiques sell from Lahore to London, and sustainability is the new edge."
+          "outlook": "Fashion is global: occasion wear, modest fashion, streetwear and online boutiques sell across borders, and sustainability is the new edge."
         },
         {
           "title": "Screenwriter (TV, film and streaming)",
           "route": "Any degree, often media, film or literature; writing samples, workshops, fellowships and pitching to production houses matter far more than formal qualifications.",
-          "outlook": "Desi dramas and films have huge global audiences, and streaming platforms now commission South Asian stories in many countries."
+          "outlook": "Streaming platforms commission series and films in dozens of languages, and stories from every region now find audiences worldwide."
         },
         {
           "title": "Content Writer / Copywriter (remote)",
@@ -208,7 +208,7 @@
         {
           "title": "Wedding & Brand Photographer / Videographer",
           "route": "No degree needed: short courses and a few seasons assisting an established studio while you build your own portfolio and client list.",
-          "outlook": "Desi wedding season, from Birmingham to Karachi to Houston, keeps skilled photographers booked, and brands always need fresh content."
+          "outlook": "Wedding season, in every country and culture, keeps skilled photographers booked, and brands always need fresh content."
         },
         {
           "title": "Interior Designer",
@@ -222,17 +222,17 @@
         },
         {
           "title": "Calligrapher / Artisan Entrepreneur",
-          "route": "No degree needed: learn from an ustaad, in workshops or through online classes, then sell through Instagram, Etsy, craft fairs and commissions.",
-          "outlook": "A niche but meaningful path; calligraphy, henna and handmade crafts sell well to desi families worldwide, especially around weddings and festivals."
+          "route": "No degree needed: learn from a master craftsperson, in workshops or through online classes, then sell through Instagram, Etsy, craft fairs and commissions.",
+          "outlook": "A niche but meaningful path; calligraphy, lettering, ceramics and handmade crafts sell well worldwide, especially around weddings and festivals."
         }
       ],
-      "subjects": "Art & Design, English Literature, Media Studies or Design & Technology at A-level, IB or high-school level; Maths and Physics alongside Art for architecture; Computer Science for digital design, animation and UI/UX."
+      "subjects": "Art & Design, English Literature, Media Studies or Design & Technology at A-level, IB or high-school level; Maths and Physics alongside Art for architecture; Computer Science for digital design, animation and UI/UX. Starting later? A strong portfolio counts more than school subjects."
     },
     "S": {
       "name": "Social",
       "nickname": "The Helper",
       "ur": "سماجی",
-      "summary": "Social people are energised by helping others learn, grow and feel understood. You are the friend people call at 2 am, the sibling who explains maths to younger cousins, the one who quietly checks that everyone at the dawat has been served. You notice how people feel, and you care about fairness and kindness. You value relationships, service and meaningful work, and you are happiest teaching, guiding, caring, counselling or supporting people, especially when you can see the difference you make.",
+      "summary": "Social people are energised by helping others learn, grow and feel understood. You are the friend people call at 2 am, the sibling who explains maths to younger cousins, the colleague every new starter goes to, the one who quietly checks that everyone at dinner has been served. You notice how people feel, and you care about fairness and kindness. You value relationships, service and meaningful work, and you are happiest teaching, guiding, caring, counselling or supporting people, especially when you can see the difference you make.",
       "strengths": [
         "Empathy and active listening",
         "Clear, patient explaining",
@@ -243,33 +243,33 @@
       "careers": [
         {
           "title": "Teacher / Lecturer",
-          "route": "Degree in your subject plus a teaching qualification (PGCE, B.Ed or a state teaching licence), which differs by country; lecturing usually needs a master's or PhD.",
+          "route": "Degree in your subject plus a teaching qualification, which differs by country (many offer one-year routes for career changers); lecturing usually needs a master's or PhD.",
           "outlook": "Steady demand everywhere, especially for maths, science and special-needs teachers; international schools hire across borders."
         },
         {
           "title": "Online Tutor (remote)",
-          "route": "No degree needed to start: subject, language or faith-teaching expertise, a certificate such as TEFL, and students found through tutoring platforms or word of mouth.",
+          "route": "No degree needed to start: subject, language or music expertise, a certificate such as TEFL, and students found through tutoring platforms or word of mouth.",
           "outlook": "Large, steady demand from families across time zones; AI handles drills, so human tutors win on motivation, patience and trust."
         },
         {
           "title": "Nurse",
-          "route": "Nursing degree (three to four years), or a diploma in some countries, then a national licensing exam; nurses moving abroad usually sit an extra exam.",
-          "outlook": "Short-staffed almost everywhere, with strong demand in the UK, US, Canada, Australia and the Gulf."
+          "route": "Nursing degree (three to four years, with faster routes for graduates in some countries), or a diploma, then a national licensing exam; nurses moving abroad usually sit an extra exam.",
+          "outlook": "Short-staffed almost everywhere, and the skills travel: many countries actively recruit nurses from abroad."
         },
         {
           "title": "Physiotherapist",
-          "route": "Physiotherapy degree (a BSc in the UK, a Doctor of Physical Therapy in the US and some other countries), then registration with your national health regulator.",
+          "route": "Physiotherapy degree (a bachelor's in many countries, a doctorate in some), then registration with your national health regulator.",
           "outlook": "Growing in hospitals, sports clubs and home-visit services as populations age and stay active longer."
         },
         {
           "title": "Counsellor / School Psychologist",
           "route": "Psychology or counselling degree, then a master's or accredited counselling diploma with supervised practice hours; regulation differs widely between countries.",
-          "outlook": "Schools, universities, workplaces and online platforms are hiring more counsellors, and stigma in desi families is slowly lifting."
+          "outlook": "Schools, universities, workplaces and online platforms are hiring more counsellors, and the stigma around asking for help is slowly lifting."
         },
         {
           "title": "Nutritionist / Dietitian",
           "route": "Accredited nutrition and dietetics degree plus supervised placements; 'dietitian' is a protected title in many countries, while 'nutritionist' often isn't.",
-          "outlook": "Growing interest in healthy eating, hospital roles and online consulting, with real demand for advice that respects desi food."
+          "outlook": "Growing interest in healthy eating, hospital roles and online consulting, with real demand for advice that respects each family's own cuisine."
         },
         {
           "title": "HR Professional",
@@ -302,13 +302,13 @@
           "outlook": "Steady demand in nurseries and preschools, and a route to running your own home-based childcare."
         }
       ],
-      "subjects": "Biology and Chemistry at A-level, IB or high-school level for nursing, physiotherapy, nutrition and therapy careers; Psychology, Sociology and English for counselling, teaching and social work; Business or Economics for HR."
+      "subjects": "Biology and Chemistry at A-level, IB or high-school level for nursing, physiotherapy, nutrition and therapy careers; Psychology, Sociology and English for counselling, teaching and social work; Business or Economics for HR. Life experience, such as raising children or caring for a parent, counts here."
     },
     "E": {
       "name": "Enterprising",
       "nickname": "The Persuader",
       "ur": "کاروباری",
-      "summary": "Enterprising people want to make things happen and bring others along. You enjoy persuading, leading, negotiating and taking calculated risks. You might be the one who started selling something at school, who bargains with every shopkeeper in the bazaar, or who ends up organising the cousins' trip because nobody else will decide. You value influence, achievement and results, and you are happiest when you can lead a team, build a business, close a deal or turn an idea into something that earns.",
+      "summary": "Enterprising people want to make things happen and bring others along. You enjoy persuading, leading, negotiating and taking calculated risks. You might be the one who started selling something at school, who bargains at every market stall, or who ends up organising the family reunion because nobody else will decide. You value influence, achievement and results, and you are happiest when you can lead a team, build a business, close a deal or turn an idea into something that earns.",
       "strengths": [
         "Persuasion and negotiation",
         "Confident decision-making",
@@ -325,7 +325,7 @@
         {
           "title": "E-commerce Seller",
           "route": "No degree needed: free online courses, then start on Instagram, Etsy, Amazon, Shopify or a local marketplace and scale with ads and good reviews.",
-          "outlook": "A large, growing global market; desi fashion, food and gifts sell well to diaspora customers across borders."
+          "outlook": "A large, growing global market; handmade goods, niche fashion and specialty foods sell well to customers across borders."
         },
         {
           "title": "Sales / Business Development Executive",
@@ -339,7 +339,7 @@
         },
         {
           "title": "Lawyer",
-          "route": "Law degree (LLB), or a first degree then a JD in the US and Canada, followed by bar or solicitor exams; routes differ sharply by country.",
+          "route": "Law degree, or a first degree followed by a graduate law course, then bar or solicitor exams; routes differ sharply by country, and many lawyers switch in from other careers.",
           "outlook": "Competitive but steady; corporate, immigration, tech and AI law are growing niches, while AI takes over routine document work."
         },
         {
@@ -354,13 +354,13 @@
         },
         {
           "title": "Real Estate Consultant",
-          "route": "No degree needed: join an established agency and learn the trade; many places require a licence exam, such as a US state licence or Dubai's RERA certification.",
+          "route": "No degree needed: join an established agency and learn the trade; many places require a licence exam before you can sell or let property.",
           "outlook": "Cyclical but always active; honesty and transparency set the best agents apart, especially with overseas buyers."
         },
         {
           "title": "Event Planner (weddings and corporate)",
           "route": "No degree required, though hospitality or events courses help; assist an established planner, then build your own vendor network and portfolio.",
-          "outlook": "Desi weddings from Toronto to Dubai to Lahore are a big year-round business, and corporate events fill the gaps between seasons."
+          "outlook": "Weddings, milestone birthdays and festivals are a big year-round business everywhere, and corporate events fill the gaps between seasons."
         },
         {
           "title": "Product Manager (tech)",
@@ -370,15 +370,15 @@
         {
           "title": "Restaurant / Food Business Owner",
           "route": "Culinary or hospitality diploma optional; start with a home kitchen, food stall or cloud kitchen, with the food-safety licence your local authority requires.",
-          "outlook": "Delivery apps and the global love of desi food keep the sector growing, though margins are thin and location matters."
+          "outlook": "Delivery apps and a growing appetite for food from every cuisine keep the sector growing, though margins are thin and location matters."
         },
         {
           "title": "Import / Export Trader",
           "route": "Business degree or hands-on experience; learn customs, shipping and trade finance, then register with customs and a chamber of commerce in your country.",
-          "outlook": "Openings in textiles, food, spices, sports goods and IT services, with diaspora networks linking South Asia, the Gulf and the West."
+          "outlook": "Openings in textiles, food, sports goods, components and digital services, with online marketplaces linking small makers to buyers on every continent."
         }
       ],
-      "subjects": "Business, Economics and Maths at A-level, IB or high-school level for business and finance; English, History, Politics or Law for law and the civil service; Computer Science for tech product roles."
+      "subjects": "Business, Economics and Maths at A-level, IB or high-school level for business and finance; English, History, Politics or Law for law and the civil service; Computer Science for tech product roles. For career changers, experience often matters more than subjects."
     },
     "C": {
       "name": "Conventional",
@@ -395,13 +395,13 @@
       "careers": [
         {
           "title": "Chartered Accountant (CA)",
-          "route": "Qualify through your country's chartered or certified accountancy body (ICAEW, CPA, ICAI, ICAP and others), with paid training at a firm; school-leaver routes exist in some countries.",
+          "route": "Qualify through your country's chartered or certified accountancy body, with paid training at a firm; school-leaver and career-changer routes exist in many countries.",
           "outlook": "Consistently in demand; accountants lead finance, audit and tax worldwide, and as AI automates bookkeeping, advisory skills matter more."
         },
         {
           "title": "ACCA Professional",
-          "route": "ACCA qualification, often alongside or after a degree; you can register straight after A-levels or an equivalent and study while you work.",
-          "outlook": "Recognised worldwide and well suited to remote finance roles, the Gulf or moving abroad."
+          "route": "ACCA qualification, often alongside or after a degree; you can register after finishing school, or at any stage of your career, and study while you work.",
+          "outlook": "Recognised in many countries and well suited to remote finance roles or a move abroad."
         },
         {
           "title": "Management Accountant (CIMA / CMA)",
@@ -416,11 +416,11 @@
         {
           "title": "Bookkeeper (remote)",
           "route": "No degree required: QuickBooks or Xero certification and a bookkeeping course, then freelance platforms and remote accounting firms.",
-          "outlook": "Strong remote demand from small businesses in the US, UK and Australia; AI handles data entry, so clients pay for accuracy and advice."
+          "outlook": "Strong remote demand from small businesses everywhere; AI handles data entry, so clients pay for accuracy and advice."
         },
         {
           "title": "Medical Billing & Coding Specialist (remote)",
-          "route": "No degree required: short certification courses such as CPC (US) or clinical coding training (UK), then billing companies or hospital admin teams.",
+          "route": "No degree required: short certification courses in medical coding, whose systems vary by country, then billing companies or hospital admin teams.",
           "outlook": "An established industry with many remote and outsourced roles; AI-assisted coding is shifting work towards auditing and complex cases."
         },
         {
@@ -454,7 +454,7 @@
           "outlook": "A small, well-paid niche in insurance, pensions, climate risk and research."
         }
       ],
-      "subjects": "Maths, Accounting, Economics and Business at A-level, IB or high-school level for accountancy, ACCA and banking; Maths, Statistics and Computer Science for data and QA roles; Further Maths for actuarial science."
+      "subjects": "Maths, Accounting, Economics and Business at A-level, IB or high-school level for accountancy, ACCA and banking; Maths, Statistics and Computer Science for data and QA roles; advanced Maths for actuarial science."
     }
   },
   "pairs_note": "Your Career Compass gives you a three-letter code, like SAE or IRC, made from your three strongest interest areas in order. The first letter is your strongest pull; the second and third shape how you like to use it. An IR person loves investigating hands-on problems, like an engineer or lab scientist, while an IS person enjoys investigating people, like a psychologist or doctor. Read the careers for all three letters and look for overlaps. Letters that sit next to each other on the Holland hexagon (R-I-A-S-E-C) blend naturally; opposite letters, like A and C, suggest unusually broad interests."
