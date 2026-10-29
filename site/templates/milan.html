@@ -2,7 +2,7 @@
 {% block main %}
 <section class="result-hero" style="background:var(--ink)">
   <div class="wrap center">
-    <span class="pill" style="background:rgba(255,255,255,.15);color:#fff">Mizaj Milan · {{ view.relation|capitalize }}</span>
+    <span class="pill" style="background:rgba(255,255,255,.15);color:#fff">Mizaj Milan · {% set rel_label = {'rishta': 'Partner', 'spouse': 'Spouse', 'friend': 'Best friend', 'sibling': 'Sibling', 'colleague': 'Colleague'} %}{{ rel_label.get(view.relation, view.relation|capitalize) }}</span>
     <h1 style="margin-top:14px;color:#fff">{{ view.a.name or "Person A" }} <span style="color:var(--saffron)">✦</span> {{ view.b.name or "Person B" }}</h1>
     <p style="opacity:.85">{{ view.a.type.code }} {{ view.a.type.name_en }} &nbsp;+&nbsp; {{ view.b.type.code }} {{ view.b.type.name_en }}</p>
     <div class="score-ring" style="--p: {{ view.score }}; margin-top:18px"><div>{{ view.score }}%</div></div>

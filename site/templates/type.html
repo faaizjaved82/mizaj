@@ -27,7 +27,7 @@
   <div><h3>Fictional {{ t.code }}s</h3><div class="share-row">{% for f in t.free.fictional_twins %}<span class="tag">{{ f }}</span>{% endfor %}</div></div>
   <div class="card"><h3>{{ t.code }} and the four mizaj</h3>
     <p class="muted small">The same type feels different in a warm or cool, moist or dry temperament.</p>
-    {% for k in mizaj_keys %}<p><b>{{ t.code }} · {{ k|capitalize }}:</b> {{ t.premium.with_each_mizaj[k][:140] }}… <a href="/test/mizaj/">find yours</a></p>{% endfor %}
+    {% for k in mizaj_keys %}<p><b>{{ t.code }} · {{ deck_el[k].name }}:</b> {{ t.premium.with_each_mizaj[k][:140] }}… <a href="/test/mizaj/">find yours</a></p>{% endfor %}
   </div>
   <div class="card"><h3>{{ t.code }} compatibility</h3>
     <div class="share-row">{% for c in type_codes %}<a class="tag" href="/compatibility/{{ pair_slug(t.code, c) }}/">{{ t.code }} + {{ c }}</a>{% endfor %}</div></div>

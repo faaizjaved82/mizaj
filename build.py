@@ -65,7 +65,7 @@ TESTS = {
 FAQS = [
     ("Is the test really free?", "Yes. Every test and your basic result are free forever, with no sign-up. If you want to go deeper, you can unlock a full report with a one-time payment."),
     ("How accurate is it?", "Our tests are carefully written and scored, but no personality test is a diagnosis. Think of your result as a mirror and a conversation starter. Most people find their type describes them well; if yours feels off, retake it on a calm day and answer as you usually are."),
-    ("Is this the MBTI?", "No. Mizaj uses its own questions, its own 16 type names and adds Unani temperament. We use the familiar four-letter codes, which describe Jungian preferences, but we are independent and not affiliated with the Myers & Briggs Foundation."),
+    ("Is this the same as other 16-type tests?", "No. Mizaj uses its own questions, its own 16 type names and adds the four classical temperaments. We use the familiar four-letter codes, which describe Jungian preferences, but we are independent and not affiliated with any other test publisher."),
     ("What are the four temperaments?", "One of the oldest ideas about personality: Hippocrates, Galen and Ibn Sina described four temperaments based on warmth and moisture. We call them by their elements: Air (warm and moist, Sanguine), Fire (warm and dry, Choleric), Water (cool and moist, Phlegmatic) and Earth (cool and dry, Melancholic). Mizaj means temperament in Arabic, Persian, Turkish and Urdu. They shape energy, moods and which foods suit you. It's traditional wellness wisdom, not medical advice."),
     ("Who is Mizaj for?", "Anyone who wants to understand themselves and other people: students choosing a path, professionals and managers, teachers, marketers, couples, parents and grandparents. The questions are about everyday life and work at any age. Every test is also available in Urdu, with more languages to come."),
     ("How do I pay?", "With any debit or credit card, from anywhere; your bank converts the price to your currency. In Pakistan you can also pay by Raast, JazzCash, Easypaisa or bank transfer."),
@@ -166,13 +166,13 @@ def build() -> None:
             ta, tb = content.type_summary(a), content.type_summary(b)
             write(f"/compatibility/{slug}/", render("compat_pair.html", a=ta, b=tb, dims=dims, score=score,
                                                      title=f"{a} and {b} compatibility", canonical=f"/compatibility/{slug}/",
-                                                     description=f"How a {ta['name']} ({a}) and a {tb['name']} ({b}) connect and clash, in love, marriage and friendship."), 0.5)
+                                                     description=f"How {ta['name_en']} ({a}) and {tb['name_en']} ({b}) connect and clash, in love, marriage and friendship."), 0.5)
     write("/compatibility/", render("compat_index.html", scores=scores, title="16-type compatibility chart",
                                     canonical="/compatibility/", description="Compatibility of all 16 Mizaj types."), 0.7)
 
     write("/pricing/", render("pricing.html", title="Pricing", canonical="/pricing/"), 0.7)
     write("/schools/", render("schools.html", title="Career Compass for schools", canonical="/schools/",
-                              description="Career guidance for every student: interest code, personality type and stream fit, with parent reports."), 0.7)
+                              description="Career guidance for every student: interest code, personality type and subject fit, with parent reports."), 0.7)
     write("/teams/", render("teams.html", title="Mizaj for teams", canonical="/teams/",
                             description="Team maps, reports and workshops that make teams work better."), 0.6)
     write("/about/", render("about.html", title="Our story", canonical="/about/"), 0.5)
