@@ -8,7 +8,12 @@
     <h1 style="font-size:1.9rem">{{ product.name }}</h1>
     <p class="muted">{{ product.short }}</p>
     <ul class="list-check">{% for b in product.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+    {% if intl %}
+    <div style="margin-top:14px"><span class="price-old">{{ money(product, "list_price", only="usd") }}</span><b style="font:700 2rem var(--serif)">{{ usd|usd }}</b> <span class="small muted">one-time · no subscription</span></div>
+    <p class="small muted" style="margin-top:6px">Charged as {{ order.amount|pkr }}{% if card %} by Safepay{% endif %}; your bank converts it.</p>
+    {% else %}
     <div style="margin-top:14px"><span class="price-old">{{ money(product, "list_price") }}</span><b style="font:700 2rem var(--serif)"><span class="cur-usd">${{ product.usd }}</span><span class="cur-pkr">{{ order.amount|pkr }}</span></b> <span class="small muted">one-time · no subscription</span></div>
+    {% endif %}
   </div>
 
   <div class="card center hidden" data-state="proof">
@@ -28,7 +33,7 @@
     <div class="pay-method pay-card">
       <b>💳 Debit or credit card, from any country</b>
       {% if card %}
-      <p class="small muted" style="margin:4px 0 10px">Instant unlock. Secure checkout by Safepay, charged in Pakistani rupees; your bank converts it to your currency.</p>
+      <p class="small muted" style="margin:4px 0 10px">Instant unlock. Secure checkout by Safepay{% if not intl %}, charged in Pakistani rupees; your bank converts it to your currency{% endif %}.</p>
       <button class="btn btn-block" data-safepay>Pay securely by card</button>
       {% elif usd_link %}
       <p class="small muted" style="margin:4px 0 10px">Instant unlock.</p>

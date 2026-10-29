@@ -46,6 +46,12 @@ The integration follows Safepay's documented hosted checkout (init order, redire
 tracker); if their current API differs, ask Claude on the server: "adapt server/mizaj/payments.py to Safepay's
 current docs and test in sandbox". PayFast is the alternative with lower published fees (Raast QR 0.6%).
 
+**Regional prices:** buyers in Pakistan (Pakistan time zone, or "PKR" picked in the footer) pay the PKR price and
+see every payment method. Everyone else pays the USD price from `content/products.json`, charged by Safepay in PKR
+at `USD_PKR_RATE` (default 280, rounded up to the nearest 10 rupees; $9 = PKR 2,520), and sees the card option only.
+Orders always store the PKR amount charged plus `region` (`pk` / `intl`). Update `USD_PKR_RATE` in `.env` when the
+rupee moves a lot, then `systemctl restart mizaj-api`; open orders keep the amount they were created with.
+
 **Diaspora (USD):** create a Lemon Squeezy store, one product per report at the USD prices in
 `content/products.json`, add a webhook to `https://mizaj.pk/api/webhooks/lemonsqueezy` (event `order_created`),
 and set `LEMONSQUEEZY_LINKS` and `LEMONSQUEEZY_WEBHOOK_SECRET`. Check first that they can pay out to you.
