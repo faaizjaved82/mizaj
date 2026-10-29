@@ -1,8 +1,11 @@
 # Mizaj (mizaj.pk)
 
 A self-discovery platform for everyone who wants to understand themselves and others: a free 16-type personality
-test, the classical four-temperament test (Air, Fire, Water, Earth), Mizaj Milan compatibility, Career Compass for students, and fun tools (AI palm reading, Burj, Ilm-e-Adad).
+test, the classical four-temperament test (Air, Fire, Water, Earth), Mizaj Milan compatibility, Career Compass for students and career changers, and fun tools (AI palm reading, zodiac × type, name numbers).
 Free results, one-time paid reports, school and team programmes.
+
+**Start here:** `docs/PLAN.md` (the business), `AGENTS.md` (team and rules), `docs/handoff/CODEX.md` (how the
+project is run day to day).
 
 | Folder | What's in it |
 | --- | --- |

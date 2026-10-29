@@ -1,47 +1,63 @@
-# Weekly COO playbook
+# Weekly operating playbook
 
-Run every Monday by the scheduled Claude session (or by anyone, by hand). Goal: PKR 15–20 lakh cumulative profit by
-30 June 2027 (base plan: about 34 lakh). One session, about an hour of work, in this order.
+Run every Monday by `codex`, the operator (see `docs/handoff/CODEX.md`). A scheduled Claude session runs the same
+morning at 10:39am Pakistan time as **reviewer** (section 7). Goal: PKR 15–20 lakh cumulative profit by
+30 June 2027. About two hours, in this order.
 
-## 0. Catch up with the team
-- Read `ops/TASKS.md` and every `ops/log/` entry since last Monday. Review open pull requests from `codex`
-  (and `claude-server`): merge what's good and green, comment on the rest. Unblock tasks waiting on you.
-- Add new tasks you discover for the right owner; end the session with your own `ops/log/` entry.
+## 0. Catch up
+- Read `ops/TASKS.md`, every `ops/log/` entry since last Monday and the open pull requests. Merge what's yours to
+  merge (content, docs, images, social and ad plans with green CI). Review PRs from `claude-cloud` and
+  `claude-server`. Unblock tasks waiting on you.
+- Add new tasks you discover for the right owner.
 
 ## 1. Read the numbers
-- `ops/stats/latest.json` (written by the server every Monday 6:10am): last 8 weeks of tests, completion rate, paid
-  orders by product, revenue, buyer rate, Milan invites/completions, palm reads, shares, contacts, leads, top sources,
-  type mix. If it's missing or older than 8 days, say so in the report: the server or its deploy key needs attention.
-- Compare with the base plan in `ops/model.py` (monthly targets; divide by 4.3 for a week).
+- `ops/stats/latest.json` (the server writes it Monday 6:10am): last 8 weeks of visits, test starts and completions,
+  completion rate, paid orders by product, revenue (PKR and USD), buyer rate, Milan invites and completions, palm
+  reads, shares, leads, top sources (utm), type mix. If it's missing or older than 8 days, add a task for
+  `claude-server` (the weekly export or the deploy key needs attention) and say so in the report.
+- If ads ran: `ops/ads/<date>.csv` (the owner's export; format in `ops/ads/README.md`). Compute, by audience,
+  creative and country: spend, CTR, cost per finished test, share rate, purchases, revenue per finished test, B2B
+  leads. Apply the kill and scale rules in `docs/ADS.md` §4 and write the decisions down.
+- Compare with `docs/PLAN.md` §5 and `ops/model.py` (monthly targets ÷ 4.3 for a week).
 
 ## 2. Write `ops/reports/<YYYY-MM-DD>.md`
-- One-line verdict (ahead / on / behind plan) with the two numbers that matter most this week.
-- Table: metric, this week, last week, plan, status.
-- What worked (top 3 posts or sources), what didn't, what we change this week (max 3 changes, each with an owner:
-  "auto" for things this session does, "owner" or "assistant" for people).
-- Update `ops/model.py` assumptions only when 3+ weeks of actuals disagree with them; note the change.
+- First 5 lines, plain language, for the owner (the server forwards them on Telegram when it deploys): verdict
+  (ahead / on / behind plan), the two numbers that matter most, what changed, what needs the owner.
+- Then: a table (metric, this week, last week, plan, status); what worked (top posts, ads, sources); what didn't;
+  at most 3 changes for this week, each with an owner ("codex", "owner", "claude-server", "assistant").
+- Update `ops/model.py` assumptions only when 3+ weeks of actuals disagree; note the change in the report.
 
 ## 3. Ship next week's content
-- Write 8–10 new posts into `social/plan/week-<YYYY-MM-DD>.json` (same schema as `launch30.json`, `day` numbers
-  continuing from the last queued day). Double down on the pillars and formats that performed; keep the brand rules in
-  `content/STYLE.md`. Watch the calendar: Ramadan about 8 Feb–9 Mar 2027 (no playful fun-zone posts, more mizaj
-  sehri/iftar content), Eid about 9–10 Mar, exam and result seasons, wedding season Nov–Feb.
-- Render: `python tools/render_social.py social/plan/week-<date>.json`, commit media + queue.
+- Write 8–10 posts into `social/plan/week-<YYYY-MM-DD>.json` (same schema as `launch30.json`; `day` numbers continue
+  from the last queued day). Double down on the formats and audiences that performed. Follow `content/STYLE.md` v3:
+  for everyone (students, professionals, educators, marketers, families, young and old), no single culture as the
+  default.
+- Calendar: plan around moments that are global or widely shared (exam and results seasons in both hemispheres,
+  back-to-school, New Year resolutions, Valentine's week as couples and friends not dating, Ramadan as one fasting
+  tradition among several for element-and-fasting posts, year-end "Mizaj Wrapped" data drops). Never make a
+  religious or national holiday the default setting.
+- Render: `python tools/render_social.py social/plan/week-<date>.json`, look at several JPEGs, commit
+  `social/media/` + `social/queue/`. If ads are running, refresh tired creatives in `social/plan/ads.json`.
 
 ## 4. Grow revenue
-- Schools: draft 5 personalised outreach emails per week in the owner's Gmail (DRAFTS only, never send) to
-  principals or heads of careers at private schools and colleges, using `docs/sales/schools.md`. Prioritise cities and
-  chains not contacted before; keep a log in `ops/outreach.md` (date, school, contact, status).
-- Teams: 2 drafts per week to HR/L&D heads, using `docs/sales/teams.md`.
-- Creators: list 5 Pakistani creators (psychology, relationships, desi family humour, student life) with handles and
-  a draft DM offering a creator code; add to `ops/outreach.md`.
+- **Schools:** draft 5 personalised emails a week to principals or heads of careers (`docs/sales/schools.md`) into
+  `ops/outreach/<date>.md`; the owner sends them. Log each in `ops/outreach.md` (date, organisation, contact, status).
+  Use only contact addresses published on the organisation's own website; otherwise leave the recipient blank.
+- **Teams:** 2 drafts a week to HR / L&D heads (`docs/sales/teams.md`).
+- **Creators:** list 5 creators who fit (psychology, careers, teaching, relationships, workplace humour) with handles
+  and a draft DM offering a creator code; add them to `ops/outreach.md`. You never send anything yourself.
 
-## 5. Improve the product (small, safe changes only)
-- One improvement a week that the numbers point to (copy on the result page, price test, a new SEO page, a fix).
-  Run `cd server && python -m pytest -q` and `python build.py` before committing. Never change payment logic
-  without tests passing. Never remove the disclaimers, refund promise or privacy guarantees.
+## 5. Improve the product
+- One improvement a week that the numbers point to (result-page copy, a price test proposal, a new search page, a
+  fix). Run `cd server && python -m pytest -q`, `python build.py` and the CI brand guard before pushing; for UI work,
+  `tools/e2e.cjs` and screenshots at phone width. Server, deploy, autoposter and payment changes go in a PR for review
+  (section 7). Never remove the disclaimers, refund promise or privacy guarantees.
 
-## 6. Report to the owner
-- Email the owner (to themselves, from their Gmail) a one-screen summary: verdict, 5 numbers, 3 changes made,
-  anything that needs them (approvals waiting, keys missing, leads to call). Plain language, no jargon.
-- Commit everything with a clear message and push to `main` (the server deploys within 10 minutes).
+## 6. Log
+- `ops/log/<date>-codex-weekly.md`: what you did, what's blocked, what you need from whom (`@owner`,
+  `@claude-server`, `@claude-cloud`).
+
+## 7. The Monday reviewer (scheduled Claude session)
+- Reads the new report and log, reviews and merges (or comments on) open PRs that need a second reviewer, checks the
+  brand and legal rules on the week's content, and flags anything risky to the owner in its own log entry. It does
+  not write the weekly report or the posts; that's the operator's job.

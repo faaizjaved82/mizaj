@@ -46,9 +46,12 @@ The integration follows Safepay's documented hosted checkout (init order, redire
 tracker); if their current API differs, ask Claude on the server: "adapt server/mizaj/payments.py to Safepay's
 current docs and test in sandbox". PayFast is the alternative with lower published fees (Raast QR 0.6%).
 
-**Diaspora (USD):** create a Lemon Squeezy store, one product per report at the USD prices in
-`content/products.json`, add a webhook to `https://mizaj.pk/api/webhooks/lemonsqueezy` (event `order_created`),
-and set `LEMONSQUEEZY_LINKS` and `LEMONSQUEEZY_WEBHOOK_SECRET`. Check first that they can pay out to you.
+**International cards:** Safepay accepts cards from any country (ask them to enable international cards on the
+merchant account). Visitors outside Pakistan see USD prices; with regional pricing (T40, PR #4) their order is the
+USD price × `USD_PKR_RATE` (default 280), charged in PKR, and only the card option is shown. Lemon Squeezy code is
+still in the app but dormant (it can't pay out to Pakistan); Gumroad was dropped.
+
+**Phase 2 subscriptions:** not built. Design in `docs/PLAN.md` §3 (task T43); needs a recurring-payments provider.
 
 **Refunds:** refund to the account the buyer paid from, then in `/admin` reject the order (locks the report).
 
@@ -67,7 +70,7 @@ In `/admin`, "Create codes": product, how many, Unlock (free) or Discount (%), u
 | `RESEND_API_KEY` | resend.com, add domain mizaj.pk (DNS records), create key | Report links by email |
 | `META_PAGE_ID`, `META_PAGE_ACCESS_TOKEN`, `META_IG_USER_ID` | Same process as faaizjaved.com: Meta app, long-lived Page token, Instagram professional account linked to the Page | Automatic Instagram + Facebook posting |
 | `SOCIAL_START_DATE` | The day you want post 1 to go out | Starts the 30-day calendar |
-| `META_PIXEL_ID`, `TIKTOK_PIXEL_ID` | Ads managers | Ad tracking |
+| `META_PIXEL_ID`, `TIKTOK_PIXEL_ID` | Meta Events Manager, TikTok Ads | Ad tracking: Lead (finished test), InitiateCheckout, Purchase (`docs/ADS.md`) |
 | `PUBLIC_UMAMI_ID`, `PUBLIC_UMAMI_SRC` | Your existing Umami | Privacy-friendly analytics |
 
 ## 6. Daily routine for an assistant (30–45 minutes)
@@ -78,12 +81,13 @@ In `/admin`, "Create codes": product, how many, Unlock (free) or Discount (%), u
 3. Reply to Instagram/TikTok comments and DMs (template answers in `docs/sales/replies.md`).
 4. Forward any school or company lead to the owner the same day.
 
-## 7. Weekly COO loop (automatic)
+## 7. Weekly loop
 
-A scheduled Claude session runs every Monday: reads `ops/stats/latest.json`, writes `ops/reports/<date>.md`
-(numbers vs plan, what worked, what to change), updates the model with actuals, writes and renders the next week of
-social posts into the queue, drafts school and company outreach emails in Gmail for the owner to send, and emails the
-owner a one-screen summary. See `ops/COO_PLAYBOOK.md`.
+`codex` runs the project day to day (`docs/handoff/CODEX.md`). Every Monday it reads `ops/stats/latest.json` (and the
+owner's ad export in `ops/ads/` once ads run), writes `ops/reports/<date>.md` (the server forwards it to the owner on
+Telegram), renders next week's posts into the queue, drafts school and team outreach into `ops/outreach/` for the
+owner to send, and ships one improvement. A scheduled Claude session reviews server and payment PRs the same
+morning. See `ops/COO_PLAYBOOK.md`.
 
 ## 8. When something breaks
 
