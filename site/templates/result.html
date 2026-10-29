@@ -110,7 +110,7 @@
       <p class="muted"><b>{{ mz.quality.split(' (')[-1].rstrip(')')|capitalize }}</b> · {{ mz.classical }} · {{ mz.season }}{% if mz.scores.balanced %} · close to <b>balanced</b>{% endif %}</p>
       <div class="card bars">
         {{ m.axisbar("Cool", "Warm", mz.scores.heat) }}
-        {{ m.axisbar("Khushk (dry)", "Tar (moist)", mz.scores.moisture) }}
+        {{ m.axisbar("Dry", "Moist", mz.scores.moisture) }}
         {% if mz.secondary %}<p class="small muted" style="margin:0">Secondary tendency: <b>{{ mz.secondary.global_name }}</b> ({{ mz.secondary.nickname }})</p>{% endif %}
       </div>
       {{ mz.free.summary|paras }}
@@ -167,7 +167,7 @@
     </div>
     {% if pairs %}
       <h3>Your matches</h3>
-      {% for p in pairs %}<a class="card card-flat" style="display:flex;justify-content:space-between;text-decoration:none;margin-bottom:8px" href="/milan/{{ p.id }}"><span>{{ p.relation|capitalize }} · {{ "Ready" if p.b_profile else "Waiting for them" }}</span><span>Open →</span></a>{% endfor %}
+      {% set rel_label = {'rishta': 'Partner', 'spouse': 'Spouse', 'friend': 'Best friend', 'sibling': 'Sibling', 'colleague': 'Colleague'} %}{% for p in pairs %}<a class="card card-flat" style="display:flex;justify-content:space-between;text-decoration:none;margin-bottom:8px" href="/milan/{{ p.id }}"><span>{{ rel_label.get(p.relation, p.relation|capitalize) }} · {{ "Ready" if p.b_profile else "Waiting for them" }}</span><span>Open →</span></a>{% endfor %}
     {% endif %}
     {% else %}
     <p class="muted">Take the personality test first, then invite someone.</p>
@@ -195,7 +195,7 @@
           <h3>6 superpowers · 5 blind spots</h3><p>With real examples from family, work and friendships…</p>
           <h3>Love and relationships</h3><p>What you need from a partner, how you show love, five tips for when things get serious…</p>
           <h3>10 careers that fit</h3><p>With the route into each: degree, certification or freelancing…</p>
-          <h3>Your mizaj diet and 7-day menu</h3><p>Foods to favour and limit, daily routine, seasons and Ramadan…</p>
+          <h3>Your mizaj diet and 7-day menu</h3><p>Foods to favour and limit, daily routine, seasons and fasting days…</p>
         </div>
         <div class="lock-cta">
           <div class="stack" style="max-width:420px">
@@ -222,7 +222,7 @@
       <p class="muted small">Get your result link (and your report, if you unlock it) by email or WhatsApp, so you never lose it.</p>
       <div class="grid grid-2">
         <div class="field"><label for="c-email">Email</label><input id="c-email" type="email" autocomplete="email" placeholder="you@example.com"></div>
-        <div class="field"><label for="c-wa">WhatsApp</label><input id="c-wa" type="tel" autocomplete="tel" placeholder="03xx xxxxxxx"></div>
+        <div class="field"><label for="c-wa">WhatsApp</label><input id="c-wa" type="tel" autocomplete="tel" placeholder="With country code"></div>
       </div>
       <div class="err" data-contact-err></div>
       <button class="btn btn-sm" data-contact-save>Save</button>

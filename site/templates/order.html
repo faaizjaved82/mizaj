@@ -19,7 +19,7 @@
   <div class="card center hidden" data-state="proof">
     <div class="spinner" style="margin:0 auto 12px;color:var(--ink)"></div>
     <h2>Verifying your payment…</h2>
-    <p class="muted">This usually takes a few minutes (9am to midnight, Pakistan time). You can keep this page open; it unlocks by itself. We'll also email you if you left an email.</p>
+    <p class="muted">This usually takes a few minutes (9am to midnight Pakistan time, GMT+5). You can keep this page open; it unlocks by itself. We'll also email you if you left an email.</p>
     {% if support_whatsapp %}<a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="https://wa.me/{{ support_whatsapp }}?text={{ ('Hi, I paid for order ' ~ order.id)|urlencode }}">Message us on WhatsApp</a>{% endif %}
   </div>
   <div class="card center hidden" data-state="paid">
