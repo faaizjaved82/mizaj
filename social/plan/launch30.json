@@ -5,10 +5,10 @@
     "d01-c-meet-the-4-elements"
   ],
   "bios": {
-    "instagram": "16 types × 4 elements = 64 cards. Which one are you? Personality + the four temperaments, for desis everywhere. Free test: mizaj.pk",
-    "tiktok": "16 types × 4 elements = 64 cards. Which one are you? mizaj.pk",
-    "facebook": "Mizaj is a personality test for desis everywhere, from London and Toronto to Dubai, Karachi, Mumbai and Dhaka. Your type (one of 16) meets your element (Air, Fire, Water or Earth: the four temperaments traced from Hippocrates to Ibn Sina). 16 types × 4 elements = 64 cards. Which one are you? Free, 8 minutes, no sign-up, in English or Urdu: mizaj.pk",
-    "youtube": "Shorts about the 16 Mizaj types and the four elements, for desis everywhere: group chats, weddings, airports, family dinners and careers. 16 types × 4 elements = 64 cards. Which one are you? Free test: mizaj.pk"
+    "instagram": "16 types × 4 elements = 64 cards. Know yourself, understand others. Free personality + temperament test: mizaj.pk",
+    "tiktok": "64 cards. Which one are you? Know yourself, understand others: mizaj.pk",
+    "facebook": "Mizaj is a free personality test for anyone curious about themselves and the people around them: students, professionals, teachers, managers, couples, parents and grandparents. Your type (one of 16) meets your element (Air, Fire, Water or Earth: the four temperaments traced from Hippocrates to Ibn Sina). 16 types × 4 elements = 64 cards. Which one are you? Free, 8 minutes, no sign-up: mizaj.pk",
+    "youtube": "Shorts about the 16 Mizaj types and the four elements: at school, at work, at home and on holiday. Know yourself, understand others. 16 types × 4 elements = 64 cards. Free test: mizaj.pk"
   },
   "posts": [
     {
@@ -27,19 +27,19 @@
         {
           "kind": "cover",
           "title": "16 types × 4 elements = 64 cards",
-          "subtitle": "Mizaj is a personality test for desis everywhere, from Toronto to Dubai to Dhaka.",
+          "subtitle": "A personality test for anyone curious about themselves, the people around them and the world.",
           "note": "Start here",
           "hand": "which one are you? →"
         },
         {
           "kind": "text",
           "title": "Your type: how you think",
-          "text": "Sixteen types in four families: Thinkers, Heart-led, Guardians and Makers. How you recharge, take in the world, decide and plan, from the group chat to the boardroom."
+          "text": "Sixteen types in four families: Thinkers, Heart-led, Guardians and Makers. How you recharge, take in the world, decide and plan, from the classroom to the boardroom."
         },
         {
           "kind": "text",
           "title": "Your element: how you run",
-          "text": "Air, Fire, Water or Earth: the four temperaments, traced from Hippocrates to Ibn Sina's Canon. Your pace, your warmth, your mood. Your nani just called it 'mizaj'."
+          "text": "Air, Fire, Water or Earth: the four temperaments, traced from Hippocrates to Ibn Sina's Canon. Your pace, your warmth, your mood. The old word for it is 'mizaj'."
         },
         {
           "kind": "type",
@@ -51,10 +51,10 @@
           "kind": "list",
           "title": "What we post here",
           "items": [
-            "Each type in the group chat, at the airport, at weddings",
+            "Each type at school, at work, at home and on holiday",
             "Element vs element: who books, who's late, who cooks",
             "Field Notes: the 2,000-year story of the four temperaments",
-            "Family and friend compatibility (send it to them)"
+            "How you fit with partners, family, friends and colleagues"
           ]
         },
         {
@@ -68,18 +68,18 @@
           "subtitle": "Free, no sign-up, 8 minutes. Find yours at mizaj.pk"
         }
       ],
-      "caption": "Welcome to Mizaj, a personality test for desis everywhere.\n\nTwo old ideas, one card: your type (16 of them: how you think and decide) and your element (Air, Fire, Water or Earth: how you run). 16 × 4 = 64 cards, and one of them is uncomfortably you.\n\nHere you'll find each type in the group chat, element versus element, Field Notes on a 2,000-year-old idea, and compatibility posts for your family and friends.\n\nSend this to the friend who still hasn't found their type.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Welcome to Mizaj: a personality test for anyone who wants to understand themselves, and the people around them, a little better.\n\nTwo old ideas, one card: your type (16 of them: how you think and decide) and your element (Air, Fire, Water or Earth: how you run). 16 × 4 = 64 cards, and one of them is uncomfortably you.\n\nHere you'll find each type at school, at work and at home, element versus element, Field Notes on a 2,000-year-old idea, and posts for students, teachers, managers, couples, parents and grandparents.\n\nSend this to the friend who still hasn't found their type.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#personalitytest",
         "#personalitytypes",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#selfdiscovery",
+        "#psychology",
         "#fourtemperaments",
-        "#introvert"
+        "#temperament"
       ],
-      "tiktok_caption": "16 types × 4 elements = 64 cards. Which one are you? #mizaj #personalitytest #desi #southasian",
+      "tiktok_caption": "16 types × 4 elements = 64 cards. Which one are you? #mizaj #personalitytest #personalitytypes #selfdiscovery",
       "reel_hook": "There are 64 cards. One of them is you.",
       "audio_hint": "warm, curious instrumental with a soft card-shuffle sound on each beat"
     },
@@ -151,7 +151,7 @@
         {
           "kind": "type",
           "code": "ISFJ",
-          "text": "Knows your allergies, your exam dates and your cat's name."
+          "text": "Knows your allergies, your deadlines and your cat's name."
         },
         {
           "kind": "type",
@@ -197,10 +197,10 @@
         "#16types",
         "#introvert",
         "#extrovert",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#selfdiscovery"
       ],
-      "tiktok_caption": "Swipe till you find yourself. Which one are you? #mizaj #personalitytypes #16types #desi",
+      "tiktok_caption": "Swipe till you find yourself. Which one are you? #mizaj #personalitytypes #16types #personality",
       "reel_hook": "16 types in 16 seconds. Stop when it's you.",
       "audio_hint": "upbeat, playful plucked-strings instrumental with a quick tick on every card flip"
     },
@@ -225,7 +225,7 @@
         },
         {
           "kind": "text",
-          "title": "Garam ya thanda?",
+          "title": "Warm or cool?",
           "text": "Unani tradition reads temperament on two scales: warm or cool, and moist or dry. Combine them and you get four elements, each with its own pace, mood and energy."
         },
         {
@@ -261,13 +261,12 @@
         "#temperament",
         "#elements",
         "#personalitytest",
-        "#unani",
         "#selfdiscovery",
-        "#desi",
-        "#southasian"
+        "#psychology",
+        "#history"
       ],
-      "tiktok_caption": "Air, Fire, Water or Earth? Which one runs you? #mizaj #fourtemperaments #elements #desi",
-      "reel_hook": "Garam or thanda? There are actually four.",
+      "tiktok_caption": "Air, Fire, Water or Earth? Which one runs you? #mizaj #fourtemperaments #elements #temperament",
+      "reel_hook": "Hot-headed or cool-headed? There are actually four.",
       "audio_hint": "calm instrumental that builds in four distinct beats, one per element"
     },
     {
@@ -352,7 +351,7 @@
             },
             {
               "code": "ESFJ",
-              "text": "Replies to every photo within a minute. Knows which aunty is upset, and why."
+              "text": "Replies to every photo within a minute. Knows which cousin is upset, and why."
             }
           ]
         },
@@ -394,14 +393,13 @@
         "#mizaj",
         "#familygroupchat",
         "#groupchat",
-        "#desifamily",
-        "#desimemes",
+        "#family",
+        "#familyhumor",
         "#personalitytypes",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#relatable"
       ],
-      "tiktok_caption": "Every family group chat has these 16 people. Which one are you? #familygroupchat #desifamily #mizaj #personalitytypes",
+      "tiktok_caption": "Every family group chat has these 16 people. Which one are you? #familygroupchat #family #mizaj #personalitytypes",
       "reel_hook": "POV: the family group chat, typed by personality.",
       "audio_hint": "notification pings building into a light comedic beat"
     },
@@ -416,11 +414,11 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Garam ya thanda? Warm and cool, explained",
+      "title": "Warm or cool? The two old scales, explained",
       "slides": [
         {
           "kind": "cover",
-          "title": "Garam ya thanda? A field guide",
+          "title": "Warm or cool? A field guide",
           "subtitle": "Warm or cool, moist or dry: the two old scales behind the four elements.",
           "note": "The elements · field guide"
         },
@@ -450,7 +448,7 @@
           "title": "Quick self-check",
           "items": [
             "Kick the duvet off at 2am? Leaning warm.",
-            "Cardigan in July? Leaning cool.",
+            "Cardigan in midsummer? Leaning cool.",
             "Dry skin and lips all winter? Leaning dry.",
             "Heavy and sleepy on rainy days? Leaning moist."
           ],
@@ -462,19 +460,19 @@
           "subtitle": "Your element in 4 minutes, free, at mizaj.pk"
         }
       ],
-      "caption": "'Garam mizaj' gets thrown around a lot. Here's what it actually meant.\n\nIn Unani tradition, temperament runs on two scales: warm or cool, and moist or dry. Together they make four elements. The 'hot-headed' friend might be Air (loud, then over it in five minutes) or Fire (quieter, sharper, keeping score).\n\nTraditional wellness wisdom, not medical advice.\n\nTry the self-check on slide 5, then send this to the friend you've always called hot-headed.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "'Hot-headed' gets thrown around a lot. Here's what the old idea actually meant.\n\nIn Unani tradition, which goes back to the Greek physicians, temperament runs on two scales: warm or cool, and moist or dry. Together they make four elements. The 'hot-headed' friend might be Air (loud, then over it in five minutes) or Fire (quieter, sharper, keeping score).\n\nTraditional wellness wisdom, not medical advice.\n\nTry the self-check on slide 5, then send this to the friend you've always called hot-headed.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#garammizaj",
         "#fourtemperaments",
         "#temperament",
-        "#unani",
+        "#elements",
         "#selfdiscovery",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#psychology",
+        "#selfreflection"
       ],
-      "tiktok_caption": "Garam ya thanda? It's actually two scales. Which are you? #garammizaj #mizaj #fourtemperaments #desi",
-      "reel_hook": "'Garam mizaj' is only half the story.",
+      "tiktok_caption": "Hot-headed or cool-headed? It's actually two scales. Which are you? #temperament #mizaj #fourtemperaments #elements",
+      "reel_hook": "'Hot-headed' is only half the story.",
       "audio_hint": "a dramatic plot-twist sting into a light, curious beat"
     },
     {
@@ -534,10 +532,10 @@
         "#elements",
         "#selfreflection",
         "#personalitytest",
-        "#desi",
-        "#southasian"
+        "#selfdiscovery",
+        "#mindset"
       ],
-      "tiktok_caption": "Pick a card: 1, 2, 3 or 4. Swipe for yours. #pickacard #mizaj #elements #desi",
+      "tiktok_caption": "Pick a card: 1, 2, 3 or 4. Swipe for yours. #pickacard #mizaj #elements #selfreflection",
       "reel_hook": "Pause the video. Pick a card. No changing your mind.",
       "audio_hint": "soft, suspenseful instrumental with a card-flip sound on each reveal"
     },
@@ -587,7 +585,7 @@
         },
         {
           "kind": "quote",
-          "text": "Your nani's 'garam mizaj' has a paper trail going back 2,400 years.",
+          "text": "'Hot-headed' and 'cool-headed' have a paper trail going back 2,400 years.",
           "note": "Field Notes"
         },
         {
@@ -604,9 +602,9 @@
         "#history",
         "#historyofpsychology",
         "#fourtemperaments",
-        "#unani",
-        "#southasian",
-        "#desi"
+        "#psychology",
+        "#temperament",
+        "#unani"
       ],
       "tiktok_caption": "The personality test is 2,400 years old. Here's the paper trail. #history #ibnsina #mizaj #fourtemperaments",
       "reel_hook": "Personality tests aren't new. This one is 2,400 years old.",
@@ -628,7 +626,7 @@
         {
           "kind": "cover",
           "title": "Each type at airport security",
-          "subtitle": "Heathrow, Dubai, JFK: the queue is the same, the people are not.",
+          "subtitle": "Any airport, any country: the queue is the same, the people are not.",
           "note": "Each type as… · No. 02",
           "hand": "find yourself →"
         },
@@ -672,7 +670,7 @@
             },
             {
               "code": "ENFP",
-              "text": "Made a friend in the queue. Swapped numbers. Will visit them in Toronto."
+              "text": "Made a friend in the queue. Swapped numbers. Will visit them in Lisbon."
             }
           ]
         },
@@ -694,7 +692,7 @@
             },
             {
               "code": "ESFJ",
-              "text": "Explaining to security that the achaar jar is a gift for a very important aunty."
+              "text": "Explaining to security that the giant jar of homemade jam is a gift. For 12 people."
             }
           ]
         },
@@ -726,15 +724,15 @@
           "subtitle": "Find your type free at mizaj.pk, then tag your travel buddy"
         }
       ],
-      "caption": "Same queue, sixteen completely different experiences.\n\nOne person bagged their liquids at home. One is reorganising the line. One is explaining to security why the jar of achaar is a gift. Swipe to find yourself, and the person you always travel with.\n\nSend this to your travel buddy before your next trip.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Same queue, sixteen completely different experiences.\n\nOne person bagged their liquids at home. One is reorganising the line. One is explaining to security why the giant jar of homemade jam is a gift. Swipe to find yourself, and the person you always travel with.\n\nSend this to your travel buddy before your next trip.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#airport",
         "#travel",
+        "#travelhumor",
+        "#travelbuddy",
         "#personalitytypes",
-        "#desimemes",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#relatable"
       ],
       "tiktok_caption": "Each type at airport security. Who's your travel buddy? #airport #travel #mizaj #personalitytypes",
@@ -782,7 +780,7 @@
           "a": "safravi",
           "b": "balghami",
           "a_text": "At the gate first. Already annoyed by the boarding process.",
-          "b_text": "Arrives relaxed, just in time, holding two chais, one for you."
+          "b_text": "Arrives relaxed, just in time, holding two coffees, one for you."
         },
         {
           "kind": "versus",
@@ -807,19 +805,19 @@
       "hashtags": [
         "#mizaj",
         "#travel",
+        "#travelbuddy",
         "#fourtemperaments",
         "#elements",
         "#personalitytest",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#relatable"
       ],
-      "tiktok_caption": "Fire vs Water planning a trip. Tag your travel partner. #mizaj #travel #elements #desi",
+      "tiktok_caption": "Fire vs Water planning a trip. Tag your travel partner. #mizaj #travel #elements #travelbuddy",
       "reel_hook": "Fire vs Water planning the same holiday.",
       "audio_hint": "split-screen comedy beat: fast ticking for Fire, slow lo-fi for Water"
     },
     {
-      "id": "d06-a-doctor-engineer-or-lawyer",
+      "id": "d06-a-what-do-you-want-to-be",
       "day": 6,
       "time": "18:30",
       "pillar": "career",
@@ -829,21 +827,22 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Doctor, engineer or lawyer? Each type answers",
+      "title": "'So, what do you want to be?' Each type answers",
       "slides": [
         {
           "kind": "cover",
-          "title": "Doctor, engineer or lawyer? Each type answers",
-          "subtitle": "The conversation every desi kid has had at least once, in every country.",
-          "note": "Work & study"
+          "title": "'So, what do you want to be?'",
+          "subtitle": "Asked of every student at every family dinner, careers fair and graduation party.",
+          "note": "Work & study · students",
+          "hand": "find your answer →"
         },
         {
           "kind": "grid",
-          "title": "Thinkers · the career talk",
+          "title": "Thinkers · the big question",
           "cells": [
             {
               "code": "INTJ",
-              "text": "Brings a five-year plan with salary data. Parents ask about medicine again."
+              "text": "Brings a five-year plan with salary data, and a backup plan for the plan."
             },
             {
               "code": "INTP",
@@ -851,17 +850,17 @@
             },
             {
               "code": "ENTJ",
-              "text": "Picks law, adds a business degree, plans to run the firm. Parents have no notes."
+              "text": "Picks business, adds law, plans to run the company by 30. No further questions."
             },
             {
               "code": "ENTP",
-              "text": "Argues so well against law that everyone agrees they should be a lawyer."
+              "text": "Argues so well against law that everyone agrees they should study law."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Heart-led · the career talk",
+          "title": "Heart-led · the big question",
           "cells": [
             {
               "code": "INFJ",
@@ -873,7 +872,7 @@
             },
             {
               "code": "ENFJ",
-              "text": "Becomes a doctor, then teaches doctors. Somehow pleases everyone."
+              "text": "Wants to teach, coach or heal. Already mentoring the younger kids."
             },
             {
               "code": "ENFP",
@@ -883,15 +882,15 @@
         },
         {
           "kind": "grid",
-          "title": "Guardians · the career talk",
+          "title": "Guardians · the big question",
           "cells": [
             {
               "code": "ISTJ",
-              "text": "Already enrolled in the safe option. Quietly excellent at it."
+              "text": "Already enrolled in the sensible option. Quietly excellent at it."
             },
             {
               "code": "ISFJ",
-              "text": "Picks nursing or medicine to look after people. Means it completely."
+              "text": "Picks nursing, teaching or care work. Wants to look after people. Means it."
             },
             {
               "code": "ESTJ",
@@ -899,13 +898,13 @@
             },
             {
               "code": "ESFJ",
-              "text": "Picks the job that keeps them close to family. Plans everyone else's too."
+              "text": "Picks the path that keeps them near the people they love. Plans yours too."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Makers · the career talk",
+          "title": "Makers · the big question",
           "cells": [
             {
               "code": "ISTP",
@@ -913,15 +912,15 @@
             },
             {
               "code": "ISFP",
-              "text": "Designs the family business logo for free. Accidentally starts a design career."
+              "text": "Designs a friend's shop logo for free. Accidentally starts a design career."
             },
             {
               "code": "ESTP",
-              "text": "Skips the debate. Starts a side hustle at 19. Out-earns the debate by 25."
+              "text": "Skips the debate. Starts a side business at 19. Out-earns the debate by 25."
             },
             {
               "code": "ESFP",
-              "text": "Would be a great doctor if it involved more people and fewer exams."
+              "text": "Picks anything with people, a stage or both. Lights up every interview."
             }
           ]
         },
@@ -936,20 +935,20 @@
           "subtitle": "Start with the free test, then try Career Compass at mizaj.pk"
         }
       ],
-      "caption": "Every desi kid has had this conversation. Here's how each type handles it.\n\nSome bring a five-year plan with salary data. One argues so well against law that everyone decides they should be a lawyer. Some just quietly build something.\n\nThe useful bit: the better question isn't 'which job?' but 'which problems do you enjoy solving?' Your type is a good place to start.\n\nSend this to a sibling or cousin who's choosing right now.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "'So, what do you want to be?' Every student gets asked. Here's how each type answers.\n\nSome bring a five-year plan with salary data. One argues so well against law that everyone decides they should study law. Some just quietly build something.\n\nThe useful bit: the better question isn't 'which job?' but 'which problems do you enjoy solving?' Your type is a good place to start, and Career Compass turns it into subjects and careers that fit.\n\nSend this to a student choosing right now, or to the parent helping them.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#careeradvice",
-        "#desiparents",
+        "#students",
         "#studentlife",
-        "#firstgen",
+        "#careerchoice",
+        "#parenting",
         "#personalitytypes",
-        "#desi",
-        "#southasian"
+        "#selfdiscovery"
       ],
-      "tiktok_caption": "Doctor, engineer or lawyer? Each type answers. #desiparents #careeradvice #mizaj #personalitytypes",
-      "reel_hook": "'So, doctor, engineer or lawyer?' 16 types answer.",
-      "audio_hint": "tense family-dinner silence, then a comedic drum hit on each answer"
+      "tiktok_caption": "'So, what do you want to be?' 16 types answer. #students #careeradvice #mizaj #personalitytypes",
+      "reel_hook": "'So, what do you want to be?' 16 types answer.",
+      "audio_hint": "a hushed family-dinner pause, then a comedic drum hit on each answer"
     },
     {
       "id": "d06-b-siblings-by-element",
@@ -1005,15 +1004,14 @@
       "hashtags": [
         "#mizaj",
         "#siblings",
+        "#siblinglove",
         "#family",
-        "#desisiblings",
         "#fourtemperaments",
         "#elements",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#relatable"
       ],
-      "tiktok_caption": "Siblings by element. Tag them. #siblings #mizaj #family #desi",
+      "tiktok_caption": "Siblings by element. Tag them. #siblings #mizaj #family #elements",
       "reel_hook": "Same parents. Four completely different elements.",
       "audio_hint": "playful family-sitcom style instrumental"
     },
@@ -1033,7 +1031,7 @@
         {
           "kind": "cover",
           "title": "Each type in wedding season",
-          "subtitle": "Five functions, three outfits, one dance practice that never ends.",
+          "subtitle": "Speeches, seating plans and a dance floor that waits for nobody.",
           "note": "Each type as… · No. 03",
           "hand": "find yourself →"
         },
@@ -1043,7 +1041,7 @@
           "cells": [
             {
               "code": "INTJ",
-              "text": "Has a spreadsheet of every function, outfit and travel time. Shared with nobody."
+              "text": "Has a spreadsheet of every outfit, gift and travel time. Shared with nobody."
             },
             {
               "code": "INTP",
@@ -1051,7 +1049,7 @@
             },
             {
               "code": "ENTJ",
-              "text": "Took over dance practice on day one. It now has a schedule and a choreographer."
+              "text": "Took over the planning chat on day one. It now has a run sheet and deadlines."
             },
             {
               "code": "ENTP",
@@ -1069,15 +1067,15 @@
             },
             {
               "code": "INFP",
-              "text": "Cried at the mehndi, the wedding and a stranger's speech. Zero regrets."
+              "text": "Cried at the vows, the speeches and a stranger's toast. Zero regrets."
             },
             {
               "code": "ENFJ",
-              "text": "Got two feuding uncles onto the same dance floor. Peace treaty signed."
+              "text": "Got two feuding relatives onto the same dance floor. Peace treaty signed."
             },
             {
               "code": "ENFP",
-              "text": "Knows the whole hall by dessert. Invited to three more weddings."
+              "text": "Knows the whole room by dessert. Invited to three more weddings."
             }
           ]
         },
@@ -1087,7 +1085,7 @@
           "cells": [
             {
               "code": "ISTJ",
-              "text": "Arrived at the time on the card. The only one. Sat in an empty hall for 90 minutes."
+              "text": "RSVP'd the day the invite came. Arrived early. Gift wrapped, card signed."
             },
             {
               "code": "ISFJ",
@@ -1131,19 +1129,18 @@
           "subtitle": "Find your type free at mizaj.pk, then tag your dance partner"
         }
       ],
-      "caption": "Wedding season is a personality test with five functions.\n\nOne person has a spreadsheet of every outfit. One took over dance practice on day one. One fixed the sound system and left before the photos. Swipe to find yourself, and the cousin you always end up dancing next to.\n\nTag your dance practice crew.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Wedding season is a personality test with a dress code.\n\nOne person has a spreadsheet of every outfit. One took over the planning chat on day one. One fixed the sound system and left before the photos. Swipe to find yourself, and the friend you always end up dancing next to.\n\nTag your wedding crew.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#weddingseason",
-        "#desiwedding",
-        "#mehndi",
+        "#wedding",
+        "#weddingguest",
         "#personalitytypes",
-        "#desimemes",
-        "#britishasian",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#friends",
+        "#relatable"
       ],
-      "tiktok_caption": "Each type in wedding season. Tag your dance practice crew. #desiwedding #weddingseason #mizaj #personalitytypes",
+      "tiktok_caption": "Each type in wedding season. Tag your wedding crew. #weddingseason #weddingguest #mizaj #personalitytypes",
       "reel_hook": "Wedding season, but it's 16 personality types.",
       "audio_hint": "upbeat festive percussion loop, no vocals"
     },
@@ -1207,7 +1204,7 @@
           "subtitle": "Find your element free at mizaj.pk"
         }
       ],
-      "caption": "Ibn Sina's Canon of Medicine, finished around 1025, was a standard textbook from Central Asia to Europe for centuries. Here it is in seven notes.\n\nThe short version: it described every person as a mix of warm, cool, moist and dry. The Arabic word for that mix is 'mizaj', and it still means temperament in Urdu, Hindi, Persian and Turkish.\n\nHistory and traditional wellness wisdom, not medical advice.\n\nSave this, and send it to the friend who loves a good history thread.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Ibn Sina's Canon of Medicine, finished around 1025, was a standard textbook from Central Asia to Europe for centuries. Here it is in seven notes.\n\nThe short version: it described every person as a mix of warm, cool, moist and dry. The Arabic word for that mix is 'mizaj', and it still means temperament in Arabic, Persian, Turkish, Urdu and Hindi.\n\nHistory and traditional wellness wisdom, not medical advice.\n\nSave this, and send it to the friend who loves a good history thread.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#fieldnotes",
@@ -1216,8 +1213,8 @@
         "#history",
         "#historyofscience",
         "#fourtemperaments",
-        "#unani",
-        "#southasian"
+        "#temperament",
+        "#unani"
       ],
       "tiktok_caption": "Ibn Sina's Canon, in seven notes. The word 'mizaj' is 1,000 years old. #ibnsina #history #mizaj #historyofscience",
       "reel_hook": "A 1,000-year-old book described your personality. Here's how.",
@@ -1281,11 +1278,10 @@
         "#elements",
         "#friendship",
         "#personalitytest",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#relatable"
       ],
-      "tiktok_caption": "Each element when the plan changes last minute. #mizaj #elements #groupchat #desi",
+      "tiktok_caption": "Each element when the plan changes last minute. #mizaj #elements #groupchat #personality",
       "reel_hook": "'Change of plan, guys.' Four elements react.",
       "audio_hint": "record-scratch at the start, then a quirky pizzicato beat"
     },
@@ -1305,7 +1301,7 @@
         {
           "kind": "cover",
           "title": "Each type in their first week at a new job",
-          "subtitle": "London, Toronto, Dubai or Dhaka: induction week is universal.",
+          "subtitle": "Any city, any industry: induction week is universal.",
           "note": "Work & study",
           "hand": "find yourself →"
         },
@@ -1345,7 +1341,7 @@
             },
             {
               "code": "ENFJ",
-              "text": "Knows everyone's name and chai order by Tuesday. Organising Friday lunch."
+              "text": "Knows everyone's coffee order by Tuesday. Organising Friday lunch."
             },
             {
               "code": "ENFP",
@@ -1408,18 +1404,18 @@
           "subtitle": "Free type test, 8 minutes: mizaj.pk"
         }
       ],
-      "caption": "New job, new badge, sixteen ways to survive induction week.\n\nOne read the whole wiki on day one. One fixed the printer and became a legend. One knows everyone's chai order by Tuesday. Swipe to find yourself.\n\nThe useful bit: introverts, book three one-to-one coffees instead of one big lunch. Extraverts, ask one question for every idea you pitch.\n\nSend this to a friend starting a new job this month.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "New job, new badge, sixteen ways to survive induction week.\n\nOne read the whole wiki on day one. One fixed the printer and became a legend. One knows everyone's coffee order by Tuesday. Swipe to find yourself.\n\nThe useful bit: introverts, book three one-to-one coffees instead of one big lunch. Extraverts, ask one question for every idea you pitch.\n\nSend this to a friend starting a new job this month.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#newjob",
         "#firstjob",
         "#careeradvice",
         "#corporatelife",
+        "#worklife",
         "#personalitytypes",
-        "#desi",
-        "#southasian"
+        "#introvert"
       ],
-      "tiktok_caption": "Each type in their first week at a new job. #newjob #corporatelife #mizaj #personalitytypes",
+      "tiktok_caption": "Each type in their first week at a new job. #newjob #worklife #mizaj #personalitytypes",
       "reel_hook": "First week at a new job, by personality type.",
       "audio_hint": "light office-comedy instrumental with keyboard clicks"
     },
@@ -1457,7 +1453,7 @@
           "a": "damvi",
           "b": "saudavi",
           "a_text": "Invites the whole street for dinner on Friday. Tells you on Friday.",
-          "b_text": "Already bought extra rice, just in case. Has known since Tuesday.",
+          "b_text": "Already doubled the shopping, just in case. Has known since Tuesday.",
           "join": "+"
         },
         {
@@ -1489,19 +1485,18 @@
           "subtitle": "Send your parents the free test, then compare: mizaj.pk"
         }
       ],
-      "caption": "Every household runs on one of four combos. Which one raised you?\n\nFire and Water: one runs the calendar, one keeps the peace. Air and Earth: one invites the whole street, one bought extra rice on Tuesday. Fire and Earth: very punctual, very long discussions. Air and Water: a very happy, slightly late house.\n\nSend this to your sibling and agree on your parents' combo. Then get your parents to take the test.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Every household runs on one of four combos. Which one raised you?\n\nFire and Water: one runs the calendar, one keeps the peace. Air and Earth: one invites the whole street, one doubled the shopping on Tuesday. Fire and Earth: very punctual, very long discussions. Air and Water: a very happy, slightly late house.\n\nSend this to your sibling and agree on your parents' combo. Then get your parents to take the test.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#desiparents",
-        "#desifamily",
+        "#parents",
         "#family",
+        "#parenting",
         "#fourtemperaments",
         "#elements",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#relatable"
       ],
-      "tiktok_caption": "Your parents' combo, by element. Which one raised you? #desiparents #mizaj #family #desi",
+      "tiktok_caption": "Your parents' combo, by element. Which one raised you? #parents #family #mizaj #elements",
       "reel_hook": "Which combo raised you?",
       "audio_hint": "nostalgic, warm home-video instrumental with a comedic twist"
     },
@@ -1567,10 +1562,10 @@
         "#personalitytypes",
         "#introvert",
         "#elements",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#psychology"
       ],
-      "tiktok_caption": "The Strategist, four ways. Which INTJ are you? #intj #mizaj #personalitytypes #desi",
+      "tiktok_caption": "The Strategist, four ways. Which INTJ are you? #intj #mizaj #personalitytypes #introvert",
       "reel_hook": "Two INTJs, completely different. Here's why.",
       "audio_hint": "minimal, confident electronic beat with a card-deal sound on each reveal"
     },
@@ -1631,10 +1626,10 @@
         "#mythsvsfacts",
         "#fourtemperaments",
         "#history",
-        "#unani",
+        "#psychology",
         "#selfdiscovery",
-        "#southasian",
-        "#desi"
+        "#temperament",
+        "#unani"
       ],
       "tiktok_caption": "Myths vs facts: the four temperaments. #mythsvsfacts #history #mizaj #fourtemperaments",
       "reel_hook": "No, your temperament isn't your blood type.",
@@ -1714,7 +1709,7 @@
             },
             {
               "code": "ISFJ",
-              "text": "Makes extra chai for whoever's revising. Remembers how everyone takes it."
+              "text": "Makes extra tea for whoever's revising. Remembers how everyone takes it."
             },
             {
               "code": "ESTJ",
@@ -1722,7 +1717,7 @@
             },
             {
               "code": "ESFJ",
-              "text": "Brought a suitcase of spices from home. Now feeds the whole floor on Sundays."
+              "text": "Brought a giant pot and a grandparent's recipes. Feeds the whole floor on Sundays."
             }
           ]
         },
@@ -1754,24 +1749,23 @@
           "subtitle": "Free type test at mizaj.pk. Then send it to your flat."
         }
       ],
-      "caption": "Shared kitchen, one fridge, sixteen ways to label the milk.\n\nOne flatmate made the cleaning rota on day one. One is up at 3am explaining a theory to the toaster. One brought a suitcase of spices from home and now feeds the whole floor on Sundays.\n\nTag your flatmates, past or present. Which one did you live with?\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Shared kitchen, one fridge, sixteen ways to label the milk.\n\nOne flatmate made the cleaning rota on day one. One is up at 3am explaining a theory to the toaster. One brought a giant pot and a grandparent's recipes, and now feeds the whole floor on Sundays.\n\nTag your flatmates, past or present. Which one did you live with?\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#unilife",
         "#flatmates",
+        "#roommates",
         "#studentlife",
-        "#studyabroad",
+        "#students",
         "#personalitytypes",
-        "#desimemes",
-        "#desi",
-        "#southasian"
+        "#relatable"
       ],
       "tiktok_caption": "Each type as a uni flatmate. Tag yours. #unilife #flatmates #mizaj #personalitytypes",
       "reel_hook": "Your uni flatmates, by personality type.",
       "audio_hint": "lo-fi student-room beat with a kettle click"
     },
     {
-      "id": "d12-b-air-vs-earth-at-a-wedding",
+      "id": "d12-b-each-element-as-a-grandparent",
       "day": 12,
       "time": "21:00",
       "pillar": "elements",
@@ -1781,72 +1775,59 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Air vs Earth at a wedding",
+      "title": "Each element as a grandparent",
       "slides": [
         {
           "kind": "cover",
-          "title": "Air vs Earth at a wedding",
-          "subtitle": "One knows every guest. One knows every exit.",
-          "note": "Element vs element"
+          "title": "Each element as a grandparent",
+          "subtitle": "Same love, four very different styles. Send this to yours.",
+          "note": "The elements · family"
         },
         {
-          "kind": "versus",
-          "title": "Arriving",
-          "a": "damvi",
-          "b": "saudavi",
-          "a_text": "Hugs 40 people before reaching the table. Has news about all of them.",
-          "b_text": "Arrived early, found the quietest seat, mapped the room."
+          "kind": "mizaj",
+          "key": "damvi",
+          "text": "Air: Knows every neighbour, every grandchild's best friend and all the news. Video-calls daily."
         },
         {
-          "kind": "versus",
-          "title": "The dance floor",
-          "a": "damvi",
-          "b": "saudavi",
-          "a_text": "Pulled the shy cousin onto the floor. Now leading the whole family.",
-          "b_text": "Practised the steps alone. Dances once, perfectly, then sits down."
+          "kind": "mizaj",
+          "key": "safravi",
+          "text": "Fire: Runs the family calendar at 75. Already booked the summer trip. You're all coming."
         },
         {
-          "kind": "versus",
-          "title": "The food",
-          "a": "damvi",
-          "b": "saudavi",
-          "a_text": "Saving a plate for everyone. Forgot their own.",
-          "b_text": "Ate before coming, just in case. Correct: dinner was served at 11pm."
+          "kind": "mizaj",
+          "key": "balghami",
+          "text": "Water: The calmest lap in the house. Every story starts 'when I was your age' and ends in a nap."
         },
         {
-          "kind": "versus",
-          "title": "Going home",
-          "a": "damvi",
-          "b": "saudavi",
-          "a_text": "Leaves last. Has the caterer's number and two new best friends.",
-          "b_text": "Left at the planned time. Texted everyone 'home safe' anyway."
+          "kind": "mizaj",
+          "key": "saudavi",
+          "text": "Earth: Kept every card you ever drew. Remembers your first word and your shoe size."
         },
         {
-          "kind": "quote",
-          "text": "Air brings the warmth. Earth brings the ground. Traditionally, the best pair.",
-          "note": "Why it works"
+          "kind": "text",
+          "title": "The useful bit",
+          "text": "Air: call, even for five minutes. Fire: say yes to the plan, then ask for one quiet day. Water: visit; they won't always ask. Earth: ask for the old stories, and write them down."
         },
         {
           "kind": "cta",
-          "title": "Air or Earth?",
-          "subtitle": "Find your element free at mizaj.pk. Tag your wedding buddy."
+          "title": "Which one are you?",
+          "subtitle": "Free, 8 minutes, any age: mizaj.pk"
         }
       ],
-      "caption": "Same wedding, two completely different nights.\n\nAir hugs 40 people before reaching the table and leaves last. Earth arrives early, finds the quietest seat, and ate before coming, just in case (correctly: dinner came at 11pm). Traditionally they're the best pair: one brings the warmth, one brings the ground.\n\nTag your wedding buddy. Which one are they?\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Grandparents come in four elements, and every family has a favourite story about theirs.\n\nAir knows every neighbour and video-calls daily. Fire runs the family calendar and has already booked the summer trip. Water has the calmest lap in the house. Earth has kept every drawing you ever made.\n\nGrandparents: which one are you? Comment your element. Everyone else: send this to yours, and help them take the test.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#weddingseason",
-        "#desiwedding",
-        "#fourtemperaments",
+        "#grandparents",
+        "#family",
+        "#generations",
         "#elements",
-        "#introvert",
-        "#extrovert",
-        "#desi",
-        "#southasian"
+        "#fourtemperaments",
+        "#personality",
+        "#selfdiscovery"
       ],
-      "tiktok_caption": "Air vs Earth at a wedding. Which one are you? #desiwedding #mizaj #elements #introvert",
-      "reel_hook": "Air vs Earth at the same wedding.",
-      "audio_hint": "festive percussion that drops to near-silence for each Earth line"
+      "tiktok_caption": "Each element as a grandparent. Send it to yours. #grandparents #family #mizaj #elements",
+      "reel_hook": "Your grandparent is one of these four.",
+      "audio_hint": "warm, nostalgic piano with a soft music-box melody"
     },
     {
       "id": "d13-a-first-month-abroad-by-element",
@@ -1880,7 +1861,7 @@
         {
           "kind": "mizaj",
           "key": "balghami",
-          "text": "Water: Cooks mum's dal for the first time. Calls her three times. Feeds the whole flat."
+          "text": "Water: Cooks a family recipe for the first time. Calls home three times. Feeds the whole flat."
         },
         {
           "kind": "mizaj",
@@ -1898,18 +1879,18 @@
           "subtitle": "Free test at mizaj.pk. Career Compass helps pick the course."
         }
       ],
-      "caption": "New city, new course, and a fridge with nothing in it. Here's how each element handles the first month abroad.\n\nAir joins six societies in week one. Fire has a bank account and a part-time job by day four. Water makes mum's dal (after three phone calls). Earth is quietly homesick, and top of the class anyway.\n\nThe useful bit is on slide 6. Send this to someone who's just moved for uni.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "New city, new course, and a fridge with nothing in it. Here's how each element handles the first month abroad.\n\nAir joins six societies in week one. Fire has a bank account and a part-time job by day four. Water cooks a family recipe for the first time (after three calls home). Earth is quietly homesick, and top of the class anyway.\n\nThe useful bit is on slide 6. Send this to someone who's just moved for study or work.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#studyabroad",
         "#internationalstudent",
         "#unilife",
-        "#firstgen",
+        "#students",
+        "#studentlife",
         "#elements",
-        "#desi",
-        "#southasian"
+        "#fourtemperaments"
       ],
-      "tiktok_caption": "Your first month abroad, by element. #studyabroad #internationalstudent #mizaj #desi",
+      "tiktok_caption": "Your first month abroad, by element. #studyabroad #internationalstudent #mizaj #elements",
       "reel_hook": "First month abroad: which element are you?",
       "audio_hint": "hopeful, slightly homesick acoustic instrumental"
     },
@@ -1964,8 +1945,8 @@
           "title": "Water + Water friends",
           "a": "balghami",
           "b": "balghami",
-          "a_text": "'We should get chai soon.'",
-          "b_text": "Three months later: 'We should get chai soon.' Both delighted.",
+          "a_text": "'We should catch up soon.'",
+          "b_text": "Three months later: 'We should catch up soon.' Both delighted.",
           "join": "+"
         },
         {
@@ -1979,23 +1960,23 @@
           "subtitle": "Send your best friend the free test: mizaj.pk"
         }
       ],
-      "caption": "Every friendship is two elements in a trench coat.\n\nAir and Earth: one brings the invites, one remembers every inside joke. Fire and Water: one booked it, one brings the calm. Water and Water: 'we should get chai soon', every three months, for eleven years, both delighted.\n\nSend this to your best friend and tell them which pair you are.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Every friendship is two elements in a trench coat.\n\nAir and Earth: one brings the invites, one remembers every inside joke. Fire and Water: one booked it, one brings the calm. Water and Water: 'we should catch up soon', every three months, for eleven years, both delighted.\n\nSend this to your best friend and tell them which pair you are.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#bestfriends",
         "#friendship",
+        "#friends",
         "#tagafriend",
         "#fourtemperaments",
         "#elements",
-        "#desi",
-        "#southasian"
+        "#personality"
       ],
-      "tiktok_caption": "Which pair are you and your best friend? #bestfriends #friendship #mizaj #desi",
+      "tiktok_caption": "Which pair are you and your best friend? #bestfriends #friendship #mizaj #elements",
       "reel_hook": "Send this to your best friend. Which pair are you?",
       "audio_hint": "warm, nostalgic friendship-montage instrumental"
     },
     {
-      "id": "d14-b-each-type-when-asked-what-are-you-doing-these-days",
+      "id": "d14-b-each-type-as-a-manager",
       "day": 14,
       "time": "21:00",
       "pillar": "types",
@@ -2005,129 +1986,137 @@
         "tiktok",
         "youtube"
       ],
-      "title": "'So, what are you doing these days?' Each type answers",
+      "title": "Each type as a manager",
       "slides": [
         {
           "kind": "cover",
-          "title": "'So, what are you doing these days?'",
-          "subtitle": "Asked by an aunty at every family function, in every country, forever.",
+          "title": "Each type as a manager",
+          "subtitle": "Sixteen bosses, sixteen styles. Find yours, then find your manager.",
           "note": "Each type as… · No. 05",
-          "hand": "find your answer →"
+          "hand": "find your boss →"
         },
         {
           "kind": "grid",
-          "title": "Thinkers · the big question",
+          "title": "Thinkers · as a manager",
           "cells": [
             {
               "code": "INTJ",
-              "text": "Gives a precise 12-word answer. She nods. She has no follow-up."
+              "text": "Clear goals, few meetings, long emails. Trusts you fully until a deadline slips."
             },
             {
               "code": "INTP",
-              "text": "Explains the thesis for 20 minutes. She asks if they'll be a 'real doctor'."
+              "text": "Answers your question with three better questions. You leave smarter."
             },
             {
               "code": "ENTJ",
-              "text": "Answers, then asks about her business. Is now advising it."
+              "text": "The plan is on the wall by Monday. Targets get hit. Weekends are 'optional'."
             },
             {
               "code": "ENTP",
-              "text": "Says 'astronaut' with a straight face. It reaches the family chat in minutes."
+              "text": "A new idea every meeting. Brilliant in a crisis. Needs someone to finish things."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Heart-led · the big question",
+          "title": "Heart-led · as a manager",
           "cells": [
             {
               "code": "INFJ",
-              "text": "Turns the question around so gently that she tells her life story instead."
+              "text": "Knows you're burning out before you do. Fixes it quietly."
             },
             {
               "code": "INFP",
-              "text": "Says 'figuring things out'. Feels it for the rest of the evening."
+              "text": "Protects the team's values fiercely. Hates hard feedback. Gives it kindly."
             },
             {
               "code": "ENFJ",
-              "text": "Leaves with her number and a job lead for a cousin."
+              "text": "Remembers your goals from your first one-to-one. Gets you promoted."
             },
             {
               "code": "ENFP",
-              "text": "Lists four exciting projects. She's confused. She's also inspired."
+              "text": "Makes Monday feel like a launch party. The roadmap is mostly vibes."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Guardians · the big question",
+          "title": "Guardians · as a manager",
           "cells": [
             {
               "code": "ISTJ",
-              "text": "Job title, company, start date. Neat, accurate, no further questions."
+              "text": "Fair, steady, never late with feedback. The process doc is 40 pages and correct."
             },
             {
               "code": "ISFJ",
-              "text": "Answers politely, then makes sure she's had enough to eat."
+              "text": "Covers for you without being asked. Remembers your child's school play."
             },
             {
               "code": "ESTJ",
-              "text": "Mentions the promotion before she can ask. Respect earned. Conversation over."
+              "text": "Weekly targets, clear roles, no surprises. The team always knows where it stands."
             },
             {
               "code": "ESFJ",
-              "text": "Answers, compliments her outfit, asks after her knee. Now her favourite."
+              "text": "Birthdays, welcome lunches, check-ins. The happiest team on the floor."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Makers · the big question",
+          "title": "Makers · as a manager",
           "cells": [
             {
               "code": "ISTP",
-              "text": "'Working.' That's it. That's the whole answer."
+              "text": "Leads by example. Few words. Fixes the broken thing at 6pm themselves."
             },
             {
               "code": "ISFP",
-              "text": "Shows her a photo of their work. She asks for a print. Win."
+              "text": "Gives you freedom and good taste. Says 'make it yours' and means it."
             },
             {
               "code": "ESTP",
-              "text": "Tells a story so good she forgets what she asked."
+              "text": "Decides in the room, wins the deal, handles the crisis. Paperwork later."
             },
             {
               "code": "ESFP",
-              "text": "Turns it into an invite to the dance floor. Escapes successfully."
+              "text": "Turns the quarterly review into a team day. Morale through the roof."
             }
           ]
         },
         {
-          "kind": "quote",
-          "text": "A calm, specific answer ends the interview fastest.",
-          "note": "The useful bit"
+          "kind": "versus",
+          "title": "A great boss + deputy pair",
+          "a": "ENTP",
+          "b": "ISTJ",
+          "a_text": "Brings the ideas, the energy and the client nobody else could win.",
+          "b_text": "Turns the ideas into a plan, a budget and a date. Neither shines without the other.",
+          "join": "+"
+        },
+        {
+          "kind": "text",
+          "title": "The useful bit",
+          "text": "Give a Thinker the why, a Heart-led the meaning, a Guardian the plan and a Maker the freedom. The same four keys work on your boss."
         },
         {
           "kind": "cta",
-          "title": "Know your answer",
-          "subtitle": "Start with your type. Free at mizaj.pk"
+          "title": "Know how you lead",
+          "subtitle": "Free type test for you and your team: mizaj.pk"
         }
       ],
-      "caption": "The question that follows you to every family function, in every country.\n\nSome answer in twelve precise words. Some explain their thesis for twenty minutes. One says 'astronaut' and watches it reach the family chat. Swipe to find your strategy.\n\nThe useful bit: a calm, specific answer ends the interview fastest.\n\nTag the cousin who always gets asked first.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Sixteen types, sixteen management styles. Which one do you work for, and which one are you?\n\nOne trusts you fully until a deadline slips. One knows you're burning out before you do. One fixes the broken thing at 6pm themselves. Swipe to find your manager.\n\nThe useful bit: give a Thinker the why, a Heart-led the meaning, a Guardian the plan and a Maker the freedom. It works on bosses too.\n\nSend this to a new manager, or to the colleague who'd love it.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#desiaunty",
-        "#desifamily",
-        "#desimemes",
-        "#personalitytypes",
-        "#britishasian",
-        "#desi",
-        "#southasian",
-        "#relatable"
+        "#leadership",
+        "#management",
+        "#manager",
+        "#worklife",
+        "#teamwork",
+        "#careeradvice",
+        "#personalitytypes"
       ],
-      "tiktok_caption": "'So beta, what are you doing these days?' Each type answers. #desiaunty #desimemes #mizaj #personalitytypes",
-      "reel_hook": "'So, what are you doing these days?' 16 types answer.",
-      "audio_hint": "a suspense sting, then a comedic boing for each answer"
+      "tiktok_caption": "Each type as a manager. Which one is your boss? #leadership #management #mizaj #personalitytypes",
+      "reel_hook": "Your manager is one of these 16.",
+      "audio_hint": "light office-comedy instrumental with a keyboard click on each card"
     },
     {
       "id": "d15-a-pick-a-card-family-function",
@@ -2140,12 +2129,12 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Pick a card: your role at the next family function",
+      "title": "Pick a card: your role at the next family gathering",
       "slides": [
         {
           "kind": "pick",
           "title": "Pick a card, find your role",
-          "subtitle": "Your next family function. 1, 2, 3 or 4?"
+          "subtitle": "Your next family gathering. 1, 2, 3 or 4?"
         },
         {
           "kind": "mizaj",
@@ -2173,19 +2162,19 @@
           "subtitle": "Comment it. Then find your real card at mizaj.pk"
         }
       ],
-      "caption": "Pause. Pick 1, 2, 3 or 4. Then swipe to find your role at the next family function.\n\nNo predictions here: each card is just a small job worth doing, whether it's a wedding, a birthday or a festival dinner.\n\nComment your number and tag the cousin who'd get card 2.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Pause. Pick 1, 2, 3 or 4. Then swipe to find your role at the next family gathering.\n\nNo predictions here: each card is just a small job worth doing, whether it's a wedding, a birthday or a holiday dinner.\n\nComment your number and tag the relative who'd get card 2.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#pickacard",
         "#mizaj",
-        "#desifamily",
+        "#family",
+        "#familytime",
         "#elements",
         "#fourtemperaments",
-        "#weddingseason",
-        "#desi",
-        "#southasian"
+        "#selfreflection",
+        "#personality"
       ],
-      "tiktok_caption": "Pick a card: your role at the next family function. #pickacard #mizaj #desifamily #desi",
-      "reel_hook": "Pick a card. It's your job at the next family function.",
+      "tiktok_caption": "Pick a card: your role at the next family gathering. #pickacard #mizaj #family #elements",
+      "reel_hook": "Pick a card. It's your job at the next family gathering.",
       "audio_hint": "gentle, suspenseful instrumental with a shimmer on each reveal"
     },
     {
@@ -2250,10 +2239,10 @@
         "#personalitytypes",
         "#introvert",
         "#elements",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#psychology"
       ],
-      "tiktok_caption": "The Poet, four ways. Which INFP are you? #infp #mizaj #personalitytypes #desi",
+      "tiktok_caption": "The Poet, four ways. Which INFP are you? #infp #mizaj #personalitytypes #introvert",
       "reel_hook": "Four INFPs walk into a bookshop.",
       "audio_hint": "soft piano with rain in the background"
     },
@@ -2272,8 +2261,8 @@
       "slides": [
         {
           "kind": "cover",
-          "title": "Why nani sorts food into warm and cool",
-          "subtitle": "The old kitchen idea behind 'that's too garam for you'.",
+          "title": "Why old kitchens sort food into warm and cool",
+          "subtitle": "The 2,000-year-old idea behind 'that's too heating for you'.",
           "note": "Field Notes · No. 04"
         },
         {
@@ -2285,8 +2274,8 @@
           "kind": "list",
           "title": "Traditionally warming",
           "items": [
-            "Ginger, cinnamon and black pepper",
-            "Dates, honey and mango",
+            "Ginger, garlic, cinnamon and black pepper",
+            "Dates, honey and walnuts",
             "Eggs and most meats"
           ],
           "note": "Traditional classification"
@@ -2295,9 +2284,9 @@
           "kind": "list",
           "title": "Traditionally cooling",
           "items": [
-            "Cucumber and melon",
+            "Cucumber, lettuce and watermelon",
             "Yoghurt and buttermilk",
-            "Barley water and coriander"
+            "Barley, lemon and coriander"
           ],
           "note": "Traditional classification"
         },
@@ -2317,19 +2306,19 @@
           "subtitle": "Find your element free in 4 minutes at mizaj.pk"
         }
       ],
-      "caption": "'Don't eat that, it's too garam for you.' There's an old system behind it.\n\nIn Unani tradition, foods are classed as warming or cooling, moist or drying, by their effect rather than their temperature. Ginger and dates count as warming; cucumber and yoghurt as cooling. The idea was balance with your temperament and the season.\n\nTraditional wellness wisdom, not medical advice. For any health concern, please see a qualified doctor.\n\nWhich food did your family always call 'garam'? Comment it, then send this to the family chat.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "'Don't eat that, it's too heating for you.' Families from Mexico to Iran still say a version of this, and there's an old system behind it.\n\nIn Unani tradition, which grew from Greek, Arabic and Persian medicine, foods are classed as warming or cooling, moist or drying, by their effect rather than their temperature. Ginger and dates count as warming; cucumber and yoghurt as cooling. The idea was balance with your temperament and the season.\n\nTraditional wellness wisdom, not medical advice. For any health concern, please see a qualified doctor.\n\nWhich food did your family call 'warming' or 'cooling'? Comment it, then send this to the family group chat.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#fieldnotes",
         "#unani",
         "#foodhistory",
-        "#garammizaj",
-        "#desifood",
+        "#traditionalwisdom",
+        "#history",
         "#fourtemperaments",
-        "#southasian"
+        "#temperament"
       ],
-      "tiktok_caption": "Why your family sorts food into warm and cool. #unani #foodhistory #desifood #mizaj",
-      "reel_hook": "Why is mango 'garam' but yoghurt 'thanda'?",
+      "tiktok_caption": "Why families sort food into warm and cool. #unani #foodhistory #history #mizaj",
+      "reel_hook": "Why is ginger 'warming' but cucumber 'cooling'?",
       "audio_hint": "cosy kitchen ambience, a kettle and a soft beat"
     },
     {
@@ -2343,18 +2332,18 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Each type at a festival dinner",
+      "title": "Each type at a holiday dinner",
       "slides": [
         {
           "kind": "cover",
-          "title": "Each type at a festival dinner",
-          "subtitle": "Eid, Diwali or any big family dinner: same chaos, sixteen roles.",
+          "title": "Each type at a holiday dinner",
+          "subtitle": "Any holiday, any family, any table: same chaos, sixteen roles.",
           "note": "Each type as… · No. 06",
           "hand": "find yourself →"
         },
         {
           "kind": "grid",
-          "title": "Thinkers · festival dinner",
+          "title": "Thinkers · holiday dinner",
           "cells": [
             {
               "code": "INTJ",
@@ -2362,7 +2351,7 @@
             },
             {
               "code": "INTP",
-              "text": "Deep in a history-of-the-festival debate with the one uncle who knows."
+              "text": "Deep in a debate about the holiday's history with the one relative who knows."
             },
             {
               "code": "ENTJ",
@@ -2370,13 +2359,13 @@
             },
             {
               "code": "ENTP",
-              "text": "Started the biryani debate. Took both sides. Ended it with a third option."
+              "text": "Started a debate about the best dish. Took both sides. Proposed a third."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Heart-led · festival dinner",
+          "title": "Heart-led · holiday dinner",
           "cells": [
             {
               "code": "INFJ",
@@ -2398,7 +2387,7 @@
         },
         {
           "kind": "grid",
-          "title": "Guardians · festival dinner",
+          "title": "Guardians · holiday dinner",
           "cells": [
             {
               "code": "ISTJ",
@@ -2410,7 +2399,7 @@
             },
             {
               "code": "ESTJ",
-              "text": "Has a list of who's bringing what. You're on rice. You were always on rice."
+              "text": "Has a list of who's bringing what. You're on drinks. You were always on drinks."
             },
             {
               "code": "ESFJ",
@@ -2420,7 +2409,7 @@
         },
         {
           "kind": "grid",
-          "title": "Makers · festival dinner",
+          "title": "Makers · holiday dinner",
           "cells": [
             {
               "code": "ISTP",
@@ -2446,20 +2435,19 @@
           "subtitle": "Find your type free at mizaj.pk. Send this to your host."
         }
       ],
-      "caption": "Eid, Diwali or any big family dinner: the same sixteen people show up.\n\nOne brought the dish they bring every year (perfect, every year). One started the biryani debate and argued both sides. One has packed takeaway boxes for all 40 guests. Swipe to find yourself.\n\nSend this to whoever is hosting this year. They deserve to know.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "A holiday, a birthday, a reunion: every big family dinner has the same sixteen people.\n\nOne brought the dish they bring every year (perfect, every year). One started a debate about the best dish and argued both sides. One has packed takeaway boxes for all 40 guests. Swipe to find yourself.\n\nSend this to whoever is hosting this year. They deserve to know.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#eid",
-        "#diwali",
-        "#festivalseason",
-        "#desifamily",
+        "#holidays",
+        "#holidayseason",
+        "#familydinner",
+        "#family",
         "#personalitytypes",
-        "#desimemes",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#relatable"
       ],
-      "tiktok_caption": "Each type at a festival dinner. Send it to your host. #eid #diwali #desifamily #mizaj #personalitytypes",
-      "reel_hook": "Every festival dinner has these 16 guests.",
+      "tiktok_caption": "Each type at a holiday dinner. Send it to your host. #holidays #familydinner #mizaj #personalitytypes",
+      "reel_hook": "Every holiday dinner has these 16 guests.",
       "audio_hint": "warm, festive instrumental with clinking plates"
     },
     {
@@ -2478,7 +2466,7 @@
         {
           "kind": "cover",
           "title": "Each type explaining their job to their parents",
-          "subtitle": "'But what do you actually do?' A first-gen classic.",
+          "subtitle": "'But what do you actually do?' A classic at every family dinner.",
           "note": "Work & study",
           "hand": "find your strategy →"
         },
@@ -2581,19 +2569,18 @@
           "subtitle": "Free type test at mizaj.pk. Career Compass has a page for parents."
         }
       ],
-      "caption": "'But what do you actually DO?' Every first-gen kid has heard it.\n\nOne made a diagram (the parents framed it). One explains it differently every time, so the parents believe they have four jobs. One just shows the promotion letter. Swipe to find your strategy.\n\nThe useful bit: parents rarely need the job title. They need to hear that you're okay, and why the work matters to you.\n\nSend this to a sibling, then send it to your parents.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "'But what do you actually DO?' Anyone with a modern job title has heard it.\n\nOne made a diagram (the parents framed it). One explains it differently every time, so the parents believe they have four jobs. One just shows the promotion letter. Swipe to find your strategy.\n\nThe useful bit: parents rarely need the job title. They need to hear that you're okay, and why the work matters to you.\n\nSend this to a sibling, then send it to your parents.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#firstgen",
-        "#immigrantparents",
-        "#desiparents",
         "#careeradvice",
+        "#worklife",
         "#corporatelife",
+        "#parents",
+        "#family",
         "#personalitytypes",
-        "#desi",
-        "#southasian"
+        "#relatable"
       ],
-      "tiktok_caption": "Each type explaining their job to their parents. #firstgen #desiparents #mizaj #personalitytypes",
+      "tiktok_caption": "Each type explaining their job to their parents. #worklife #parents #mizaj #personalitytypes",
       "reel_hook": "'So what do you actually do?' 16 types try to explain.",
       "audio_hint": "awkward silence, then a gentle comedic piano"
     },
@@ -2663,24 +2650,23 @@
           "subtitle": "Both take the free test, then try Mizaj Milan at mizaj.pk"
         }
       ],
-      "caption": "Every marriage has two elements. Here's what happens when they meet.\n\nFire plans the anniversary trip; Water remembers the small things. Air says yes to every invitation; Earth checks the calendar and saves them both. Traditionally, the strongest pairs aren't twins: they balance each other.\n\nTag your parents or your married friends. Which pair are they?\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Every marriage has two elements. Here's what happens when they meet.\n\nFire plans the anniversary trip; Water remembers the small things. Air says yes to every invitation; Earth checks the calendar and saves them both. Traditionally, the strongest pairs aren't twins: they balance each other.\n\nTag your parents, your grandparents or your married friends. Which pair are they?\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#mizajmilan",
         "#marriage",
         "#marriedlife",
+        "#couples",
         "#family",
         "#fourtemperaments",
-        "#elements",
-        "#desi",
-        "#southasian"
+        "#elements"
       ],
-      "tiktok_caption": "Married couples, by element. Tag your parents. #marriedlife #mizaj #elements #desi",
+      "tiktok_caption": "Married couples, by element. Tag your parents. #marriedlife #couples #mizaj #elements",
       "reel_hook": "Married couples, by element. Which pair are your parents?",
       "audio_hint": "sweet, old-film-style string instrumental"
     },
     {
-      "id": "d18-a-chai-or-coffee",
+      "id": "d18-a-tea-or-coffee",
       "day": 18,
       "time": "23:30",
       "pillar": "engage",
@@ -2689,11 +2675,11 @@
         "facebook",
         "tiktok"
       ],
-      "title": "Chai or coffee? This or that, by element",
+      "title": "Tea or coffee? This or that, by element",
       "slides": [
         {
           "kind": "cover",
-          "title": "Chai or coffee? Each element answers",
+          "title": "Tea or coffee? Each element answers",
           "subtitle": "Vote in the comments. Your element is showing.",
           "note": "This or that"
         },
@@ -2711,7 +2697,7 @@
             },
             {
               "key": "balghami",
-              "text": "Chai, extra milk, a refill they didn't ask for, and a long chat."
+              "text": "A big pot of tea, a refill they didn't ask for, and a long chat."
             },
             {
               "key": "saudavi",
@@ -2723,7 +2709,7 @@
           "kind": "list",
           "title": "This or that, fast",
           "items": [
-            "Chai or coffee?",
+            "Tea or coffee?",
             "Early flight or late flight?",
             "Plan the trip or just go?",
             "Call or voice note?",
@@ -2741,19 +2727,19 @@
           "subtitle": "Find your element free at mizaj.pk"
         }
       ],
-      "caption": "Chai or coffee? Choose carefully, your element is showing.\n\nAir orders whatever everyone's having, plus cake. Fire ordered black coffee before you finished reading the menu. Water wants chai with extra milk and a long chat. Earth has had the same order for nine years.\n\nAnswer the five this-or-thats in the comments, then tag two friends to guess your element.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Tea or coffee? Choose carefully, your element is showing.\n\nAir orders whatever everyone's having, plus cake. Fire ordered black coffee before you finished reading the menu. Water wants a big pot of tea and a long chat. Earth has had the same order for nine years.\n\nAnswer the five this-or-thats in the comments, then tag two friends to guess your element.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#chai",
+        "#tea",
         "#coffee",
         "#thisorthat",
         "#elements",
         "#fourtemperaments",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#selfdiscovery"
       ],
-      "tiktok_caption": "Chai or coffee? Your element is showing. #chai #thisorthat #mizaj #desi",
-      "reel_hook": "Chai or coffee? Answer fast.",
+      "tiktok_caption": "Tea or coffee? Your element is showing. #tea #coffee #thisorthat #mizaj",
+      "reel_hook": "Tea or coffee? Answer fast.",
       "audio_hint": "cosy café beat with a pouring sound"
     },
     {
@@ -2815,15 +2801,15 @@
         "#melancholic",
         "#history",
         "#historyofpsychology",
-        "#unani",
-        "#southasian"
+        "#psychology",
+        "#unani"
       ],
       "tiktok_caption": "The 2×2 that ran the world for 2,000 years. Which box are you? #fourtemperaments #history #mizaj",
       "reel_hook": "Two questions. Four answers. 2,000 years of history.",
       "audio_hint": "minimal ticking-clock beat with a chalk-on-board sound"
     },
     {
-      "id": "d19-b-each-type-watching-cricket",
+      "id": "d19-b-your-audience-has-16-types",
       "day": 19,
       "time": "21:00",
       "pillar": "types",
@@ -2833,124 +2819,130 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Each type watching a cricket match",
+      "title": "Your audience has 16 types",
       "slides": [
         {
           "kind": "cover",
-          "title": "Each type watching a cricket match",
-          "subtitle": "Five days, one evening or one over: everyone watches differently.",
+          "title": "Your audience has 16 types",
+          "subtitle": "One message never lands on everyone. Here's what each type needs to hear.",
           "note": "Each type as… · No. 07",
-          "hand": "find yourself →"
+          "hand": "find your customers →"
         },
         {
           "kind": "grid",
-          "title": "Thinkers · watching cricket",
+          "title": "Thinkers · what wins them",
           "cells": [
             {
               "code": "INTJ",
-              "text": "Predicted the result at the toss. Explains why only if asked. Was right."
+              "text": "Proof, specs and a clear roadmap. Skip the hype. They read the small print."
             },
             {
               "code": "INTP",
-              "text": "Knows the stats and the physics of swing. Missed the wicket explaining it."
+              "text": "How it actually works. One clever detail earns more trust than a slogan."
             },
             {
               "code": "ENTJ",
-              "text": "Has views on the captaincy. Would change the batting order. Loudly."
+              "text": "Results, time saved and a clear return. Lead with the outcome. Make buying fast."
             },
             {
               "code": "ENTP",
-              "text": "Supports whichever team is losing, purely to argue with everyone."
+              "text": "Something new and a little bold. They'll share it if they can argue about it."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Heart-led · watching cricket",
+          "title": "Heart-led · what wins them",
           "cells": [
             {
               "code": "INFJ",
-              "text": "Watching the players' faces, not the score. Knows who's having a bad day."
+              "text": "Purpose and honesty. Who does this help, and is it true?"
             },
             {
               "code": "INFP",
-              "text": "Cried at a retirement speech. Not their team. Not really their sport."
+              "text": "Real stories and real values. One fake note and they're gone."
             },
             {
               "code": "ENFJ",
-              "text": "Organised the watch party. Made sure everyone had a seat and a snack."
+              "text": "Community and impact. Show who it helps and how to bring friends."
             },
             {
               "code": "ENFP",
-              "text": "Doesn't know the rules. Has the most fun in the room. Dances at every six."
+              "text": "Possibility and fun. The launch, the story, the 'imagine if'."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Guardians · watching cricket",
+          "title": "Guardians · what wins them",
           "cells": [
             {
               "code": "ISTJ",
-              "text": "Same seat, same chai, same superstition for 15 years. Do not move them."
+              "text": "Reviews, a clear guarantee and exactly what happens next."
             },
             {
               "code": "ISFJ",
-              "text": "Kept the snacks coming all match. Saw maybe three overs. Happy."
+              "text": "Care and safety. Show how it looks after the people they look after."
             },
             {
               "code": "ESTJ",
-              "text": "Scorecard open, timings set, already planning the next screening."
+              "text": "Efficiency and clear value. A comparison table beats a mood board."
             },
             {
               "code": "ESFJ",
-              "text": "Fed 20 people through a five-hour match. Missed the final over. Worth it."
+              "text": "Warmth and social proof. What do people like them say about it?"
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Makers · watching cricket",
+          "title": "Makers · what wins them",
           "cells": [
             {
               "code": "ISTP",
-              "text": "Silent all match. Says 'good shot' once. It was the shot of the day."
+              "text": "Let them try it. A demo beats a deck. Keep the copy short."
             },
             {
               "code": "ISFP",
-              "text": "Mostly here for the floodlights, the sunset and the vibe. Fair."
+              "text": "Beautiful design and a real feel. They notice the details you nearly skipped."
             },
             {
               "code": "ESTP",
-              "text": "Plays in the garden at every break. Broke a window in 2014. No regrets."
+              "text": "Speed, action and a reason to buy today. Make the button big."
             },
             {
               "code": "ESFP",
-              "text": "Painted face, team shirt, leading the chants. On the big screen twice."
+              "text": "Experience and fun. If it looks good in a story, it sells itself."
             }
           ]
         },
         {
+          "kind": "text",
+          "title": "The useful bit",
+          "note": "A rough guide, not a rulebook",
+          "text": "You don't need 16 campaigns. Test four angles: the proof (Thinkers), the purpose (Heart-led), the guarantee (Guardians) and the experience (Makers). Then see who answers."
+        },
+        {
           "kind": "cta",
-          "title": "Which fan are you?",
-          "subtitle": "Find your type free at mizaj.pk, then tag your match buddy"
+          "title": "Know your own type first",
+          "subtitle": "Free test, 8 minutes, for you and your team: mizaj.pk"
         }
       ],
-      "caption": "Same match, sixteen completely different experiences.\n\nOne predicted the result at the toss. One supports whoever's losing, just to argue. One has watched from the same seat with the same chai for 15 years and will not be moved. Swipe to find yourself.\n\nTag the friend you always watch with.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Your audience isn't one person. It's sixteen types, and each one hears your message differently.\n\nThinkers want proof. The Heart-led want purpose. Guardians want a guarantee. Makers want to try it. Swipe for what wins each type.\n\nThe useful bit: you don't need 16 campaigns. Test four angles (proof, purpose, guarantee, experience) and see who answers.\n\nSend this to a marketer, a founder or anyone who writes copy for a living.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#cricket",
-        "#cricketfans",
-        "#matchday",
-        "#personalitytypes",
-        "#desimemes",
-        "#desi",
-        "#southasian",
-        "#relatable"
+        "#marketing",
+        "#marketingtips",
+        "#copywriting",
+        "#branding",
+        "#smallbusiness",
+        "#consumerpsychology",
+        "#psychology",
+        "#personalitytypes"
       ],
-      "tiktok_caption": "Each type watching cricket. Tag your match buddy. #cricket #mizaj #personalitytypes #desi",
-      "reel_hook": "16 personality types watching the same cricket match.",
-      "audio_hint": "stadium crowd roar into an upbeat percussion loop"
+      "tiktok_caption": "Your audience has 16 types. Here's what each one needs to hear. #marketing #copywriting #mizaj #personalitytypes",
+      "reel_hook": "Your audience has 16 types. Your ad speaks to one.",
+      "audio_hint": "confident, minimal electronic beat with a click on each card"
     },
     {
       "id": "d20-a-what-is-the-mizaj-deck",
@@ -3021,15 +3013,15 @@
         "#personalitytypes",
         "#fourtemperaments",
         "#selfdiscovery",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#psychology"
       ],
-      "tiktok_caption": "16 types × 4 elements = 64 cards. Which one are you? #mizajdeck #mizaj #personalitytest #desi",
+      "tiktok_caption": "16 types × 4 elements = 64 cards. Which one are you? #mizajdeck #mizaj #personalitytest #personality",
       "reel_hook": "There are 64 cards in the Mizaj Deck. Which one did you pull?",
       "audio_hint": "satisfying card-shuffle ASMR into a confident beat"
     },
     {
-      "id": "d21-a-each-element-on-a-long-layover",
+      "id": "d21-a-every-classroom-has-all-four-elements",
       "day": 21,
       "time": "18:30",
       "pillar": "elements",
@@ -3039,60 +3031,60 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Each element on a long layover",
+      "title": "Every classroom has all four elements",
       "slides": [
         {
           "kind": "cover",
-          "title": "Each element on a 7-hour layover",
-          "subtitle": "Dubai, Doha, Istanbul: the terminal tells you who you are.",
-          "note": "The elements"
+          "title": "Every classroom has all four elements",
+          "subtitle": "For teachers, tutors and anyone who's ever stood at the front of a room.",
+          "note": "The elements · for educators"
         },
         {
           "kind": "mizaj",
           "key": "damvi",
-          "text": "Air: Made friends with a family from Toronto. Now invited to their daughter's wedding."
+          "text": "The Air student. Hand up before the question ends. Knows everyone's news. Loves group work."
         },
         {
           "kind": "mizaj",
           "key": "safravi",
-          "text": "Fire: Walked the whole terminal twice. Found the fastest route to the gate. Bored by hour two."
+          "text": "The Fire student. Finished first, asked for more. Wants to know why the mark wasn't higher."
         },
         {
           "kind": "mizaj",
           "key": "balghami",
-          "text": "Water: Found a quiet bench in hour one. Slept for six. Woke up refreshed and unbothered."
+          "text": "The Water student. Calm, kind, never rushed. Brilliant work, handed in one day late."
         },
         {
           "kind": "mizaj",
           "key": "saudavi",
-          "text": "Earth: Checked the gate 11 times. There three hours early. Finished an entire book."
+          "text": "The Earth student. Silent in class, perfect notes. Remembers what you said in week two."
         },
         {
           "kind": "text",
-          "title": "Layover tips, by element",
-          "text": "Air: set a gate alarm. Fire: the lounge is worth it for you. Water: set two alarms. Earth: the gate won't move. Probably."
+          "title": "Teaching each element",
+          "text": "Air: give them a role, not just a seat. Fire: a stretch task and a clear goal. Water: a gentle deadline and a warm check-in. Earth: time to think before you ask for an answer."
         },
         {
           "kind": "cta",
-          "title": "Which one are you?",
-          "subtitle": "Find your element free at mizaj.pk"
+          "title": "Which one were you?",
+          "subtitle": "Free test for teachers and students: mizaj.pk"
         }
       ],
-      "caption": "Seven hours in a terminal reveals everything.\n\nAir has been invited to a stranger's daughter's wedding. Fire has walked the terminal twice and found the fastest route to the gate. Water found a quiet bench and slept for six hours. Earth has checked the gate 11 times.\n\nTips for each on slide 6. Send this to your travel buddy before your next trip home.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Every classroom has all four elements, and every teacher knows them by week two.\n\nAir has a hand up before the question ends. Fire finished first and wants to know why the mark wasn't higher. Water does brilliant work, one day late. Earth says nothing and remembers everything.\n\nOne small change for each is on slide 6. Traditional temperament ideas as a lens, never a label.\n\nTeachers: which element is your class? Tag a colleague from the staff room.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#layover",
-        "#travel",
-        "#airport",
+        "#teachers",
+        "#teaching",
+        "#education",
+        "#classroom",
+        "#teacherlife",
+        "#students",
         "#elements",
-        "#fourtemperaments",
-        "#desi",
-        "#southasian",
-        "#relatable"
+        "#fourtemperaments"
       ],
-      "tiktok_caption": "Each element on a long layover. #layover #travel #mizaj #elements",
-      "reel_hook": "Seven-hour layover. Four elements. Very different vibes.",
-      "audio_hint": "ambient airport hum into a chill travel beat"
+      "tiktok_caption": "Every classroom has all four elements. Teachers, which one is your class? #teachers #teacherlife #mizaj #elements",
+      "reel_hook": "Teachers: every class has these four students.",
+      "audio_hint": "school-bell chime into a light, playful beat"
     },
     {
       "id": "d21-b-your-friend-group-as-a-hand-of-cards",
@@ -3128,7 +3120,7 @@
             },
             {
               "code": "ISFJ",
-              "text": "The one who remembers every birthday, allergy and mum's name."
+              "text": "The one who remembers every birthday, every allergy and your parents' names."
             },
             {
               "code": "ENTP",
@@ -3175,18 +3167,17 @@
         "#friendgroup",
         "#groupchat",
         "#friendship",
+        "#friends",
         "#tagafriend",
         "#personalitytypes",
-        "#desi",
-        "#southasian",
         "#relatable"
       ],
-      "tiktok_caption": "Your friend group as a hand of cards. Send it to the group chat. #friendgroup #mizaj #personalitytypes #desi",
+      "tiktok_caption": "Your friend group as a hand of cards. Send it to the group chat. #friendgroup #mizaj #personalitytypes #friendship",
       "reel_hook": "Send this to the group chat and assign everyone a card.",
       "audio_hint": "playful card-dealing beat"
     },
     {
-      "id": "d22-a-each-type-on-bollywood-night",
+      "id": "d22-a-each-type-in-retirement",
       "day": 22,
       "time": "23:30",
       "pillar": "types",
@@ -3196,124 +3187,128 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Each type on Bollywood night",
+      "title": "Each type in retirement",
       "slides": [
         {
           "kind": "cover",
-          "title": "Each type on Bollywood night",
-          "subtitle": "Three hours, one interval, sixteen ways to watch.",
+          "title": "Each type in retirement",
+          "subtitle": "No alarm, no boss, and somehow busier than ever.",
           "note": "Each type as… · No. 08",
           "hand": "find yourself →"
         },
         {
           "kind": "grid",
-          "title": "Thinkers · film night",
+          "title": "Thinkers · in retirement",
           "cells": [
             {
               "code": "INTJ",
-              "text": "Predicted the twist in the first 10 minutes. Said nothing. Smug for three hours."
+              "text": "Finally writing the book. Has a research plan, a deadline and three archives."
             },
             {
               "code": "INTP",
-              "text": "Pausing to explain the plot holes. Nobody asked. The plot holes remain."
+              "text": "Taking free online courses in astronomy, philosophy and Greek. At once."
             },
             {
               "code": "ENTJ",
-              "text": "Chose the film, the snacks and the start time. 8pm means 8pm."
+              "text": "Retired on Friday. Chairing the community board by Monday."
             },
             {
               "code": "ENTP",
-              "text": "Rooting for the villain. Has a well-argued case. It's quite convincing."
+              "text": "Argues with the radio, starts a debating club, wins every local quiz."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Heart-led · film night",
+          "title": "Heart-led · in retirement",
           "cells": [
             {
               "code": "INFJ",
-              "text": "Understood the side character's whole backstory from one look."
+              "text": "Volunteers quietly, mentors young people, writes long letters."
             },
             {
               "code": "INFP",
-              "text": "Cried at the songs, the reunion and the opening credits."
+              "text": "Painting, poetry, the garden. Finally doing what they always meant to do."
             },
             {
               "code": "ENFJ",
-              "text": "Made sure everyone could see, had a blanket and had a snack."
+              "text": "Runs the walking group, the book club and the grandchildren's fan club."
             },
             {
               "code": "ENFP",
-              "text": "Singing every song. Dancing in the interval. Wants a sequel, and a role in it."
+              "text": "Booked a trip, learned to salsa, joined a choir. In the first month."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Guardians · film night",
+          "title": "Guardians · in retirement",
           "cells": [
             {
               "code": "ISTJ",
-              "text": "Watching the version they've seen eight times. Prefers it that way."
+              "text": "Same walk, same time, same bench. The garden is immaculate. The paperwork, done."
             },
             {
               "code": "ISFJ",
-              "text": "Brought popcorn, chai and tissues. Knew exactly who'd need the tissues."
+              "text": "Looks after the grandchildren, the neighbours and the neighbours' cat."
             },
             {
               "code": "ESTJ",
-              "text": "Enforced the no-phones rule. Confiscated two. Correctly."
+              "text": "A weekly schedule on the fridge. Retirement has never been so organised."
             },
             {
               "code": "ESFJ",
-              "text": "Pausing every 20 minutes to refill plates. Has missed the entire plot."
+              "text": "Hosts Sunday lunch for everyone. The family has never been closer."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Makers · film night",
+          "title": "Makers · in retirement",
           "cells": [
             {
               "code": "ISTP",
-              "text": "Fixed the projector, the sound and the wobbly sofa. Watched in silence."
+              "text": "Restoring an old car in the garage. Fixes the whole street's bikes on the side."
             },
             {
               "code": "ISFP",
-              "text": "Here for the costumes, the colours and the soundtrack. Ignoring the plot."
+              "text": "Pottery class, a sketchbook, and a garden that stops passers-by."
             },
             {
               "code": "ESTP",
-              "text": "Fast-forwarding to the action. Overruled. Fast-forwarding anyway."
+              "text": "Took up sailing at 68. Won the club race at 70."
             },
             {
               "code": "ESFP",
-              "text": "Recreating the dance number in the interval. Everyone joined in."
+              "text": "Dance classes, a new hobby a month, and the best party at the community centre."
             }
           ]
+        },
+        {
+          "kind": "quote",
+          "text": "Retirement doesn't change your type. It finally gives it time.",
+          "note": "The useful bit"
         },
         {
           "kind": "cta",
           "title": "Which one are you?",
-          "subtitle": "Find your type free at mizaj.pk. Tag your film-night crew."
+          "subtitle": "Free test, 8 minutes, any age: mizaj.pk"
         }
       ],
-      "caption": "Three hours, one interval, sixteen ways to watch.\n\nOne predicted the twist in ten minutes and stayed smug for three hours. One is rooting for the villain (convincingly). One cried at the opening credits. Swipe to find yourself, and the friend who keeps pausing to refill the plates.\n\nTag your film-night crew.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "No alarm, no boss, and somehow busier than ever.\n\nOne is finally writing the book. One retired on Friday and was chairing the community board by Monday. One is restoring an old car and fixing the whole street's bikes on the side. Swipe to find yourself, or your parents.\n\nRetirement doesn't change your type. It finally gives it time.\n\nSend this to someone who's just retired, or counting the days.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#bollywood",
-        "#movienight",
-        "#filmnight",
+        "#retirement",
+        "#retired",
+        "#retirementlife",
+        "#agingwell",
+        "#hobbies",
         "#personalitytypes",
-        "#desimemes",
-        "#desi",
-        "#southasian",
-        "#relatable"
+        "#selfdiscovery"
       ],
-      "tiktok_caption": "Each type on Bollywood night. Tag your film crew. #bollywood #movienight #mizaj #personalitytypes",
-      "reel_hook": "16 personality types watching the same three-hour film.",
-      "audio_hint": "dramatic film-score swell into a comedic beat"
+      "tiktok_caption": "Each type in retirement. Send it to someone counting the days. #retirement #retirementlife #mizaj #personalitytypes",
+      "reel_hook": "16 types, retired. Busier than ever.",
+      "audio_hint": "cheerful acoustic guitar with birdsong"
     },
     {
       "id": "d23-a-fire-vs-earth-in-a-job-interview",
@@ -3383,13 +3378,12 @@
         "#jobinterview",
         "#interviewtips",
         "#careeradvice",
+        "#jobsearch",
+        "#worklife",
         "#corporatelife",
-        "#elements",
-        "#firstgen",
-        "#desi",
-        "#southasian"
+        "#elements"
       ],
-      "tiktok_caption": "Fire vs Earth in a job interview. Which are you? #jobinterview #careeradvice #mizaj #desi",
+      "tiktok_caption": "Fire vs Earth in a job interview. Which are you? #jobinterview #careeradvice #mizaj #elements",
       "reel_hook": "Fire vs Earth: same interview, different strategy.",
       "audio_hint": "tense interview-room ticking into an upbeat resolve"
     },
@@ -3464,10 +3458,9 @@
         "#intj",
         "#infp",
         "#personalitytest",
-        "#desi",
-        "#southasian"
+        "#personality"
       ],
-      "tiktok_caption": "Every type has an opposite. Tag yours. #personalitytypes #opposites #mizaj #desi",
+      "tiktok_caption": "Every type has an opposite. Tag yours. #personalitytypes #opposites #mizaj #personality",
       "reel_hook": "Flip your four letters. That's the person who annoys you most.",
       "audio_hint": "split-screen duet beat, two contrasting melodies"
     },
@@ -3528,9 +3521,9 @@
         "#seasons",
         "#fourtemperaments",
         "#elements",
-        "#unani",
         "#history",
-        "#southasian"
+        "#temperament",
+        "#unani"
       ],
       "tiktok_caption": "The four elements and their seasons. Which season are you? #fourtemperaments #seasons #mizaj",
       "reel_hook": "Your favourite season says something about your element.",
@@ -3593,8 +3586,8 @@
         "#nightowl",
         "#elements",
         "#fourtemperaments",
-        "#desi",
-        "#southasian",
+        "#personality",
+        "#selfdiscovery",
         "#relatable"
       ],
       "tiktok_caption": "Each element at 2am. Send it to whoever's awake. #overthinking #nightowl #mizaj #elements",
@@ -3602,7 +3595,7 @@
       "audio_hint": "late-night lo-fi with a faint clock tick"
     },
     {
-      "id": "d26-a-each-type-packing-for-a-trip-home",
+      "id": "d26-a-each-type-in-the-staff-room",
       "day": 26,
       "time": "23:30",
       "pillar": "types",
@@ -3612,124 +3605,128 @@
         "tiktok",
         "youtube"
       ],
-      "title": "Each type packing for a trip home",
+      "title": "Each type in the staff room",
       "slides": [
         {
           "kind": "cover",
-          "title": "Each type packing for a trip home",
-          "subtitle": "One suitcase, 23kg, gifts for 30 relatives. Let's go.",
+          "title": "Each type in the staff room",
+          "subtitle": "Marking, meetings and one kettle shared by forty teachers.",
           "note": "Each type as… · No. 09",
-          "hand": "find yourself →"
+          "hand": "find your colleagues →"
         },
         {
           "kind": "grid",
-          "title": "Thinkers · packing for home",
+          "title": "Thinkers · in the staff room",
           "cells": [
             {
               "code": "INTJ",
-              "text": "Packing list made in January. Bag weighs 22.9kg. Has a receipt for everything."
+              "text": "Lessons planned to the end of term. Silently judging the new policy. Correct about it."
             },
             {
               "code": "INTP",
-              "text": "Packed 40 minutes before leaving. Forgot clothes. Brought four books."
+              "text": "Turned one student's question into a three-week project. Best results in the year."
             },
             {
               "code": "ENTJ",
-              "text": "Gave each sibling a suitcase and a list of relatives. Ran it like a project."
+              "text": "Joined last year. Head of department this year. Has redrawn the timetable."
             },
             {
               "code": "ENTP",
-              "text": "Used a packing hack from a video. The bag is now a perfect cube."
+              "text": "Asks 'but why?' in every meeting. Accidentally the students' favourite."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Heart-led · packing for home",
+          "title": "Heart-led · in the staff room",
           "cells": [
             {
               "code": "INFJ",
-              "text": "Bought each relative the gift they needed, not the one they asked for."
+              "text": "Knows which student is struggling at home. Has already quietly helped."
             },
             {
               "code": "INFP",
-              "text": "Packed letters, old photos and a pressed flower. A very emotional suitcase."
+              "text": "A classroom full of plants and student art. Cries at every graduation."
             },
             {
               "code": "ENFJ",
-              "text": "Gifts for everyone, plus spares for anyone they might have forgotten."
+              "text": "Runs the school play, the mentoring scheme and the staff wellbeing group."
             },
             {
               "code": "ENFP",
-              "text": "6kg over. Wearing three jackets at check-in. Charming everyone."
+              "text": "Turns every lesson into a project. The trip got approved. Somehow."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Guardians · packing for home",
+          "title": "Guardians · in the staff room",
           "cells": [
             {
               "code": "ISTJ",
-              "text": "Weighed the bag three times on two scales. Documents in a waterproof folder."
+              "text": "Marking done by Friday. Reports on time. The rota exists because of them."
             },
             {
               "code": "ISFJ",
-              "text": "Half the case is gifts for relatives. Their own clothes fit in a carry-on."
+              "text": "Brings biscuits on report-writing day. Covers lessons without being asked."
             },
             {
               "code": "ESTJ",
-              "text": "Spreadsheet: gift, relative, delivered. Updated daily during the trip."
+              "text": "Runs exam week like an airport. Everyone in the right room at the right time."
             },
             {
               "code": "ESFJ",
-              "text": "Coming back with more than they took, including mithai for three households."
+              "text": "Organises every leaving card, birthday cake and staff night out."
             }
           ]
         },
         {
           "kind": "grid",
-          "title": "Makers · packing for home",
+          "title": "Makers · in the staff room",
           "cells": [
             {
               "code": "ISTP",
-              "text": "Packed in 15 minutes. One bag. Somehow has everything, including a toolkit."
+              "text": "Fixed the projector, the printer and the lab tap. Said nothing about it."
             },
             {
               "code": "ISFP",
-              "text": "Every outfit planned and colour-matched. Every gift beautifully wrapped."
+              "text": "The art room is the calmest place in the building. The students know it."
             },
             {
               "code": "ESTP",
-              "text": "Arrives at the airport with the bag still half open. Makes the flight."
+              "text": "Runs sports day like a final. The students would follow them anywhere."
             },
             {
               "code": "ESFP",
-              "text": "Packed outfits for 14 parties. The trip is 10 days long."
+              "text": "Turns assembly into a show. Former students quote them for years."
             }
           ]
         },
         {
+          "kind": "text",
+          "title": "The useful bit",
+          "text": "The same sixteen types sit in your classroom. Knowing your own type shows you who you reach naturally, and who you might be missing."
+        },
+        {
           "kind": "cta",
-          "title": "Which packer are you?",
-          "subtitle": "Find your type free at mizaj.pk. Tag your travel buddy."
+          "title": "Which teacher are you?",
+          "subtitle": "Free test for teachers (and their students): mizaj.pk"
         }
       ],
-      "caption": "One suitcase, 23kg, gifts for 30 relatives. Every type handles the trip home differently.\n\nOne made the packing list in January. One is wearing three jackets at check-in. One is flying back with mithai for three households. Swipe to find yourself.\n\nSend this to whoever's flying home next.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Marking, meetings and one kettle shared by forty teachers. Every staff room has the same sixteen people.\n\nOne has lessons planned to the end of term. One knows which student is struggling at home and has already helped. One fixed the projector and said nothing. Swipe to find yourself, and your colleagues.\n\nThe useful bit: the same sixteen types sit in your classroom. Knowing your own type shows you who you reach naturally, and who you might be missing.\n\nTag a teacher who deserves a cup of tea.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
-        "#triphome",
-        "#travel",
-        "#packing",
-        "#diaspora",
-        "#personalitytypes",
-        "#desimemes",
-        "#desi",
-        "#southasian"
+        "#teachers",
+        "#teacherlife",
+        "#staffroom",
+        "#education",
+        "#teaching",
+        "#school",
+        "#personalitytypes"
       ],
-      "tiktok_caption": "Each type packing for a trip home. 23kg, 30 relatives. #travel #diaspora #mizaj #personalitytypes",
-      "reel_hook": "One suitcase, 23kg, gifts for 30 relatives. 16 types pack.",
-      "audio_hint": "upbeat packing-montage beat with a zip sound on each slide"
+      "tiktok_caption": "Each type in the staff room. Tag a teacher. #teachers #teacherlife #mizaj #personalitytypes",
+      "reel_hook": "Every staff room has these 16 teachers.",
+      "audio_hint": "school bell into a light comedic beat with a kettle click"
     },
     {
       "id": "d27-a-field-notes-words-you-already-use",
@@ -3747,7 +3744,7 @@
         {
           "kind": "cover",
           "title": "The temperament words you already use",
-          "subtitle": "A 2,000-year-old idea, hiding in everyday English, Urdu and Hindi.",
+          "subtitle": "A 2,000-year-old idea, hiding in everyday words from English to Turkish.",
           "note": "Field Notes · No. 07"
         },
         {
@@ -3763,11 +3760,11 @@
         },
         {
           "kind": "list",
-          "title": "Across Asia and beyond",
+          "title": "Across Asia, Europe and beyond",
           "items": [
             "Mizaj: mood and temperament, from the Arabic for 'mixture'.",
             "Mizaç in Turkish, mezaj in Persian: same word, same idea.",
-            "Garam mizaj and thanda mizaj: hot-headed and cool-headed."
+            "Humeur, humor, umore: 'mood' in French, Spanish and Italian, from the humours."
           ]
         },
         {
@@ -3781,16 +3778,16 @@
           "subtitle": "Find your element free at mizaj.pk"
         }
       ],
-      "caption": "You've been quoting a 2,000-year-old theory without knowing it.\n\nSanguine, choleric, phlegmatic, melancholy, 'in a good humour': all of them come from the four humours. And 'mizaj', from the Arabic for 'mixture', still means mood and temperament in Urdu, Hindi, Persian and Turkish (mizaç).\n\nSave this for your next quiz night, and send it to the friend who loves a good word origin.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "You've been quoting a 2,000-year-old theory without knowing it.\n\nSanguine, choleric, phlegmatic, melancholy, 'in a good humour': all of them come from the four humours, and so do the French, Spanish and Italian words for mood. And 'mizaj', from the Arabic for 'mixture', still means mood and temperament in Arabic, Persian, Turkish (mizaç), Urdu and Hindi.\n\nSave this for your next quiz night, and send it to the friend who loves a good word origin.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#fieldnotes",
         "#etymology",
         "#wordnerd",
         "#languages",
+        "#linguistics",
         "#history",
-        "#fourtemperaments",
-        "#southasian"
+        "#fourtemperaments"
       ],
       "tiktok_caption": "Words you use every day that come from a 2,000-year-old theory. #etymology #wordnerd #history #mizaj",
       "reel_hook": "'Sanguine', 'phlegmatic', 'mizaj': all from the same old idea.",
@@ -3821,7 +3818,7 @@
             "48 quick questions on how you think and live: your type",
             "24 more on your pace and energy: your element",
             "Together: your card, one of 64 in the Mizaj Deck",
-            "Share it, compare it, send it to your family"
+            "Share it, compare it, send it to friends, family or your team"
           ]
         },
         {
@@ -3853,10 +3850,10 @@
         "#fourtemperaments",
         "#selfdiscovery",
         "#selfreflection",
-        "#desi",
-        "#southasian"
+        "#psychology",
+        "#personality"
       ],
-      "tiktok_caption": "How the Mizaj test works, in 30 seconds. #personalitytest #mizaj #selfdiscovery #desi",
+      "tiktok_caption": "How the Mizaj test works, in 30 seconds. #personalitytest #mizaj #selfdiscovery #psychology",
       "reel_hook": "8 minutes, 64 possible cards, zero sign-up.",
       "audio_hint": "clean, upbeat explainer beat"
     },
@@ -3923,14 +3920,13 @@
         "#mizaj",
         "#mizajmilan",
         "#compatibility",
+        "#couples",
         "#marriage",
         "#siblings",
         "#bestfriends",
-        "#family",
-        "#desi",
-        "#southasian"
+        "#family"
       ],
-      "tiktok_caption": "Compatibility for spouses, siblings and best friends. Who would you compare with? #mizajmilan #compatibility #mizaj #desi",
+      "tiktok_caption": "Compatibility for spouses, siblings and best friends. Who would you compare with? #mizajmilan #compatibility #mizaj #couples",
       "reel_hook": "Who would you compare with first?",
       "audio_hint": "warm, gentle strings with a soft two-note motif"
     },
@@ -3959,11 +3955,11 @@
           "cells": [
             {
               "key": "damvi",
-              "text": "The uncle who knows everyone's news and tells it with sound effects."
+              "text": "The relative who knows everyone's news and tells it with sound effects."
             },
             {
               "key": "safravi",
-              "text": "The aunt who runs the kitchen, the timings and the seating plan."
+              "text": "The one who runs the kitchen, the timings and the seating plan."
             },
             {
               "key": "balghami",
@@ -4012,15 +4008,14 @@
       "hashtags": [
         "#mizaj",
         "#mizajmilan",
-        "#desifamily",
         "#family",
+        "#familytime",
         "#familygroupchat",
         "#elements",
         "#fourtemperaments",
-        "#desi",
-        "#southasian"
+        "#relatable"
       ],
-      "tiktok_caption": "Every family has all four elements. Assign yours. #desifamily #family #mizaj #elements",
+      "tiktok_caption": "Every family has all four elements. Assign yours. #family #familytime #mizaj #elements",
       "reel_hook": "Every family has these four people. Which one are you?",
       "audio_hint": "warm family-gathering instrumental with a light comedic beat"
     },
@@ -4057,7 +4052,7 @@
           "a": "damvi",
           "b": "balghami",
           "a_text": "At the second brunch. Made a new friend. Inviting them to the party.",
-          "b_text": "Made one perfect cup of chai. Watching it go cold. Content."
+          "b_text": "Made one perfect cup of tea. Watching it go cold. Content."
         },
         {
           "kind": "versus",
@@ -4078,7 +4073,7 @@
           "subtitle": "Find your element free at mizaj.pk. Tag your Sunday opposite."
         }
       ],
-      "caption": "Same free Sunday, two completely different plans.\n\nAir has three brunch invites and a maybe-party, and is saying yes to all of them. Water is horizontal and at peace, watching one perfect cup of chai go cold. By 8pm, both are glowing.\n\nThe useful bit: Air recharges with people, Water with peace. Neither is wrong.\n\nTag your Sunday opposite.\n\nFree test: link in bio (mizaj.pk)",
+      "caption": "Same free Sunday, two completely different plans.\n\nAir has three brunch invites and a maybe-party, and is saying yes to all of them. Water is horizontal and at peace, watching one perfect cup of tea go cold. By 8pm, both are glowing.\n\nThe useful bit: Air recharges with people, Water with peace. Neither is wrong.\n\nTag your Sunday opposite.\n\nFree test: link in bio (mizaj.pk)",
       "hashtags": [
         "#mizaj",
         "#sunday",
@@ -4086,8 +4081,7 @@
         "#extrovert",
         "#elements",
         "#fourtemperaments",
-        "#desi",
-        "#southasian",
+        "#personality",
         "#relatable"
       ],
       "tiktok_caption": "Air vs Water on a free Sunday. Tag your opposite. #introvert #extrovert #mizaj #elements",
@@ -4147,10 +4141,10 @@
         "#personalitytest",
         "#personalitytypes",
         "#selfdiscovery",
-        "#desi",
-        "#southasian"
+        "#personality",
+        "#psychology"
       ],
-      "tiktok_caption": "64 cards. Which one did you pull? Comment it. #mizajdeck #mizaj #personalitytest #desi",
+      "tiktok_caption": "64 cards. Which one did you pull? Comment it. #mizajdeck #mizaj #personalitytest #personality",
       "reel_hook": "Show me your card. I'll go first.",
       "audio_hint": "upbeat, celebratory instrumental with a card-flip on the drop"
     }
