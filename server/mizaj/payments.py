@@ -185,7 +185,7 @@ def _after_paid(order: dict) -> None:
         return
     p = content.product(order["product"])
     link = f"{settings.site_url}/report/{prof['id']}?k={prof['key']}"
-    body = (f"<p>Shukriya! Your <b>{notify.esc(p['name'])}</b> is unlocked.</p>"
+    body = (f"<p>Thank you! Your <b>{notify.esc(p['name'])}</b> is unlocked.</p>"
             "<p>Keep this email: the button below always opens your full report, on any phone or laptop.</p>")
     notify.email(to, f"Your {p['name']} is ready", notify.email_shell("Your report is ready", body, "Open my report", link))
 

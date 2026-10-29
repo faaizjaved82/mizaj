@@ -10,7 +10,7 @@ from markupsafe import Markup
 from . import content, deck
 from .config import settings
 
-ASSET_VERSION = "3"
+ASSET_VERSION = "4"
 
 
 def _paras(text: str | None) -> Markup:
