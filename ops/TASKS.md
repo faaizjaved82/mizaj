@@ -46,7 +46,7 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 | T29 | First 10 school outreach drafts and a pilot | claude-ops + owner | todo | 3 school pilots running by end of December |
 | T30 | Write the server launch log entry; confirm T04–T06 and tick them | claude-server | todo | `ops/log/<date>-claude-server-launch.md` on `main` |
 | T31 | Mizaj Deck character art, art brief v2 (`docs/handoff/ART_BRIEF.md`): style test of 4 first (T31a), then the other 12 (T31b) | codex | todo | 16 transparent WebP files in `site/static/img/deck/`, style approved in the PR |
-| T32 | Review the repositioning on `main` (28–29 Oct: deck cards, everyone positioning) (new `server/mizaj/deck.py`, `web.py`, `reports.py`, `content.py`, OG paths in `api.py`, checkout layout) | claude-ops | doing | Review notes in `ops/log/`, fixes in a PR if needed |
+| T32 | Review the repositioning on `main` (28–29 Oct: deck cards, everyone positioning) (new `server/mizaj/deck.py`, `web.py`, `reports.py`, `content.py`, OG paths in `api.py`, checkout layout) | claude-ops | review: PR #6 (PR #5 merged; notes in ops/log/2026-10-30-claude-ops-t32-review.md) | Review notes in `ops/log/`, fixes in a PR if needed |
 | T33 | Gumroad checkout | claude-cloud | dropped | Owner decided against Gumroad (29 Oct); PR #3 closed, branch kept |
 | T34 | Group "Chemistry" mode: add 2–8 friends or family and get one shareable grid card (research 05, format 2) | claude-ops | todo | `/group/` live with a 9:16 group card |
 | T35 | Paddle as card processor | owner | dropped | Not needed in phase 1 (Safepay takes international cards) |
@@ -63,3 +63,4 @@ right section with a "done when". Details of each agent's tasks are in `docs/han
 | T46 | Handoff: Codex runs the project (`docs/handoff/CODEX.md`, `docs/PLAN.md`, playbook, roles) | claude-cloud | done | Codex's first log entry on `main` |
 | T47 | Safepay sandbox card payment from a non-Pakistan time zone after T40; optionally set `USD_PKR_RATE` | claude-server | blocked: T10 | Full report charged about PKR 2,520 and unlocks; result in a log entry |
 | T48 | Harden the region: a buyer abroad can pick PKR in the footer and pay PKR prices by card. Check the card's issuing country (Safepay) or a geo-IP header before charging the PKR price | claude-ops | todo | An `intl` buyer can't get the PKR price by switching currency; tests cover it |
+| T49 | Content pass for STYLE v3: archetype quotes and family sections that default to cousins, weddings, arranged meetings and "what will people say"; `rishta_tips` wording; `content/types/SCHEMA.md` guidance; add a Parent option to Milan | claude-ops | todo | Every type's quote and family section works for a reader anywhere; T32 log items closed |
