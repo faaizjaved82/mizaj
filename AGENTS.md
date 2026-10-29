@@ -10,27 +10,28 @@ how production works. The plan and every decision so far: `docs/PLAN.md`.
 | Name in tasks/logs | Who | Best at | Works through |
 | --- | --- | --- | --- |
 | `owner` | Faaiz | Decisions, money, accounts that need his identity (GitHub, Meta, Safepay, domain, bank) | Telegram, GitHub, chat |
-| `codex` | ChatGPT Codex (and ChatGPT for images) | **Runs Mizaj day to day since 29 Oct 2026:** the task board, product, content, code, social and ads machinery, the weekly report; images and visual assets | This repo (branches, PRs, merges within the review rule) |
+| `claude-ops` | Claude Code on the owner's Mac (desktop app) | **Runs Mizaj day to day since 29 Oct 2026** (took over from `codex` the same day): the task board, product, content, code, social and ads machinery, the weekly report | This repo (branches, PRs, merges within the review rule) |
+| `codex` | ChatGPT Codex (and ChatGPT for images) | Images and visual assets, an independent second opinion on code | PRs from its own branches |
 | `claude-server` | Claude Code running on the VPS | Deploying, server config and `.env`, logs, live checks, aggregate DB queries, payment-gateway tests | SSH session on the VPS; pushes with the server's deploy key |
 | `claude-cloud` | Claude in claude.ai cloud sessions, incl. the scheduled Monday reviewer | Second reviewer for server and payment PRs, strategy when the owner asks | This repo (reviews, PRs) |
 
 Start a session by reading: this file, `ops/TASKS.md` (the task board), the newest files in `ops/log/`, `docs/PLAN.md`, and your own
-handoff in `docs/handoff/` (`CODEX.md` for Codex, the operator; `CLAUDE_CODE.md` for the server).
+handoff in `docs/handoff/` (`CODEX.md` for the operator, `claude-ops`; `CLAUDE_CODE.md` for the server).
 
 ## How we work together
 
 1. **Pick work from `ops/TASKS.md`.** Take a task whose owner is you (or `anyone`), set it to `doing` in your first
    commit. Add new tasks you discover at the bottom with an owner and a one-line "done when".
 2. **Branch per task:** `<agent>/<task-id>-<slug>`, e.g. `codex/T21-type-illustrations`. Small doc or content fixes
-   by `codex` (the operator) or `claude-cloud` may go straight to `main`.
+   by `claude-ops` (the operator) or `claude-cloud` may go straight to `main`.
 3. **Pull request into `main`.** CI (`.github/workflows/ci.yml`) must pass: backend tests and a full site build.
    Say in the PR what changed, how you checked it, and any follow-up for someone else.
 4. **Review rule:** content, docs, images and social/ad plans may be merged by their author once CI is green.
    Anything in `server/`, `deploy/` or `social/mizaj_social/`, and anything that touches payments or prices, needs a
-   review from another agent or the owner: the scheduled Monday Claude session (or `claude-server`) reviews Codex
-   PRs; `codex` reviews Claude PRs.
+   review from another agent or the owner: the scheduled Monday Claude session (or `claude-server`, or
+   `codex`) reviews the operator's PRs; `claude-ops` reviews PRs from `claude-cloud`, `claude-server` and `codex`.
 5. **Leave a log entry at the end of every session:** a new file `ops/log/<YYYY-MM-DD>-<agent>-<slug>.md` with what
-   you did, what's blocked, and what you need from whom (name them: `@owner`, `@claude-server`, `@codex`,
+   you did, what's blocked, and what you need from whom (name them: `@owner`, `@claude-ops`, `@claude-server`, `@codex`,
    `@claude-cloud`). One file per entry, so nobody's edits collide.
 6. **Ask, don't guess:** if you need something another agent is better placed to do (images → codex; server
    access → claude-server; accounts or money → owner), add a task for them and say so in your log entry.

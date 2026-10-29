@@ -1,6 +1,6 @@
 # Weekly operating playbook
 
-Run every Monday by `codex`, the operator (see `docs/handoff/CODEX.md`). A scheduled Claude session runs the same
+Run every Monday by `claude-ops`, the operator (see `docs/handoff/CODEX.md`). A scheduled Claude session runs the same
 morning at 10:39am Pakistan time as **reviewer** (section 7). Goal: PKR 15–20 lakh cumulative profit by
 30 June 2027. About two hours, in this order.
 
@@ -24,7 +24,7 @@ morning at 10:39am Pakistan time as **reviewer** (section 7). Goal: PKR 15–20 
 - First 5 lines, plain language, for the owner (the server forwards them on Telegram when it deploys): verdict
   (ahead / on / behind plan), the two numbers that matter most, what changed, what needs the owner.
 - Then: a table (metric, this week, last week, plan, status); what worked (top posts, ads, sources); what didn't;
-  at most 3 changes for this week, each with an owner ("codex", "owner", "claude-server", "assistant").
+  at most 3 changes for this week, each with an owner ("claude-ops", "codex", "owner", "claude-server", "assistant").
 - Update `ops/model.py` assumptions only when 3+ weeks of actuals disagree; note the change in the report.
 
 ## 3. Ship next week's content
@@ -54,7 +54,7 @@ morning at 10:39am Pakistan time as **reviewer** (section 7). Goal: PKR 15–20 
   (section 7). Never remove the disclaimers, refund promise or privacy guarantees.
 
 ## 6. Log
-- `ops/log/<date>-codex-weekly.md`: what you did, what's blocked, what you need from whom (`@owner`,
+- `ops/log/<date>-claude-ops-weekly.md`: what you did, what's blocked, what you need from whom (`@owner`,
   `@claude-server`, `@claude-cloud`).
 
 ## 7. The Monday reviewer (scheduled Claude session)

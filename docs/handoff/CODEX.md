@@ -6,6 +6,9 @@ task board. The owner, Faaiz Javed, makes decisions about money and accounts; `c
 VPS) does anything that needs the server; a scheduled Claude session reviews your server and payment changes on
 Mondays. Everything you need is in this repo. Nothing important lives only in a chat.
 
+> **29 Oct 2026, later the same day:** the owner gave the operator role to Claude Code on his Mac (`claude-ops`).
+> Read "you" in this file as the operator, whoever that is; `codex` now does images and independent code reviews.
+
 ---
 
 ## 0. Your first session (about an hour)
@@ -16,12 +19,14 @@ Mondays. Everything you need is in this repo. Nothing important lives only in a 
 2. Set up and prove the toolchain:
    ```bash
    python3 -m venv .venv && . .venv/bin/activate && pip install -e server -e social pytest
-   cd server && python -m pytest -q && cd ..        # 28 tests on main (38 on the T40 branch)
+   cd server && python -m pytest -q && cd ..        # 38 tests on main (T40 merged)
    python build.py                                  # 177 pages into dist/
    npm install --no-save playwright && npx playwright install chromium   # once, at the repo root (tools/ uses it)
-   mkdir -p /tmp/mizaj && (cd server && ADMIN_TOKEN=dev MIZAJ_DATA_DIR=/tmp/mizaj uvicorn mizaj.api:app --port 8300) &
+   mkdir -p /tmp/mizaj && (cd server && ADMIN_TOKEN=dev MIZAJ_DATA_DIR=/tmp/mizaj PAY_RAAST_ID=03000000000 uvicorn mizaj.api:app --port 8300) &
    node tools/e2e.cjs http://127.0.0.1:8300 /tmp/shots dev   # phone-sized end-to-end test, must print ALL E2E CHECKS PASSED
    ```
+   Python must be 3.11+ (macOS's `python3` is 3.9: use `python3.12 -m venv`). The e2e test needs a manual payment
+   method set (the dummy `PAY_RAAST_ID` above), or the TID form is hidden.
    `tools/render_social.py` and `tools/make_og.py` need Node + Playwright (`tools/shoot.cjs` uses `require("playwright")`).
 3. Review and merge **PR #4 (T40, regional pricing)**: https://github.com/faaizjaved82/mizaj/pull/4. It is payment
    logic written by `claude-cloud`; you are the second reviewer the rules require. Read the diff and the 10 tests in
