@@ -1,0 +1,11 @@
+Ad: a08-element-oldest-test  ·  audience: everyone-element
+
+Primary text:
+Before the four letters, there were four elements. Hippocrates described them, Galen refined them, and Ibn Sina taught them for 600 years.
+
+Warm or cool? Find your element in 4 minutes, free.
+
+Headline: The world's oldest personality test
+Description: Free · 4 minutes
+Button: Take the test
+Website URL: https://mizaj.pk/test/mizaj/?utm_source={{site_source_name}}&utm_medium=paid&utm_campaign=everyone-element&utm_content=a08-element-oldest-test

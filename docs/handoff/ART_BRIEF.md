@@ -1,12 +1,12 @@
 # Art brief v2: characters for the Mizaj Deck
 
-For whoever makes images (normally `codex` with ChatGPT image generation). Version 2, 28 Oct 2026. The first set
-(people in Pakistani scenes, T21) has been retired: the owner found it too local and badly placed, and 2026 audiences
-read AI-made people as cheap. Read `docs/research/05-social-trends-2026.md` sections 2, 5 and 6 for the reasoning.
+For whoever makes images (normally `codex` with ChatGPT image generation). Version 2, 28 Oct 2026 (audience updated 29 Oct). The first
+set (people in Pakistani scenes, T21) has been retired: the owner found it too local and badly placed, and 2026
+audiences read AI-made people as cheap. Read `docs/research/05-social-trends-2026.md` sections 2, 5 and 6 for the reasoning.
 
 ## What changed
 
-Mizaj is now for desis everywhere (UK, US, Canada, the Gulf, Pakistan and beyond). Every result is a collectible
+Mizaj is for everyone (students, professionals, educators, marketers, families, young and old, any country). Every result is a collectible
 card in **the Mizaj Deck**: 16 types × 4 elements (Air, Fire, Water, Earth) = 64 cards. The cards are drawn in code
 (`server/mizaj/deck.py`, `site/static/css/deck.css`) and already look finished without any art. Art is an upgrade:
 one small character per type that sits inside the card's art window, on top of the element's colour glow.
@@ -19,8 +19,8 @@ See the cards now: run the site (`AGENTS.md` → Commands) and open `/types/intj
 - **16 characters, one per type, non-human.** Small, rounded, gender-neutral "spirits" (think a friendly ink-drawn
   creature or figurine, not a person). No skin tones, no national dress, no realistic faces: everyone in the
   audience should see themselves. Simple dot eyes are fine.
-- **One prop each** that says the type at a glance (table below). Props may carry one light, pan-South-Asian touch
-  (a kite, a chai cup, a cricket bat, a dhol) but never more than one per character.
+- **One prop each** that says the type at a glance (table below). Props may carry one light cultural touch
+  (a kite, a teapot, a bat, a drum), never more than one per character, and no single culture as the default across the set.
 - **Hand-made look:** ink line with a visible hand (slight wobble), flat fills, a little risograph-style grain.
   Not 3D, not clay, not glossy, not anime, not Ghibli-like, no gradients.
 - **Two colours only:** ink `#17131F` and paper `#F4F1EA`, on a **transparent background**. The card supplies the
@@ -40,15 +40,15 @@ See the cards now: run the site (`AGENTS.md` → Commands) and open `/types/intj
 | INFJ | The Mystic | Holds a small lantern, eyes half closed |
 | INFP | The Poet | Hugs a notebook with a pressed flower sticking out |
 | ENFJ | The Mentor | Hands a small glowing seedling to someone off-card, warm smile |
-| ENFP | The Free Spirit | Flies a kite (patang), mid-skip |
+| ENFP | The Free Spirit | Flies a kite, mid-skip |
 | ISTJ | The Trustee | Carries a neat stack of labelled-looking boxes (no readable text) and a key ring |
-| ISFJ | The Protector | Offers a steaming cup of chai with both hands |
+| ISFJ | The Protector | Offers a steaming cup of tea with both hands |
 | ESTJ | The Organizer | Clipboard in one hand, stopwatch in the other |
 | ESFJ | The Host | Carries a laden tray of sweets, welcoming lean |
 | ISTP | The Craftsman | Spins a wrench, focused |
 | ISFP | The Artist | Paintbrush behind the ear, holding a small camera |
-| ESTP | The Daredevil | Mid-swing with a cricket bat, one foot off the ground |
-| ESFP | The Life of the Party | Plays a small dhol, mid-dance |
+| ESTP | The Daredevil | Mid-leap with a skateboard or a ball, one foot off the ground |
+| ESFP | The Life of the Party | Plays a small drum, mid-dance |
 
 Optional later (do not start until the 16 are approved): 4 element spirits (Air, Fire, Water, Earth) for
 element-only cards, same rules, saved as `air.webp`, `fire.webp`, `water.webp`, `earth.webp`.

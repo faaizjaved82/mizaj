@@ -9,3 +9,4 @@ tools/.og.html
 *.egg-info/
 .pytest_cache/
 .claude/
+node_modules/

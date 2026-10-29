@@ -107,7 +107,7 @@
     {% if mz %}
       <span class="eyebrow">Your element</span>
       <h2>{{ mz.emoji }} {{ mz.global_name }} <span class="muted" style="font-size:1.2rem">· {{ mz.nickname }}</span></h2>
-      <p class="muted"><b>{{ mz.quality }}</b> · {{ mz.classical }} · {{ mz.element }} · {{ mz.season }}{% if mz.scores.balanced %} · close to <b>Mu'tadil</b> (balanced){% endif %}</p>
+      <p class="muted"><b>{{ mz.quality.split(' (')[-1].rstrip(')')|capitalize }}</b> · {{ mz.classical }} · {{ mz.season }}{% if mz.scores.balanced %} · close to <b>balanced</b>{% endif %}</p>
       <div class="card bars">
         {{ m.axisbar("Cool", "Warm", mz.scores.heat) }}
         {{ m.axisbar("Khushk (dry)", "Tar (moist)", mz.scores.moisture) }}

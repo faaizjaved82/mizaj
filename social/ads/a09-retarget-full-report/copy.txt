@@ -1,0 +1,11 @@
+Ad: a09-retarget-full-report  ·  audience: retargeting
+
+Primary text:
+You've pulled your card. The full report is where it gets personal: relationships, work and career routes, stress and reset, your element's daily rhythm and a 30-day growth plan.
+
+One-time payment. 7-day refund promise.
+
+Headline: Your card is only the start
+Description: Full report · one-time payment
+Button: Learn more
+Website URL: https://mizaj.pk/pricing/?utm_source={{site_source_name}}&utm_medium=paid&utm_campaign=retargeting&utm_content=a09-retarget-full-report

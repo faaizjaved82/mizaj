@@ -1,0 +1,11 @@
+Ad: a04-educators-every-class  ·  audience: educators
+
+Primary text:
+Every class has a Strategist, a Poet, a Host and a Daredevil. They learn differently.
+
+Career Compass for schools gives each student their interest code and personality type, a page for parents and a class summary for you.
+
+Headline: Understand every learner
+Description: For teachers and schools
+Button: Learn more
+Website URL: https://mizaj.pk/schools/?utm_source={{site_source_name}}&utm_medium=paid&utm_campaign=educators&utm_content=a04-educators-every-class

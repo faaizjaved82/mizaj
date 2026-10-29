@@ -3,10 +3,10 @@
   "name": "Saudavi",
   "global_name": "Earth",
   "name_ur": "سوداوی",
-  "quality": "Sard-Khushk (cool & dry)",
+  "quality": "cool & dry",
   "classical": "Melancholic",
-  "humour": "Sauda (black bile)",
-  "element": "Earth (Mitti)",
+  "humour": "black bile",
+  "element": "Earth",
   "nickname": "The Mountain",
   "season": "Autumn",
   "colors": [
@@ -34,29 +34,29 @@
       "Digestion can feel unsettled when meals are skipped, irregular or too dry.",
       "Joints and muscles may feel stiff on cold mornings until you get moving."
     ],
-    "quick_tip": "Never skip breakfast, and make it warm and moist: porridge with milk, an egg, or a roti with a little ghee. Unani tradition suggests regular, warm, nourishing meals are the simplest way to soften a cool, dry mizaj."
+    "quick_tip": "Never skip breakfast, and make it warm and moist: porridge with milk, an egg, or toast with a little butter or olive oil. Unani tradition suggests regular, warm, nourishing meals are the simplest way to soften a cool, dry temperament."
   },
   "premium": {
-    "deep_dive": "In the Canon, Ibn Sina described sauda as the heaviest of the humours: cool, dry and settling, the sediment that gives the body structure and the mind depth. An Earth (Saudavi) person, in this picture, carries a little more of that grounded, mountain-like quality. It is the temperament of focus, endurance and seriousness, and it asks for warmth and moisture to stay light.\n\nIn the body, Unani tradition associates this mizaj with a lean build, dry skin, cold hands and feet, light sleep and a digestion that dislikes irregular meals. Cold and dryness are your weak points: skipped meals, too much tea or coffee, cold dry winds, stale or very sour food, and long nights of worry are all traditionally believed to add to sauda. When the balance tips, many Earth people notice dry skin, stiffness, poor sleep and a heaviness of mood. The traditional answer is warmth, moisture and regularity: freshly cooked food, healthy fats like ghee, olive oil and almonds in moderation, oil massage (dalk), warm baths and a steady daily rhythm.\n\nIn the mind, coolness gives calm and dryness gives precision. You notice details, think in systems and remember what others forget. You are often the person who reads the tenancy agreement twice, checks the wedding caterer's contract or plans the budget for festival shopping. The risk is rumination: replaying a comment for days, or waiting for a certainty that never comes.\n\nEmotionally, the tradition describes Earth people as sensitive, loyal and inward. The very word melancholy comes from the Greek for black bile, but that is only half the story; since ancient times this temperament has also been linked with scholars, poets and careful craftspeople. Your feelings run deep and slow. The task is to let them out regularly, so they don't harden into silence.\n\nAcross life stages, Unani tradition saw middle age onwards as naturally cooler and drier, so a young Earth person may seem older than their years, the serious one at the family gathering. The warm, moist years of youth are often when you feel most balanced. From your forties, staying warm, nourished and active becomes especially important.\n\nAcross the seasons, autumn is your mirror. Tradition linked sauda with the cool, dry months when leaves fall, and many Earth people feel a dip in mood and energy as the days shorten, especially far from the equator. A long winter can feel harsh, spring is often restoring, and summer's warmth can actually suit you as long as you stay hydrated. Living well as an Earth person means adding warmth and softness to a strong, steady core.",
+    "deep_dive": "In the Canon, Ibn Sina described sauda as the heaviest of the humours: cool, dry and settling, the sediment that gives the body structure and the mind depth. An Earth (Saudavi) person, in this picture, carries a little more of that grounded, mountain-like quality. It is the temperament of focus, endurance and seriousness, and it asks for warmth and moisture to stay light.\n\nIn the body, Unani tradition associates this mizaj with a lean build, dry skin, cold hands and feet, light sleep and a digestion that dislikes irregular meals. Cold and dryness are your weak points: skipped meals, too much tea or coffee, cold dry winds, stale or very sour food, and long nights of worry are all traditionally believed to add to sauda. When the balance tips, many Earth people notice dry skin, stiffness, poor sleep and a heaviness of mood. The traditional answer is warmth, moisture and regularity: freshly cooked food, healthy fats like olive oil, butter or ghee and almonds in moderation, oil massage (dalk), warm baths and a steady daily rhythm.\n\nIn the mind, coolness gives calm and dryness gives precision. You notice details, think in systems and remember what others forget. You are often the person who reads the tenancy agreement twice, checks the wedding caterer's contract or plans the budget for the holidays. The risk is rumination: replaying a comment for days, or waiting for a certainty that never comes.\n\nEmotionally, the tradition describes Earth people as sensitive, loyal and inward. The very word melancholy comes from the Greek for black bile, but that is only half the story; since ancient times this temperament has also been linked with scholars, poets and careful craftspeople. Your feelings run deep and slow. The task is to let them out regularly, so they don't harden into silence.\n\nAcross life stages, Unani tradition saw middle age onwards as naturally cooler and drier, so a young Earth person may seem older than their years, the serious one at the family gathering. The warm, moist years of youth are often when you feel most balanced. From your forties, staying warm, nourished and active becomes especially important.\n\nAcross the seasons, autumn is your mirror. Tradition linked sauda with the cool, dry months when leaves fall, and many Earth people feel a dip in mood and energy as the days shorten, especially far from the equator. A long winter can feel harsh, spring is often restoring, and summer's warmth can actually suit you as long as you stay hydrated. Living well as an Earth person means adding warmth and softness to a strong, steady core.",
     "foods_favour": [
       {
-        "item": "Ghee or olive oil, in moderation",
-        "why": "Warm and moist by Unani reckoning; a teaspoon on roti, dal or salad is a traditional answer to dryness."
+        "item": "Olive oil, butter or ghee, in moderation",
+        "why": "Warm and moist by Unani reckoning; a teaspoon on bread, lentils or vegetables is a traditional answer to dryness."
       },
       {
         "item": "Soaked almonds",
         "why": "Warm and moist; tradition values almonds for nourishment and a steady, settled mind."
       },
       {
-        "item": "Warm milk with cardamom, saffron or a pinch of haldi",
+        "item": "Warm milk with cardamom, saffron or a pinch of turmeric",
         "why": "Nourishing and moistening, and a classic Unani bedtime drink for a busy mind."
       },
       {
-        "item": "Chicken soup (yakhni) and other soups",
+        "item": "Chicken soup and other warm, brothy soups",
         "why": "Warm, moist and easy to digest, ideal when you feel cold, dry or depleted."
       },
       {
-        "item": "Lamb or goat shorba",
+        "item": "Lamb or goat broth and slow stews, like a tagine or an Irish stew",
         "why": "Warm and moist by Unani reckoning, nourishing without the heaviness of fried meat."
       },
       {
@@ -64,11 +64,11 @@
         "why": "Classical Unani texts praise soft-boiled eggs as quick, warm nourishment, perfect for breakfast."
       },
       {
-        "item": "Dried figs (anjeer), soaked overnight",
+        "item": "Dried figs, soaked overnight",
         "why": "Warm and moist; tradition values them for softening the body's natural dryness."
       },
       {
-        "item": "Raisins (kishmish or munakka)",
+        "item": "Raisins and sultanas",
         "why": "Warm and moist; a small handful soaked overnight makes a gentle morning habit."
       },
       {
@@ -81,19 +81,19 @@
       },
       {
         "item": "Ripe mango in season, in moderation",
-        "why": "Warm and moist; one after lunch suits you better than it suits most mizaj."
+        "why": "Warm and moist; one after lunch suits you better than it suits most temperaments."
       },
       {
         "item": "Carrots and turnips",
         "why": "Warm winter roots that bring moisture and natural sweetness to your meals."
       },
       {
-        "item": "Wholewheat roti, dalia and porridge oats",
+        "item": "Wholewheat bread, cracked wheat and porridge oats",
         "why": "Wheat is traditionally moderately warm; porridge cooked in milk is warm, moist and grounding."
       },
       {
-        "item": "Pumpkin or lauki cooked with ghee and ginger",
-        "why": "Their moisture eases dryness, while the ghee and ginger add the warmth you need."
+        "item": "Pumpkin or squash cooked with olive oil and ginger",
+        "why": "Their moisture eases dryness, while the oil and ginger add the warmth you need."
       }
     ],
     "foods_limit": [
@@ -102,11 +102,11 @@
         "why": "Classical Unani texts rate beef cool, dry and heavy, a traditional source of sauda."
       },
       {
-        "item": "Masoor dal in large amounts",
-        "why": "Classical texts list lentils among sauda-increasing foods; enjoy occasionally, with ghee and garlic."
+        "item": "Lentils in large amounts",
+        "why": "Classical texts list lentils among sauda-increasing foods; enjoy occasionally, with olive oil and garlic."
       },
       {
-        "item": "Baingan (aubergine)",
+        "item": "Aubergine (eggplant)",
         "why": "Classically named as a food that increases sauda; keep it an occasional dish."
       },
       {
@@ -122,11 +122,11 @@
         "why": "Drying in effect; too many cups can leave you wired, parched and sleepless."
       },
       {
-        "item": "Very sour foods: achar, tamarind, raw green mango",
+        "item": "Very sour foods: pickles, tamarind, unripe mango",
         "why": "Sharp, sour flavours are traditionally believed to increase dryness and sauda."
       },
       {
-        "item": "Dry snacks: rusks, crackers, crisps and namkeen",
+        "item": "Dry snacks: rusks, crackers, crisps and pretzels",
         "why": "Dry on dry; they leave an Earth system thirsty and unsatisfied."
       },
       {
@@ -134,90 +134,90 @@
         "why": "Cold on cold; they work against the warmth you need, especially in winter."
       },
       {
-        "item": "Salted or dried meat and fish",
+        "item": "Cured meats, salted fish and aged, salty cheese",
         "why": "Classical texts link preserved, salted foods with an increase in sauda."
       }
     ],
     "drinks": [
       "Warm milk with saffron or cardamom at bedtime: warm, moist and settling",
-      "Haldi doodh (turmeric milk) on cold evenings: warming, nourishing and a cosy ritual",
+      "Turmeric milk (golden milk) on cold evenings: warming, nourishing and a cosy ritual",
       "Chicken soup in a mug: warming and moistening on cold evenings",
-      "Kahwa or green tea with cardamom and a little honey: warm and light, gentler than strong chai",
+      "Green tea with cardamom and a little honey: warm and light, gentler than strong tea or coffee",
       "Warm water through the day: you forget to drink, and dryness follows",
       "Fresh grape or sweet pomegranate juice at room temperature: moistening and refreshing"
     ],
     "spices_herbs": [
-      "Zafran (saffron): traditionally counted as mufarreh, believed to lift the spirits; a few strands in milk",
-      "Elaichi (green cardamom): fragrant and warming, lovely in milk, chai and kheer",
-      "Darchini (cinnamon): warms cool hands and slow mornings, in tea or porridge",
-      "Fresh adrak (ginger): traditionally warm and gently moist, kinder to you than dried, sharp spices",
-      "Saunf (fennel): many people find it settles digestion after meals",
-      "Go easy on red chilli and heavy khatai like amchur: sharp, drying flavours add to your natural dryness"
+      "Saffron: traditionally counted as mufarreh, believed to lift the spirits; a few strands in milk or rice",
+      "Green cardamom: fragrant and warming, lovely in milk, coffee, tea and baking",
+      "Cinnamon: warms cool hands and slow mornings, in tea or porridge",
+      "Fresh ginger: traditionally warm and gently moist, kinder to you than dried, sharp spices",
+      "Fennel: many people find it settles digestion after meals",
+      "Go easy on red chilli and sharp, sour seasonings like sumac or dried mango powder: they add to your natural dryness"
     ],
     "daily_routine": {
-      "morning": "Wake at a regular time every day, neither too early after a late night nor too late. Start with warm water, then a warm, moist breakfast: porridge with milk, a soft-boiled egg or a roti with a little ghee. Before your shower, try a quick oil massage on hands, feet and scalp with almond or olive oil, a classic Unani practice (dalk) for dryness.",
-      "midday": "Eat lunch on time; irregular meals are traditionally believed to unsettle an Earth system. Choose warm, freshly cooked food: soup, sabzi with a little ghee, dal with roti. Step outside for some daylight, even on a grey day. Cap yourself at two cups of tea or coffee by mid-afternoon.",
+      "morning": "Wake at a regular time every day, neither too early after a late night nor too late. Start with warm water, then a warm, moist breakfast: porridge with milk, a soft-boiled egg or toast with a little butter. Before your shower, try a quick oil massage on hands, feet and scalp with almond or olive oil, a classic Unani practice (dalk) for dryness.",
+      "midday": "Eat lunch on time; irregular meals are traditionally believed to unsettle an Earth system. Choose warm, freshly cooked food: soup, vegetables with a little olive oil, a warm grain bowl. Step outside for some daylight, even on a grey day. Cap yourself at two cups of tea or coffee by mid-afternoon.",
       "evening": "Evenings are when worry tends to creep in, so plan something warm and social: a walk with a friend, time with family or a hobby that uses your hands. Eat a warm, early dinner. Write tomorrow's worries in a notebook so your mind doesn't carry them to bed.",
       "sleep": "Sleep is precious for you and often light. Keep a fixed bedtime, put the phone away 45 minutes before, and try warm milk with saffron or cardamom. A warm foot soak, or a little oil rubbed into the soles, is a traditional winding-down habit. Aim for seven to eight unbroken hours."
     },
     "seasons": {
-      "summer": "Summer warmth can actually suit you, but heat plus your natural dryness makes dehydration a risk, especially in a dry Gulf summer. Drink water steadily, enjoy sweet mangoes, grapes and lassi in moderation, and avoid long hours in direct sun. Keep meals regular even when your appetite dips, and don't survive on iced coffee and crisps.",
-      "rains": "Humid, rainy weather often feels softening to a dry mizaj. Enjoy it, but eat freshly cooked food. Grey days can bring a dip in mood, especially if you live somewhere they stretch on for weeks, so plan cosy, social things: chai with cousins, a family film night, or cooking something warm together.",
-      "winter": "Your hardest season, especially if you live somewhere with long, dark winters. Cold winds, dry indoor heating and short days are traditionally believed to increase sauda, so many Earth people feel stiffer, drier and lower now. Lean on warm, moist food: soups, eggs, ghee, carrots and soaked dry fruit. Oil your skin, keep your feet warm, and seek daylight and company as deliberately as a winter coat.",
-      "spring": "Spring is often your recovery season, as warmth and moisture return. Many Earth people feel lighter in mood and more sociable. Use the energy: start a new habit, reconnect with friends and enjoy the weddings and festivals, even if you skip a dance practice or two."
+      "summer": "Summer warmth can actually suit you, but heat plus your natural dryness makes dehydration a risk, especially in a dry, desert-style summer. Drink water steadily, enjoy sweet mangoes, grapes and yogurt drinks in moderation, and avoid long hours in direct sun. Keep meals regular even when your appetite dips, and don't survive on iced coffee and crisps.",
+      "rains": "Humid, rainy weather often feels softening to a dry mizaj. Enjoy it, but eat freshly cooked food. Grey days can bring a dip in mood, especially if you live somewhere they stretch on for weeks, so plan cosy, social things: tea with an old friend, a family film night, or cooking something warm together.",
+      "winter": "Your hardest season, especially if you live somewhere with long, dark winters. Cold winds, dry indoor heating and short days are traditionally believed to increase sauda, so many Earth people feel stiffer, drier and lower now. Lean on warm, moist food: soups, eggs, olive oil or butter, carrots and soaked dried fruit. Oil your skin, keep your feet warm, and seek daylight and company as deliberately as a winter coat.",
+      "spring": "Spring is often your recovery season, as warmth and moisture return. Many Earth people feel lighter in mood and more sociable. Use the energy: start a new habit, reconnect with friends and enjoy the weddings, parties and festivals, even if you sit out a dance or two."
     },
     "movement": "Your body likes steady, gentle, regular movement more than intense bursts. Walking, light jogging, stretching, swimming in a warm pool and cycling all suit you. Unani tradition cautions a cool, dry mizaj against exhausting exercise that dries you out further, so stop at pleasant tiredness, not collapse. Warm up properly on cold mornings and stretch afterwards. Exercising outdoors in morning daylight, or with a friend, does double duty: it warms your body and lifts your mood at the same time.",
     "emotional_balance": "Unani counts the emotions among the six essential factors of health, and tradition specifically links worry, grief and long brooding with increased sauda. For you, emotional care is not a luxury. Build daily habits of release: write things down, talk to one trusted person, spend time with people who make you laugh. Limit late-night scrolling and news, which feeds rumination. Practise noticing good things, even three small ones before sleep. Prayer, meditation or time in nature, whatever fits your beliefs, brings calm to many people. If low mood, worry or sleeplessness lasts more than two weeks, please speak to a doctor or qualified counsellor. Asking for help is wise, not weak.",
-    "fasting": "Long fasts can leave an Earth body extra dry, so prepare well, whether you keep Ramadan, a vrat, a weekly fast or an intermittent-fasting window. Before the fast, choose warm, moist food: porridge with milk, eggs, a roti with a little ghee, a few soaked dates or figs, and water sipped steadily. Skip very salty or dry food. Break the fast with water or warm milk, then eat a nourishing meal rather than a plate of fried snacks, and get to bed as early as you can.",
+    "fasting": "Long fasts can leave an Earth body extra dry, so prepare well, whether you fast for faith or tradition, keep a weekly fast day or follow an intermittent-fasting window. Before the fast, choose warm, moist food: porridge with milk, eggs, bread with a little butter or olive oil, a few soaked dates or figs, and water sipped steadily. Skip very salty or dry food. Break the fast with water or warm milk, then eat a nourishing meal rather than a plate of fried snacks, and get to bed as early as you can.",
     "seven_day_menu": [
       {
         "day": 1,
         "breakfast": "Porridge oats cooked in milk with chopped dates and almonds",
-        "lunch": "Chicken soup with vegetables and roti",
-        "dinner": "Gajar matar (carrots and peas) with a little ghee and roti",
+        "lunch": "Chicken soup with vegetables and bread",
+        "dinner": "Carrots and peas braised in a little butter, with chicken and mashed potato",
         "snack": "Soaked almonds and raisins"
       },
       {
         "day": 2,
-        "breakfast": "Soft-boiled eggs, roti with a little ghee, cardamom chai",
-        "lunch": "Moong dal with garlic tarka, rice and salad",
-        "dinner": "Chicken or lamb yakhni pulao, a modest plate, with raita",
+        "breakfast": "Soft-boiled eggs, buttered toast and cardamom tea",
+        "lunch": "Hummus with olive oil, warm pitta and a grated carrot salad",
+        "dinner": "Chicken or lamb pilaf cooked in broth, a modest plate, with yogurt",
         "snack": "A sweet apple or a bunch of grapes"
       },
       {
         "day": 3,
         "breakfast": "Wholewheat toast with butter, an egg and warm milk",
-        "lunch": "Lauki with lamb or chana dal, and roti",
+        "lunch": "Pumpkin soup with a swirl of cream and bread",
         "dinner": "Chicken stew with potatoes and carrots",
         "snack": "Warm milk with a pinch of saffron"
       },
       {
         "day": 4,
-        "breakfast": "Roti with egg bhurji made in a little ghee",
-        "lunch": "Palak paneer or palak gosht with roti",
-        "dinner": "Moong khichdi with ghee and yogurt",
+        "breakfast": "Scrambled eggs made with a little butter, on toast",
+        "lunch": "Chicken and pea risotto",
+        "dinner": "Ginger chicken congee, or a soft rice-and-mung khichdi with ghee",
         "snack": "Two or three soaked figs"
       },
       {
         "day": 5,
-        "breakfast": "Dalia or porridge with milk and cinnamon",
-        "lunch": "Chana masala with roti",
-        "dinner": "Lamb or chicken with turnips (shalgam gosht) and roti",
+        "breakfast": "Cracked-wheat or oat porridge with milk and cinnamon",
+        "lunch": "Chickpea and spinach stew with olive oil and bread",
+        "dinner": "Lamb and apricot tagine with couscous",
         "snack": "A ripe mango or sweet grapes in season"
       },
       {
         "day": 6,
-        "breakfast": "One ghee paratha with yogurt",
-        "lunch": "Chicken curry, light on chilli, with roti",
+        "breakfast": "French toast made with milk and egg, with a little honey",
+        "lunch": "Mild chicken curry, light on chilli, with rice",
         "dinner": "Mixed vegetable soup with bread",
-        "snack": "A small bowl of kheer"
+        "snack": "A small bowl of rice pudding"
       },
       {
         "day": 7,
-        "breakfast": "Weekend: puri with chana and a little halwa, family-style, small portions",
-        "lunch": "Family chicken biryani with raita",
-        "dinner": "Chicken soup and a light roti",
-        "snack": "Haldi doodh in winter, fresh fruit in summer"
+        "breakfast": "Weekend: pancakes with banana and honey, family-style, small portions",
+        "lunch": "Family roast chicken, paella or a saffron pilaf, with yogurt or salad",
+        "dinner": "Chicken soup and a slice of bread",
+        "snack": "Turmeric milk in winter, fresh fruit in summer"
       }
     ],
     "when_out_of_balance": [
@@ -231,8 +231,8 @@
       "damvi": "Unani tradition sees this as a near-perfect balance of opposites: the warmth and moisture of Air (Damvi) meet your coolness and dryness. Air lifts your mood and draws you into family life; you give them depth and stability. Don't dismiss their cheerfulness as shallowness, and let them help you laugh at your worries.",
       "safravi": "With Fire (Safravi) you share dryness: both of you value logic, standards and getting things right. Their warmth can energise your plans, and your caution can save them from hasty decisions. Watch for criticism on both sides. Make a habit of appreciation, and keep tough discussions short, specific and kind.",
       "balghami": "With Water (Balghami), a quiet, loyal, steady pairing. Their soft, moist calm eases your dryness and worry, and your careful planning gives their easygoing nature direction. The risk is a home that is too still. Plan warm, social things together, such as dinners with friends, family visits and shared hobbies, so neither of you retreats too far.",
-      "saudavi": "Two Earth spouses understand each other's silences, standards and need for order, and you can build a deeply trustworthy home. The risk is double the worry and too little lightness. Take turns being the optimist, invite cheerful friends and family over often, and talk about feelings before they harden into distance."
+      "saudavi": "Two Earth people, whether spouses, siblings or colleagues, understand each other's silences, standards and need for order, and you can build deep, lasting trust. The risk is double the worry and too little lightness. Take turns being the optimist, invite cheerful friends and family over often, and talk about feelings before they harden into distance."
     }
   },
-  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered hakeem."
+  "disclaimer": "Traditional Unani wellness guidance for general interest, not medical advice. It does not diagnose, treat or prevent any condition. For any health concern, pregnancy, an ongoing condition, or before changing your diet or fasting routine, please consult a qualified doctor or a registered practitioner of traditional medicine."
 }

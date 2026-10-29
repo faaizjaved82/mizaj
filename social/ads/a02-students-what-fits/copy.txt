@@ -1,0 +1,11 @@
+Ad: a02-students-what-fits  ·  audience: students
+
+Primary text:
+Choosing subjects, a degree or a first job? Don't pick because a friend did.
+
+Career Compass matches what you enjoy and how you think to real careers and the route into each. Free, 4 minutes.
+
+Headline: What should you actually study?
+Description: Free interest test · 4 minutes
+Button: Take the test
+Website URL: https://mizaj.pk/career/?utm_source={{site_source_name}}&utm_medium=paid&utm_campaign=students&utm_content=a02-students-what-fits
