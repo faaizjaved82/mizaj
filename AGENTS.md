@@ -1,7 +1,7 @@
 # Mizaj: rules for every agent working in this repo
 
-Mizaj (mizaj.pk) is a self-discovery business for desis everywhere, run from Pakistan: free personality and Unani temperament (element) tests, one-time paid
-reports, Mizaj Milan couple reports, Career Compass for students, and school/team programmes. Goal: PKR 15–20 lakh
+Mizaj (mizaj.pk) is a self-discovery business for everyone (students, professionals, educators, marketers, families,
+young and old), run from Pakistan: free personality and temperament (element) tests, one-time paid reports, Mizaj Milan couple reports, Career Compass for students, and school/team programmes. Goal: PKR 15–20 lakh
 cumulative profit by 30 June 2027. The owner is Faaiz Javed. Read `README.md` for the layout and `docs/RUNBOOK.md` for
 how production works. The full plan is the owner's doc "Mizaj Relaunch: COO Plan".
 
@@ -44,11 +44,12 @@ handoff in `docs/handoff/` (`CLAUDE_CODE.md` for the server, `CODEX.md` for Code
   Advocate, Mediator, Campaigner, and so on), anywhere in the product or content. The one exception is the
   legal non-affiliation disclaimer in the site footer. Our type names are in
   `content/STYLE.md`.
-- Follow `content/STYLE.md` for every word users see: Pakistani context, no medical claims (Unani guidance is
+- Follow `content/STYLE.md` for every word users see: written for everyone (no single culture as the default), no medical claims (Unani guidance is
   traditional wellness wisdom with a disclaimer), astrology/numerology/palm reading labelled "for fun" and kept out
-  of rishta, never consider caste or sect, no dating framing, no real living people as examples.
-- No subscriptions, trials or auto-renewal; one-time prices from `content/products.json`; the 7-day refund promise,
-  the disclaimers and the privacy guarantees stay.
+  of relationship decisions, never consider caste, sect, religion or ethnicity in compatibility, no dating framing, no real living people as examples.
+- Phase 1 (now): one-time prices from `content/products.json` only, no subscriptions or auto-renewal yet. Phase 2
+  (owner's decision, 29 Oct 2026) adds subscriptions; build them only from a task on the board, with a clear price,
+  easy cancel and no hidden renewals. The 7-day refund promise, the disclaimers and the privacy guarantees stay.
 - Payment logic changes need tests (`server/tests/`) and a second reviewer.
 - Don't touch other projects on the VPS (`/opt/faaizjaved`, `/opt/639hz`) or their services.
 - Don't spend money, sign up for services or contact customers/partners on the owner's behalf; draft and hand over.

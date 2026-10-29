@@ -3,9 +3,9 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">Made by desis, for desis everywhere</span>
+      <span class="eyebrow">For anyone curious about people</span>
       <h1>What's your <em>mizaj</em>?</h1>
-      <p class="lead">A free personality test that actually gets desi life, plus the thousand-year-old temperament test from Ibn Sina's <i>Canon</i>. Find your type, your element, your match and your path.</p>
+      <p class="lead">Know yourself, understand the people around you, and see why the world works the way it does. A modern personality test plus the four temperaments that Hippocrates and Ibn Sina described: your type, your element, your match and your path.</p>
       <div class="hero-ctas">
         <a class="btn btn-pom" href="/test/personality/" data-cta="hero-personality">Start the free test →</a>
         <a class="btn btn-ghost" href="/test/mizaj/" data-cta="hero-mizaj">Air, Fire, Water or Earth? Element test</a>
@@ -13,7 +13,7 @@
       <div class="proof">
         <span><b data-tests-taken>Thousands</b> tests taken</span>
         <span>✦ Free, no sign-up</span>
-        <span>✦ Urdu available</span>
+        <span>✦ Every age welcome</span>
         <span>✦ 8 minutes</span>
       </div>
     </div>
@@ -34,32 +34,32 @@
       <a class="card test-card" href="/test/personality/" data-cta="card-personality">
         <span class="icon">🧭</span><h3>Personality test</h3>
         <span class="meta">48 questions · 8 min · Free</span>
-        <p class="muted small">Which of the 16 Mizaj types are you? Mansooba-saaz, Shayar, Mezbaan or Jaanbaz?</p>
+        <p class="muted small">Which of the 16 Mizaj types are you? The Strategist, the Poet, the Host or the Daredevil?</p>
         <span class="go">Start →</span>
       </a>
       <a class="card test-card" href="/test/mizaj/" data-cta="card-mizaj">
         <span class="icon">🔥</span><h3>Element test</h3>
         <span class="meta">24 questions · 4 min · Free</span>
-        <p class="muted small">Warm or cool, moist or dry? Your Unani element and the food and routine that suit it.</p>
+        <p class="muted small">Warm or cool, moist or dry? Your element, and the food and daily rhythm that traditionally suit it.</p>
         <span class="go">Start →</span>
       </a>
       <a class="card test-card" href="/milan/" data-cta="card-milan">
         <span class="icon">💞</span><h3>Mizaj Milan</h3>
         <span class="meta">For two · Free match score</span>
-        <p class="muted small">Test with your spouse, rishta, sibling or best friend. See where you click and where you clash.</p>
+        <p class="muted small">Test with your partner, parent, sibling, colleague or best friend. See where you click and where you clash.</p>
         <span class="go">Invite someone →</span>
       </a>
       <a class="card test-card" href="/career/" data-cta="card-career">
         <span class="icon">🎓</span><h3>Career Compass</h3>
         <span class="meta">24 questions · 4 min · Free code</span>
-        <p class="muted small">For students and parents: which subjects, degree and career actually fit you?</p>
+        <p class="muted small">For students and career changers: which subjects, studies and work actually fit you?</p>
         <span class="go">Start →</span>
       </a>
     </div>
     <div class="grid grid-3" style="margin-top:16px">
       <a class="card card-flat test-card" href="/palm/" style="flex-direction:row;align-items:center"><span class="icon">✋</span><div><b>AI palm reading</b><div class="small muted">Snap your palm. For fun.</div></div></a>
-      <a class="card card-flat test-card" href="/burj/" style="flex-direction:row;align-items:center"><span class="icon">♌</span><div><b>Burj × your type</b><div class="small muted">Your zodiac meets your type. For fun.</div></div></a>
-      <a class="card card-flat test-card" href="/adad/" style="flex-direction:row;align-items:center"><span class="icon">۷</span><div><b>Ilm-e-Adad</b><div class="small muted">Your name's Abjad number. For fun.</div></div></a>
+      <a class="card card-flat test-card" href="/burj/" style="flex-direction:row;align-items:center"><span class="icon">♌</span><div><b>Zodiac × your type</b><div class="small muted">Your zodiac meets your type. For fun.</div></div></a>
+      <a class="card card-flat test-card" href="/adad/" style="flex-direction:row;align-items:center"><span class="icon">7</span><div><b>Name number</b><div class="small muted">The numerology of your name. For fun.</div></div></a>
     </div>
   </div>
 </section>
@@ -68,14 +68,14 @@
   <div class="wrap">
     <span class="eyebrow">The 16 Mizaj types</span>
     <h2>Sixteen ways to be a person</h2>
-    <p class="muted" style="max-width:620px">Four families, sixteen types, each with a name you'll recognise from your own family WhatsApp group.</p>
+    <p class="muted" style="max-width:620px">Four families, sixteen types. You'll recognise your colleagues, your students, your parents and probably yourself.</p>
     <div class="type-grid" style="margin-top:24px">
       {% for t in types %}
       <a class="type-tile fam-{{ t.family }}" href="/types/{{ t.code|lower }}/">
         <span class="em">{{ t.emoji }}</span>
         <span class="code">{{ t.code }}</span>
         <span class="nm">{{ t.name_en }}</span>
-        <span class="en">{{ t.name }}</span>
+        <span class="en">{{ families[t.family].en }}</span>
       </a>
       {% endfor %}
     </div>
@@ -85,35 +85,37 @@
 <section class="section section-alt">
   <div class="wrap grid grid-2" style="align-items:center;gap:32px">
     <div>
-      <span class="eyebrow">The 4 Mizaj</span>
-      <h2>Garam, sard, tar, khushk</h2>
-      <p>Your nani was onto something. Unani medicine, written down by Ibn Sina a thousand years ago, sorts people into four temperaments by warmth and moisture. It still explains why one cousin is always hot, hungry and in a hurry, and another needs three blankets and a second cup of chai.</p>
-      <p class="muted">Your mizaj shapes your energy, your moods and the foods that suit you. Combine it with your personality type and you get one of 64 Mizaj profiles.</p>
-      <a class="btn" href="/test/mizaj/" data-cta="mizaj-section">Find my mizaj (4 min)</a>
+      <span class="eyebrow">The 4 elements</span>
+      <h2>Warm, cool, moist, dry</h2>
+      <p>The oldest personality test in the world sorts people into four temperaments by warmth and moisture. Hippocrates started it, Galen refined it, and Ibn Sina's <i>Canon of Medicine</i> taught it from Spain to India for six centuries. It still explains why one friend is always warm, hungry and in a hurry, and another needs a blanket and a quiet evening.</p>
+      <p class="muted">Your element shapes your energy, your moods and the foods that traditionally suit you. Combine it with your personality type and you get one of 64 Mizaj cards.</p>
+      <a class="btn" href="/test/mizaj/" data-cta="mizaj-section">Find my element (4 min)</a>
     </div>
     <div>
-      <div class="small muted center" style="font-weight:700">Garam (warm)</div>
+      <div class="small muted center" style="font-weight:700">Warm</div>
       <div class="mz-grid" style="margin:8px 0">
         {% for m in mizaj %}
         <a class="mz-tile mz-{{ m.key }}" href="/mizaj/{{ m.key }}/">
-          <b>{{ m.emoji }} {{ m.global_name }}</b><span class="small">{{ m.name }} · {{ m.nickname }}</span>
+          <b>{{ m.emoji }} {{ m.global_name }}</b><span class="small">{{ m.nickname }} · {{ m.classical }}</span>
         </a>
         {% endfor %}
       </div>
-      <div class="small muted" style="display:flex;justify-content:space-between;font-weight:700"><span>← Tar (moist)</span><span>Sard (cool)</span><span>Khushk (dry) →</span></div>
+      <div class="small muted" style="display:flex;justify-content:space-between;font-weight:700"><span>← Moist</span><span>Cool</span><span>Dry →</span></div>
     </div>
   </div>
 </section>
 
 <section class="section section-ink">
   <div class="wrap">
-    <span class="eyebrow" style="color:var(--saffron)">Why Mizaj</span>
-    <h2>Built for our lives, not someone else's</h2>
-    <div class="grid grid-4" style="margin-top:24px">
-      <div><h3>🌍 Made for desi life</h3><p class="muted">Questions about weddings, cousins and chai, wherever you live. Every question also in Urdu.</p></div>
-      <div><h3>☯ Two lenses</h3><p class="muted">Modern type psychology plus Unani temperament: 64 profiles that explain both your mind and your body clock.</p></div>
-      <div><h3>💍 Practical</h3><p class="muted">Rishta tips, family dynamics, and careers with the route into each: degree, certification or freelancing.</p></div>
-      <div><h3>🔒 Private</h3><p class="muted">No sign-up needed. We never sell your data. Palm photos are read and discarded, never stored.</p></div>
+    <span class="eyebrow" style="color:var(--saffron)">Who it's for</span>
+    <h2>Everyone who wants to understand people</h2>
+    <div class="grid grid-3" style="margin-top:24px">
+      <a class="who" href="/career/"><h3>🎓 Students</h3><p class="muted">Pick subjects, studies and a first job that fit who you are, not who you're told to be.</p></a>
+      <a class="who" href="/teams/"><h3>💼 Professionals</h3><p class="muted">How you work, lead, decide and handle stress, and how to work with every other type.</p></a>
+      <a class="who" href="/schools/"><h3>🍎 Educators</h3><p class="muted">Understand each learner and guide them to the right path, with class summaries and parent pages.</p></a>
+      <a class="who" href="/types/"><h3>📣 Marketers</h3><p class="muted">Sixteen types and four elements: a shared language for the people you write, sell and design for.</p></a>
+      <a class="who" href="/milan/"><h3>💞 Couples and families</h3><p class="muted">See where you click and where you clash with a partner, parent, child or friend.</p></a>
+      <a class="who" href="/test/personality/"><h3>🌱 Every age</h3><p class="muted">From your first exam to your retirement plans: it's never too early or too late to know yourself.</p></a>
     </div>
   </div>
 </section>
@@ -123,9 +125,9 @@
     <span class="eyebrow">How it works</span>
     <h2>Free to start. Deep when you want it.</h2>
     <ol class="steps" style="max-width:640px;margin-top:20px">
-      <li><b>Take a free test.</b> No sign-up, 4 to 8 minutes, English or Urdu.</li>
-      <li><b>Get your free result.</b> Your type, your strengths and watch-outs, and a card to share on WhatsApp and Instagram.</li>
-      <li><b>Unlock the full report if you want more.</b> Love and rishta, family, career routes, your mizaj diet and a 30-day growth plan. One-time payment by card, Apple Pay or Google Pay (or Raast, JazzCash and Easypaisa in Pakistan).</li>
+      <li><b>Take a free test.</b> No sign-up, 4 to 8 minutes, on any phone.</li>
+      <li><b>Get your free card.</b> Your type, your element, your strengths and watch-outs, and a card to share.</li>
+      <li><b>Unlock the full report if you want more.</b> Relationships, family, work and career routes, your element's daily rhythm and a 30-day growth plan. One-time payment by card.</li>
     </ol>
     <div class="grid grid-3" style="margin-top:28px">
       {% for key in ["full", "couple", "bundle"] %}{% set p = products[key] %}

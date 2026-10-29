@@ -234,13 +234,12 @@ table.t th, table.t td { text-align: left; padding: 8px; border-bottom: 1px soli
 html.pk .cur-pkr { display: inline; }
 html.pk .cur-usd { display: none; }
 
-/* desi-everywhere additions */
-.desi{font:600 1rem var(--sans);opacity:.75;margin-top:2px;letter-spacing:.01em}
+/* currency, links, checkout */
 .linkish{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}
 .pay-list{display:flex;flex-direction:column;gap:16px}
 .stack.pay-list > * + *{margin-top:0}
-.pay-list .pay-intl{order:-1}
-html.pk .pay-list .pay-intl{order:5}
+.pay-list .pay-pk{order:2}
+html.pk .pay-list .pay-pk{order:-1}
 
 /* deck heroes: the card is the hero image */
 .deck-hero { padding: 28px 0 40px; }
@@ -276,3 +275,6 @@ html.pk .pay-list .pay-intl{order:5}
   .hero-deck .hd-l .dcard { transform: translateX(-80%) rotate(-9deg) translateY(30px) scale(.92); }
   .hero-deck .hd-r .dcard { transform: translateX(-20%) rotate(9deg) translateY(30px) scale(.92); }
 }
+
+.who { display: block; text-decoration: none; color: inherit; border-radius: 16px; padding: 4px 0; }
+.who:hover h3 { text-decoration: underline; }

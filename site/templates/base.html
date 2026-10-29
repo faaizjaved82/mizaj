@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% block title %}{{ title or "Mizaj · Discover your personality, temperament and match" }}{% endblock %}{% if title %} · Mizaj{% endif %}</title>
-<meta name="description" content="{{ description or 'Free personality and temperament test for desis everywhere: your type, your element, your match. Made by desis, for desis, in English and Urdu.' }}">
+<meta name="description" content="{{ description or 'Free personality and temperament test for everyone: your type, your element, your match and your path. Know yourself, understand others.' }}">
 {% if canonical %}<link rel="canonical" href="{{ site_url }}{{ canonical }}">{% endif %}
 {% if noindex %}<meta name="robots" content="noindex">{% endif %}
 <meta name="theme-color" content="#1B1530">
 <meta property="og:site_name" content="Mizaj">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ og_title or title or 'Mizaj · What is your mizaj?' }}">
-<meta property="og:description" content="{{ description or 'Free personality and temperament test for desis everywhere.' }}">
+<meta property="og:description" content="{{ description or 'Free personality and temperament test for everyone. Know yourself, understand others.' }}">
 <meta property="og:image" content="{{ og_image }}">
 {% if canonical %}<meta property="og:url" content="{{ site_url }}{{ canonical }}">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
@@ -32,7 +32,7 @@
 {% block header %}
 <header class="site-head">
   <div class="wrap">
-    <a class="logo" href="/" aria-label="Mizaj home"><img src="/img/logo.svg" alt="" width="28" height="28">mizaj <span class="ur">مزاج</span></a>
+    <a class="logo" href="/" aria-label="Mizaj home"><img src="/img/logo.svg" alt="" width="28" height="28">mizaj</a>
     <nav class="nav" aria-label="Main">
       <a href="/tests/">Tests</a>
       <a href="/types/">16 Types</a>
@@ -51,8 +51,8 @@
         <a href="/milan/">Mizaj Milan (couples)</a>
         <a href="/career/">Career Compass</a>
         <a href="/palm/">AI palm reading</a>
-        <a href="/burj/">Burj (zodiac)</a>
-        <a href="/adad/">Ilm-e-Adad (name number)</a>
+        <a href="/burj/">Zodiac × your type</a>
+        <a href="/adad/">Name number</a>
         <a href="/pricing/">Pricing</a>
         <a href="/schools/">For schools</a>
         <a href="/teams/">For teams</a>
@@ -69,8 +69,8 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a class="logo" href="/" style="color:#fff"><img src="/img/logo.svg" alt="" width="28" height="28">mizaj <span class="ur">مزاج</span></a>
-        <p style="margin-top:12px">The self-discovery platform for desis everywhere. Modern personality psychology meets the thousand-year-old temperament wisdom of Ibn Sina.</p>
+        <a class="logo" href="/" style="color:#fff"><img src="/img/logo.svg" alt="" width="28" height="28">mizaj</a>
+        <p style="margin-top:12px">Know yourself, understand others, make sense of the world. Modern personality psychology meets the oldest temperament wisdom, from Hippocrates to Ibn Sina.</p>
         {% if socials %}
         <div class="socials">
           {% for k, url in socials.items() %}<a href="{{ url }}" rel="noopener" target="_blank" aria-label="{{ k|capitalize }}">{% include "icons/" ~ k ~ ".svg" ignore missing %}</a>{% endfor %}
@@ -85,7 +85,7 @@
           <li><a href="/career/">Career Compass</a></li>
           <li><a href="/milan/">Mizaj Milan</a></li>
           <li><a href="/palm/">AI palm reading</a></li>
-          <li><a href="/burj/">Burj</a> · <a href="/adad/">Ilm-e-Adad</a></li>
+          <li><a href="/burj/">Zodiac</a> · <a href="/adad/">Name number</a></li>
         </ul>
       </div>
       <div>
@@ -110,7 +110,7 @@
         </ul>
       </div>
     </div>
-    <p class="disclaimer">Mizaj tests are for self-reflection and are not a clinical or medical assessment. Temperament guidance is traditional Unani wellness wisdom, not medical advice. Burj, Ilm-e-Adad and palm reading are for entertainment. Mizaj is independent and not affiliated with the Myers &amp; Briggs Foundation; MBTI® and Myers-Briggs® are its trademarks. © {{ year or 2026 }} Mizaj, Pakistan.</p>
+    <p class="disclaimer">Mizaj tests are for self-reflection and are not a clinical or medical assessment. Temperament guidance is traditional Unani wellness wisdom, not medical advice. Zodiac, name numbers and palm reading are for entertainment. Mizaj is independent and not affiliated with the Myers &amp; Briggs Foundation; MBTI® and Myers-Briggs® are its trademarks. © {{ year or 2026 }} Mizaj, Pakistan.</p>
   </div>
 </footer>
 {% endblock %}

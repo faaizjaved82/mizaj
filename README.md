@@ -1,7 +1,7 @@
 # Mizaj (mizaj.pk)
 
-The self-discovery platform for desis everywhere (UK, US, Canada, the Gulf, Pakistan and beyond): a free 16-type
-personality test, the Unani four-element temperament test (Air, Fire, Water, Earth), Mizaj Milan couple compatibility, Career Compass for students, and fun tools (AI palm reading, Burj, Ilm-e-Adad).
+A self-discovery platform for everyone who wants to understand themselves and others: a free 16-type personality
+test, the classical four-temperament test (Air, Fire, Water, Earth), Mizaj Milan compatibility, Career Compass for students, and fun tools (AI palm reading, Burj, Ilm-e-Adad).
 Free results, one-time paid reports, school and team programmes.
 
 | Folder | What's in it |

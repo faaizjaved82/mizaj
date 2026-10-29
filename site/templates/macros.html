@@ -25,16 +25,16 @@
 {% macro premium_personality(p, profile) %}
 {% set pr = p.premium %}
 <span class="eyebrow">Your Full Mizaj Report</span>
-<h2>{{ p.code }} · {{ p.name }}, in depth</h2>
+<h2>{{ p.code }} · {{ p.name_en }}, in depth</h2>
 <div class="report">
   {{ pr.deep_dive|paras }}
   <h2>✦ Your 6 superpowers</h2>
   {% for s in pr.superpowers %}<div class="card"><h3>{{ s.title }}</h3><p>{{ s.text }}</p></div>{% endfor %}
   <h2>◆ Your 5 blind spots</h2>
   {% for s in pr.blind_spots %}<div class="card"><h3>{{ s.title }}</h3><p>{{ s.text }}</p></div>{% endfor %}
-  <h2>💞 Love, marriage and rishta</h2>
+  <h2>💞 Love and relationships</h2>
   {{ pr.relationships.love_and_marriage|paras }}
-  <div class="card"><h3>Rishta-stage tips for you</h3><ul class="list-check">{% for t in pr.relationships.rishta_tips %}<li>{{ t }}</li>{% endfor %}</ul></div>
+  <div class="card"><h3>When things get serious: tips for you</h3><ul class="list-check">{% for t in pr.relationships.rishta_tips %}<li>{{ t }}</li>{% endfor %}</ul></div>
   <p><b>Types that tend to fit well:</b> {{ pr.relationships.best_matches|join(", ") }} · <b>Challenging but growth-inducing:</b> {{ pr.relationships.growth_matches|join(", ") }}</p>
   <h3>👨‍👩‍👧 Family</h3>{{ pr.relationships.family|paras }}
   <h3>🤝 Friendship</h3>{{ pr.relationships.friendship|paras }}
@@ -71,7 +71,7 @@
 {% set pr = mz.premium %}
 <div class="report" style="margin-top:40px">
   <span class="eyebrow">Your Mizaj guide</span>
-  <h2>{{ mz.emoji }} Living well as {{ mz.global_name }} ({{ mz.name }})</h2>
+  <h2>{{ mz.emoji }} Living well as {{ mz.global_name }}</h2>
   {{ pr.deep_dive|paras }}
   {% if mz.with_type %}<div class="notice">{{ mz.with_type }}</div>{% endif %}
   <div class="grid grid-2">
@@ -93,8 +93,8 @@
   <div class="scroll-x"><table class="t"><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th><th>Snack</th></tr>
   {% for d in pr.seven_day_menu %}<tr><td>{{ d.day }}</td><td>{{ d.breakfast }}</td><td>{{ d.lunch }}</td><td>{{ d.dinner }}</td><td>{{ d.snack }}</td></tr>{% endfor %}</table></div>
   <div class="card"><h3>Signs you're out of balance</h3><ul class="list-check list-warn">{% for s in pr.when_out_of_balance %}<li>{{ s }}</li>{% endfor %}</ul></div>
-  <h3>With other mizaj</h3>
-  {% set gn = {'damvi': 'Air', 'safravi': 'Fire', 'balghami': 'Water', 'saudavi': 'Earth'} %}{% for k, v in pr.with_other_mizaj.items() %}<p><b>{{ gn.get(k, k|capitalize) }} ({{ k|capitalize }}):</b> {{ v }}</p>{% endfor %}
+  <h3>With the other elements</h3>
+  {% set gn = {'damvi': 'Air', 'safravi': 'Fire', 'balghami': 'Water', 'saudavi': 'Earth'} %}{% for k, v in pr.with_other_mizaj.items() %}<p><b>{{ gn.get(k, k|capitalize) }}:</b> {{ v }}</p>{% endfor %}
   <p class="small muted">{{ mz.disclaimer }}</p>
 </div>
 {% endmacro %}

@@ -95,11 +95,11 @@ def card(code: str | None = None, key: str | None = None, bars: list[tuple[str, 
     if t:
         name = t["name_en"]
         sub = t["code"] + (f' · {el["name"]} · {m["nickname"]}' if m else "")
-        desi = t["name"] + (f' · {m["name"]}' if m else "")
+        line3 = " · ".join((t.get("keywords") or [])[:3])
     else:
         name = m["nickname"]
         sub = f'{el["name"]} · {m["quality"].split(" (")[-1].rstrip(")")}'
-        desi = f'{m["name"]} · {m["classical"]}'
+        line3 = f'{m["classical"]} temperament'
     rows = ""
     if bars:
         rows = '<div class="bars">' + "".join(
@@ -109,7 +109,7 @@ def card(code: str | None = None, key: str | None = None, bars: list[tuple[str, 
     return (f'<div class="dcard {cls}" style="--c1:{el["color"]};--c2:{el["deep"]}">'
             f'<div class="in"><div class="top"><span>{top_left}</span><span>{deck_no(code, key)}</span></div>'
             f'<div class="art">{window}{chip}</div>'
-            f'<div class="name">{e(name)}</div><div class="sub">{e(sub)}</div><div class="desi">{e(desi)}</div>'
+            f'<div class="name">{e(name)}</div><div class="sub">{e(sub)}</div><div class="kw">{e(line3)}</div>'
             f'{rows}{quote}</div></div>')
 
 
@@ -136,11 +136,11 @@ def card_data(code: str | None = None, key: str | None = None, dims: list[dict] 
         pip = FAM_COLOR[t["family"]]
         name = t["name_en"]
         sub = t["code"] + (f' · {el["name"]} · {m["nickname"]}' if m else "")
-        desi = t["name"] + (f' · {m["name"]}' if m else "")
+        line3 = " · ".join((t.get("keywords") or [])[:3])
     else:
         top, pip, name = "The Elements", el["color"], m["nickname"]
         sub = f'{el["name"]} · {m["quality"].split(" (")[-1].rstrip(")")}'
-        desi = f'{m["name"]} · {m["classical"]}'
+        line3 = f'{m["classical"]} temperament'
     hooks = []
     if key:
         hooks.append(["Best with: ", EL[BEST_WITH[key]]["name"]])
@@ -149,6 +149,6 @@ def card_data(code: str | None = None, key: str | None = None, dims: list[dict] 
     return {
         "no": deck_no(code, key), "code": code or "", "el": el["el"] if key else "", "aura_el": el["el"],
         "el_name": el["name"] if key else "", "c1": el["color"], "deep": el["deep"], "c2": EL[BEST_WITH[ak]]["color"],
-        "top": top, "pip": pip, "name": name, "sub": sub, "desi": desi, "bars": bars_from(dims) or [],
+        "top": top, "pip": pip, "name": name, "sub": sub, "line3": line3, "bars": bars_from(dims) or [],
         "line": (t or m)["share_line"], "hooks": hooks, "art": ("/" + art_path(code, key)) if art_path(code, key) else "",
     }

@@ -29,7 +29,13 @@
       if (navigator.sendBeacon) navigator.sendBeacon("/api/events", new Blob([body], { type: "application/json" }));
       else fetch("/api/events", { method: "POST", body, headers: { "Content-Type": "application/json" }, keepalive: true });
     } catch (e) { /* ignore */ }
-    try { if (window.fbq && ["test_complete", "checkout_view", "share_click"].includes(name)) window.fbq("trackCustom", name, props || {}); } catch (e) { /* ignore */ }
+    // Ad pixels: standard events so Meta and TikTok can optimise campaigns for finished tests and purchases.
+    const std = { test_complete: ["Lead", "CompleteRegistration"], checkout_view: ["InitiateCheckout", "InitiateCheckout"], purchase: ["Purchase", "CompletePayment"] }[name];
+    const pp = props || {};
+    try {
+      if (window.fbq) { if (std) window.fbq("track", std[0], pp); else if (name === "share_click" || name === "test_start") window.fbq("trackCustom", name, pp); }
+    } catch (e) { /* ignore */ }
+    try { if (window.ttq && std) window.ttq.track(std[1], pp); } catch (e) { /* ignore */ }
   }
 
   function toast(msg) {
@@ -386,8 +392,8 @@
     const cx0 = 110, cw = 860, pad = 18, ix = cx0 + pad + 30, iw = cw - 2 * (pad + 30);
     x.font = "italic 500 36px Fraunces"; const qLines = wrapText(x, "“" + (k.line || "") + "”", iw).slice(0, 3);
     let y = 392; const top = y;
-    const yTop = y + pad + 26 + 23, yArt = yTop + 22, artH = 440, yName = yArt + artH + 26 + 74, ySub = yName + 48, yDesi = ySub + 50;
-    const yBars = yDesi + 26, barsH = k.bars.length ? 26 + k.bars.length * 34 : 0, yRule = yBars + barsH + 30, yQuote = yRule + 22 + 36;
+    const yTop = y + pad + 26 + 23, yArt = yTop + 22, artH = 440, yName = yArt + artH + 26 + 74, ySub = yName + 48, yLine3 = ySub + 50;
+    const yBars = yLine3 + 26, barsH = k.bars.length ? 26 + k.bars.length * 34 : 0, yRule = yBars + barsH + 30, yQuote = yRule + 22 + 36;
     const bottom = yQuote + (qLines.length - 1) * 47 + 30 + pad;
     // card body
     x.save(); x.shadowColor = "rgba(0,0,0,.35)"; x.shadowBlur = 60; x.shadowOffsetY = 24; x.fillStyle = PAPER; roundRect(x, cx0, top, cw, bottom - top, 44); x.fill(); x.restore();
@@ -419,10 +425,10 @@
       x.fillStyle = PAPER; x.textAlign = "left"; x.fillText(k.el_name.toUpperCase(), ix + 80, yArt + artH - 20 - 20); spaced(x, 0);
     }
     x.restore();
-    // name, sub, desi
+    // name, sub, keywords
     x.fillStyle = INK; x.textAlign = "left"; x.font = "700 86px Fraunces"; x.fillText(k.name, ix, yName);
     x.fillStyle = MUTED; x.font = "700 23px 'JetBrains Mono'"; spaced(x, 2.8); x.fillText(k.sub.toUpperCase(), ix, ySub); spaced(x, 0);
-    x.font = "italic 600 33px Fraunces"; x.fillText(k.desi, ix, yDesi);
+    x.font = "italic 600 33px Fraunces"; x.fillText(k.line3, ix, yLine3);
     // bars
     k.bars.forEach((b, i) => {
       const by = yBars + 26 + i * 34;
@@ -464,7 +470,11 @@
     let status = root.dataset.status;
     const showState = () => $$("[data-state]", root).forEach((el) => el.classList.toggle("hidden", el.dataset.state !== (status === "created" ? "created" : status)));
     showState();
-    const done = () => { location.href = root.dataset.pair ? "/milan/" + root.dataset.pair : "/p/" + root.dataset.profile + "#report"; };
+    const paidOnce = () => {
+      try { if (localStorage.getItem("mz_paid_" + oid)) return; localStorage.setItem("mz_paid_" + oid, "1"); } catch (e) { /* private mode */ }
+      track("purchase", { value: Number(root.dataset.usd || 0), currency: "USD", content_ids: [root.dataset.product || ""], content_type: "product" });
+    };
+    const done = () => { paidOnce(); setTimeout(() => { location.href = root.dataset.pair ? "/milan/" + root.dataset.pair : "/p/" + root.dataset.profile + "#report"; }, 300); };
     if (status === "paid") setTimeout(done, 1200);
     let polling = null;
     const poll = () => {

@@ -30,8 +30,8 @@ def main() -> None:
         m = content.mizaj_summary(k)
         parts.append(og(f"mizaj/{k}.jpg", aura_style(k), f"{m['quality'].split(' (')[-1].rstrip(')')} · Unani temperament",
                         f"{m['global_name']} · {m['nickname']}", m["tagline"], card(None, k, scale=5.4)))
-    parts.append(og("default.jpg", aura_style("balghami", "damvi"), "Free · English & Urdu", "What's your mizaj?",
-                    "Your type, your element, your match. The personality test made for desis everywhere.",
+    parts.append(og("default.jpg", aura_style("balghami", "damvi"), "Free · 8 minutes · any phone", "What's your mizaj?",
+                    "Your type, your element, your match. The personality test for everyone who wants to understand people.",
                     card("INFJ", "balghami", scale=5.4)))
     page = ROOT / "tools" / ".og.html"
     page.write_text(f'<!doctype html><meta charset="utf-8">{FONTS}<link rel="stylesheet" href="slides.css"><body>{"".join(parts)}</body>', encoding="utf-8")

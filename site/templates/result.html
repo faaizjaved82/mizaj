@@ -106,12 +106,12 @@
   <div class="wrap narrow stack">
     {% if mz %}
       <span class="eyebrow">Your element</span>
-      <h2>{{ mz.emoji }} {{ mz.global_name }} <span class="muted" style="font-size:1.2rem">· {{ mz.name }}</span></h2>
+      <h2>{{ mz.emoji }} {{ mz.global_name }} <span class="muted" style="font-size:1.2rem">· {{ mz.nickname }}</span></h2>
       <p class="muted"><b>{{ mz.quality }}</b> · {{ mz.classical }} · {{ mz.element }} · {{ mz.season }}{% if mz.scores.balanced %} · close to <b>Mu'tadil</b> (balanced){% endif %}</p>
       <div class="card bars">
-        {{ m.axisbar("Sard (cool)", "Garam (warm)", mz.scores.heat) }}
+        {{ m.axisbar("Cool", "Warm", mz.scores.heat) }}
         {{ m.axisbar("Khushk (dry)", "Tar (moist)", mz.scores.moisture) }}
-        {% if mz.secondary %}<p class="small muted" style="margin:0">Secondary tendency: <b>{{ mz.secondary.global_name }}</b> ({{ mz.secondary.name }}, {{ mz.secondary.nickname }})</p>{% endif %}
+        {% if mz.secondary %}<p class="small muted" style="margin:0">Secondary tendency: <b>{{ mz.secondary.global_name }}</b> ({{ mz.secondary.nickname }})</p>{% endif %}
       </div>
       {{ mz.free.summary|paras }}
       <div class="grid grid-2">
@@ -124,7 +124,7 @@
       <div class="card center stack">
         <span class="eyebrow">Next: 4 minutes</span>
         <h2>Air, Fire, Water or Earth? Find your element</h2>
-        <p class="muted">Your personality type explains your mind. Your Unani mizaj explains your energy, moods and which foods suit you. Together they make your Mizaj profile.</p>
+        <p class="muted">Your personality type explains your mind. Your element explains your energy, moods and the foods that traditionally suit you. Together they make your Mizaj card.</p>
         <a class="btn btn-pom" href="/test/mizaj/" data-cta="result-mizaj">Take the Mizaj test →</a>
       </div>
     {% endif %}
@@ -155,10 +155,10 @@
     <span class="eyebrow">Mizaj Milan 💞</span>
     <h2>Test your match</h2>
     {% if pers %}
-    <p class="muted">Send a link to your spouse, rishta, sibling or best friend. When they finish the free test you'll both see your match score.</p>
+    <p class="muted">Send a link to your partner, parent, sibling, colleague or best friend. When they finish the free test you'll both see your match score.</p>
     <div class="card">
       <div class="field"><label for="relation">They are my…</label>
-        <select id="relation"><option value="rishta">Rishta / fiancé(e)</option><option value="spouse">Spouse</option><option value="friend">Best friend</option><option value="sibling">Sibling</option><option value="colleague">Colleague</option></select></div>
+        <select id="relation"><option value="rishta">Partner / fiancé(e)</option><option value="spouse">Spouse</option><option value="friend">Best friend</option><option value="sibling">Sibling</option><option value="colleague">Colleague</option></select></div>
       <button class="btn btn-pom btn-block" data-milan-create>Create my invite link</button>
       <div class="hidden stack" data-milan-out style="margin-top:14px">
         <div class="copy"><span data-milan-link></span><button class="btn btn-sm" data-copy-from="[data-milan-link]">Copy</button></div>
@@ -193,7 +193,7 @@
         <div class="blur card" aria-hidden="true">
           <h3>Your inner world</h3><p>What drives you underneath, the fear you rarely say out loud, and why people sometimes misread you…</p>
           <h3>6 superpowers · 5 blind spots</h3><p>With real examples from family, work and friendships…</p>
-          <h3>Love, marriage and rishta</h3><p>What you need from a spouse, how you show love, five rishta-stage tips…</p>
+          <h3>Love and relationships</h3><p>What you need from a partner, how you show love, five tips for when things get serious…</p>
           <h3>10 careers that fit</h3><p>With the route into each: degree, certification or freelancing…</p>
           <h3>Your mizaj diet and 7-day menu</h3><p>Foods to favour and limit, daily routine, seasons and Ramadan…</p>
         </div>
@@ -204,7 +204,7 @@
             <div><span class="price-old">{{ money(products.full, "list_price") }}</span><b style="font:700 1.6rem var(--serif)">{{ money(products.full) }}</b> <span class="small muted">one-time</span></div>
             <button class="btn btn-pom btn-block" data-buy="full">Unlock my full report</button>
             <button class="btn btn-ghost btn-block" data-buy="bundle">Get everything: {{ money(products.bundle) }} (save 70%)</button>
-            <p class="small muted">Cards worldwide · Raast, JazzCash, Easypaisa in Pakistan. 7-day refund promise.</p>
+            <p class="small muted">One-time payment by card · 7-day refund promise.</p>
           </div>
         </div>
       </div>

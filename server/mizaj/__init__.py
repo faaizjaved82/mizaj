@@ -1,1 +1,1 @@
-"""Mizaj: the self-discovery platform for desis everywhere (mizaj.pk)."""
+"""Mizaj: a self-discovery platform for everyone (mizaj.pk)."""

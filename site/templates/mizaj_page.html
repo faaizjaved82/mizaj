@@ -13,7 +13,7 @@
   </div>
 </section>
 <section class="section"><div class="wrap narrow stack">
-  <p class="muted"><b>{{ m.name }}</b> in Unani tradition · {{ m.classical }} · humour: {{ m.humour }} · season: {{ m.season }}</p>
+  <p class="muted"><b>{{ m.classical }}</b> in the Greek tradition · <b>{{ m.name }}</b> in Ibn Sina's Unani medicine · humour: {{ m.humour }} · season: {{ m.season }}</p>
   {{ m.free.summary|paras }}
   <div class="grid grid-2">
     <div class="card"><h3>Traits</h3><ul class="list-check">{% for s in m.free.traits %}<li>{{ s }}</li>{% endfor %}</ul></div>

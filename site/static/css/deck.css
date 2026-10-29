@@ -30,7 +30,7 @@
 .dcard .emb-chip { width: 1.4em; height: 1.4em; }
 .dcard .name { font: 700 8.6em/.98 "Fraunces", serif; letter-spacing: -.015em; }
 .dcard .sub { margin-top: 1.1em; font: 700 2.3em "JetBrains Mono", monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--d-muted); }
-.dcard .desi { margin-top: .5em; font: italic 600 3.3em "Fraunces", serif; color: var(--d-muted); }
+.dcard .kw { margin-top: .5em; font: italic 600 3.3em "Fraunces", serif; color: var(--d-muted); }
 .dcard .bars { margin-top: 2.6em; display: grid; gap: 1.3em; }
 .dcard .row { display: grid; grid-template-columns: 15em 1fr 5em; align-items: center; gap: 1.4em; font: 700 2.1em "JetBrains Mono", monospace; letter-spacing: .08em; text-transform: uppercase; }
 .dcard .row b { height: .7em; border-radius: 1em; background: var(--d-line); position: relative; overflow: hidden; }

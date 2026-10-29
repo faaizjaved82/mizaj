@@ -7,7 +7,7 @@
     {% for m in mizaj %}
     <a class="mz-tile mz-{{ m.key }}" href="/mizaj/{{ m.key }}/" style="min-height:200px">
       <b>{{ m.emoji }} {{ m.global_name }} · {{ m.nickname }}</b>
-      <span>{{ m.name }} · {{ m.quality }} · {{ m.classical }}</span><span class="small" style="margin-top:6px">{{ m.tagline }}</span>
+      <span>{{ m.nickname }} · {{ m.classical }} · {{ m.quality.split(' (')[-1].rstrip(')') }}</span><span class="small" style="margin-top:6px">{{ m.tagline }}</span>
     </a>
     {% endfor %}
   </div>
