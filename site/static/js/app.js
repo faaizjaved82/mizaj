@@ -565,7 +565,7 @@
         out.innerHTML = `<div class="card"><span class="eyebrow">Your sign · for fun</span><h2>${esc(s.symbol)} ${esc(s.en)}</h2>
           <p class="muted">${esc(s.element)} · ${esc(s.vibe)}</p><p>${esc(s.personality)}</p>
           <p><b>With family and friends:</b> ${esc(s.in_a_family)}</p><p class="notice">😂 ${esc(s.meme)}</p></div>` +
-          (d.mashup ? `<div class="card"><span class="eyebrow">${esc(s.en)} × ${esc(d.type.code)} ${esc(d.type.name)}</span><h3>${esc(d.mashup)}</h3></div>` :
+          (d.mashup ? `<div class="card"><span class="eyebrow">${esc(s.en)} × ${esc(d.type.code)} ${esc(d.type.name_en)}</span><h3>${esc(d.mashup)}</h3></div>` :
             `<div class="card"><p>Know your personality type? <a href="/test/personality/">Take the free test</a> and come back for your mash-up.</p></div>`) +
           (bn && bn.meaning ? `<div class="card"><span class="eyebrow">Birth number</span><h3>${esc(bn.number)} · ${esc(bn.meaning.title)}</h3><p>${esc(bn.meaning.personality)}</p></div>` : "") +
           `<button class="btn btn-wa" id="burj-share">Share</button>`;

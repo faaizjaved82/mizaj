@@ -421,8 +421,8 @@ def result_page(pid: str, request: Request):
     mz = view["results"].get("mizaj")
     og = f"{settings.site_url}/og/types/{pers['code'].lower()}.jpg" if pers else (
         f"{settings.site_url}/og/mizaj/{mz['key']}.jpg" if mz else None)
-    title = (f"{prof['name'] + ' is' if prof['name'] else 'I am'} {pers['code']}: {pers['name']}" if pers
-             else f"My mizaj is {mz['name']}")
+    title = (f"{prof['name'] + ' is' if prof['name'] else 'I am'} {pers['code']}: {pers['name_en']}" if pers
+             else f"My element is {mz['global_name']}")
     db.log_event("result_view", pid, path=f"/p/{pid}", props={"owner": owner})
     pairs = [dict(r) for r in db.q("SELECT * FROM pairs WHERE a_profile = ? OR b_profile = ? ORDER BY created_at DESC",
                                     pid, pid)] if owner else []

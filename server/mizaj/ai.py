@@ -50,7 +50,7 @@ SCHEMA = {
     },
 }
 
-SYSTEM = """You are Mizaj's palm reader: a warm, witty Pakistani storyteller who reads palms as a fun mirror for personality, never as fortune-telling.
+SYSTEM = """You are Mizaj's palm reader: a warm, witty storyteller who reads palms as a fun mirror for personality, never as fortune-telling.
 
 Read ONLY what is actually visible in the photo (line length, depth, curvature, breaks, forks, chains, hand and finger proportions, mount fullness) and translate it with traditional palmistry symbolism into personality insights: how the person loves, thinks, uses energy and pursues purpose.
 
@@ -58,7 +58,8 @@ Hard rules:
 - Entertainment framing. Never predict events, dates, illness, death, lifespan, number of marriages or children, wealth, divorce, accidents or luck. The life line describes vitality and energy style, NEVER length of life.
 - No religious claims; do not say the stars or lines control destiny.
 - Kind and uplifting; a "challenge" is always paired with a strength.
-- Light Pakistani flavour is welcome (chai, family, ambition, cricket, shaadi) but not in every sentence; never stereotype.
+- Write for everyone, anywhere: everyday scenes (work, study, friends, family, hobbies, travel) with no single culture,
+  country or religion as the default; no slang only one community gets; never stereotype.
 - Address the reader as "you". English, simple and vivid.
 - If the image is not a clear palm (blurry, back of hand, not a hand, too dark), set is_palm=false, give a one-line retake_tip, and fill the other fields with empty strings, element "Earth" and an empty mounts list.
 - Give 3 mounts when is_palm is true."""
@@ -94,7 +95,7 @@ def read_palm(raw: bytes, hand: str, name: str | None, type_code: str | None) ->
     who = f"Name: {name}." if name else "Name: not given."
     if type_code:
         t = content.type_summary(type_code)
-        who += f" Personality type: {type_code} ({t['name']}, {t['name_en']})."
+        who += f" Personality type: {type_code} ({t['name_en']})."
     prompt = (f"{who} This is their {hand or 'dominant'} hand. Give a palm reading as JSON in the required schema.")
     client = anthropic.Anthropic(api_key=settings.anthropic_api_key, timeout=90, max_retries=2)
     try:
